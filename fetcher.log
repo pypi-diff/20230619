@@ -347,3 +347,60 @@
 [2023-06-19 00:37:22] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.99.0.tar.gz]
 [2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
 [2023-06-19 00:37:22] INFO root fetch - main [MainThread]: Store serial: [18553226]
+[2023-06-19 00:42:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553226]
+[2023-06-19 00:42:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-adapters
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-pygo
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-simple-forms
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2023-06-19 00:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamol
+[2023-06-19 00:42:31] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [aio-pygo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [django-simple-forms]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [torch-adapters]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.0.0] Old Version: [5.3.0]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [aio-pygo]: Downloading https://files.pythonhosted.org/packages/e3/de/484cbc9ffd3d790dc81529c0a74e33620f51e2a357ff5db1a3d07414c234/aio-pygo-1.0.1.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [datamol]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-19 00:42:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/9b/1d/3bb2c9eb8d0c3373e48bf3c63cbd2bf8cc72f81ce00b13f4ec94cb7ad0f3/FuncsForSPO-5.3.0.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [torch-adapters]: Downloading https://files.pythonhosted.org/packages/68/9f/b1c69a66dad9bb2655a0329a124a387a0ce005bca693768bcb96a8712368/torch_adapters-0.0.5.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/c9/49/a044f4fab0e620b9e1116e6b91abff270d35076789398136410bc1cb1661/django_simple_forms-0.1.2.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/d6/49/11f2e02a4f5ea2927d9b332aa97db4521464198dbfefa70ef5379d4731f3/datamol-0.9.7.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [aio-pygo]: Downloading https://files.pythonhosted.org/packages/a7/7d/97258c9c9f77e357a43099a373d197703a1c22015c607aa068b5be1f94d6/aio-pygo-1.0.2.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [aio-pygo]: executing diffoscope
+[2023-06-19 00:42:31] INFO root fetch - processPackages [aio-pygo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-pygo-1.0.1.tar.gz tmp/aio-pygo-1.0.2.tar.gz --markdown 20230619/a/aio-pygo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 00:42:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/81/e3/26e1f24cc7ce6b60772dc8a29ccf51a131f1d2d8b5560878a288e392260f/FuncsForSPO-6.0.0.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [torch-adapters]: Downloading https://files.pythonhosted.org/packages/4b/12/9aefae90f817d3d9decd71e1dca6860a5c037016352f822fa95ab91a47ff/torch_adapters-0.0.6.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/0a/af/81285206ae8b63d8eba51e5ff83f309e128d64dd35c9ae17fd2aeddddc7c/django_simple_forms-0.1.3.tar.gz
+[2023-06-19 00:42:31] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-19 00:42:31] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230619/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 00:42:31] INFO root fetch - processPackages [torch-adapters]: executing diffoscope
+[2023-06-19 00:42:31] INFO root fetch - processPackages [torch-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_adapters-0.0.5.tar.gz tmp/torch_adapters-0.0.6.tar.gz --markdown 20230619/t/torch-adapters/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 00:42:31] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-19 00:42:31] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.3.0.tar.gz tmp/FuncsForSPO-6.0.0.tar.gz --markdown 20230619/F/FuncsForSPO/5.3.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-19 00:42:31] INFO root fetch - processPackages [django-simple-forms]: executing diffoscope
+[2023-06-19 00:42:31] INFO root fetch - processPackages [django-simple-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_forms-0.1.2.tar.gz tmp/django_simple_forms-0.1.3.tar.gz --markdown 20230619/d/django-simple-forms/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 00:42:32] INFO root fetch - processPackages [aio-pygo]: Remove: archive file [/home/abi/fetcher/tmp/aio-pygo-1.0.1.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - processPackages [aio-pygo]: Remove: archive file [/home/abi/fetcher/tmp/aio-pygo-1.0.2.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - main [MainThread]: End processing [aio-pygo]: success
+[2023-06-19 00:42:32] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/59/b3/831830ab7991bd95ed22c7f61ee82c0eab6da7e47ec70237cb4ea95ed842/datamol-0.9.8.tar.gz
+[2023-06-19 00:42:32] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-19 00:42:32] INFO root fetch - processPackages [torch-adapters]: Remove: archive file [/home/abi/fetcher/tmp/torch_adapters-0.0.5.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - processPackages [torch-adapters]: Remove: archive file [/home/abi/fetcher/tmp/torch_adapters-0.0.6.tar.gz]
+[2023-06-19 00:42:32] INFO root fetch - main [MainThread]: End processing [torch-adapters]: success
+[2023-06-19 00:42:33] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-5.3.0.tar.gz]
+[2023-06-19 00:42:33] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.0.0.tar.gz]
+[2023-06-19 00:42:33] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-19 00:42:33] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.2.tar.gz]
+[2023-06-19 00:42:33] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.3.tar.gz]
+[2023-06-19 00:42:33] INFO root fetch - main [MainThread]: End processing [django-simple-forms]: success
+[2023-06-19 00:42:34] INFO root fetch - processPackages [datamol]: executing diffoscope
+[2023-06-19 00:42:34] INFO root fetch - processPackages [datamol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamol-0.9.7.tar.gz tmp/datamol-0.9.8.tar.gz --markdown 20230619/d/datamol/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-19 00:42:37] INFO root fetch - processPackages [datamol]: Remove: archive file [/home/abi/fetcher/tmp/datamol-0.9.7.tar.gz]
+[2023-06-19 00:42:37] INFO root fetch - processPackages [datamol]: Remove: archive file [/home/abi/fetcher/tmp/datamol-0.9.8.tar.gz]
+[2023-06-19 00:42:37] INFO root fetch - main [MainThread]: End processing [datamol]: success
+[2023-06-19 00:42:37] INFO root fetch - main [MainThread]: Store serial: [18553240]
