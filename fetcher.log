@@ -726,3 +726,42 @@
 [2023-06-19 01:24:10] INFO root fetch - processPackages [adafruit-circuitpython-bitmapsaver]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-bitmapsaver-1.2.9.tar.gz]
 [2023-06-19 01:24:10] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bitmapsaver]: success
 [2023-06-19 01:24:10] INFO root fetch - main [MainThread]: Store serial: [18553343]
+[2023-06-19 01:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553343]
+[2023-06-19 01:29:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 01:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: absplit
+[2023-06-19 01:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: networkcalculator
+[2023-06-19 01:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sutools
+[2023-06-19 01:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-requests
+[2023-06-19 01:29:19] INFO root fetch - processPackages [sutools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-19 01:29:19] INFO root fetch - processPackages [absplit]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-19 01:29:19] INFO root fetch - processPackages [networkcalculator]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-19 01:29:19] INFO root fetch - processPackages [adafruit-circuitpython-requests]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-19 01:29:19] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/f2/99/66e14dd21c108e89da68dc4b84b403189caf9aef3b5941004f8abd94d62e/absplit-1.3.0.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/cc/ca/e2e5656a535f1d097a96e86d2e430fe4d83ae9941c7819d6d7e39e5ee053/networkcalculator-1.3.2.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/a9/bb/c5095f7d64ab7edd03cedb12e49da745967114e876ea13413b0eb5442d6e/sutools-0.2.2.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/7a/75/13bbc3c50d643889515b78c9cfc95eb47995df7538459e99fcaad3e95009/adafruit-circuitpython-requests-1.9.8.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/85/ce/1bbbff725c275f069591d757231b82bbe3cc314e13e0b7bf05afd8dcf4db/networkcalculator-1.3.3.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/b0/f0/910c108fb20a572e6f4fd67837873e5831059077d81febf3617abcce6ce6/absplit-1.3.1.tar.gz
+[2023-06-19 01:29:19] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-19 01:29:19] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-1.3.2.tar.gz tmp/networkcalculator-1.3.3.tar.gz --markdown 20230619/n/networkcalculator/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-19 01:29:19] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/df/a3/1312be4b5f9741ef532aa9134a7036815f5ce5dffd2446e3ed3ce8668bad/sutools-0.2.3.tar.gz
+[2023-06-19 01:29:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/a0/0b/413eb4417ae990eb0822830f84f4060bd05b75f51e0ea489915839cceb0e/adafruit-circuitpython-requests-1.9.9.tar.gz
+[2023-06-19 01:29:20] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-06-19 01:29:20] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-1.3.0.tar.gz tmp/absplit-1.3.1.tar.gz --markdown 20230619/a/absplit/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-19 01:29:20] INFO root fetch - processPackages [sutools]: executing diffoscope
+[2023-06-19 01:29:20] INFO root fetch - processPackages [sutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sutools-0.2.2.tar.gz tmp/sutools-0.2.3.tar.gz --markdown 20230619/s/sutools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-19 01:29:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: executing diffoscope
+[2023-06-19 01:29:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-requests-1.9.8.tar.gz tmp/adafruit-circuitpython-requests-1.9.9.tar.gz --markdown 20230619/a/adafruit-circuitpython-requests/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-19 01:29:21] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.3.2.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.3.3.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-19 01:29:21] INFO root fetch - processPackages [sutools]: Remove: archive file [/home/abi/fetcher/tmp/sutools-0.2.2.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - processPackages [sutools]: Remove: archive file [/home/abi/fetcher/tmp/sutools-0.2.3.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - main [MainThread]: End processing [sutools]: success
+[2023-06-19 01:29:21] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.3.0.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.3.1.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-06-19 01:29:21] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-1.9.8.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-1.9.9.tar.gz]
+[2023-06-19 01:29:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
+[2023-06-19 01:29:21] INFO root fetch - main [MainThread]: Store serial: [18553355]
