@@ -837,3 +837,27 @@
 [2023-06-19 01:39:43] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
 [2023-06-19 01:39:43] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
 [2023-06-19 01:39:43] INFO root fetch - main [MainThread]: Store serial: [18553381]
+[2023-06-19 01:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553381]
+[2023-06-19 01:44:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-19 01:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykinetic-rperezsoto
+[2023-06-19 01:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-06-19 01:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect-sns
+[2023-06-19 01:44:52] INFO root fetch - processPackages [pandasai]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-19 01:44:52] ERROR root fetch - processPackages [pykinetic-rperezsoto]: Unable to get metadata: No such project 'pykinetic-rperezsoto'
+[2023-06-19 01:44:52] INFO root fetch - main [MainThread]: End processing [pykinetic-rperezsoto] error
+[2023-06-19 01:44:52] INFO root fetch - processPackages [prefect-sns]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-19 01:44:52] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/3c/45/5e8e392ab78f2f88cfdfc33b740a84818590c93e306cd51599853b8c663f/prefect-sns-0.2.0.tar.gz
+[2023-06-19 01:44:52] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/75/ac/4ea57d121165a27264d34ad7124f07b7cc8349ad3b04919373d11b527750/pandasai-0.5.5.tar.gz
+[2023-06-19 01:44:52] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/79/e2/58f63ed61b52ab0b01e0d32c7a89e8e3c51f04467c6fd851a94388acc717/prefect-sns-0.3.0.tar.gz
+[2023-06-19 01:44:52] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/ea/2b/f0b0cd07feba1732246ce94ace9e6290b30056af420f99cca66fd7fc2cde/pandasai-0.6.0.tar.gz
+[2023-06-19 01:44:52] INFO root fetch - processPackages [prefect-sns]: executing diffoscope
+[2023-06-19 01:44:52] INFO root fetch - processPackages [prefect-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-sns-0.2.0.tar.gz tmp/prefect-sns-0.3.0.tar.gz --markdown 20230619/p/prefect-sns/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 01:44:52] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-19 01:44:52] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.5.5.tar.gz tmp/pandasai-0.6.0.tar.gz --markdown 20230619/p/pandasai/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-19 01:44:53] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.2.0.tar.gz]
+[2023-06-19 01:44:53] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.3.0.tar.gz]
+[2023-06-19 01:44:53] INFO root fetch - main [MainThread]: End processing [prefect-sns]: success
+[2023-06-19 01:44:53] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.5.tar.gz]
+[2023-06-19 01:44:53] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.0.tar.gz]
+[2023-06-19 01:44:53] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-19 01:44:53] INFO root fetch - main [MainThread]: Store serial: [18553395]
