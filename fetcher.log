@@ -118,3 +118,78 @@
 [2023-06-19 00:16:31] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-06-19 00:16:31] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-06-19 00:16:31] INFO root fetch - main [MainThread]: Store serial: [18553154]
+[2023-06-19 00:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553154]
+[2023-06-19 00:21:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autofit
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogalaxy
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoarray
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocti
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoconf
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autolens
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bookio-fetchfox
+[2023-06-19 00:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: npf-web-extension
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autogalaxy]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [npf-web-extension]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autocti]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autoarray]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autofit]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autoconf]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-19 00:21:39] INFO root fetch - processPackages [autolens]: New version: [2023.6.18.3] Old Version: [2023.6.12.5]
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/08/bc/aba6cbcb89dad52eb3845cd6a15f2589ca31e2e9a5d4686173a4b0cc4941/autogalaxy-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/4b/57/70b18311d4d7dfea9e6932388c4815a91299abbcd620725b3f15afc47688/autocti-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/aa/64/ed7bd00bba9a217a0b0afc4402cb1a8e485442efab9157ec9e4081cd9ab0/autoarray-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [npf-web-extension]: Downloading https://files.pythonhosted.org/packages/49/63/984709638bda99af77983ba34be36d4bd8f20c5f11fd0442a79b0f95b09a/npf-web-extension-0.6.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/dd/98/6509b3dd61fa9fbe2b2f7b74deeaf4d160d08fefdd4ebd3e0df176f39ed0/autofit-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/1f/b4/74415beb152fdd0b2071afc3ed3a33654c165f02d91fe8897d3fd5bd4600/autoconf-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/bd/65/b4ebe28cb67bca80d1adfce5570d86c2b3e3ef023d258b3f7000a0985981/autolens-2023.6.12.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/b6/7d/eb12d80d52436763e01680b2d1346ca6b97e92109e7f8b0456fafe2ebbd4/autocti-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/5d/87/b9ec4d7dbe844e4b969d9e735284e38c220a7d9be890c9252c52a1777392/autofit-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/c4/19/a5e75c2cbe598457c152e345b76f784e5d531e5cb530bde9f872885a7502/autoconf-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/76/53/d80a6568f50d5bb05edbebcadb4b261beb65482e294f7c3cc54cacc13c41/autoarray-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.6.12.5.tar.gz tmp/autocti-2023.6.18.3.tar.gz --markdown 20230619/a/autocti/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/21/a6/4ab8a2036ad00079853164caad8adf03de0c65e3faefcc061bb365effe25/autolens-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.6.12.5.tar.gz tmp/autofit-2023.6.18.3.tar.gz --markdown 20230619/a/autofit/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.6.12.5.tar.gz tmp/autoarray-2023.6.18.3.tar.gz --markdown 20230619/a/autoarray/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/44/a7/9f03091fc6576e50a71036cb614476a8d3bf6b1d4fd3fab3cc6f6f887715/autogalaxy-2023.6.18.3.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [npf-web-extension]: Downloading https://files.pythonhosted.org/packages/29/88/c6da877f3639e91a3afbca21ce7e7d5681de7d9431c79dce14d5e53f19f8/npf-web-extension-0.6.4.tar.gz
+[2023-06-19 00:21:40] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230619/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.6.12.5.tar.gz tmp/autoconf-2023.6.18.3.tar.gz --markdown 20230619/a/autoconf/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.6.12.5.tar.gz tmp/autogalaxy-2023.6.18.3.tar.gz --markdown 20230619/a/autogalaxy/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autolens]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [autolens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolens-2023.6.12.5.tar.gz tmp/autolens-2023.6.18.3.tar.gz --markdown 20230619/a/autolens/2023.6.12.5-2023.6.18.3/diff.md --exclude *.pyd
+[2023-06-19 00:21:40] INFO root fetch - processPackages [npf-web-extension]: executing diffoscope
+[2023-06-19 00:21:40] INFO root fetch - processPackages [npf-web-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-web-extension-0.6.3.tar.gz tmp/npf-web-extension-0.6.4.tar.gz --markdown 20230619/n/npf-web-extension/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - main [MainThread]: End processing [autolens]: success
+[2023-06-19 00:21:42] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-06-19 00:21:42] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-19 00:21:43] INFO root fetch - processPackages [npf-web-extension]: Remove: archive file [/home/abi/fetcher/tmp/npf-web-extension-0.6.3.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - processPackages [npf-web-extension]: Remove: archive file [/home/abi/fetcher/tmp/npf-web-extension-0.6.4.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - main [MainThread]: End processing [npf-web-extension]: success
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.12.5.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.18.3.tar.gz]
+[2023-06-19 00:21:43] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-06-19 00:21:43] INFO root fetch - main [MainThread]: Store serial: [18553178]
