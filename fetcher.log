@@ -765,3 +765,33 @@
 [2023-06-19 01:29:21] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-1.9.9.tar.gz]
 [2023-06-19 01:29:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
 [2023-06-19 01:29:21] INFO root fetch - main [MainThread]: Store serial: [18553355]
+[2023-06-19 01:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553355]
+[2023-06-19 01:34:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-19 01:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bookio-fetchfox
+[2023-06-19 01:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitbetter
+[2023-06-19 01:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats
+[2023-06-19 01:34:31] INFO root fetch - processPackages [fileformats]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-19 01:34:31] INFO root fetch - processPackages [gitbetter]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-19 01:34:31] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-19 01:34:31] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/74/dc/e19618db688ff58e2bdd66ad771385c660e1a10102c7b98f7657ffdfbc3e/fileformats-0.6.3.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/d1/c6/a530d2d7ce8c3573f4628db099f85eaef13c327a7370a6e12761072ed0d0/gitbetter-2.0.0.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/89/b3/9f3c7a8a95d6b41ff80f8601d6d556bd63d331b5d46b34b880421cc7c1d4/fileformats-0.6.4.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/a3/ea/12feeb94dee102741cf2be299da2de473a25df15fd8b89e8cd02a4c5d3d1/gitbetter-2.0.1.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-06-19 01:34:31] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-06-19 01:34:31] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.3.tar.gz tmp/fileformats-0.6.4.tar.gz --markdown 20230619/f/fileformats/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-19 01:34:31] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-06-19 01:34:31] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-2.0.0.tar.gz tmp/gitbetter-2.0.1.tar.gz --markdown 20230619/g/gitbetter/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 01:34:31] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-19 01:34:31] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230619/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-19 01:34:32] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-06-19 01:34:32] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-06-19 01:34:32] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-19 01:34:32] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.3.tar.gz]
+[2023-06-19 01:34:32] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.4.tar.gz]
+[2023-06-19 01:34:32] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-06-19 01:34:33] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.0.0.tar.gz]
+[2023-06-19 01:34:33] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.0.1.tar.gz]
+[2023-06-19 01:34:33] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-06-19 01:34:33] INFO root fetch - main [MainThread]: Store serial: [18553365]
