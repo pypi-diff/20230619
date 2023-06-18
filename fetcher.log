@@ -193,3 +193,51 @@
 [2023-06-19 00:21:43] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.18.3.tar.gz]
 [2023-06-19 00:21:43] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
 [2023-06-19 00:21:43] INFO root fetch - main [MainThread]: Store serial: [18553178]
+[2023-06-19 00:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553178]
+[2023-06-19 00:26:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 00:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pp-project-pkg
+[2023-06-19 00:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cropnet
+[2023-06-19 00:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc
+[2023-06-19 00:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formal-sdk
+[2023-06-19 00:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyparsing
+[2023-06-19 00:26:52] INFO root fetch - processPackages [formal-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 00:26:52] INFO root fetch - processPackages [cropnet]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 00:26:52] INFO root fetch - processPackages [dvc]: New version: [3.1.0] Old Version: [3.0.0a2]
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306182221] Old Version: [1.0.202306182156]
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pyparsing]: New version: [3.1.0b2] Old Version: [3.1.0b1]
+[2023-06-19 00:26:53] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/a0/3d/4036dc9d18acfcee5b5ae8901599b81c22493d1c2075880e5de1ffa2bfdc/cropnet-0.1.4.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/0a/d0/a1131e9c1d1435114907c7fa4dfa9c2624f415fd9a9a414239f5d5631547/pp_project_pkg-1.0.202306182156-py3-none-any.whl
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pyparsing]: Downloading https://files.pythonhosted.org/packages/f5/ed/2f34bfa9d3fef997556b5338552a07c9f6a60b64bb4dfdfff0bc992084a2/pyparsing-3.1.0b1.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/af/69/cf589823b5bc2aa2b2f064221c0937173e4a24a7f358ea2d4ae286265aea/dvc-3.0.0a2.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/bf/03/598276b6f11787c1e1950dde18e70c8ce44fff13ccef18b0c1d3b034f873/formal-sdk-0.8.0.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/af/a1/3a375bc5f23ee8207c00dc4e508f47061eed752f4adb08147682a97ecf39/cropnet-0.1.5.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/c9/b8/5045787e4c23e954bc7e5d54b3a482f15248f1059ef3844f76ea70a37714/pp_project_pkg-1.0.202306182221-py3-none-any.whl
+[2023-06-19 00:26:53] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-06-19 00:26:53] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.4.tar.gz tmp/cropnet-0.1.5.tar.gz --markdown 20230619/c/cropnet/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 00:26:53] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/26/c3/ab1581f81b65e13dfd80bac0547656079df1f1b44d70021effa22730a3fd/dvc-3.1.0.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306182221-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306182156-1.0.202306182221/diff.md --exclude *.pyd
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pyparsing]: Downloading https://files.pythonhosted.org/packages/7f/d2/d8ca6801fb4f5c5d551f98f4f5459c82d4c3b335c9b545d4104f51fdbc33/pyparsing-3.1.0b2.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/92/61/28c782801750048612df0906384cd2244241f9a937375323773a525c8462/formal-sdk-0.9.0.tar.gz
+[2023-06-19 00:26:53] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-06-19 00:26:53] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.0.0a2.tar.gz tmp/dvc-3.1.0.tar.gz --markdown 20230619/d/dvc/3.0.0a2-3.1.0/diff.md --exclude *.pyd
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pyparsing]: executing diffoscope
+[2023-06-19 00:26:53] INFO root fetch - processPackages [pyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparsing-3.1.0b1.tar.gz tmp/pyparsing-3.1.0b2.tar.gz --markdown 20230619/p/pyparsing/3.1.0b1-3.1.0b2/diff.md --exclude *.pyd
+[2023-06-19 00:26:53] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-06-19 00:26:53] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.8.0.tar.gz tmp/formal-sdk-0.9.0.tar.gz --markdown 20230619/f/formal-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 00:26:54] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip]
+[2023-06-19 00:26:54] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182221-py3-none-any.whl.zip]
+[2023-06-19 00:26:54] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 00:26:54] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.4.tar.gz]
+[2023-06-19 00:26:54] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.5.tar.gz]
+[2023-06-19 00:26:54] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-06-19 00:26:54] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.8.0.tar.gz]
+[2023-06-19 00:26:54] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.9.0.tar.gz]
+[2023-06-19 00:26:54] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-06-19 00:26:56] INFO root fetch - processPackages [pyparsing]: Remove: archive file [/home/abi/fetcher/tmp/pyparsing-3.1.0b1.tar.gz]
+[2023-06-19 00:26:56] INFO root fetch - processPackages [pyparsing]: Remove: archive file [/home/abi/fetcher/tmp/pyparsing-3.1.0b2.tar.gz]
+[2023-06-19 00:26:56] INFO root fetch - main [MainThread]: End processing [pyparsing]: success
+[2023-06-19 00:27:01] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.0.0a2.tar.gz]
+[2023-06-19 00:27:01] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.1.0.tar.gz]
+[2023-06-19 00:27:01] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-06-19 00:27:01] INFO root fetch - main [MainThread]: Store serial: [18553192]
