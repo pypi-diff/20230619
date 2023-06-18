@@ -1,0 +1,42 @@
+[2023-06-19 00:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553114]
+[2023-06-19 00:05:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 00:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opgp
+[2023-06-19 00:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbra
+[2023-06-19 00:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solvent
+[2023-06-19 00:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectrafit
+[2023-06-19 00:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adaptivecard
+[2023-06-19 00:05:07] WARNING root fetch - processPackages [opgp]: Skipping, unable to determine old version
+[2023-06-19 00:05:07] INFO root fetch - main [MainThread]: End processing [opgp] error
+[2023-06-19 00:05:07] INFO root fetch - processPackages [solvent]: New version: [23.6.18] Old Version: [23.1.12]
+[2023-06-19 00:05:07] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-19 00:05:08] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-19 00:05:08] INFO root fetch - processPackages [adaptivecard]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 00:05:08] INFO root fetch - processPackages [solvent]: Downloading https://files.pythonhosted.org/packages/fc/87/c931f9a1a5964e479d1c0f63d9c125267ea60ee76a9dfd98c5b4c7f4e1df/solvent-23.1.12.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [adaptivecard]: Downloading https://files.pythonhosted.org/packages/a3/29/e36f908fd4d745949aa7191ad7a55db800a66c8df200a540352e5994f343/adaptivecard-0.0.6.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [solvent]: Downloading https://files.pythonhosted.org/packages/16/dc/0ecb98c1e328a28efff5f5fde37f5102152de2abe619ce76dc34820a9adf/solvent-23.6.18.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [adaptivecard]: Downloading https://files.pythonhosted.org/packages/e2/fb/b3af0c1e73a4dbe94c538f4eb26f039b126f1dbf2f324ed6e7f6d1aa0170/adaptivecard-0.0.7.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-06-19 00:05:08] INFO root fetch - processPackages [solvent]: executing diffoscope
+[2023-06-19 00:05:08] INFO root fetch - processPackages [solvent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvent-23.1.12.tar.gz tmp/solvent-23.6.18.tar.gz --markdown 20230619/s/solvent/23.1.12-23.6.18/diff.md --exclude *.pyd
+[2023-06-19 00:05:08] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-06-19 00:05:08] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230619/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-19 00:05:08] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-19 00:05:08] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230619/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-19 00:05:08] INFO root fetch - processPackages [adaptivecard]: executing diffoscope
+[2023-06-19 00:05:08] INFO root fetch - processPackages [adaptivecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptivecard-0.0.6.tar.gz tmp/adaptivecard-0.0.7.tar.gz --markdown 20230619/a/adaptivecard/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 00:05:09] INFO root fetch - processPackages [adaptivecard]: Remove: archive file [/home/abi/fetcher/tmp/adaptivecard-0.0.6.tar.gz]
+[2023-06-19 00:05:09] INFO root fetch - processPackages [adaptivecard]: Remove: archive file [/home/abi/fetcher/tmp/adaptivecard-0.0.7.tar.gz]
+[2023-06-19 00:05:09] INFO root fetch - main [MainThread]: End processing [adaptivecard]: success
+[2023-06-19 00:05:10] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b1.tar.gz]
+[2023-06-19 00:05:10] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
+[2023-06-19 00:05:10] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-06-19 00:05:10] INFO root fetch - processPackages [solvent]: Remove: archive file [/home/abi/fetcher/tmp/solvent-23.1.12.tar.gz]
+[2023-06-19 00:05:10] INFO root fetch - processPackages [solvent]: Remove: archive file [/home/abi/fetcher/tmp/solvent-23.6.18.tar.gz]
+[2023-06-19 00:05:10] INFO root fetch - main [MainThread]: End processing [solvent]: success
+[2023-06-19 00:05:13] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-19 00:05:13] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-19 00:05:13] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-19 00:05:13] INFO root fetch - main [MainThread]: Store serial: [18553131]
