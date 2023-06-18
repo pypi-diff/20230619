@@ -885,3 +885,24 @@
 [2023-06-19 01:50:06] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.5.tar.gz]
 [2023-06-19 01:50:06] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2023-06-19 01:50:06] INFO root fetch - main [MainThread]: Store serial: [18553405]
+[2023-06-19 01:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553405]
+[2023-06-19 01:55:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-19 01:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynubank
+[2023-06-19 01:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessl
+[2023-06-19 01:55:15] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-19 01:55:15] INFO root fetch - processPackages [pynubank]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-19 01:55:15] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-19 01:55:15] INFO root fetch - processPackages [pynubank]: Downloading https://files.pythonhosted.org/packages/ed/2a/f5cd715bd6ccece4e2726a342485312cb4d2060004469719490eca3f33d1/pynubank-2.9.0.tar.gz
+[2023-06-19 01:55:15] INFO root fetch - processPackages [pynubank]: Downloading https://files.pythonhosted.org/packages/d2/1f/bf72658c19b9d038c2a1bfcb84fc12ad70b31fb097ede791770963b06c19/pynubank-2.9.1.tar.gz
+[2023-06-19 01:55:16] INFO root fetch - processPackages [pynubank]: executing diffoscope
+[2023-06-19 01:55:16] INFO root fetch - processPackages [pynubank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynubank-2.9.0.tar.gz tmp/pynubank-2.9.1.tar.gz --markdown 20230619/p/pynubank/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-19 01:55:16] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-19 01:55:16] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-19 01:55:16] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230619/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-19 01:55:17] INFO root fetch - processPackages [pynubank]: Remove: archive file [/home/abi/fetcher/tmp/pynubank-2.9.0.tar.gz]
+[2023-06-19 01:55:17] INFO root fetch - processPackages [pynubank]: Remove: archive file [/home/abi/fetcher/tmp/pynubank-2.9.1.tar.gz]
+[2023-06-19 01:55:17] INFO root fetch - main [MainThread]: End processing [pynubank]: success
+[2023-06-19 01:55:23] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-19 01:55:23] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-19 01:55:23] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-19 01:55:23] INFO root fetch - main [MainThread]: Store serial: [18553411]
