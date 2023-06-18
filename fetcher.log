@@ -861,3 +861,27 @@
 [2023-06-19 01:44:53] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.0.tar.gz]
 [2023-06-19 01:44:53] INFO root fetch - main [MainThread]: End processing [pandasai]: success
 [2023-06-19 01:44:53] INFO root fetch - main [MainThread]: Store serial: [18553395]
+[2023-06-19 01:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553395]
+[2023-06-19 01:50:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-19 01:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykinetic
+[2023-06-19 01:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-06-19 01:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamist
+[2023-06-19 01:50:02] WARNING root fetch - processPackages [pykinetic]: Skipping, unable to determine old version
+[2023-06-19 01:50:02] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-19 01:50:02] INFO root fetch - main [MainThread]: End processing [pykinetic] error
+[2023-06-19 01:50:02] INFO root fetch - processPackages [metamist]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-06-19 01:50:02] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-19 01:50:03] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/67/cf/9805cc8de56613508606168f6fafd48adf177d86b88a4759b0b662b37810/metamist-6.0.4.tar.gz
+[2023-06-19 01:50:03] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-19 01:50:03] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-19 01:50:03] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230619/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-19 01:50:03] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/d3/ea/d321d6d868024e702b0ddbd3ea8778dcfe4f502e003ccf6630fdcccbcda0/metamist-6.0.5.tar.gz
+[2023-06-19 01:50:03] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2023-06-19 01:50:03] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.0.4.tar.gz tmp/metamist-6.0.5.tar.gz --markdown 20230619/m/metamist/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-06-19 01:50:04] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-19 01:50:04] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-19 01:50:04] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-19 01:50:06] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.4.tar.gz]
+[2023-06-19 01:50:06] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.5.tar.gz]
+[2023-06-19 01:50:06] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2023-06-19 01:50:06] INFO root fetch - main [MainThread]: Store serial: [18553405]
