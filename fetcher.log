@@ -292,3 +292,58 @@
 [2023-06-19 00:32:11] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
 [2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [drtools]: success
 [2023-06-19 00:32:11] INFO root fetch - main [MainThread]: Store serial: [18553210]
+[2023-06-19 00:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553210]
+[2023-06-19 00:37:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fukkatsu
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrefact
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ifnude
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vanoma-api-utils
+[2023-06-19 00:37:20] INFO root fetch - processPackages [fukkatsu]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ifnude]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [84]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-19 00:37:20] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/97/36/a1df8070756cd03e0ab960d6ac02e8d670133e2baaf5bdcf01218efe9fa7/fukkatsu-0.0.6.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ifnude]: Downloading https://files.pythonhosted.org/packages/aa/bf/d4e44f1b4ee4ce0ffad840c7da27d89bfc49a1e009adac46f775261b3060/ifnude-0.0.2.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/7c/9e/f73ed404ce9e60981ee448d39e3b055e19b228be2cfd51966458fc8cdfa4/vanoma_api_utils-0.98.0.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-19 00:37:20] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/35/19/53ab890833170c59fbb3ab2238f8a175596958dbf6e04fd9e0572a3f355b/pyrefact-84.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ifnude]: Downloading https://files.pythonhosted.org/packages/4c/02/895b4b9670b9ddfe6eb8afe19f9f804cb4d03c4b952f6c81bfd95716d015/ifnude-0.0.3.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/1b/52/e3d8772ae0b084988b46010a618f7ec809146cce7289512983111567175c/fukkatsu-0.0.7.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/08/33/b2d796eb02aac48a38a8cbb3ef3703b06b26cd09727f065036201b3e7aef/vanoma_api_utils-0.99.0.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-19 00:37:20] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230619/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-19 00:37:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230619/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ifnude]: executing diffoscope
+[2023-06-19 00:37:20] INFO root fetch - processPackages [ifnude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifnude-0.0.2.tar.gz tmp/ifnude-0.0.3.tar.gz --markdown 20230619/i/ifnude/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 00:37:20] INFO root fetch - processPackages [fukkatsu]: executing diffoscope
+[2023-06-19 00:37:20] INFO root fetch - processPackages [fukkatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fukkatsu-0.0.6.tar.gz tmp/fukkatsu-0.0.7.tar.gz --markdown 20230619/f/fukkatsu/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 00:37:20] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-06-19 00:37:20] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.98.0.tar.gz tmp/vanoma_api_utils-0.99.0.tar.gz --markdown 20230619/v/vanoma-api-utils/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-19 00:37:21] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-19 00:37:21] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-84.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230619/p/pyrefact/84-9/diff.md --exclude *.pyd
+[2023-06-19 00:37:22] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-19 00:37:22] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-19 00:37:22] INFO root fetch - processPackages [ifnude]: Remove: archive file [/home/abi/fetcher/tmp/ifnude-0.0.2.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - processPackages [ifnude]: Remove: archive file [/home/abi/fetcher/tmp/ifnude-0.0.3.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [ifnude]: success
+[2023-06-19 00:37:22] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.6.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.7.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [fukkatsu]: success
+[2023-06-19 00:37:22] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-84.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-19 00:37:22] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.98.0.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.99.0.tar.gz]
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-06-19 00:37:22] INFO root fetch - main [MainThread]: Store serial: [18553226]
