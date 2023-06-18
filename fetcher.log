@@ -241,3 +241,54 @@
 [2023-06-19 00:27:01] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.1.0.tar.gz]
 [2023-06-19 00:27:01] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-06-19 00:27:01] INFO root fetch - main [MainThread]: Store serial: [18553192]
+[2023-06-19 00:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553192]
+[2023-06-19 00:32:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cropnet
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catencfamily
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-ui
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mappie
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drizzutojr-vapi
+[2023-06-19 00:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drtools
+[2023-06-19 00:32:10] INFO root fetch - processPackages [catencfamily]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 00:32:10] INFO root fetch - processPackages [cropnet]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-19 00:32:10] INFO root fetch - processPackages [mappie]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-19 00:32:10] WARNING root fetch - processPackages [audio-ui]: Skipping, unable to determine old version
+[2023-06-19 00:32:10] INFO root fetch - main [MainThread]: End processing [audio-ui] error
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/cc/3d/d00ac8f0c6c209653a72ac717e6ab9b3f810fd604752613c9ce4ae2315e9/drizzutojr_vapi-0.0.3-py3-none-any.whl
+[2023-06-19 00:32:10] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/af/a1/3a375bc5f23ee8207c00dc4e508f47061eed752f4adb08147682a97ecf39/cropnet-0.1.5.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/73/84/59419387639d3bca39e6dbc4085f7737bc6caa2c573ed0d64452a08638a0/catencfamily-0.0.76.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/0c/cc/1006336009666d3d2bf4426678d613d8684734d7eecfb485bc297e0a222c/drtools-1.0.8.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [mappie]: Downloading https://files.pythonhosted.org/packages/a9/21/659f22b26bb97b9441fc0a21b927663a96152779030a1568b178903198a6/mappie-0.0.2.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/b6/c9/74869bcb843693f6f2e6da2a9ab19e6042ac9d761367ffad7ad1622c954c/cropnet-0.1.6.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/60/e0/55038a07d0f8091905862fdd7a55f36d35a8d544f5691379f1bc700621ab/drizzutojr_vapi-0.0.4-py3-none-any.whl
+[2023-06-19 00:32:10] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-06-19 00:32:10] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.5.tar.gz tmp/cropnet-0.1.6.tar.gz --markdown 20230619/c/cropnet/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 00:32:10] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/1b/9b/c9dc52094c14e79b999932c27a443229348979aaef5c731ddbfe8bdf68b6/catencfamily-0.0.77.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [mappie]: Downloading https://files.pythonhosted.org/packages/a6/ae/be6981ac4f358563c008985079ae8b2b07f3c524f56944139873d1bfa042/mappie-0.1.0.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/18/2f/6897155230204fdbfc06e7d32cce6ef57db351b8fc2135337121afae8beb/drtools-1.0.9.tar.gz
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.3-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.4-py3-none-any.whl.zip --markdown 20230619/d/drizzutojr-vapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 00:32:10] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-19 00:32:10] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.76.tar.gz tmp/catencfamily-0.0.77.tar.gz --markdown 20230619/c/catencfamily/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drtools]: executing diffoscope
+[2023-06-19 00:32:10] INFO root fetch - processPackages [drtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtools-1.0.8.tar.gz tmp/drtools-1.0.9.tar.gz --markdown 20230619/d/drtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 00:32:10] INFO root fetch - processPackages [mappie]: executing diffoscope
+[2023-06-19 00:32:10] INFO root fetch - processPackages [mappie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappie-0.0.2.tar.gz tmp/mappie-0.1.0.tar.gz --markdown 20230619/m/mappie/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 00:32:11] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.5.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.6.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-06-19 00:32:11] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.3-py3-none-any.whl.zip]
+[2023-06-19 00:32:11] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.4-py3-none-any.whl.zip]
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-19 00:32:11] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.76.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.77.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-19 00:32:11] INFO root fetch - processPackages [mappie]: Remove: archive file [/home/abi/fetcher/tmp/mappie-0.0.2.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - processPackages [mappie]: Remove: archive file [/home/abi/fetcher/tmp/mappie-0.1.0.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [mappie]: success
+[2023-06-19 00:32:11] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.8.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: End processing [drtools]: success
+[2023-06-19 00:32:11] INFO root fetch - main [MainThread]: Store serial: [18553210]
