@@ -795,3 +795,45 @@
 [2023-06-19 01:34:33] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.0.1.tar.gz]
 [2023-06-19 01:34:33] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
 [2023-06-19 01:34:33] INFO root fetch - main [MainThread]: Store serial: [18553365]
+[2023-06-19 01:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553365]
+[2023-06-19 01:39:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 01:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapedtw
+[2023-06-19 01:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markmodule
+[2023-06-19 01:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mizue
+[2023-06-19 01:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-static-wordpress
+[2023-06-19 01:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pii-codex
+[2023-06-19 01:39:41] WARNING root fetch - processPackages [shapedtw]: Skipping, unable to determine old version
+[2023-06-19 01:39:41] INFO root fetch - main [MainThread]: End processing [shapedtw] error
+[2023-06-19 01:39:41] INFO root fetch - processPackages [pii-codex]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-19 01:39:41] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 01:39:41] INFO root fetch - processPackages [markmodule]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-19 01:39:41] INFO root fetch - processPackages [cdk-static-wordpress]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 01:39:42] INFO root fetch - processPackages [pii-codex]: Downloading https://files.pythonhosted.org/packages/01/2a/81ebe192d21a68505d1bfc366e8f3ff0d391c279877a090055b9c2c2d802/pii_codex-0.4.5.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [markmodule]: Downloading https://files.pythonhosted.org/packages/63/0f/8666b54a3da49ffd2a0350b37b1c19787bb7571ce59eb0a8fb4af6e2e6bc/markmodule-0.2.0.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/bb/be/d20322a6568a30a5861516b9a6f51c73a5d891fd8a4c8d6c2c51d153e31a/cdk-static-wordpress-0.1.8.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-19 01:39:42] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230619/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 01:39:42] INFO root fetch - processPackages [pii-codex]: Downloading https://files.pythonhosted.org/packages/e2/0c/fc8f1be1e9b5f6c24b31805097ab227f7f58689f318f0162e328a78d98e9/pii_codex-0.4.6.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [pii-codex]: executing diffoscope
+[2023-06-19 01:39:42] INFO root fetch - processPackages [pii-codex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii_codex-0.4.5.tar.gz tmp/pii_codex-0.4.6.tar.gz --markdown 20230619/p/pii-codex/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-19 01:39:42] INFO root fetch - processPackages [markmodule]: Downloading https://files.pythonhosted.org/packages/45/79/eb2b7e81820f62d4b67832570f6ea0ca8cfa59c82b8682ec355cd964703d/markmodule-0.3.0.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/4c/f6/38d5e5ddf3370f56fb612ccbdf0c7b3a8aa587e85fd6eec51269f0e55a1c/cdk-static-wordpress-0.1.9.tar.gz
+[2023-06-19 01:39:42] INFO root fetch - processPackages [markmodule]: executing diffoscope
+[2023-06-19 01:39:42] INFO root fetch - processPackages [markmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markmodule-0.2.0.tar.gz tmp/markmodule-0.3.0.tar.gz --markdown 20230619/m/markmodule/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 01:39:42] INFO root fetch - processPackages [cdk-static-wordpress]: executing diffoscope
+[2023-06-19 01:39:42] INFO root fetch - processPackages [cdk-static-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-static-wordpress-0.1.8.tar.gz tmp/cdk-static-wordpress-0.1.9.tar.gz --markdown 20230619/c/cdk-static-wordpress/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 01:39:43] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-19 01:39:43] INFO root fetch - processPackages [pii-codex]: Remove: archive file [/home/abi/fetcher/tmp/pii_codex-0.4.5.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - processPackages [pii-codex]: Remove: archive file [/home/abi/fetcher/tmp/pii_codex-0.4.6.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - main [MainThread]: End processing [pii-codex]: success
+[2023-06-19 01:39:43] INFO root fetch - processPackages [markmodule]: Remove: archive file [/home/abi/fetcher/tmp/markmodule-0.2.0.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - processPackages [markmodule]: Remove: archive file [/home/abi/fetcher/tmp/markmodule-0.3.0.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - main [MainThread]: End processing [markmodule]: success
+[2023-06-19 01:39:43] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.8.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
+[2023-06-19 01:39:43] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
+[2023-06-19 01:39:43] INFO root fetch - main [MainThread]: Store serial: [18553381]
