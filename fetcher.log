@@ -489,3 +489,36 @@
 [2023-06-19 00:52:59] INFO root fetch - processPackages [myIMD-gauge]: Remove: archive file [/home/abi/fetcher/tmp/myIMD_gauge-0.0.5-py3-none-any.whl.zip]
 [2023-06-19 00:52:59] INFO root fetch - main [MainThread]: End processing [myIMD-gauge]: success
 [2023-06-19 00:52:59] INFO root fetch - main [MainThread]: Store serial: [18553261]
+[2023-06-19 00:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553261]
+[2023-06-19 00:58:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotraders
+[2023-06-19 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stig-edit
+[2023-06-19 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sysdm
+[2023-06-19 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-simple-forms
+[2023-06-19 00:58:07] INFO root fetch - processPackages [sysdm]: New version: [0.8.67] Old Version: [0.8.65]
+[2023-06-19 00:58:07] INFO root fetch - processPackages [autotraders]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-19 00:58:07] WARNING root fetch - processPackages [stig-edit]: Skipping, unable to determine old version
+[2023-06-19 00:58:07] INFO root fetch - main [MainThread]: End processing [stig-edit] error
+[2023-06-19 00:58:07] INFO root fetch - processPackages [django-simple-forms]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 00:58:07] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/a5/9b/155cc90081d5970ea1ce274c2725e82b90e22fdc07b1dd3c681bf2849445/autotraders-1.5.4.tar.gz
+[2023-06-19 00:58:07] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/0a/af/81285206ae8b63d8eba51e5ff83f309e128d64dd35c9ae17fd2aeddddc7c/django_simple_forms-0.1.3.tar.gz
+[2023-06-19 00:58:07] INFO root fetch - processPackages [sysdm]: Downloading https://files.pythonhosted.org/packages/bb/5b/1fd9bc66e347dc91431644de8a0c70e1b3f99a33fc7d315405931fac32f7/sysdm-0.8.65.tar.gz
+[2023-06-19 00:58:08] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/29/6d/fc7b90c70cd63b8696e72fd64a36fc8241b54cb79583727577606bd5f865/autotraders-1.5.5.tar.gz
+[2023-06-19 00:58:08] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/37/5c/a1497a82ab09976b4c01009cc1b97b8e7eb41666b37063b4d1c9d7b28525/django_simple_forms-0.1.4.tar.gz
+[2023-06-19 00:58:08] INFO root fetch - processPackages [django-simple-forms]: executing diffoscope
+[2023-06-19 00:58:08] INFO root fetch - processPackages [django-simple-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_forms-0.1.3.tar.gz tmp/django_simple_forms-0.1.4.tar.gz --markdown 20230619/d/django-simple-forms/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 00:58:08] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-19 00:58:08] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.5.4.tar.gz tmp/autotraders-1.5.5.tar.gz --markdown 20230619/a/autotraders/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-19 00:58:08] INFO root fetch - processPackages [sysdm]: Downloading https://files.pythonhosted.org/packages/1c/1f/83680e882413e6ab3682e9a0429577b38b0427900e6fe29df62c32537bea/sysdm-0.8.67.tar.gz
+[2023-06-19 00:58:09] INFO root fetch - processPackages [sysdm]: executing diffoscope
+[2023-06-19 00:58:09] INFO root fetch - processPackages [sysdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysdm-0.8.65.tar.gz tmp/sysdm-0.8.67.tar.gz --markdown 20230619/s/sysdm/0.8.65-0.8.67/diff.md --exclude *.pyd
+[2023-06-19 00:58:09] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.4.tar.gz]
+[2023-06-19 00:58:09] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.5.tar.gz]
+[2023-06-19 00:58:09] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-19 00:58:09] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.3.tar.gz]
+[2023-06-19 00:58:09] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.4.tar.gz]
+[2023-06-19 00:58:09] INFO root fetch - main [MainThread]: End processing [django-simple-forms]: success
+[2023-06-19 00:58:10] INFO root fetch - processPackages [sysdm]: Remove: archive file [/home/abi/fetcher/tmp/sysdm-0.8.65.tar.gz]
+[2023-06-19 00:58:10] INFO root fetch - processPackages [sysdm]: Remove: archive file [/home/abi/fetcher/tmp/sysdm-0.8.67.tar.gz]
+[2023-06-19 00:58:10] INFO root fetch - main [MainThread]: End processing [sysdm]: success
+[2023-06-19 00:58:10] INFO root fetch - main [MainThread]: Store serial: [18553275]
