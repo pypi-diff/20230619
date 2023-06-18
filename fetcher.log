@@ -40,3 +40,42 @@
 [2023-06-19 00:05:13] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
 [2023-06-19 00:05:13] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-06-19 00:05:13] INFO root fetch - main [MainThread]: Store serial: [18553131]
+[2023-06-19 00:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553131]
+[2023-06-19 00:10:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-hostutils
+[2023-06-19 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-simple-bulk-emailer
+[2023-06-19 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythorhead
+[2023-06-19 00:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splut
+[2023-06-19 00:10:21] INFO root fetch - processPackages [django-simple-bulk-emailer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-19 00:10:21] INFO root fetch - processPackages [django-hostutils]: New version: [0.0.dev3] Old Version: [0.0.7]
+[2023-06-19 00:10:21] INFO root fetch - processPackages [pythorhead]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 00:10:21] INFO root fetch - processPackages [splut]: New version: [8] Old Version: [7]
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-hostutils]: Downloading https://files.pythonhosted.org/packages/e2/e5/ee91fb94041fcf1a0d220227413bda8bc861d6bfb7fedb7845fa4ca0f972/django-hostutils-0.0.7.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-simple-bulk-emailer]: Downloading https://files.pythonhosted.org/packages/84/a5/d6900cd79b9896a8d07508678815c6bd3f48744df275784b330c94afdd6f/django_simple_bulk_emailer-0.2.1.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [splut]: Downloading https://files.pythonhosted.org/packages/da/18/205d456c3fda3696d77b05341802b5fbeb9027ed87d1983dee5502b7c760/splut-7.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/7d/73/28725feefe52efd3d57857d5410cdcd02f7759f8ea9afcb43bb43fe4d182/pythorhead-0.1.0.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/f4/ac/ba85f449124b7211f8a755057901015bec3bf4ef091661cf416847f5671c/pythorhead-0.1.1.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-hostutils]: Downloading https://files.pythonhosted.org/packages/b8/21/220c53f91f40a9994f776fcb48ba454d5e247ac827338fc30b8d738d49aa/django-hostutils-0.0.dev3.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-simple-bulk-emailer]: Downloading https://files.pythonhosted.org/packages/bf/9a/41919249d97e67c88a774c880ba87cf5290b77d95074e99fb6617bc93643/django_simple_bulk_emailer-0.2.2.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [splut]: Downloading https://files.pythonhosted.org/packages/c6/af/6aa521d9ca6d1d09cf161bedd32cc8a463bdc1184019bbc3a4a97acec0a0/splut-8.tar.gz
+[2023-06-19 00:10:22] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-19 00:10:22] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.1.0.tar.gz tmp/pythorhead-0.1.1.tar.gz --markdown 20230619/p/pythorhead/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-simple-bulk-emailer]: executing diffoscope
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-simple-bulk-emailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_bulk_emailer-0.2.1.tar.gz tmp/django_simple_bulk_emailer-0.2.2.tar.gz --markdown 20230619/d/django-simple-bulk-emailer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 00:10:22] INFO root fetch - processPackages [splut]: executing diffoscope
+[2023-06-19 00:10:22] INFO root fetch - processPackages [splut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splut-7.tar.gz tmp/splut-8.tar.gz --markdown 20230619/s/splut/7-8/diff.md --exclude *.pyd
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-hostutils]: executing diffoscope
+[2023-06-19 00:10:22] INFO root fetch - processPackages [django-hostutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hostutils-0.0.7.tar.gz tmp/django-hostutils-0.0.dev3.tar.gz --markdown 20230619/d/django-hostutils/0.0.7-0.0.dev3/diff.md --exclude *.pyd
+[2023-06-19 00:10:23] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.1.0.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.1.1.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-19 00:10:23] INFO root fetch - processPackages [splut]: Remove: archive file [/home/abi/fetcher/tmp/splut-7.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - processPackages [splut]: Remove: archive file [/home/abi/fetcher/tmp/splut-8.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - main [MainThread]: End processing [splut]: success
+[2023-06-19 00:10:23] INFO root fetch - processPackages [django-simple-bulk-emailer]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_bulk_emailer-0.2.1.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - processPackages [django-simple-bulk-emailer]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_bulk_emailer-0.2.2.tar.gz]
+[2023-06-19 00:10:23] INFO root fetch - main [MainThread]: End processing [django-simple-bulk-emailer]: success
+[2023-06-19 00:11:20] INFO root fetch - processPackages [django-hostutils]: Remove: archive file [/home/abi/fetcher/tmp/django-hostutils-0.0.7.tar.gz]
+[2023-06-19 00:11:20] INFO root fetch - processPackages [django-hostutils]: Remove: archive file [/home/abi/fetcher/tmp/django-hostutils-0.0.dev3.tar.gz]
+[2023-06-19 00:11:20] INFO root fetch - main [MainThread]: End processing [django-hostutils]: success
+[2023-06-19 00:11:20] INFO root fetch - main [MainThread]: Store serial: [18553143]
