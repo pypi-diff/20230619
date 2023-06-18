@@ -404,3 +404,49 @@
 [2023-06-19 00:42:37] INFO root fetch - processPackages [datamol]: Remove: archive file [/home/abi/fetcher/tmp/datamol-0.9.8.tar.gz]
 [2023-06-19 00:42:37] INFO root fetch - main [MainThread]: End processing [datamol]: success
 [2023-06-19 00:42:37] INFO root fetch - main [MainThread]: Store serial: [18553240]
+[2023-06-19 00:47:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553240]
+[2023-06-19 00:47:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamol
+[2023-06-19 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-06-19 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-auto-deploy
+[2023-06-19 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-auto-deploy
+[2023-06-19 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openseries
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: New version: [0.0.3a1687127619] Old Version: [0.0.3]
+[2023-06-19 00:47:45] INFO root fetch - processPackages [openseries]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: New version: [0.0.3a1687127619] Old Version: [0.0.3]
+[2023-06-19 00:47:45] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-19 00:47:45] INFO root fetch - processPackages [datamol]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-19 00:47:45] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/81/e3/26e1f24cc7ce6b60772dc8a29ccf51a131f1d2d8b5560878a288e392260f/FuncsForSPO-6.0.0.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/7e/d7/fde3204ffd3681eda4a3799fc8ea5302c015fd6145b1cedc1607f07cc61b/pulumi_auto_deploy-0.0.3.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/7e/d7/fde3204ffd3681eda4a3799fc8ea5302c015fd6145b1cedc1607f07cc61b/pulumi_auto_deploy-0.0.3.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/d6/49/11f2e02a4f5ea2927d9b332aa97db4521464198dbfefa70ef5379d4731f3/datamol-0.9.7.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/27/3e/819db6fcba649d5baa8f79545d9962310fa76f8627349aedf3a09302a1ce/openseries-0.9.8.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/08/1a/7ca86e718aacd4bc88a0c581359f32ef32058ac7e75c67c14c677e50ed61/FuncsForSPO-6.0.1.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-19 00:47:45] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.0.0.tar.gz tmp/FuncsForSPO-6.0.1.tar.gz --markdown 20230619/F/FuncsForSPO/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/98/0d/ea5b345a16e3f0438b64508a974f54abfcbc2cfeec5b634ead6211106984/pulumi_auto_deploy-0.0.3a1687127619.tar.gz
+[2023-06-19 00:47:45] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/98/0d/ea5b345a16e3f0438b64508a974f54abfcbc2cfeec5b634ead6211106984/pulumi_auto_deploy-0.0.3a1687127619.tar.gz
+[2023-06-19 00:47:46] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/59/b3/831830ab7991bd95ed22c7f61ee82c0eab6da7e47ec70237cb4ea95ed842/datamol-0.9.8.tar.gz
+[2023-06-19 00:47:46] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/f3/c1/0164029540ca70576138c3893424e40bb88eede48177ef628e0ae3e107cc/openseries-0.9.9.tar.gz
+[2023-06-19 00:47:46] INFO root fetch - processPackages [datamol]: executing diffoscope
+[2023-06-19 00:47:46] INFO root fetch - processPackages [datamol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamol-0.9.7.tar.gz tmp/datamol-0.9.8.tar.gz --markdown 20230619/d/datamol/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-19 00:47:46] INFO root fetch - processPackages [pulumi-auto-deploy]: executing diffoscope
+[2023-06-19 00:47:46] INFO root fetch - processPackages [pulumi-auto-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auto_deploy-0.0.3.tar.gz tmp/pulumi_auto_deploy-0.0.3a1687127619.tar.gz --markdown 20230619/p/pulumi-auto-deploy/0.0.3-0.0.3a1687127619/diff.md --exclude *.pyd
+[2023-06-19 00:47:46] INFO root fetch - processPackages [pulumi-auto-deploy]: executing diffoscope
+[2023-06-19 00:47:46] INFO root fetch - processPackages [pulumi-auto-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auto_deploy-0.0.3.tar.gz tmp/pulumi_auto_deploy-0.0.3a1687127619.tar.gz --markdown 20230619/p/pulumi-auto-deploy/0.0.3-0.0.3a1687127619/diff.md --exclude *.pyd
+[2023-06-19 00:47:46] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-06-19 00:47:46] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-0.9.8.tar.gz tmp/openseries-0.9.9.tar.gz --markdown 20230619/o/openseries/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 00:47:47] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.3.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.3a1687127619.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy]: success
+[2023-06-19 00:47:47] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.0.0.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.0.1.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-19 00:47:47] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy]: success
+[2023-06-19 00:47:47] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-0.9.8.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-0.9.9.tar.gz]
+[2023-06-19 00:47:47] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-06-19 00:47:48] INFO root fetch - processPackages [datamol]: Remove: archive file [/home/abi/fetcher/tmp/datamol-0.9.7.tar.gz]
+[2023-06-19 00:47:48] INFO root fetch - processPackages [datamol]: Remove: archive file [/home/abi/fetcher/tmp/datamol-0.9.8.tar.gz]
+[2023-06-19 00:47:48] INFO root fetch - main [MainThread]: End processing [datamol]: success
+[2023-06-19 00:47:48] INFO root fetch - main [MainThread]: Store serial: [18553251]
