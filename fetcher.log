@@ -79,3 +79,42 @@
 [2023-06-19 00:11:20] INFO root fetch - processPackages [django-hostutils]: Remove: archive file [/home/abi/fetcher/tmp/django-hostutils-0.0.dev3.tar.gz]
 [2023-06-19 00:11:20] INFO root fetch - main [MainThread]: End processing [django-hostutils]: success
 [2023-06-19 00:11:20] INFO root fetch - main [MainThread]: Store serial: [18553143]
+[2023-06-19 00:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553143]
+[2023-06-19 00:16:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 00:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: headless
+[2023-06-19 00:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrefact
+[2023-06-19 00:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mizue
+[2023-06-19 00:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vanoma-api-utils
+[2023-06-19 00:16:29] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.98.0] Old Version: [0.97.0]
+[2023-06-19 00:16:29] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-19 00:16:29] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [83]
+[2023-06-19 00:16:29] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 00:16:29] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/46/25/15e45f49ba096159e45a226e6ed19b4503c2f4acebd2e7befb9397b03dd0/pyrefact-83.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/c5/9b/5fc41a9af41e3b050438832a4178740052af3cd3ea3591c553ca8f80473b/vanoma_api_utils-0.97.0.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-19 00:16:29] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230619/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 00:16:29] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/7c/9e/f73ed404ce9e60981ee448d39e3b055e19b228be2cfd51966458fc8cdfa4/vanoma_api_utils-0.98.0.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-06-19 00:16:29] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-19 00:16:29] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-83.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230619/p/pyrefact/83-9/diff.md --exclude *.pyd
+[2023-06-19 00:16:29] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-06-19 00:16:29] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.97.0.tar.gz tmp/vanoma_api_utils-0.98.0.tar.gz --markdown 20230619/v/vanoma-api-utils/0.97.0-0.98.0/diff.md --exclude *.pyd
+[2023-06-19 00:16:29] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-06-19 00:16:29] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230619/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-19 00:16:30] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-19 00:16:30] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-83.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-19 00:16:30] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.97.0.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.98.0.tar.gz]
+[2023-06-19 00:16:30] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-06-19 00:16:31] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-06-19 00:16:31] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-06-19 00:16:31] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-06-19 00:16:31] INFO root fetch - main [MainThread]: Store serial: [18553154]
