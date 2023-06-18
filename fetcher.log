@@ -522,3 +522,33 @@
 [2023-06-19 00:58:10] INFO root fetch - processPackages [sysdm]: Remove: archive file [/home/abi/fetcher/tmp/sysdm-0.8.67.tar.gz]
 [2023-06-19 00:58:10] INFO root fetch - main [MainThread]: End processing [sysdm]: success
 [2023-06-19 00:58:10] INFO root fetch - main [MainThread]: Store serial: [18553275]
+[2023-06-19 01:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553275]
+[2023-06-19 01:03:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-19 01:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactivated
+[2023-06-19 01:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awscdk-minecraft
+[2023-06-19 01:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-06-19 01:03:19] INFO root fetch - processPackages [awscdk-minecraft]: New version: [2.0.0] Old Version: [1.0.6]
+[2023-06-19 01:03:19] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-06-19 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230618] Old Version: [0.7.0b20230617]
+[2023-06-19 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/79/35/4cc2454444b74140d3f0b7d591b8b43d2ec06e194d0bc6c95a850420b4ee/tmnt-cu101-0.7.0b20230617.tar.gz
+[2023-06-19 01:03:19] INFO root fetch - processPackages [awscdk-minecraft]: Downloading https://files.pythonhosted.org/packages/6d/c3/92464717ef39b654a0ebaba3eab1d594ae6b6f82954ee058516bea0f5aa3/awscdk_minecraft-1.0.6-py2.py3-none-any.whl
+[2023-06-19 01:03:19] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-06-19 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/c3/a2/b72e4d077862b9153feaeffbdca94bf5117d80e7978c933e0034059bfd7b/tmnt-cu101-0.7.0b20230618.tar.gz
+[2023-06-19 01:03:19] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-06-19 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-19 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230617.tar.gz tmp/tmnt-cu101-0.7.0b20230618.tar.gz --markdown 20230619/t/tmnt-cu101/0.7.0b20230617-0.7.0b20230618/diff.md --exclude *.pyd
+[2023-06-19 01:03:19] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-06-19 01:03:19] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230619/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-06-19 01:03:20] INFO root fetch - processPackages [awscdk-minecraft]: Downloading https://files.pythonhosted.org/packages/ed/24/5a7228d043020b98221fec828985ef4c41c9e484d7f179af1eb35320f56f/awscdk_minecraft-2.0.0-py2.py3-none-any.whl
+[2023-06-19 01:03:20] INFO root fetch - processPackages [awscdk-minecraft]: executing diffoscope
+[2023-06-19 01:03:20] INFO root fetch - processPackages [awscdk-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_minecraft-1.0.6-py2.py3-none-any.whl.zip tmp/awscdk_minecraft-2.0.0-py2.py3-none-any.whl.zip --markdown 20230619/a/awscdk-minecraft/1.0.6-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 01:03:21] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230617.tar.gz]
+[2023-06-19 01:03:21] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230618.tar.gz]
+[2023-06-19 01:03:21] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-19 01:03:21] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-06-19 01:03:21] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-06-19 01:03:21] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-06-19 01:03:21] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-1.0.6-py2.py3-none-any.whl.zip]
+[2023-06-19 01:03:21] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-2.0.0-py2.py3-none-any.whl.zip]
+[2023-06-19 01:03:21] INFO root fetch - main [MainThread]: End processing [awscdk-minecraft]: success
+[2023-06-19 01:03:21] INFO root fetch - main [MainThread]: Store serial: [18553283]
