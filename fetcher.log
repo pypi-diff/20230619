@@ -552,3 +552,33 @@
 [2023-06-19 01:03:21] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-2.0.0-py2.py3-none-any.whl.zip]
 [2023-06-19 01:03:21] INFO root fetch - main [MainThread]: End processing [awscdk-minecraft]: success
 [2023-06-19 01:03:21] INFO root fetch - main [MainThread]: Store serial: [18553283]
+[2023-06-19 01:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553283]
+[2023-06-19 01:08:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-19 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2023-06-19 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-static-wordpress
+[2023-06-19 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookio-fetchfox
+[2023-06-19 01:08:30] INFO root fetch - processPackages [cdk-static-wordpress]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 01:08:30] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-19 01:08:30] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-06-19 01:08:30] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230618] Old Version: [0.7.0b20230617]
+[2023-06-19 01:08:30] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/bb/be/d20322a6568a30a5861516b9a6f51c73a5d891fd8a4c8d6c2c51d153e31a/cdk-static-wordpress-0.1.8.tar.gz
+[2023-06-19 01:08:30] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-06-19 01:08:30] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-19 01:08:30] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230619/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-19 01:08:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4c/dc/239c51de9709778712cd88b3fd6bed16a595f0e788fd1c898450eb432743/tmnt-0.7.0b20230617.tar.gz
+[2023-06-19 01:08:31] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/4c/f6/38d5e5ddf3370f56fb612ccbdf0c7b3a8aa587e85fd6eec51269f0e55a1c/cdk-static-wordpress-0.1.9.tar.gz
+[2023-06-19 01:08:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5c/af/12ce21f4c0de8ec1a7241dc579c63f2326a2a7d612b7009b09760a8d281d/tmnt-0.7.0b20230618.tar.gz
+[2023-06-19 01:08:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-19 01:08:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230617.tar.gz tmp/tmnt-0.7.0b20230618.tar.gz --markdown 20230619/t/tmnt/0.7.0b20230617-0.7.0b20230618/diff.md --exclude *.pyd
+[2023-06-19 01:08:31] INFO root fetch - processPackages [cdk-static-wordpress]: executing diffoscope
+[2023-06-19 01:08:31] INFO root fetch - processPackages [cdk-static-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-static-wordpress-0.1.8.tar.gz tmp/cdk-static-wordpress-0.1.9.tar.gz --markdown 20230619/c/cdk-static-wordpress/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 01:08:32] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-19 01:08:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230617.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230618.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-19 01:08:32] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.8.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
+[2023-06-19 01:08:32] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
+[2023-06-19 01:08:32] INFO root fetch - main [MainThread]: Store serial: [18553292]
