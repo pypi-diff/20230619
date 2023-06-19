@@ -16243,3 +16243,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:05:56] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.6.tar.gz]
 [2023-06-19 14:05:56] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-06-19 14:05:56] INFO root fetch - main [MainThread]: Store serial: [18559307]
+[2023-06-19 14:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559307]
+[2023-06-19 14:11:07] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopyre
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yud102023
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wraptimer
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-power-ops
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embedchainai
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrestyle
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clearblade-cloud-iot
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-grainy
+[2023-06-19 14:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: halborn-ctf
+[2023-06-19 14:11:07] INFO root fetch - processPackages [autopyre]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 14:11:07] WARNING root fetch - processPackages [wraptimer]: Skipping, unable to determine old version
+[2023-06-19 14:11:07] INFO root fetch - processPackages [wraptimer]: Start processing: vollseg
+[2023-06-19 14:11:07] INFO root fetch - main [MainThread]: End processing [wraptimer] error
+[2023-06-19 14:11:07] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 14:11:07] WARNING root fetch - processPackages [embedchainai]: Skipping, unable to determine old version
+[2023-06-19 14:11:07] INFO root fetch - processPackages [embedchainai]: Start processing: dbt-glue
+[2023-06-19 14:11:07] INFO root fetch - main [MainThread]: End processing [embedchainai] error
+[2023-06-19 14:11:07] INFO root fetch - processPackages [clearblade-cloud-iot]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [django-grainy]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [yud102023]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [dbt-glue]: New version: [1.4.22] Old Version: [1.4.21]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/59/15/eecbc8653108c57ae0509722954dc58647600a91c837d88ed44f12960435/autopyre-1.0.2.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-19 14:11:07] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-19 14:11:07] INFO root fetch - processPackages [vollseg]: Start processing: UComp
+[2023-06-19 14:11:07] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-19 14:11:07] INFO root fetch - processPackages [UComp]: New version: [1.0.71] Old Version: [1.0.70]
+[2023-06-19 14:11:07] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/54/f8/93e265c2c82cde124a4b213fb610aede00a44e8ff97e46c7c75b6a330968/yud102023-0.0.4.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a3/07/82ef932e17693f7b2344635687e5444debc98872bca40262c126f315910c/pyrestyle-0.0.7.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [django-grainy]: Downloading https://files.pythonhosted.org/packages/87/8d/0e616c2aa22249bc9bd020d61fbeb5bd8ea11aa7cee22f58cf2d19902709/django-grainy-1.9.1.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [clearblade-cloud-iot]: Downloading https://files.pythonhosted.org/packages/1d/ee/4ea4361c721f8cf805cb16c300596a77620c13bcfc1bcac369e1f2b125c4/clearblade-cloud-iot-2.0.3.tar.gz
+[2023-06-19 14:11:07] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/c5/de/d26e749ed9c4866bd2543777928ed8366e6b643fa1ff9081484c9e0f27f0/UComp-1.0.70.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/3d/03/cfd53d2a689f128ba4c652fd73b3102769249eb903f773d6e096e847d84f/dbt-glue-1.4.21.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230619/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230619/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/35/b8/9510e1a5084642171345f88ac17d5e8a43ed0e56b6599fdfa9f26d3676b9/autopyre-1.0.3.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/7f/a4/9fa40f50b64ea5d69a88c778385ecd763dfacc885121d6abce2dd8073ab5/yud102023-0.0.5.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [django-grainy]: Downloading https://files.pythonhosted.org/packages/73/05/37e8ae17e961fc5ef851d87626f299910da583e177304c2d774c744889fb/django-grainy-2.0.0.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [clearblade-cloud-iot]: Downloading https://files.pythonhosted.org/packages/2b/7b/14af50bb57e96e953d79f3a40bb46162a8870238f88c8f967c4046a0753f/clearblade-cloud-iot-2.0.4.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/31/89/0b9fef78018dccbf1611925d03f89e00f3c569b48ac4f815accf83a86899/pyrestyle-0.0.8.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/20/df/191d0e3284fcb6f496d626581811c806c1c855ea7ea10ed407ab98bbc173/dbt-glue-1.4.22.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [django-grainy]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [django-grainy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-grainy-1.9.1.tar.gz tmp/django-grainy-2.0.0.tar.gz --markdown 20230619/d/django-grainy/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [yud102023]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [yud102023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yud102023-0.0.4.tar.gz tmp/yud102023-0.0.5.tar.gz --markdown 20230619/y/yud102023/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [clearblade-cloud-iot]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [clearblade-cloud-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearblade-cloud-iot-2.0.3.tar.gz tmp/clearblade-cloud-iot-2.0.4.tar.gz --markdown 20230619/c/clearblade-cloud-iot/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/ae/8c/cd664cf78a262c8445eb342ba4d4cb662975f5e68a1db6c460ad1ee4e5b5/UComp-1.0.71.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [dbt-glue]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [dbt-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-glue-1.4.21.tar.gz tmp/dbt-glue-1.4.22.tar.gz --markdown 20230619/d/dbt-glue/1.4.21-1.4.22/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-1.0.2.tar.gz tmp/autopyre-1.0.3.tar.gz --markdown 20230619/a/autopyre/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.7.tar.gz tmp/pyrestyle-0.0.8.tar.gz --markdown 20230619/p/pyrestyle/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-19 14:11:08] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.70.tar.gz tmp/UComp-1.0.71.tar.gz --markdown 20230619/U/UComp/1.0.70-1.0.71/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-19 14:11:08] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230619/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-19 14:11:08] ERROR root fetch - processPackages [checkov]: Diffoscope failed: Error: error creating container storage: the container name "busy_ganguly" is already in use by "4ff28e15f89251ed9e24288cf93c2096e37a37164af646e1800c87f1b4364f66". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-19 14:11:08] INFO root fetch - processPackages [checkov]: Start processing: priceloop-api
+[2023-06-19 14:11:08] INFO root fetch - main [MainThread]: End processing [checkov] error
+[2023-06-19 14:11:09] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-19 14:11:09] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-19 14:11:09] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.4.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.5.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [yud102023]: Start processing: tf-agents-nightly
+[2023-06-19 14:11:09] INFO root fetch - main [MainThread]: End processing [yud102023]: success
+[2023-06-19 14:11:09] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-19 14:11:09] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230619/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-19 14:11:09] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-19 14:11:09] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-1.0.2.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-1.0.3.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [autopyre]: Start processing: power-grid-model
+[2023-06-19 14:11:09] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-19 14:11:09] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9175313495131] Old Version: [1.5.0rc9174911844893]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3d/67/0ecba185ee8a924b442dd239c5d356f03b0a7d93ac51620b0171bc272b08/power-grid-model-1.5.0rc9174911844893.tar.gz
+[2023-06-19 14:11:09] INFO root fetch - processPackages [clearblade-cloud-iot]: Remove: archive file [/home/abi/fetcher/tmp/clearblade-cloud-iot-2.0.3.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [clearblade-cloud-iot]: Remove: archive file [/home/abi/fetcher/tmp/clearblade-cloud-iot-2.0.4.tar.gz]
+[2023-06-19 14:11:09] INFO root fetch - processPackages [clearblade-cloud-iot]: Start processing: certipy-ad
+[2023-06-19 14:11:09] INFO root fetch - main [MainThread]: End processing [clearblade-cloud-iot]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [certipy-ad]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.4.21.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.4.22.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dbt-glue]: Start processing: coindicator
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [dbt-glue]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [certipy-ad]: Downloading https://files.pythonhosted.org/packages/54/f1/c3790390d608fbf7403a4b49b7f563e796224be4ce987935d2dbd9f37192/certipy-ad-4.5.0.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [coindicator]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-19 14:11:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/09/66/1466c8a183aed2370b9de47dc0fc3c3cf5041314b524802af7a155c12872/power-grid-model-1.5.0rc9175313495131.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [django-grainy]: Remove: archive file [/home/abi/fetcher/tmp/django-grainy-1.9.1.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [django-grainy]: Remove: archive file [/home/abi/fetcher/tmp/django-grainy-2.0.0.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [django-grainy]: Start processing: dactim-mri
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [django-grainy]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-19 14:11:10] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9174911844893.tar.gz tmp/power-grid-model-1.5.0rc9175313495131.tar.gz --markdown 20230619/p/power-grid-model/1.5.0rc9174911844893-1.5.0rc9175313495131/diff.md --exclude *.pyd
+[2023-06-19 14:11:10] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/77/c4/50068baedbd65f195b214621c363f68b4687167feb5cf6e0ef41edab8409/coindicator-2.1.7.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [certipy-ad]: Downloading https://files.pythonhosted.org/packages/10/e0/cc6a788470251c56716396d6ba9ce96f76fb221657d9a3c105019780a15b/certipy-ad-4.5.1.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-19 14:11:10] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230619/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-19 14:11:10] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-06-19 14:11:10] INFO root fetch - processPackages [dactim-mri]: Start processing: microdata-tools
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-06-19 14:11:10] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.7.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.8.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [pyrestyle]: Start processing: jira2json
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [microdata-tools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [jira2json]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/5e/68/a5a8a1c021d887f8c44471dd52b56108a0fea738a77b5dfac5e6ed7fa512/coindicator-2.1.8.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [certipy-ad]: executing diffoscope
+[2023-06-19 14:11:10] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/ac/ea/4337187beb4c3f6a1479130f4f0c53d7dcaa985d15db32c9f1b53602ccc8/microdata_tools-0.0.1.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [certipy-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certipy-ad-4.5.0.tar.gz tmp/certipy-ad-4.5.1.tar.gz --markdown 20230619/c/certipy-ad/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-06-19 14:11:10] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [halborn-ctf]: Start processing: genepierre
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [genepierre]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [jira2json]: Downloading https://files.pythonhosted.org/packages/04/bb/31403f765ca0059c87d32474f509c94413a9fdf386156d494fde939427a4/jira2json-0.1.1-py3-none-any.whl
+[2023-06-19 14:11:10] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-19 14:11:10] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.1.7.tar.gz tmp/coindicator-2.1.8.tar.gz --markdown 20230619/c/coindicator/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-19 14:11:10] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/9a/f2/1089e715edcb3478d78ca3ae0c6acc1ca4886ec0c49261e457a36c5ce1f6/microdata_tools-0.1.0.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/d8/b0/73cd6737f95678e1ab16bd95cd5efb58a5525b0bf6b5c0b30afeb9c79d0e/genepierre-0.0.2.tar.gz
+[2023-06-19 14:11:10] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-19 14:11:10] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-19 14:11:10] INFO root fetch - processPackages [jira2json]: Downloading https://files.pythonhosted.org/packages/d6/ed/d4bcef1a6dda3f4ce2da0e66534922d886704230321bb53c9f427a59f100/jira2json-0.1.2-py3-none-any.whl
+[2023-06-19 14:11:10] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2023-06-19 14:11:10] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.0.1.tar.gz tmp/microdata_tools-0.1.0.tar.gz --markdown 20230619/m/microdata-tools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 14:11:11] INFO root fetch - processPackages [jira2json]: executing diffoscope
+[2023-06-19 14:11:11] INFO root fetch - processPackages [jira2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira2json-0.1.1-py3-none-any.whl.zip tmp/jira2json-0.1.2-py3-none-any.whl.zip --markdown 20230619/j/jira2json/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 14:11:11] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/4a/8f/87fba59f362778eaedd6ad756178239805b5fff2a8680227848e0e98bae0/genepierre-0.0.3.tar.gz
+[2023-06-19 14:11:11] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 14:11:11] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.2.tar.gz tmp/genepierre-0.0.3.tar.gz --markdown 20230619/g/genepierre/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 14:11:11] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-06-19 14:11:11] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-06-19 14:11:11] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-06-19 14:11:12] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.0.1.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.1.0.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2023-06-19 14:11:12] INFO root fetch - processPackages [jira2json]: Remove: archive file [/home/abi/fetcher/tmp/jira2json-0.1.1-py3-none-any.whl.zip]
+[2023-06-19 14:11:12] INFO root fetch - processPackages [jira2json]: Remove: archive file [/home/abi/fetcher/tmp/jira2json-0.1.2-py3-none-any.whl.zip]
+[2023-06-19 14:11:12] INFO root fetch - main [MainThread]: End processing [jira2json]: success
+[2023-06-19 14:11:12] INFO root fetch - processPackages [certipy-ad]: Remove: archive file [/home/abi/fetcher/tmp/certipy-ad-4.5.0.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - processPackages [certipy-ad]: Remove: archive file [/home/abi/fetcher/tmp/certipy-ad-4.5.1.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - main [MainThread]: End processing [certipy-ad]: success
+[2023-06-19 14:11:12] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.2.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.3.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 14:11:12] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.70.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.71.tar.gz]
+[2023-06-19 14:11:12] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-19 14:11:13] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.7.tar.gz]
+[2023-06-19 14:11:13] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.8.tar.gz]
+[2023-06-19 14:11:13] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-19 14:11:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9174911844893.tar.gz]
+[2023-06-19 14:11:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9175313495131.tar.gz]
+[2023-06-19 14:11:16] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-19 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-19 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-19 14:11:17] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-19 14:11:17] INFO root fetch - main [MainThread]: Store serial: [18559378]
