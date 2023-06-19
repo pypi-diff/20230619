@@ -20427,3 +20427,149 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:27:03] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.0.tar.gz]
 [2023-06-19 16:27:03] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
 [2023-06-19 16:27:03] INFO root fetch - main [MainThread]: Store serial: [18561034]
+[2023-06-19 16:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561034]
+[2023-06-19 16:32:12] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ycv
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysqlx
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyerk
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-releaser
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkit
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DKCloudCommand
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbex
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marionette-predeployed
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cs-models
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ycv]: New version: [0.0.dev5] Old Version: [0.0.dev4]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [symbex]: New version: [0.3] Old Version: [0.2.1]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [mysqlx]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/35/ea/fc8feb572bed268f2379ef42dda7723b52c5475496e06a756d9f5932d6ad/symbex-0.2.1.tar.gz
+[2023-06-19 16:32:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202306191021] Old Version: [99.0.202306190949]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [pyerk]: New version: [0.8.5] Old Version: [0.6.5]
+[2023-06-19 16:32:12] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/37/e7/8abdb39b3b4bbb6b5d222597497658c9985dd97eba0d48886fe58df34857/ycv-0.0.dev4.tar.gz
+[2023-06-19 16:32:12] INFO root fetch - processPackages [jupyter-releaser]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-19 16:32:13] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-19 16:32:13] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/5b/fe/3538e18172c1c18bede347a261592acf0e2963e2b3c8094f46138f5e2553/mysqlx-1.2.5.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.274rc1] Old Version: [1.1.274]
+[2023-06-19 16:32:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/22/e0/b2c42cb462a7423e82df89e650469d293b8fdcfb927239e27d97a572a426/kcli-99.0.202306190949-py3-none-any.whl
+[2023-06-19 16:32:13] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-19 16:32:13] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/b5/f8/bfde912041c9059a41f5c2c8cd94407022ebbb283fe9e028f708cde6968b/mysqlx-1.2.8.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/88/52/7171cf47500759761f98b655e1d797232e8a9f187f9ff26ffc61d6924001/DKCloudCommand-1.1.274-py2.py3-none-any.whl
+[2023-06-19 16:32:13] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/b6/b5/e0b0965108f4427d55a7d0eea2adda0601e7e1afb143f5e3352d18fac412/symbex-0.3.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [pyerk]: Downloading https://files.pythonhosted.org/packages/fe/a2/43554102fdf4cf355424576b79896275be9b2dee31091719089cbd877032/pyerk-0.6.5.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [jupyter-releaser]: Downloading https://files.pythonhosted.org/packages/bd/8c/20e46d49c21a42619e92db88ce765bd4fcd5a8a77350168a4f9b6c13dbdf/jupyter_releaser-1.1.5.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/fa/3a/1aa92222be57699495c2a4a69a27a32d61874dff2149e6d741e663b11e6d/kcli-99.0.202306191021-py3-none-any.whl
+[2023-06-19 16:32:13] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/cb/c3/54a2dcc5ff1fd08ed8038f4febaf3769a2f7887f091fc9d77f31929412d2/ycv-0.0.dev5.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.2.5.tar.gz tmp/mysqlx-1.2.8.tar.gz --markdown 20230619/m/mysqlx/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230619/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.2.1.tar.gz tmp/symbex-0.3.tar.gz --markdown 20230619/s/symbex/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306190949-py3-none-any.whl.zip tmp/kcli-99.0.202306191021-py3-none-any.whl.zip --markdown 20230619/k/kcli/99.0.202306190949-99.0.202306191021/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [ycv]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [ycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycv-0.0.dev4.tar.gz tmp/ycv-0.0.dev5.tar.gz --markdown 20230619/y/ycv/0.0.dev4-0.0.dev5/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/cc/94/274e582bdc6db19569e0990666b72bf60dfc50c7c0b1e82165846370913c/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl
+[2023-06-19 16:32:13] INFO root fetch - processPackages [pyerk]: Downloading https://files.pythonhosted.org/packages/72/dc/06b190d828f659ae09b34eddfad07678350879ad31c241b95ef9f6e0a84c/pyerk-0.8.5.tar.gz
+[2023-06-19 16:32:13] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230619/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230619/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.274-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl.zip --markdown 20230619/D/DKCloudCommand/1.1.274-1.1.274rc1/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [pyerk]: executing diffoscope
+[2023-06-19 16:32:13] INFO root fetch - processPackages [pyerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerk-0.6.5.tar.gz tmp/pyerk-0.8.5.tar.gz --markdown 20230619/p/pyerk/0.6.5-0.8.5/diff.md --exclude *.pyd
+[2023-06-19 16:32:13] INFO root fetch - processPackages [jupyter-releaser]: Downloading https://files.pythonhosted.org/packages/c7/b3/2586f462fadddece7612701eb4d724f99f64a4a8811877f6107bf0c4b10a/jupyter_releaser-1.1.6.tar.gz
+[2023-06-19 16:32:14] INFO root fetch - processPackages [jupyter-releaser]: executing diffoscope
+[2023-06-19 16:32:14] INFO root fetch - processPackages [jupyter-releaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_releaser-1.1.5.tar.gz tmp/jupyter_releaser-1.1.6.tar.gz --markdown 20230619/j/jupyter-releaser/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-19 16:32:15] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.5.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.8.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [mysqlx]: Start processing: pytest-check-links
+[2023-06-19 16:32:15] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-19 16:32:15] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.2.1.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.3.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [symbex]: Start processing: ethoscopy
+[2023-06-19 16:32:15] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-19 16:32:15] INFO root fetch - processPackages [pytest-check-links]: New version: [4.3.3] Old Version: [0.9.0]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev4.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev5.tar.gz]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ycv]: Start processing: meow-sim
+[2023-06-19 16:32:15] INFO root fetch - main [MainThread]: End processing [ycv]: success
+[2023-06-19 16:32:15] INFO root fetch - processPackages [meow-sim]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ethoscopy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-19 16:32:15] INFO root fetch - processPackages [pytest-check-links]: Downloading https://files.pythonhosted.org/packages/a8/8a/9b9699bbafdaaca86c7bdf0c1df4e6ddb7ad9dfc44439d50fba852700de7/pytest_check_links-0.9.0.tar.gz
+[2023-06-19 16:32:15] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/ad/57/17c79a00fde32deae406db45ac4fecd956f75931cd5c5263a0c053085290/meow-sim-0.6.2.tar.gz
+[2023-06-19 16:32:15] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/39/76/da1ec2d1e58ab6260b38aeafb32f16014db55bb291ab77d4b6ccf49c4873/meow-sim-0.6.3.tar.gz
+[2023-06-19 16:32:15] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-19 16:32:15] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.6.2.tar.gz tmp/meow-sim-0.6.3.tar.gz --markdown 20230619/m/meow-sim/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/8d/ec/d288e809a8195ca8ebeae40e90cb22dfb979d62ac9fd0e5867fa8520ecfa/ethoscopy-1.2.8.tar.gz
+[2023-06-19 16:32:15] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13474154>=10485760
+[2023-06-19 16:32:15] INFO root fetch - processPackages [ethoscopy]: Start processing: console-game
+[2023-06-19 16:32:15] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2023-06-19 16:32:15] INFO root fetch - processPackages [pytest-check-links]: Downloading https://files.pythonhosted.org/packages/72/4f/7df6d12cb3c6b58ad7cc151d9a638b92d2d27b70f175ae56b2ec33fffefb/pytest_check_links-4.3.3.tar.gz
+[2023-06-19 16:32:15] WARNING root fetch - processPackages [console-game]: Skipping, unable to determine old version
+[2023-06-19 16:32:15] INFO root fetch - processPackages [console-game]: Start processing: spaces
+[2023-06-19 16:32:15] INFO root fetch - main [MainThread]: End processing [console-game] error
+[2023-06-19 16:32:16] INFO root fetch - processPackages [pytest-check-links]: executing diffoscope
+[2023-06-19 16:32:16] INFO root fetch - processPackages [pytest-check-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_check_links-0.9.0.tar.gz tmp/pytest_check_links-4.3.3.tar.gz --markdown 20230619/p/pytest-check-links/0.9.0-4.3.3/diff.md --exclude *.pyd
+[2023-06-19 16:32:16] INFO root fetch - processPackages [spaces]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [cs-models]: Start processing: PySwitchbot
+[2023-06-19 16:32:16] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-19 16:32:16] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/b8/93/5695c3bc7ace07c375dcf2a97082537f8bdfa5230b0c8387f0ad4d52d44c/spaces-0.2.1.tar.gz
+[2023-06-19 16:32:16] INFO root fetch - processPackages [PySwitchbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.274-py2.py3-none-any.whl.zip]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.274rc1-py2.py3-none-any.whl.zip]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [DKCloudCommand]: Start processing: dadosSPF
+[2023-06-19 16:32:16] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-06-19 16:32:16] INFO root fetch - processPackages [dadosSPF]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/e9/4b/9bbac9314637406aa289c1e02592b8602cc93287c0facbdbfcfaf610debd/spaces-0.3.0.tar.gz
+[2023-06-19 16:32:16] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/50/2f/2eddd905a4a806273b8a9b3b5a2f0c654d14b9c711bd45f46edad164658b/PySwitchbot-0.9.0.tar.gz
+[2023-06-19 16:32:16] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-06-19 16:32:16] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-06-19 16:32:16] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-06-19 16:32:16] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-06-19 16:32:16] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.2.1.tar.gz tmp/spaces-0.3.0.tar.gz --markdown 20230619/s/spaces/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 16:32:16] INFO root fetch - processPackages [dadosSPF]: Downloading https://files.pythonhosted.org/packages/6f/a7/2b8890800a0da187e923fe47bd6be81f518ff51c4b9baaa4ba956bfae029/dadosSPF-1.0.1.tar.gz
+[2023-06-19 16:32:16] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/4a/1d/17c4cb72d46152f50691f8ba5980eed9f8bb866cafbddd81e36af447c21d/PySwitchbot-0.9.1.tar.gz
+[2023-06-19 16:32:17] INFO root fetch - processPackages [dadosSPF]: Downloading https://files.pythonhosted.org/packages/e1/6a/815871f6e21c6f4d6090fab3e782b0122f0672af39f75b1405f17283eb86/dadosSPF-1.0.2.tar.gz
+[2023-06-19 16:32:17] INFO root fetch - processPackages [PySwitchbot]: executing diffoscope
+[2023-06-19 16:32:17] INFO root fetch - processPackages [PySwitchbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySwitchbot-0.9.0.tar.gz tmp/PySwitchbot-0.9.1.tar.gz --markdown 20230619/P/PySwitchbot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 16:32:17] INFO root fetch - processPackages [dadosSPF]: executing diffoscope
+[2023-06-19 16:32:17] INFO root fetch - processPackages [dadosSPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadosSPF-1.0.1.tar.gz tmp/dadosSPF-1.0.2.tar.gz --markdown 20230619/d/dadosSPF/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 16:32:17] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.2.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.3.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-19 16:32:17] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-19 16:32:17] INFO root fetch - processPackages [pytest-check-links]: Remove: archive file [/home/abi/fetcher/tmp/pytest_check_links-0.9.0.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - processPackages [pytest-check-links]: Remove: archive file [/home/abi/fetcher/tmp/pytest_check_links-4.3.3.tar.gz]
+[2023-06-19 16:32:17] INFO root fetch - main [MainThread]: End processing [pytest-check-links]: success
+[2023-06-19 16:32:18] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.2.1.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.3.0.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-06-19 16:32:18] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.0.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.1.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - main [MainThread]: End processing [PySwitchbot]: success
+[2023-06-19 16:32:18] INFO root fetch - processPackages [dadosSPF]: Remove: archive file [/home/abi/fetcher/tmp/dadosSPF-1.0.1.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - processPackages [dadosSPF]: Remove: archive file [/home/abi/fetcher/tmp/dadosSPF-1.0.2.tar.gz]
+[2023-06-19 16:32:18] INFO root fetch - main [MainThread]: End processing [dadosSPF]: success
+[2023-06-19 16:32:19] INFO root fetch - processPackages [pyerk]: Remove: archive file [/home/abi/fetcher/tmp/pyerk-0.6.5.tar.gz]
+[2023-06-19 16:32:19] INFO root fetch - processPackages [pyerk]: Remove: archive file [/home/abi/fetcher/tmp/pyerk-0.8.5.tar.gz]
+[2023-06-19 16:32:19] INFO root fetch - main [MainThread]: End processing [pyerk]: success
+[2023-06-19 16:32:20] INFO root fetch - processPackages [jupyter-releaser]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_releaser-1.1.5.tar.gz]
+[2023-06-19 16:32:20] INFO root fetch - processPackages [jupyter-releaser]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_releaser-1.1.6.tar.gz]
+[2023-06-19 16:32:20] INFO root fetch - main [MainThread]: End processing [jupyter-releaser]: success
+[2023-06-19 16:32:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306190949-py3-none-any.whl.zip]
+[2023-06-19 16:32:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191021-py3-none-any.whl.zip]
+[2023-06-19 16:32:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-19 16:32:21] INFO root fetch - main [MainThread]: Store serial: [18561083]
