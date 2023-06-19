@@ -18841,3 +18841,205 @@ EOFError: EOF read where object expected
 [2023-06-19 15:32:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
 [2023-06-19 15:32:14] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
 [2023-06-19 15:32:14] INFO root fetch - main [MainThread]: Store serial: [18560424]
+[2023-06-19 15:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560424]
+[2023-06-19 15:37:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galaxygrad
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crosslingual-coreference
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botfleet
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eFISHent
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bicm
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepchem
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skmetpy
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polywrap-msgpack
+[2023-06-19 15:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchem
+[2023-06-19 15:37:23] INFO root fetch - processPackages [bicm]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [crosslingual-coreference]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [skmetpy]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [botfleet]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [eFISHent]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [galaxygrad]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 15:37:23] INFO root fetch - processPackages [polywrap-msgpack]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-19 15:37:24] INFO root fetch - processPackages [cg]: New version: [36.3.0] Old Version: [36.2.7]
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230619133609] Old Version: [2.7.2.dev20230619133526]
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230619133609] Old Version: [2.7.2.dev20230619133526]
+[2023-06-19 15:37:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/62/25/a9d1342841c1790fd9937dc10f610190bc7bef53c5a91fa6bc59bf7342fe/skmetpy-0.1.2.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/32/46/84407468d0209dacd5814ae331721bbea2a64d36aa18f1d625d927c2af5d/cg-36.2.7.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/64/aa/a4ed22f4b6f335769968ea42458aaccd7b2e9197af3aea3e0b41b959e52b/polywrap_msgpack-0.1.0a8.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [galaxygrad]: Downloading https://files.pythonhosted.org/packages/3b/cf/16d58fbd91c38e8820a33be480500c0fed754ebf2d3b53ff495dd6369b60/galaxygrad-0.0.6.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [botfleet]: Downloading https://files.pythonhosted.org/packages/e4/a5/daaa21929efd6e1060ca296547faec9cd19c73b7a46b3c35328da5b6bf41/botfleet-0.0.4-py3-none-any.whl
+[2023-06-19 15:37:24] INFO root fetch - processPackages [bicm]: Downloading https://files.pythonhosted.org/packages/06/6e/1857d189cb82088499e8f0c023cb1bae550b2643b7a45adcad2f1b722157/bicm-3.0.1.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [crosslingual-coreference]: Downloading https://files.pythonhosted.org/packages/d9/50/2bc3c2f5a5a717e2e22e278d89600460051fb347675a2db604490226dcee/crosslingual_coreference-0.3.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/fd/d3/10393dc6d5c4cb086c1bf18dd630b382fd57d156944cfbe51f27438d8ef5/deepchem-2.7.2.dev20230619133526.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/fd/d3/10393dc6d5c4cb086c1bf18dd630b382fd57d156944cfbe51f27438d8ef5/deepchem-2.7.2.dev20230619133526.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [eFISHent]: Downloading https://files.pythonhosted.org/packages/ae/4b/c1fc2fecd6f2e011b5f0fa20af95deb154940dbcbc75c0b64da28fad7596/eFISHent-0.0.4.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/f5/e7/9acac563c1933244fee01221e1a4a327fcdf3dc200dbb47bafd8df87b4c6/polywrap_msgpack-0.1.0a9.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [polywrap-msgpack]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [polywrap-msgpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_msgpack-0.1.0a8.tar.gz tmp/polywrap_msgpack-0.1.0a9.tar.gz --markdown 20230619/p/polywrap-msgpack/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/a9/d5/d6830035f259400a696fd13bbb8295a3b344b8c91daca32d88f8c0b7008e/skmetpy-0.1.6.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/05/68741d974e0cd10678b0fbd46d9153a2b50b65f4ba21eb3a3437b4ab3f24/cg-36.3.0.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.1.2.tar.gz tmp/skmetpy-0.1.6.tar.gz --markdown 20230619/s/skmetpy/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [botfleet]: Downloading https://files.pythonhosted.org/packages/d2/a1/081307f040466db514adbccf1e5d974b0e8b8d2b1c2224f3e1eaa56eb89b/botfleet-0.0.5-py3-none-any.whl
+[2023-06-19 15:37:24] INFO root fetch - processPackages [crosslingual-coreference]: Downloading https://files.pythonhosted.org/packages/81/a0/7dca701ec4ad2eef0df1de5d5952dbae2c4c86ade79fb9a4e23bd36dd1d4/crosslingual-coreference-0.3.1.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [bicm]: Downloading https://files.pythonhosted.org/packages/49/e3/ac144544f31a824f8d9655fc3f6e6afaa2bd0f4c99f1a12f5be0516f7764/bicm-3.0.2.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [bicm]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [bicm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicm-3.0.1.tar.gz tmp/bicm-3.0.2.tar.gz --markdown 20230619/b/bicm/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [botfleet]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [botfleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botfleet-0.0.4-py3-none-any.whl.zip tmp/botfleet-0.0.5-py3-none-any.whl.zip --markdown 20230619/b/botfleet/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [eFISHent]: Downloading https://files.pythonhosted.org/packages/83/76/80891af507e5cf883195304428ab91e5905b65e772fac2095225636fd738/eFISHent-0.0.5.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [crosslingual-coreference]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [crosslingual-coreference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslingual_coreference-0.3.tar.gz tmp/crosslingual-coreference-0.3.1.tar.gz --markdown 20230619/c/crosslingual-coreference/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.7.tar.gz tmp/cg-36.3.0.tar.gz --markdown 20230619/c/cg/36.2.7-36.3.0/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/96/64/8b2ab9b2f65432306d4199f490efe6f5cebf2f65039e9a79b7f1d0df1302/deepchem-2.7.2.dev20230619133609.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/96/64/8b2ab9b2f65432306d4199f490efe6f5cebf2f65039e9a79b7f1d0df1302/deepchem-2.7.2.dev20230619133609.tar.gz
+[2023-06-19 15:37:24] INFO root fetch - processPackages [eFISHent]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [eFISHent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFISHent-0.0.4.tar.gz tmp/eFISHent-0.0.5.tar.gz --markdown 20230619/e/eFISHent/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-06-19 15:37:24] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230619133526.tar.gz tmp/deepchem-2.7.2.dev20230619133609.tar.gz --markdown 20230619/d/deepchem/2.7.2.dev20230619133526-2.7.2.dev20230619133609/diff.md --exclude *.pyd
+[2023-06-19 15:37:25] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-06-19 15:37:25] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230619133526.tar.gz tmp/deepchem-2.7.2.dev20230619133609.tar.gz --markdown 20230619/d/deepchem/2.7.2.dev20230619133526-2.7.2.dev20230619133609/diff.md --exclude *.pyd
+[2023-06-19 15:37:25] INFO root fetch - processPackages [galaxygrad]: Downloading https://files.pythonhosted.org/packages/ca/ec/80a647826b7c0192a738a5864a1067630b9b0465c1351258dffbb9702c65/galaxygrad-0.0.7.tar.gz
+[2023-06-19 15:37:25] WARNING root fetch - processPackages [galaxygrad]: Skipping package: exceeds size limit 19441351>=10485760
+[2023-06-19 15:37:25] INFO root fetch - processPackages [galaxygrad]: Start processing: cosmian-py-ggml
+[2023-06-19 15:37:25] INFO root fetch - main [MainThread]: End processing [galaxygrad] error
+[2023-06-19 15:37:25] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-19 15:37:25] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a8.tar.gz]
+[2023-06-19 15:37:25] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a9.tar.gz]
+[2023-06-19 15:37:25] INFO root fetch - processPackages [polywrap-msgpack]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-06-19 15:37:25] INFO root fetch - main [MainThread]: End processing [polywrap-msgpack]: success
+[2023-06-19 15:37:25] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-06-19 15:37:25] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/0f/52/5d14b8efbbf6f7224cbae582a3e5c4fe0f8ec07f53d1ead81c460c32d079/cosmian_py_ggml-0.4.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 15:37:25] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-06-19 15:37:26] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.2.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.6.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [skmetpy]: Start processing: odoo14-addon-shopfloor
+[2023-06-19 15:37:26] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/1b/ab/3955c3155c20d49b92ae6ace684cc4bb066f3a78ff93a3e67152d680dcf4/cosmian_py_ggml-0.5.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-06-19 15:37:26] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-06-19 15:37:26] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-0.4.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-0.5.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230619/c/cosmian-py-ggml/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 15:37:26] INFO root fetch - processPackages [botfleet]: Remove: archive file [/home/abi/fetcher/tmp/botfleet-0.0.4-py3-none-any.whl.zip]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [botfleet]: Remove: archive file [/home/abi/fetcher/tmp/botfleet-0.0.5-py3-none-any.whl.zip]
+[2023-06-19 15:37:26] INFO root fetch - main [MainThread]: End processing [botfleet]: success
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-06-19 15:37:26] INFO root fetch - processPackages [crosslingual-coreference]: Remove: archive file [/home/abi/fetcher/tmp/crosslingual_coreference-0.3.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [crosslingual-coreference]: Remove: archive file [/home/abi/fetcher/tmp/crosslingual-coreference-0.3.1.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - main [MainThread]: End processing [crosslingual-coreference]: success
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-06-19 15:37:26] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-06-19 15:37:26] INFO root fetch - processPackages [bicm]: Remove: archive file [/home/abi/fetcher/tmp/bicm-3.0.1.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - processPackages [bicm]: Remove: archive file [/home/abi/fetcher/tmp/bicm-3.0.2.tar.gz]
+[2023-06-19 15:37:26] INFO root fetch - main [MainThread]: End processing [bicm]: success
+[2023-06-19 15:37:28] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-06-19 15:37:28] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-06-19 15:37:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-06-19 15:37:28] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230619133526.tar.gz]
+[2023-06-19 15:37:28] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230619133609.tar.gz]
+[2023-06-19 15:37:28] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-06-19 15:37:28] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-19 15:37:28] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-06-19 15:37:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-06-19 15:37:29] INFO root fetch - processPackages [eFISHent]: Remove: archive file [/home/abi/fetcher/tmp/eFISHent-0.0.4.tar.gz]
+[2023-06-19 15:37:29] INFO root fetch - processPackages [eFISHent]: Remove: archive file [/home/abi/fetcher/tmp/eFISHent-0.0.5.tar.gz]
+[2023-06-19 15:37:29] INFO root fetch - main [MainThread]: End processing [eFISHent]: success
+[2023-06-19 15:37:29] ERROR root fetch - processPackages [deepchem]: Diffoscope failed: gzip: tmp/deepchem-2.7.2.dev20230619133609.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/deepchem-2.7.2.dev20230619133609.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-19 15:37:29] INFO root fetch - main [MainThread]: End processing [deepchem] error
+[2023-06-19 15:37:32] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-0.4.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 15:37:32] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-0.5.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 15:37:32] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-06-19 15:37:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.7.tar.gz]
+[2023-06-19 15:37:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.3.0.tar.gz]
+[2023-06-19 15:37:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-19 15:37:41] INFO root fetch - main [MainThread]: Store serial: [18560462]
