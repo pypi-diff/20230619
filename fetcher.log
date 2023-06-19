@@ -5681,3 +5681,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:59:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-19 04:59:17] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-19 04:59:17] INFO root fetch - main [MainThread]: Store serial: [18555165]
+[2023-06-19 05:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555165]
+[2023-06-19 05:04:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xgboost
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ortega
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AMAS-sb
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memv
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebookmaker
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heaobject
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AutoFun
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypermea
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xgo-pythonlib
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ortega]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [xgboost]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [rebookmaker]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [AMAS-sb]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [memv]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-06-19 05:04:26] WARNING root fetch - processPackages [hypermea]: Skipping, unable to determine old version
+[2023-06-19 05:04:26] INFO root fetch - main [MainThread]: End processing [hypermea] error
+[2023-06-19 05:04:26] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/5f/5d/a005fe76edfc2356b18a37a2c3d88a1044b4bc43a2c47458859730c93ce1/rebookmaker-0.8.8.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/d6/66/a869b35010da05e80912daf9615d712ad673d992738c985cecf993504fcd/memv-0.0.4.2.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [xgo-pythonlib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-19 05:04:26] INFO root fetch - processPackages [xgboost]: Downloading https://files.pythonhosted.org/packages/08/44/65ef54bf0ed613c955cbcada4f22959cae94b3c5c9e223e75734d0e7caf2/xgboost-1.7.5.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/91/89/d8611a1cf6a6db655013bf50e54adbd6e22170881829c0740954d3a556bf/ortega-1.0.3.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/92/3d/444d4d49b8718ce5c4d8bb5acc3ae21c8abc01d0e27b62c51b82084aca17/AMAS-sb-0.0.4.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/80/d4/ac8073aac7500315d01b64bcdcef1ff4d9929a6bb0a91908666ee5705baf/memv-0.0.4.3.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-06-19 05:04:26] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230619/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-19 05:04:26] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/29/21/de4c90f990964afd135bb95ad8f38f1a100b2022ef9650d99494f5af7514/rebookmaker-0.8.9.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/dd/4b/455041429c6a66554307b5dbe180a6685fb21f90127d6a130c08d5644393/xgo-pythonlib-0.1.7.tar.gz
+[2023-06-19 05:04:26] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 05:04:26] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.2.tar.gz tmp/memv-0.0.4.3.tar.gz --markdown 20230619/m/memv/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-06-19 05:04:26] INFO root fetch - processPackages [rebookmaker]: executing diffoscope
+[2023-06-19 05:04:26] INFO root fetch - processPackages [rebookmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebookmaker-0.8.8.tar.gz tmp/rebookmaker-0.8.9.tar.gz --markdown 20230619/r/rebookmaker/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-19 05:04:26] INFO root fetch - processPackages [xgboost]: Downloading https://files.pythonhosted.org/packages/19/fe/327b4a56ef3e3843b97537ff60381cc4d57a8be7ee99375a8710ee690cb2/xgboost-1.7.6.tar.gz
+[2023-06-19 05:04:27] INFO root fetch - processPackages [xgboost]: executing diffoscope
+[2023-06-19 05:04:27] INFO root fetch - processPackages [xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgboost-1.7.5.tar.gz tmp/xgboost-1.7.6.tar.gz --markdown 20230619/x/xgboost/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-06-19 05:04:27] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/43/8a/519f15a9423f54f090b284e125ebb49c2ebf36ab793a89e02df69d6b37c7/ortega-1.0.4.tar.gz
+[2023-06-19 05:04:27] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-19 05:04:27] INFO root fetch - processPackages [ortega]: executing diffoscope
+[2023-06-19 05:04:27] INFO root fetch - processPackages [ortega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortega-1.0.3.tar.gz tmp/ortega-1.0.4.tar.gz --markdown 20230619/o/ortega/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 05:04:27] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23248227>=10485760
+[2023-06-19 05:04:27] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-19 05:04:27] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/76/5b/3c88c3c47f7f59b4e1eae1c74075962ac0fceb157dcccdf801aad35aa8b6/xgo-pythonlib-0.1.8.tar.gz
+[2023-06-19 05:04:27] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-19 05:04:27] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-19 05:04:27] INFO root fetch - processPackages [xgo-pythonlib]: executing diffoscope
+[2023-06-19 05:04:27] INFO root fetch - processPackages [xgo-pythonlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgo-pythonlib-0.1.7.tar.gz tmp/xgo-pythonlib-0.1.8.tar.gz --markdown 20230619/x/xgo-pythonlib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-19 05:04:28] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.2.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.3.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 05:04:28] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.8.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.9.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - main [MainThread]: End processing [rebookmaker]: success
+[2023-06-19 05:04:28] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.3.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.4.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - main [MainThread]: End processing [ortega]: success
+[2023-06-19 05:04:28] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.1.7.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.1.8.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - main [MainThread]: End processing [xgo-pythonlib]: success
+[2023-06-19 05:04:28] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a8.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a9.tar.gz]
+[2023-06-19 05:04:28] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-06-19 05:04:31] INFO root fetch - processPackages [xgboost]: Remove: archive file [/home/abi/fetcher/tmp/xgboost-1.7.5.tar.gz]
+[2023-06-19 05:04:31] INFO root fetch - processPackages [xgboost]: Remove: archive file [/home/abi/fetcher/tmp/xgboost-1.7.6.tar.gz]
+[2023-06-19 05:04:31] INFO root fetch - main [MainThread]: End processing [xgboost]: success
+[2023-06-19 05:04:31] INFO root fetch - main [MainThread]: Store serial: [18555193]
