@@ -7200,3 +7200,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:50:55] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.6.tar.gz]
 [2023-06-19 06:50:55] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
 [2023-06-19 06:50:55] INFO root fetch - main [MainThread]: Store serial: [18555822]
+[2023-06-19 06:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555822]
+[2023-06-19 06:56:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-19 06:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EntityNormalizer
+[2023-06-19 06:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-client
+[2023-06-19 06:56:05] INFO root fetch - processPackages [qctrl-client]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-19 06:56:05] INFO root fetch - processPackages [EntityNormalizer]: New version: [0.1.0.post2] Old Version: [0.1.0.post1]
+[2023-06-19 06:56:05] INFO root fetch - processPackages [EntityNormalizer]: Downloading https://files.pythonhosted.org/packages/29/c3/09e10180a7c69603d38abd7f61665b621eff6c8817c4c690de00bc19afef/EntityNormalizer-0.1.0.post1.tar.gz
+[2023-06-19 06:56:05] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/16/51/3ab3f06c55f1c31ba19fa68fb31190faead082243e7eb0146a0c83cd779a/qctrl_client-7.0.0.tar.gz
+[2023-06-19 06:56:05] INFO root fetch - processPackages [EntityNormalizer]: Downloading https://files.pythonhosted.org/packages/6e/c0/0ac42845e86f42b775efe5a0f37db40f1554e1152baaa567ccf179d62247/EntityNormalizer-0.1.0.post2.tar.gz
+[2023-06-19 06:56:05] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/95/72/f53c2a103b482e02b646bd05915aadae7b67f9fb61e3afbb10c235cf202b/qctrl_client-7.0.1.tar.gz
+[2023-06-19 06:56:05] INFO root fetch - processPackages [EntityNormalizer]: executing diffoscope
+[2023-06-19 06:56:05] INFO root fetch - processPackages [EntityNormalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntityNormalizer-0.1.0.post1.tar.gz tmp/EntityNormalizer-0.1.0.post2.tar.gz --markdown 20230619/E/EntityNormalizer/0.1.0.post1-0.1.0.post2/diff.md --exclude *.pyd
+[2023-06-19 06:56:05] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-06-19 06:56:05] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-7.0.0.tar.gz tmp/qctrl_client-7.0.1.tar.gz --markdown 20230619/q/qctrl-client/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-19 06:56:06] INFO root fetch - processPackages [EntityNormalizer]: Remove: archive file [/home/abi/fetcher/tmp/EntityNormalizer-0.1.0.post1.tar.gz]
+[2023-06-19 06:56:06] INFO root fetch - processPackages [EntityNormalizer]: Remove: archive file [/home/abi/fetcher/tmp/EntityNormalizer-0.1.0.post2.tar.gz]
+[2023-06-19 06:56:06] INFO root fetch - main [MainThread]: End processing [EntityNormalizer]: success
+[2023-06-19 06:56:06] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.0.0.tar.gz]
+[2023-06-19 06:56:06] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.0.1.tar.gz]
+[2023-06-19 06:56:06] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-06-19 06:56:06] INFO root fetch - main [MainThread]: Store serial: [18555829]
