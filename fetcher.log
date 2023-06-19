@@ -5124,3 +5124,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:09:40] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.4.tar.gz]
 [2023-06-19 04:09:40] INFO root fetch - main [MainThread]: End processing [picogo]: success
 [2023-06-19 04:09:40] INFO root fetch - main [MainThread]: Store serial: [18554963]
+[2023-06-19 04:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554963]
+[2023-06-19 04:14:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyVolSuggester
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepdataspace
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memv
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: critical-node
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoFun
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autophot
+[2023-06-19 04:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trill-proteins
+[2023-06-19 04:14:48] INFO root fetch - processPackages [PyVolSuggester]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [critical-node]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [memv]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [deepdataspace]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/80/8b/656c3f44618747ce7388a1ff80eaf06ee1cae8e6da0478f07b92db1eb9eb/memv-0.0.4.1.tar.gz
+[2023-06-19 04:14:48] INFO root fetch - processPackages [trill-proteins]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [autophot]: New version: [0.9.0] Old Version: [0.10.1]
+[2023-06-19 04:14:48] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/91/a8/8c7bc4dc2ca0b7ed397cfc7dfe847ace7166acf481bb25a9e3fd8ff92111/pyvolsuggester-1.1.0.tar.gz
+[2023-06-19 04:14:48] INFO root fetch - processPackages [critical-node]: Downloading https://files.pythonhosted.org/packages/cf/b2/a1946af85c994ba1e03bd1383d31f38e41a69f166a2c61510b66aacfe9d3/critical_node-0.0.1.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/9a/d3/9339eb52c48f358dc6e43fbe24b5cc87bc40d16fe5cab0042895395d6137/deepdataspace-0.2.0.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/d3/48/ce25e1a73307e5e8747e329619c8a709b3118a0bf829b2da64e87cc7b93e/autophot-0.10.1-py2.py3-none-any.whl
+[2023-06-19 04:14:49] INFO root fetch - processPackages [trill-proteins]: Downloading https://files.pythonhosted.org/packages/85/1a/ff8f25cfcf75d377567bb2829a2f9bdb653096043d6b2d68482fea2f60f1/trill_proteins-1.3.8.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/d6/66/a869b35010da05e80912daf9615d712ad673d992738c985cecf993504fcd/memv-0.0.4.2.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [critical-node]: Downloading https://files.pythonhosted.org/packages/65/3a/3d644022cb6b068e2c73e4b086f18a43e737d2d0ebd8ac1da255273d2af1/critical_node-0.0.2.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/08/b7/579fce63af21025e48ecd34303626f4c31f591151b6165af2e719388d605/pyvolsuggester-1.1.1.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-06-19 04:14:49] WARNING root fetch - processPackages [trill-proteins]: Skipping package: exceeds size limit 17264557>=10485760
+[2023-06-19 04:14:49] INFO root fetch - main [MainThread]: End processing [trill-proteins] error
+[2023-06-19 04:14:49] INFO root fetch - processPackages [critical-node]: executing diffoscope
+[2023-06-19 04:14:49] INFO root fetch - processPackages [critical-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/critical_node-0.0.1.tar.gz tmp/critical_node-0.0.2.tar.gz --markdown 20230619/c/critical-node/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 04:14:49] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 04:14:49] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.1.tar.gz tmp/memv-0.0.4.2.tar.gz --markdown 20230619/m/memv/0.0.4.1-0.0.4.2/diff.md --exclude *.pyd
+[2023-06-19 04:14:49] INFO root fetch - processPackages [PyVolSuggester]: executing diffoscope
+[2023-06-19 04:14:49] INFO root fetch - processPackages [PyVolSuggester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvolsuggester-1.1.0.tar.gz tmp/pyvolsuggester-1.1.1.tar.gz --markdown 20230619/P/PyVolSuggester/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-19 04:14:49] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-06-19 04:14:49] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-06-19 04:14:49] INFO root fetch - processPackages [deepdataspace]: Downloading https://files.pythonhosted.org/packages/ce/40/ff7252be2533e0a0c1248e8ab9581682f5e8417300619cca3c33e058edba/deepdataspace-0.3.0.tar.gz
+[2023-06-19 04:14:49] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/fd/0e/679afe0e53a88bf10ea3290e434f0e59a5e85787cca74ca023f0c46dd62a/autophot-0.9.0-py2.py3-none-any.whl
+[2023-06-19 04:14:49] INFO root fetch - processPackages [autophot]: executing diffoscope
+[2023-06-19 04:14:49] INFO root fetch - processPackages [autophot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autophot-0.10.1-py2.py3-none-any.whl.zip tmp/autophot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230619/a/autophot/0.10.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 04:14:49] INFO root fetch - processPackages [deepdataspace]: executing diffoscope
+[2023-06-19 04:14:49] INFO root fetch - processPackages [deepdataspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdataspace-0.2.0.tar.gz tmp/deepdataspace-0.3.0.tar.gz --markdown 20230619/d/deepdataspace/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 04:14:50] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.1.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.2.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 04:14:50] INFO root fetch - processPackages [critical-node]: Remove: archive file [/home/abi/fetcher/tmp/critical_node-0.0.1.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - processPackages [critical-node]: Remove: archive file [/home/abi/fetcher/tmp/critical_node-0.0.2.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - main [MainThread]: End processing [critical-node]: success
+[2023-06-19 04:14:50] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-1.1.0.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-1.1.1.tar.gz]
+[2023-06-19 04:14:50] INFO root fetch - main [MainThread]: End processing [PyVolSuggester]: success
+[2023-06-19 04:14:51] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.10.1-py2.py3-none-any.whl.zip]
+[2023-06-19 04:14:51] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-06-19 04:14:51] INFO root fetch - main [MainThread]: End processing [autophot]: success
+[2023-06-19 04:15:24] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.2.0.tar.gz]
+[2023-06-19 04:15:24] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.3.0.tar.gz]
+[2023-06-19 04:15:24] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
+[2023-06-19 04:15:24] INFO root fetch - main [MainThread]: Store serial: [18554980]
