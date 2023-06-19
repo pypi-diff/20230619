@@ -18556,3 +18556,174 @@ EOFError: EOF read where object expected
 [2023-06-19 15:21:26] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-19 15:21:26] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-19 15:21:26] INFO root fetch - main [MainThread]: Store serial: [18560310]
+[2023-06-19 15:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560310]
+[2023-06-19 15:26:35] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmerator
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autumn8
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buteo
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pluralkit
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polywrap-test-cases
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hgutilities
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otpme
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mixture-experimentalist
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdating-common
+[2023-06-19 15:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gmm-mi
+[2023-06-19 15:26:35] INFO root fetch - processPackages [polywrap-test-cases]: New version: [0.1.0a32] Old Version: [0.1.0a31]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [kmerator]: New version: [0.8.3b0] Old Version: [0.8.2b0]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [autumn8]: New version: [1.1.0rc1] Old Version: [1.0.5rc9]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [gmm-mi]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [hgutilities]: New version: [1.0.8.5] Old Version: [1.0.8.4]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [mixture-experimentalist]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [pluralkit]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-19 15:26:35] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/e5/25/9389c8130ac9c7003a44d622f7fe318431807284dc9937a5db64886a4acd/polywrap_test_cases-0.1.0a31.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/4c/ce/15f44f8e44729eada73f4ee9fe4b96efcea81c90d17491998d5636e63de7/hgutilities-1.0.8.4.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/1b/2c/237ce16fad736cee04242871aed7f344073014209f4eb381749e25811c78/kmerator-0.8.2b0.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/01/7b/155d2906fbac13c64810b271df3ea0b74122d25a047d85fd0046c51403b3/gmm_mi-0.7.0.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/8d/7f/232095004c3ba98bf96a61dbede706dbdaf0f4d05867f7ccfc15e9b0b148/autumn8-1.0.5rc9.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [mixture-experimentalist]: Downloading https://files.pythonhosted.org/packages/d0/cd/a3eee234860a1ed723b8490fe65c885c7090b7b5ae4e97af754880eae183/mixture_experimentalist-1.0.0a1.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [pluralkit]: Downloading https://files.pythonhosted.org/packages/9a/8b/10d380b65390e62ae4d4c5901c2eccb2d494b970c1a9edecd73368282a64/pluralkit-1.1.2.tar.gz
+[2023-06-19 15:26:35] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/7e/ac/a81b5f0814cd8cd01dd76f57863b4bd41e91baa3b3ade8b7e3f09f31ee62/polywrap_test_cases-0.1.0a32.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/a5/16/706b2f5c3a2d6a6cb5cd6f48bff8f370715197d15aa5e85df145eb650108/hgutilities-1.0.8.5.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230619/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/ef/57/540280e8c7ec984257c1037e9d91a97a96268b8863aa721ec1efb786c505/kmerator-0.8.3b0.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230619/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [gmm-mi]: Downloading https://files.pythonhosted.org/packages/f6/19/dd9c23b150053f64369ae0861e96f96f79187f132fdfffb815871cf15b60/gmm_mi-0.7.1.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [polywrap-test-cases]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [polywrap-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_test_cases-0.1.0a31.tar.gz tmp/polywrap_test_cases-0.1.0a32.tar.gz --markdown 20230619/p/polywrap-test-cases/0.1.0a31-0.1.0a32/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [hgutilities]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [hgutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgutilities-1.0.8.4.tar.gz tmp/hgutilities-1.0.8.5.tar.gz --markdown 20230619/h/hgutilities/1.0.8.4-1.0.8.5/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [mixture-experimentalist]: Downloading https://files.pythonhosted.org/packages/4f/45/88b2e32267e5d848fe57e13323b4689ed68c9c53408950f0308bbc70f978/mixture_experimentalist-1.0.0a2.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [gmm-mi]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [gmm-mi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmm_mi-0.7.0.tar.gz tmp/gmm_mi-0.7.1.tar.gz --markdown 20230619/g/gmm-mi/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/52/cc/345be2e0ef037df3ca5c84275f14e188da8de1d4ee5921bb81f08d97d050/autumn8-1.1.0rc1.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [mixture-experimentalist]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [mixture-experimentalist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture_experimentalist-1.0.0a1.tar.gz tmp/mixture_experimentalist-1.0.0a2.tar.gz --markdown 20230619/m/mixture-experimentalist/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [kmerator]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [kmerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerator-0.8.2b0.tar.gz tmp/kmerator-0.8.3b0.tar.gz --markdown 20230619/k/kmerator/0.8.2b0-0.8.3b0/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [pluralkit]: Downloading https://files.pythonhosted.org/packages/db/e9/1ef9699507dd1b24192543ceedbc1f25a82b39e669b81089824aefea3c63/pluralkit-1.1.3.tar.gz
+[2023-06-19 15:26:36] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc9.tar.gz tmp/autumn8-1.1.0rc1.tar.gz --markdown 20230619/a/autumn8/1.0.5rc9-1.1.0rc1/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [pluralkit]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [pluralkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluralkit-1.1.2.tar.gz tmp/pluralkit-1.1.3.tar.gz --markdown 20230619/p/pluralkit/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-19 15:26:36] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-19 15:26:36] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230619/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 15:26:37] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a31.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a32.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [polywrap-test-cases]: Start processing: RIFT
+[2023-06-19 15:26:37] INFO root fetch - main [MainThread]: End processing [polywrap-test-cases]: success
+[2023-06-19 15:26:37] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.9rc4] Old Version: [0.0.15.9rc3]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/00/fa/1833137a22a5fe26bb3678d097eb6998ccbd8219c05f8fd837c169a9a3a7/RIFT-0.0.15.9rc3.tar.gz
+[2023-06-19 15:26:37] INFO root fetch - processPackages [kmerator]: Remove: archive file [/home/abi/fetcher/tmp/kmerator-0.8.2b0.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [kmerator]: Remove: archive file [/home/abi/fetcher/tmp/kmerator-0.8.3b0.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [kmerator]: Start processing: micawber
+[2023-06-19 15:26:37] INFO root fetch - main [MainThread]: End processing [kmerator]: success
+[2023-06-19 15:26:37] INFO root fetch - processPackages [mixture-experimentalist]: Remove: archive file [/home/abi/fetcher/tmp/mixture_experimentalist-1.0.0a1.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [mixture-experimentalist]: Remove: archive file [/home/abi/fetcher/tmp/mixture_experimentalist-1.0.0a2.tar.gz]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [mixture-experimentalist]: Start processing: openmetadata-ingestion
+[2023-06-19 15:26:37] INFO root fetch - main [MainThread]: End processing [mixture-experimentalist]: success
+[2023-06-19 15:26:37] INFO root fetch - processPackages [micawber]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-19 15:26:37] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.5.0] Old Version: [1.0.4.2]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [bdating-common]: Start processing: odoo12-addon-somconnexio
+[2023-06-19 15:26:38] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b3/b4/12c17bc5a1843290adcec4b525c5e8059629c84dab1b1e88e7a43b6fe9d2/openmetadata-ingestion-1.0.4.2.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [odoo12-addon-somconnexio]: New version: [12.0.2.3.0] Old Version: [12.0.2.2.2]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [pluralkit]: Remove: archive file [/home/abi/fetcher/tmp/pluralkit-1.1.2.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [pluralkit]: Remove: archive file [/home/abi/fetcher/tmp/pluralkit-1.1.3.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [pluralkit]: Start processing: openmetadata-managed-apis
+[2023-06-19 15:26:38] INFO root fetch - main [MainThread]: End processing [pluralkit]: success
+[2023-06-19 15:26:38] INFO root fetch - processPackages [micawber]: Downloading https://files.pythonhosted.org/packages/fa/10/a85c2cf54f011bfbb0f9f6a8206976db695d1725dc8a4199247b7e2b1138/micawber-0.5.4.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.5.0] Old Version: [1.0.4.2]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/a0/17/70674d630142db3bb226707253eaf7c214bad82a9aac442efdc704ea38f1/RIFT-0.0.15.9rc4.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/3a/be/219e76f16e4a1abf652915368ce2fd4d8e01cd73d24ee1b9984c04be1c33/openmetadata_managed_apis-1.0.4.2.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/93/ee/bfa1f8b026e408a794400d2599e75285dd1d529a6679c2f48a02fa4a6c3a/odoo12-addon-somconnexio-12.0.2.2.2.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.9rc3.tar.gz tmp/RIFT-0.0.15.9rc4.tar.gz --markdown 20230619/R/RIFT/0.0.15.9rc3-0.0.15.9rc4/diff.md --exclude *.pyd
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b0/f3/9b85e24bb280579ac1fc8bdc86957badce7fb62996643a7fcf7cb16dc8ba/openmetadata-ingestion-1.0.5.0.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [gmm-mi]: Remove: archive file [/home/abi/fetcher/tmp/gmm_mi-0.7.0.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [gmm-mi]: Remove: archive file [/home/abi/fetcher/tmp/gmm_mi-0.7.1.tar.gz]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [gmm-mi]: Start processing: modelagnostic-superior-training
+[2023-06-19 15:26:38] INFO root fetch - main [MainThread]: End processing [gmm-mi]: success
+[2023-06-19 15:26:38] INFO root fetch - processPackages [micawber]: Downloading https://files.pythonhosted.org/packages/ab/19/d72a97f879f6635ca61e699ff0104a62b8be1d46cc21bd904d07a338b6bf/micawber-0.5.5.tar.gz
+[2023-06-19 15:26:38] WARNING root fetch - processPackages [modelagnostic-superior-training]: Skipping, unable to determine old version
+[2023-06-19 15:26:38] INFO root fetch - processPackages [modelagnostic-superior-training]: Start processing: polywrap-wasm
+[2023-06-19 15:26:38] INFO root fetch - main [MainThread]: End processing [modelagnostic-superior-training] error
+[2023-06-19 15:26:38] INFO root fetch - processPackages [polywrap-wasm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.4.2.tar.gz tmp/openmetadata-ingestion-1.0.5.0.tar.gz --markdown 20230619/o/openmetadata-ingestion/1.0.4.2-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-19 15:26:38] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/d5/19/70a8edb0676461386210251f8bc9983269fc212d0b6664eee96fc5569f8c/polywrap_wasm-0.1.0a6.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [micawber]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [micawber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micawber-0.5.4.tar.gz tmp/micawber-0.5.5.tar.gz --markdown 20230619/m/micawber/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/50/95/6f7af2086f3db8ab068237e6531d3ac5f30c2997c6050cbe0cc269048e39/openmetadata_managed_apis-1.0.5.0.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/33/ce/604cf596c5fb5a9ff98e9d7ca38e4ae456a4495204e70de1d36ac7cc283d/odoo12-addon-somconnexio-12.0.2.3.0.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.4.2.tar.gz tmp/openmetadata_managed_apis-1.0.5.0.tar.gz --markdown 20230619/o/openmetadata-managed-apis/1.0.4.2-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-19 15:26:38] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/bc/38/6a2979eb32cadf6a2c76b0a2fe367656e24719f54d9e3669b52279b5e314/polywrap_wasm-0.1.0a7.tar.gz
+[2023-06-19 15:26:38] INFO root fetch - processPackages [odoo12-addon-somconnexio]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [odoo12-addon-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-somconnexio-12.0.2.2.2.tar.gz tmp/odoo12-addon-somconnexio-12.0.2.3.0.tar.gz --markdown 20230619/o/odoo12-addon-somconnexio/12.0.2.2.2-12.0.2.3.0/diff.md --exclude *.pyd
+[2023-06-19 15:26:38] INFO root fetch - processPackages [polywrap-wasm]: executing diffoscope
+[2023-06-19 15:26:38] INFO root fetch - processPackages [polywrap-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_wasm-0.1.0a6.tar.gz tmp/polywrap_wasm-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-wasm/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:26:39] INFO root fetch - processPackages [autumn8]: Remove: archive file [/home/abi/fetcher/tmp/autumn8-1.0.5rc9.tar.gz]
+[2023-06-19 15:26:39] INFO root fetch - processPackages [autumn8]: Remove: archive file [/home/abi/fetcher/tmp/autumn8-1.1.0rc1.tar.gz]
+[2023-06-19 15:26:39] INFO root fetch - processPackages [autumn8]: Start processing: unitxt
+[2023-06-19 15:26:39] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-06-19 15:26:39] WARNING root fetch - processPackages [unitxt]: Skipping, unable to determine old version
+[2023-06-19 15:26:39] INFO root fetch - processPackages [unitxt]: Start processing: polywrap-uri-resolvers
+[2023-06-19 15:26:39] INFO root fetch - main [MainThread]: End processing [unitxt] error
+[2023-06-19 15:26:39] INFO root fetch - processPackages [polywrap-uri-resolvers]: New version: [0.1.0a7] Old Version: [0.1.0a4]
+[2023-06-19 15:26:39] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/2c/46/59cd7487a08f88195b1cf4705c344a3af716b5c8bd5e02ef22249c41e709/polywrap_uri_resolvers-0.1.0a4.tar.gz
+[2023-06-19 15:26:39] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/82/07/71878f71cb68efff9c8db66617f1dbd64d80db7b068224716cb758920443/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl
+[2023-06-19 15:26:39] INFO root fetch - processPackages [polywrap-uri-resolvers]: executing diffoscope
+[2023-06-19 15:26:39] INFO root fetch - processPackages [polywrap-uri-resolvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip --markdown 20230619/p/polywrap-uri-resolvers/0.1.0a4-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:26:40] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [buteo]: Start processing: polywrap-client
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-client]: New version: [0.1.0a4] Old Version: [0.1.0a32]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.4.2.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.5.0.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a6.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a7.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [polywrap-wasm]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [micawber]: Remove: archive file [/home/abi/fetcher/tmp/micawber-0.5.4.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [micawber]: Remove: archive file [/home/abi/fetcher/tmp/micawber-0.5.5.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [micawber]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/94/b8/99eebcc8058703cbd45015f2dd1c291030a9de652fef48fb7ea7903abcf3/polywrap_client-0.1.0a32.tar.gz
+[2023-06-19 15:26:40] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.8.4.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.8.5.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [hgutilities]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/80/f8/5d300d6fcb2da426408599e055a752c0247c482e8dc308125ae1172d535b/polywrap_client-0.1.0a4.tar.gz
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz]
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip]
+[2023-06-19 15:26:40] INFO root fetch - main [MainThread]: End processing [polywrap-uri-resolvers]: success
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-client]: executing diffoscope
+[2023-06-19 15:26:40] INFO root fetch - processPackages [polywrap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_client-0.1.0a32.tar.gz tmp/polywrap_client-0.1.0a4.tar.gz --markdown 20230619/p/polywrap-client/0.1.0a32-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-19 15:26:41] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-19 15:26:41] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-19 15:26:41] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-19 15:26:41] INFO root fetch - processPackages [polywrap-client]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client-0.1.0a32.tar.gz]
+[2023-06-19 15:26:41] INFO root fetch - processPackages [polywrap-client]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client-0.1.0a4.tar.gz]
+[2023-06-19 15:26:41] INFO root fetch - main [MainThread]: End processing [polywrap-client]: success
+[2023-06-19 15:26:44] INFO root fetch - processPackages [RIFT]: Remove: archive file [/home/abi/fetcher/tmp/RIFT-0.0.15.9rc3.tar.gz]
+[2023-06-19 15:26:44] INFO root fetch - processPackages [RIFT]: Remove: archive file [/home/abi/fetcher/tmp/RIFT-0.0.15.9rc4.tar.gz]
+[2023-06-19 15:26:44] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-06-19 15:26:44] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.2.2.tar.gz]
+[2023-06-19 15:26:44] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.3.0.tar.gz]
+[2023-06-19 15:26:44] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
+[2023-06-19 15:27:00] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.4.2.tar.gz]
+[2023-06-19 15:27:00] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.5.0.tar.gz]
+[2023-06-19 15:27:00] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-19 15:27:00] INFO root fetch - main [MainThread]: Store serial: [18560373]
