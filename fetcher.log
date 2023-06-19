@@ -912,3 +912,72 @@
 [2023-06-19 02:00:32] WARNING root fetch - processPackages [yud102023]: Skipping, unable to determine old version
 [2023-06-19 02:00:32] INFO root fetch - main [MainThread]: End processing [yud102023] error
 [2023-06-19 02:00:32] INFO root fetch - main [MainThread]: Store serial: [18553416]
+[2023-06-19 02:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553416]
+[2023-06-19 02:05:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamutrf
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-sourcegraph-aws-executors
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchdatasets-nightly
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VLCDA
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bindata
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-06-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-api-key
+[2023-06-19 02:05:40] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [VLCDA]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687046624] Old Version: [1686960219]
+[2023-06-19 02:05:40] WARNING root fetch - processPackages [cdktf-sourcegraph-aws-executors]: Skipping, unable to determine old version
+[2023-06-19 02:05:40] INFO root fetch - main [MainThread]: End processing [cdktf-sourcegraph-aws-executors] error
+[2023-06-19 02:05:40] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-19 02:05:40] INFO root fetch - processPackages [flask-api-key]: New version: [0.2.2] Old Version: [0.2.12]
+[2023-06-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/06/b2ee212b34b0c8b829350c637e31930b5cbce18d51b8cf155508aa29f8b5/torchdatasets-nightly-1686960219.tar.gz
+[2023-06-19 02:05:40] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-19 02:05:40] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/0b/15/66adc86807632b1ddd03d4a0789c8988d9ef68dfc3e51810eeb69e6d5be0/VLCDA-1.0.3.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [flask-api-key]: Downloading https://files.pythonhosted.org/packages/28/05/7aad524f9827af414b2339af6a4dfacae42855d4dbb9da220aa878d0cb15/flask-api-key-0.2.12.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230619/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230619/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/f4/87/fc99b9d03ed06d85c592d71e7e164af7557e17e8f40fbf9066c039b74cc3/torchdatasets-nightly-1687046624.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [VLCDA]: Downloading https://files.pythonhosted.org/packages/d8/cc/b66618a4164523173488121af722ac96bc5d2318101ee84a94de58aa5efd/VLCDA-1.0.4.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230619/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [flask-api-key]: Downloading https://files.pythonhosted.org/packages/73/1b/61e6e05098d0dda04fce6c0c448c47013410f164db79d935a7e9d599c9b2/flask-api-key-0.2.2.tar.gz
+[2023-06-19 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686960219.tar.gz tmp/torchdatasets-nightly-1687046624.tar.gz --markdown 20230619/t/torchdatasets-nightly/1686960219-1687046624/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230619/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [VLCDA]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [VLCDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VLCDA-1.0.3.tar.gz tmp/VLCDA-1.0.4.tar.gz --markdown 20230619/V/VLCDA/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 02:05:41] INFO root fetch - processPackages [flask-api-key]: executing diffoscope
+[2023-06-19 02:05:41] INFO root fetch - processPackages [flask-api-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-api-key-0.2.12.tar.gz tmp/flask-api-key-0.2.2.tar.gz --markdown 20230619/f/flask-api-key/0.2.12-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-19 02:05:42] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.8.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.9.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-06-19 02:05:42] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-06-19 02:05:42] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.3.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - processPackages [VLCDA]: Remove: archive file [/home/abi/fetcher/tmp/VLCDA-1.0.4.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - main [MainThread]: End processing [VLCDA]: success
+[2023-06-19 02:05:42] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686960219.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687046624.tar.gz]
+[2023-06-19 02:05:42] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-19 02:05:43] INFO root fetch - processPackages [flask-api-key]: Remove: archive file [/home/abi/fetcher/tmp/flask-api-key-0.2.12.tar.gz]
+[2023-06-19 02:05:43] INFO root fetch - processPackages [flask-api-key]: Remove: archive file [/home/abi/fetcher/tmp/flask-api-key-0.2.2.tar.gz]
+[2023-06-19 02:05:43] INFO root fetch - main [MainThread]: End processing [flask-api-key]: success
+[2023-06-19 02:05:51] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-19 02:05:51] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-19 02:05:51] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-19 02:05:51] INFO root fetch - main [MainThread]: Store serial: [18553441]
