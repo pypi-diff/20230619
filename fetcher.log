@@ -17780,3 +17780,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:59:29] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.225.tar.gz]
 [2023-06-19 14:59:29] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
 [2023-06-19 14:59:29] INFO root fetch - main [MainThread]: Store serial: [18559929]
+[2023-06-19 15:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559929]
+[2023-06-19 15:04:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polywrap-manifest
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zerospeech-libriabx2
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polywrap-core
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rips
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-nova-utils
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpi-tools
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polywrap-plugin
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: concise-concepts
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polywrap-test-cases
+[2023-06-19 15:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drukarnia-api
+[2023-06-19 15:04:39] INFO root fetch - processPackages [zerospeech-libriabx2]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-manifest]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-test-cases]: New version: [0.1.0a31] Old Version: [0.1.0a30]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [cpi-tools]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [rips]: New version: [2023.6.0.1] Old Version: [2023.3.0.1]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [concise-concepts]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [hcai-nova-utils]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.9] Old Version: [0.1.75]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-core]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-plugin]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/7b/b1/1484222b63b3e1b70d597e65561606bde5651d540e5c9df28e9ab3dda02b/polywrap_core-0.1.0a7.tar.gz
+[2023-06-19 15:04:39] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/4d/8b/2d207352cd634facc4dfeb26e0941303dcf623a2ef171bbfb197cbd0a8e7/hcai-nova-utils-0.6.0.tar.gz
+[2023-06-19 15:04:39] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/bd/ad/433f095441ea6e98b2bc36c9c8a8e8a64eca8f66b26db7e7de6cc4413138/drukarnia-api-0.1.75.tar.gz
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/62/60/94225b3b5d1c6cc0aea345f15d37850dc2d1224a963ca29d228fde172f13/polywrap_manifest-0.1.0a7.tar.gz
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/f4/97/c10b8b5ec154f879d052ed84f0e13843a1e4cb1b409a21920a29cc9d2d41/polywrap_plugin-0.1.0a6.tar.gz
+[2023-06-19 15:04:39] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/e0/41/dd6e9b621e8fab505ac3195e91cc5235ec8ba414bd2e0d77c510caa03823/polywrap_test_cases-0.1.0a30.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/ea/38/ae84b8741117f3d6b82c1992b0362e1febcb8ca7b4578b243af32df33ee0/cpi_tools-0.2.5.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/b3/3c/5ba12e1bf0c9e5d66c6dab019c7fa21a48eb6897cc7e2a7f9138b9f02112/polywrap_plugin-0.1.0a7.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [zerospeech-libriabx2]: Downloading https://files.pythonhosted.org/packages/40/08/5d552e98ffa31f1f234f947be75155275f656d0a59047b67b50ee69a4d09/zerospeech-libriabx2-0.9.7.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [rips]: Downloading https://files.pythonhosted.org/packages/ed/bd/17f6250ccd57e45f45f349bf4d0b9d3a454298859fe3cf0fd9941fc712c6/rips-2023.3.0.1.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [concise-concepts]: Downloading https://files.pythonhosted.org/packages/58/08/53232db56eb84c652ecfb16351c3c44f35990af19eb9831565867ad489cb/concise-concepts-0.8.0.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-plugin]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_plugin-0.1.0a6.tar.gz tmp/polywrap_plugin-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-plugin/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/09/50/e1cfde7f5f72a202acfeff4fdc023f5ce1d0954a002730fb36f6371483ea/hcai-nova-utils-0.7.0.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/23/e4/8f843a3d0fd30be3e259ccebfb16a4a7920bb3325aaa1453ad3d12cba90b/drukarnia-api-0.1.9.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/7c/77/cedbff14721aa458a69c7a30b856445730a28b02b55fd934aa0743eb874b/polywrap_manifest-0.1.0a8.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/90/d2/7bf0a80d0c2cc70ceefe989729f194f3d0c8d6dfc9282c14919ee73276e0/polywrap_core-0.1.0a8.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.75.tar.gz tmp/drukarnia-api-0.1.9.tar.gz --markdown 20230619/d/drukarnia-api/0.1.75-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [hcai-nova-utils]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [hcai-nova-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-utils-0.6.0.tar.gz tmp/hcai-nova-utils-0.7.0.tar.gz --markdown 20230619/h/hcai-nova-utils/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-manifest]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_manifest-0.1.0a7.tar.gz tmp/polywrap_manifest-0.1.0a8.tar.gz --markdown 20230619/p/polywrap-manifest/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-test-cases]: Downloading https://files.pythonhosted.org/packages/e5/25/9389c8130ac9c7003a44d622f7fe318431807284dc9937a5db64886a4acd/polywrap_test_cases-0.1.0a31.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-core]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_core-0.1.0a7.tar.gz tmp/polywrap_core-0.1.0a8.tar.gz --markdown 20230619/p/polywrap-core/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [cpi-tools]: Downloading https://files.pythonhosted.org/packages/5e/ed/abcd97ba9b2503af591f805ea4f1757ee442e065e9ea4b2f65a8eb50317d/cpi_tools-0.2.6.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [zerospeech-libriabx2]: Downloading https://files.pythonhosted.org/packages/e6/ca/3df0b37b497a33c3f43154e2552007711fed3de479d615440ec6553dbf88/zerospeech-libriabx2-0.9.8.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [concise-concepts]: Downloading https://files.pythonhosted.org/packages/3b/53/51e162b39416ede8847622343aac98c537822011c657e1ec63130dcfcbc4/concise-concepts-0.8.1.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-test-cases]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [polywrap-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_test_cases-0.1.0a30.tar.gz tmp/polywrap_test_cases-0.1.0a31.tar.gz --markdown 20230619/p/polywrap-test-cases/0.1.0a30-0.1.0a31/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [concise-concepts]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [concise-concepts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concise-concepts-0.8.0.tar.gz tmp/concise-concepts-0.8.1.tar.gz --markdown 20230619/c/concise-concepts/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [cpi-tools]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [cpi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpi_tools-0.2.5.tar.gz tmp/cpi_tools-0.2.6.tar.gz --markdown 20230619/c/cpi-tools/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [rips]: Downloading https://files.pythonhosted.org/packages/e6/ae/7586d316ad2469f88c4aa59c57213616e6d9735d711f1cfe368ce465f4be/rips-2023.6.0.1.tar.gz
+[2023-06-19 15:04:40] INFO root fetch - processPackages [zerospeech-libriabx2]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [zerospeech-libriabx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerospeech-libriabx2-0.9.7.tar.gz tmp/zerospeech-libriabx2-0.9.8.tar.gz --markdown 20230619/z/zerospeech-libriabx2/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-19 15:04:40] INFO root fetch - processPackages [rips]: executing diffoscope
+[2023-06-19 15:04:40] INFO root fetch - processPackages [rips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rips-2023.3.0.1.tar.gz tmp/rips-2023.6.0.1.tar.gz --markdown 20230619/r/rips/2023.3.0.1-2023.6.0.1/diff.md --exclude *.pyd
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a6.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a7.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-plugin]: Start processing: udata-front
+[2023-06-19 15:04:42] INFO root fetch - main [MainThread]: End processing [polywrap-plugin]: success
+[2023-06-19 15:04:42] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11299] Old Version: [3.2.4.dev11272]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/e9/41/e93e8afe6059860dd204bc776f4150f5e1e19869dedbbced3665974a11f9/udata_front-3.2.4.dev11272-py2.py3-none-any.whl
+[2023-06-19 15:04:42] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-0.6.0.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-0.7.0.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [hcai-nova-utils]: Start processing: assemblyline-service-utilities
+[2023-06-19 15:04:42] INFO root fetch - main [MainThread]: End processing [hcai-nova-utils]: success
+[2023-06-19 15:04:42] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a7.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a8.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-manifest]: Start processing: bcvContext
+[2023-06-19 15:04:42] INFO root fetch - main [MainThread]: End processing [polywrap-manifest]: success
+[2023-06-19 15:04:42] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/0c/08/8248dd417f3037b1bc5c07da14492e253d674df44575dec6d3ae0df38b78/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl
+[2023-06-19 15:04:42] INFO root fetch - processPackages [bcvContext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a30.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_test_cases-0.1.0a31.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [polywrap-test-cases]: Start processing: murkrow
+[2023-06-19 15:04:42] INFO root fetch - main [MainThread]: End processing [polywrap-test-cases]: success
+[2023-06-19 15:04:42] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.75.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.9.tar.gz]
+[2023-06-19 15:04:42] INFO root fetch - processPackages [drukarnia-api]: Start processing: csv-wizard
+[2023-06-19 15:04:42] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-19 15:04:42] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/d8/5a/5c6719b6d138d6544e86050bb6ab7dba5c85140729a30de6a2ba0eb68e9f/bcvcontext-0.1.8.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/69/f8/7ca2babafc867ef3fd4d7cd675060ad748661d15fbc0d39ad2eebb825a34/udata_front-3.2.5.dev11299-py2.py3-none-any.whl
+[2023-06-19 15:04:43] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/fb/4c/e44dbd2c80a049d04d0ac7b7cc88d5c46a23a7dad278339b22a6dff2bfce/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl
+[2023-06-19 15:04:43] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.5.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [cpi-tools]: Remove: archive file [/home/abi/fetcher/tmp/cpi_tools-0.2.6.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [cpi-tools]: Start processing: polywrap-wasm
+[2023-06-19 15:04:43] INFO root fetch - main [MainThread]: End processing [cpi-tools]: success
+[2023-06-19 15:04:43] INFO root fetch - processPackages [csv-wizard]: New version: [1.0.0] Old Version: [0.4.2.post1]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [murkrow]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-wasm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/65/3e/b75e97cad7bbfb754398fd90d7b353773468927773f666c917fd72ee91ea/bcvcontext-0.1.9.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/d5/19/70a8edb0676461386210251f8bc9983269fc212d0b6664eee96fc5569f8c/polywrap_wasm-0.1.0a6.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a7.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a8.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-core]: Start processing: genepierre
+[2023-06-19 15:04:43] INFO root fetch - main [MainThread]: End processing [polywrap-core]: success
+[2023-06-19 15:04:43] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.1.8.tar.gz tmp/bcvcontext-0.1.9.tar.gz --markdown 20230619/b/bcvContext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 15:04:43] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230619/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-06-19 15:04:43] INFO root fetch - processPackages [genepierre]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [concise-concepts]: Remove: archive file [/home/abi/fetcher/tmp/concise-concepts-0.8.0.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - processPackages [concise-concepts]: Remove: archive file [/home/abi/fetcher/tmp/concise-concepts-0.8.1.tar.gz]
+[2023-06-19 15:04:43] INFO root fetch - main [MainThread]: End processing [concise-concepts]: success
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/bc/38/6a2979eb32cadf6a2c76b0a2fe367656e24719f54d9e3669b52279b5e314/polywrap_wasm-0.1.0a7.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/f2/8f5ab2fc2a21f5f92b08fb6073c754344ee24fe7c22d7668f4e590d9bdb5/murkrow-0.3.0.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [csv-wizard]: Downloading https://files.pythonhosted.org/packages/8c/39/f7d8eee5dc7ecf03162b14903bb7988e95a967f0ad752f616d1523d81733/csv-wizard-0.4.2.post1.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/82/fc/c4b43018cef0c11da34c25dd0e04b73307c7faeb142cbbcdf25450361b6d/genepierre-0.0.6.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-wasm]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [polywrap-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_wasm-0.1.0a6.tar.gz tmp/polywrap_wasm-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-wasm/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:04:43] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/d6/5e/fa7353d0f121964e578eb42b323833fd14dd3f13067013e8307b1a8f7286/genepierre-0.0.7.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/d9/5b/e5e0e4fa5aaaede90c0ecf20edfacc18e5d53a408454c6146992b4a1913d/murkrow-0.5.0.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [csv-wizard]: Downloading https://files.pythonhosted.org/packages/4b/87/7b54a5a62e860894ee156f0638c0002b30590cf30745eb2d0413a17ab4f3/csv-wizard-1.0.0.tar.gz
+[2023-06-19 15:04:43] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.6.tar.gz tmp/genepierre-0.0.7.tar.gz --markdown 20230619/g/genepierre/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 15:04:43] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.3.0.tar.gz tmp/murkrow-0.5.0.tar.gz --markdown 20230619/m/murkrow/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 15:04:43] INFO root fetch - processPackages [csv-wizard]: executing diffoscope
+[2023-06-19 15:04:43] INFO root fetch - processPackages [csv-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv-wizard-0.4.2.post1.tar.gz tmp/csv-wizard-1.0.0.tar.gz --markdown 20230619/c/csv-wizard/0.4.2.post1-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 15:04:44] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-19 15:04:44] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev11272-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11299-py2.py3-none-any.whl.zip --markdown 20230619/u/udata-front/3.2.4.dev11272-3.2.5.dev11299/diff.md --exclude *.pyd
+[2023-06-19 15:04:44] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.8.tar.gz]
+[2023-06-19 15:04:44] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.9.tar.gz]
+[2023-06-19 15:04:44] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a6.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a7.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [polywrap-wasm]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.3.0.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.5.0.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [csv-wizard]: Remove: archive file [/home/abi/fetcher/tmp/csv-wizard-0.4.2.post1.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [csv-wizard]: Remove: archive file [/home/abi/fetcher/tmp/csv-wizard-1.0.0.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [csv-wizard]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.6.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.7.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [rips]: Remove: archive file [/home/abi/fetcher/tmp/rips-2023.3.0.1.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [rips]: Remove: archive file [/home/abi/fetcher/tmp/rips-2023.6.0.1.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [rips]: success
+[2023-06-19 15:04:45] INFO root fetch - processPackages [zerospeech-libriabx2]: Remove: archive file [/home/abi/fetcher/tmp/zerospeech-libriabx2-0.9.7.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - processPackages [zerospeech-libriabx2]: Remove: archive file [/home/abi/fetcher/tmp/zerospeech-libriabx2-0.9.8.tar.gz]
+[2023-06-19 15:04:45] INFO root fetch - main [MainThread]: End processing [zerospeech-libriabx2]: success
+[2023-06-19 15:04:46] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip]
+[2023-06-19 15:04:46] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip]
+[2023-06-19 15:04:46] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-06-19 15:05:16] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11272-py2.py3-none-any.whl.zip]
+[2023-06-19 15:05:16] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11299-py2.py3-none-any.whl.zip]
+[2023-06-19 15:05:16] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-19 15:05:16] INFO root fetch - main [MainThread]: Store serial: [18559992]
