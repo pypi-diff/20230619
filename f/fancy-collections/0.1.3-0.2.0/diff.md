@@ -1,14 +1,14 @@
-# Comparing `tmp/fancy_collections-0.1.3.tar.gz` & `tmp/fancy_collections-0.2.0.tar.gz`
+# Comparing `tmp/fancy_collections-0.1.3.tar.gz` & `tmp/fancy_collections-0.2.0-2.tar.gz`
 
 ## filetype from file(1)
 
 ```diff
 @@ -1 +1 @@
 -gzip compressed data, was "fancy_collections-0.1.3.tar", last modified: Tue Feb 21 15:58:19 2023, max compression
-+gzip compressed data, was "fancy_collections-0.2.0.tar", last modified: Mon Jun 19 11:18:24 2023, max compression
++gzip compressed data, was "fancy_collections-0.2.0.tar", last modified: Mon Jun 19 15:57:19 2023, max compression
 ```
 
-## Comparing `fancy_collections-0.1.3.tar` & `fancy_collections-0.2.0.tar`
+## Comparing `fancy_collections-0.1.3.tar` & `fancy_collections-0.2.0-2.tar`
 
 ### file list
 
@@ -35,25 +35,25 @@
 --rw-rw-r--   0 palmb     (1000) palmb     (1000)     4154 2023-02-16 12:26:41.000000 fancy_collections-0.1.3/tests/test_axis.py
 --rw-rw-r--   0 palmb     (1000) palmb     (1000)     1172 2023-02-16 12:26:32.000000 fancy_collections-0.1.3/tests/test_frame.py
 --rw-rw-r--   0 palmb     (1000) palmb     (1000)       22 2023-02-16 11:15:19.000000 fancy_collections-0.1.3/tests/test_lib.py
-+drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/
++drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)    35149 2022-12-16 23:31:45.000000 fancy_collections-0.2.0/LICENSE
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)     1043 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/PKG-INFO
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)     1043 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/PKG-INFO
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)      467 2022-12-17 23:31:27.000000 fancy_collections-0.2.0/README.md
-+drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/fancy_collections/
++drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/fancy_collections/
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)      208 2023-02-20 20:19:59.000000 fancy_collections-0.2.0/fancy_collections/__init__.py
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)     9592 2023-06-19 10:26:16.000000 fancy_collections-0.2.0/fancy_collections/core.py
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)    10009 2023-06-19 15:49:47.000000 fancy_collections-0.2.0/fancy_collections/core.py
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)     6233 2023-02-21 15:45:06.000000 fancy_collections-0.2.0/fancy_collections/formatting.py
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)     5895 2023-02-20 20:38:24.000000 fancy_collections-0.2.0/fancy_collections/lib.py
-+drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/fancy_collections.egg-info/
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)     1043 2023-06-19 11:18:23.000000 fancy_collections-0.2.0/fancy_collections.egg-info/PKG-INFO
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)      427 2023-06-19 11:18:23.000000 fancy_collections-0.2.0/fancy_collections.egg-info/SOURCES.txt
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)        1 2023-06-19 11:18:23.000000 fancy_collections-0.2.0/fancy_collections.egg-info/dependency_links.txt
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)       69 2023-06-19 11:18:23.000000 fancy_collections-0.2.0/fancy_collections.egg-info/requires.txt
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)       18 2023-06-19 11:18:23.000000 fancy_collections-0.2.0/fancy_collections.egg-info/top_level.txt
++drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/fancy_collections.egg-info/
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)     1043 2023-06-19 15:57:19.000000 fancy_collections-0.2.0/fancy_collections.egg-info/PKG-INFO
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)      427 2023-06-19 15:57:19.000000 fancy_collections-0.2.0/fancy_collections.egg-info/SOURCES.txt
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)        1 2023-06-19 15:57:19.000000 fancy_collections-0.2.0/fancy_collections.egg-info/dependency_links.txt
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)       69 2023-06-19 15:57:19.000000 fancy_collections-0.2.0/fancy_collections.egg-info/requires.txt
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)       18 2023-06-19 15:57:19.000000 fancy_collections-0.2.0/fancy_collections.egg-info/top_level.txt
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)      791 2023-06-19 11:05:46.000000 fancy_collections-0.2.0/pyproject.toml
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)       38 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/setup.cfg
-+drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 11:18:24.000250 fancy_collections-0.2.0/tests/
-+-rw-rw-r--   0 palmb     (1000) palmb     (1000)     4154 2023-02-16 12:26:41.000000 fancy_collections-0.2.0/tests/test_axis.py
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)       38 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/setup.cfg
++drwxrwxr-x   0 palmb     (1000) palmb     (1000)        0 2023-06-19 15:57:19.367072 fancy_collections-0.2.0/tests/
++-rw-rw-r--   0 palmb     (1000) palmb     (1000)     4120 2023-06-19 15:54:20.000000 fancy_collections-0.2.0/tests/test_axis.py
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)     1172 2023-02-16 12:26:32.000000 fancy_collections-0.2.0/tests/test_frame.py
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)       22 2023-02-16 11:15:19.000000 fancy_collections-0.2.0/tests/test_lib.py
 +-rw-rw-r--   0 palmb     (1000) palmb     (1000)      740 2023-06-19 11:15:15.000000 fancy_collections-0.2.0/tests/test_pickle.py
@@ -84,14 +84,15 @@
 
 ### Comparing `fancy_collections-0.1.3/fancy_collections/core.py` & `fancy_collections-0.2.0/fancy_collections/core.py`
 
- * *Files 2% similar despite different names*
+ * *Files 10% similar despite different names*
 
 ```diff
-@@ -1,15 +1,15 @@
+@@ -1,15 +1,16 @@
  #!/usr/bin/env python
  from __future__ import annotations
  
  import functools
++import warnings
  from typing import List, Any
  
  import pandas as pd
@@ -104,7 +105,7 @@
  
  class Axis:
      def __init__(self, name):
-@@ -40,15 +40,15 @@
+@@ -40,15 +41,15 @@
          except Exception as e:
              raise type(e)(f"Cannot set new {self._name}, because {e}") from None
          finally:
@@ -121,24 +122,35 @@
              else:
                  index = obj.index
              indexes.append(index)
-@@ -173,15 +173,15 @@
-                     data[self._uniquify_name(f"{key}_{col}")] = ser
-             elif promote_index and isinstance(value, pd.Index):
-                 data[key] = value.to_series()
-             else:
+@@ -177,14 +178,27 @@
                  data[key] = value
          return self.__class__(data)
  
--    def to_dataframe(self, how="outer") -> pd.DataFrame:
-+    def to_pandas(self, how="outer") -> pd.DataFrame:
+     def to_dataframe(self, how="outer") -> pd.DataFrame:
          """
          Transform DictOfPandas to a pandas.DataFrame.
  
++        .. deprecated:: 0.2.0
++           use `DictOfPandas.to_pandas()` instead.
++        """
++        warnings.warn(
++            f"`to_dataframe()` is deprecated use `to_pandas()` instead.",
++            category=DeprecationWarning,
++        )
++        return self.to_pandas(how)
++
++    def to_pandas(self, how="outer") -> pd.DataFrame:
++        """
++        Transform DictOfPandas to a pandas.DataFrame.
++
          Because a pandas.DataFrame can not handle data of different
          length, but DictOfPandas can, the missing data is filled with
          NaNs or is dropped, depending on the keyword `how`.
  
-@@ -224,27 +224,27 @@
+         Items of type `pandas.Index` will become `pandas.Series` with
+         identical index and values as the original Index.
+ 
+@@ -224,27 +238,27 @@
          >>> di   # doctest: +NORMALIZE_WHITESPACE
              a |     b |     c |
          ===== | ===== | ===== |
@@ -176,7 +188,7 @@
              raise ValueError("`how` must be one of 'inner' or 'outer'")
          df = pd.DataFrame(dict(self.flatten(promote_index=True)))
          if how == "inner":
-@@ -284,15 +284,15 @@
+@@ -284,15 +298,15 @@
              Returns the result as a string.
          """
          return Formatter(self, max_rows, min_rows, show_df_column_names).to_string()
@@ -261,7 +273,26 @@
 
 ### Comparing `fancy_collections-0.1.3/tests/test_axis.py` & `fancy_collections-0.2.0/tests/test_axis.py`
 
- * *Files identical despite different names*
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -19,15 +19,14 @@
+ @pytest.mark.parametrize("klass", [ColumnContainer, IndexContainer])
+ @pytest.mark.parametrize("kwargs", [dict(), dict(a=99), dict(x=99)])
+ @pytest.mark.parametrize("args", [(), ([[1, 2]],), (dict(a="a", b="b"),)])
+ def test_creation(klass, args, kwargs):
+     inst = klass(*args, **kwargs)
+     assert isinstance(inst, klass)
+     assert isinstance(inst, SliceDict)
+-    assert isinstance(inst, dict)
+ 
+ 
+ @pytest.mark.parametrize("klass", [ColumnContainer, IndexContainer])
+ @pytest.mark.parametrize("attr", dir(dict))
+ def test_attrs(klass, attr):
+     assert hasattr(klass, attr)
+     if issubclass(klass, ColumnContainer):
+```
 
 ### Comparing `fancy_collections-0.1.3/tests/test_frame.py` & `fancy_collections-0.2.0/tests/test_frame.py`
 
