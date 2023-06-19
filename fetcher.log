@@ -7419,3 +7419,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:14:42] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-19 07:14:42] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-19 07:14:42] INFO root fetch - main [MainThread]: Store serial: [18555907]
+[2023-06-19 07:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555907]
+[2023-06-19 07:19:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-target-mongo
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-support-nightly
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kazam
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mycoinlib
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-wenxin
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kazam
+[2023-06-19 07:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mycoinlib
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: New version: [1.5.7.dev0] Old Version: [1.5.6]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: New version: [0.2] Old Version: [0.1]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: New version: [0.2] Old Version: [0.1]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: New version: [1.5.7.dev0] Old Version: [1.5.6]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230618] Old Version: [0.4.4.dev20230617]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230618] Old Version: [2.14.0.dev20230617]
+[2023-06-19 07:19:51] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/8a/98/fce5cd43904834e85073bfb26c67f53da6cb07d714eccd0f5b87c73afdf9/langchain_wenxin-0.4.0.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/59/08/f4456e5a3ab1d42f6341f2f25e5a80014522713c31afc43e6ea2b6d2bb71/kazam-1.5.6-py3-none-any.whl
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/8a/92/9f24fce85638a17dc1afa2ebfffcf171c2c35c508534308697f78af9f523/mycoinlib-0.1.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/59/08/f4456e5a3ab1d42f6341f2f25e5a80014522713c31afc43e6ea2b6d2bb71/kazam-1.5.6-py3-none-any.whl
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/8a/92/9f24fce85638a17dc1afa2ebfffcf171c2c35c508534308697f78af9f523/mycoinlib-0.1.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/ef/d4/a749f2e67e9171099f2c4ed2c75142cadd30ab1784967ffc875704a40ee6/macrometa-target-mongo-0.0.8.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/d3/12/830647ab9a998ec8a91e1dd1046d84219698206308dd29c57668e0859341/tflite_support_nightly-0.4.4.dev20230617-cp39-cp39-macosx_10_11_x86_64.whl
+[2023-06-19 07:19:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/c5/9a/4eb8682b52757e7f82032e208c302ded033535a15dd20c09c46c76c50471/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-19 07:19:51] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 58314511>=10485760
+[2023-06-19 07:19:51] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-19 07:19:51] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/7f/9e/aa9d0c2d0ec2397f7636cf700d15262e18cc1a5e60a5d6e250365520f8b6/langchain_wenxin-0.5.0.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/bc/4b/41c47fb3ae40c49fe00a017d2253ca528a773ea1d4476eda2ee6c95d5a16/kazam-1.5.7.dev0-py3-none-any.whl
+[2023-06-19 07:19:51] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/bc/4b/41c47fb3ae40c49fe00a017d2253ca528a773ea1d4476eda2ee6c95d5a16/kazam-1.5.7.dev0-py3-none-any.whl
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/84/31/e331cdd4930622f8dccb06977ba29237c38aedb319a593850ded98ed8343/mycoinlib-0.2.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/84/31/e331cdd4930622f8dccb06977ba29237c38aedb319a593850ded98ed8343/mycoinlib-0.2.tar.gz
+[2023-06-19 07:19:51] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-06-19 07:19:51] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.4.0.tar.gz tmp/langchain_wenxin-0.5.0.tar.gz --markdown 20230619/l/langchain-wenxin/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 07:19:51] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/7d/ba/e4d42212a121d6658bf7d01b8b0e4fde578004371ebe2f5ad0d4905926e9/macrometa-target-mongo-0.0.9.tar.gz
+[2023-06-19 07:19:52] INFO root fetch - processPackages [kazam]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [kazam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazam-1.5.6-py3-none-any.whl.zip tmp/kazam-1.5.7.dev0-py3-none-any.whl.zip --markdown 20230619/k/kazam/1.5.6-1.5.7.dev0/diff.md --exclude *.pyd
+[2023-06-19 07:19:52] INFO root fetch - processPackages [kazam]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [kazam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazam-1.5.6-py3-none-any.whl.zip tmp/kazam-1.5.7.dev0-py3-none-any.whl.zip --markdown 20230619/k/kazam/1.5.6-1.5.7.dev0/diff.md --exclude *.pyd
+[2023-06-19 07:19:52] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.1.tar.gz tmp/mycoinlib-0.2.tar.gz --markdown 20230619/m/mycoinlib/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-19 07:19:52] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.1.tar.gz tmp/mycoinlib-0.2.tar.gz --markdown 20230619/m/mycoinlib/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-19 07:19:52] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230619/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 07:19:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/11/e9/08d52aa3cac0756218b51e3329882f54d7c4575eec9669d02436ec0ae1f5/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-19 07:19:52] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-19 07:19:52] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230619/t/tflite-runtime-nightly/2.14.0.dev20230617-2.14.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-19 07:19:53] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.4.0.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.5.0.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-06-19 07:19:53] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.1.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.2.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-19 07:19:53] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-19 07:19:53] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.8.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.9.tar.gz]
+[2023-06-19 07:19:53] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-06-19 07:19:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230617-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-19 07:19:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230618-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-19 07:19:53] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-19 07:19:54] INFO root fetch - processPackages [kazam]: Remove: archive file [/home/abi/fetcher/tmp/kazam-1.5.6-py3-none-any.whl.zip]
+[2023-06-19 07:19:54] INFO root fetch - processPackages [kazam]: Remove: archive file [/home/abi/fetcher/tmp/kazam-1.5.7.dev0-py3-none-any.whl.zip]
+[2023-06-19 07:19:54] INFO root fetch - main [MainThread]: End processing [kazam]: success
+[2023-06-19 07:20:47] INFO root fetch - main [MainThread]: End processing [kazam]: success
+[2023-06-19 07:20:47] INFO root fetch - main [MainThread]: Store serial: [18555941]
