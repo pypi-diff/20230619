@@ -4637,3 +4637,113 @@
 [2023-06-19 03:38:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
 [2023-06-19 03:38:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-06-19 03:38:27] INFO root fetch - main [MainThread]: Store serial: [18554814]
+[2023-06-19 03:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554814]
+[2023-06-19 03:43:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bittrade-luno-websocket
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feo3mics
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycti
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-auto-deploy
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive
+[2023-06-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pycti]: New version: [5.8.0] Old Version: [5.7.post576]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [feo3mics]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pulumi-auto-deploy]: New version: [0.0.5a1687138214] Old Version: [0.0.4a1687134749]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [bittrade-luno-websocket]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-19 03:43:37] INFO root fetch - processPackages [feo3mics]: Downloading https://files.pythonhosted.org/packages/34/93/bdbc231bb60947dd4352281402d0b25976b310bf9e43b0eaea80f59d837a/feo3mics-0.0.11.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/99/e8/1c628fe32df147cd9f4e78506b7d8f7359448caaeae9e973627be2e96082/pulumi_auto_deploy-0.0.4a1687134749.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-19 03:43:37] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-06-19 03:43:37] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/f6/d6/ab30172120789b8f9de751aa980d3746049e8dcf8182c6ac0ca2cdaa777d/bittrade_luno_websocket-0.1.5.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/22/31/a6663e13a91bb5475d97355fb24bce519820c7c6d1cd8984a2981d9f7aa8/pycti-5.7.post576.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [feo3mics]: Downloading https://files.pythonhosted.org/packages/28/4c/3fc56094037cb3afe995600601702093b7d90b641d91b8fe143cda7f7c59/feo3mics-0.0.12.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/de/61/9b86bf330e1addc6bb622cbee9312dfa77289d5bbc472b3078e05a6585c3/pulumi_auto_deploy-0.0.5a1687138214.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230619/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230619/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/1b/90/7b3980284400cef83c0a063c00e10d5cb642067adb86a50dde56a9f7ad15/bittrade_luno_websocket-0.1.6.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pulumi-auto-deploy]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/c4/56/ae13644dd564c5f2667063c7d6bea8912b766326986491c544b073e650ea/pycti-5.8.0.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pulumi-auto-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auto_deploy-0.0.4a1687134749.tar.gz tmp/pulumi_auto_deploy-0.0.5a1687138214.tar.gz --markdown 20230619/p/pulumi-auto-deploy/0.0.4a1687134749-0.0.5a1687138214/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230619/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [feo3mics]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230619/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [feo3mics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feo3mics-0.0.11.tar.gz tmp/feo3mics-0.0.12.tar.gz --markdown 20230619/f/feo3mics/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [bittrade-luno-websocket]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [bittrade-luno-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_luno_websocket-0.1.5.tar.gz tmp/bittrade_luno_websocket-0.1.6.tar.gz --markdown 20230619/b/bittrade-luno-websocket/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230619/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post576.tar.gz tmp/pycti-5.8.0.tar.gz --markdown 20230619/p/pycti/5.7.post576-5.8.0/diff.md --exclude *.pyd
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-19 03:43:37] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230619/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:43:38] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.4a1687134749.tar.gz]
+[2023-06-19 03:43:38] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.5a1687138214.tar.gz]
+[2023-06-19 03:43:38] INFO root fetch - processPackages [pulumi-auto-deploy]: Start processing: dynadojo
+[2023-06-19 03:43:38] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy]: success
+[2023-06-19 03:43:39] WARNING root fetch - processPackages [dynadojo]: Skipping, unable to determine old version
+[2023-06-19 03:43:39] INFO root fetch - processPackages [dynadojo]: Start processing: nbdev-sphinx
+[2023-06-19 03:43:39] INFO root fetch - main [MainThread]: End processing [dynadojo] error
+[2023-06-19 03:43:39] INFO root fetch - processPackages [feo3mics]: Remove: archive file [/home/abi/fetcher/tmp/feo3mics-0.0.11.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - processPackages [feo3mics]: Remove: archive file [/home/abi/fetcher/tmp/feo3mics-0.0.12.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - main [MainThread]: End processing [feo3mics]: success
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-19 03:43:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-19 03:43:39] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-19 03:43:39] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-19 03:43:39] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.5.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.6.tar.gz]
+[2023-06-19 03:43:39] INFO root fetch - main [MainThread]: End processing [bittrade-luno-websocket]: success
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-19 03:43:39] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230619/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:43:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-19 03:43:40] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-19 03:43:40] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-19 03:43:40] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-19 03:43:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-19 03:43:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-19 03:43:41] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-19 03:43:41] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.7.post576.tar.gz]
+[2023-06-19 03:43:41] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.0.tar.gz]
+[2023-06-19 03:43:41] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-06-19 03:43:42] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-19 03:43:42] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-19 03:43:42] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-19 03:43:42] INFO root fetch - main [MainThread]: Store serial: [18554860]
