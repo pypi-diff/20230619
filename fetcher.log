@@ -5983,3 +5983,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:20:09] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
 [2023-06-19 05:20:09] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2023-06-19 05:20:09] INFO root fetch - main [MainThread]: Store serial: [18555287]
+[2023-06-19 05:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555287]
+[2023-06-19 05:25:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-ratelimit-a
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adversarial-test
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rogue-tools
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picogo
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyconnectwise
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cq23
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchainplus-sdk
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syrupy
+[2023-06-19 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rtx-deep
+[2023-06-19 05:25:18] INFO root fetch - processPackages [rogue-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 05:25:18] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 05:25:18] WARNING root fetch - processPackages [adversarial-test]: Skipping, unable to determine old version
+[2023-06-19 05:25:18] INFO root fetch - main [MainThread]: End processing [adversarial-test] error
+[2023-06-19 05:25:18] INFO root fetch - processPackages [cq23]: New version: [2.0.0] Old Version: [1.9.4]
+[2023-06-19 05:25:18] INFO root fetch - processPackages [upstash-ratelimit-a]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 05:25:18] INFO root fetch - processPackages [picogo]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 05:25:18] WARNING root fetch - processPackages [pyconnectwise]: Skipping, unable to determine old version
+[2023-06-19 05:25:18] INFO root fetch - processPackages [syrupy]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-06-19 05:25:18] INFO root fetch - main [MainThread]: End processing [pyconnectwise] error
+[2023-06-19 05:25:18] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/5a/c8/e8c5d6490901c7007d0b3c3d63dcfedcc8fc727786b9d30e69e4cdfba6a8/cq23-1.9.4.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/b3/51/7c9dc5c8c03537bdaf7835c33b8271a9ed391a2291fb4848d6ed8d1dec33/picogo-0.0.6.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [upstash-ratelimit-a]: Downloading https://files.pythonhosted.org/packages/f1/4a/9cf55b2328275c02aab72facb6f9d606227e3a25cb95397c1c847bb124bf/upstash_ratelimit_a-0.1.1.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [rtx-deep]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-19 05:25:18] INFO root fetch - processPackages [syrupy]: Downloading https://files.pythonhosted.org/packages/35/65/175a5f1ea4811c1ab65b020e40d8cdf9a3cf080837b329ec838765695802/syrupy-4.0.2.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d9/f20238f309f445804a2d8b80479a26742147ede052f9f6b7a53fe4b32708/langchainplus_sdk-0.0.8.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/a5/83/0853d32f1d47750fe4c559772d24057c95a07f2fc0e2b69bd9d9a0718a9f/cq23-2.0.0.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [upstash-ratelimit-a]: Downloading https://files.pythonhosted.org/packages/37/a8/2488e5ca2af12dfc4bdadaa1ed71afb72465471c1e7f224bf09eb1bb59b6/upstash_ratelimit_a-0.1.2.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-19 05:25:18] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.9.4.tar.gz tmp/cq23-2.0.0.tar.gz --markdown 20230619/c/cq23/1.9.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 05:25:18] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/37/88/160e6186cc66081c211dca0073ba15132e44d50e96e89e07d36f0921e8c0/rogue_tools-1.0.8.tar.gz
+[2023-06-19 05:25:18] INFO root fetch - processPackages [upstash-ratelimit-a]: executing diffoscope
+[2023-06-19 05:25:18] INFO root fetch - processPackages [upstash-ratelimit-a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit_a-0.1.1.tar.gz tmp/upstash_ratelimit_a-0.1.2.tar.gz --markdown 20230619/u/upstash-ratelimit-a/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/2a/8b/e93a35ac401670f43a0b09d9f8fb40d4ce35b6e39922f63fd07c71a6ba4d/rtx_deep-1.4.0-py39-none-any.whl
+[2023-06-19 05:25:19] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/55/16/16fd2711c2a97ee4c548a935620b7a1dc1904eb3cb0f61ceb234846a9dff/picogo-0.0.7.tar.gz
+[2023-06-19 05:25:19] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-19 05:25:19] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.6.tar.gz tmp/picogo-0.0.7.tar.gz --markdown 20230619/p/picogo/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 05:25:19] INFO root fetch - processPackages [syrupy]: Downloading https://files.pythonhosted.org/packages/36/a8/7778d976c94c4dd3aa6bd762871bb1d94150a68148116eebdcb6871aa5ee/syrupy-4.0.3.tar.gz
+[2023-06-19 05:25:19] INFO root fetch - processPackages [syrupy]: executing diffoscope
+[2023-06-19 05:25:19] INFO root fetch - processPackages [syrupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrupy-4.0.2.tar.gz tmp/syrupy-4.0.3.tar.gz --markdown 20230619/s/syrupy/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-06-19 05:25:19] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/22/e0/dbb31ff65e1238644481d23f897747af9443b9061fde6cbfa1f2928d7695/langchainplus_sdk-0.0.9.tar.gz
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/55/cb/de4cb451007292c298cc3b2c96ebab47c6d2ca1877dd2e7b3f4e93392328/rogue_tools-1.0.9.tar.gz
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/d6/ce/90702b41c1eb1d7f1a7dfc4d3402fe60937ce3d74a0ab721c4cdb42583fb/rtx_deep-1.4.1-py310-none-any.whl
+[2023-06-19 05:25:19] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-19 05:25:19] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.8.tar.gz tmp/langchainplus_sdk-0.0.9.tar.gz --markdown 20230619/l/langchainplus-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.0.8.tar.gz tmp/rogue_tools-1.0.9.tar.gz --markdown 20230619/r/rogue-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-06-19 05:25:19] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.4.0-py39-none-any.whl.zip tmp/rtx_deep-1.4.1-py310-none-any.whl.zip --markdown 20230619/r/rtx-deep/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-19 05:25:20] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.4.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.0.0.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-19 05:25:20] INFO root fetch - processPackages [upstash-ratelimit-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit_a-0.1.1.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [upstash-ratelimit-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit_a-0.1.2.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit-a]: success
+[2023-06-19 05:25:20] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.6.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.7.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-19 05:25:20] INFO root fetch - processPackages [syrupy]: Remove: archive file [/home/abi/fetcher/tmp/syrupy-4.0.2.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [syrupy]: Remove: archive file [/home/abi/fetcher/tmp/syrupy-4.0.3.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [syrupy]: success
+[2023-06-19 05:25:20] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.8.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.9.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-19 05:25:20] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.8.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.0.9.tar.gz]
+[2023-06-19 05:25:20] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-06-19 05:25:21] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.0-py39-none-any.whl.zip]
+[2023-06-19 05:25:21] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.1-py310-none-any.whl.zip]
+[2023-06-19 05:25:21] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-06-19 05:25:21] INFO root fetch - main [MainThread]: Store serial: [18555315]
