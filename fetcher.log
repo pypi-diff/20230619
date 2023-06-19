@@ -10834,3 +10834,125 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:20:42] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2023-06-19 10:20:42] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-06-19 10:20:42] INFO root fetch - main [MainThread]: Store serial: [18557267]
+[2023-06-19 10:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557267]
+[2023-06-19 10:25:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csy12346
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-mlflow
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vllm
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohttp-apiset
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thundra
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwon-django-toolbox
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thundra
+[2023-06-19 10:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sample-factory
+[2023-06-19 10:25:51] INFO root fetch - processPackages [fastapi-mlflow]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-19 10:25:51] WARNING root fetch - processPackages [csy12346]: Skipping, unable to determine old version
+[2023-06-19 10:25:51] INFO root fetch - processPackages [aiohttp-apiset]: New version: [0.9.9.1] Old Version: [0.9.9]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [csy12346]: Start processing: htruc
+[2023-06-19 10:25:51] INFO root fetch - main [MainThread]: End processing [csy12346] error
+[2023-06-19 10:25:51] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:25:51] WARNING root fetch - processPackages [vllm]: Skipping, unable to determine old version
+[2023-06-19 10:25:51] INFO root fetch - processPackages [sample-factory]: New version: [2.1.1] Old Version: [2.0.3]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [vllm]: Start processing: je-auto-control
+[2023-06-19 10:25:51] INFO root fetch - main [MainThread]: End processing [vllm] error
+[2023-06-19 10:25:51] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [htruc]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.1] Old Version: [0.4.9]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-19 10:25:51] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [aiohttp-apiset]: Downloading https://files.pythonhosted.org/packages/56/9c/226c45082454fc0287c861ef2a17f45f1777f7d9bea2e4d39fe4edb68ed9/aiohttp-apiset-0.9.9.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230619] Old Version: [2.14.0.dev20230618]
+[2023-06-19 10:25:52] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [fastapi-mlflow]: Downloading https://files.pythonhosted.org/packages/95/1e/514781fbc156ed96e73f545ea13947288b0e3d30d76e18f1b10fc7ed42d1/fastapi_mlflow-0.4.1.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/22/5f/c142a90eb1f30eb05f5c7a4a5c46741825904a3fa26e52ad4aef880b6d8d/nwon_django_toolbox-0.4.9.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/23/40/da7a0a769340a93bb536b94f8e16b395819f4dd7657fd6df22dd74747264/htruc-1.0.6.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:25:52] INFO root fetch - processPackages [sample-factory]: Downloading https://files.pythonhosted.org/packages/c0/80/b24ebb87f403b3022e981b8f06fc0eefa6b3b4020a9a523045036db9e1d7/sample-factory-2.0.3.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:25:52] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/b9/63/5f94de2866e4e0b073956312c1238e7d831c994def08018c42925974427d/tf_nightly-2.14.0.dev20230618-cp39-cp39-win_amd64.whl
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [fastapi-mlflow]: Downloading https://files.pythonhosted.org/packages/fb/29/fa264687ec4f861678ae18ba08b4f45705e89009b2295e60050a3f1ee8ca/fastapi_mlflow-0.5.0.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/bd/09/94f71339e35d311d56cabb34d30d56c1c689d7c0bcdb3b9100619d3930f7/htruc-1.0.7.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [aiohttp-apiset]: Downloading https://files.pythonhosted.org/packages/a0/ab/9fe7a48ea835a556ba5967f044d183c43f09d7cd13fe83017f0063c3e4de/aiohttp-apiset-0.9.9.1.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [htruc]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [htruc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htruc-1.0.6.tar.gz tmp/htruc-1.0.7.tar.gz --markdown 20230619/h/htruc/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/73/b8/e800a2c918f4868445d989e9f33cf7757f3768a18dcc3ccf39768c6ff45b/tf_nightly-2.14.0.dev20230619-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 10:25:52] INFO root fetch - processPackages [sample-factory]: Downloading https://files.pythonhosted.org/packages/2a/8e/5a8634ecee5527fb56f8d74a5efab69bb113ab118c9953ea2cd44d36362a/sample-factory-2.1.1.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [fastapi-mlflow]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [fastapi-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mlflow-0.4.1.tar.gz tmp/fastapi_mlflow-0.5.0.tar.gz --markdown 20230619/f/fastapi-mlflow/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/b8/3a/3eebce525bfe477453f47b04cf8d1dbbd54fca7806c6a58c8315528312fc/nwon_django_toolbox-0.5.1.tar.gz
+[2023-06-19 10:25:52] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-06-19 10:25:52] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491194888>=10485760
+[2023-06-19 10:25:52] INFO root fetch - processPackages [tf-nightly]: Start processing: sftpoeb
+[2023-06-19 10:25:52] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-19 10:25:52] INFO root fetch - processPackages [sample-factory]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [sample-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sample-factory-2.0.3.tar.gz tmp/sample-factory-2.1.1.tar.gz --markdown 20230619/s/sample-factory/2.0.3-2.1.1/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-06-19 10:25:52] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.4.9.tar.gz tmp/nwon_django_toolbox-0.5.1.tar.gz --markdown 20230619/n/nwon-django-toolbox/0.4.9-0.5.1/diff.md --exclude *.pyd
+[2023-06-19 10:25:52] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-19 10:25:53] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/82/a0/0826b80363462021b64b94e09db8acefc37fa23403153213dab7e68b81f7/sftpoeb-0.1.6.tar.gz
+[2023-06-19 10:25:53] INFO root fetch - processPackages [aiohttp-apiset]: executing diffoscope
+[2023-06-19 10:25:53] INFO root fetch - processPackages [aiohttp-apiset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp-apiset-0.9.9.tar.gz tmp/aiohttp-apiset-0.9.9.1.tar.gz --markdown 20230619/a/aiohttp-apiset/0.9.9-0.9.9.1/diff.md --exclude *.pyd
+[2023-06-19 10:25:53] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/b9/10/9b908f5df2a4f6ba528fa568ee1a9b2e8575064bf5e25db94c320639277e/sftpoeb-0.1.7.tar.gz
+[2023-06-19 10:25:53] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-06-19 10:25:53] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230619/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 10:25:53] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-19 10:25:53] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.6.tar.gz tmp/sftpoeb-0.1.7.tar.gz --markdown 20230619/s/sftpoeb/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-19 10:25:53] INFO root fetch - processPackages [fastapi-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mlflow-0.4.1.tar.gz]
+[2023-06-19 10:25:53] INFO root fetch - processPackages [fastapi-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mlflow-0.5.0.tar.gz]
+[2023-06-19 10:25:53] INFO root fetch - processPackages [fastapi-mlflow]: Start processing: libcnmc
+[2023-06-19 10:25:53] INFO root fetch - main [MainThread]: End processing [fastapi-mlflow]: success
+[2023-06-19 10:25:54] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.6.tar.gz]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.7.tar.gz]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [htruc]: Start processing: eodc-faas-sen2like
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [htruc]: success
+[2023-06-19 10:25:54] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc6] Old Version: [2023.6.3rc5]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/b7/dc/3550dcab58c823749fcc639de69c043c779adf41fb31f8495e15ad4a011f/eodc_faas_sen2like-2023.6.3rc5.tar.gz
+[2023-06-19 10:25:54] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-19 10:25:54] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/36/36/3335fd1859e92d3eef1142f82767eeae44a4d8951b92962b7eb3814f4af5/eodc_faas_sen2like-2023.6.3rc6.tar.gz
+[2023-06-19 10:25:54] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-19 10:25:54] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-19 10:25:54] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc5.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc6.tar.gz --markdown 20230619/e/eodc-faas-sen2like/2023.6.3rc5-2023.6.3rc6/diff.md --exclude *.pyd
+[2023-06-19 10:25:54] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-19 10:25:54] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230619/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-19 10:25:54] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [thundra]: Start processing: my-model
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:25:54] WARNING root fetch - processPackages [my-model]: Skipping, unable to determine old version
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [my-model] error
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:25:54] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.6.tar.gz]
+[2023-06-19 10:25:54] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.7.tar.gz]
+[2023-06-19 10:25:54] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-19 10:25:55] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-06-19 10:25:55] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-06-19 10:25:55] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-06-19 10:25:55] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc5.tar.gz]
+[2023-06-19 10:25:55] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc6.tar.gz]
+[2023-06-19 10:25:55] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-19 10:25:56] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-19 10:25:56] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-19 10:25:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-19 10:25:57] INFO root fetch - processPackages [aiohttp-apiset]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-apiset-0.9.9.tar.gz]
+[2023-06-19 10:25:57] INFO root fetch - processPackages [aiohttp-apiset]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-apiset-0.9.9.1.tar.gz]
+[2023-06-19 10:25:57] INFO root fetch - main [MainThread]: End processing [aiohttp-apiset]: success
+[2023-06-19 10:25:58] INFO root fetch - processPackages [sample-factory]: Remove: archive file [/home/abi/fetcher/tmp/sample-factory-2.0.3.tar.gz]
+[2023-06-19 10:25:58] INFO root fetch - processPackages [sample-factory]: Remove: archive file [/home/abi/fetcher/tmp/sample-factory-2.1.1.tar.gz]
+[2023-06-19 10:25:58] INFO root fetch - main [MainThread]: End processing [sample-factory]: success
+[2023-06-19 10:27:07] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.4.9.tar.gz]
+[2023-06-19 10:27:07] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.1.tar.gz]
+[2023-06-19 10:27:07] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-06-19 10:27:07] INFO root fetch - main [MainThread]: Store serial: [18557322]
