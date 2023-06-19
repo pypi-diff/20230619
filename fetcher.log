@@ -4916,3 +4916,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 03:48:53] INFO root fetch - processPackages [kkyukkyuCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyukkyuCrawler-1.0.2.tar.gz]
 [2023-06-19 03:48:53] INFO root fetch - main [MainThread]: End processing [kkyukkyuCrawler]: success
 [2023-06-19 03:48:53] INFO root fetch - main [MainThread]: Store serial: [18554889]
+[2023-06-19 03:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554889]
+[2023-06-19 03:54:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: critical-node
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyVolSuggester
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spPersist
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chartfactor
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chartfactor-jlab-ext
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scythe-cli
+[2023-06-19 03:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DMWT
+[2023-06-19 03:54:02] INFO root fetch - processPackages [quao]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-19 03:54:02] INFO root fetch - processPackages [PyVolSuggester]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-19 03:54:02] WARNING root fetch - processPackages [critical-node]: Skipping, unable to determine old version
+[2023-06-19 03:54:02] INFO root fetch - main [MainThread]: End processing [critical-node] error
+[2023-06-19 03:54:02] INFO root fetch - processPackages [spPersist]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-19 03:54:02] INFO root fetch - processPackages [chartfactor]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-19 03:54:02] INFO root fetch - processPackages [scythe-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 03:54:02] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-19 03:54:02] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/51/bd/236f1ae29b3cc86d202a733d2aaeb78c86201ef7bc61fc1cd30bddbce0f2/chartfactor-4.1.8.tar.gz
+[2023-06-19 03:54:02] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/65/8e/8e61ece71d2d9cd758b9ccc95ff99317998b7e41c40d122e92b59c0e661f/pyvolsuggester-1.0.1.tar.gz
+[2023-06-19 03:54:02] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/cc/a4/85daf844bdc010d3b6279fb0e8ebe60ee62905963aca4f393e1efcca1feb/chartfactor-jlab-ext-4.1.8.tar.gz
+[2023-06-19 03:54:02] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f5/2e/7e08c536a99b2a7b641c7458d2ab918b4b7ee4f1ec1bc55e1548daa76e78/sppersist-1.2.3.tar.gz
+[2023-06-19 03:54:02] WARNING root fetch - processPackages [DMWT]: Skipping, unable to determine old version
+[2023-06-19 03:54:02] INFO root fetch - main [MainThread]: End processing [DMWT] error
+[2023-06-19 03:54:02] INFO root fetch - processPackages [scythe-cli]: Downloading https://files.pythonhosted.org/packages/43/e1/bc49d86f96ea4d979fa3878bce64e2d22f9dfd3e445f21219c83acfafc8a/scythe_cli-1.0.0.tar.gz
+[2023-06-19 03:54:02] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/60/a0/7397e87367ddfae49f1114b9188a678d4e576275e0fb5af8e5ac6e285047/quao-0.2.6.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/75/4c/bea0de367027bc57c7a76f106fc9ad20f8c0a3c1f94dd4603f058763672a/sppersist-1.2.4.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [PyVolSuggester]: Downloading https://files.pythonhosted.org/packages/91/a8/8c7bc4dc2ca0b7ed397cfc7dfe847ace7166acf481bb25a9e3fd8ff92111/pyvolsuggester-1.1.0.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/8e/5d/6202a224abbd847f997118507e9fe6896e2196a4601df38fb897fe5308fc/chartfactor-4.1.9.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [scythe-cli]: Downloading https://files.pythonhosted.org/packages/b7/00/cafffef3b03323cf03d262a9569c888e1256cef016edee6c612e03111a46/scythe_cli-1.0.1.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/9a/74/ec998415cc9e79c0d253a6e9eac4037a2383acc0c51ec04ae77f7a6e50eb/quao-0.2.7.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/72/c6/0474b4f09832c1718fcc42a76919f02eeafd36c752b4a0527a1e99cbc65f/chartfactor-jlab-ext-4.1.9.tar.gz
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-4.1.8.tar.gz tmp/chartfactor-4.1.9.tar.gz --markdown 20230619/c/chartfactor/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-19 03:54:03] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.2.3.tar.gz tmp/sppersist-1.2.4.tar.gz --markdown 20230619/s/spPersist/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-19 03:54:03] INFO root fetch - processPackages [PyVolSuggester]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [PyVolSuggester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvolsuggester-1.0.1.tar.gz tmp/pyvolsuggester-1.1.0.tar.gz --markdown 20230619/P/PyVolSuggester/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 03:54:03] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.6.tar.gz tmp/quao-0.2.7.tar.gz --markdown 20230619/q/quao/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-19 03:54:03] INFO root fetch - processPackages [scythe-cli]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [scythe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scythe_cli-1.0.0.tar.gz tmp/scythe_cli-1.0.1.tar.gz --markdown 20230619/s/scythe-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2023-06-19 03:54:03] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-4.1.8.tar.gz tmp/chartfactor-jlab-ext-4.1.9.tar.gz --markdown 20230619/c/chartfactor-jlab-ext/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-19 03:54:04] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.3.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.4.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-19 03:54:04] INFO root fetch - processPackages [scythe-cli]: Remove: archive file [/home/abi/fetcher/tmp/scythe_cli-1.0.0.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - processPackages [scythe-cli]: Remove: archive file [/home/abi/fetcher/tmp/scythe_cli-1.0.1.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - main [MainThread]: End processing [scythe-cli]: success
+[2023-06-19 03:54:04] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-1.0.1.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - processPackages [PyVolSuggester]: Remove: archive file [/home/abi/fetcher/tmp/pyvolsuggester-1.1.0.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - main [MainThread]: End processing [PyVolSuggester]: success
+[2023-06-19 03:54:04] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.6.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.7.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-19 03:54:04] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.8.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
+[2023-06-19 03:54:04] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2023-06-19 03:54:05] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.8.tar.gz]
+[2023-06-19 03:54:05] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.9.tar.gz]
+[2023-06-19 03:54:05] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2023-06-19 03:54:05] INFO root fetch - main [MainThread]: Store serial: [18554918]
