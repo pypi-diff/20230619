@@ -23589,3 +23589,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 18:10:59] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.0.tar.gz]
 [2023-06-19 18:10:59] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-06-19 18:10:59] INFO root fetch - main [MainThread]: Store serial: [18562213]
+[2023-06-19 18:16:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18562213]
+[2023-06-19 18:16:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mundiapi
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kangforecast
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atriumsports-sdk
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aanalytics2
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consolegame
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scriptworker
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tator
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pasqal-cloud
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drizzutojr-vader
+[2023-06-19 18:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IMDBTraktSyncer
+[2023-06-19 18:16:09] INFO root fetch - processPackages [aanalytics2]: New version: [0.3.4] Old Version: [0.3.3.post3]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [consolegame]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [mundiapi]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [tator]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [scriptworker]: New version: [9.0.0] Old Version: [8.1.1]
+[2023-06-19 18:16:09] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/74/92/beee96a9afd433597b75c72c491bd22df14a41c04f802743af7371c0a8a7/pasqal-cloud-0.2.7.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/ad/11/7197ba7e0a6468bb6ebbf74088e47206217a28c8d5edd7b2bc396f647631/IMDBTraktSyncer-1.5.0.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/de/c3/1491b6e59362a3636ad5c51424b04f6a9968c6ebd4b6f9354d4c004ba4ad/atriumsports_sdk-1.1.0.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [consolegame]: Downloading https://files.pythonhosted.org/packages/30/cf/918cd4bf5c9967ec6eaadc7a46f88f7d8f42799666a353fb84d0e925315e/consolegame-0.0.3.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/c4/3e/fd2a0c4ac9b8896d34de011556f3de26508573e93091d060fec069025d9f/aanalytics2-0.3.3.post3.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/94/23/389d4e96a2946f113a5adbfc46bdbae58b38bc779c78c089581f125d7d94/drizzutojr_vader-0.0.1-py3-none-any.whl
+[2023-06-19 18:16:09] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/51/ae/f2e58e8b21d42aac70ee2b6d0261e4923c85b0acf59608ab967697aef5b9/tator-1.0.4.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [mundiapi]: Downloading https://files.pythonhosted.org/packages/85/50/e80f82558340065a3dbac63fd6efcd0eea08bf6954d12e687addebfb79cd/mundiapi-2.4.4.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/ea/d1/fdc110b0449a65fae3a72bfcfd8bfa198a3b3c8d6f2ea779fa67cc7df6f8/scriptworker-8.1.1.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/5d/21/749276007eaa9c1a3e329f4aac6a1d7a88951b33613f908669538921341b/IMDBTraktSyncer-1.5.1.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/3a/19/94b662755a09a11db4a5206088509e0beaa60d6bc12659ed773e59d67cda/pasqal-cloud-0.2.8.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [consolegame]: Downloading https://files.pythonhosted.org/packages/19/ae/b7da92ff2bb03f28c3c8e12fe1b62755715fa5522b9eccd954fe5731b8f7/consolegame-0.0.4.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.2.7.tar.gz tmp/pasqal-cloud-0.2.8.tar.gz --markdown 20230619/p/pasqal-cloud/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/bb/38/df7ea5ff7e4086b98d235d03824b1de135d701334cb723fdaea308c78788/atriumsports_sdk-1.2.0.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/7c/17/dd69495a351d5ff2d4a7873f7cf419179a90394cb4b62cd0d8b691e428f0/aanalytics2-0.3.4.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/e7/eb/6a3fd94d0635296239a36f4fbda5de68cadc95075759eb1773f4dba04aad/drizzutojr_vader-0.0.3-py3-none-any.whl
+[2023-06-19 18:16:09] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/b8/e0/c95a6e303ac8570b0b2a4a44ab95337f01c30a64fabae90a3f6cd08e151c/tator-1.0.5.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [mundiapi]: Downloading https://files.pythonhosted.org/packages/71/c7/7e8738a14fff8a400383861a011980fa4b5226e9477c3a0b98dc8d373042/mundiapi-2.4.5.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.5.0.tar.gz tmp/IMDBTraktSyncer-1.5.1.tar.gz --markdown 20230619/I/IMDBTraktSyncer/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [consolegame]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [consolegame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolegame-0.0.3.tar.gz tmp/consolegame-0.0.4.tar.gz --markdown 20230619/c/consolegame/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.1-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.3-py3-none-any.whl.zip --markdown 20230619/d/drizzutojr-vader/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.1.0.tar.gz tmp/atriumsports_sdk-1.2.0.tar.gz --markdown 20230619/a/atriumsports-sdk/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [tator]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.0.4.tar.gz tmp/tator-1.0.5.tar.gz --markdown 20230619/t/tator/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [aanalytics2]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [aanalytics2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalytics2-0.3.3.post3.tar.gz tmp/aanalytics2-0.3.4.tar.gz --markdown 20230619/a/aanalytics2/0.3.3.post3-0.3.4/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [mundiapi]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [mundiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mundiapi-2.4.4.tar.gz tmp/mundiapi-2.4.5.tar.gz --markdown 20230619/m/mundiapi/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-06-19 18:16:09] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/a2/89/b354991a23a47adcd499805e932e2c7be941ac3d6ecd8c5e012415a35363/scriptworker-9.0.0.tar.gz
+[2023-06-19 18:16:09] INFO root fetch - processPackages [scriptworker]: executing diffoscope
+[2023-06-19 18:16:09] INFO root fetch - processPackages [scriptworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptworker-8.1.1.tar.gz tmp/scriptworker-9.0.0.tar.gz --markdown 20230619/s/scriptworker/8.1.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-19 18:16:10] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-19 18:16:10] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-19 18:16:10] INFO root fetch - processPackages [kangforecast]: Start processing: aws-cdk.asset-awscli-v1
+[2023-06-19 18:16:10] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 18:16:10] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-19 18:16:10] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-06-19 18:16:11] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-06-19 18:16:11] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: pepperize.cdk-vpc
+[2023-06-19 18:16:11] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-06-19 18:16:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [consolegame]: Remove: archive file [/home/abi/fetcher/tmp/consolegame-0.0.3.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [consolegame]: Remove: archive file [/home/abi/fetcher/tmp/consolegame-0.0.4.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [consolegame]: Start processing: netbox-cisco-support-plugin
+[2023-06-19 18:16:11] INFO root fetch - main [MainThread]: End processing [consolegame]: success
+[2023-06-19 18:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.1-py3-none-any.whl.zip]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.3-py3-none-any.whl.zip]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [drizzutojr-vader]: Start processing: kangforecast
+[2023-06-19 18:16:11] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-19 18:16:11] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/40/e4/ef04e3857ff6d5e9999c998750ba042012dc7281f8ff406b5d0c99c1eafa/netbox-cisco-support-plugin-0.0.2.tar.gz
+[2023-06-19 18:16:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-06-19 18:16:11] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230619/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 18:16:11] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 18:16:11] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 18:16:11] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.2.7.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.2.8.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-06-19 18:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/35/f6/8a50effe8eca74edfe2046c1ac38e000f6aeab729f839ed053eebe11b139/netbox-cisco-support-plugin-0.0.3.tar.gz
+[2023-06-19 18:16:11] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 18:16:11] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 18:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-19 18:16:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.2.tar.gz tmp/netbox-cisco-support-plugin-0.0.3.tar.gz --markdown 20230619/n/netbox-cisco-support-plugin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 18:16:11] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.5.0.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.5.1.tar.gz]
+[2023-06-19 18:16:11] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-19 18:16:12] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.3.3.post3.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.3.4.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - main [MainThread]: End processing [aanalytics2]: success
+[2023-06-19 18:16:12] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-06-19 18:16:12] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 18:16:12] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-8.1.1.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-9.0.0.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - main [MainThread]: End processing [scriptworker]: success
+[2023-06-19 18:16:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.2.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.3.tar.gz]
+[2023-06-19 18:16:12] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-19 18:16:13] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.0.4.tar.gz]
+[2023-06-19 18:16:13] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.0.5.tar.gz]
+[2023-06-19 18:16:13] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2023-06-19 18:16:17] INFO root fetch - processPackages [mundiapi]: Remove: archive file [/home/abi/fetcher/tmp/mundiapi-2.4.4.tar.gz]
+[2023-06-19 18:16:17] INFO root fetch - processPackages [mundiapi]: Remove: archive file [/home/abi/fetcher/tmp/mundiapi-2.4.5.tar.gz]
+[2023-06-19 18:16:17] INFO root fetch - main [MainThread]: End processing [mundiapi]: success
+[2023-06-19 18:16:28] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.1.0.tar.gz]
+[2023-06-19 18:16:28] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.2.0.tar.gz]
+[2023-06-19 18:16:28] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2023-06-19 18:16:28] INFO root fetch - main [MainThread]: Store serial: [18562252]
