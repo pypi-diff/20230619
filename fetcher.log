@@ -20137,3 +20137,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:16:20] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.0.0.tar.gz]
 [2023-06-19 16:16:20] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
 [2023-06-19 16:16:20] INFO root fetch - main [MainThread]: Store serial: [18560901]
+[2023-06-19 16:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560901]
+[2023-06-19 16:21:30] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastervit
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RNAlysis
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ycv
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easysurrogate
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: falcon-morpheus-module
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textfsm-aos
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testlasernotused
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merqube-client-lib
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tttpquisby
+[2023-06-19 16:21:30] WARNING root fetch - processPackages [fastervit]: Skipping, unable to determine old version
+[2023-06-19 16:21:30] INFO root fetch - processPackages [fastervit]: Start processing: nnx
+[2023-06-19 16:21:30] INFO root fetch - main [MainThread]: End processing [fastervit] error
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ycv]: New version: [0.0.dev5] Old Version: [0.0.dev4]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [RNAlysis]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [edc]: New version: [0.4.97] Old Version: [0.4.96]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [falcon-morpheus-module]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [easysurrogate]: New version: [0.23] Old Version: [0.22]
+[2023-06-19 16:21:30] WARNING root fetch - processPackages [testlasernotused]: Skipping, unable to determine old version
+[2023-06-19 16:21:30] INFO root fetch - processPackages [testlasernotused]: Start processing: simple-romp
+[2023-06-19 16:21:30] INFO root fetch - main [MainThread]: End processing [testlasernotused] error
+[2023-06-19 16:21:30] INFO root fetch - processPackages [falcon-morpheus-module]: Downloading https://files.pythonhosted.org/packages/f4/5e/cf8f86af792b1b342daa2cfe8ebcba324770087485bdd1a87f5973a9ed51/falcon_morpheus_module-0.0.4.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [tttpquisby]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [textfsm-aos]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [nnx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [simple-romp]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [RNAlysis]: Downloading https://files.pythonhosted.org/packages/aa/28/698b99a922eb0c1375499f6cdc0deea45a7f755c1f773438962efec68760/RNAlysis-3.9.0.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/37/e7/8abdb39b3b4bbb6b5d222597497658c9985dd97eba0d48886fe58df34857/ycv-0.0.dev4.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/bc/44/0fc0d8d10a416d45ab8be163085263b7ccf86ab4c152b90eb559436c89fa/edc-0.4.96.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [easysurrogate]: Downloading https://files.pythonhosted.org/packages/3f/ca/7b1f49b8e36a2a8145add808426a18186ad24cfde7213dce5135bf7ac09b/easysurrogate-0.22.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [falcon-morpheus-module]: Downloading https://files.pythonhosted.org/packages/43/63/2cdc53b7745ce01c9219e9613db3a7cd07a3c72b531d33b07575a0d43439/falcon_morpheus_module-0.0.5.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/ad/91/55d2ee7220278213ea8e3d1fb034bbbc0d930eca8737eb6f0526cbdbc6b3/simple_romp-1.1.0.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/26/f0/2b1b1037d94be4abcbb6a4f98d158aa8b4f0330be78ea8703bbc64a51d44/tttpquisby-0.0.4.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [nnx]: Downloading https://files.pythonhosted.org/packages/da/f0/a749bd898d0bf250138b4f87639cffe08acaf67a3ab832801a575b0294b6/nnx-0.0.5.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [textfsm-aos]: Downloading https://files.pythonhosted.org/packages/1b/36/3d3997bccf234eca326754f9ae3de956772619253550ad6ffd979ec6b22a/textfsm_aos-1.1.2.tar.gz
+[2023-06-19 16:21:30] WARNING root fetch - processPackages [RNAlysis]: Skipping package: exceeds size limit 66392183>=10485760
+[2023-06-19 16:21:30] INFO root fetch - processPackages [RNAlysis]: Start processing: moleculekit
+[2023-06-19 16:21:30] INFO root fetch - main [MainThread]: End processing [RNAlysis] error
+[2023-06-19 16:21:30] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/e3/8a/87d5de868674de660bac929b7f69b1c1d2e86a4134f32d80f5784805935f/merqube_client_lib-0.8.2.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [falcon-morpheus-module]: executing diffoscope
+[2023-06-19 16:21:30] INFO root fetch - processPackages [falcon-morpheus-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_morpheus_module-0.0.4.tar.gz tmp/falcon_morpheus_module-0.0.5.tar.gz --markdown 20230619/f/falcon-morpheus-module/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 16:21:30] INFO root fetch - processPackages [moleculekit]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-19 16:21:30] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/39/d0/5b6a8604d1a02c7656f37c7e70c89e2e76cc4ed47ea19601c1ad1852616d/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg
+[2023-06-19 16:21:30] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/8d/92/b0724f52f3633d0e841e2b5349994997020cfa0ee8a8de60cbbf71c0f445/tttpquisby-0.0.5.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [nnx]: Downloading https://files.pythonhosted.org/packages/93/1e/c246113d45732307e20d19ffbafd5f29bd2f4cd4da9b86722ab0eb6ab1af/nnx-0.0.6.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [easysurrogate]: Downloading https://files.pythonhosted.org/packages/64/4c/953f6472113067d0b6ea9afa8fcd6e3ac257336a64c68e5d9f2824fb21e1/easysurrogate-0.23-py3-none-any.whl
+[2023-06-19 16:21:30] INFO root fetch - processPackages [simple-romp]: executing diffoscope
+[2023-06-19 16:21:30] INFO root fetch - processPackages [simple-romp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_romp-1.1.0.tar.gz tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg --markdown 20230619/s/simple-romp/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 16:21:30] INFO root fetch - processPackages [tttpquisby]: executing diffoscope
+[2023-06-19 16:21:30] INFO root fetch - processPackages [tttpquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tttpquisby-0.0.4.tar.gz tmp/tttpquisby-0.0.5.tar.gz --markdown 20230619/t/tttpquisby/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 16:21:30] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/4d/2f/3a59602fa6e92e2c8e5910680b2b47bb32eda58e30a8a1dba2978414f33b/edc-0.4.97.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [textfsm-aos]: Downloading https://files.pythonhosted.org/packages/f6/97/641fc5675726f1d4ffa5491b1c5e1320c14842c1bcfffc57c2ff2ad55519/textfsm_aos-1.1.3.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [nnx]: executing diffoscope
+[2023-06-19 16:21:30] INFO root fetch - processPackages [nnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnx-0.0.5.tar.gz tmp/nnx-0.0.6.tar.gz --markdown 20230619/n/nnx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 16:21:30] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/46/e5/e5cabd06e75c7a73c090820e784564bd56b6d650bf657c8af3ddf97f93e0/merqube_client_lib-0.9.0.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/4e/3a/29fb1aa0e3792fef88348885348370f39af453fb75d5505a208068d1c4ac/moleculekit-1.7.1.tar.gz
+[2023-06-19 16:21:30] INFO root fetch - processPackages [easysurrogate]: executing diffoscope
+[2023-06-19 16:21:30] INFO root fetch - processPackages [easysurrogate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easysurrogate-0.22.tar.gz tmp/easysurrogate-0.23-py3-none-any.whl.zip --markdown 20230619/e/easysurrogate/0.22-0.23/diff.md --exclude *.pyd
+[2023-06-19 16:21:31] INFO root fetch - processPackages [textfsm-aos]: executing diffoscope
+[2023-06-19 16:21:31] INFO root fetch - processPackages [textfsm-aos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textfsm_aos-1.1.2.tar.gz tmp/textfsm_aos-1.1.3.tar.gz --markdown 20230619/t/textfsm-aos/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-19 16:21:31] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-06-19 16:21:31] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.96.tar.gz tmp/edc-0.4.97.tar.gz --markdown 20230619/e/edc/0.4.96-0.4.97/diff.md --exclude *.pyd
+[2023-06-19 16:21:31] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-06-19 16:21:31] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.8.2.tar.gz tmp/merqube_client_lib-0.9.0.tar.gz --markdown 20230619/m/merqube-client-lib/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 16:21:31] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/cb/c3/54a2dcc5ff1fd08ed8038f4febaf3769a2f7887f091fc9d77f31929412d2/ycv-0.0.dev5.tar.gz
+[2023-06-19 16:21:31] INFO root fetch - processPackages [ycv]: executing diffoscope
+[2023-06-19 16:21:31] INFO root fetch - processPackages [ycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycv-0.0.dev4.tar.gz tmp/ycv-0.0.dev5.tar.gz --markdown 20230619/y/ycv/0.0.dev4-0.0.dev5/diff.md --exclude *.pyd
+[2023-06-19 16:21:31] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/4a/13/dd6711d592d27e604c48830300f5596aafa1bbc479dc5eb49ed9797085eb/moleculekit-1.7.2.tar.gz
+[2023-06-19 16:21:31] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2023-06-19 16:21:31] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.7.1.tar.gz tmp/moleculekit-1.7.2.tar.gz --markdown 20230619/m/moleculekit/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-19 16:21:32] INFO root fetch - processPackages [falcon-morpheus-module]: Remove: archive file [/home/abi/fetcher/tmp/falcon_morpheus_module-0.0.4.tar.gz]
+[2023-06-19 16:21:32] INFO root fetch - processPackages [falcon-morpheus-module]: Remove: archive file [/home/abi/fetcher/tmp/falcon_morpheus_module-0.0.5.tar.gz]
+[2023-06-19 16:21:32] INFO root fetch - processPackages [falcon-morpheus-module]: Start processing: jexorapdf
+[2023-06-19 16:21:32] INFO root fetch - main [MainThread]: End processing [falcon-morpheus-module]: success
+[2023-06-19 16:21:32] WARNING root fetch - processPackages [jexorapdf]: Skipping, unable to determine old version
+[2023-06-19 16:21:32] INFO root fetch - processPackages [jexorapdf]: Start processing: planetary-system-stacker
+[2023-06-19 16:21:32] INFO root fetch - main [MainThread]: End processing [jexorapdf] error
+[2023-06-19 16:21:32] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.6.3] Old Version: [0.9.6.2]
+[2023-06-19 16:21:32] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/3d/0f/d639169acfdb463d5e52053cac133da32b9ab8ee199e690788f96aa71959/planetary_system_stacker-0.9.6.2-py3-none-manylinux1_x86_64.whl
+[2023-06-19 16:21:32] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/d8/30/8bfd185899fc41e723a41e7ddf38dcaf19c57b08f888d1b5fc31ab198964/planetary_system_stacker-0.9.6.3-py3-none-macosx_10_6_intel.whl
+[2023-06-19 16:21:32] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev4.tar.gz]
+[2023-06-19 16:21:32] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev5.tar.gz]
+[2023-06-19 16:21:32] INFO root fetch - processPackages [ycv]: Start processing: planetary-system-stacker
+[2023-06-19 16:21:32] INFO root fetch - main [MainThread]: End processing [ycv]: success
+[2023-06-19 16:21:32] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.6.3] Old Version: [0.9.6.2]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-1.1.0.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [simple-romp]: Start processing: planetary-system-stacker
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [simple-romp]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-06-19 16:21:33] INFO root fetch - processPackages [textfsm-aos]: Remove: archive file [/home/abi/fetcher/tmp/textfsm_aos-1.1.2.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.6.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.6.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230619/p/planetary-system-stacker/0.9.6.2-0.9.6.3/diff.md --exclude *.pyd
+[2023-06-19 16:21:33] INFO root fetch - processPackages [textfsm-aos]: Remove: archive file [/home/abi/fetcher/tmp/textfsm_aos-1.1.3.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [textfsm-aos]: Start processing: meta-edc
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [textfsm-aos]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.6.3] Old Version: [0.9.6.2]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.6.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.6.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230619/p/planetary-system-stacker/0.9.6.2-0.9.6.3/diff.md --exclude *.pyd
+[2023-06-19 16:21:33] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.4.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.5.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [tttpquisby]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [meta-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-06-19 16:21:33] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.6.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.6.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230619/p/planetary-system-stacker/0.9.6.2-0.9.6.3/diff.md --exclude *.pyd
+[2023-06-19 16:21:33] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.8.2.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.9.0.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [nnx]: Remove: archive file [/home/abi/fetcher/tmp/nnx-0.0.5.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [nnx]: Remove: archive file [/home/abi/fetcher/tmp/nnx-0.0.6.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [nnx]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [easysurrogate]: Remove: archive file [/home/abi/fetcher/tmp/easysurrogate-0.22.tar.gz]
+[2023-06-19 16:21:33] INFO root fetch - processPackages [easysurrogate]: Remove: archive file [/home/abi/fetcher/tmp/easysurrogate-0.23-py3-none-any.whl.zip]
+[2023-06-19 16:21:33] INFO root fetch - main [MainThread]: End processing [easysurrogate]: success
+[2023-06-19 16:21:33] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/85/61/4c09a216ad3731c2996bc840ce11173fc74fcebe2e61cb526e930d12ff58/meta-edc-0.2.8.tar.gz
+[2023-06-19 16:21:33] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/aa/73/c6f99ef0c49f9fb7bc1f4dd79c484359f0d583502064364e6e14dece6adb/meta-edc-0.2.9.tar.gz
+[2023-06-19 16:21:34] INFO root fetch - processPackages [meta-edc]: executing diffoscope
+[2023-06-19 16:21:34] INFO root fetch - processPackages [meta-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-edc-0.2.8.tar.gz tmp/meta-edc-0.2.9.tar.gz --markdown 20230619/m/meta-edc/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 16:21:34] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.6.2-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-19 16:21:34] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.6.3-py3-none-macosx_10_6_intel.whl.zip]
+[2023-06-19 16:21:34] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-06-19 16:21:34] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-06-19 16:21:34] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-06-19 16:21:34] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.4.96.tar.gz]
+[2023-06-19 16:21:34] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.4.97.tar.gz]
+[2023-06-19 16:21:34] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-06-19 16:21:42] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.1.tar.gz]
+[2023-06-19 16:21:42] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.7.2.tar.gz]
+[2023-06-19 16:21:42] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2023-06-19 16:21:45] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.2.8.tar.gz]
+[2023-06-19 16:21:45] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.2.9.tar.gz]
+[2023-06-19 16:21:45] INFO root fetch - main [MainThread]: End processing [meta-edc]: success
+[2023-06-19 16:21:45] INFO root fetch - main [MainThread]: Store serial: [18560969]
