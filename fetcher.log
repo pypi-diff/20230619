@@ -21096,3 +21096,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:58:39] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip]
 [2023-06-19 16:58:39] INFO root fetch - main [MainThread]: End processing [altimeter]: success
 [2023-06-19 16:58:39] INFO root fetch - main [MainThread]: Store serial: [18561303]
+[2023-06-19 17:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561303]
+[2023-06-19 17:03:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antgo
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bothlent-asr-eval
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maddaq
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-server
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geotribu
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my00001
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-organization-python
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mastapy
+[2023-06-19 17:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-id-python
+[2023-06-19 17:03:48] WARNING root fetch - processPackages [bothlent-asr-eval]: Skipping, unable to determine old version
+[2023-06-19 17:03:48] INFO root fetch - processPackages [bothlent-asr-eval]: Start processing: cybrid-api-bank-python
+[2023-06-19 17:03:48] INFO root fetch - main [MainThread]: End processing [bothlent-asr-eval] error
+[2023-06-19 17:03:48] INFO root fetch - processPackages [maddaq]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a8] Old Version: [1.3.0a7]
+[2023-06-19 17:03:48] WARNING root fetch - processPackages [my00001]: Skipping, unable to determine old version
+[2023-06-19 17:03:48] INFO root fetch - processPackages [my00001]: Start processing: FragStatsPy
+[2023-06-19 17:03:48] INFO root fetch - main [MainThread]: End processing [my00001] error
+[2023-06-19 17:03:48] INFO root fetch - processPackages [mastapy]: New version: [13.0a2] Old Version: [12.0rc2]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/0c/88/9ed63e5b1ed623ecc1bbe33f1abbe27529df60c105218f58ec8e861e50c3/geotribu-0.9.0.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/18/ce/a61a6531c4f42e99d29634728ec3bbf7ec658424606b9b7ce10cdb0bf867/fractal_server-1.3.0a7.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-19 17:03:48] WARNING root fetch - processPackages [FragStatsPy]: Skipping, unable to determine old version
+[2023-06-19 17:03:48] INFO root fetch - processPackages [FragStatsPy]: Start processing: bindlab
+[2023-06-19 17:03:48] INFO root fetch - main [MainThread]: End processing [FragStatsPy] error
+[2023-06-19 17:03:48] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/62/b3/c0a91ca5efa5c4c0338fbdec554fce09bf08ac357fd3020e1830d1194bc2/geotribu-0.9.1.tar.gz
+[2023-06-19 17:03:48] WARNING root fetch - processPackages [bindlab]: Skipping, unable to determine old version
+[2023-06-19 17:03:48] INFO root fetch - processPackages [bindlab]: Start processing: wraptimer
+[2023-06-19 17:03:48] INFO root fetch - main [MainThread]: End processing [bindlab] error
+[2023-06-19 17:03:48] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/6c/0d/51c1aac387d316725ddfe89aa7d5c35ceef65f3c0f4cfabce731d9c3d43c/maddaq-0.7.7.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [wraptimer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 17:03:48] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/5d/c4/6552799eaa9b5ddc4304e2d5d1a62d7fd1333e9ff309df2b947f1497ffa2/mastapy-12.0rc2.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-06-19 17:03:48] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230619/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-19 17:03:48] INFO root fetch - processPackages [wraptimer]: Downloading https://files.pythonhosted.org/packages/99/51/c901962564e920bb542ab49e9dede5750523f2857b716ef3ae5ab696b592/wraptimer-0.1.0.tar.gz
+[2023-06-19 17:03:48] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/43/64/2ccca677a48ad7a99aa170c78ef3c3a884cabedba5155aa6e764eafd801d/fractal_server-1.3.0a8.tar.gz
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230619/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [wraptimer]: Downloading https://files.pythonhosted.org/packages/ad/f5/b3993ace221a4c7f310b7c883b846810f9da2faffdabed8b21423c5ec34d/wraptimer-0.1.1.tar.gz
+[2023-06-19 17:03:49] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.0a7.tar.gz tmp/fractal_server-1.3.0a8.tar.gz --markdown 20230619/f/fractal-server/1.3.0a7-1.3.0a8/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [wraptimer]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [wraptimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wraptimer-0.1.0.tar.gz tmp/wraptimer-0.1.1.tar.gz --markdown 20230619/w/wraptimer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230619/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/1c/06/6402e16e3be879a14d5bff7318466a138f74afe84e27cb4ab7e00d3ad118/maddaq-0.7.8.tar.gz
+[2023-06-19 17:03:49] INFO root fetch - processPackages [maddaq]: executing diffoscope
+[2023-06-19 17:03:49] INFO root fetch - processPackages [maddaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maddaq-0.7.7.tar.gz tmp/maddaq-0.7.8.tar.gz --markdown 20230619/m/maddaq/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-19 17:03:49] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/f6/94/23aec7e65282ba68874b3041aa7b9a4ab3a372321564b6bd26aa2c8c1cb3/mastapy-13.0a2.tar.gz
+[2023-06-19 17:03:50] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.0.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - processPackages [geotribu]: Remove: archive file [/home/abi/fetcher/tmp/geotribu-0.9.1.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-06-19 17:03:50] INFO root fetch - processPackages [wraptimer]: Remove: archive file [/home/abi/fetcher/tmp/wraptimer-0.1.0.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - processPackages [wraptimer]: Remove: archive file [/home/abi/fetcher/tmp/wraptimer-0.1.1.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - main [MainThread]: End processing [wraptimer]: success
+[2023-06-19 17:03:50] INFO root fetch - processPackages [mastapy]: executing diffoscope
+[2023-06-19 17:03:50] INFO root fetch - processPackages [mastapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastapy-12.0rc2.tar.gz tmp/mastapy-13.0a2.tar.gz --markdown 20230619/m/mastapy/12.0rc2-13.0a2/diff.md --exclude *.pyd
+[2023-06-19 17:03:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-19 17:03:50] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.7.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.8.tar.gz]
+[2023-06-19 17:03:50] INFO root fetch - main [MainThread]: End processing [maddaq]: success
+[2023-06-19 17:03:51] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-19 17:03:51] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-19 17:03:51] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-19 17:03:51] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a7.tar.gz]
+[2023-06-19 17:03:51] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a8.tar.gz]
+[2023-06-19 17:03:51] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-19 17:03:52] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-19 17:03:52] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-19 17:03:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-19 17:03:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-19 17:03:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-19 17:03:55] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-19 17:04:01] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-19 17:04:01] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-19 17:04:01] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-19 17:06:50] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
+[2023-06-19 17:06:50] INFO root fetch - main [MainThread]: End processing [mastapy] error
+[2023-06-19 17:06:50] INFO root fetch - main [MainThread]: Store serial: [18561349]
