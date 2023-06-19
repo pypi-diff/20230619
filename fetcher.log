@@ -8499,3 +8499,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:36:05] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
 [2023-06-19 08:36:59] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
 [2023-06-19 08:36:59] INFO root fetch - main [MainThread]: Store serial: [18556297]
+[2023-06-19 08:42:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556297]
+[2023-06-19 08:42:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starmatch
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: investor8-sdk
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-factories
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tonpay
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haidarlibs
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-es-account-banking-sepa-fsdd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastervit
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: queryandprocessdatautility
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qulacs
+[2023-06-19 08:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smpgpt
+[2023-06-19 08:42:09] INFO root fetch - processPackages [tonpay]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [starmatch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.92] Old Version: [1.1.91]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [smpgpt]: New version: [8.0] Old Version: [4.0]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [qulacs]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-19 08:42:09] WARNING root fetch - processPackages [fastervit]: Skipping, unable to determine old version
+[2023-06-19 08:42:09] INFO root fetch - processPackages [fastervit]: Start processing: nxsconfigserver-db
+[2023-06-19 08:42:09] INFO root fetch - main [MainThread]: End processing [fastervit] error
+[2023-06-19 08:42:09] INFO root fetch - processPackages [trytond-factories]: New version: [6.6.4] Old Version: [6.6.3]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [nxsconfigserver-db]: New version: [1.10.4] Old Version: [1.10.3]
+[2023-06-19 08:42:09] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [starmatch]: Downloading https://files.pythonhosted.org/packages/61/0d/1d29fb5f6512dc66561b44603d579713f8ca79e82043ef98f671f8076cdc/starmatch-0.1.0-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/60/09/b1ac1a211f1328ddd1043c3621aa2f61694e8bb0c23f7a4917a7c08d7829/investor8-sdk-1.1.91.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/a0/f5/61d36a23563ac4ac5883d198221e9e3b7bb46f1ae09b7a1683322461743e/haidarlibs-0.0.9.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/da/50/e82931eb9f868813dfd5c849ce12634f868339ed4647a4f0e8e89d4e3f24/smpgpt-4.0.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [tonpay]: Downloading https://files.pythonhosted.org/packages/72/59/f201775bf319c75af92c0643f056c3685222e4ede2604a9f35163e058e31/tonpay-0.0.1.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Downloading https://files.pythonhosted.org/packages/ed/cc/dd4dfce7b05794a4e7a419e30b98c8d3acbdceb41236357c54900bf30819/odoo_addon_l10n_es_account_banking_sepa_fsdd-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.8.tar.gz tmp/haidarlibs-0.0.9.tar.gz --markdown 20230619/h/haidarlibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/37/3f/6576b0665e5b1d098aea9bd7a9d7dbb0641170b8d05b3e72edb112d4a779/qulacs-0.6.0.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/61/ac/2248a7a6320822866d6b686410a76dd36af100bb940d4482a9eb2fa0e079/trytond-factories-6.6.3.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [nxsconfigserver-db]: Downloading https://files.pythonhosted.org/packages/6a/14/c890d0b8cd4f02164fbbcec385f4b493d5aa49f446d7e451b0ceb5de526b/nxsconfigserver-db-1.10.3.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230619/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/a9/ca/87e96dadbd80e9df67ad06988d4cbb1b143886c61bbfb696c20cf4ebce40/investor8-sdk-1.1.92.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [tonpay]: Downloading https://files.pythonhosted.org/packages/8f/3f/b5bb0b9d77e2dbf162dc7ae57ef63924779d9fbcbd01a3d7384c46352fa9/tonpay-0.0.2.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/f2/fe/0e6a86a6116b6e159ce40b3a1f0250f61563e5fcf0e8c5cfeb677a4fc386/smpgpt-8.0.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.91.tar.gz tmp/investor8-sdk-1.1.92.tar.gz --markdown 20230619/i/investor8-sdk/1.1.91-1.1.92/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [starmatch]: Downloading https://files.pythonhosted.org/packages/34/be/4ac4cf29f746d3f34c9f6fc18c5cca511e7cd3f4b6573c83947f50201d30/starmatch-0.1.1-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-4.0.tar.gz tmp/smpgpt-8.0.tar.gz --markdown 20230619/s/smpgpt/4.0-8.0/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Downloading https://files.pythonhosted.org/packages/1e/4a/dc2aca7b08944ebd34d8f6ab74ade0b09a01582805548afe3206edc037ce/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 08:42:09] INFO root fetch - processPackages [starmatch]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [starmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmatch-0.1.0-py3-none-any.whl.zip tmp/starmatch-0.1.1-py3-none-any.whl.zip --markdown 20230619/s/starmatch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [tonpay]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [tonpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonpay-0.0.1.tar.gz tmp/tonpay-0.0.2.tar.gz --markdown 20230619/t/tonpay/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [nxsconfigserver-db]: Downloading https://files.pythonhosted.org/packages/13/84/621acad8b87a1171d071484f66d6e3909ba21584a47dc13046ca996aa117/nxsconfigserver-db-1.10.4.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/00/23/9488ff29d46134cc6ce849423bf9166c0bbe056ba68ddce728a64b394924/qulacs-0.6.1.tar.gz
+[2023-06-19 08:42:09] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-l10n-es-account-banking-sepa-fsdd/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [nxsconfigserver-db]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [nxsconfigserver-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxsconfigserver-db-1.10.3.tar.gz tmp/nxsconfigserver-db-1.10.4.tar.gz --markdown 20230619/n/nxsconfigserver-db/1.10.3-1.10.4/diff.md --exclude *.pyd
+[2023-06-19 08:42:09] INFO root fetch - processPackages [qulacs]: executing diffoscope
+[2023-06-19 08:42:09] INFO root fetch - processPackages [qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacs-0.6.0.tar.gz tmp/qulacs-0.6.1.tar.gz --markdown 20230619/q/qulacs/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-19 08:42:10] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/dd/1b/3d048bb3b2fb99ab089a29cc183700c74e3659d7b9dbbf8e74572dd5401f/trytond-factories-6.6.4.tar.gz
+[2023-06-19 08:42:10] INFO root fetch - processPackages [trytond-factories]: executing diffoscope
+[2023-06-19 08:42:10] INFO root fetch - processPackages [trytond-factories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-factories-6.6.3.tar.gz tmp/trytond-factories-6.6.4.tar.gz --markdown 20230619/t/trytond-factories/6.6.3-6.6.4/diff.md --exclude *.pyd
+[2023-06-19 08:42:10] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 08:42:10] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 08:42:10] INFO root fetch - processPackages [queryandprocessdatautility]: Start processing: deepfos-celery
+[2023-06-19 08:42:10] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-19 08:42:10] INFO root fetch - processPackages [deepfos-celery]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-4.0.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-8.0.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [smpgpt]: Start processing: mycoinlib
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [mycoinlib]: New version: [0.4] Old Version: [0.3]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [deepfos-celery]: Downloading https://files.pythonhosted.org/packages/7e/c9/f570c7620e3be5a956e6c1db7f59652298f641faa9d749a16bcff3afa2ca/deepfos-celery-1.0.2.tar.gz
+[2023-06-19 08:42:11] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/98/8c/2f32d4d174e854e53469b8891d1d237d29bcb1d8ec4cd3399f4fe3856abf/mycoinlib-0.3.tar.gz
+[2023-06-19 08:42:11] INFO root fetch - processPackages [starmatch]: Remove: archive file [/home/abi/fetcher/tmp/starmatch-0.1.0-py3-none-any.whl.zip]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [starmatch]: Remove: archive file [/home/abi/fetcher/tmp/starmatch-0.1.1-py3-none-any.whl.zip]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [starmatch]: Start processing: preprocessing-pgp
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [starmatch]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.8.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.9.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [deepfos-celery]: Downloading https://files.pythonhosted.org/packages/e5/4f/43cccabc8061fef4f28d12390d24332ccd4d6fd6dc1270954db0dfa977ae/deepfos-celery-1.0.3.tar.gz
+[2023-06-19 08:42:11] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/9c/21/cd49933c07f81c60671e3a0bd684706da8ed5e05e6ba7ad8de6c96452cd7/mycoinlib-0.4.tar.gz
+[2023-06-19 08:42:11] INFO root fetch - processPackages [deepfos-celery]: executing diffoscope
+[2023-06-19 08:42:11] INFO root fetch - processPackages [deepfos-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfos-celery-1.0.2.tar.gz tmp/deepfos-celery-1.0.3.tar.gz --markdown 20230619/d/deepfos-celery/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 08:42:11] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [tonpay]: Remove: archive file [/home/abi/fetcher/tmp/tonpay-0.0.1.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [tonpay]: Remove: archive file [/home/abi/fetcher/tmp/tonpay-0.0.2.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [tonpay]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-account-banking-sepa-fsdd]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [nxsconfigserver-db]: Remove: archive file [/home/abi/fetcher/tmp/nxsconfigserver-db-1.10.3.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - processPackages [nxsconfigserver-db]: Remove: archive file [/home/abi/fetcher/tmp/nxsconfigserver-db-1.10.4.tar.gz]
+[2023-06-19 08:42:11] INFO root fetch - main [MainThread]: End processing [nxsconfigserver-db]: success
+[2023-06-19 08:42:11] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-19 08:42:11] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.3.tar.gz tmp/mycoinlib-0.4.tar.gz --markdown 20230619/m/mycoinlib/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-19 08:42:11] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-19 08:42:12] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-19 08:42:12] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-19 08:42:12] INFO root fetch - processPackages [trytond-factories]: Remove: archive file [/home/abi/fetcher/tmp/trytond-factories-6.6.3.tar.gz]
+[2023-06-19 08:42:12] INFO root fetch - processPackages [trytond-factories]: Remove: archive file [/home/abi/fetcher/tmp/trytond-factories-6.6.4.tar.gz]
+[2023-06-19 08:42:12] INFO root fetch - main [MainThread]: End processing [trytond-factories]: success
+[2023-06-19 08:42:12] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.3.tar.gz]
+[2023-06-19 08:42:12] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.4.tar.gz]
+[2023-06-19 08:42:12] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-19 08:42:13] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.91.tar.gz]
+[2023-06-19 08:42:13] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.92.tar.gz]
+[2023-06-19 08:42:13] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-19 08:42:15] INFO root fetch - processPackages [deepfos-celery]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-celery-1.0.2.tar.gz]
+[2023-06-19 08:42:15] INFO root fetch - processPackages [deepfos-celery]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-celery-1.0.3.tar.gz]
+[2023-06-19 08:42:15] INFO root fetch - main [MainThread]: End processing [deepfos-celery]: success
+[2023-06-19 08:42:26] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.0.tar.gz]
+[2023-06-19 08:42:26] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.1.tar.gz]
+[2023-06-19 08:42:26] INFO root fetch - main [MainThread]: End processing [qulacs]: success
+[2023-06-19 08:42:26] INFO root fetch - main [MainThread]: Store serial: [18556332]
