@@ -5902,3 +5902,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:14:55] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
 [2023-06-19 05:14:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
 [2023-06-19 05:14:55] INFO root fetch - main [MainThread]: Store serial: [18555255]
+[2023-06-19 05:19:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555255]
+[2023-06-19 05:20:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfiredb
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gggdtparser
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hn2016-falwa
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkyukkyuCrawler
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyconnectwise
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyautosrt
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picogo
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aclib.pyi
+[2023-06-19 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macrometa-source-collection
+[2023-06-19 05:20:03] INFO root fetch - processPackages [hn2016-falwa]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [pyfiredb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [kkyukkyuCrawler]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-19 05:20:03] WARNING root fetch - processPackages [aclib.pyi]: Skipping, unable to determine old version
+[2023-06-19 05:20:03] INFO root fetch - main [MainThread]: End processing [aclib.pyi] error
+[2023-06-19 05:20:03] INFO root fetch - processPackages [picogo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-06-19 05:20:03] WARNING root fetch - processPackages [pyconnectwise]: Skipping, unable to determine old version
+[2023-06-19 05:20:03] INFO root fetch - main [MainThread]: End processing [pyconnectwise] error
+[2023-06-19 05:20:03] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/e5/df/22b33f694c5d736b1590512cb0db802f72c5ff3946b2263589c6ad2f6903/pyfiredb-0.0.4.tar.gz
+[2023-06-19 05:20:03] INFO root fetch - processPackages [gggdtparser]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-19 05:20:03] INFO root fetch - processPackages [kkyukkyuCrawler]: Downloading https://files.pythonhosted.org/packages/3d/69/497328a0859b3729919d01f98f5e1ecaad52ff4735d996a7f8c747797c0f/kkyukkyuCrawler-1.0.3.tar.gz
+[2023-06-19 05:20:03] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/3f/97/c8880e2635e2631cfd2e58cbb34173b3ae0c40aab304f8f584e7bc761d18/picogo-0.0.5.tar.gz
+[2023-06-19 05:20:03] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [hn2016-falwa]: Downloading https://files.pythonhosted.org/packages/2a/73/7b4ce7d305b4300b25381faf828c01dfd6676ee2f7805f209a1dfb9989b7/hn2016_falwa-0.6.6.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/4b/76/3553a3031bed2a3d2cef30b7686d43385fb731dfdf4961e773e172a5defc/gggdtparser-0.0.9.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8b/5a/9583a807309f82471aeb6a2de9f43c61a932d7e0feff54ab3f50f47fc6f5/macrometa-source-collection-0.0.50.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/4a/23/b0c517e8e642b696919c122fe93f293c970e1a4f15f4a704509b25959063/pyautosrt-0.2.4.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/0f/8b/144f7cb2935474159e0ed402c5aee2786f802d50c07909efb4cc291fbf7a/pyfiredb-0.0.5.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [kkyukkyuCrawler]: Downloading https://files.pythonhosted.org/packages/1c/ad/7fb64ac0fafd800f669b4997c631db3806a22b072f37f5b2ff1f54c05879/kkyukkyuCrawler-1.1.0.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyfiredb]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyfiredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfiredb-0.0.4.tar.gz tmp/pyfiredb-0.0.5.tar.gz --markdown 20230619/p/pyfiredb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/b3/51/7c9dc5c8c03537bdaf7835c33b8271a9ed391a2291fb4848d6ed8d1dec33/picogo-0.0.6.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [kkyukkyuCrawler]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [kkyukkyuCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyukkyuCrawler-1.0.3.tar.gz tmp/kkyukkyuCrawler-1.1.0.tar.gz --markdown 20230619/k/kkyukkyuCrawler/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [hn2016-falwa]: Downloading https://files.pythonhosted.org/packages/1b/d7/1d32c8025d3bc619e3d2a11fcf4a36d8310e2c0b95a54be4f747de07da01/hn2016_falwa-0.7.0.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/20/2f/664a0a44c95c71d5929d0ffcf7bb85909eec79502dfb9e2356ef0a632d74/macrometa-source-collection-0.0.51.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/9f/57/051b69368d4066e34ba9bb90c2ca2a26ce0d29a201a9bff1230ab29c4154/gggdtparser-0.1.0.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230619/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/7a/ce/216da546e3a98785af259be12560c4cb75e8dbef878aaebcd096c42c209d/pyautosrt-0.2.5.tar.gz
+[2023-06-19 05:20:04] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.5.tar.gz tmp/picogo-0.0.6.tar.gz --markdown 20230619/p/picogo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.50.tar.gz tmp/macrometa-source-collection-0.0.51.tar.gz --markdown 20230619/m/macrometa-source-collection/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [gggdtparser]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [hn2016-falwa]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [gggdtparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggdtparser-0.0.9.tar.gz tmp/gggdtparser-0.1.0.tar.gz --markdown 20230619/g/gggdtparser/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [hn2016-falwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hn2016_falwa-0.6.6.tar.gz tmp/hn2016_falwa-0.7.0.tar.gz --markdown 20230619/h/hn2016-falwa/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-19 05:20:04] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.4.tar.gz tmp/pyautosrt-0.2.5.tar.gz --markdown 20230619/p/pyautosrt/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-19 05:20:05] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.4.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.5.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - main [MainThread]: End processing [pyfiredb]: success
+[2023-06-19 05:20:05] INFO root fetch - processPackages [kkyukkyuCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyukkyuCrawler-1.0.3.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - processPackages [kkyukkyuCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyukkyuCrawler-1.1.0.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - main [MainThread]: End processing [kkyukkyuCrawler]: success
+[2023-06-19 05:20:05] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.50.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.51.tar.gz]
+[2023-06-19 05:20:05] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-19 05:20:06] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.4.tar.gz]
+[2023-06-19 05:20:06] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.5.tar.gz]
+[2023-06-19 05:20:06] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-19 05:20:06] INFO root fetch - processPackages [hn2016-falwa]: Remove: archive file [/home/abi/fetcher/tmp/hn2016_falwa-0.6.6.tar.gz]
+[2023-06-19 05:20:06] INFO root fetch - processPackages [hn2016-falwa]: Remove: archive file [/home/abi/fetcher/tmp/hn2016_falwa-0.7.0.tar.gz]
+[2023-06-19 05:20:06] INFO root fetch - main [MainThread]: End processing [hn2016-falwa]: success
+[2023-06-19 05:20:07] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.5.tar.gz]
+[2023-06-19 05:20:07] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.6.tar.gz]
+[2023-06-19 05:20:07] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-19 05:20:07] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.0.9.tar.gz]
+[2023-06-19 05:20:07] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.1.0.tar.gz]
+[2023-06-19 05:20:07] INFO root fetch - main [MainThread]: End processing [gggdtparser]: success
+[2023-06-19 05:20:09] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-19 05:20:09] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-19 05:20:09] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-19 05:20:09] INFO root fetch - main [MainThread]: Store serial: [18555287]
