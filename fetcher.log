@@ -21200,3 +21200,218 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 17:06:50] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
 [2023-06-19 17:06:50] INFO root fetch - main [MainThread]: End processing [mastapy] error
 [2023-06-19 17:06:50] INFO root fetch - main [MainThread]: Store serial: [18561349]
+[2023-06-19 17:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561349]
+[2023-06-19 17:11:59] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slap-cli
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyecotrend-ista
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: murkrow
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-text-nightly
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipynao
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deep-labelprop
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autophot
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-build
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kraken-common
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kraken-core
+[2023-06-19 17:11:59] WARNING root fetch - processPackages [ipynao]: Skipping, unable to determine old version
+[2023-06-19 17:11:59] INFO root fetch - processPackages [ipynao]: Start processing: vector-quantize-pytorch
+[2023-06-19 17:11:59] INFO root fetch - main [MainThread]: End processing [ipynao] error
+[2023-06-19 17:11:59] INFO root fetch - processPackages [kraken-build]: New version: [0.24.3] Old Version: [0.24.2]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [deep-labelprop]: New version: [1.1.1] Old Version: [0.1.0]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [autophot]: New version: [0.9.0] Old Version: [0.10.2]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [murkrow]: New version: [0.8.0] Old Version: [0.5.0]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [slap-cli]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-19 17:11:59] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230619] Old Version: [2.14.0.dev20230618]
+[2023-06-19 17:12:00] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/26/69/22ec1990371048cb25f8089d1815dc66521dbaf25c21d8e3476a9ca5476f/autophot-0.10.2-py2.py3-none-any.whl
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/c1/1c/fc4fcf3828294a15f01509348b4cd3fd6f96beb36d7ac4a8c23aa5a6a506/kraken_build-0.24.2.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [deep-labelprop]: Downloading https://files.pythonhosted.org/packages/9b/01/6c6e3e1287d1a9a738d2e548ff043c0686eee18ef025733b6cc0540ba4a2/deep-labelprop-0.1.0.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/d9/5b/e5e0e4fa5aaaede90c0ecf20edfacc18e5d53a408454c6146992b4a1913d/murkrow-0.5.0.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/2d/17/2aff1c26eabfaf98d4d0b56cf3b9a6ae187763a70710946444ccac99b648/tensorflow_text_nightly-2.14.0.dev20230618-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 17:12:00] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/e2/7d/158f3901c80587c4f8c76d3df821128298b8f2d9f758e707d6d8c084df37/slap_cli-1.9.4.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/93/87/1a39a00a6f75215d6d3b8362d580a6894b0344de777659a71b2ddad1ad7e/kraken_build-0.24.3.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [deep-labelprop]: Downloading https://files.pythonhosted.org/packages/82/36/0b2595471f3e55b30952637f85dbf715aeb1f0613f306f6f8035cca82871/deep-labelprop-1.1.1.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.5.0.tar.gz tmp/murkrow-0.8.0.tar.gz --markdown 20230619/m/murkrow/0.5.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/fd/0e/679afe0e53a88bf10ea3290e434f0e59a5e85787cca74ca023f0c46dd62a/autophot-0.9.0-py2.py3-none-any.whl
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/cc/27/fcb258c5233a8a07977dabc10418a5ae080ed57bfe2355f6906796eb2579/pyecotrend-ista-2.0.9.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/4c/b3/64d1feff7152a2f08371005566fdf0da6353fc3f592b975d21a2416a6963/slap_cli-1.9.5.tar.gz
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.24.2.tar.gz tmp/kraken_build-0.24.3.tar.gz --markdown 20230619/k/kraken-build/0.24.2-0.24.3/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230619/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [deep-labelprop]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [deep-labelprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep-labelprop-0.1.0.tar.gz tmp/deep-labelprop-1.1.1.tar.gz --markdown 20230619/d/deep-labelprop/0.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.9.4.tar.gz tmp/slap_cli-1.9.5.tar.gz --markdown 20230619/s/slap-cli/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230619/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [autophot]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [autophot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autophot-0.10.2-py2.py3-none-any.whl.zip tmp/autophot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230619/a/autophot/0.10.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:12:00] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-06-19 17:12:00] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230619/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230619/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-19 17:12:01] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/1e/97/44e6fd3f52151befb4de02baa575853e31f4c1ef6dfe02713923badbc1e1/tensorflow_text_nightly-2.14.0.dev20230619-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.24.2.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.24.3.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-build]: Start processing: kraken-std
+[2023-06-19 17:12:01] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.5.0.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [murkrow]: Start processing: kraken-wrapper
+[2023-06-19 17:12:01] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-19 17:12:01] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.24.3] Old Version: [0.24.2]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [deep-labelprop]: Remove: archive file [/home/abi/fetcher/tmp/deep-labelprop-0.1.0.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [deep-labelprop]: Remove: archive file [/home/abi/fetcher/tmp/deep-labelprop-1.1.1.tar.gz]
+[2023-06-19 17:12:01] INFO root fetch - processPackages [deep-labelprop]: Start processing: aws-service-catalog-puppet
+[2023-06-19 17:12:01] INFO root fetch - main [MainThread]: End processing [deep-labelprop]: success
+[2023-06-19 17:12:02] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: my0my
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-06-19 17:12:02] WARNING root fetch - processPackages [my0my]: Skipping, unable to determine old version
+[2023-06-19 17:12:02] INFO root fetch - processPackages [my0my]: Start processing: datarobot-predict
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [my0my] error
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [datarobot-predict]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/58/48/8bf0b534f1f9646abbe9f433580ad2fa1a1fc8d704421c15c559b07dce0f/kraken_wrapper-0.24.2.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-common]: Start processing: pyecotrend-ista
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [vector-quantize-pytorch]: Start processing: ovos-workshop
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-19 17:12:02] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/8b/6f/63bafb4b05228e1703bc8b140f7c0382548bbb6b4eacf3f1a5c6d919c8b9/kraken_wrapper-0.24.3.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [datarobot-predict]: Downloading https://files.pythonhosted.org/packages/41/05/16a17f0056d81102187a4cf43b47631a050703c4baa6d57f8dad8ced7b13/datarobot_predict-1.2.0-py3-none-any.whl
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/cc/27/fcb258c5233a8a07977dabc10418a5ae080ed57bfe2355f6906796eb2579/pyecotrend-ista-2.0.9.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-06-19 17:12:02] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230619/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230619/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:02] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-06-19 17:12:02] WARNING root fetch - processPackages [datarobot-predict]: Skipping package: exceeds size limit 16361891>=10485760
+[2023-06-19 17:12:02] INFO root fetch - processPackages [datarobot-predict]: Start processing: biom3d
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [datarobot-predict] error
+[2023-06-19 17:12:02] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-06-19 17:12:02] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.24.2.tar.gz tmp/kraken_wrapper-0.24.3.tar.gz --markdown 20230619/k/kraken-wrapper/0.24.2-0.24.3/diff.md --exclude *.pyd
+[2023-06-19 17:12:02] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-06-19 17:12:02] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230619/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-06-19 17:12:02] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-06-19 17:12:02] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-06-19 17:12:02] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-06-19 17:12:02] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230619/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-19 17:12:02] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.10.2-py2.py3-none-any.whl.zip]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-06-19 17:12:02] INFO root fetch - processPackages [autophot]: Start processing: socialgene
+[2023-06-19 17:12:02] INFO root fetch - main [MainThread]: End processing [autophot]: success
+[2023-06-19 17:12:03] INFO root fetch - processPackages [socialgene]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/d5/ee/684ff016844c2c979d7a4f010c4bccb398ab42543366792585d2c4edd6ff/socialgene-0.1.4.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-19 17:12:03] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230618-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230619-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230619/t/tensorflow-text-nightly/2.14.0.dev20230618-2.14.0.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 17:12:03] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-core]: Start processing: pepperize.cdk-security-group
+[2023-06-19 17:12:03] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-06-19 17:12:03] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/ac/c4/532f04474e0d48ea050f05358e9c3dfab810733f2505f30dc41ff1d30397/socialgene-0.1.5.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-19 17:12:03] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230619/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:03] INFO root fetch - processPackages [socialgene]: executing diffoscope
+[2023-06-19 17:12:03] INFO root fetch - processPackages [socialgene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialgene-0.1.4.tar.gz tmp/socialgene-0.1.5.tar.gz --markdown 20230619/s/socialgene/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 17:12:03] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.4.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.5.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [slap-cli]: Start processing: maptasker
+[2023-06-19 17:12:03] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2023-06-19 17:12:03] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/51/98/1c396781b2a6e81d75ff16359a412509fb0b2e194622172459fdd5a259e9/pepperize.cdk-security-group-0.0.98.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [maptasker]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/f9/9c/5ea9d6252e6eb94950a84f450e70db319425d5c0d489e62563853a428d62/maptasker-2.0.3.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [pepperize.cdk-security-group]: Downloading https://files.pythonhosted.org/packages/f9/44/84eb1aff085a41b99d2fbf0824481285bc3007b7c318e9a646a4802ce199/pepperize.cdk-security-group-0.0.99.tar.gz
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.24.2.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.24.3.tar.gz]
+[2023-06-19 17:12:03] INFO root fetch - processPackages [kraken-wrapper]: Start processing: lqg
+[2023-06-19 17:12:03] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-06-19 17:12:03] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-06-19 17:12:03] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230619/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 17:12:03] INFO root fetch - processPackages [lqg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/5d/0e/2eb9fbd8d6689a5b2cfb9ad0c5aa8d53ecf2c84e6b3e16ebe2a1741c455d/maptasker-2.0.4.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: my0my0
+[2023-06-19 17:12:04] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-06-19 17:12:04] WARNING root fetch - processPackages [my0my0]: Skipping, unable to determine old version
+[2023-06-19 17:12:04] INFO root fetch - processPackages [my0my0]: Start processing: pymexc
+[2023-06-19 17:12:04] INFO root fetch - main [MainThread]: End processing [my0my0] error
+[2023-06-19 17:12:04] INFO root fetch - processPackages [maptasker]: executing diffoscope
+[2023-06-19 17:12:04] INFO root fetch - processPackages [maptasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maptasker-2.0.3.tar.gz tmp/maptasker-2.0.4.tar.gz --markdown 20230619/m/maptasker/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-19 17:12:04] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/c1/fc/d95a7f546f61620d0fec55f4597d1618c83f323b86f4acd22f1cf11abeeb/lqg-0.1.8.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pymexc]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [ovos-workshop]: Start processing: windpyutils
+[2023-06-19 17:12:04] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-06-19 17:12:04] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/f1/21/9e9b79979573590226e22f9334bb94066ef6aeeb27c187d4603e644f47aa/pymexc-1.0.4.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/47/28/cf99c06712ab9c409ec9300681abe427c6c154026cf5ed6f5b84ca1906b4/lqg-0.1.9.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.1.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.2.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-06-19 17:12:04] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [lqg]: executing diffoscope
+[2023-06-19 17:12:04] INFO root fetch - processPackages [lqg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqg-0.1.8.tar.gz tmp/lqg-0.1.9.tar.gz --markdown 20230619/l/lqg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:04] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-06-19 17:12:04] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230619/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/6e/d4/f0ee17127208d70d9c56749ffb89fdebfe092ea82dfc5d77ce46059f2e85/pymexc-1.0.5.tar.gz
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pymexc]: executing diffoscope
+[2023-06-19 17:12:04] INFO root fetch - processPackages [pymexc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymexc-1.0.4.tar.gz tmp/pymexc-1.0.5.tar.gz --markdown 20230619/p/pymexc/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-19 17:12:04] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.7.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.9.tar.gz]
+[2023-06-19 17:12:04] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-19 17:12:05] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.98.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - processPackages [pepperize.cdk-security-group]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-security-group-0.0.99.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-06-19 17:12:05] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-06-19 17:12:05] INFO root fetch - processPackages [lqg]: Remove: archive file [/home/abi/fetcher/tmp/lqg-0.1.8.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - processPackages [lqg]: Remove: archive file [/home/abi/fetcher/tmp/lqg-0.1.9.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - main [MainThread]: End processing [lqg]: success
+[2023-06-19 17:12:05] INFO root fetch - processPackages [pymexc]: Remove: archive file [/home/abi/fetcher/tmp/pymexc-1.0.4.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - processPackages [pymexc]: Remove: archive file [/home/abi/fetcher/tmp/pymexc-1.0.5.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - main [MainThread]: End processing [pymexc]: success
+[2023-06-19 17:12:05] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.4.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.5.tar.gz]
+[2023-06-19 17:12:05] INFO root fetch - main [MainThread]: End processing [socialgene]: success
+[2023-06-19 17:12:06] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-2.0.3.tar.gz]
+[2023-06-19 17:12:06] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-2.0.4.tar.gz]
+[2023-06-19 17:12:06] INFO root fetch - main [MainThread]: End processing [maptasker]: success
+[2023-06-19 17:12:06] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.8.tar.gz]
+[2023-06-19 17:12:06] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.9.tar.gz]
+[2023-06-19 17:12:06] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-06-19 17:12:07] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230618-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 17:12:07] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230619-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 17:12:07] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-19 17:12:07] INFO root fetch - main [MainThread]: Store serial: [18561429]
