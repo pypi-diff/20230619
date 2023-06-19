@@ -10570,3 +10570,133 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:10:00] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc0.tar.gz]
 [2023-06-19 10:10:00] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-06-19 10:10:00] INFO root fetch - main [MainThread]: Store serial: [18557122]
+[2023-06-19 10:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557122]
+[2023-06-19 10:15:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytraced
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-func
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: one-api-tool
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causaltune
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-container
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgfutil
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdm-plugin-torch
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sora-sdk
+[2023-06-19 10:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lm-datahandler
+[2023-06-19 10:15:10] INFO root fetch - processPackages [one-api-tool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [pytraced]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytraced]: Start processing: pyworxcloud
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [pytraced] error
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [pgfutil]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev8] Old Version: [2023.1.0.dev7]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pgfutil]: Start processing: pyquirc
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [pgfutil] error
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [pandas-func]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pandas-func]: Start processing: jlwang-csy12346
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [pandas-func] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytest-container]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pdm-plugin-torch]: New version: [23.1.1] Old Version: [23.1.0]
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [causaltune]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [causaltune]: Start processing: spip2md
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [causaltune] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyquirc]: New version: [0.2.0.post1] Old Version: [0.2.0]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [spip2md]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [spip2md]: Start processing: ecr-scan-notifier
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [spip2md] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/0d/97/3f6063cf42c5f8f1d9f03ec174417e3f9bc07c4b1d6c7447007e54080e4f/one-api-tool-0.2.8.tar.gz
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [jlwang-csy12346]: Skipping, unable to determine old version
+[2023-06-19 10:15:10] INFO root fetch - processPackages [jlwang-csy12346]: Start processing: openTEPES
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [jlwang-csy12346] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/f6/71/ef4c0a14defcf138bd62bec062459ca4da026b24a380466e00c964fa6131/sora_sdk-2023.1.0.dev7.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/e5/d6/6a55f89d8d324a6fba03013ead6d0f4da0c24e59a553b49829d74098378f/lm_datahandler-0.1.3.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/22/0e/dce5fc83e7edaf8fbfa1e59fa087c5d5d1f41d5fa67c78e3a8f6ad389f9c/ecr-scan-notifier-0.0.1.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pdm-plugin-torch]: Downloading https://files.pythonhosted.org/packages/70/9a/4451d506e9531041b5ad42ff670d3d43acde998d422a8306c49c620f759c/pdm-plugin-torch-23.1.0.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyquirc]: Downloading https://files.pythonhosted.org/packages/85/35/c9a299a60c0f18d1a7e53ffa372eb9bf5fa904c17bd6b9cb2305ca42ca07/pyquirc-0.2.0.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [openTEPES]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/b0/fa/afee854cea033a908859097396a27ccd5d41055e289723c5d6e66eac41a4/pyworxcloud-3.1.8.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytest-container]: Downloading https://files.pythonhosted.org/packages/70/3b/18c417b058e8f1733d7be64fa050c7ed40f7ab87fdb56b92b601d454eea1/pytest_container-0.1.1.tar.gz
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007176>=10485760
+[2023-06-19 10:15:10] INFO root fetch - processPackages [sora-sdk]: Start processing: odoo-addon-helpdesk-mgmt-project
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/79/44/3b145240dd1dbc79a7c8bca3152b9c2cc32c428d2355c025676c0cc5d69e/one-api-tool-0.2.9.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/4c/75/c76ebfe32602f6ff94e217b84858461e0810f5eac5e358249e4f0e96b6cd/ecr-scan-notifier-0.0.2.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [openTEPES]: Downloading https://files.pythonhosted.org/packages/d3/bc/956e5b6a3468b50029876bc7aec862ddb929a35570cf5009b1bd0842e9b4/openTEPES-4.8.3.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyquirc]: Downloading https://files.pythonhosted.org/packages/c6/9b/a68a48fa3873d56380a04c498af26e679ac637376f7056697da607f99cca/pyquirc-0.2.0.post1.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.2.8.tar.gz tmp/one-api-tool-0.2.9.tar.gz --markdown 20230619/o/one-api-tool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/a9/2f/d4865cd1e4a736121cbf13695dc7ebc20c4b36f43631791f8b008f5b6b9f/lm_datahandler-0.1.4.tar.gz
+[2023-06-19 10:15:10] WARNING root fetch - processPackages [openTEPES]: Skipping package: exceeds size limit 103228862>=10485760
+[2023-06-19 10:15:10] INFO root fetch - processPackages [openTEPES]: Start processing: lycium
+[2023-06-19 10:15:10] INFO root fetch - main [MainThread]: End processing [openTEPES] error
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lycium]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytest-container]: Downloading https://files.pythonhosted.org/packages/b1/b0/2e665171520c607759e9f3054db7b19a14742f034f5e35c29ac428d91fdf/pytest_container-0.2.0.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyquirc]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyquirc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquirc-0.2.0.tar.gz tmp/pyquirc-0.2.0.post1.tar.gz --markdown 20230619/p/pyquirc/0.2.0-0.2.0.post1/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.3.tar.gz tmp/lm_datahandler-0.1.4.tar.gz --markdown 20230619/l/lm-datahandler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pdm-plugin-torch]: Downloading https://files.pythonhosted.org/packages/32/98/b530fbb892ad242d3452918d4b696450ffc768dcf17304aafda350edd663/pdm-plugin-torch-23.1.1.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/bb/35/9f71b4831da088f4a508d41b8492dba9b16eac2510be34c157a572862548/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:15:10] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.1.tar.gz tmp/ecr-scan-notifier-0.0.2.tar.gz --markdown 20230619/e/ecr-scan-notifier/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/25/e7/2c14088664cc15b3aadc50c7e6823bd3c0479d894d1374ddbcaf2f649ef8/pyworxcloud-3.1.9.tar.gz
+[2023-06-19 10:15:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pdm-plugin-torch]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pdm-plugin-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-plugin-torch-23.1.0.tar.gz tmp/pdm-plugin-torch-23.1.1.tar.gz --markdown 20230619/p/pdm-plugin-torch/23.1.0-23.1.1/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytest-container]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pytest-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_container-0.1.1.tar.gz tmp/pytest_container-0.2.0.tar.gz --markdown 20230619/p/pytest-container/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-06-19 10:15:10] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.8.tar.gz tmp/pyworxcloud-3.1.9.tar.gz --markdown 20230619/p/pyworxcloud/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-19 10:15:11] INFO root fetch - processPackages [lycium]: Downloading https://files.pythonhosted.org/packages/94/8f/0552d44de0c20e5aa24418db22afdd3e7f771f403269a0a8cd2ba5d97706/lycium-0.2.8.tar.gz
+[2023-06-19 10:15:11] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/99/e7/609b22c0793953b904c48bbcb96a3d49ff3f66ffc4a5041a965f32cf1091/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-19 10:15:11] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: executing diffoscope
+[2023-06-19 10:15:11] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-helpdesk-mgmt-project/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:15:12] INFO root fetch - processPackages [lycium]: Downloading https://files.pythonhosted.org/packages/42/21/5b80c108e4e3506f584fad9953e4863711abf8e98021cc0b023986010d60/lycium-0.2.9.tar.gz
+[2023-06-19 10:15:12] INFO root fetch - processPackages [lycium]: executing diffoscope
+[2023-06-19 10:15:12] INFO root fetch - processPackages [lycium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycium-0.2.8.tar.gz tmp/lycium-0.2.9.tar.gz --markdown 20230619/l/lycium/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 10:15:12] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.2.8.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.2.9.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - processPackages [one-api-tool]: Start processing: yeref
+[2023-06-19 10:15:12] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-19 10:15:12] INFO root fetch - processPackages [yeref]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-19 10:15:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/7c/83/2ead914e0f63dd47a951410a84ac8214b7b6534a97785144d1b5a1895fa9/yeref-0.1.98.tar.gz
+[2023-06-19 10:15:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/40/88/bdbe7d87b86f7915a41e6a2156023beb678a5d5e5b2e66ec21c45189ab43/yeref-0.1.99.tar.gz
+[2023-06-19 10:15:12] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.3.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.4.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-19 10:15:12] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-19 10:15:12] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.98.tar.gz tmp/yeref-0.1.99.tar.gz --markdown 20230619/y/yeref/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-19 10:15:12] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.1.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.2.tar.gz]
+[2023-06-19 10:15:12] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pdm-plugin-torch]: Remove: archive file [/home/abi/fetcher/tmp/pdm-plugin-torch-23.1.0.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pdm-plugin-torch]: Remove: archive file [/home/abi/fetcher/tmp/pdm-plugin-torch-23.1.1.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [pdm-plugin-torch]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-project]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pytest-container]: Remove: archive file [/home/abi/fetcher/tmp/pytest_container-0.1.1.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pytest-container]: Remove: archive file [/home/abi/fetcher/tmp/pytest_container-0.2.0.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [pytest-container]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-3.1.8.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-3.1.9.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pyquirc]: Remove: archive file [/home/abi/fetcher/tmp/pyquirc-0.2.0.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - processPackages [pyquirc]: Remove: archive file [/home/abi/fetcher/tmp/pyquirc-0.2.0.post1.tar.gz]
+[2023-06-19 10:15:13] INFO root fetch - main [MainThread]: End processing [pyquirc]: success
+[2023-06-19 10:15:15] INFO root fetch - processPackages [lycium]: Remove: archive file [/home/abi/fetcher/tmp/lycium-0.2.8.tar.gz]
+[2023-06-19 10:15:15] INFO root fetch - processPackages [lycium]: Remove: archive file [/home/abi/fetcher/tmp/lycium-0.2.9.tar.gz]
+[2023-06-19 10:15:15] INFO root fetch - main [MainThread]: End processing [lycium]: success
+[2023-06-19 10:15:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.98.tar.gz]
+[2023-06-19 10:15:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.99.tar.gz]
+[2023-06-19 10:15:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-19 10:15:16] INFO root fetch - main [MainThread]: Store serial: [18557196]
