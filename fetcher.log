@@ -6638,3 +6638,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:23:48] INFO root fetch - processPackages [citiespy]: Remove: archive file [/home/abi/fetcher/tmp/citiespy-0.3.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-19 06:23:48] INFO root fetch - main [MainThread]: End processing [citiespy]: success
 [2023-06-19 06:23:48] INFO root fetch - main [MainThread]: Store serial: [18555605]
+[2023-06-19 06:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555605]
+[2023-06-19 06:29:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 06:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzeo
+[2023-06-19 06:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-sdk
+[2023-06-19 06:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentai
+[2023-06-19 06:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs-models
+[2023-06-19 06:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memv
+[2023-06-19 06:29:10] INFO root fetch - processPackages [agentai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 06:29:10] INFO root fetch - processPackages [memv]: New version: [0.0.4.6] Old Version: [0.0.4.5]
+[2023-06-19 06:29:10] INFO root fetch - processPackages [pyzeo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 06:29:10] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-06-19 06:29:10] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-19 06:29:10] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/df/01/dfc39165ca3b3047b789a2a3f9bfe47a2d897be4a15d70428ce877bcb15f/memv-0.0.4.5.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [agentai]: Downloading https://files.pythonhosted.org/packages/5e/05/c9a004bef61df08737dd963fe91ca6a796c141d0e0b17142ce577a1c6a0f/agentai-0.0.3.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [pyzeo]: Downloading https://files.pythonhosted.org/packages/df/00/01b587389734527a1f001761f610d1db92b45fb68fb51f098c6e880dfe36/pyzeo-0.1.3.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/cf/a2/0fba7803b042b4bcbf7870b0a209688048b3824b1c7cf8041e6f6561e4d4/memv-0.0.4.6.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 06:29:10] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.5.tar.gz tmp/memv-0.0.4.6.tar.gz --markdown 20230619/m/memv/0.0.4.5-0.0.4.6/diff.md --exclude *.pyd
+[2023-06-19 06:29:10] INFO root fetch - processPackages [agentai]: Downloading https://files.pythonhosted.org/packages/45/76/aa546c7572500c435270651888b241bfa13d7365f83f6acd398e84a9fcd9/agentai-0.0.4.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [pyzeo]: Downloading https://files.pythonhosted.org/packages/86/ac/f35ed449be69bba9abfc1f294d6561fee6665dcc33c094793468a6a0c212/pyzeo-0.1.4.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-19 06:29:10] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-19 06:29:10] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230619/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-19 06:29:10] INFO root fetch - processPackages [pyzeo]: executing diffoscope
+[2023-06-19 06:29:10] INFO root fetch - processPackages [pyzeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzeo-0.1.3.tar.gz tmp/pyzeo-0.1.4.tar.gz --markdown 20230619/p/pyzeo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 06:29:10] INFO root fetch - processPackages [agentai]: executing diffoscope
+[2023-06-19 06:29:10] INFO root fetch - processPackages [agentai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentai-0.0.3.tar.gz tmp/agentai-0.0.4.tar.gz --markdown 20230619/a/agentai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 06:29:10] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-06-19 06:29:11] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-06-19 06:29:11] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230619/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 06:29:11] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.5.tar.gz]
+[2023-06-19 06:29:11] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.6.tar.gz]
+[2023-06-19 06:29:11] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 06:29:11] INFO root fetch - processPackages [agentai]: Remove: archive file [/home/abi/fetcher/tmp/agentai-0.0.3.tar.gz]
+[2023-06-19 06:29:11] INFO root fetch - processPackages [agentai]: Remove: archive file [/home/abi/fetcher/tmp/agentai-0.0.4.tar.gz]
+[2023-06-19 06:29:11] INFO root fetch - main [MainThread]: End processing [agentai]: success
+[2023-06-19 06:29:12] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-19 06:29:12] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-19 06:29:12] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-19 06:29:13] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-06-19 06:29:13] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-06-19 06:29:13] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-06-19 06:29:14] INFO root fetch - processPackages [pyzeo]: Remove: archive file [/home/abi/fetcher/tmp/pyzeo-0.1.3.tar.gz]
+[2023-06-19 06:29:14] INFO root fetch - processPackages [pyzeo]: Remove: archive file [/home/abi/fetcher/tmp/pyzeo-0.1.4.tar.gz]
+[2023-06-19 06:29:14] INFO root fetch - main [MainThread]: End processing [pyzeo]: success
+[2023-06-19 06:29:14] INFO root fetch - main [MainThread]: Store serial: [18555657]
