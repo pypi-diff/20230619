@@ -4393,3 +4393,98 @@
 [2023-06-19 03:20:47] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.6.19.1.16.11.tar.gz]
 [2023-06-19 03:20:47] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2023-06-19 03:20:47] INFO root fetch - main [MainThread]: Store serial: [18554703]
+[2023-06-19 03:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554703]
+[2023-06-19 03:25:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-redis-a
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberx
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pp-project-pkg
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-project-pkg
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: searchlogit
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picogo
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datamaker-sdk
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Albumize
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyluban
+[2023-06-19 03:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-subminute
+[2023-06-19 03:25:56] WARNING root fetch - processPackages [picogo]: Skipping, unable to determine old version
+[2023-06-19 03:25:56] INFO root fetch - processPackages [picogo]: Start processing: pp-project-pkg
+[2023-06-19 03:25:56] INFO root fetch - main [MainThread]: End processing [picogo] error
+[2023-06-19 03:25:56] WARNING root fetch - processPackages [upstash-redis-a]: Skipping, unable to determine old version
+[2023-06-19 03:25:56] INFO root fetch - processPackages [upstash-redis-a]: Start processing: cubestat
+[2023-06-19 03:25:56] INFO root fetch - main [MainThread]: End processing [upstash-redis-a] error
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306190124] Old Version: [1.0.202306190122]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306190124] Old Version: [1.0.202306190122]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [Albumize]: New version: [1.1] Old Version: [1.0]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cyberx]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [datamaker-sdk]: New version: [0.2] Old Version: [0.1]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306190124] Old Version: [1.0.202306190122]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pyluban]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cubestat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 03:25:56] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/9e/5f/11308494e720e2cca1985fa8b1d82e7b440614e9a4c959e71e2fd7ed8c0d/Albumize-1.0.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/d8/ad/76415755663c20b360c3eb0faf9f378bfccc2561c0fce6c11449041d9e3e/pp_project_pkg-1.0.202306190122-py3-none-any.whl
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/d8/ad/76415755663c20b360c3eb0faf9f378bfccc2561c0fce6c11449041d9e3e/pp_project_pkg-1.0.202306190122-py3-none-any.whl
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/d8/ad/76415755663c20b360c3eb0faf9f378bfccc2561c0fce6c11449041d9e3e/pp_project_pkg-1.0.202306190122-py3-none-any.whl
+[2023-06-19 03:25:56] INFO root fetch - processPackages [datamaker-sdk]: Downloading https://files.pythonhosted.org/packages/6b/4e/ba112a844e394f3f6683bba7f1d0852d9b3e47f8dc1fac9fed65ff841a03/datamaker-sdk-0.1.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cyberx]: Downloading https://files.pythonhosted.org/packages/c4/fb/fafd4a8d2f99f32b24f1a5582f02f2994b06149e5814ce229e4ef577852b/cyberx-0.2.1-cp39-cp39-win_amd64.whl
+[2023-06-19 03:25:56] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/15/43/b441cc3c89d6c940662e31ea7d6d780f51b47940e97c7d13f998837ba3a6/cubestat-0.0.5.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [pyluban]: Downloading https://files.pythonhosted.org/packages/fa/0e/a6cee03b92e8106d29977110f1bc5e0b7e1ac33f98a8f28589d2f92e1d25/pyluban-1.0.0.tar.gz
+[2023-06-19 03:25:56] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/3e/dc/6336d73bddc2bcce127e9a0370b9ff60f9649b4414e2431cd39075be254e/Albumize-1.1.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230619/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230619/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/ef/7d/4b73995a174dfb5a4322119d651a8b513b5131a326ee4960a7813a596896/pp_project_pkg-1.0.202306190124-py3-none-any.whl
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/ef/7d/4b73995a174dfb5a4322119d651a8b513b5131a326ee4960a7813a596896/pp_project_pkg-1.0.202306190124-py3-none-any.whl
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/ef/7d/4b73995a174dfb5a4322119d651a8b513b5131a326ee4960a7813a596896/pp_project_pkg-1.0.202306190124-py3-none-any.whl
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/6c/6b/8273459eb9d2beced57bc39b4bd434eddf8ec5b85c2049af82242f7b39a9/cubestat-0.0.6.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [Albumize]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [Albumize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Albumize-1.0.tar.gz tmp/Albumize-1.1.tar.gz --markdown 20230619/A/Albumize/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pyluban]: Downloading https://files.pythonhosted.org/packages/b9/1b/a5570b3934120ae32e74bd7dc192dd5dc3c611381c5fa239c505f6f112b3/pyluban-1.0.2.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [datamaker-sdk]: Downloading https://files.pythonhosted.org/packages/65/6f/2e07ac8ea464c826b3bb63d596a9fec556c5289a62aafbe2e867a08498fc/datamaker-sdk-0.2.tar.gz
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cyberx]: Downloading https://files.pythonhosted.org/packages/e2/84/8da00ac9cc137ea1830a14d45d3f754f82fc7bd61a4a06d022bbf6894f93/cyberx-0.2.2-cp39-cp39-win_amd64.whl
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306190122-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306190124-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306190122-1.0.202306190124/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306190122-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306190124-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306190122-1.0.202306190124/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306190122-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306190124-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306190122-1.0.202306190124/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.5.tar.gz tmp/cubestat-0.0.6.tar.gz --markdown 20230619/c/cubestat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [datamaker-sdk]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [datamaker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaker-sdk-0.1.tar.gz tmp/datamaker-sdk-0.2.tar.gz --markdown 20230619/d/datamaker-sdk/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pyluban]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [pyluban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluban-1.0.0.tar.gz tmp/pyluban-1.0.2.tar.gz --markdown 20230619/p/pyluban/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cyberx]: executing diffoscope
+[2023-06-19 03:25:57] INFO root fetch - processPackages [cyberx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberx-0.2.1-cp39-cp39-win_amd64.whl.zip tmp/cyberx-0.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230619/c/cyberx/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 03:25:58] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.0.tar.gz]
+[2023-06-19 03:25:58] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.1.tar.gz]
+[2023-06-19 03:25:58] INFO root fetch - main [MainThread]: End processing [Albumize]: success
+[2023-06-19 03:25:58] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306190122-py3-none-any.whl.zip]
+[2023-06-19 03:25:58] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306190124-py3-none-any.whl.zip]
+[2023-06-19 03:25:58] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 03:25:58] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 03:25:58] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.5.tar.gz]
+[2023-06-19 03:25:58] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.6.tar.gz]
+[2023-06-19 03:25:58] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-19 03:25:58] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 03:25:59] INFO root fetch - processPackages [pyluban]: Remove: archive file [/home/abi/fetcher/tmp/pyluban-1.0.0.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - processPackages [pyluban]: Remove: archive file [/home/abi/fetcher/tmp/pyluban-1.0.2.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - main [MainThread]: End processing [pyluban]: success
+[2023-06-19 03:25:59] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-19 03:25:59] INFO root fetch - processPackages [datamaker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/datamaker-sdk-0.1.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - processPackages [datamaker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/datamaker-sdk-0.2.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - main [MainThread]: End processing [datamaker-sdk]: success
+[2023-06-19 03:25:59] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-19 03:25:59] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-19 03:26:01] INFO root fetch - processPackages [cyberx]: Remove: archive file [/home/abi/fetcher/tmp/cyberx-0.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 03:26:01] INFO root fetch - processPackages [cyberx]: Remove: archive file [/home/abi/fetcher/tmp/cyberx-0.2.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 03:26:01] INFO root fetch - main [MainThread]: End processing [cyberx]: success
+[2023-06-19 03:26:01] INFO root fetch - main [MainThread]: Store serial: [18554759]
