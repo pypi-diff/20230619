@@ -11296,3 +11296,158 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:38:31] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
 [2023-06-19 10:38:31] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-06-19 10:38:31] INFO root fetch - main [MainThread]: Store serial: [18557450]
+[2023-06-19 10:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557450]
+[2023-06-19 10:43:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssi-fc-data
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: breeze-strategies
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pk4adi
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thinks-dash-components
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buteo
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: one-api-tool
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: infinstor-mlflow-plugin
+[2023-06-19 10:43:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [pk4adi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ssi-fc-data]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [infinstor-mlflow-plugin]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/e5/c7/6b92122af3b7ec15a2f283d1b011c8eb7c8e421d5a2b46298bb717f44bcf/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/29/f4/b0e242c4a897d21d6ebdafde82ed520f44e2ecb6c5d212097d6627fcd5e4/thinks_dash_components-0.4.0.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/3f/c8/868d1e41fe107220ec52bc9a8a31b6b97bbf972c1f55f1adedc5f8b039a7/one-api-tool-0.3.0.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-19 10:43:41] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/af/d0/60bc80a6560e44b5a2fb5414ecb1d21e416bf965adc5860c4777483b0c8a/breeze_strategies-6.0.1.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/fd/b9/32e477ec5738d638920195bb5c65197269ba03828707e5dab9a96441a25b/ssi_fc_data-1.0.0.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/9c/0b/11787b330fc3c4a03e07a3c5e9406cbc5c522ddd2943d451e9d936d00117/pk4adi-0.1.1.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/ad/85/06c46b6443c9a962bf57080c8d6c207f5320993510831b35db32e2623476/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-19 10:43:41] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ed/c5/0041411d58d70d8f79bcca926562d95956961d2765552129136ef36fcf8a/infinstor-mlflow-plugin-2.0.8.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:43:41] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230619/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-product-form-sale-link/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/d9/43/6abc10e3ff0e42b6fbcc0964d938d25ee8b233ff5bdc491021f4e30186a1/thinks_dash_components-0.4.1.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/5d/38/5fd3bc2980ee04abf0ece4ff7a569fa968b25a71034ecdedccaf4a504356/one-api-tool-0.3.1.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.0.tar.gz tmp/thinks_dash_components-0.4.1.tar.gz --markdown 20230619/t/thinks-dash-components/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.0.tar.gz tmp/one-api-tool-0.3.1.tar.gz --markdown 20230619/o/one-api-tool/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/f2/0b/8152cde956b598922f5a053422e0c0d7e80744e814d2ee29331e87586a56/pk4adi-0.1.2.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/8d/16/5741d8ab298a40b61858af3e216e5bec531ac1c744cb1a24d9d1f90f2105/ssi_fc_data-2.0.0.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ssi-fc-data]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [ssi-fc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fc_data-1.0.0.tar.gz tmp/ssi_fc_data-2.0.0.tar.gz --markdown 20230619/s/ssi-fc-data/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 10:43:41] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/74/4c/e40457a4fd0d77f506fd1da29d6dcf2b7f944c4f1883f3f529346c9e1335/breeze_strategies-6.0.2.tar.gz
+[2023-06-19 10:43:41] INFO root fetch - processPackages [pk4adi]: executing diffoscope
+[2023-06-19 10:43:41] INFO root fetch - processPackages [pk4adi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pk4adi-0.1.1.tar.gz tmp/pk4adi-0.1.2.tar.gz --markdown 20230619/p/pk4adi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 10:43:42] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-19 10:43:42] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.1.tar.gz tmp/breeze_strategies-6.0.2.tar.gz --markdown 20230619/b/breeze-strategies/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:43:42] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-19 10:43:42] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-19 10:43:42] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230619/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-19 10:43:42] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ca/a5/bc13c3afcc6ccf70f3f5e385c6f374aaab41446c31d740b77d3a7a30a40e/infinstor-mlflow-plugin-2.0.9.tar.gz
+[2023-06-19 10:43:42] INFO root fetch - processPackages [infinstor-mlflow-plugin]: executing diffoscope
+[2023-06-19 10:43:42] INFO root fetch - processPackages [infinstor-mlflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinstor-mlflow-plugin-2.0.8.tar.gz tmp/infinstor-mlflow-plugin-2.0.9.tar.gz --markdown 20230619/i/infinstor-mlflow-plugin/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:43:43] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Start processing: lowatt-enedis
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [lowatt-enedis]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [thundra]: Start processing: odoo-addon-stock-move-line-serial-unique
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:43:43] WARNING root fetch - processPackages [odoo-addon-stock-move-line-serial-unique]: Skipping, unable to determine old version
+[2023-06-19 10:43:43] INFO root fetch - processPackages [odoo-addon-stock-move-line-serial-unique]: Start processing: aioworkers-aiohttp
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-serial-unique] error
+[2023-06-19 10:43:43] INFO root fetch - processPackages [aioworkers-aiohttp]: New version: [0.8.0a1] Old Version: [0.7.3]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.1.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.2.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [breeze-strategies]: Start processing: tff-nightly
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [lowatt-enedis]: Downloading https://files.pythonhosted.org/packages/68/94/d05a3315f75e33b8d57842c3e3a073ed972ebc8051cf75e4b731371db396/lowatt-enedis-2.2.0.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-1.0.0.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-2.0.0.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [ssi-fc-data]: Start processing: jupyterlite-xeus-python
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [ssi-fc-data]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230618] Old Version: [0.0.1.dev20230617]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [jupyterlite-xeus-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/92/1c/f9dbee8a1b63b4be1ac203819a58a44a33d413e4104e2d01aab3485fa837/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl
+[2023-06-19 10:43:43] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.1.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.2.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [pk4adi]: Start processing: revChatGPT
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [pk4adi]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [aioworkers-aiohttp]: Downloading https://files.pythonhosted.org/packages/e1/4c/c03e242f5ad27763955e6d74ecb28bcdf1d7ea3b7b50ffdfb9fd3e87f03e/aioworkers-aiohttp-0.7.3.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [revChatGPT]: New version: [6.3.4] Old Version: [6.3.3]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/infinstor-mlflow-plugin-2.0.8.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/infinstor-mlflow-plugin-2.0.9.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Start processing: pdf-docx-pic
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [infinstor-mlflow-plugin]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [jupyterlite-xeus-python]: Downloading https://files.pythonhosted.org/packages/e9/e8/7eff3dbb4f7ded4775fa577e79b2c869769e6385b50d87a7c694981af93b/jupyterlite-xeus-python-0.8.1.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.0.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.1.tar.gz]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [one-api-tool]: Start processing: ploy
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-19 10:43:43] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.1.2023.6.18.17.53.22] Old Version: [3.1.1.2023.6.18.17.33.46]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [lowatt-enedis]: Downloading https://files.pythonhosted.org/packages/a0/fb/beaa3f2cd63d93b23bd9e8a28557c5e7dd4094edaf6b2ec9a2380fb807db/lowatt-enedis-2.2.1.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [lowatt-enedis]: executing diffoscope
+[2023-06-19 10:43:43] INFO root fetch - processPackages [lowatt-enedis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowatt-enedis-2.2.0.tar.gz tmp/lowatt-enedis-2.2.1.tar.gz --markdown 20230619/l/lowatt-enedis/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-19 10:43:43] WARNING root fetch - processPackages [jupyterlite-xeus-python]: Skipping package: exceeds size limit 18288267>=10485760
+[2023-06-19 10:43:43] INFO root fetch - main [MainThread]: End processing [jupyterlite-xeus-python] error
+[2023-06-19 10:43:43] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/e6/61/7355c1b815d411be2b7306527e204f12cac7e5393069f621e6cb0f02bdec/revChatGPT-6.3.3.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [aioworkers-aiohttp]: Downloading https://files.pythonhosted.org/packages/e5/65/c16b93cdab87161e1c231c9b83d6c71c86d8d4bcd0cadd20ab2b790668d3/aioworkers_aiohttp-0.8.0a1.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [ploy]: New version: [2.0.1] Old Version: [2.0.0b5]
+[2023-06-19 10:43:43] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/15/9e/07eb717f3a1c70a44990ea84b3a504ee0d1bfda77da9c79e21b0df39df9b/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz
+[2023-06-19 10:43:43] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/70/39/d8f2c240ecd019bfe7a8593005e67bfa7dc99ceff27f66c80ae0d7659eff/tff_nightly-0.0.1.dev20230618-py2.py3-none-any.whl
+[2023-06-19 10:43:44] INFO root fetch - processPackages [aioworkers-aiohttp]: executing diffoscope
+[2023-06-19 10:43:44] INFO root fetch - processPackages [aioworkers-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-aiohttp-0.7.3.tar.gz tmp/aioworkers_aiohttp-0.8.0a1.tar.gz --markdown 20230619/a/aioworkers-aiohttp/0.7.3-0.8.0a1/diff.md --exclude *.pyd
+[2023-06-19 10:43:44] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/10/3f/bc61cbbf2f90409b9195217c3e4fb14b0b1d1f39853d35662e2973ff96fe/revChatGPT-6.3.4.tar.gz
+[2023-06-19 10:43:44] INFO root fetch - processPackages [ploy]: Downloading https://files.pythonhosted.org/packages/4b/00/eaddf887f9f9f3ce938ffb4244e404b8664e7daf4d09da50ea40b5d4d0e5/ploy-2.0.0b5.tar.gz
+[2023-06-19 10:43:44] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/b0/12/06f32365ce628f577b6823604796780b28c3ffbaaef59c8c796edff54326/pdf-docx-pic-3.1.1.2023.6.18.17.53.22.tar.gz
+[2023-06-19 10:43:44] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-19 10:43:44] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230618-py2.py3-none-any.whl.zip --markdown 20230619/t/tff-nightly/0.0.1.dev20230617-0.0.1.dev20230618/diff.md --exclude *.pyd
+[2023-06-19 10:43:44] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-19 10:43:44] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz tmp/pdf-docx-pic-3.1.1.2023.6.18.17.53.22.tar.gz --markdown 20230619/p/pdf-docx-pic/3.1.1.2023.6.18.17.33.46-3.1.1.2023.6.18.17.53.22/diff.md --exclude *.pyd
+[2023-06-19 10:43:44] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-19 10:43:44] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.3.3.tar.gz tmp/revChatGPT-6.3.4.tar.gz --markdown 20230619/r/revChatGPT/6.3.3-6.3.4/diff.md --exclude *.pyd
+[2023-06-19 10:43:44] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-19 10:43:44] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-19 10:43:44] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-19 10:43:44] INFO root fetch - processPackages [ploy]: Downloading https://files.pythonhosted.org/packages/38/da/db4e581f30766588c1b07686366e019d86b50eff1dcbf08b0c370dbb4db2/ploy-2.0.1.tar.gz
+[2023-06-19 10:43:44] INFO root fetch - processPackages [ploy]: executing diffoscope
+[2023-06-19 10:43:44] INFO root fetch - processPackages [ploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploy-2.0.0b5.tar.gz tmp/ploy-2.0.1.tar.gz --markdown 20230619/p/ploy/2.0.0b5-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 10:43:45] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.0.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.1.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-06-19 10:43:45] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.18.17.53.22.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-19 10:43:45] INFO root fetch - processPackages [aioworkers-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-aiohttp-0.7.3.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [aioworkers-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers_aiohttp-0.8.0a1.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [aioworkers-aiohttp]: success
+[2023-06-19 10:43:45] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.3.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.4.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-19 10:43:45] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-19 10:43:45] INFO root fetch - processPackages [ploy]: Remove: archive file [/home/abi/fetcher/tmp/ploy-2.0.0b5.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - processPackages [ploy]: Remove: archive file [/home/abi/fetcher/tmp/ploy-2.0.1.tar.gz]
+[2023-06-19 10:43:45] INFO root fetch - main [MainThread]: End processing [ploy]: success
+[2023-06-19 10:43:46] INFO root fetch - processPackages [lowatt-enedis]: Remove: archive file [/home/abi/fetcher/tmp/lowatt-enedis-2.2.0.tar.gz]
+[2023-06-19 10:43:46] INFO root fetch - processPackages [lowatt-enedis]: Remove: archive file [/home/abi/fetcher/tmp/lowatt-enedis-2.2.1.tar.gz]
+[2023-06-19 10:43:46] INFO root fetch - main [MainThread]: End processing [lowatt-enedis]: success
+[2023-06-19 10:43:47] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl.zip]
+[2023-06-19 10:43:47] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230618-py2.py3-none-any.whl.zip]
+[2023-06-19 10:43:47] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-19 10:43:47] INFO root fetch - main [MainThread]: Store serial: [18557500]
