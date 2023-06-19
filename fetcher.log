@@ -6124,3 +6124,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:35:44] INFO root fetch - processPackages [smqtk-descriptors]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_descriptors-0.19.0.tar.gz]
 [2023-06-19 05:35:44] INFO root fetch - main [MainThread]: End processing [smqtk-descriptors]: success
 [2023-06-19 05:35:44] INFO root fetch - main [MainThread]: Store serial: [18555360]
+[2023-06-19 05:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555360]
+[2023-06-19 05:40:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 05:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatbot-get-feature
+[2023-06-19 05:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: color-latam
+[2023-06-19 05:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chinese-pdf-divider
+[2023-06-19 05:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autosend
+[2023-06-19 05:40:53] INFO root fetch - processPackages [chinese-pdf-divider]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 05:40:53] INFO root fetch - processPackages [color-latam]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 05:40:53] INFO root fetch - processPackages [autosend]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 05:40:53] WARNING root fetch - processPackages [chatbot-get-feature]: Skipping, unable to determine old version
+[2023-06-19 05:40:53] INFO root fetch - main [MainThread]: End processing [chatbot-get-feature] error
+[2023-06-19 05:40:53] INFO root fetch - processPackages [chinese-pdf-divider]: Downloading https://files.pythonhosted.org/packages/8d/ec/58ac4d0ae5e37f72adbc9a4d044dda4d1635ed4dd64488c843ad5e133cf8/chinese_pdf_divider-1.0.0.tar.gz
+[2023-06-19 05:40:53] INFO root fetch - processPackages [color-latam]: Downloading https://files.pythonhosted.org/packages/59/2c/76e581309b77622931291e95feaf2061c2923cabefdd4ccad2a6d26c8e33/color_latam-0.0.1.tar.gz
+[2023-06-19 05:40:53] INFO root fetch - processPackages [autosend]: Downloading https://files.pythonhosted.org/packages/0d/bd/73e97d3d3cd7e3eea887091e64f70f0d864794c77619def2a7657f4d7131/autosend-0.0.4-py3-none-any.whl
+[2023-06-19 05:40:53] INFO root fetch - processPackages [color-latam]: Downloading https://files.pythonhosted.org/packages/c5/da/7c1bc46958122a35fe04c96746e77b0032f6a3d82524bd451a32956a4307/color_latam-0.0.2.tar.gz
+[2023-06-19 05:40:54] INFO root fetch - processPackages [chinese-pdf-divider]: Downloading https://files.pythonhosted.org/packages/78/bf/b49cda9c6617b003330fc71ed4c874bc2fff0759c7f8f3e24de15436aa5b/chinese_pdf_divider-1.1.0.tar.gz
+[2023-06-19 05:40:54] INFO root fetch - processPackages [autosend]: Downloading https://files.pythonhosted.org/packages/be/73/f5edf494d3486943f066fc7abd91dd556e84395be1ad561600c4c3b23f64/autosend-0.0.5.tar.gz
+[2023-06-19 05:40:54] INFO root fetch - processPackages [color-latam]: executing diffoscope
+[2023-06-19 05:40:54] INFO root fetch - processPackages [color-latam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_latam-0.0.1.tar.gz tmp/color_latam-0.0.2.tar.gz --markdown 20230619/c/color-latam/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 05:40:54] INFO root fetch - processPackages [chinese-pdf-divider]: executing diffoscope
+[2023-06-19 05:40:54] INFO root fetch - processPackages [chinese-pdf-divider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinese_pdf_divider-1.0.0.tar.gz tmp/chinese_pdf_divider-1.1.0.tar.gz --markdown 20230619/c/chinese-pdf-divider/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 05:40:54] INFO root fetch - processPackages [autosend]: executing diffoscope
+[2023-06-19 05:40:54] INFO root fetch - processPackages [autosend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosend-0.0.4-py3-none-any.whl.zip tmp/autosend-0.0.5.tar.gz --markdown 20230619/a/autosend/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 05:40:55] INFO root fetch - processPackages [color-latam]: Remove: archive file [/home/abi/fetcher/tmp/color_latam-0.0.1.tar.gz]
+[2023-06-19 05:40:55] INFO root fetch - processPackages [color-latam]: Remove: archive file [/home/abi/fetcher/tmp/color_latam-0.0.2.tar.gz]
+[2023-06-19 05:40:55] INFO root fetch - main [MainThread]: End processing [color-latam]: success
+[2023-06-19 05:40:55] INFO root fetch - processPackages [autosend]: Remove: archive file [/home/abi/fetcher/tmp/autosend-0.0.4-py3-none-any.whl.zip]
+[2023-06-19 05:40:55] INFO root fetch - processPackages [autosend]: Remove: archive file [/home/abi/fetcher/tmp/autosend-0.0.5.tar.gz]
+[2023-06-19 05:40:55] INFO root fetch - main [MainThread]: End processing [autosend]: success
+[2023-06-19 05:40:55] INFO root fetch - processPackages [chinese-pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/chinese_pdf_divider-1.0.0.tar.gz]
+[2023-06-19 05:40:55] INFO root fetch - processPackages [chinese-pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/chinese_pdf_divider-1.1.0.tar.gz]
+[2023-06-19 05:40:55] INFO root fetch - main [MainThread]: End processing [chinese-pdf-divider]: success
+[2023-06-19 05:40:55] INFO root fetch - main [MainThread]: Store serial: [18555375]
