@@ -15445,3 +15445,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:30:29] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.3.tar.gz]
 [2023-06-19 13:30:29] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2023-06-19 13:30:29] INFO root fetch - main [MainThread]: Store serial: [18558997]
+[2023-06-19 13:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558997]
+[2023-06-19 13:35:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polywrap-plugin
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucleus-driver
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netdoc
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polywrap-test-cases
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: igz-mgmt
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenium-recaptcha-solver
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdf-docx-pic
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polywrap-wasm
+[2023-06-19 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: siibra
+[2023-06-19 13:35:40] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.2.2023.6.19.19.27.30] Old Version: [3.1.2.2023.6.19.16.57.42]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-plugin]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [igz-mgmt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 13:35:40] WARNING root fetch - processPackages [polywrap-test-cases]: Skipping, unable to determine old version
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-test-cases]: Start processing: djdantic
+[2023-06-19 13:35:40] INFO root fetch - main [MainThread]: End processing [polywrap-test-cases] error
+[2023-06-19 13:35:40] INFO root fetch - processPackages [selenium-recaptcha-solver]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-wasm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [siibra]: New version: [0.4a57] Old Version: [0.4a56]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev11272] Old Version: [3.2.4.dev11249]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/08/1f/7c8e8305c7b4bb77208310e7b0d09ce2589b9bfa19adf1053f930b9ed6f0/igz_mgmt-0.0.7.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-19 13:35:40] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/24/fc/8d844b98b22ec5aa9f9be9fc5d720276f194abfadd031abe216f96ec582a/udata_front-3.2.4.dev11249-py2.py3-none-any.whl
+[2023-06-19 13:35:40] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/f5/49/78655d9091df21658e1989f55672bf5413a28527440ec93ae4a1c6a92db4/siibra-0.4a56.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/bb/64/43ec24094c7113a0eeac7d7ac49c2fa2d81b4e97e20b6fa5cad39d22fee5/pdf-docx-pic-3.1.2.2023.6.19.16.57.42.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/f4/97/c10b8b5ec154f879d052ed84f0e13843a1e4cb1b409a21920a29cc9d2d41/polywrap_plugin-0.1.0a6.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/d5/19/70a8edb0676461386210251f8bc9983269fc212d0b6664eee96fc5569f8c/polywrap_wasm-0.1.0a6.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/a7/c5/4c922506702f70c0e88e4ee9375dc7e09ed63518033049a196e0e92a0b80/nucleus_driver-1.5.1.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/c4/86/2819f46d66662fd20d2fff5a462fc79d0dd2faad160175c89e5a4b515a26/selenium-recaptcha-solver-1.8.2.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/bc/c0/ac49ba5e9b88ed3d07251fe69ee8a7c9ac6bb9250aa823416146001ab422/siibra-0.4a57.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/dd/0a/4b8cdebae0ba4f69e87717b86709097fdb566a76b0a0ed9e787e274609bf/igz_mgmt-0.0.8.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [igz-mgmt]: executing diffoscope
+[2023-06-19 13:35:40] INFO root fetch - processPackages [igz-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igz_mgmt-0.0.7.tar.gz tmp/igz_mgmt-0.0.8.tar.gz --markdown 20230619/i/igz-mgmt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 13:35:40] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/8c/92/993dd45fbde49406cca8b68eaf10cbecc8b93a5a1af889513c062e4ab7a0/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/84/a3/4b7b29c0f397c537cd42400bc43a3186746a00b238c0f8ce44ddf36d85ca/nucleus_driver-1.5.2.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-06-19 13:35:40] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a56.tar.gz tmp/siibra-0.4a57.tar.gz --markdown 20230619/s/siibra/0.4a56-0.4a57/diff.md --exclude *.pyd
+[2023-06-19 13:35:40] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/e3/15/d644501f1986c8f1f90dc5f583b7bc338f972daef606058a7ed5b8b07c7e/selenium-recaptcha-solver-1.8.3.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-19 13:35:40] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.2.2023.6.19.16.57.42.tar.gz tmp/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz --markdown 20230619/p/pdf-docx-pic/3.1.2.2023.6.19.16.57.42-3.1.2.2023.6.19.19.27.30/diff.md --exclude *.pyd
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/bc/38/6a2979eb32cadf6a2c76b0a2fe367656e24719f54d9e3669b52279b5e314/polywrap_wasm-0.1.0a7.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/b3/3c/5ba12e1bf0c9e5d66c6dab019c7fa21a48eb6897cc7e2a7f9138b9f02112/polywrap_plugin-0.1.0a7.tar.gz
+[2023-06-19 13:35:40] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-06-19 13:35:40] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.5.1.tar.gz tmp/nucleus_driver-1.5.2.tar.gz --markdown 20230619/n/nucleus-driver/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-19 13:35:40] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-19 13:35:40] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230619/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-19 13:35:40] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-06-19 13:35:41] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-06-19 13:35:41] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230619/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:35:41] INFO root fetch - processPackages [selenium-recaptcha-solver]: executing diffoscope
+[2023-06-19 13:35:41] INFO root fetch - processPackages [selenium-recaptcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-recaptcha-solver-1.8.2.tar.gz tmp/selenium-recaptcha-solver-1.8.3.tar.gz --markdown 20230619/s/selenium-recaptcha-solver/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-19 13:35:41] INFO root fetch - processPackages [polywrap-wasm]: executing diffoscope
+[2023-06-19 13:35:41] INFO root fetch - processPackages [polywrap-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_wasm-0.1.0a6.tar.gz tmp/polywrap_wasm-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-wasm/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 13:35:41] INFO root fetch - processPackages [polywrap-plugin]: executing diffoscope
+[2023-06-19 13:35:41] INFO root fetch - processPackages [polywrap-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_plugin-0.1.0a6.tar.gz tmp/polywrap_plugin-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-plugin/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 13:35:41] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/e9/41/e93e8afe6059860dd204bc776f4150f5e1e19869dedbbced3665974a11f9/udata_front-3.2.4.dev11272-py2.py3-none-any.whl
+[2023-06-19 13:35:42] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.2.2023.6.19.16.57.42.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.2.2023.6.19.19.27.30.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [pdf-docx-pic]: Start processing: certora-cli-alpha-master
+[2023-06-19 13:35:42] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-19 13:35:42] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230619.11.33.160914] Old Version: [20230618.19.17.617989]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [selenium-recaptcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/selenium-recaptcha-solver-1.8.2.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [selenium-recaptcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/selenium-recaptcha-solver-1.8.3.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [selenium-recaptcha-solver]: Start processing: sisaptools
+[2023-06-19 13:35:42] INFO root fetch - main [MainThread]: End processing [selenium-recaptcha-solver]: success
+[2023-06-19 13:35:42] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a6.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [polywrap-plugin]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_plugin-0.1.0a7.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [polywrap-plugin]: Start processing: polywrap-uri-resolvers
+[2023-06-19 13:35:42] INFO root fetch - main [MainThread]: End processing [polywrap-plugin]: success
+[2023-06-19 13:35:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b4/66/8e1aa489e6b71e7086ce6712fc9fe0ef5756c1cbf8d9f5794fa7e2ef97f1/certora-cli-alpha-master-20230618.19.17.617989.tar.gz
+[2023-06-19 13:35:42] INFO root fetch - processPackages [polywrap-uri-resolvers]: New version: [0.1.0a7] Old Version: [0.1.0a4]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-06-19 13:35:42] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37055356>=10485760
+[2023-06-19 13:35:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: djfapi
+[2023-06-19 13:35:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-19 13:35:42] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-06-19 13:35:42] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/2c/46/59cd7487a08f88195b1cf4705c344a3af716b5c8bd5e02ef22249c41e709/polywrap_uri_resolvers-0.1.0a4.tar.gz
+[2023-06-19 13:35:42] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-06-19 13:35:42] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230619/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-19 13:35:42] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.7.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.8.tar.gz]
+[2023-06-19 13:35:42] INFO root fetch - processPackages [igz-mgmt]: Start processing: pandoc-latex-color
+[2023-06-19 13:35:42] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
+[2023-06-19 13:35:43] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a6.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a7.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - main [MainThread]: End processing [polywrap-wasm]: success
+[2023-06-19 13:35:43] INFO root fetch - processPackages [pandoc-latex-color]: New version: [1.0.0.0] Old Version: [0.2.1]
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-06-19 13:35:43] INFO root fetch - processPackages [pandoc-latex-color]: Downloading https://files.pythonhosted.org/packages/16/a7/64c7b93820a8914b3d4308bfb004ace514006ca3cffb55e972cd04128dc3/pandoc-latex-color-0.2.1.tar.gz
+[2023-06-19 13:35:43] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-19 13:35:43] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev11249-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev11272-py2.py3-none-any.whl.zip --markdown 20230619/u/udata-front/3.2.4.dev11249-3.2.4.dev11272/diff.md --exclude *.pyd
+[2023-06-19 13:35:43] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.1.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.2.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-06-19 13:35:43] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/82/07/71878f71cb68efff9c8db66617f1dbd64d80db7b068224716cb758920443/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl
+[2023-06-19 13:35:43] INFO root fetch - processPackages [pandoc-latex-color]: Downloading https://files.pythonhosted.org/packages/c3/a5/98e1af8037c29a4bb121ec847e5df3f95f70271a9f198396e4d2149e3645/pandoc_latex_color-1.0.0.0.tar.gz
+[2023-06-19 13:35:43] INFO root fetch - processPackages [pandoc-latex-color]: executing diffoscope
+[2023-06-19 13:35:43] INFO root fetch - processPackages [pandoc-latex-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-color-0.2.1.tar.gz tmp/pandoc_latex_color-1.0.0.0.tar.gz --markdown 20230619/p/pandoc-latex-color/0.2.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-19 13:35:43] INFO root fetch - processPackages [polywrap-uri-resolvers]: executing diffoscope
+[2023-06-19 13:35:43] INFO root fetch - processPackages [polywrap-uri-resolvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip --markdown 20230619/p/polywrap-uri-resolvers/0.1.0a4-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-06-19 13:35:43] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-06-19 13:35:43] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230619/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:35:44] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2023-06-19 13:35:44] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2023-06-19 13:35:44] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-06-19 13:35:44] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz]
+[2023-06-19 13:35:44] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip]
+[2023-06-19 13:35:44] INFO root fetch - main [MainThread]: End processing [polywrap-uri-resolvers]: success
+[2023-06-19 13:35:44] INFO root fetch - processPackages [pandoc-latex-color]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-color-0.2.1.tar.gz]
+[2023-06-19 13:35:44] INFO root fetch - processPackages [pandoc-latex-color]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_color-1.0.0.0.tar.gz]
+[2023-06-19 13:35:44] INFO root fetch - main [MainThread]: End processing [pandoc-latex-color]: success
+[2023-06-19 13:35:45] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-06-19 13:35:45] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-06-19 13:35:45] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-06-19 13:35:46] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-19 13:35:46] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-19 13:35:46] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-19 13:35:49] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a56.tar.gz]
+[2023-06-19 13:35:49] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a57.tar.gz]
+[2023-06-19 13:35:49] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-06-19 13:36:03] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11249-py2.py3-none-any.whl.zip]
+[2023-06-19 13:36:03] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11272-py2.py3-none-any.whl.zip]
+[2023-06-19 13:36:03] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-19 13:36:03] INFO root fetch - main [MainThread]: Store serial: [18559050]
