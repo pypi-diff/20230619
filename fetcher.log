@@ -5559,3 +5559,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:48:33] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.0.tar.gz]
 [2023-06-19 04:48:33] INFO root fetch - main [MainThread]: End processing [cfr]: success
 [2023-06-19 04:48:33] INFO root fetch - main [MainThread]: Store serial: [18555127]
+[2023-06-19 04:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555127]
+[2023-06-19 04:53:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-scaffold-tools
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icat
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bc-acc-dup
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleaichat
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bc-acc-dup
+[2023-06-19 04:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-st
+[2023-06-19 04:53:41] INFO root fetch - processPackages [django-scaffold-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [bc-acc-dup]: New version: [1.2] Old Version: [1.1]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [simpleaichat]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [bc-acc-dup]: New version: [1.2] Old Version: [1.1]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [icat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 04:53:41] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-19 04:53:41] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/78/91/c9b4d56863ea65eab00ec79a98f19076715f9fcd91618f0993b30b9ba14c/bc-acc-dup-1.1.tar.gz
+[2023-06-19 04:53:41] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/78/91/c9b4d56863ea65eab00ec79a98f19076715f9fcd91618f0993b30b9ba14c/bc-acc-dup-1.1.tar.gz
+[2023-06-19 04:53:41] INFO root fetch - processPackages [django-scaffold-tools]: Downloading https://files.pythonhosted.org/packages/77/27/03be4177cf43be6ff436ddef22c3bc727da868e780333fb4985fbbd6544c/django-scaffold-tools-0.0.8.tar.gz
+[2023-06-19 04:53:41] INFO root fetch - processPackages [simpleaichat]: Downloading https://files.pythonhosted.org/packages/30/12/92d7025563fc26fda29ecda6bfb97ec044a285c733cf55517fbd7cbf4294/simpleaichat-0.1.1.tar.gz
+[2023-06-19 04:53:41] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/20/cc/1f81e31d81dae75bdf014ae836d66e5a099cd1b186456c6173fe373808eb/icat-0.0.8.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/7e/b8/60afdc8dacb23fcc246056cc3cd6f107d30b1f57c70f2039857a4ac7aa6d/bc-acc-dup-1.2.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/7e/b8/60afdc8dacb23fcc246056cc3cd6f107d30b1f57c70f2039857a4ac7aa6d/bc-acc-dup-1.2.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/eb/0c/edb87dc6f60c3c7258f67f2c10019aad1f1b1b3406b27579880229e57341/icat-0.0.9.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230619/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-acc-dup-1.1.tar.gz tmp/bc-acc-dup-1.2.tar.gz --markdown 20230619/b/bc-acc-dup/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [bc-acc-dup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-acc-dup-1.1.tar.gz tmp/bc-acc-dup-1.2.tar.gz --markdown 20230619/b/bc-acc-dup/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-19 04:53:42] INFO root fetch - processPackages [simpleaichat]: Downloading https://files.pythonhosted.org/packages/9b/9b/034c45cc28a303c1fd0beec66c63f725e0ff4b87157fadc7b51ee16ff01b/simpleaichat-0.2.0.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [icat]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [icat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-0.0.8.tar.gz tmp/icat-0.0.9.tar.gz --markdown 20230619/i/icat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 04:53:42] INFO root fetch - processPackages [django-scaffold-tools]: Downloading https://files.pythonhosted.org/packages/51/a5/5413b68028a43a52e3d3dacd026dbed60ea5294fa1e0410126c551166ad4/django-scaffold-tools-0.0.9.tar.gz
+[2023-06-19 04:53:42] INFO root fetch - processPackages [simpleaichat]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [simpleaichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleaichat-0.1.1.tar.gz tmp/simpleaichat-0.2.0.tar.gz --markdown 20230619/s/simpleaichat/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 04:53:42] INFO root fetch - processPackages [django-scaffold-tools]: executing diffoscope
+[2023-06-19 04:53:42] INFO root fetch - processPackages [django-scaffold-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-scaffold-tools-0.0.8.tar.gz tmp/django-scaffold-tools-0.0.9.tar.gz --markdown 20230619/d/django-scaffold-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 04:53:43] INFO root fetch - processPackages [bc-acc-dup]: Remove: archive file [/home/abi/fetcher/tmp/bc-acc-dup-1.1.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - processPackages [bc-acc-dup]: Remove: archive file [/home/abi/fetcher/tmp/bc-acc-dup-1.2.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - main [MainThread]: End processing [bc-acc-dup]: success
+[2023-06-19 04:53:43] INFO root fetch - main [MainThread]: End processing [bc-acc-dup]: success
+[2023-06-19 04:53:43] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.8.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.9.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - main [MainThread]: End processing [icat]: success
+[2023-06-19 04:53:43] INFO root fetch - processPackages [simpleaichat]: Remove: archive file [/home/abi/fetcher/tmp/simpleaichat-0.1.1.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - processPackages [simpleaichat]: Remove: archive file [/home/abi/fetcher/tmp/simpleaichat-0.2.0.tar.gz]
+[2023-06-19 04:53:43] INFO root fetch - main [MainThread]: End processing [simpleaichat]: success
+[2023-06-19 04:53:44] INFO root fetch - processPackages [django-scaffold-tools]: Remove: archive file [/home/abi/fetcher/tmp/django-scaffold-tools-0.0.8.tar.gz]
+[2023-06-19 04:53:44] INFO root fetch - processPackages [django-scaffold-tools]: Remove: archive file [/home/abi/fetcher/tmp/django-scaffold-tools-0.0.9.tar.gz]
+[2023-06-19 04:53:44] INFO root fetch - main [MainThread]: End processing [django-scaffold-tools]: success
+[2023-06-19 04:53:54] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-19 04:53:54] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-19 04:53:54] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-19 04:53:54] INFO root fetch - main [MainThread]: Store serial: [18555141]
