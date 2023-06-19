@@ -5751,3 +5751,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:04:31] INFO root fetch - processPackages [xgboost]: Remove: archive file [/home/abi/fetcher/tmp/xgboost-1.7.6.tar.gz]
 [2023-06-19 05:04:31] INFO root fetch - main [MainThread]: End processing [xgboost]: success
 [2023-06-19 05:04:31] INFO root fetch - main [MainThread]: Store serial: [18555193]
+[2023-06-19 05:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555193]
+[2023-06-19 05:09:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eons
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablepic
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-webdriver
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcdup
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhousf-lib
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: color-latam
+[2023-06-19 05:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mbutton100
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyconnectwise
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: searchlogit
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-06-19 05:09:40] WARNING root fetch - processPackages [bcdup]: Skipping, unable to determine old version
+[2023-06-19 05:09:40] INFO root fetch - processPackages [bcdup]: Start processing: svgbit
+[2023-06-19 05:09:40] INFO root fetch - main [MainThread]: End processing [bcdup] error
+[2023-06-19 05:09:40] WARNING root fetch - processPackages [mbutton100]: Skipping, unable to determine old version
+[2023-06-19 05:09:40] WARNING root fetch - processPackages [pyconnectwise]: Skipping, unable to determine old version
+[2023-06-19 05:09:40] INFO root fetch - main [MainThread]: End processing [mbutton100] error
+[2023-06-19 05:09:40] INFO root fetch - main [MainThread]: End processing [pyconnectwise] error
+[2023-06-19 05:09:40] WARNING root fetch - processPackages [color-latam]: Skipping, unable to determine old version
+[2023-06-19 05:09:40] INFO root fetch - processPackages [tablepic]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 05:09:40] INFO root fetch - main [MainThread]: End processing [color-latam] error
+[2023-06-19 05:09:40] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [eons]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [open-webdriver]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ats-case]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [svgbit]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 05:09:40] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/f0/8d/281c03d41d4382e9d7d978b77e022cb23bcecab7c3529e0cfe51443178bd/tablepic-0.0.2.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/bd/2e/e57b64a29fa12138803b81d6b1d1b15a8781805f1c3dc3d6fb8d3bf18065/zhousf-lib-0.7.6.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/b3/17/18455deb310d8b6af2f9ec243435e26e5db1cfc2620faa1efdbc49b128fe/ats_case-0.8.7.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/56/1f/1a3cc9141ae1dc731e59a9e0c135fe0bea431fed0107f71f589495794b0f/eons-2.6.1.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [open-webdriver]: Downloading https://files.pythonhosted.org/packages/e3/4c/e56cc237f659e673507755bd6d33d0d4d68e91e0244e0f8873d41835bcf3/open_webdriver-1.4.2.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [svgbit]: Downloading https://files.pythonhosted.org/packages/b0/54/03b756fbdd2d2f01917e8790232fc17eb7fce9c4bb9e27dac45a2069a7fb/svgbit-0.2.8.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/9b/ca/f8e3393ad79d6c303f4ce4cc9506c36b6f219e4501483dd04736a67eaccc/ats_case-0.8.8.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/35/a5/945383b725841b550117b8325b13b7149d33941bb423139f40d95331851f/tablepic-0.0.3.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/bb/3b/873517b65b3eee8035b4086549cd0a5b62459edd4ddf830f8c003218f87f/eons-2.6.2.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230619/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [open-webdriver]: Downloading https://files.pythonhosted.org/packages/46/22/bb3c5f32c84ddd6b8c1ae79d6bbaf26c6379c451c7fe93576a097a1caf39/open_webdriver-1.4.3.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [tablepic]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [tablepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablepic-0.0.2.tar.gz tmp/tablepic-0.0.3.tar.gz --markdown 20230619/t/tablepic/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [svgbit]: Downloading https://files.pythonhosted.org/packages/05/45/61230a87e4e1b60bc3cb0ab7f66749c737245be560c3175c5f3fecf98078/svgbit-0.2.9.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/04/7e/8dcaf01806570b20e76503c53ead923dfa4b4f43c59c22dea613efdf0667/zhousf-lib-0.7.7.tar.gz
+[2023-06-19 05:09:40] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.1.tar.gz tmp/eons-2.6.2.tar.gz --markdown 20230619/e/eons/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.7.tar.gz tmp/ats_case-0.8.8.tar.gz --markdown 20230619/a/ats-case/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [open-webdriver]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [open-webdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_webdriver-1.4.2.tar.gz tmp/open_webdriver-1.4.3.tar.gz --markdown 20230619/o/open-webdriver/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [svgbit]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [svgbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgbit-0.2.8.tar.gz tmp/svgbit-0.2.9.tar.gz --markdown 20230619/s/svgbit/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 05:09:40] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-19 05:09:40] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.6.tar.gz tmp/zhousf-lib-0.7.7.tar.gz --markdown 20230619/z/zhousf-lib/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-19 05:09:42] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.7.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.8.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-19 05:09:42] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-19 05:09:42] INFO root fetch - processPackages [open-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/open_webdriver-1.4.2.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [open-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/open_webdriver-1.4.3.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [open-webdriver]: success
+[2023-06-19 05:09:42] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.2.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.3.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [tablepic]: success
+[2023-06-19 05:09:42] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.1.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.2.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-06-19 05:09:42] INFO root fetch - processPackages [svgbit]: Remove: archive file [/home/abi/fetcher/tmp/svgbit-0.2.8.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - processPackages [svgbit]: Remove: archive file [/home/abi/fetcher/tmp/svgbit-0.2.9.tar.gz]
+[2023-06-19 05:09:42] INFO root fetch - main [MainThread]: End processing [svgbit]: success
+[2023-06-19 05:09:43] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.6.tar.gz]
+[2023-06-19 05:09:43] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.7.tar.gz]
+[2023-06-19 05:09:43] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-19 05:09:43] INFO root fetch - main [MainThread]: Store serial: [18555233]
