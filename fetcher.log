@@ -7693,3 +7693,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:47:14] INFO root fetch - processPackages [wfuzzserver]: Remove: archive file [/home/abi/fetcher/tmp/wfuzzserver-3.3.0.tar.gz]
 [2023-06-19 07:47:14] INFO root fetch - main [MainThread]: End processing [wfuzzserver]: success
 [2023-06-19 07:47:14] INFO root fetch - main [MainThread]: Store serial: [18556024]
+[2023-06-19 07:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556024]
+[2023-06-19 07:52:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Chameleon
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-api-testka-dev
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authit
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microservices-common
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbipy
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosaicml-streaming
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: queryandprocessdatautility
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynostr-cli
+[2023-06-19 07:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyo-oracle
+[2023-06-19 07:52:23] INFO root fetch - processPackages [microservices-common]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-06-19 07:52:23] WARNING root fetch - processPackages [pynostr-cli]: Skipping, unable to determine old version
+[2023-06-19 07:52:23] INFO root fetch - main [MainThread]: End processing [pynostr-cli] error
+[2023-06-19 07:52:23] INFO root fetch - processPackages [pbipy]: New version: [2.1.3] Old Version: [2.0.3a0]
+[2023-06-19 07:52:23] INFO root fetch - processPackages [mosaicml-streaming]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-19 07:52:23] WARNING root fetch - processPackages [pyo-oracle]: Skipping, unable to determine old version
+[2023-06-19 07:52:23] INFO root fetch - main [MainThread]: End processing [pyo-oracle] error
+[2023-06-19 07:52:23] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-06-19 07:52:23] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 07:52:23] INFO root fetch - processPackages [Chameleon]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-19 07:52:23] INFO root fetch - processPackages [authit]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-19 07:52:23] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/b4/6c/6d9fa20e55d5893208b93a150445baf4702d19fedab362837b2e25a7ec01/je_api_testka_dev-0.0.95.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/36/7d/221615a6418e37e592e6cce733da3e818be457de4579a72c649406080f4a/pbipy-2.0.3a0.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-19 07:52:23] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/e5/0f/f226122f80597e5bf06a8270962615f8a497d0d634065376202fe5214ee7/microservices_common-0.0.81.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [mosaicml-streaming]: Downloading https://files.pythonhosted.org/packages/3e/b4/fb05c8239d95f05a7a1c679fd5ee81b6c34ac3ff8518437bee5b6f73b47a/mosaicml-streaming-0.5.0.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-19 07:52:23] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/47/85/86549c10392e744c46f4959ac9992cb8402d5d91202e1fa3533dfdccd92f/authit-0.0.1.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/01/0a/050959d21378a0e80288ee854120c87eb53d415203ba67c6239036ed2240/pbipy-2.1.3.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/ef/2b/79e00d22e7c65df69d8596983d82618bd311667f1bd8eadaf8ff8ee568d6/je_api_testka_dev-0.0.96.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/5b/44/d5d984e2191d4b42bd0bc1cc7ef578788ac8c57194e254f16d254a3b4570/Chameleon-4.0.0.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230619/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.0.3a0.tar.gz tmp/pbipy-2.1.3.tar.gz --markdown 20230619/p/pbipy/2.0.3a0-2.1.3/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [mosaicml-streaming]: Downloading https://files.pythonhosted.org/packages/fd/72/56fea14180fab7882f2d97efac0546e346fd35407bc3700489f5eda0c69a/mosaicml-streaming-0.5.1.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/3a/3d/1f771781d281c1d2dda5f6a8ba230c9946cf425807961745086ccb2391ec/authit-0.0.3.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.95.tar.gz tmp/je_api_testka_dev-0.0.96.tar.gz --markdown 20230619/j/je-api-testka-dev/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/18/65/42a7244c50e3cb0b26a6a430635e23b6584e219c7a28c6cb6bd4d7925540/microservices_common-0.0.9.tar.gz
+[2023-06-19 07:52:23] INFO root fetch - processPackages [mosaicml-streaming]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [mosaicml-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-streaming-0.5.0.tar.gz tmp/mosaicml-streaming-0.5.1.tar.gz --markdown 20230619/m/mosaicml-streaming/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [authit]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [authit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authit-0.0.1.tar.gz tmp/authit-0.0.3.tar.gz --markdown 20230619/a/authit/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2023-06-19 07:52:23] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-0.0.81.tar.gz tmp/microservices_common-0.0.9.tar.gz --markdown 20230619/m/microservices-common/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 07:52:23] INFO root fetch - processPackages [Chameleon]: Downloading https://files.pythonhosted.org/packages/a5/17/a45bb7732aa7f8e26d7b1548aecfe982b16982cb4c8f34a3ec622b051bc2/Chameleon-4.0.1.tar.gz
+[2023-06-19 07:52:24] INFO root fetch - processPackages [Chameleon]: executing diffoscope
+[2023-06-19 07:52:24] INFO root fetch - processPackages [Chameleon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Chameleon-4.0.0.tar.gz tmp/Chameleon-4.0.1.tar.gz --markdown 20230619/C/Chameleon/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-19 07:52:24] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 07:52:24] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 07:52:24] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-19 07:52:25] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.0.3a0.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.1.3.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-06-19 07:52:25] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.1.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.3.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - main [MainThread]: End processing [authit]: success
+[2023-06-19 07:52:25] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.95.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.96.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-06-19 07:52:25] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.81.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.9.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2023-06-19 07:52:25] INFO root fetch - processPackages [mosaicml-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-streaming-0.5.0.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - processPackages [mosaicml-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-streaming-0.5.1.tar.gz]
+[2023-06-19 07:52:25] INFO root fetch - main [MainThread]: End processing [mosaicml-streaming]: success
+[2023-06-19 07:52:26] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.0.0.tar.gz]
+[2023-06-19 07:52:26] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.0.1.tar.gz]
+[2023-06-19 07:52:26] INFO root fetch - main [MainThread]: End processing [Chameleon]: success
+[2023-06-19 07:52:26] INFO root fetch - main [MainThread]: Store serial: [18556053]
