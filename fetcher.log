@@ -7602,3 +7602,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:31:39] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.3.tar.gz]
 [2023-06-19 07:31:39] INFO root fetch - main [MainThread]: End processing [storey]: success
 [2023-06-19 07:31:39] INFO root fetch - main [MainThread]: Store serial: [18555996]
+[2023-06-19 07:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555996]
+[2023-06-19 07:36:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 07:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kazam
+[2023-06-19 07:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spike2py
+[2023-06-19 07:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdict
+[2023-06-19 07:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-api-testka-dev
+[2023-06-19 07:36:49] INFO root fetch - processPackages [kazam]: New version: [1.5.7.dev2] Old Version: [1.5.7.dev1]
+[2023-06-19 07:36:49] INFO root fetch - processPackages [spike2py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 07:36:49] INFO root fetch - processPackages [bigdict]: New version: [22.5.29] Old Version: [21.4.11]
+[2023-06-19 07:36:49] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/12/5b/ae9a40ce442e5629b912295c118a69998e07d03651dbd7953083bed068f0/kazam-1.5.7.dev1-py3-none-any.whl
+[2023-06-19 07:36:49] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/f7/18/33e959e923464987fcf64978bec72af113ca03d0ab606f69a290b00505b0/bigdict-21.4.11.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-19 07:36:49] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/a6/1d/0db1452f590df4c666ea02b032fd8f7606e8bdb4a4eb643acb68a0f81bbd/spike2py-0.1.0.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/95/08/4f9bce50947e28ff11db762c8667bcb834a99a7210b487fe9023132dcba0/bigdict-22.5.29.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [bigdict]: executing diffoscope
+[2023-06-19 07:36:49] INFO root fetch - processPackages [bigdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdict-21.4.11.tar.gz tmp/bigdict-22.5.29.tar.gz --markdown 20230619/b/bigdict/21.4.11-22.5.29/diff.md --exclude *.pyd
+[2023-06-19 07:36:49] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/78/b2/a5fe0e2644657075a70e745361fd0458e6f096e2f40b23da4845a2c397a6/je_api_testka_dev-0.0.94.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [kazam]: Downloading https://files.pythonhosted.org/packages/f7/cd/1c515ac25347ef8338cac4dcd80d0c24063789ad9949e80679eab78ebee8/kazam-1.5.7.dev2-py3-none-any.whl
+[2023-06-19 07:36:49] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/ad/d3/c10e0882501b94b5ff6d9940f2e56aa5983c7769857579416e20baed37a8/spike2py-0.2.0.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [kazam]: executing diffoscope
+[2023-06-19 07:36:49] INFO root fetch - processPackages [kazam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazam-1.5.7.dev1-py3-none-any.whl.zip tmp/kazam-1.5.7.dev2-py3-none-any.whl.zip --markdown 20230619/k/kazam/1.5.7.dev1-1.5.7.dev2/diff.md --exclude *.pyd
+[2023-06-19 07:36:49] INFO root fetch - processPackages [spike2py]: executing diffoscope
+[2023-06-19 07:36:49] INFO root fetch - processPackages [spike2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spike2py-0.1.0.tar.gz tmp/spike2py-0.2.0.tar.gz --markdown 20230619/s/spike2py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 07:36:49] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/b4/6c/6d9fa20e55d5893208b93a150445baf4702d19fedab362837b2e25a7ec01/je_api_testka_dev-0.0.95.tar.gz
+[2023-06-19 07:36:49] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-06-19 07:36:49] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.94.tar.gz tmp/je_api_testka_dev-0.0.95.tar.gz --markdown 20230619/j/je-api-testka-dev/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-19 07:36:50] INFO root fetch - processPackages [bigdict]: Remove: archive file [/home/abi/fetcher/tmp/bigdict-21.4.11.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - processPackages [bigdict]: Remove: archive file [/home/abi/fetcher/tmp/bigdict-22.5.29.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - main [MainThread]: End processing [bigdict]: success
+[2023-06-19 07:36:50] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.1.0.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.2.0.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - main [MainThread]: End processing [spike2py]: success
+[2023-06-19 07:36:50] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.94.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.95.tar.gz]
+[2023-06-19 07:36:50] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-06-19 07:36:51] INFO root fetch - processPackages [kazam]: Remove: archive file [/home/abi/fetcher/tmp/kazam-1.5.7.dev1-py3-none-any.whl.zip]
+[2023-06-19 07:36:51] INFO root fetch - processPackages [kazam]: Remove: archive file [/home/abi/fetcher/tmp/kazam-1.5.7.dev2-py3-none-any.whl.zip]
+[2023-06-19 07:36:51] INFO root fetch - main [MainThread]: End processing [kazam]: success
+[2023-06-19 07:36:51] INFO root fetch - main [MainThread]: Store serial: [18556006]
