@@ -19754,3 +19754,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:00:24] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230619134023.tar.gz]
 [2023-06-19 16:00:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-19 16:00:24] INFO root fetch - main [MainThread]: Store serial: [18560747]
+[2023-06-19 16:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560747]
+[2023-06-19 16:05:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toloka-kit
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysqlx
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-yaml-yoyo
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-app-framework
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-adverse-event
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-grpc-lw-data-provider
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bili-push
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symbex
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dare-datasets
+[2023-06-19 16:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readme-renderer
+[2023-06-19 16:05:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5309850540]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [dare-datasets]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [symbex]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/1b/a2/e81c12b8fe10bb747bb586c40b1ae3cd3b960b96d4d4810ca727819b55d2/th2_grpc_lw_data_provider-2.0.0.dev5309850540.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [toloka-kit]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [smart-app-framework]: New version: [2.2.0rc3] Old Version: [2.2.0rc2]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [readme-renderer]: New version: [40.0] Old Version: [37.3]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [mysqlx]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/3e/95/81791c2a55bcd711e9af55d49e790a4b08c2ba93a71f2daa355c60252fc0/symbex-0.2.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [pytest-yaml-yoyo]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-19 16:05:33] INFO root fetch - processPackages [readme-renderer]: Downloading https://files.pythonhosted.org/packages/81/c3/d20152fcd1986117b898f66928938f329d0c91ddc47f081c58e64e0f51dc/readme_renderer-37.3.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [dare-datasets]: Downloading https://files.pythonhosted.org/packages/3b/08/1d8b8aa91867c2b994bafe284bd293ad3e303cccd776353b2d973746da07/dare_datasets-0.1.5.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [toloka-kit]: Downloading https://files.pythonhosted.org/packages/7f/d6/f500a069a14f86da7d91861f5a9762c7f92adeed76ec9e3094a52483654d/toloka-kit-1.1.4.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230619/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:05:33] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/35/ea/fc8feb572bed268f2379ef42dda7723b52c5475496e06a756d9f5932d6ad/symbex-0.2.1.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/e8/e5/0e014b1967e10ca9262b5cb9eac6fece9e6a6ce2eb6dc35bdf0c20b31a54/smart_app_framework-2.2.0rc2-py3-none-any.whl
+[2023-06-19 16:05:33] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.2.tar.gz tmp/symbex-0.2.1.tar.gz --markdown 20230619/s/symbex/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-19 16:05:33] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/07/3e/f1541b8e29acbe2df36af5280aaa398d16a941698cae690702bf2345cb90/mysqlx-1.2.4.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5309850540.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230619/t/th2-grpc-lw-data-provider/2.0.0.dev5309850540-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-19 16:05:33] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-06-19 16:05:33] INFO root fetch - processPackages [pytest-yaml-yoyo]: Downloading https://files.pythonhosted.org/packages/fd/01/be19681d3116e2dd7448210941b1bdfda8ab4c31e4fd4843807384dbc4d2/pytest-yaml-yoyo-1.2.6.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [readme-renderer]: Downloading https://files.pythonhosted.org/packages/22/ec/12a48255bb1f15e2bd16a75e9f537ea498c8884069de4655afe47d5ffe34/readme_renderer-40.0.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/5b/fe/3538e18172c1c18bede347a261592acf0e2963e2b3c8094f46138f5e2553/mysqlx-1.2.5.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [pytest-yaml-yoyo]: Downloading https://files.pythonhosted.org/packages/46/7a/b95640b4b312ec6256944f30ecfc474d6c9c2aa005950dc50e6a7f81a05d/pytest-yaml-yoyo-1.2.7.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [readme-renderer]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [readme-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_renderer-37.3.tar.gz tmp/readme_renderer-40.0.tar.gz --markdown 20230619/r/readme-renderer/37.3-40.0/diff.md --exclude *.pyd
+[2023-06-19 16:05:33] INFO root fetch - processPackages [dare-datasets]: Downloading https://files.pythonhosted.org/packages/b5/a1/30778f7dba0a412f934a1466b0882a7106b83d97487b0ced2223988fdce6/dare_datasets-0.1.7.tar.gz
+[2023-06-19 16:05:33] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/10/5b/9ceac9e6cc32dd6d1bc5a761223b03c2719adb8f8cdea535b2199850eaa5/smart_app_framework-2.2.0rc3-py3-none-any.whl
+[2023-06-19 16:05:33] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.2.4.tar.gz tmp/mysqlx-1.2.5.tar.gz --markdown 20230619/m/mysqlx/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-19 16:05:33] INFO root fetch - processPackages [dare-datasets]: executing diffoscope
+[2023-06-19 16:05:33] INFO root fetch - processPackages [dare-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dare_datasets-0.1.5.tar.gz tmp/dare_datasets-0.1.7.tar.gz --markdown 20230619/d/dare-datasets/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-06-19 16:05:34] INFO root fetch - processPackages [toloka-kit]: Downloading https://files.pythonhosted.org/packages/88/14/653c150f1f7f1d7de48db2abf0f1ffe6a727cbffc42070f1ebd78078e413/toloka-kit-1.2.0.tar.gz
+[2023-06-19 16:05:34] INFO root fetch - processPackages [pytest-yaml-yoyo]: executing diffoscope
+[2023-06-19 16:05:34] INFO root fetch - processPackages [pytest-yaml-yoyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-yaml-yoyo-1.2.6.tar.gz tmp/pytest-yaml-yoyo-1.2.7.tar.gz --markdown 20230619/p/pytest-yaml-yoyo/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-19 16:05:34] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-06-19 16:05:34] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.2.0rc2-py3-none-any.whl.zip tmp/smart_app_framework-2.2.0rc3-py3-none-any.whl.zip --markdown 20230619/s/smart-app-framework/2.2.0rc2-2.2.0rc3/diff.md --exclude *.pyd
+[2023-06-19 16:05:34] INFO root fetch - processPackages [toloka-kit]: executing diffoscope
+[2023-06-19 16:05:34] INFO root fetch - processPackages [toloka-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toloka-kit-1.1.4.tar.gz tmp/toloka-kit-1.2.0.tar.gz --markdown 20230619/t/toloka-kit/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 16:05:34] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-06-19 16:05:34] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-06-19 16:05:34] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230619/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 16:05:35] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.2.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.2.1.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [symbex]: Start processing: rebnf
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-19 16:05:35] INFO root fetch - processPackages [rebnf]: New version: [0.8] Old Version: [0.7]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/dc/c8/77d622f6a04608b26af8255afb5b461281cb2cbad2bf0d6a5f9ba29708da/rebnf-0.7.tar.gz
+[2023-06-19 16:05:35] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/97/98/8ddddbcbb74954b4801713d2f3c51f197e7d39c1a499037590930d1685c0/rebnf-0.8.tar.gz
+[2023-06-19 16:05:35] INFO root fetch - processPackages [rebnf]: executing diffoscope
+[2023-06-19 16:05:35] INFO root fetch - processPackages [rebnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebnf-0.7.tar.gz tmp/rebnf-0.8.tar.gz --markdown 20230619/r/rebnf/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-19 16:05:35] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Start processing: zimmauth
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-19 16:05:35] INFO root fetch - processPackages [dare-datasets]: Remove: archive file [/home/abi/fetcher/tmp/dare_datasets-0.1.5.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [dare-datasets]: Remove: archive file [/home/abi/fetcher/tmp/dare_datasets-0.1.7.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [dare-datasets]: Start processing: edc-dx-review
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [dare-datasets]: success
+[2023-06-19 16:05:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5309850540.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [zimmauth]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: litie
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-19 16:05:35] WARNING root fetch - processPackages [litie]: Skipping, unable to determine old version
+[2023-06-19 16:05:35] INFO root fetch - processPackages [litie]: Start processing: dbt-copilot-tools
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [litie] error
+[2023-06-19 16:05:35] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [dbt-copilot-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [zimmauth]: Downloading https://files.pythonhosted.org/packages/1a/5d/c1827df400ea9e9e60f80dafa90ddf5663ef3dfb1196097ceed92777e912/zimmauth-0.0.9.tar.gz
+[2023-06-19 16:05:35] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.4.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.2.5.tar.gz]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [mysqlx]: Start processing: recon-lw
+[2023-06-19 16:05:35] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-19 16:05:35] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5311495845] Old Version: [2.0.0.dev5309756614]
+[2023-06-19 16:05:35] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/69/01/0c6c3cc37e99c1cd81390e34f896cf8c16535535a3741c0bf0e6d4612f6f/edc_dx_review-0.1.8-py3-none-any.whl
+[2023-06-19 16:05:35] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/dd/3e/85f04e468f2d2e8575eb82c84386addc6f768d9c3f9a10752f267193abd8/recon_lw-2.0.0.dev5309756614.tar.gz
+[2023-06-19 16:05:35] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/2e/5b/fdc4746585be3ac9595f91b1e984f910870fb4d53905f93cebf9ccdddfd8/dbt_copilot_tools-0.1.1.tar.gz
+[2023-06-19 16:05:36] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/87/b6/4b1119e3e78c912524bf1e6c1db71a5c3c4813d69d4d90bf7c28ce11860d/recon_lw-2.0.0.dev5311495845.tar.gz
+[2023-06-19 16:05:36] INFO root fetch - processPackages [zimmauth]: Downloading https://files.pythonhosted.org/packages/1b/e2/88826a00f2dd7fa3ea9c21a194ccff3b653f3b74784c3d3ed84dceffda09/zimmauth-0.1.0.tar.gz
+[2023-06-19 16:05:36] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-19 16:05:36] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5309756614.tar.gz tmp/recon_lw-2.0.0.dev5311495845.tar.gz --markdown 20230619/r/recon-lw/2.0.0.dev5309756614-2.0.0.dev5311495845/diff.md --exclude *.pyd
+[2023-06-19 16:05:36] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/43/e1/36e40d895b8d84397e366b5a2a8f7b07a4475223be66a3b6c927bcc7a9ee/dbt_copilot_tools-0.1.2.tar.gz
+[2023-06-19 16:05:36] INFO root fetch - processPackages [pytest-yaml-yoyo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-yaml-yoyo-1.2.6.tar.gz]
+[2023-06-19 16:05:36] INFO root fetch - processPackages [zimmauth]: executing diffoscope
+[2023-06-19 16:05:36] INFO root fetch - processPackages [zimmauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimmauth-0.0.9.tar.gz tmp/zimmauth-0.1.0.tar.gz --markdown 20230619/z/zimmauth/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 16:05:36] INFO root fetch - processPackages [pytest-yaml-yoyo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-yaml-yoyo-1.2.7.tar.gz]
+[2023-06-19 16:05:36] INFO root fetch - main [MainThread]: End processing [pytest-yaml-yoyo]: success
+[2023-06-19 16:05:36] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/34/b6/a1fd2c0bce4a670e7d0f1d45e76bb15a5d7eeef8f1bf25e0b2c3b6258107/edc-dx-review-0.1.9.tar.gz
+[2023-06-19 16:05:36] INFO root fetch - processPackages [dbt-copilot-tools]: executing diffoscope
+[2023-06-19 16:05:36] INFO root fetch - processPackages [dbt-copilot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_copilot_tools-0.1.1.tar.gz tmp/dbt_copilot_tools-0.1.2.tar.gz --markdown 20230619/d/dbt-copilot-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 16:05:36] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-06-19 16:05:36] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230619/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:05:36] INFO root fetch - processPackages [readme-renderer]: Remove: archive file [/home/abi/fetcher/tmp/readme_renderer-37.3.tar.gz]
+[2023-06-19 16:05:36] INFO root fetch - processPackages [readme-renderer]: Remove: archive file [/home/abi/fetcher/tmp/readme_renderer-40.0.tar.gz]
+[2023-06-19 16:05:36] INFO root fetch - main [MainThread]: End processing [readme-renderer]: success
+[2023-06-19 16:05:37] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip]
+[2023-06-19 16:05:37] INFO root fetch - processPackages [edc-adverse-event]: Remove: archive file [/home/abi/fetcher/tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip]
+[2023-06-19 16:05:37] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-06-19 16:05:37] INFO root fetch - processPackages [zimmauth]: Remove: archive file [/home/abi/fetcher/tmp/zimmauth-0.0.9.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - processPackages [zimmauth]: Remove: archive file [/home/abi/fetcher/tmp/zimmauth-0.1.0.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - main [MainThread]: End processing [zimmauth]: success
+[2023-06-19 16:05:37] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.7.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.8.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - main [MainThread]: End processing [rebnf]: success
+[2023-06-19 16:05:37] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip]
+[2023-06-19 16:05:37] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-review-0.1.9.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-06-19 16:05:37] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5309756614.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5311495845.tar.gz]
+[2023-06-19 16:05:37] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-19 16:05:38] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.1.tar.gz]
+[2023-06-19 16:05:38] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.2.tar.gz]
+[2023-06-19 16:05:38] INFO root fetch - main [MainThread]: End processing [dbt-copilot-tools]: success
+[2023-06-19 16:05:38] INFO root fetch - processPackages [toloka-kit]: Remove: archive file [/home/abi/fetcher/tmp/toloka-kit-1.1.4.tar.gz]
+[2023-06-19 16:05:38] INFO root fetch - processPackages [toloka-kit]: Remove: archive file [/home/abi/fetcher/tmp/toloka-kit-1.2.0.tar.gz]
+[2023-06-19 16:05:38] INFO root fetch - main [MainThread]: End processing [toloka-kit]: success
+[2023-06-19 16:05:38] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc2-py3-none-any.whl.zip]
+[2023-06-19 16:05:38] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc3-py3-none-any.whl.zip]
+[2023-06-19 16:05:38] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-06-19 16:05:38] INFO root fetch - main [MainThread]: Store serial: [18560792]
