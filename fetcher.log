@@ -22162,3 +22162,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 17:33:20] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
 [2023-06-19 17:33:20] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
 [2023-06-19 17:33:20] INFO root fetch - main [MainThread]: Store serial: [18561708]
+[2023-06-19 17:38:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561708]
+[2023-06-19 17:38:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frequenz-api-dispatch
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybefit
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anywidget
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my0my01
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bindlab
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stego-lsb
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythorhead
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circlecigen
+[2023-06-19 17:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: murkrow
+[2023-06-19 17:38:29] ERROR root fetch - processPackages [my0my01]: Unable to get metadata: No such project 'my0my01'
+[2023-06-19 17:38:29] INFO root fetch - processPackages [my0my01]: Start processing: onedep-deposition
+[2023-06-19 17:38:29] INFO root fetch - processPackages [anywidget]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [frequenz-api-dispatch]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [bindlab]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [pybefit]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-06-19 17:38:29] INFO root fetch - main [MainThread]: End processing [my0my01] error
+[2023-06-19 17:38:29] INFO root fetch - processPackages [murkrow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [circlecigen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [stego-lsb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [pythorhead]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-19 17:38:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5313727678]
+[2023-06-19 17:38:30] INFO root fetch - processPackages [onedep-deposition]: New version: [0.1.dev3] Old Version: [0.1.dev2]
+[2023-06-19 17:38:30] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/15/9e/2715d253975609479cfbd75155d0917db7a6a76523122692dbf6d6db9320/anywidget-0.5.1.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/8d/58/c415508f0ee45bbc8126f542bc299a06a006f6b3f33515838dbb23181154/onedep_deposition-0.1.dev2.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/f4/ac/ba85f449124b7211f8a755057901015bec3bf4ef091661cf416847f5671c/pythorhead-0.1.1.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [bindlab]: Downloading https://files.pythonhosted.org/packages/78/8c/e9064fe2c6d5da3099814b2b772b85a20cfeef0dde3cb9442d103618f81d/bindlab-0.0.2.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/fe/25/e395d3e8f492cf3d8d9f76640e36dcf2e9676d917c1961a7e5e51f8c4fe4/circlecigen-0.0.3.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/36/a9/773d4407082841e6f129a5bb74ccc0c67e15e4055c949fa524d5e67428ba/th2_grpc_lw_data_provider-2.0.0.dev5313727678.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/53/c9/274cd6a89701010f93773b7330561063a50d0d8bba332e98f7e7d6abec1d/frequenz-api-dispatch-0.8.1.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [stego-lsb]: Downloading https://files.pythonhosted.org/packages/06/40/6f32d7bab88aa28f7529851f0b4c7748f86da45b3f1b41c014c39c84f7df/stego_lsb-1.4.1.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pybefit]: Downloading https://files.pythonhosted.org/packages/41/1c/c07ccf76dc53b1b0d77ff73705ec7f00ff80d2146afa958b9f9726fcc179/pybefit-0.1.21.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/e9/84dc9a4bc1643f3d51e61a87dc738301cc044acf02216d65e0840e05aeba/murkrow-0.9.0.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/9e/16/63681c04588e237664917c574e1dadde7363227bbc8511b818c5a194e2f2/onedep_deposition-0.1.dev3.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.8.0.tar.gz tmp/murkrow-0.9.0.tar.gz --markdown 20230619/m/murkrow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/3c/6a/cfbe944ecbd4913db4f2c26629942b4c0c21cdd6e2ec839ddd19bbe36e26/anywidget-0.5.2.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [bindlab]: Downloading https://files.pythonhosted.org/packages/80/0c/6a3ec1588cd2d3659f85a96091db00c1bfa0040020df92ff2d6c5635cc29/bindlab-0.0.3.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c7/aa/c918eba0aee909757ca46b990634bde4c2808a6dbce804ef409da2cf4d74/pythorhead-0.2.0.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [onedep-deposition]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [onedep-deposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedep_deposition-0.1.dev2.tar.gz tmp/onedep_deposition-0.1.dev3.tar.gz --markdown 20230619/o/onedep-deposition/0.1.dev2-0.1.dev3/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [bindlab]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [bindlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindlab-0.0.2.tar.gz tmp/bindlab-0.0.3.tar.gz --markdown 20230619/b/bindlab/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.5.1.tar.gz tmp/anywidget-0.5.2.tar.gz --markdown 20230619/a/anywidget/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.1.1.tar.gz tmp/pythorhead-0.2.0.tar.gz --markdown 20230619/p/pythorhead/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5313727678.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230619/t/th2-grpc-lw-data-provider/2.0.0.dev5313727678-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/6a/26/53987704839a49ab26769c0bf80d50ae782709f211de38d51223e333e3d1/circlecigen-0.0.4.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [frequenz-api-dispatch]: Downloading https://files.pythonhosted.org/packages/08/3f/aca57d7422823edfaabfc00285fd862624b85123f35caa1d8cef5a73b25e/frequenz-api-dispatch-0.8.2.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pybefit]: Downloading https://files.pythonhosted.org/packages/4c/ba/63664adc1c1482c74b8e9477719c50ec0bc79681fee8b47ac8ebe7291e81/pybefit-0.1.22.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [stego-lsb]: Downloading https://files.pythonhosted.org/packages/29/12/6f8c397943df22e902312fecf9c0657a3561f1781b4120dec3e1e77ec88f/stego_lsb-1.4.2.tar.gz
+[2023-06-19 17:38:30] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.3.tar.gz tmp/circlecigen-0.0.4.tar.gz --markdown 20230619/c/circlecigen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [stego-lsb]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [stego-lsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stego_lsb-1.4.1.tar.gz tmp/stego_lsb-1.4.2.tar.gz --markdown 20230619/s/stego-lsb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [frequenz-api-dispatch]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [frequenz-api-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-dispatch-0.8.1.tar.gz tmp/frequenz-api-dispatch-0.8.2.tar.gz --markdown 20230619/f/frequenz-api-dispatch/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pybefit]: executing diffoscope
+[2023-06-19 17:38:30] INFO root fetch - processPackages [pybefit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybefit-0.1.21.tar.gz tmp/pybefit-0.1.22.tar.gz --markdown 20230619/p/pybefit/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-06-19 17:38:31] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.9.0.tar.gz]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [murkrow]: Start processing: shapes-recognition
+[2023-06-19 17:38:31] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-19 17:38:31] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [bindlab]: Remove: archive file [/home/abi/fetcher/tmp/bindlab-0.0.2.tar.gz]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [bindlab]: Remove: archive file [/home/abi/fetcher/tmp/bindlab-0.0.3.tar.gz]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [bindlab]: Start processing: alivebot
+[2023-06-19 17:38:31] INFO root fetch - main [MainThread]: End processing [bindlab]: success
+[2023-06-19 17:38:31] INFO root fetch - processPackages [alivebot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 17:38:31] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/f6/2a/969640fe9103269b2c538df69d6892c1f8c5f569d1d50a654cf33ea5539a/shapes_recognition-2.2.0.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5313727678.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: pymexc
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-19 17:38:32] INFO root fetch - processPackages [alivebot]: Downloading https://files.pythonhosted.org/packages/fd/24/d27fcac2e47147967ab1f85418cbcb4c0b42b5475591fbc126866d045027/alivebot-0.1.8.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pymexc]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/d7/57/87290949ab786e15112eef7923bf924ad3244044cec3e12bdcef973e274a/shapes_recognition-2.2.1.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/6e/d4/f0ee17127208d70d9c56749ffb89fdebfe092ea82dfc5d77ce46059f2e85/pymexc-1.0.5.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-19 17:38:32] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.2.0.tar.gz tmp/shapes_recognition-2.2.1.tar.gz --markdown 20230619/s/shapes-recognition/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-19 17:38:32] INFO root fetch - processPackages [stego-lsb]: Remove: archive file [/home/abi/fetcher/tmp/stego_lsb-1.4.1.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [stego-lsb]: Remove: archive file [/home/abi/fetcher/tmp/stego_lsb-1.4.2.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [stego-lsb]: Start processing: fbn
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [stego-lsb]: success
+[2023-06-19 17:38:32] INFO root fetch - processPackages [fbn]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/43/93/ebb12741ccde32c37ec5c83621e206ce72473d0d045d57c70e1a0da63b58/fbn-0.0.5-py3-none-any.whl
+[2023-06-19 17:38:32] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.3.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.4.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [circlecigen]: Start processing: ramodels
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-19 17:38:32] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pybefit]: Remove: archive file [/home/abi/fetcher/tmp/pybefit-0.1.21.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pybefit]: Remove: archive file [/home/abi/fetcher/tmp/pybefit-0.1.22.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [pybefit]: success
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/7e/ad/828cadd96afeb57a3cab220d2e39c2cce9979b22747f08cfe866ebfa8498/pymexc-1.0.6.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev2.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev3.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [onedep-deposition]: success
+[2023-06-19 17:38:32] INFO root fetch - processPackages [alivebot]: Downloading https://files.pythonhosted.org/packages/3e/e9/f0fdb7a56bbf3642a5225069d8c38694ac1bb95082e8f8351fa5a7ec85ad/alivebot-0.1.9.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pymexc]: executing diffoscope
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pymexc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymexc-1.0.5.tar.gz tmp/pymexc-1.0.6.tar.gz --markdown 20230619/p/pymexc/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-19 17:38:32] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/7d/bd/d1b6fe42bfce9a066c5db5504d23f64e729c0048fd8c95700f53d8cc87b2/fbn-0.0.6-py3-none-any.whl
+[2023-06-19 17:38:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-19 17:38:32] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-19 17:38:32] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230619/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-19 17:38:32] INFO root fetch - processPackages [fbn]: executing diffoscope
+[2023-06-19 17:38:32] INFO root fetch - processPackages [fbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbn-0.0.5-py3-none-any.whl.zip tmp/fbn-0.0.6-py3-none-any.whl.zip --markdown 20230619/f/fbn/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 17:38:32] INFO root fetch - processPackages [alivebot]: executing diffoscope
+[2023-06-19 17:38:32] INFO root fetch - processPackages [alivebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alivebot-0.1.8.tar.gz tmp/alivebot-0.1.9.tar.gz --markdown 20230619/a/alivebot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.1.1.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.2.0.tar.gz]
+[2023-06-19 17:38:32] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.0.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.1.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [pymexc]: Remove: archive file [/home/abi/fetcher/tmp/pymexc-1.0.5.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [pymexc]: Remove: archive file [/home/abi/fetcher/tmp/pymexc-1.0.6.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [pymexc]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.8.1.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [frequenz-api-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-dispatch-0.8.2.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [frequenz-api-dispatch]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.0.5-py3-none-any.whl.zip]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.0.6-py3-none-any.whl.zip]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [fbn]: success
+[2023-06-19 17:38:33] INFO root fetch - processPackages [alivebot]: Remove: archive file [/home/abi/fetcher/tmp/alivebot-0.1.8.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - processPackages [alivebot]: Remove: archive file [/home/abi/fetcher/tmp/alivebot-0.1.9.tar.gz]
+[2023-06-19 17:38:33] INFO root fetch - main [MainThread]: End processing [alivebot]: success
+[2023-06-19 17:38:34] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.1.tar.gz]
+[2023-06-19 17:38:34] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.2.tar.gz]
+[2023-06-19 17:38:34] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-19 17:38:34] INFO root fetch - main [MainThread]: Store serial: [18561754]
