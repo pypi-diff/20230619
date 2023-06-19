@@ -23712,3 +23712,165 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 18:16:28] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.2.0.tar.gz]
 [2023-06-19 18:16:28] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
 [2023-06-19 18:16:28] INFO root fetch - main [MainThread]: Store serial: [18562252]
+[2023-06-19 18:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18562252]
+[2023-06-19 18:21:38] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-romp
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedgesql
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfn-lint
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-pygenerator
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-al
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yud102023
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PeerAnnot
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brownian-stock
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-06-19 18:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-support-plugin
+[2023-06-19 18:21:38] INFO root fetch - processPackages [hedgesql]: New version: [1.2.1] Old Version: [1.2]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [yud102023]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230619.16.17.168584] Old Version: [20230619.13.54.968565]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [PeerAnnot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [simple-romp]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [cfn-lint]: New version: [1.1.0a1] Old Version: [1.0.0rc2]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/73/86/34c307db917133362d159bdc731afb8d3cff8bce48175cbc97bd27c6b323/PeerAnnot-0.0.1.post8.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/48/2c/f073c1295ed5d528d51727e7f90eb2082ec63fb3689892c7099ea5abab53/nonebot_plugin_al-0.3.0.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/71/48/ec816ce0a2171aea6ff6aefeb6df14830928be36c64c729fc0a8ead54a39/yud102023-0.0.6.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/35/f6/8a50effe8eca74edfe2046c1ac38e000f6aeab729f839ed053eebe11b139/netbox-cisco-support-plugin-0.0.3.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/b8/b1/d7032d36d8037d76760ccc34b25369b823a41351ff35db730081364fb9ca/hedgesql-1.2.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/dd/71/b94ad97cab8d83bde8d05acb23bf3af002e83ae39a4411d7d76fddb19db6/PeerAnnot-0.0.1.post9.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0a/f9/eda7761aa790130cf1c8656fadc4c430c1d484facd89515ea8b345c2ae8c/certora-cli-alpha-master-20230619.13.54.968565.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/d8/67/4049f8084f938122e742c3e1f2f5fb7e8efd3c1b47e49af735f97299c1ac/brownian-stock-0.0.8.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/8d/26/55adb1c5acab72b54f8a0f2c9f32e648e61b9854546dbb1bd71cc581b459/openai-pygenerator-0.4.1.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/8f/00/53e5e24f4cfdb0b3f0a552597f16c37e960b3461c30a0104d6a09c989b2e/cfn-lint-1.0.0rc2.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/39/d0/5b6a8604d1a02c7656f37c7e70c89e2e76cc4ed47ea19601c1ad1852616d/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg
+[2023-06-19 18:21:38] INFO root fetch - processPackages [PeerAnnot]: executing diffoscope
+[2023-06-19 18:21:38] INFO root fetch - processPackages [PeerAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PeerAnnot-0.0.1.post8.tar.gz tmp/PeerAnnot-0.0.1.post9.tar.gz --markdown 20230619/P/PeerAnnot/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2023-06-19 18:21:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37070240>=10485760
+[2023-06-19 18:21:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: calculadora-fabeliz
+[2023-06-19 18:21:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-19 18:21:38] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/71/37/39931535f722c6ab0eb4b4b77e9aaba52e838d41a1ec5f3795d1cc3ecadb/nonebot_plugin_al-0.3.1.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/9d/86/25115b135cdbc5e4a1bfe9d499c1814b10b35d1899e006b4a7e3d1f1b83e/yud102023-0.0.7.tar.gz
+[2023-06-19 18:21:38] INFO root fetch - processPackages [calculadora-fabeliz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 18:21:38] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/b8/4f/caa0c014c22fd4dba587e2dde875991177f4c08cee8d29441df83a28b492/netbox-cisco-support-plugin-0.0.4.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/5f/ac/105e160b4498356816454371f5080e3a691ceccdc6997493d461aca19424/hedgesql-1.2.1.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [yud102023]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [yud102023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yud102023-0.0.6.tar.gz tmp/yud102023-0.0.7.tar.gz --markdown 20230619/y/yud102023/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [calculadora-fabeliz]: Downloading https://files.pythonhosted.org/packages/c3/86/6785104e9209b36519b9377e45b1cbc2795cdf0797c1f5b1487c955e8f9a/calculadora-fabeliz-0.0.1.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/fe/82/ee0e6e9f8bdc1a42adb9344cd542e11cdd66ba091a895dd202c516bbfb4e/simple_romp-2.0.1.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.0.tar.gz tmp/nonebot_plugin_al-0.3.1.tar.gz --markdown 20230619/n/nonebot-plugin-al/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.3.tar.gz tmp/netbox-cisco-support-plugin-0.0.4.tar.gz --markdown 20230619/n/netbox-cisco-support-plugin/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/58/5a/437c4d15bc7c85d171e5d8b73c7db90f1e38ebcd288af60a6dafa69a4bcf/openai-pygenerator-0.4.2.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [simple-romp]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [simple-romp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg tmp/simple_romp-2.0.1.tar.gz --markdown 20230619/s/simple-romp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/a4/be/28c35d6cf73fe659cfedf1b64e95cb463d8dc9f28ef922ff0f59cc3718e2/brownian-stock-0.0.9.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [hedgesql]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [hedgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedgesql-1.2.tar.gz tmp/hedgesql-1.2.1.tar.gz --markdown 20230619/h/hedgesql/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-pygenerator-0.4.1.tar.gz tmp/openai-pygenerator-0.4.2.tar.gz --markdown 20230619/o/openai-pygenerator/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [calculadora-fabeliz]: Downloading https://files.pythonhosted.org/packages/e2/81/af224653cef1094c722c1de317b384e15ee1f8414b9ee0a7e9010a9ee592/calculadora-fabeliz-0.0.2.tar.gz
+[2023-06-19 18:21:39] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230619/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [calculadora-fabeliz]: executing diffoscope
+[2023-06-19 18:21:39] INFO root fetch - processPackages [calculadora-fabeliz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculadora-fabeliz-0.0.1.tar.gz tmp/calculadora-fabeliz-0.0.2.tar.gz --markdown 20230619/c/calculadora-fabeliz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 18:21:39] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/cc/82/8e5878f2dc160f465b60eda352d6e25e359d812a7577801c851448963c7c/cfn-lint-1.1.0a1.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post8.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post9.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [PeerAnnot]: Start processing: socketapp
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [PeerAnnot]: success
+[2023-06-19 18:21:40] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-06-19 18:21:40] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.0.0rc2.tar.gz tmp/cfn-lint-1.1.0a1.tar.gz --markdown 20230619/c/cfn-lint/1.0.0rc2-1.1.0a1/diff.md --exclude *.pyd
+[2023-06-19 18:21:40] INFO root fetch - processPackages [socketapp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.6.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.7.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [yud102023]: Start processing: hsmm-mvpy
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [yud102023]: success
+[2023-06-19 18:21:40] INFO root fetch - processPackages [socketapp]: Downloading https://files.pythonhosted.org/packages/fb/1f/1bfdba610d27e8c0149935564296bdf0fe5ad8c5841c1c7ddf90867d6456/socketapp-0.1.4.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/46/11/3ced983921b594ecc761ce6cdc8ea5702ceeb8edcb0b898ef39aef769cea/hsmm_mvpy-0.1.0b5.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.3.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.4.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: simple-romp
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-19 18:21:40] INFO root fetch - processPackages [simple-romp]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.2.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.2.1.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hedgesql]: Start processing: deform-conv
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [hedgesql]: success
+[2023-06-19 18:21:40] WARNING root fetch - processPackages [deform-conv]: Skipping, unable to determine old version
+[2023-06-19 18:21:40] INFO root fetch - processPackages [deform-conv]: Start processing: meow-sim
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [deform-conv] error
+[2023-06-19 18:21:40] INFO root fetch - processPackages [meow-sim]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [simple-romp]: executing diffoscope
+[2023-06-19 18:21:40] INFO root fetch - processPackages [simple-romp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg tmp/simple_romp-2.0.1.tar.gz --markdown 20230619/s/simple-romp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 18:21:40] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.1.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.2.tar.gz]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [openai-pygenerator]: Start processing: aa-miningtaxes
+[2023-06-19 18:21:40] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-06-19 18:21:40] INFO root fetch - processPackages [socketapp]: Downloading https://files.pythonhosted.org/packages/6b/e8/f6135bdacdf9e6cc275f5bbb90f4f79766c470575173f8aa38339a6f4902/socketapp-0.1.5.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-19 18:21:40] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/97/72/c0de2f7461c24247f92d38daef91d5518f4f154d9ea43b55ed5fdf1dc9c3/meow-sim-0.6.4.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/16/81/eee211a8e07ad541fe9370d3290638c481e76ac66c11eb5a127de681062d/hsmm_mvpy-0.1.0b6.tar.gz
+[2023-06-19 18:21:40] INFO root fetch - processPackages [socketapp]: executing diffoscope
+[2023-06-19 18:21:40] INFO root fetch - processPackages [socketapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketapp-0.1.4.tar.gz tmp/socketapp-0.1.5.tar.gz --markdown 20230619/s/socketapp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/18/7f/109085bfae433c218d39b7d41fde8616fa1a2b7ca2da7b8a7cc6e5ca6f58/aa-miningtaxes-1.2.4.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [calculadora-fabeliz]: Remove: archive file [/home/abi/fetcher/tmp/calculadora-fabeliz-0.0.1.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [calculadora-fabeliz]: Remove: archive file [/home/abi/fetcher/tmp/calculadora-fabeliz-0.0.2.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [calculadora-fabeliz]: Start processing: PeerAnnot
+[2023-06-19 18:21:41] INFO root fetch - main [MainThread]: End processing [calculadora-fabeliz]: success
+[2023-06-19 18:21:41] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.8.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.9.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [brownian-stock]: Start processing: web-ext-helper
+[2023-06-19 18:21:41] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-06-19 18:21:41] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-06-19 18:21:41] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b5.tar.gz tmp/hsmm_mvpy-0.1.0b6.tar.gz --markdown 20230619/h/hsmm-mvpy/0.1.0b5-0.1.0b6/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] INFO root fetch - processPackages [PeerAnnot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [web-ext-helper]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.0.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.1.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-19 18:21:41] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/73/86/34c307db917133362d159bdc731afb8d3cff8bce48175cbc97bd27c6b323/PeerAnnot-0.0.1.post8.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/e1/5d/c339f1f061ad2b1b55a61c0736208ba33c97bf0c2393df6bcbedd48b34ba/web_ext_helper-1.0.6.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/af/80/c543e6cde61cd614d1cfebbd06fbb24e68988d5dda23dabfa56c4cec5794/meow-sim-0.6.5.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/6e/4b/ffbe2e772ab603b0d093494e8cbad3dc1fef5e9fa986e529e5d92a504659/aa-miningtaxes-1.2.5.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/dd/71/b94ad97cab8d83bde8d05acb23bf3af002e83ae39a4411d7d76fddb19db6/PeerAnnot-0.0.1.post9.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-19 18:21:41] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.6.4.tar.gz tmp/meow-sim-0.6.5.tar.gz --markdown 20230619/m/meow-sim/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/97/74/2ed1da8e7a523f5ed37b9d56739ff1ef632bac91784e25f42e396c52c2dc/web_ext_helper-1.0.7.tar.gz
+[2023-06-19 18:21:41] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-06-19 18:21:41] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.4.tar.gz tmp/aa-miningtaxes-1.2.5.tar.gz --markdown 20230619/a/aa-miningtaxes/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] INFO root fetch - processPackages [PeerAnnot]: executing diffoscope
+[2023-06-19 18:21:41] INFO root fetch - processPackages [PeerAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PeerAnnot-0.0.1.post8.tar.gz tmp/PeerAnnot-0.0.1.post9.tar.gz --markdown 20230619/P/PeerAnnot/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg]
+[2023-06-19 18:21:41] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-2.0.1.tar.gz]
+[2023-06-19 18:21:41] INFO root fetch - main [MainThread]: End processing [simple-romp]: success
+[2023-06-19 18:21:41] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-06-19 18:21:41] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.0.6.tar.gz tmp/web_ext_helper-1.0.7.tar.gz --markdown 20230619/w/web-ext-helper/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-19 18:21:41] ERROR root fetch - processPackages [simple-romp]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/simple_romp-2.0.1.tar.gz: No such file or directory
+
+[2023-06-19 18:21:41] INFO root fetch - main [MainThread]: End processing [simple-romp] error
+[2023-06-19 18:21:42] INFO root fetch - processPackages [socketapp]: Remove: archive file [/home/abi/fetcher/tmp/socketapp-0.1.4.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [socketapp]: Remove: archive file [/home/abi/fetcher/tmp/socketapp-0.1.5.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [socketapp]: success
+[2023-06-19 18:21:42] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b5.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b6.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-06-19 18:21:42] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.4.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.5.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-19 18:21:42] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post8.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post9.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [PeerAnnot]: success
+[2023-06-19 18:21:42] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.6.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.7.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-06-19 18:21:42] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.4.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.5.tar.gz]
+[2023-06-19 18:21:42] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-06-19 18:24:40] ERROR root fetch - processPackages [cfn-lint]: Timeout during execution of pkgdiff
+[2023-06-19 18:24:40] INFO root fetch - main [MainThread]: End processing [cfn-lint] error
+[2023-06-19 18:24:40] INFO root fetch - main [MainThread]: Store serial: [18562305]
