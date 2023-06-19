@@ -13387,3 +13387,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 11:50:26] INFO root fetch - processPackages [bobtemplates.plone]: Remove: archive file [/home/abi/fetcher/tmp/bobtemplates.plone-6.2.7.tar.gz]
 [2023-06-19 11:50:26] INFO root fetch - main [MainThread]: End processing [bobtemplates.plone]: success
 [2023-06-19 11:50:26] INFO root fetch - main [MainThread]: Store serial: [18558223]
+[2023-06-19 11:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558223]
+[2023-06-19 11:55:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybox-toolkit
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embedchain
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwon-django-toolbox
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhip
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thinks-dash-components
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etm-dgraham
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skmetpy
+[2023-06-19 11:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IMDBTraktSyncer
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.8.dev3] Old Version: [0.1.7.dev3]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-19 11:55:37] WARNING root fetch - processPackages [embedchain]: Skipping, unable to determine old version
+[2023-06-19 11:55:37] INFO root fetch - processPackages [embedchain]: Start processing: pyhector
+[2023-06-19 11:55:37] INFO root fetch - main [MainThread]: End processing [embedchain] error
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pyhip]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [skmetpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pyhector]: New version: [2.5.0.2] Old Version: [2.4.0.1]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kfish]: New version: [99.0.202306190952] Old Version: [99.0.202306190947]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202306190949] Old Version: [99.0.202306190945]
+[2023-06-19 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/d9/43/6abc10e3ff0e42b6fbcc0964d938d25ee8b233ff5bdc491021f4e30186a1/thinks_dash_components-0.4.1.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/3d/63/a541523b06a141439215b039d2701fbf3b0b80195cd64f5384d4f1b72d44/skmetpy-0.1.1.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/af/13/c7cb7b46112f8475fd2641b175d8ce13c50b3727abc7e183500673d2e7dc/etm-dgraham-5.1.1.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4b/d6/5f94810a8c8d8d94ec8d15af765010224c9c8a5203f8ea1e678ad6cf498e/kfish-99.0.202306190947-py3-none-any.whl
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pyhip]: Downloading https://files.pythonhosted.org/packages/0e/49/0b8fabe9740f3471f551528bef7158b962cd298ae4b72cc3a6bbe6d6b590/pyhip-0.7.0.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/c6/4e/e2bb3657833a18048a41df9d346710d8edc6a541f73c194553d3d60d3af5/nwon_django_toolbox-0.5.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/f9/73/d04b091126cdb960ab44e681fff9c2c8dd44f9f628aaa68ec2b18fd945a8/IMDBTraktSyncer-1.4.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/1c/411233e5ad8299c22ca06d689186cf35fb44bce1d77d7aed442ac4cf0612/pybox-toolkit-0.1.7.dev3.tar.gz
+[2023-06-19 11:55:37] WARNING root fetch - processPackages [pyhip]: Skipping package: exceeds size limit 72507999>=10485760
+[2023-06-19 11:55:37] INFO root fetch - main [MainThread]: End processing [pyhip] error
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c9/4d/e24a9089b33f068a556ed14202e4d9d3dbe672a152dcab9074cf7e03cd72/kcli-99.0.202306190945-py3-none-any.whl
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/49/90/1530328f22836ee58597a75be36f19cba23dfabeee0c5c69f6a9a58e901a/pyhector-2.4.0.1.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/b6/a5/e31c0879cc608929cdee3347bf23c440769d3069ad27ff80c2088565278a/thinks_dash_components-0.4.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/62/25/a9d1342841c1790fd9937dc10f610190bc7bef53c5a91fa6bc59bf7342fe/skmetpy-0.1.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4c/ce/de2e24642022512d354e7cae7134544d73c3a569af0ba99c630979053ed8/kfish-99.0.202306190952-py3-none-any.whl
+[2023-06-19 11:55:37] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/ad/11/7197ba7e0a6468bb6ebbf74088e47206217a28c8d5edd7b2bc396f647631/IMDBTraktSyncer-1.5.0.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/3f/cb/242d0285516fca4371f63b7b2ce1cb6315ed35ab221ce71adc8292384723/etm-dgraham-5.1.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/d3/e7/1074d269bb8d2987dd356a1e1f9a2dd491d201b2827be15222f7f3430149/nwon_django_toolbox-0.5.3.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/45/b6349c06588f1d5f21ce97c0b5b4fc281c8010bf7bd4c9bde7ac71be9499/pybox-toolkit-0.1.8.dev3.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.4.1.tar.gz tmp/thinks_dash_components-0.4.2.tar.gz --markdown 20230619/t/thinks-dash-components/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.4.2.tar.gz tmp/IMDBTraktSyncer-1.5.0.tar.gz --markdown 20230619/I/IMDBTraktSyncer/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.1.1.tar.gz tmp/skmetpy-0.1.2.tar.gz --markdown 20230619/s/skmetpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/16/60/c1de0232ca779ffeedea38b4b67235523bfae22a0e523c18004f0f7a3bb5/pyhector-2.5.0.2.tar.gz
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.7.dev3.tar.gz tmp/pybox-toolkit-0.1.8.dev3.tar.gz --markdown 20230619/p/pybox-toolkit/0.1.7.dev3-0.1.8.dev3/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.5.2.tar.gz tmp/nwon_django_toolbox-0.5.3.tar.gz --markdown 20230619/n/nwon-django-toolbox/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306190947-py3-none-any.whl.zip tmp/kfish-99.0.202306190952-py3-none-any.whl.zip --markdown 20230619/k/kfish/99.0.202306190947-99.0.202306190952/diff.md --exclude *.pyd
+[2023-06-19 11:55:37] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-19 11:55:37] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.1.1.tar.gz tmp/etm-dgraham-5.1.2.tar.gz --markdown 20230619/e/etm-dgraham/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-06-19 11:55:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/22/e0/b2c42cb462a7423e82df89e650469d293b8fdcfb927239e27d97a572a426/kcli-99.0.202306190949-py3-none-any.whl
+[2023-06-19 11:55:38] INFO root fetch - processPackages [pyhector]: executing diffoscope
+[2023-06-19 11:55:38] INFO root fetch - processPackages [pyhector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhector-2.4.0.1.tar.gz tmp/pyhector-2.5.0.2.tar.gz --markdown 20230619/p/pyhector/2.4.0.1-2.5.0.2/diff.md --exclude *.pyd
+[2023-06-19 11:55:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-19 11:55:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306190945-py3-none-any.whl.zip tmp/kcli-99.0.202306190949-py3-none-any.whl.zip --markdown 20230619/k/kcli/99.0.202306190945-99.0.202306190949/diff.md --exclude *.pyd
+[2023-06-19 11:55:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306190947-py3-none-any.whl.zip]
+[2023-06-19 11:55:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306190952-py3-none-any.whl.zip]
+[2023-06-19 11:55:39] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-19 11:55:39] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.1.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.2.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-19 11:55:39] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.7.dev3.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.8.dev3.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-19 11:55:39] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.4.2.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.5.0.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-19 11:55:39] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.1.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.2.tar.gz]
+[2023-06-19 11:55:39] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-19 11:55:40] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.1.tar.gz]
+[2023-06-19 11:55:40] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.2.tar.gz]
+[2023-06-19 11:55:40] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-06-19 11:55:46] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.4.0.1.tar.gz]
+[2023-06-19 11:55:46] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.5.0.2.tar.gz]
+[2023-06-19 11:55:46] INFO root fetch - main [MainThread]: End processing [pyhector]: success
+[2023-06-19 11:55:48] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306190945-py3-none-any.whl.zip]
+[2023-06-19 11:55:48] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306190949-py3-none-any.whl.zip]
+[2023-06-19 11:55:48] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-19 11:56:21] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.2.tar.gz]
+[2023-06-19 11:56:21] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.3.tar.gz]
+[2023-06-19 11:56:21] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-06-19 11:56:21] INFO root fetch - main [MainThread]: Store serial: [18558259]
