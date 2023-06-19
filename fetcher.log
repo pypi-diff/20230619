@@ -7551,3 +7551,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:26:20] INFO root fetch - processPackages [gmtrade]: Remove: archive file [/home/abi/fetcher/tmp/gmtrade-3.0.5-cp39-cp39-win_amd64.whl.zip]
 [2023-06-19 07:26:20] INFO root fetch - main [MainThread]: End processing [gmtrade]: success
 [2023-06-19 07:26:20] INFO root fetch - main [MainThread]: Store serial: [18555977]
+[2023-06-19 07:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555977]
+[2023-06-19 07:31:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-zoneedit
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jax-dataloader
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haidarlibs
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-devkit
+[2023-06-19 07:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: storey
+[2023-06-19 07:31:36] INFO root fetch - processPackages [jax-dataloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 07:31:36] WARNING root fetch - processPackages [certbot-dns-zoneedit]: Skipping, unable to determine old version
+[2023-06-19 07:31:36] INFO root fetch - main [MainThread]: End processing [certbot-dns-zoneedit] error
+[2023-06-19 07:31:36] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 07:31:36] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 07:31:36] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-19 07:31:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [storey]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-19 07:31:36] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [jax-dataloader]: Downloading https://files.pythonhosted.org/packages/81/2b/a94b81323058358e54ad4cba9fec76e83c47e387f664997e53b1233a6772/jax-dataloader-0.0.4.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/fc/24/267ec204af6464c771b38a512c6041ce513dbee11427c018df0b7ba38889/storey-1.4.2.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/a0/f5/61d36a23563ac4ac5883d198221e9e3b7bb46f1ae09b7a1683322461743e/haidarlibs-0.0.9.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-19 07:31:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230619/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-19 07:31:36] INFO root fetch - processPackages [jax-dataloader]: Downloading https://files.pythonhosted.org/packages/c5/33/7a9223195bfe809b50cd9cbdf95e55fab0bd2eb7ecad9419b00bf7434a83/jax-dataloader-0.0.5.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-19 07:31:36] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.8.tar.gz tmp/haidarlibs-0.0.9.tar.gz --markdown 20230619/h/haidarlibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 07:31:36] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [jax-dataloader]: executing diffoscope
+[2023-06-19 07:31:36] INFO root fetch - processPackages [jax-dataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-dataloader-0.0.4.tar.gz tmp/jax-dataloader-0.0.5.tar.gz --markdown 20230619/j/jax-dataloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 07:31:36] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/37/c5/e8e4d781f2a5ee1999b7b06ff3b1818a8b12f56e4e194c050eed7413c713/storey-1.4.3.tar.gz
+[2023-06-19 07:31:36] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-19 07:31:36] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230619/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 07:31:37] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-06-19 07:31:37] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.4.2.tar.gz tmp/storey-1.4.3.tar.gz --markdown 20230619/s/storey/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-19 07:31:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-19 07:31:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-19 07:31:37] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-19 07:31:37] INFO root fetch - processPackages [jax-dataloader]: Remove: archive file [/home/abi/fetcher/tmp/jax-dataloader-0.0.4.tar.gz]
+[2023-06-19 07:31:37] INFO root fetch - processPackages [jax-dataloader]: Remove: archive file [/home/abi/fetcher/tmp/jax-dataloader-0.0.5.tar.gz]
+[2023-06-19 07:31:37] INFO root fetch - main [MainThread]: End processing [jax-dataloader]: success
+[2023-06-19 07:31:38] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.8.tar.gz]
+[2023-06-19 07:31:38] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.9.tar.gz]
+[2023-06-19 07:31:38] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-19 07:31:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-19 07:31:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-19 07:31:38] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-19 07:31:39] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.2.tar.gz]
+[2023-06-19 07:31:39] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.3.tar.gz]
+[2023-06-19 07:31:39] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-06-19 07:31:39] INFO root fetch - main [MainThread]: Store serial: [18555996]
