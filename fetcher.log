@@ -20795,3 +20795,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:42:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-06-19 16:42:56] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-06-19 16:42:56] INFO root fetch - main [MainThread]: Store serial: [18561166]
+[2023-06-19 16:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561166]
+[2023-06-19 16:48:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-models
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daktari
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustack-esu
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bsimx
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-IO
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: event2vec
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selis
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_core
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: concrete-datastore
+[2023-06-19 16:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: socialgene
+[2023-06-19 16:48:05] INFO root fetch - processPackages [rustack-esu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [event2vec]: New version: [0.0.4] Old Version: [0.0.33]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [selis]: New version: [3.4.1] Old Version: [3.3]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [concrete-datastore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.8rc1] Old Version: [6.0.7rc1]
+[2023-06-19 16:48:05] WARNING root fetch - processPackages [bsimx]: Skipping, unable to determine old version
+[2023-06-19 16:48:05] INFO root fetch - processPackages [bsimx]: Start processing: pyqtorch
+[2023-06-19 16:48:05] INFO root fetch - main [MainThread]: End processing [bsimx] error
+[2023-06-19 16:48:05] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [socialgene]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-19 16:48:05] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-06-19 16:48:05] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/e1/a3/a304c69a568b3aa8889686f53e1f746b7aa89767a93695affe803da6f28d/socialgene-0.1.3.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [pyqtorch]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-19 16:48:06] INFO root fetch - processPackages [event2vec]: Downloading https://files.pythonhosted.org/packages/48/d7/2cea0b25658dc978c750497b7047b2023c013b45276b1f0fcf2c2a130f9f/event2vec-0.0.33.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/9b/71/29366c73dbd505e436f0bfeab5dea5011ba4025a5bf40a010511bb96eb2c/selis-3.3.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/f5/10/ad366858a7bcf0a0d83a5e5d8a63dbd3db262de212f725a67e6e7341fc15/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl
+[2023-06-19 16:48:06] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/93/84/b081598f2d667183a9aad1ed8bd5c31307c779a6b88f0ff03977d7f2c07b/concrete-datastore-1.8.0.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/d5/ee/684ff016844c2c979d7a4f010c4bccb398ab42543366792585d2c4edd6ff/socialgene-0.1.4.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/7b/65/4fef2fcfe62f7249cd3f245549a6dfb7897bae5ab8a630444d44009f554b/rustack-esu-0.1.8.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/da/a0/018d987cda5a7aa817f9342f85808a91b50a9119ae9f76c616d392c167ca/pyqtorch-0.2.7.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [socialgene]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [socialgene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialgene-0.1.3.tar.gz tmp/socialgene-0.1.4.tar.gz --markdown 20230619/s/socialgene/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/8a/f2/fa33d30cde6ee37815f9ea6e62f51490670e72a5accba13615493b4d07cd/selis-3.4.1.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230619/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [event2vec]: Downloading https://files.pythonhosted.org/packages/c6/81/f33d3efd4c6122105cc0d9c1a485e2c7232dce54c8a9ef3b389c3c3ac07e/event2vec-0.0.4.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.3.tar.gz tmp/selis-3.4.1.tar.gz --markdown 20230619/s/selis/3.3-3.4.1/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230619/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [rustack-esu]: Downloading https://files.pythonhosted.org/packages/c1/a6/a4c31adc30882b61636badd0e62ffe2109d3f30cd5cdcd364afa99a55e6b/rustack-esu-0.1.9.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [event2vec]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [concrete-datastore]: Downloading https://files.pythonhosted.org/packages/35/0c/966cc07f835159fc959a82a0a9ce1ede43cbbce66d0df580aad4bee89e8e/concrete-datastore-1.9.0.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [event2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event2vec-0.0.33.tar.gz tmp/event2vec-0.0.4.tar.gz --markdown 20230619/e/event2vec/0.0.33-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [rustack-esu]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/3e/05/dc06122039b561e3fbf5e2e8db6b0ac20845b0069d40ac57c227673a6338/pyqtorch-0.2.8.tar.gz
+[2023-06-19 16:48:06] INFO root fetch - processPackages [rustack-esu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustack-esu-0.1.8.tar.gz tmp/rustack-esu-0.1.9.tar.gz --markdown 20230619/r/rustack-esu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230619/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/1e/83/c64bce1a2cde696922d54bdce9bd5e1a7ac62736ab5e82b3957c34a4fddf/OpenGeode_IO-6.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-19 16:48:06] INFO root fetch - processPackages [concrete-datastore]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [concrete-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-datastore-1.8.0.tar.gz tmp/concrete-datastore-1.9.0.tar.gz --markdown 20230619/c/concrete-datastore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 16:48:06] INFO root fetch - processPackages [pyqtorch]: executing diffoscope
+[2023-06-19 16:48:06] INFO root fetch - processPackages [pyqtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtorch-0.2.7.tar.gz tmp/pyqtorch-0.2.8.tar.gz --markdown 20230619/p/pyqtorch/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-19 16:48:07] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-06-19 16:48:07] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230619/O/OpenGeode-IO/6.0.7rc1-6.0.8rc1/diff.md --exclude *.pyd
+[2023-06-19 16:48:07] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.3.tar.gz]
+[2023-06-19 16:48:07] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.1.tar.gz]
+[2023-06-19 16:48:07] INFO root fetch - processPackages [selis]: Start processing: promptlayer
+[2023-06-19 16:48:07] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [promptlayer]: New version: [0.1.90] Old Version: [0.1.89]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [daktari]: Start processing: servicex
+[2023-06-19 16:48:08] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.3.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.4.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [socialgene]: Start processing: s2stools
+[2023-06-19 16:48:08] INFO root fetch - main [MainThread]: End processing [socialgene]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/19/4a/d3071fbc24f861b98a23907803fefdaa18a03e4288ab59e00b1bf5ddb468/promptlayer-0.1.89.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [servicex]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [s2stools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/38/43/62a8d2ecc64591b43783856f2064db758187ef7b557cf242b4ba1b5beea2/promptlayer-0.1.90.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [servicex]: Downloading https://files.pythonhosted.org/packages/1f/5a/8716cbbc061e388339f5df677bb873ca9b775cff196c61a345925f0d8d70/servicex-3.0.0a1.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [s2stools]: Downloading https://files.pythonhosted.org/packages/c2/71/2fcee48b8677854e388e37c5c692998aa0826b79c443b861ecb83897dad1/s2stools-0.1.0.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2023-06-19 16:48:08] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.1.89.tar.gz tmp/promptlayer-0.1.90.tar.gz --markdown 20230619/p/promptlayer/0.1.89-0.1.90/diff.md --exclude *.pyd
+[2023-06-19 16:48:08] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [OpenGeode-IO]: Start processing: scm-wrap
+[2023-06-19 16:48:08] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [event2vec]: Remove: archive file [/home/abi/fetcher/tmp/event2vec-0.0.33.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [event2vec]: Remove: archive file [/home/abi/fetcher/tmp/event2vec-0.0.4.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [event2vec]: Start processing: concrete-datastore
+[2023-06-19 16:48:08] INFO root fetch - main [MainThread]: End processing [event2vec]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [rustack-esu]: Remove: archive file [/home/abi/fetcher/tmp/rustack-esu-0.1.8.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [rustack-esu]: Remove: archive file [/home/abi/fetcher/tmp/rustack-esu-0.1.9.tar.gz]
+[2023-06-19 16:48:08] INFO root fetch - main [MainThread]: End processing [rustack-esu]: success
+[2023-06-19 16:48:08] INFO root fetch - processPackages [concrete-datastore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [servicex]: Downloading https://files.pythonhosted.org/packages/48/2d/a98e07b4c7c5ccdb8790f1d6a9d8e213d949e64c26939a2a9aedb2e085d9/servicex-3.0.0a2.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [scm-wrap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-19 16:48:08] INFO root fetch - processPackages [s2stools]: Downloading https://files.pythonhosted.org/packages/0b/40/18d1fdf497eb35b607af81cb66bfcf2b9470231356d67b460cd9199eeb25/s2stools-0.2.0.tar.gz
+[2023-06-19 16:48:08] INFO root fetch - processPackages [concrete-datastore]: executing diffoscope
+[2023-06-19 16:48:08] INFO root fetch - processPackages [concrete-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-datastore-1.8.0.tar.gz tmp/concrete-datastore-1.9.0.tar.gz --markdown 20230619/c/concrete-datastore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 16:48:08] INFO root fetch - processPackages [servicex]: executing diffoscope
+[2023-06-19 16:48:08] INFO root fetch - processPackages [servicex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex-3.0.0a1.tar.gz tmp/servicex-3.0.0a2.tar.gz --markdown 20230619/s/servicex/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-06-19 16:48:08] INFO root fetch - processPackages [s2stools]: executing diffoscope
+[2023-06-19 16:48:08] INFO root fetch - processPackages [s2stools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2stools-0.1.0.tar.gz tmp/s2stools-0.2.0.tar.gz --markdown 20230619/s/s2stools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 16:48:08] INFO root fetch - processPackages [scm-wrap]: Downloading https://files.pythonhosted.org/packages/ac/6f/6fd947b37c7d62524cf677533f0b8850a41a4a96f6710bb993965920edf5/scm-wrap-1.1.8.tar.gz
+[2023-06-19 16:48:09] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-19 16:48:09] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-19 16:48:09] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-19 16:48:09] INFO root fetch - processPackages [scm-wrap]: Downloading https://files.pythonhosted.org/packages/91/9c/25eaf593137cdc491c6953eccfd81d4d2c93085461453f867a9a1162d16b/scm-wrap-1.1.9.tar.gz
+[2023-06-19 16:48:09] INFO root fetch - processPackages [scm-wrap]: executing diffoscope
+[2023-06-19 16:48:09] INFO root fetch - processPackages [scm-wrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scm-wrap-1.1.8.tar.gz tmp/scm-wrap-1.1.9.tar.gz --markdown 20230619/s/scm-wrap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:48:10] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.1.89.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.1.90.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [s2stools]: Remove: archive file [/home/abi/fetcher/tmp/s2stools-0.1.0.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [s2stools]: Remove: archive file [/home/abi/fetcher/tmp/s2stools-0.2.0.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [s2stools]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [servicex]: Remove: archive file [/home/abi/fetcher/tmp/servicex-3.0.0a1.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [servicex]: Remove: archive file [/home/abi/fetcher/tmp/servicex-3.0.0a2.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [servicex]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.8.0.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [concrete-datastore]: Remove: archive file [/home/abi/fetcher/tmp/concrete-datastore-1.9.0.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-0.2.7.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [pyqtorch]: Remove: archive file [/home/abi/fetcher/tmp/pyqtorch-0.2.8.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [concrete-datastore]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [scm-wrap]: Remove: archive file [/home/abi/fetcher/tmp/scm-wrap-1.1.8.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [scm-wrap]: Remove: archive file [/home/abi/fetcher/tmp/scm-wrap-1.1.9.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [scm-wrap]: success
+[2023-06-19 16:48:10] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-19 16:48:10] INFO root fetch - main [MainThread]: Store serial: [18561217]
