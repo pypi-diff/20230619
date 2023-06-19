@@ -7933,3 +7933,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:02:54] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.4.tar.gz]
 [2023-06-19 08:02:54] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
 [2023-06-19 08:02:54] INFO root fetch - main [MainThread]: Store serial: [18556103]
+[2023-06-19 08:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556103]
+[2023-06-19 08:08:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microservices-common
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dreamai-ray
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-line-plotter
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciform
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywr-stoch
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-extensions
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yid-langchain-extensions
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynostr-cli
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funding-service-design-utils
+[2023-06-19 08:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyg-nightly
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pynostr-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [dreamai-ray]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [microservices-common]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230618] Old Version: [2.4.0.dev20230617]
+[2023-06-19 08:08:04] WARNING root fetch - processPackages [pywr-stoch]: Skipping, unable to determine old version
+[2023-06-19 08:08:04] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pywr-stoch]: Start processing: BaseDT
+[2023-06-19 08:08:04] INFO root fetch - main [MainThread]: End processing [pywr-stoch] error
+[2023-06-19 08:08:04] INFO root fetch - processPackages [BaseDT]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 08:08:04] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/d9/a7/c4d1d52ae767ad672ca81b050f8e7db610e4ffc3bca71d19819c9efd7d42/st_line_plotter-0.0.4.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/63/71/68998ea00642da741e02d70a6e0ebd401b5be8a87613bb5d154333e33ad4/pyg_nightly-2.4.0.dev20230617.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pynostr-cli]: Downloading https://files.pythonhosted.org/packages/08/94/bc4462b5d3569f8102fc9ab027d9f95e32827b74486d4508a5f782c3664a/pynostr_cli-0.1.0.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/3e/b6/b33d7e0982406c38dcb00b9d0a0272a806d1ec5d853b933c109fad3a519f/microservices_common-0.0.83.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/e7/e3/673fe9f7f1f84e7ea9de5fc7baefebfff8674eb38a38f1686ae64a06fc1c/cdk-extensions-0.0.77.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/a2/5b/a60e7d87ef4b2d62889a6dba6b4179075963f722fba16d11bec26519f3d7/funding-service-design-utils-2.0.5.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [dreamai-ray]: Downloading https://files.pythonhosted.org/packages/ca/c2/16519ec5e43f0c185ea202698812f704b7539a8ffc9577b61ec4682dc385/dreamai_ray-0.0.1.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/6c/aa/df7b11f2fd0cbd1b33d37a515cc980649804f7cad134d2d9a82f1e35bda9/BaseDT-0.0.8.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-19 08:08:04] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230619/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-19 08:08:04] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/93/02/91113202e85d97becb546c949cb1e1baaf1e5729825d28769a7b425f0d6a/st_line_plotter-0.0.5.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pynostr-cli]: Downloading https://files.pythonhosted.org/packages/c2/dd/b5a2cd9108031720259050eab02b7078bd2c8a1e1699f387d695efd4c051/pynostr_cli-0.1.1.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/40/68/84a0148276f02174c49ee69458e41678cd5406b9292f12bad7c2cad3f725/pyg_nightly-2.4.0.dev20230618.tar.gz
+[2023-06-19 08:08:04] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-19 08:08:04] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230619/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pynostr-cli]: executing diffoscope
+[2023-06-19 08:08:04] INFO root fetch - processPackages [pynostr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynostr_cli-0.1.0.tar.gz tmp/pynostr_cli-0.1.1.tar.gz --markdown 20230619/p/pynostr-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 08:08:04] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-19 08:08:04] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.4.tar.gz tmp/st_line_plotter-0.0.5.tar.gz --markdown 20230619/s/st-line-plotter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 08:08:04] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/35/8a/714ad238c380e2028aff0a8a0890e5ae9931f04ee5a0a37d447812d45cfa/funding-service-design-utils-2.0.6.tar.gz
+[2023-06-19 08:08:05] INFO root fetch - processPackages [dreamai-ray]: Downloading https://files.pythonhosted.org/packages/a2/a8/83fbbcd2739805634546fee29ab3126ab37b87b710242d6a334252335f5c/dreamai_ray-0.0.2.tar.gz
+[2023-06-19 08:08:05] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/18/65/42a7244c50e3cb0b26a6a430635e23b6584e219c7a28c6cb6bd4d7925540/microservices_common-0.0.9.tar.gz
+[2023-06-19 08:08:05] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/f0/3a/efad37d6757d7262859a276a17aeb638737ef0a62fc8381edf6db061f5e9/cdk-extensions-0.0.78.tar.gz
+[2023-06-19 08:08:05] INFO root fetch - processPackages [dreamai-ray]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [dreamai-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_ray-0.0.1.tar.gz tmp/dreamai_ray-0.0.2.tar.gz --markdown 20230619/d/dreamai-ray/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 08:08:05] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.5.tar.gz tmp/funding-service-design-utils-2.0.6.tar.gz --markdown 20230619/f/funding-service-design-utils/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-19 08:08:05] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/36/7a/4a8f0f45b806688f9d74df3d829a47b9d3f5ea0468260a41c1ceffdabbf6/BaseDT-0.0.9.tar.gz
+[2023-06-19 08:08:05] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230617.tar.gz tmp/pyg_nightly-2.4.0.dev20230618.tar.gz --markdown 20230619/p/pyg-nightly/2.4.0.dev20230617-2.4.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-19 08:08:05] INFO root fetch - processPackages [BaseDT]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [BaseDT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDT-0.0.8.tar.gz tmp/BaseDT-0.0.9.tar.gz --markdown 20230619/B/BaseDT/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:08:05] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2023-06-19 08:08:05] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-0.0.83.tar.gz tmp/microservices_common-0.0.9.tar.gz --markdown 20230619/m/microservices-common/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:08:05] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.77.tar.gz tmp/cdk-extensions-0.0.78.tar.gz --markdown 20230619/c/cdk-extensions/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-06-19 08:08:06] INFO root fetch - processPackages [pynostr-cli]: Remove: archive file [/home/abi/fetcher/tmp/pynostr_cli-0.1.0.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [pynostr-cli]: Remove: archive file [/home/abi/fetcher/tmp/pynostr_cli-0.1.1.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [pynostr-cli]: Start processing: smpgpt
+[2023-06-19 08:08:06] INFO root fetch - main [MainThread]: End processing [pynostr-cli]: success
+[2023-06-19 08:08:06] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-19 08:08:06] INFO root fetch - processPackages [smpgpt]: New version: [5.0] Old Version: [4.0]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.4.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.5.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-19 08:08:06] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.83.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.9.tar.gz]
+[2023-06-19 08:08:06] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2023-06-19 08:08:06] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/da/50/e82931eb9f868813dfd5c849ce12634f868339ed4647a4f0e8e89d4e3f24/smpgpt-4.0.tar.gz
+[2023-06-19 08:08:06] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/78/16/49015c12fcf876c900b5b35244c8f9e9c8de6a126f37a148d62fc14faee7/smpgpt-5.0.tar.gz
+[2023-06-19 08:08:07] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.5.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.6.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-06-19 08:08:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-19 08:08:07] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.8.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.9.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - main [MainThread]: End processing [BaseDT]: success
+[2023-06-19 08:08:07] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:08:07] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-4.0.tar.gz tmp/smpgpt-5.0.tar.gz --markdown 20230619/s/smpgpt/4.0-5.0/diff.md --exclude *.pyd
+[2023-06-19 08:08:07] INFO root fetch - processPackages [dreamai-ray]: Remove: archive file [/home/abi/fetcher/tmp/dreamai_ray-0.0.1.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - processPackages [dreamai-ray]: Remove: archive file [/home/abi/fetcher/tmp/dreamai_ray-0.0.2.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - main [MainThread]: End processing [dreamai-ray]: success
+[2023-06-19 08:08:07] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.77.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.78.tar.gz]
+[2023-06-19 08:08:07] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-19 08:08:08] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-4.0.tar.gz]
+[2023-06-19 08:08:08] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-5.0.tar.gz]
+[2023-06-19 08:08:08] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:08:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230617.tar.gz]
+[2023-06-19 08:08:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230618.tar.gz]
+[2023-06-19 08:08:10] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-19 08:08:10] INFO root fetch - main [MainThread]: Store serial: [18556138]
