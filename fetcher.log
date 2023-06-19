@@ -16006,3 +16006,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:54:44] INFO root fetch - processPackages [pdoc]: Remove: archive file [/home/abi/fetcher/tmp/pdoc-9.0.1-py3-none-any.whl.zip]
 [2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [pdoc]: success
 [2023-06-19 13:54:44] INFO root fetch - main [MainThread]: Store serial: [18559218]
+[2023-06-19 13:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559218]
+[2023-06-19 13:59:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genepierre
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mds-account-primanota
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foxglove-web
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manhattan-users
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mds-account-primanota
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mds-account-primanota
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numba-mpi
+[2023-06-19 13:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heimarobot
+[2023-06-19 13:59:54] INFO root fetch - processPackages [foxglove-web]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [genepierre]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: New version: [6.8.5] Old Version: [6.6.5]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [manhattan-users]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [heimarobot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [numba-mpi]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: New version: [6.8.5] Old Version: [6.6.5]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: New version: [6.8.5] Old Version: [6.6.5]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-19 13:59:54] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/d8/b0/73cd6737f95678e1ab16bd95cd5efb58a5525b0bf6b5c0b30afeb9c79d0e/genepierre-0.0.2.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-19 13:59:54] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-19 13:59:54] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/28/8e/de722c4e9b379f63ce7d730f5a19b10aea44001b8a82b8cb80ebdfb8e8eb/mds_account_primanota-6.6.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/28/8e/de722c4e9b379f63ce7d730f5a19b10aea44001b8a82b8cb80ebdfb8e8eb/mds_account_primanota-6.6.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/28/8e/de722c4e9b379f63ce7d730f5a19b10aea44001b8a82b8cb80ebdfb8e8eb/mds_account_primanota-6.6.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [foxglove-web]: Downloading https://files.pythonhosted.org/packages/ed/48/8fa297110a85770be5eb3bc68dddfcc83bb7d774e3049eb82524838b3057/foxglove-web-0.0.8.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [manhattan-users]: Downloading https://files.pythonhosted.org/packages/ea/1e/6c32edb029713f58af730fc7b57b705877b6ef64d8d0c0a6000375e62427/manhattan_users-0.0.8.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [heimarobot]: Downloading https://files.pythonhosted.org/packages/ca/9b/f28554a5c3287ea174e56856112312c849123300146a6fda52c946dc3c8c/heimarobot-0.0.2.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/4a/8f/87fba59f362778eaedd6ad756178239805b5fff2a8680227848e0e98bae0/genepierre-0.0.3.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.2.tar.gz tmp/genepierre-0.0.3.tar.gz --markdown 20230619/g/genepierre/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [heimarobot]: Downloading https://files.pythonhosted.org/packages/82/59/2b1607121db976b0ed2d16764af667c568805d2b72376e52f08e6d48deeb/heimarobot-0.0.3.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/43/69/4493b57b08e27ae1afd21f4bc077827266fbe0fd8dbdda6549000a102e4b/numba-mpi-0.8.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/2d/e2/43ab90c1211f6bd58c966cc973a5f324db3268a03050ccf09dc96c2acb82/mds_account_primanota-6.8.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/2d/e2/43ab90c1211f6bd58c966cc973a5f324db3268a03050ccf09dc96c2acb82/mds_account_primanota-6.8.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: Downloading https://files.pythonhosted.org/packages/2d/e2/43ab90c1211f6bd58c966cc973a5f324db3268a03050ccf09dc96c2acb82/mds_account_primanota-6.8.5.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [heimarobot]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [heimarobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimarobot-0.0.2.tar.gz tmp/heimarobot-0.0.3.tar.gz --markdown 20230619/h/heimarobot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_primanota-6.6.5.tar.gz tmp/mds_account_primanota-6.8.5.tar.gz --markdown 20230619/m/mds-account-primanota/6.6.5-6.8.5/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_primanota-6.6.5.tar.gz tmp/mds_account_primanota-6.8.5.tar.gz --markdown 20230619/m/mds-account-primanota/6.6.5-6.8.5/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [foxglove-web]: Downloading https://files.pythonhosted.org/packages/79/a9/2f1d58018c67cdc8c190058057b88eed6c981a90167646148e8f33a188ee/foxglove-web-0.0.9.tar.gz
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: executing diffoscope
+[2023-06-19 13:59:54] INFO root fetch - processPackages [mds-account-primanota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_account_primanota-6.6.5.tar.gz tmp/mds_account_primanota-6.8.5.tar.gz --markdown 20230619/m/mds-account-primanota/6.6.5-6.8.5/diff.md --exclude *.pyd
+[2023-06-19 13:59:54] INFO root fetch - processPackages [manhattan-users]: Downloading https://files.pythonhosted.org/packages/2b/8d/bd0ebab909f655f0627de3307f40fa226677acdaf1be00f27d0dc12dff9b/manhattan_users-0.0.9.tar.gz
+[2023-06-19 13:59:55] INFO root fetch - processPackages [foxglove-web]: executing diffoscope
+[2023-06-19 13:59:55] INFO root fetch - processPackages [foxglove-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxglove-web-0.0.8.tar.gz tmp/foxglove-web-0.0.9.tar.gz --markdown 20230619/f/foxglove-web/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:59:55] INFO root fetch - processPackages [manhattan-users]: executing diffoscope
+[2023-06-19 13:59:55] INFO root fetch - processPackages [manhattan-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhattan_users-0.0.8.tar.gz tmp/manhattan_users-0.0.9.tar.gz --markdown 20230619/m/manhattan-users/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:59:55] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/4a/59/a101d48fb8a639efdef0e206d08a6fb7a891bc095d64bcd69caf7daca87e/numba-mpi-0.9.tar.gz
+[2023-06-19 13:59:55] INFO root fetch - processPackages [numba-mpi]: executing diffoscope
+[2023-06-19 13:59:55] INFO root fetch - processPackages [numba-mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-mpi-0.8.tar.gz tmp/numba-mpi-0.9.tar.gz --markdown 20230619/n/numba-mpi/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 13:59:56] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.2.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.3.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 13:59:56] INFO root fetch - processPackages [mds-account-primanota]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_primanota-6.6.5.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - processPackages [mds-account-primanota]: Remove: archive file [/home/abi/fetcher/tmp/mds_account_primanota-6.8.5.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - main [MainThread]: End processing [mds-account-primanota]: success
+[2023-06-19 13:59:56] INFO root fetch - processPackages [foxglove-web]: Remove: archive file [/home/abi/fetcher/tmp/foxglove-web-0.0.8.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - processPackages [foxglove-web]: Remove: archive file [/home/abi/fetcher/tmp/foxglove-web-0.0.9.tar.gz]
+[2023-06-19 13:59:56] INFO root fetch - main [MainThread]: End processing [foxglove-web]: success
+[2023-06-19 13:59:56] INFO root fetch - main [MainThread]: End processing [mds-account-primanota]: success
+[2023-06-19 13:59:56] INFO root fetch - main [MainThread]: End processing [mds-account-primanota]: success
+[2023-06-19 13:59:57] INFO root fetch - processPackages [heimarobot]: Remove: archive file [/home/abi/fetcher/tmp/heimarobot-0.0.2.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - processPackages [heimarobot]: Remove: archive file [/home/abi/fetcher/tmp/heimarobot-0.0.3.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - main [MainThread]: End processing [heimarobot]: success
+[2023-06-19 13:59:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 13:59:57] INFO root fetch - processPackages [manhattan-users]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_users-0.0.8.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - processPackages [manhattan-users]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_users-0.0.9.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - main [MainThread]: End processing [manhattan-users]: success
+[2023-06-19 13:59:57] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.8.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.9.tar.gz]
+[2023-06-19 13:59:57] INFO root fetch - main [MainThread]: End processing [numba-mpi]: success
+[2023-06-19 13:59:57] INFO root fetch - main [MainThread]: Store serial: [18559247]
