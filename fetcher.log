@@ -12980,3 +12980,158 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 11:33:08] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-5.1.0a7.tar.gz]
 [2023-06-19 11:33:08] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
 [2023-06-19 11:33:08] INFO root fetch - main [MainThread]: Store serial: [18558076]
+[2023-06-19 11:38:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558076]
+[2023-06-19 11:38:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynter-defects
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbluemind4
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fb-tools
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fau-tools
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyHive-fix-sqlalchemy
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bm-pypi-test
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhector
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otcdocstheme
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-sale-order-type
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pynter-defects]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [netbluemind4]: New version: [4.1.65224] Old Version: [4.1.65222]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 11:38:17] WARNING root fetch - processPackages [PyHive-fix-sqlalchemy]: Skipping, unable to determine old version
+[2023-06-19 11:38:17] INFO root fetch - processPackages [PyHive-fix-sqlalchemy]: Start processing: hestia-earth-schema
+[2023-06-19 11:38:17] INFO root fetch - main [MainThread]: End processing [PyHive-fix-sqlalchemy] error
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pyhector]: New version: [2.5.0.1] Old Version: [2.5.0.0]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [fb-tools]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [fau-tools]: New version: [1.5.0] Old Version: [1.4.5.2]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [otcdocstheme]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.4.dev1]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/06/8f/ff79ecdda2d473e9a780492a56a0c15081785d627906c3121ff91550a5f5/pyhector-2.5.0.0.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/48/33/7b6877da2e1cc727c716da62357a6c57597d2c06c8e6d54dc770eb55e433/bm_pypi_test-0.0.6-py3-none-any.whl
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/c8/27/654f01a63380afa7b958ca6c6a9c9338368070fd474d60c5a09e3876be8a/pynter-defects-1.0.1.tar.gz
+[2023-06-19 11:38:17] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-06-19 11:38:17] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/4c/05/c04b9cdf928b177bc468020314856970e60ca0cf9324f338b770ab017c1e/fau_tools-1.4.5.2.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [edwh]: Start processing: ensta
+[2023-06-19 11:38:17] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-06-19 11:38:17] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ensta]: New version: [2.9] Old Version: [2.7]
+[2023-06-19 11:38:17] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/25/f1/2ea3b7fa486cc0aa8d8d4d2f3783b2e315d47d9357915f976642391b0723/odoo14_addon_sale_order_type-14.0.3.0.4.dev1-py3-none-any.whl
+[2023-06-19 11:38:17] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/58/68/049b806db43ef4c1254f9265c2ef964a6ae3f364f53d519655251b2fdeca/bm_pypi_test-0.0.7-py3-none-any.whl
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/5a/02/a36f6879cf5d3994bc8098ea61395e7a6d03ce6ef0cf401dcc2f4adce5a2/pyhector-2.5.0.1.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/08/0b/4ade5e74663d265b4051dff98381f9f3c503854223dc1d529b2894392c27/netbluemind4-4.1.65222.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/ac/ae/41c29f6be3319dda14ea99b5ca9828905e9188016972ee568d7982651051/otcdocstheme-0.8.1.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 11:38:17] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.6-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.7-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/6e/58/0d99dcc3a9685601795ff7f565d14721714ca2e652c570daff3f88d91ff9/pynter-defects-1.0.2.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/26/aa/8d0aea3f1fdc4fa14cffcaf27fa67719bb3e20b1ee39037270e8419f8223/fb_tools-2.2.4.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/3b/67/4db372c350cc3aa85f61974b7d8f5dcf4d713926e2fd37b03fe8f4f4b91f/ensta-2.7.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/30/53/92dd0153a336be336853e72dc6b7e8839760d9b19b1c521ac77e9a42afe5/fau_tools-1.5.0.tar.gz
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pyhector]: executing diffoscope
+[2023-06-19 11:38:17] INFO root fetch - processPackages [pyhector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhector-2.5.0.0.tar.gz tmp/pyhector-2.5.0.1.tar.gz --markdown 20230619/p/pyhector/2.5.0.0-2.5.0.1/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [pynter-defects]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [pynter-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynter-defects-1.0.1.tar.gz tmp/pynter-defects-1.0.2.tar.gz --markdown 20230619/p/pynter-defects/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [fau-tools]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [fau-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fau_tools-1.4.5.2.tar.gz tmp/fau_tools-1.5.0.tar.gz --markdown 20230619/f/fau-tools/1.4.5.2-1.5.0/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2023-06-19 11:38:18] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0e/10/d336760accd4787fffc1af2a24a9e172e7e98a43b434f0781afcff1cabc8/odoo14_addon_sale_order_type-14.0.3.1.0-py3-none-any.whl
+[2023-06-19 11:38:18] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/43/4c/ca2ce84f30d52b749227a964942978550c1da700719968f098d77da66449/ensta-2.9.tar.gz
+[2023-06-19 11:38:18] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/d0/60/f599e27b3308b4e5ab133c36e592e1266ca1d87dc7d2ac578ef8cc2407ac/netbluemind4-4.1.65224.tar.gz
+[2023-06-19 11:38:18] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230619/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_type-14.0.3.0.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_type-14.0.3.1.0-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-sale-order-type/14.0.3.0.4.dev1-14.0.3.1.0/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.1.65222.tar.gz tmp/netbluemind4-4.1.65224.tar.gz --markdown 20230619/n/netbluemind4/4.1.65222-4.1.65224/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/67/09/9456f96b9bd1d1337c1b4ec20b079acfd832d384d2a3d71c1dda09b91bc7/fb_tools-2.2.5.tar.gz
+[2023-06-19 11:38:18] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-2.7.tar.gz tmp/ensta-2.9.tar.gz --markdown 20230619/e/ensta/2.7-2.9/diff.md --exclude *.pyd
+[2023-06-19 11:38:18] INFO root fetch - processPackages [fb-tools]: executing diffoscope
+[2023-06-19 11:38:18] INFO root fetch - processPackages [fb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_tools-2.2.4.tar.gz tmp/fb_tools-2.2.5.tar.gz --markdown 20230619/f/fb-tools/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-19 11:38:19] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.6-py3-none-any.whl.zip]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.7-py3-none-any.whl.zip]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [bm-pypi-test]: Start processing: finbourne-insights-sdk-preview
+[2023-06-19 11:38:19] INFO root fetch - main [MainThread]: End processing [bm-pypi-test]: success
+[2023-06-19 11:38:19] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.680] Old Version: [0.0.679]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/65/32/f86efa68e1d4d90b5d55bb215d834248474fb41082f68132bba53ec5ad34/otcdocstheme-0.9.0.tar.gz
+[2023-06-19 11:38:19] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/de/5e/87daceea9eb2818ba5026e03978310d0b4fdcd2440b873cfdcf562125323/finbourne-insights-sdk-preview-0.0.679.tar.gz
+[2023-06-19 11:38:19] INFO root fetch - processPackages [fau-tools]: Remove: archive file [/home/abi/fetcher/tmp/fau_tools-1.4.5.2.tar.gz]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [fau-tools]: Remove: archive file [/home/abi/fetcher/tmp/fau_tools-1.5.0.tar.gz]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [fau-tools]: Start processing: syngen
+[2023-06-19 11:38:19] INFO root fetch - main [MainThread]: End processing [fau-tools]: success
+[2023-06-19 11:38:19] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.0.tar.gz]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.1.tar.gz]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [hestia-earth-schema]: Start processing: power-grid-model
+[2023-06-19 11:38:19] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-06-19 11:38:19] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3e/59/0bb082a987e02d5a69b6a1cecc5a117253d8e4ac4ba817ea97b7f21449f5/finbourne-insights-sdk-preview-0.0.680.tar.gz
+[2023-06-19 11:38:19] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9175313495131] Old Version: [1.5.0rc9174911844893]
+[2023-06-19 11:38:19] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-06-19 11:38:19] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.679.tar.gz tmp/finbourne-insights-sdk-preview-0.0.680.tar.gz --markdown 20230619/f/finbourne-insights-sdk-preview/0.0.679-0.0.680/diff.md --exclude *.pyd
+[2023-06-19 11:38:20] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.2.4.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.2.5.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [fb-tools]: Start processing: font-CLI
+[2023-06-19 11:38:20] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
+[2023-06-19 11:38:20] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3d/67/0ecba185ee8a924b442dd239c5d356f03b0a7d93ac51620b0171bc272b08/power-grid-model-1.5.0rc9174911844893.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [otcdocstheme]: executing diffoscope
+[2023-06-19 11:38:20] INFO root fetch - processPackages [otcdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcdocstheme-0.8.1.tar.gz tmp/otcdocstheme-0.9.0.tar.gz --markdown 20230619/o/otcdocstheme/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 11:38:20] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_type-14.0.3.0.4.dev1-py3-none-any.whl.zip]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_type-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [odoo14-addon-sale-order-type]: Start processing: capellambse-context-diagrams
+[2023-06-19 11:38:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-type]: success
+[2023-06-19 11:38:20] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.7.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-2.9.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [ensta]: Start processing: resolwe
+[2023-06-19 11:38:20] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-19 11:38:20] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/06/60/9a4e563794daa93134d8c5427df6bf3a3d4b52b1d2f640738b6cf7b03ea6/font-CLI-0.9.8.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.5.0.0.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.5.0.1.tar.gz]
+[2023-06-19 11:38:20] INFO root fetch - main [MainThread]: End processing [pyhector]: success
+[2023-06-19 11:38:20] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/09/66/1466c8a183aed2370b9de47dc0fc3c3cf5041314b524802af7a155c12872/power-grid-model-1.5.0rc9175313495131.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-19 11:38:20] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9174911844893.tar.gz tmp/power-grid-model-1.5.0rc9175313495131.tar.gz --markdown 20230619/p/power-grid-model/1.5.0rc9174911844893-1.5.0rc9175313495131/diff.md --exclude *.pyd
+[2023-06-19 11:38:20] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/32/a2/92d8279cf0ec790d01e55a0b0024fe518128e1728d42dfbbb55e17f8a4c9/font-CLI-0.9.9.tar.gz
+[2023-06-19 11:38:20] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-06-19 11:38:20] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230619/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 11:38:21] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-06-19 11:38:21] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230619/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 11:38:21] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2023-06-19 11:38:21] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-06-19 11:38:21] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-06-19 11:38:21] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230619/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-19 11:38:21] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2023-06-19 11:38:21] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20230619/c/capellambse-context-diagrams/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 11:38:21] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.679.tar.gz]
+[2023-06-19 11:38:21] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.680.tar.gz]
+[2023-06-19 11:38:21] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-06-19 11:38:21] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-0.8.1.tar.gz]
+[2023-06-19 11:38:21] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-0.9.0.tar.gz]
+[2023-06-19 11:38:21] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
+[2023-06-19 11:38:22] INFO root fetch - processPackages [font-CLI]: Remove: archive file [/home/abi/fetcher/tmp/font-CLI-0.9.8.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - processPackages [font-CLI]: Remove: archive file [/home/abi/fetcher/tmp/font-CLI-0.9.9.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-06-19 11:38:22] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.1.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.2.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - main [MainThread]: End processing [pynter-defects]: success
+[2023-06-19 11:38:22] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-06-19 11:38:22] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-06-19 11:38:23] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2023-06-19 11:38:23] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2023-06-19 11:38:23] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2023-06-19 11:38:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9174911844893.tar.gz]
+[2023-06-19 11:38:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9175313495131.tar.gz]
+[2023-06-19 11:38:24] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-19 11:38:26] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-06-19 11:38:26] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-06-19 11:38:26] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-06-19 11:38:28] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.1.65222.tar.gz]
+[2023-06-19 11:38:28] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.1.65224.tar.gz]
+[2023-06-19 11:38:28] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2023-06-19 11:38:28] INFO root fetch - main [MainThread]: Store serial: [18558138]
