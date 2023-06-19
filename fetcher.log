@@ -15061,3 +15061,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:08:29] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b7.tar.gz]
 [2023-06-19 13:08:29] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
 [2023-06-19 13:08:29] INFO root fetch - main [MainThread]: Store serial: [18558847]
+[2023-06-19 13:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558847]
+[2023-06-19 13:13:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-token-index
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fuzzy-magic
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-private-bucket
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipyfilite
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataclasses-avroschema
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diengine-connect
+[2023-06-19 13:13:39] INFO root fetch - processPackages [eth-token-index]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [fuzzy-magic]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [diengine-connect]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 13:13:39] INFO root fetch - processPackages [eth-token-index]: Downloading https://files.pythonhosted.org/packages/ef/4d/197356ae40643184729c6a8f880b0ec7aabfed93eee44e6eff0d026ecc14/eth-token-index-0.6.1.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [fuzzy-magic]: Downloading https://files.pythonhosted.org/packages/4f/1f/b79a502ab99ddaa256b673c13d3654390d1b2b8af72ae5378e649e572d5d/fuzzy_magic-1.0.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [diengine-connect]: Downloading https://files.pythonhosted.org/packages/10/d4/32662e9bd4c2f1536001939c25b4230cde22e33e930da23ac5dd05ade375/diengine-connect-0.1.8.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-19 13:13:39] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230619/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:13:39] INFO root fetch - processPackages [fuzzy-magic]: Downloading https://files.pythonhosted.org/packages/68/2a/31bd4a3e5fde324d9eda6e600d91893db0b43f8eaca2f123a48328fe0f68/fuzzy_magic-1.0.1.tar.gz
+[2023-06-19 13:13:39] INFO root fetch - processPackages [eth-token-index]: Downloading https://files.pythonhosted.org/packages/ee/f8/623123ac53a6b3c42a1fa3520b2df1e3c4094d0f6394ba592826df18f1e3/eth-token-index-0.6.2.tar.gz
+[2023-06-19 13:13:40] INFO root fetch - processPackages [diengine-connect]: Downloading https://files.pythonhosted.org/packages/1a/2a/f000f6181e81d1133260fdb3a4b80dced5281a392d0205f6f3f94d3abb72/diengine-connect-0.1.9.tar.gz
+[2023-06-19 13:13:40] INFO root fetch - processPackages [fuzzy-magic]: executing diffoscope
+[2023-06-19 13:13:40] INFO root fetch - processPackages [fuzzy-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzy_magic-1.0.tar.gz tmp/fuzzy_magic-1.0.1.tar.gz --markdown 20230619/f/fuzzy-magic/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 13:13:40] INFO root fetch - processPackages [eth-token-index]: executing diffoscope
+[2023-06-19 13:13:40] INFO root fetch - processPackages [eth-token-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-token-index-0.6.1.tar.gz tmp/eth-token-index-0.6.2.tar.gz --markdown 20230619/e/eth-token-index/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-19 13:13:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-19 13:13:40] INFO root fetch - processPackages [diengine-connect]: executing diffoscope
+[2023-06-19 13:13:40] INFO root fetch - processPackages [diengine-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diengine-connect-0.1.8.tar.gz tmp/diengine-connect-0.1.9.tar.gz --markdown 20230619/d/diengine-connect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:13:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-19 13:13:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230619/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:13:40] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-06-19 13:13:40] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-06-19 13:13:40] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230619/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 13:13:41] INFO root fetch - processPackages [fuzzy-magic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_magic-1.0.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - processPackages [fuzzy-magic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_magic-1.0.1.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - main [MainThread]: End processing [fuzzy-magic]: success
+[2023-06-19 13:13:41] INFO root fetch - processPackages [eth-token-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-token-index-0.6.1.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - processPackages [eth-token-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-token-index-0.6.2.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - main [MainThread]: End processing [eth-token-index]: success
+[2023-06-19 13:13:41] INFO root fetch - processPackages [diengine-connect]: Remove: archive file [/home/abi/fetcher/tmp/diengine-connect-0.1.8.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - processPackages [diengine-connect]: Remove: archive file [/home/abi/fetcher/tmp/diengine-connect-0.1.9.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - main [MainThread]: End processing [diengine-connect]: success
+[2023-06-19 13:13:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-19 13:13:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-19 13:13:42] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2023-06-19 13:13:42] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2023-06-19 13:13:42] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-06-19 13:13:43] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-19 13:13:43] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-19 13:13:43] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-19 13:13:43] INFO root fetch - main [MainThread]: Store serial: [18558869]
