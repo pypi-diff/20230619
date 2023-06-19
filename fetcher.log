@@ -14644,3 +14644,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:46:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.4.tar.gz]
 [2023-06-19 12:46:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2023-06-19 12:46:46] INFO root fetch - main [MainThread]: Store serial: [18558682]
+[2023-06-19 12:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558682]
+[2023-06-19 12:51:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mujoco-dev
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virt-firmware
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contur
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-model-builder-multilingual
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sunpeek
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supervisely
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lithic
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notification-sdk-preview
+[2023-06-19 12:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sliceable-dict
+[2023-06-19 12:51:55] INFO root fetch - processPackages [contur]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sliceable-dict]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.748] Old Version: [0.1.744.post2]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev541584847] Old Version: [2.3.6.dev540691205]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [virt-firmware]: New version: [23.6] Old Version: [23.5]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-19 12:51:55] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/b6/5c/9a42546217dd632a243643d5817e68a22a76e43dbe1b0a6b68bba61c287a/oarepo-model-builder-multilingual-3.0.4.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/f2/d7/2ffd0f41d9cbfaccf474ecc402ac6c8766a01c5588c894981054a0500e09/sliceable_dict-0.3.0.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-19 12:51:55] INFO root fetch - processPackages [virt-firmware]: Downloading https://files.pythonhosted.org/packages/c2/f8/204dc513d2d3f0f3d3aead03600f7db1b763cf02998ad7b35e7ac5ef6849/virt-firmware-23.5.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [contur]: Downloading https://files.pythonhosted.org/packages/82/5c/5de43cd1a9c8f4edd32590d9cc3f5a8dbdd36ba690528977860cb5dbd24c/contur-2.4.2-py3-none-any.whl
+[2023-06-19 12:51:55] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b3/4b/bdfd140dca00d817032403dc42efde713f019e7ac2593bee0fa83fe29c83/lusid-notification-sdk-preview-0.1.744.post2.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/3d/fa/c308862a892152b2b862bcb0835c098fdae8d64d9a86a09e3c5d8b74c682/oarepo-model-builder-multilingual-3.0.5.tar.gz
+[2023-06-19 12:51:55] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/6f/65/b9d242d64714818f7a9a8c4dd42669057604d63bcffa058598a059854ac2/mujoco_dev-2.3.6.dev540691205-cp39-cp39-win_amd64.whl
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-19 12:51:55] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-19 12:51:55] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230619/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/80/da/be18d6786f9d59efded45952cb790abb3a136da1401011ea50460947f3ed/sliceable_dict-0.4.0.tar.gz
+[2023-06-19 12:51:55] WARNING root fetch - processPackages [contur]: Skipping package: exceeds size limit 66279721>=10485760
+[2023-06-19 12:51:55] INFO root fetch - processPackages [contur]: Start processing: nwon-django-toolbox
+[2023-06-19 12:51:55] INFO root fetch - main [MainThread]: End processing [contur] error
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-19 12:51:55] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230619/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-19 12:51:56] INFO root fetch - processPackages [virt-firmware]: Downloading https://files.pythonhosted.org/packages/3c/8e/03a0688a635657f52d0e88db8dd059a60311c443da3547be77c09398ecc8/virt-firmware-23.6.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [sliceable-dict]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [sliceable-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceable_dict-0.3.0.tar.gz tmp/sliceable_dict-0.4.0.tar.gz --markdown 20230619/s/sliceable-dict/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-3.0.4.tar.gz tmp/oarepo-model-builder-multilingual-3.0.5.tar.gz --markdown 20230619/o/oarepo-model-builder-multilingual/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/15/06/b235b2193124a2872a8820783af6151af3daf1212876ae61789a52d3d4dc/nwon_django_toolbox-0.5.4.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/28/27/873542fdff5c48d15949aa927632f67b038b24de535581381c62b049b68e/lusid-notification-sdk-preview-0.1.748.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [virt-firmware]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [virt-firmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virt-firmware-23.5.tar.gz tmp/virt-firmware-23.6.tar.gz --markdown 20230619/v/virt-firmware/23.5-23.6/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230619/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.744.post2.tar.gz tmp/lusid-notification-sdk-preview-0.1.748.tar.gz --markdown 20230619/l/lusid-notification-sdk-preview/0.1.744.post2-0.1.748/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230619/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/53/db7486b391f48e65a9e2004198fe01da2d4c1eae8ddd8fe881fa4059e332/nwon_django_toolbox-0.5.5.tar.gz
+[2023-06-19 12:51:56] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-06-19 12:51:56] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.5.4.tar.gz tmp/nwon_django_toolbox-0.5.5.tar.gz --markdown 20230619/n/nwon-django-toolbox/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-19 12:51:56] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/83/1f/d788b01f4ed53e8864524e306fa7666b44800123c710865a96110250739e/mujoco_dev-2.3.6.dev541584847-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 12:51:57] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-06-19 12:51:57] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev540691205-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev541584847-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230619/m/mujoco-dev/2.3.6.dev540691205-2.3.6.dev541584847/diff.md --exclude *.pyd
+[2023-06-19 12:51:57] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.3.0.tar.gz]
+[2023-06-19 12:51:57] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.4.0.tar.gz]
+[2023-06-19 12:51:57] INFO root fetch - main [MainThread]: End processing [sliceable-dict]: success
+[2023-06-19 12:51:57] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-19 12:51:57] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-19 12:51:57] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-19 12:51:58] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-06-19 12:51:58] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.4.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.5.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-06-19 12:51:58] INFO root fetch - processPackages [virt-firmware]: Remove: archive file [/home/abi/fetcher/tmp/virt-firmware-23.5.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - processPackages [virt-firmware]: Remove: archive file [/home/abi/fetcher/tmp/virt-firmware-23.6.tar.gz]
+[2023-06-19 12:51:58] INFO root fetch - main [MainThread]: End processing [virt-firmware]: success
+[2023-06-19 12:51:59] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.8.0.tar.gz]
+[2023-06-19 12:51:59] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.9.0.tar.gz]
+[2023-06-19 12:51:59] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-06-19 12:51:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.744.post2.tar.gz]
+[2023-06-19 12:51:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.tar.gz]
+[2023-06-19 12:51:59] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-19 12:52:01] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-19 12:52:01] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-19 12:52:01] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-19 12:52:01] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev540691205-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 12:52:01] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev541584847-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 12:52:01] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-06-19 12:52:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.4.tar.gz]
+[2023-06-19 12:52:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.5.tar.gz]
+[2023-06-19 12:52:44] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-06-19 12:52:44] INFO root fetch - main [MainThread]: Store serial: [18558727]
