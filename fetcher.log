@@ -8038,3 +8038,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:08:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230618.tar.gz]
 [2023-06-19 08:08:10] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-19 08:08:10] INFO root fetch - main [MainThread]: Store serial: [18556138]
+[2023-06-19 08:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556138]
+[2023-06-19 08:13:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camply
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypose
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-cloudapi20160714
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cloudapi20160714-py2
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynostr-cli
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microservices-common
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aorta-sirius-dev
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: look-like-scanned
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: instadon
+[2023-06-19 08:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smpgpt
+[2023-06-19 08:13:19] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [pypose]: New version: [0.5.0b0] Old Version: [0.4.4]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [look-like-scanned]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [microservices-common]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [pynostr-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [smpgpt]: New version: [5.0] Old Version: [4.0]
+[2023-06-19 08:13:19] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/8d/4c/9bb9ff925f9039df8ff05f5b4c5108fca5c78674d90499a83f7429ee52b5/alibabacloud_cloudapi20160714-2.2.8.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [pynostr-cli]: Downloading https://files.pythonhosted.org/packages/c2/dd/b5a2cd9108031720259050eab02b7078bd2c8a1e1699f387d695efd4c051/pynostr_cli-0.1.1.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/09/10/55275f079671f2324e93cbf499ece4017fd5a779a3ebe3d0d81d6780e4d4/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/da/50/e82931eb9f868813dfd5c849ce12634f868339ed4647a4f0e8e89d4e3f24/smpgpt-4.0.tar.gz
+[2023-06-19 08:13:19] WARNING root fetch - processPackages [instadon]: Skipping, unable to determine old version
+[2023-06-19 08:13:19] INFO root fetch - processPackages [instadon]: Start processing: aorta-sirius
+[2023-06-19 08:13:19] INFO root fetch - main [MainThread]: End processing [instadon] error
+[2023-06-19 08:13:19] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/7e/f4/72d4aa78c2eafed3b97cb3e8771ff32caef4c97ccda291b6c03af9e3be4f/alibabacloud_cloudapi20160714-2.2.9.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/c9/47/e3e5f3b132c97d62e460e709d309b8cae335d89a77a22901ed445451f527/microservices_common-0.0.84.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [look-like-scanned]: Downloading https://files.pythonhosted.org/packages/f8/a1/7da8c25f9ee714aa6e5a9ff971dff06d6b130d66d18ba9811f6074dd0501/look_like_scanned-0.2.3.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-19 08:13:19] INFO root fetch - processPackages [pypose]: Downloading https://files.pythonhosted.org/packages/1a/51/a40611832c185cec76ecb244572140eeb3eeac4c146faa3eea888a70dca4/pypose-0.4.4.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/6c/01/9e15281f8c8ce41ba2c4b056f5647f40adc70f2672aa530585533a56b66f/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz --markdown 20230619/a/alibabacloud-cloudapi20160714/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/78/16/49015c12fcf876c900b5b35244c8f9e9c8de6a126f37a148d62fc14faee7/smpgpt-5.0.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius]: New version: [0.8] Old Version: [0.7]
+[2023-06-19 08:13:20] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/18/65/42a7244c50e3cb0b26a6a430635e23b6584e219c7a28c6cb6bd4d7925540/microservices_common-0.0.9.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz --markdown 20230619/a/alibabacloud-cloudapi20160714-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pynostr-cli]: Downloading https://files.pythonhosted.org/packages/f5/71/615935555abcbf2840ffa1bbc7a83ab273810d7bad2419579b41e13098c2/pynostr_cli-0.1.2.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-4.0.tar.gz tmp/smpgpt-5.0.tar.gz --markdown 20230619/s/smpgpt/4.0-5.0/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-0.0.84.tar.gz tmp/microservices_common-0.0.9.tar.gz --markdown 20230619/m/microservices-common/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pynostr-cli]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pynostr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynostr_cli-0.1.1.tar.gz tmp/pynostr_cli-0.1.2.tar.gz --markdown 20230619/p/pynostr-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230619/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pypose]: Downloading https://files.pythonhosted.org/packages/5a/6e/016f284a4abfa132b7b68afd93cfb98c95afb6a68fba5f7159649a5db6f9/pypose-0.5.0b0.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [look-like-scanned]: Downloading https://files.pythonhosted.org/packages/6e/11/38125f141d2419175263ec7d2f3cce636181762eb55494e4590dbd1f9902/look_like_scanned-0.2.4.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/e2/c7/de561db3b9005d2ae8b4d852f0c4f2e4197a2af699eb126ae7869b760e33/aorta_sirius-0.7.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230619/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pypose]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [pypose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypose-0.4.4.tar.gz tmp/pypose-0.5.0b0.tar.gz --markdown 20230619/p/pypose/0.4.4-0.5.0b0/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [look-like-scanned]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [look-like-scanned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/look_like_scanned-0.2.3.tar.gz tmp/look_like_scanned-0.2.4.tar.gz --markdown 20230619/l/look-like-scanned/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-19 08:13:20] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.7.tar.gz tmp/aorta_sirius-0.8.tar.gz --markdown 20230619/a/aorta-sirius/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-19 08:13:21] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-4.0.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-5.0.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:13:21] INFO root fetch - processPackages [pynostr-cli]: Remove: archive file [/home/abi/fetcher/tmp/pynostr_cli-0.1.1.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [pynostr-cli]: Remove: archive file [/home/abi/fetcher/tmp/pynostr_cli-0.1.2.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [pynostr-cli]: success
+[2023-06-19 08:13:21] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-19 08:13:21] INFO root fetch - processPackages [look-like-scanned]: Remove: archive file [/home/abi/fetcher/tmp/look_like_scanned-0.2.3.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [look-like-scanned]: Remove: archive file [/home/abi/fetcher/tmp/look_like_scanned-0.2.4.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [look-like-scanned]: success
+[2023-06-19 08:13:21] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.84.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.9.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2023-06-19 08:13:21] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.7.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-06-19 08:13:21] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-19 08:13:22] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-19 08:13:22] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-19 08:13:22] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-19 08:13:23] INFO root fetch - processPackages [pypose]: Remove: archive file [/home/abi/fetcher/tmp/pypose-0.4.4.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - processPackages [pypose]: Remove: archive file [/home/abi/fetcher/tmp/pypose-0.5.0b0.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - main [MainThread]: End processing [pypose]: success
+[2023-06-19 08:13:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2023-06-19 08:13:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz]
+[2023-06-19 08:13:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
+[2023-06-19 08:13:23] INFO root fetch - main [MainThread]: Store serial: [18556165]
