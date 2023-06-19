@@ -7765,3 +7765,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:52:26] INFO root fetch - processPackages [Chameleon]: Remove: archive file [/home/abi/fetcher/tmp/Chameleon-4.0.1.tar.gz]
 [2023-06-19 07:52:26] INFO root fetch - main [MainThread]: End processing [Chameleon]: success
 [2023-06-19 07:52:26] INFO root fetch - main [MainThread]: Store serial: [18556053]
+[2023-06-19 07:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556053]
+[2023-06-19 07:57:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-line-plotter
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autohooks-plugin-ruff
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atila-vue
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guan
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upathlib
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: authit
+[2023-06-19 07:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-06-19 07:57:35] INFO root fetch - processPackages [atila-vue]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: New version: [23.6.1] Old Version: [23.6.0]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [guan]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [authit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [upathlib]: New version: [0.8.1b2] Old Version: [0.8.1b1]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [xklb]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-19 07:57:35] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/3a/3d/1f771781d281c1d2dda5f6a8ba230c9946cf425807961745086ccb2391ec/authit-0.0.3.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/20/c7/6a651cd868c90a38c56812f7acd112d9525085994cab16619f3477b9eb48/xklb-2.1.2.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/4a/c6/843db36e0ca5170b23c7e6fb46407bc0dd35f33d6878cb827ffdbb21d18e/st_line_plotter-0.0.2.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/2f/2f/64697ef1ce35181684112fb95641cbf3f56bca4e607502424176584c4e11/guan-0.0.98.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/cb/0a/d2462dbddc99f417d1d15172576e88ccf48b3b81447c964cd70567a609df/atila_vue-0.2.1-py3-none-any.whl
+[2023-06-19 07:57:35] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/4e/fd/84d30491a7d724cfd9d0f05b84a86a3f137972a66ddd24b01f980e740016/upathlib-0.8.1b1.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-19 07:57:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: Downloading https://files.pythonhosted.org/packages/db/fa/caebdb82b38a39036001f2c1b415e15c03010dc1f5415423231d1835f879/autohooks_plugin_ruff-23.6.0.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/ae/47/686f5d15f9864d9f734606069dc3343b92b790fac9e687fec59fff0c8967/xklb-2.1.3.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/55/40/c40bff0571c902536e1c36202ded90f763b5b20ae4503c0ddaa1c749fc48/authit-0.0.4.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [authit]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [authit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authit-0.0.3.tar.gz tmp/authit-0.0.4.tar.gz --markdown 20230619/a/authit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 07:57:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: Downloading https://files.pythonhosted.org/packages/1d/6e/0880431ca32044562a202e279b15fc0b225d5f2d7468aa4f185f2f8403b7/autohooks_plugin_ruff-23.6.1.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.2.tar.gz tmp/xklb-2.1.3.tar.gz --markdown 20230619/x/xklb/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-19 07:57:35] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/6f/c2/607f79d82d9caf804fd3d46bb1d7b70ac904f76098ad573cb1837052cf4e/atila_vue-0.3.0-py3-none-any.whl
+[2023-06-19 07:57:35] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/f8/2c/505635d347e28e4c5cf2ae686be121653f740cdae21f5688eb518eadc0b8/st_line_plotter-0.0.3.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-19 07:57:35] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/48/43/328866155398d93806c477eb3ce980fe8c4adff87397e19cc736777c2258/upathlib-0.8.1b2.tar.gz
+[2023-06-19 07:57:35] INFO root fetch - processPackages [atila-vue]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [atila-vue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila_vue-0.2.1-py3-none-any.whl.zip tmp/atila_vue-0.3.0-py3-none-any.whl.zip --markdown 20230619/a/atila-vue/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 07:57:35] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230619/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-19 07:57:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks_plugin_ruff-23.6.0.tar.gz tmp/autohooks_plugin_ruff-23.6.1.tar.gz --markdown 20230619/a/autohooks-plugin-ruff/23.6.0-23.6.1/diff.md --exclude *.pyd
+[2023-06-19 07:57:35] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-06-19 07:57:35] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.8.1b1.tar.gz tmp/upathlib-0.8.1b2.tar.gz --markdown 20230619/u/upathlib/0.8.1b1-0.8.1b2/diff.md --exclude *.pyd
+[2023-06-19 07:57:36] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/73/bf/798860b195a9284a0cfef1c9cbd178ef81cae8f027e0fad0295fa8cf0fd3/guan-0.0.99.tar.gz
+[2023-06-19 07:57:36] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-19 07:57:36] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.2.tar.gz tmp/st_line_plotter-0.0.3.tar.gz --markdown 20230619/s/st-line-plotter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 07:57:36] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.3.tar.gz]
+[2023-06-19 07:57:36] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.4.tar.gz]
+[2023-06-19 07:57:36] INFO root fetch - main [MainThread]: End processing [authit]: success
+[2023-06-19 07:57:36] INFO root fetch - processPackages [guan]: executing diffoscope
+[2023-06-19 07:57:36] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.0.98.tar.gz tmp/guan-0.0.99.tar.gz --markdown 20230619/g/guan/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 07:57:37] INFO root fetch - processPackages [autohooks-plugin-ruff]: Remove: archive file [/home/abi/fetcher/tmp/autohooks_plugin_ruff-23.6.0.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - processPackages [autohooks-plugin-ruff]: Remove: archive file [/home/abi/fetcher/tmp/autohooks_plugin_ruff-23.6.1.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-ruff]: success
+[2023-06-19 07:57:37] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.1b1.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.1b2.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-06-19 07:57:37] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.2.1-py3-none-any.whl.zip]
+[2023-06-19 07:57:37] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.0-py3-none-any.whl.zip]
+[2023-06-19 07:57:37] INFO root fetch - main [MainThread]: End processing [atila-vue]: success
+[2023-06-19 07:57:37] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.98.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.0.99.tar.gz]
+[2023-06-19 07:57:37] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2023-06-19 07:57:38] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.2.tar.gz]
+[2023-06-19 07:57:38] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.3.tar.gz]
+[2023-06-19 07:57:38] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-19 07:57:39] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.2.tar.gz]
+[2023-06-19 07:57:39] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.3.tar.gz]
+[2023-06-19 07:57:39] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-19 07:57:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-19 07:57:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-19 07:57:41] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-19 07:57:41] INFO root fetch - main [MainThread]: Store serial: [18556075]
