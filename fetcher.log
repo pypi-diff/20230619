@@ -8446,3 +8446,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:30:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230619.tar.gz]
 [2023-06-19 08:30:36] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-19 08:30:36] INFO root fetch - main [MainThread]: Store serial: [18556275]
+[2023-06-19 08:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556275]
+[2023-06-19 08:35:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-line-plotter
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioinject
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipeline-data
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-line-plotter
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-line-plotter
+[2023-06-19 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-account-invoice-overdue-reminder
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [aioinject]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [pipeline-data]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: New version: [12.0.2.2.1] Old Version: [12.0.2.2.0.99.dev2]
+[2023-06-19 08:35:46] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/77/65/d116b94157c3ef9294ef180ee9abf323cf0e185502758e99fe07803d02cd/aioinject-0.7.0.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/b5/98/1d6d805f31d833de5fce8685f1fcd5de4708e5c26d7793bb77646760bf1d/st_line_plotter-0.0.7.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/b5/98/1d6d805f31d833de5fce8685f1fcd5de4708e5c26d7793bb77646760bf1d/st_line_plotter-0.0.7.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [pipeline-data]: Downloading https://files.pythonhosted.org/packages/54/c6/ddd44102f56bc2baede9409dcf40c21fd68a524780ff448382d292a8d4e8/pipeline-data-1.2.3.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/b5/98/1d6d805f31d833de5fce8685f1fcd5de4708e5c26d7793bb77646760bf1d/st_line_plotter-0.0.7.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/e3/be/3c39254b653a98ab09faeb04b6f8022ede9e04ab0a40acbada1b235bb316/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl
+[2023-06-19 08:35:46] INFO root fetch - processPackages [pipeline-data]: Downloading https://files.pythonhosted.org/packages/da/cc/f805675eda56283f466b9b3b4bb3dd92d906179ffd5cfe646625062a4871/pipeline-data-1.2.4.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/ac/3b/44111e4bf4363de528cf76a1eff1cd39f6fd09c9d5bfea0f7d9bbaa6ed72/st_line_plotter-0.0.8.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/ac/3b/44111e4bf4363de528cf76a1eff1cd39f6fd09c9d5bfea0f7d9bbaa6ed72/st_line_plotter-0.0.8.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/ac/3b/44111e4bf4363de528cf76a1eff1cd39f6fd09c9d5bfea0f7d9bbaa6ed72/st_line_plotter-0.0.8.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/2d/4d/58c0241e638181ac9218734f678ea6dadbac2004e8fa6331a5f94caf06b9/aioinject-0.8.0.tar.gz
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.7.tar.gz tmp/st_line_plotter-0.0.8.tar.gz --markdown 20230619/s/st-line-plotter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.7.tar.gz tmp/st_line_plotter-0.0.8.tar.gz --markdown 20230619/s/st-line-plotter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-19 08:35:46] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.7.tar.gz tmp/st_line_plotter-0.0.8.tar.gz --markdown 20230619/s/st-line-plotter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 08:35:46] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/09/3d/ac9d1abd237cec767e2e6718a4f5d47b8c9424a599fc136fb5f8e6e7d2d8/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1-py3-none-any.whl
+[2023-06-19 08:35:46] INFO root fetch - processPackages [pipeline-data]: executing diffoscope
+[2023-06-19 08:35:46] INFO root fetch - processPackages [pipeline-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-data-1.2.3.tar.gz tmp/pipeline-data-1.2.4.tar.gz --markdown 20230619/p/pipeline-data/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-19 08:35:46] INFO root fetch - processPackages [aioinject]: executing diffoscope
+[2023-06-19 08:35:46] INFO root fetch - processPackages [aioinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioinject-0.7.0.tar.gz tmp/aioinject-0.8.0.tar.gz --markdown 20230619/a/aioinject/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-19 08:35:47] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-06-19 08:35:47] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1-py3-none-any.whl.zip --markdown 20230619/o/odoo12-addon-account-invoice-overdue-reminder/12.0.2.2.0.99.dev2-12.0.2.2.1/diff.md --exclude *.pyd
+[2023-06-19 08:35:48] INFO root fetch - processPackages [pipeline-data]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-data-1.2.3.tar.gz]
+[2023-06-19 08:35:48] INFO root fetch - processPackages [pipeline-data]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-data-1.2.4.tar.gz]
+[2023-06-19 08:35:48] INFO root fetch - main [MainThread]: End processing [pipeline-data]: success
+[2023-06-19 08:35:48] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.7.0.tar.gz]
+[2023-06-19 08:35:48] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.8.0.tar.gz]
+[2023-06-19 08:35:48] INFO root fetch - main [MainThread]: End processing [aioinject]: success
+[2023-06-19 08:35:48] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl.zip]
+[2023-06-19 08:35:48] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1-py3-none-any.whl.zip]
+[2023-06-19 08:35:48] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-overdue-reminder]: success
+[2023-06-19 08:36:05] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.7.tar.gz]
+[2023-06-19 08:36:05] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.8.tar.gz]
+[2023-06-19 08:36:05] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-19 08:36:05] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-19 08:36:59] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-19 08:36:59] INFO root fetch - main [MainThread]: Store serial: [18556297]
