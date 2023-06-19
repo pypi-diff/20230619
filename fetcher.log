@@ -5614,3 +5614,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:53:54] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-19 04:53:54] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-19 04:53:54] INFO root fetch - main [MainThread]: Store serial: [18555141]
+[2023-06-19 04:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555141]
+[2023-06-19 04:59:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potato-annotation
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bc-acc-dup
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spider-st
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baselibs
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bc-acc-dup
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cloudapi20160714-py2
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-cloudapi20160714
+[2023-06-19 04:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xlf-merge
+[2023-06-19 04:59:02] INFO root fetch - processPackages [bc-acc-dup]: New version: [1.4] Old Version: [1.3]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [potato-annotation]: New version: [1.2.0.9] Old Version: [1.2.0.8]
+[2023-06-19 04:59:02] WARNING root fetch - processPackages [baselibs]: Skipping, unable to determine old version
+[2023-06-19 04:59:02] INFO root fetch - main [MainThread]: End processing [baselibs] error
+[2023-06-19 04:59:02] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [bc-acc-dup]: New version: [1.4] Old Version: [1.3]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [xlf-merge]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 04:59:02] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/f3/ef/ace6a5738962e727d3fcf608264bacbbdaf28c9cf6327ef92d73a47ec9e9/bc-acc-dup-1.3.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/f3/ef/ace6a5738962e727d3fcf608264bacbbdaf28c9cf6327ef92d73a47ec9e9/bc-acc-dup-1.3.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/97/11/7b938befc793f6c05a732849dfb983a399f427fd5dd70339b2cbc3dff92b/potato-annotation-1.2.0.8.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [xlf-merge]: Downloading https://files.pythonhosted.org/packages/b2/bb/c43dab2ebe16e7edad2d249796b845fd31b1fcf3f1d1e0f7a0a172178cdb/xlf-merge-0.1.2.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/8d/4c/9bb9ff925f9039df8ff05f5b4c5108fca5c78674d90499a83f7429ee52b5/alibabacloud_cloudapi20160714-2.2.8.tar.gz
+[2023-06-19 04:59:02] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/09/10/55275f079671f2324e93cbf499ece4017fd5a779a3ebe3d0d81d6780e4d4/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/4e/e5/6729ba2d5dea6dcf866da475b5e8a0fe2215a1d8e5a34b7284966d1a023a/bc-acc-dup-1.4.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: Downloading https://files.pythonhosted.org/packages/4e/e5/6729ba2d5dea6dcf866da475b5e8a0fe2215a1d8e5a34b7284966d1a023a/bc-acc-dup-1.4.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-acc-dup-1.3.tar.gz tmp/bc-acc-dup-1.4.tar.gz --markdown 20230619/b/bc-acc-dup/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [bc-acc-dup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-acc-dup-1.3.tar.gz tmp/bc-acc-dup-1.4.tar.gz --markdown 20230619/b/bc-acc-dup/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [xlf-merge]: Downloading https://files.pythonhosted.org/packages/a4/95/d380de43230770af1db833b0a1d3b4ca1060ac99454c097d46c29877e37e/xlf-merge-0.1.5.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230619/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [xlf-merge]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [xlf-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlf-merge-0.1.2.tar.gz tmp/xlf-merge-0.1.5.tar.gz --markdown 20230619/x/xlf-merge/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/7e/f4/72d4aa78c2eafed3b97cb3e8771ff32caef4c97ccda291b6c03af9e3be4f/alibabacloud_cloudapi20160714-2.2.9.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/9d/d7/657ca751047cfdbe61f3eb4d71e0f6516d6f57ec0b107ab14280493f8c9a/potato-annotation-1.2.0.9.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/6c/01/9e15281f8c8ce41ba2c4b056f5647f40adc70f2672aa530585533a56b66f/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz --markdown 20230619/a/alibabacloud-cloudapi20160714/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz --markdown 20230619/a/alibabacloud-cloudapi20160714-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-19 04:59:03] INFO root fetch - processPackages [potato-annotation]: executing diffoscope
+[2023-06-19 04:59:03] INFO root fetch - processPackages [potato-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato-annotation-1.2.0.8.tar.gz tmp/potato-annotation-1.2.0.9.tar.gz --markdown 20230619/p/potato-annotation/1.2.0.8-1.2.0.9/diff.md --exclude *.pyd
+[2023-06-19 04:59:04] INFO root fetch - processPackages [bc-acc-dup]: Remove: archive file [/home/abi/fetcher/tmp/bc-acc-dup-1.3.tar.gz]
+[2023-06-19 04:59:04] INFO root fetch - processPackages [bc-acc-dup]: Remove: archive file [/home/abi/fetcher/tmp/bc-acc-dup-1.4.tar.gz]
+[2023-06-19 04:59:04] INFO root fetch - main [MainThread]: End processing [bc-acc-dup]: success
+[2023-06-19 04:59:04] INFO root fetch - main [MainThread]: End processing [bc-acc-dup]: success
+[2023-06-19 04:59:04] INFO root fetch - processPackages [xlf-merge]: Remove: archive file [/home/abi/fetcher/tmp/xlf-merge-0.1.2.tar.gz]
+[2023-06-19 04:59:04] INFO root fetch - processPackages [xlf-merge]: Remove: archive file [/home/abi/fetcher/tmp/xlf-merge-0.1.5.tar.gz]
+[2023-06-19 04:59:04] INFO root fetch - main [MainThread]: End processing [xlf-merge]: success
+[2023-06-19 04:59:05] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.8.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.9.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
+[2023-06-19 04:59:05] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
+[2023-06-19 04:59:05] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz]
+[2023-06-19 04:59:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2023-06-19 04:59:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-19 04:59:17] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-19 04:59:17] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-19 04:59:17] INFO root fetch - main [MainThread]: Store serial: [18555165]
