@@ -15118,3 +15118,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:13:43] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
 [2023-06-19 13:13:43] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
 [2023-06-19 13:13:43] INFO root fetch - main [MainThread]: Store serial: [18558869]
+[2023-06-19 13:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558869]
+[2023-06-19 13:18:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genos
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yud102023
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpxj
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bobtemplates.plone
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ilakkani
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: server-asyn-chat
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chemtrain
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: client-asyn-chat
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: github-utils-api
+[2023-06-19 13:18:52] INFO root fetch - processPackages [bobtemplates.plone]: New version: [6.3.0] Old Version: [6.2.7]
+[2023-06-19 13:18:52] WARNING root fetch - processPackages [ilakkani]: Skipping, unable to determine old version
+[2023-06-19 13:18:52] INFO root fetch - processPackages [ilakkani]: Start processing: funasr-onnx
+[2023-06-19 13:18:52] INFO root fetch - main [MainThread]: End processing [ilakkani] error
+[2023-06-19 13:18:52] INFO root fetch - processPackages [yud102023]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 13:18:52] INFO root fetch - processPackages [genos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:18:52] WARNING root fetch - processPackages [client-asyn-chat]: Skipping, unable to determine old version
+[2023-06-19 13:18:52] INFO root fetch - main [MainThread]: End processing [client-asyn-chat] error
+[2023-06-19 13:18:52] INFO root fetch - processPackages [funasr]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-19 13:18:52] WARNING root fetch - processPackages [chemtrain]: Skipping, unable to determine old version
+[2023-06-19 13:18:52] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2023-06-19 13:18:52] INFO root fetch - main [MainThread]: End processing [chemtrain] error
+[2023-06-19 13:18:52] WARNING root fetch - processPackages [server-asyn-chat]: Skipping, unable to determine old version
+[2023-06-19 13:18:52] INFO root fetch - main [MainThread]: End processing [server-asyn-chat] error
+[2023-06-19 13:18:52] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/95/10/128574a259b3f4c500e2465a936559d5278f85a6ccb28ce243d9c5035263/yud102023-0.0.3.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [bobtemplates.plone]: Downloading https://files.pythonhosted.org/packages/2b/5a/5a7bc24446f94a5c09f4d5924c557479e260e8edf6423756d114e24c359a/bobtemplates.plone-6.2.7.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [github-utils-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 13:18:52] INFO root fetch - processPackages [funasr-onnx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 13:18:52] INFO root fetch - processPackages [genos]: Downloading https://files.pythonhosted.org/packages/a1/fd/41e9306562f56568d84e82f82a0b6a3147d39c05865408f380e86dcdb85e/genos-0.1.8.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/54/f8/93e265c2c82cde124a4b213fb610aede00a44e8ff97e46c7c75b6a330968/yud102023-0.0.4.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [github-utils-api]: Downloading https://files.pythonhosted.org/packages/91/3d/79454a5d1796f2753e0b51e34fa4d6e9f61fb8310a851d2f5e8ec11fcaa8/github-utils-api-0.8.0.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [bobtemplates.plone]: Downloading https://files.pythonhosted.org/packages/85/44/0ccaf43002364e6ee9c50a0e19ea0f277758a39b9ebdb4612317e5368ce7/bobtemplates.plone-6.3.0.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/6b/fd/21a3a53f25988d39296e04da7d5a5bc36168a653e60d88ad4ecc1eb93575/funasr_onnx-0.1.0-py3-none-any.whl
+[2023-06-19 13:18:52] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/ca/86/232bb3148bc2b871eb8ffe98c7aa5a67ad197a85c3c378eaa094d6e65292/funasr-0.6.1.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [yud102023]: executing diffoscope
+[2023-06-19 13:18:52] INFO root fetch - processPackages [yud102023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yud102023-0.0.3.tar.gz tmp/yud102023-0.0.4.tar.gz --markdown 20230619/y/yud102023/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 13:18:52] INFO root fetch - processPackages [bobtemplates.plone]: executing diffoscope
+[2023-06-19 13:18:52] INFO root fetch - processPackages [bobtemplates.plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bobtemplates.plone-6.2.7.tar.gz tmp/bobtemplates.plone-6.3.0.tar.gz --markdown 20230619/b/bobtemplates.plone/6.2.7-6.3.0/diff.md --exclude *.pyd
+[2023-06-19 13:18:52] INFO root fetch - processPackages [genos]: Downloading https://files.pythonhosted.org/packages/5e/ab/7057b7b9b456c0de65748d887e285eb6c24cf419ef264f394e9e4d5ac2be/genos-0.1.9.tar.gz
+[2023-06-19 13:18:52] INFO root fetch - processPackages [github-utils-api]: Downloading https://files.pythonhosted.org/packages/49/7e/3e92ff7d86df0b31d79a3d705272520b16f02d738d23e52541ca0189a403/github-utils-api-0.9.0.tar.gz
+[2023-06-19 13:18:53] INFO root fetch - processPackages [genos]: executing diffoscope
+[2023-06-19 13:18:53] INFO root fetch - processPackages [genos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genos-0.1.8.tar.gz tmp/genos-0.1.9.tar.gz --markdown 20230619/g/genos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/ac/bb/54f03da1453e1c89f2f9884100131a0e5d78a4b9a38fe592819f3eb50c8d/funasr-0.6.2.tar.gz
+[2023-06-19 13:18:53] INFO root fetch - processPackages [github-utils-api]: executing diffoscope
+[2023-06-19 13:18:53] INFO root fetch - processPackages [github-utils-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-utils-api-0.8.0.tar.gz tmp/github-utils-api-0.9.0.tar.gz --markdown 20230619/g/github-utils-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/9d/1eb72d999d4f0f144ad72045eb6e9dc39d4d267b436eb1bcd0f0116ee9e4/funasr_onnx-0.1.1.tar.gz
+[2023-06-19 13:18:53] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2023-06-19 13:18:53] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.6.1.tar.gz tmp/funasr-0.6.2.tar.gz --markdown 20230619/f/funasr/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-06-19 13:18:53] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.1.0-py3-none-any.whl.zip tmp/funasr_onnx-0.1.1.tar.gz --markdown 20230619/f/funasr-onnx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 13:18:53] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.3.tar.gz]
+[2023-06-19 13:18:53] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.4.tar.gz]
+[2023-06-19 13:18:53] INFO root fetch - main [MainThread]: End processing [yud102023]: success
+[2023-06-19 13:18:54] INFO root fetch - processPackages [genos]: Remove: archive file [/home/abi/fetcher/tmp/genos-0.1.8.tar.gz]
+[2023-06-19 13:18:54] INFO root fetch - processPackages [genos]: Remove: archive file [/home/abi/fetcher/tmp/genos-0.1.9.tar.gz]
+[2023-06-19 13:18:54] INFO root fetch - main [MainThread]: End processing [genos]: success
+[2023-06-19 13:18:54] INFO root fetch - processPackages [github-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/github-utils-api-0.8.0.tar.gz]
+[2023-06-19 13:18:54] INFO root fetch - processPackages [github-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/github-utils-api-0.9.0.tar.gz]
+[2023-06-19 13:18:54] INFO root fetch - main [MainThread]: End processing [github-utils-api]: success
+[2023-06-19 13:18:54] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.0-py3-none-any.whl.zip]
+[2023-06-19 13:18:54] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.1.tar.gz]
+[2023-06-19 13:18:54] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-06-19 13:18:55] INFO root fetch - processPackages [bobtemplates.plone]: Remove: archive file [/home/abi/fetcher/tmp/bobtemplates.plone-6.2.7.tar.gz]
+[2023-06-19 13:18:55] INFO root fetch - processPackages [bobtemplates.plone]: Remove: archive file [/home/abi/fetcher/tmp/bobtemplates.plone-6.3.0.tar.gz]
+[2023-06-19 13:18:55] INFO root fetch - main [MainThread]: End processing [bobtemplates.plone]: success
+[2023-06-19 13:18:58] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.1.tar.gz]
+[2023-06-19 13:18:58] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.2.tar.gz]
+[2023-06-19 13:18:58] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-19 13:18:58] INFO root fetch - main [MainThread]: Store serial: [18558907]
