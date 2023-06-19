@@ -14320,3 +14320,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:30:53] INFO root fetch - processPackages [brython]: Remove: archive file [/home/abi/fetcher/tmp/brython-3.9.6.tar.gz]
 [2023-06-19 12:30:53] INFO root fetch - main [MainThread]: End processing [brython]: success
 [2023-06-19 12:30:53] INFO root fetch - main [MainThread]: Store serial: [18558564]
+[2023-06-19 12:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558564]
+[2023-06-19 12:36:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp2
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onlinepayments-sdk-python3
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-maintenance
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geti-sdk
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supervisely
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peaks2utr
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osha.oira
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlint-core
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-pytds
+[2023-06-19 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitlint
+[2023-06-19 12:36:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [sqlalchemy-pytds]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [onlinepayments-sdk-python3]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [peaks2utr]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [rp2]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [osha.oira]: New version: [8.3.2] Old Version: [8.3.1]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [sqlalchemy-pytds]: Downloading https://files.pythonhosted.org/packages/8b/60/8e30ec17b3b2c093e05cbf752d6d40e4f4f7bfb9399f117334f4dfa20df8/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl
+[2023-06-19 12:36:03] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/24/4b/8f7118d272edb83ef2e5bfe91f6ce86f03ba36899dcb8d1a47522a8c6972/geti-sdk-1.5.7.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/fe/46/273de7db7878d5df657e5ce7fa11796cf034f2a79fc7f1b9433d5e0f7ea2/peaks2utr-1.0.0.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/e0/ef/4acd5fb2defed529b138b70b00cd735addd1359fc93e39c030792ae47d75/onlinepayments-sdk-python3-4.8.0.zip
+[2023-06-19 12:36:03] INFO root fetch - processPackages [osha.oira]: Downloading https://files.pythonhosted.org/packages/9c/6c/478663e2d384193e703235f4cd2daef8f7401517adf009e00290ac78acbc/osha.oira-8.3.1.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-19 12:36:03] WARNING root fetch - processPackages [osha.oira]: Skipping package: exceeds size limit 54108318>=10485760
+[2023-06-19 12:36:03] INFO root fetch - processPackages [osha.oira]: Start processing: xplainable
+[2023-06-19 12:36:03] INFO root fetch - main [MainThread]: End processing [osha.oira] error
+[2023-06-19 12:36:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 12:36:03] WARNING root fetch - processPackages [peaks2utr]: Skipping package: exceeds size limit 10594043>=10485760
+[2023-06-19 12:36:03] INFO root fetch - processPackages [peaks2utr]: Start processing: valve-gfx-ci.gfxinfo
+[2023-06-19 12:36:03] INFO root fetch - main [MainThread]: End processing [peaks2utr] error
+[2023-06-19 12:36:03] INFO root fetch - processPackages [sqlalchemy-pytds]: Downloading https://files.pythonhosted.org/packages/12/eb/23e5625d3fbd3dca4a057bb0af41e3c3c67367579c2fe53dd35b5e27bd94/sqlalchemy_pytds-1.0.0-py2.py3-none-any.whl
+[2023-06-19 12:36:03] INFO root fetch - processPackages [xplainable]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [rp2]: Downloading https://files.pythonhosted.org/packages/cd/65/875f67c93f038e25857461cf48537f07ada5ba4277d7709e1d8d63e1444c/rp2-1.4.2.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 12:36:03] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230619/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-19 12:36:03] INFO root fetch - processPackages [sqlalchemy-pytds]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [sqlalchemy-pytds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl.zip tmp/sqlalchemy_pytds-1.0.0-py2.py3-none-any.whl.zip --markdown 20230619/s/sqlalchemy-pytds/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 12:36:03] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/ec/7f/27d389f65c2565017738509de4f73912d008b17860aa5ae061a85596a477/geti-sdk-1.5.8.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/43/c6/8cfd5dbe1825e0e17414648ea4ca2002314c8718b8c1ff588031c986b2c2/xplainable-1.0.4-py3-none-any.whl
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230619/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-19 12:36:03] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: Downloading https://files.pythonhosted.org/packages/b2/2a/1c63138c60ea6aacaaf05977483d749fde0a7bc51feae64da6acae656fe1/valve_gfx_ci.gfxinfo-0.1.2.tar.gz
+[2023-06-19 12:36:03] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.7.tar.gz tmp/geti-sdk-1.5.8.tar.gz --markdown 20230619/g/geti-sdk/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-19 12:36:03] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/f8/2c/057a23ec03d5071c342bba2674df06d7cf30756ddae130c30aeeb20937b5/onlinepayments-sdk-python3-4.9.0.zip
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-19 12:36:03] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230619/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:36:04] INFO root fetch - processPackages [onlinepayments-sdk-python3]: executing diffoscope
+[2023-06-19 12:36:04] INFO root fetch - processPackages [onlinepayments-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python3-4.8.0.zip tmp/onlinepayments-sdk-python3-4.9.0.zip --markdown 20230619/o/onlinepayments-sdk-python3/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:36:04] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/2a/fd/54a723aa45ae1708cb5a6a20c87689d57ee5197b96921b75171876218049/xplainable-1.0.5-py3-none-any.whl
+[2023-06-19 12:36:04] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: Downloading https://files.pythonhosted.org/packages/ef/bf/885fe2503f7306d4aeb25a7e8ba5bbf30dfefda20b5918464f84ddcb8c79/valve_gfx_ci.gfxinfo-0.1.3.tar.gz
+[2023-06-19 12:36:04] INFO root fetch - processPackages [xplainable]: executing diffoscope
+[2023-06-19 12:36:04] INFO root fetch - processPackages [xplainable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable-1.0.4-py3-none-any.whl.zip tmp/xplainable-1.0.5-py3-none-any.whl.zip --markdown 20230619/x/xplainable/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-19 12:36:04] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: executing diffoscope
+[2023-06-19 12:36:04] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valve_gfx_ci.gfxinfo-0.1.2.tar.gz tmp/valve_gfx_ci.gfxinfo-0.1.3.tar.gz --markdown 20230619/v/valve-gfx-ci.gfxinfo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 12:36:04] INFO root fetch - processPackages [rp2]: Downloading https://files.pythonhosted.org/packages/a0/0d/4459cd8f417aece3ff6d7f89e25bcee2a07116b22aa25b04672e5bd37575/rp2-1.5.0.tar.gz
+[2023-06-19 12:36:05] INFO root fetch - processPackages [rp2]: executing diffoscope
+[2023-06-19 12:36:05] INFO root fetch - processPackages [rp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp2-1.4.2.tar.gz tmp/rp2-1.5.0.tar.gz --markdown 20230619/r/rp2/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-06-19 12:36:05] INFO root fetch - processPackages [sqlalchemy-pytds]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl.zip]
+[2023-06-19 12:36:05] INFO root fetch - processPackages [sqlalchemy-pytds]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_pytds-1.0.0-py2.py3-none-any.whl.zip]
+[2023-06-19 12:36:05] INFO root fetch - processPackages [sqlalchemy-pytds]: Start processing: abi-ds-utils
+[2023-06-19 12:36:05] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pytds]: success
+[2023-06-19 12:36:05] INFO root fetch - processPackages [abi-ds-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 12:36:05] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/4d/7a/eb763b147922e80c847aff21086f7c718d46eb8305f749149b911dd46e21/abi_ds_utils-1.0.1.tar.gz
+[2023-06-19 12:36:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 12:36:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 12:36:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: nonebot-plugin-bilichat
+[2023-06-19 12:36:05] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 12:36:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-19 12:36:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/d2/5d/f6f2b494101afbbc663df93b50bed2662fbcb7934b0d5394061818cde6df/nonebot_plugin_bilichat-2.7.2.tar.gz
+[2023-06-19 12:36:06] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/36/19/7a81ed053210ba5fb52f5b81021979e58286f55f81c5947b4a40fbee16b7/abi_ds_utils-1.0.2.tar.gz
+[2023-06-19 12:36:06] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-19 12:36:06] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-19 12:36:06] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-19 12:36:06] INFO root fetch - processPackages [abi-ds-utils]: executing diffoscope
+[2023-06-19 12:36:06] INFO root fetch - processPackages [abi-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi_ds_utils-1.0.1.tar.gz tmp/abi_ds_utils-1.0.2.tar.gz --markdown 20230619/a/abi-ds-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 12:36:06] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-19 12:36:06] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-19 12:36:06] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-19 12:36:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/7d/3c/6b6ae30b7225a55cbe91957fbd9aeae3b920184f78e267686504d1de95d3/nonebot_plugin_bilichat-2.7.3.tar.gz
+[2023-06-19 12:36:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-19 12:36:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.7.2.tar.gz tmp/nonebot_plugin_bilichat-2.7.3.tar.gz --markdown 20230619/n/nonebot-plugin-bilichat/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-19 12:36:07] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.0.4-py3-none-any.whl.zip]
+[2023-06-19 12:36:07] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.0.5-py3-none-any.whl.zip]
+[2023-06-19 12:36:07] INFO root fetch - main [MainThread]: End processing [xplainable]: success
+[2023-06-19 12:36:07] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: Remove: archive file [/home/abi/fetcher/tmp/valve_gfx_ci.gfxinfo-0.1.2.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - processPackages [valve-gfx-ci.gfxinfo]: Remove: archive file [/home/abi/fetcher/tmp/valve_gfx_ci.gfxinfo-0.1.3.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - main [MainThread]: End processing [valve-gfx-ci.gfxinfo]: success
+[2023-06-19 12:36:07] INFO root fetch - processPackages [geti-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geti-sdk-1.5.7.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - processPackages [geti-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geti-sdk-1.5.8.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-06-19 12:36:07] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.0.1.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.0.2.tar.gz]
+[2023-06-19 12:36:07] INFO root fetch - main [MainThread]: End processing [abi-ds-utils]: success
+[2023-06-19 12:36:08] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-19 12:36:08] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-19 12:36:08] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-19 12:36:08] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python3-4.8.0.zip]
+[2023-06-19 12:36:08] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python3-4.9.0.zip]
+[2023-06-19 12:36:08] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python3]: success
+[2023-06-19 12:36:09] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.2.tar.gz]
+[2023-06-19 12:36:09] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.3.tar.gz]
+[2023-06-19 12:36:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-19 12:36:11] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.4.2.tar.gz]
+[2023-06-19 12:36:11] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.5.0.tar.gz]
+[2023-06-19 12:36:11] INFO root fetch - main [MainThread]: End processing [rp2]: success
+[2023-06-19 12:36:11] INFO root fetch - main [MainThread]: Store serial: [18558604]
