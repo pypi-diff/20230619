@@ -5349,3 +5349,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:32:48] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.3.tar.gz]
 [2023-06-19 04:32:48] INFO root fetch - main [MainThread]: End processing [kk]: success
 [2023-06-19 04:32:48] INFO root fetch - main [MainThread]: Store serial: [18555045]
+[2023-06-19 04:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555045]
+[2023-06-19 04:37:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-identity
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upstash-ratelimit
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upstash-ratelimit-a
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkfdb
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpc-obscodes
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: denoising-diffusion-pytorch
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-26
+[2023-06-19 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sidetrek
+[2023-06-19 04:37:57] WARNING root fetch - processPackages [upstash-ratelimit]: Skipping, unable to determine old version
+[2023-06-19 04:37:57] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit] error
+[2023-06-19 04:37:57] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [flask-identity]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-19 04:37:57] WARNING root fetch - processPackages [upstash-ratelimit-a]: Skipping, unable to determine old version
+[2023-06-19 04:37:57] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit-a] error
+[2023-06-19 04:37:57] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.6.8] Old Version: [2023.6.4]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [hkfdb]: New version: [3.5.1] Old Version: [3.4.3]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-19 04:37:57] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [flask-identity]: Downloading https://files.pythonhosted.org/packages/aa/7f/b994a1bf96bdb2b0525770af42e795ff956f9c79fe46156ca009a217799e/flask_identity-1.0.5.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/de/68/727248731aeb3a9648199b938a0a8ad59ec062410add674b43ed05f1ac12/denoising-diffusion-pytorch-1.7.2.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/48/70/ae4fb7bbca14a29b26763b6cc25ec6b0bb4488f1333789e1f9095588e7c6/hkfdb-3.4.3.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/9a/aa/ec068e0492f65edac793f3ac5d7c8288328cbc861af38391f23c8e2e564c/mpc_obscodes-2023.6.4.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-19 04:37:57] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-19 04:37:57] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230619/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230619/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230619/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [flask-identity]: Downloading https://files.pythonhosted.org/packages/a5/11/b91fcee3cfee59f71e7db77014ecdbf1ec88c5e25af7b93bc4a015522050/flask_identity-1.0.6.tar.gz
+[2023-06-19 04:37:58] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/e0/7a/c6e0d59c75bee467089dece6ef9b71b394628217584e89e5c164c5362821/hkfdb-3.5.1.tar.gz
+[2023-06-19 04:37:58] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230619/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/be/e8/a385efd2514b5f8c081cb5d9ebcb8f3c960c275aaa74e0d58ef2bbc7e919/denoising-diffusion-pytorch-1.7.3.tar.gz
+[2023-06-19 04:37:58] INFO root fetch - processPackages [flask-identity]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [flask-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_identity-1.0.5.tar.gz tmp/flask_identity-1.0.6.tar.gz --markdown 20230619/f/flask-identity/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.4.3.tar.gz tmp/hkfdb-3.5.1.tar.gz --markdown 20230619/h/hkfdb/3.4.3-3.5.1/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.7.2.tar.gz tmp/denoising-diffusion-pytorch-1.7.3.tar.gz --markdown 20230619/d/denoising-diffusion-pytorch/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-19 04:37:58] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/be/07/4ad74682bf9b07fedd0d34086d66c6090aa90431059a6aaaf74d5874ae78/mpc_obscodes-2023.6.8.tar.gz
+[2023-06-19 04:37:58] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-06-19 04:37:58] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.6.4.tar.gz tmp/mpc_obscodes-2023.6.8.tar.gz --markdown 20230619/m/mpc-obscodes/2023.6.4-2023.6.8/diff.md --exclude *.pyd
+[2023-06-19 04:37:59] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-19 04:37:59] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.4.3.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.5.1.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-06-19 04:37:59] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.2.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.3.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-06-19 04:37:59] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.4.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.8.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-06-19 04:37:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-19 04:37:59] INFO root fetch - processPackages [flask-identity]: Remove: archive file [/home/abi/fetcher/tmp/flask_identity-1.0.5.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - processPackages [flask-identity]: Remove: archive file [/home/abi/fetcher/tmp/flask_identity-1.0.6.tar.gz]
+[2023-06-19 04:37:59] INFO root fetch - main [MainThread]: End processing [flask-identity]: success
+[2023-06-19 04:38:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-19 04:38:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-19 04:38:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-19 04:38:02] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-19 04:38:02] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-19 04:38:02] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-19 04:38:02] INFO root fetch - main [MainThread]: Store serial: [18555079]
