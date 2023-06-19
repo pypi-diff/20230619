@@ -21013,3 +21013,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:53:24] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2023-06-19 16:53:24] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-06-19 16:53:24] INFO root fetch - main [MainThread]: Store serial: [18561251]
+[2023-06-19 16:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561251]
+[2023-06-19 16:58:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweatDB
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catencfamily
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: consolegame
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nselib
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: falcon-morpheus-module
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wasmpy
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mycalc000
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: selis
+[2023-06-19 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: altimeter
+[2023-06-19 16:58:35] INFO root fetch - processPackages [sweatDB]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [catencfamily]: New version: [0.0.80] Old Version: [0.0.78]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [wasmpy]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [falcon-morpheus-module]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-19 16:58:35] WARNING root fetch - processPackages [mycalc000]: Skipping, unable to determine old version
+[2023-06-19 16:58:35] INFO root fetch - processPackages [mycalc000]: Start processing: bcvContext
+[2023-06-19 16:58:35] INFO root fetch - main [MainThread]: End processing [mycalc000] error
+[2023-06-19 16:58:35] WARNING root fetch - processPackages [nselib]: Skipping, unable to determine old version
+[2023-06-19 16:58:35] WARNING root fetch - processPackages [consolegame]: Skipping, unable to determine old version
+[2023-06-19 16:58:35] INFO root fetch - main [MainThread]: End processing [nselib] error
+[2023-06-19 16:58:35] INFO root fetch - main [MainThread]: End processing [consolegame] error
+[2023-06-19 16:58:35] INFO root fetch - processPackages [selis]: New version: [3.4.1] Old Version: [3.3]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [bcvContext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/9b/71/29366c73dbd505e436f0bfeab5dea5011ba4025a5bf40a010511bb96eb2c/selis-3.3.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/d8/5a/5c6719b6d138d6544e86050bb6ab7dba5c85140729a30de6a2ba0eb68e9f/bcvcontext-0.1.8.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [altimeter]: New version: [6.4.9] Old Version: [6.4.8]
+[2023-06-19 16:58:35] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/2d/52/abec2f60fcec6d033c4828af58d7c1b0314ab88e4adb440da166dae29725/catencfamily-0.0.78.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/8a/f2/fa33d30cde6ee37815f9ea6e62f51490670e72a5accba13615493b4d07cd/selis-3.4.1.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/b8/db/b0f83372bfcda163a0097ab6db8077adee36f991e08f6010943f48775122/wasmpy-0.1.0a2.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/65/3e/b75e97cad7bbfb754398fd90d7b353773468927773f666c917fd72ee91ea/bcvcontext-0.1.9.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [falcon-morpheus-module]: Downloading https://files.pythonhosted.org/packages/1f/f2/77ee6cae00acbf2d39d86a5851bd191807da99d5b1c3efb59d780000161d/falcon_morpheus_module-0.0.6.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.3.tar.gz tmp/selis-3.4.1.tar.gz --markdown 20230619/s/selis/3.3-3.4.1/diff.md --exclude *.pyd
+[2023-06-19 16:58:35] INFO root fetch - processPackages [altimeter]: Downloading https://files.pythonhosted.org/packages/7c/0f/f8adb02d3271344ca9fa5cb95c763e3451b3ab3df4d898a5a1882f800acd/altimeter-6.4.8-py2.py3-none-any.whl
+[2023-06-19 16:58:35] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.1.8.tar.gz tmp/bcvcontext-0.1.9.tar.gz --markdown 20230619/b/bcvContext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:58:35] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230619/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-19 16:58:35] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/8a/cf/bc0ea2d2bb28f6a0a662438f3c49f6c5435fb508a1eb1dae9fae91e463b7/catencfamily-0.0.80.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/14/6e/496f91d19f433904bffd0de9587933e1372ac6e936b90be88044ad1f1f64/sweatDB-2.0.8.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.78.tar.gz tmp/catencfamily-0.0.80.tar.gz --markdown 20230619/c/catencfamily/0.0.78-0.0.80/diff.md --exclude *.pyd
+[2023-06-19 16:58:35] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.7.tar.gz tmp/sweatDB-2.0.8.tar.gz --markdown 20230619/s/sweatDB/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-19 16:58:35] INFO root fetch - processPackages [falcon-morpheus-module]: Downloading https://files.pythonhosted.org/packages/19/47/137a28bacdf9bb8cfef70723d4da42d81f550531c03d6884f3faa079055b/falcon_morpheus_module-0.0.7.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/f1/ba/fb9b4e6aa39ed0cf33541f0affb2d8b6bacc9158c92f3045a70d6cd00b0e/wasmpy-0.1.0a3.tar.gz
+[2023-06-19 16:58:35] INFO root fetch - processPackages [altimeter]: Downloading https://files.pythonhosted.org/packages/ef/ff/4a2d3a5a1728069ee4e480ce83b58fb19db2db0c10eda9436094b40f5a83/altimeter-6.4.9-py2.py3-none-any.whl
+[2023-06-19 16:58:35] INFO root fetch - processPackages [falcon-morpheus-module]: executing diffoscope
+[2023-06-19 16:58:35] INFO root fetch - processPackages [falcon-morpheus-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_morpheus_module-0.0.6.tar.gz tmp/falcon_morpheus_module-0.0.7.tar.gz --markdown 20230619/f/falcon-morpheus-module/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 16:58:36] INFO root fetch - processPackages [wasmpy]: executing diffoscope
+[2023-06-19 16:58:36] INFO root fetch - processPackages [wasmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-0.1.0a2.tar.gz tmp/wasmpy-0.1.0a3.tar.gz --markdown 20230619/w/wasmpy/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-19 16:58:36] INFO root fetch - processPackages [altimeter]: executing diffoscope
+[2023-06-19 16:58:36] INFO root fetch - processPackages [altimeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimeter-6.4.8-py2.py3-none-any.whl.zip tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip --markdown 20230619/a/altimeter/6.4.8-6.4.9/diff.md --exclude *.pyd
+[2023-06-19 16:58:37] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.3.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.1.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.8.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.9.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.7.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.8.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [falcon-morpheus-module]: Remove: archive file [/home/abi/fetcher/tmp/falcon_morpheus_module-0.0.6.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [falcon-morpheus-module]: Remove: archive file [/home/abi/fetcher/tmp/falcon_morpheus_module-0.0.7.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [falcon-morpheus-module]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.78.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.80.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-19 16:58:37] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.0a2.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.0a3.tar.gz]
+[2023-06-19 16:58:37] INFO root fetch - main [MainThread]: End processing [wasmpy]: success
+[2023-06-19 16:58:39] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.8-py2.py3-none-any.whl.zip]
+[2023-06-19 16:58:39] INFO root fetch - processPackages [altimeter]: Remove: archive file [/home/abi/fetcher/tmp/altimeter-6.4.9-py2.py3-none-any.whl.zip]
+[2023-06-19 16:58:39] INFO root fetch - main [MainThread]: End processing [altimeter]: success
+[2023-06-19 16:58:39] INFO root fetch - main [MainThread]: Store serial: [18561303]
