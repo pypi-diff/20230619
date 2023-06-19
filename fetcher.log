@@ -9413,3 +9413,105 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:24:30] INFO root fetch - processPackages [ipywebcam]: Remove: archive file [/home/abi/fetcher/tmp/ipywebcam-0.1.9.dev0.tar.gz]
 [2023-06-19 09:24:30] INFO root fetch - main [MainThread]: End processing [ipywebcam]: success
 [2023-06-19 09:24:30] INFO root fetch - main [MainThread]: Store serial: [18556650]
+[2023-06-19 09:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556650]
+[2023-06-19 09:29:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: racetrack-client
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lps22hh
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mc-netease-sdk
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: persian-gender-detection
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blickfeld-qb2
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cubetools
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynocaptcha
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-automation-framework
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-19 09:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solo-epd-loader
+[2023-06-19 09:29:39] INFO root fetch - processPackages [persian-gender-detection]: New version: [1.4.0] Old Version: [1.2.1]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [lps22hh]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [cubetools]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [blickfeld-qb2]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.7.5.43672] Old Version: [2.7.0.43622]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [python-automation-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-06-19 09:29:39] INFO root fetch - processPackages [lps22hh]: Downloading https://files.pythonhosted.org/packages/6e/4e/bca70fcc1f22557935c449f6b559cac2c4aee2f27353207a7c1577d94a0d/lps22hh-0.3.0.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/4b/6c/ec0e9bad1060f66228e3b0be2073f0362a8c3a567d31dd19156210ec3de5/mc_netease_sdk-2.7.0.43622-py2-none-any.whl
+[2023-06-19 09:29:39] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/f2/10/5d3dfeac1529012e8c9bf2258078cb0cb2458d74c942901af59e92b41f96/blickfeld_qb2-1.5.1.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/74/f2/552c961fff067288c145b3f6a12be6cba31fa200702bbacb1c37df12bacf/persian-gender-detection-1.2.1.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/56/7e/6ddbf75e642ac0c981038749b5eb71190d316a44667a6351d522962b710c/cubetools-0.4.1.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/5e/89/04ad593a8de559d997946c28625a7fc89e27b9e7f298937db91916bdfbea/pynocaptcha-1.5.6.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/be/f7/8a24aa3a320e205cf519a24c4c574c4dab77706647f130c052808b83e500/python-automation-framework-0.1.0.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/d8/cf/d2ed2cc4e89c47db1781b49fc1365738e9cdc9838414e4fe84b0c8fb982a/solo_epd_loader-0.2.3.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [lps22hh]: Downloading https://files.pythonhosted.org/packages/2d/1c/16295ff909e3522df97ddf2aa20b9fd322b27e07ffaa494aedbdd9d3fc61/lps22hh-0.4.0.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/e9/98/49de22e3f771d8faf653b2c95ccee77699b3740b476bf92e4908b478ff8e/cubetools-0.4.2.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/1e/fb/b3e86db8fb9bd503f54fc45096ffb9f4e8b78df0de5c8f58e113034a8c19/blickfeld_qb2-1.5.2.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/c9/17/5c9b1ec7486046871c8a2b9b397acc5fd6c88d086169e3c166831c15f6eb/persian-gender-detection-1.4.0.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230619/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/98/f1/7c34987e4728884ffe9e124558474523f379d063dd41586c6b93084ae9e8/mc_netease_sdk-2.7.5.43672-py2-none-any.whl
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/2c/c6/6616eeb0d65bb5f726faf03c39039ac611aafb56e914a8222291cfef3bed/pynocaptcha-1.5.7.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [lps22hh]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [lps22hh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lps22hh-0.3.0.tar.gz tmp/lps22hh-0.4.0.tar.gz --markdown 20230619/l/lps22hh/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [persian-gender-detection]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [persian-gender-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persian-gender-detection-1.2.1.tar.gz tmp/persian-gender-detection-1.4.0.tar.gz --markdown 20230619/p/persian-gender-detection/1.2.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [blickfeld-qb2]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [blickfeld-qb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blickfeld_qb2-1.5.1.tar.gz tmp/blickfeld_qb2-1.5.2.tar.gz --markdown 20230619/b/blickfeld-qb2/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.4.1.tar.gz tmp/cubetools-0.4.2.tar.gz --markdown 20230619/c/cubetools/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.7.0.43622-py2-none-any.whl.zip tmp/mc_netease_sdk-2.7.5.43672-py2-none-any.whl.zip --markdown 20230619/m/mc-netease-sdk/2.7.0.43622-2.7.5.43672/diff.md --exclude *.pyd
+[2023-06-19 09:29:39] INFO root fetch - processPackages [python-automation-framework]: Downloading https://files.pythonhosted.org/packages/82/a8/9341f538adb3893cd053a3b2f6208e927bf0c714a73c6cf51bfff2ebed83/python-automation-framework-0.1.1.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/b5/9e/3862f55a8284e2b102d4e2863eaeff2628df8efa176a00a566fd14e29ea8/solo_epd_loader-0.2.4.tar.gz
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-19 09:29:39] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.6.tar.gz tmp/pynocaptcha-1.5.7.tar.gz --markdown 20230619/p/pynocaptcha/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-06-19 09:29:40] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-06-19 09:29:40] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230619/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-19 09:29:40] INFO root fetch - processPackages [python-automation-framework]: executing diffoscope
+[2023-06-19 09:29:40] INFO root fetch - processPackages [python-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-framework-0.1.0.tar.gz tmp/python-automation-framework-0.1.1.tar.gz --markdown 20230619/p/python-automation-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 09:29:40] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-06-19 09:29:40] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.2.3.tar.gz tmp/solo_epd_loader-0.2.4.tar.gz --markdown 20230619/s/solo-epd-loader/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-19 09:29:41] INFO root fetch - processPackages [lps22hh]: Remove: archive file [/home/abi/fetcher/tmp/lps22hh-0.3.0.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [lps22hh]: Remove: archive file [/home/abi/fetcher/tmp/lps22hh-0.4.0.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [lps22hh]: Start processing: pycloudlib
+[2023-06-19 09:29:41] INFO root fetch - main [MainThread]: End processing [lps22hh]: success
+[2023-06-19 09:29:41] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2023-06-19 09:29:41] INFO root fetch - processPackages [python-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-framework-0.1.0.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [python-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-framework-0.1.1.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - main [MainThread]: End processing [python-automation-framework]: success
+[2023-06-19 09:29:41] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.1.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.2.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-06-19 09:29:41] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-06-19 09:29:41] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.3.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.4.tar.gz]
+[2023-06-19 09:29:41] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-06-19 09:29:41] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2023-06-19 09:29:42] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-06-19 09:29:42] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230619/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.6.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.7.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-06-19 09:29:43] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.5.1.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.5.2.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [blickfeld-qb2]: success
+[2023-06-19 09:29:43] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.7.0.43622-py2-none-any.whl.zip]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.7.5.43672-py2-none-any.whl.zip]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2023-06-19 09:29:43] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.2.1.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.4.0.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [persian-gender-detection]: success
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-19 09:29:43] INFO root fetch - main [MainThread]: Store serial: [18556691]
