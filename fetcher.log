@@ -6563,3 +6563,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:18:05] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
 [2023-06-19 06:18:05] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2023-06-19 06:18:05] INFO root fetch - main [MainThread]: Store serial: [18555526]
+[2023-06-19 06:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555526]
+[2023-06-19 06:23:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remilia
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citiespy
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memv
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: denoising-diffusion-pytorch
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fileformats
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpservice
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lite-tools
+[2023-06-19 06:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quickstart-vdk
+[2023-06-19 06:23:14] INFO root fetch - processPackages [remilia]: New version: [1.1.6rc0] Old Version: [1.1.6]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [memv]: New version: [0.0.4.6] Old Version: [0.0.4.5]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.903875796.dev11543] Old Version: [0.2.903448667.dev11539]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [fileformats]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [citiespy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-19 06:23:14] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/5f/75/5d4202df11ee7dc74a610a4bc333f3f04f4a8fbe11582748808bd9bf5283/denoising-diffusion-pytorch-1.7.4.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/b4/16e3074371f6152a50d7c1bfa0c2ede54867c66c7c8f849b59196094d622/quickstart-vdk-0.2.903448667.dev11539.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/89/b3/9f3c7a8a95d6b41ff80f8601d6d556bd63d331b5d46b34b880421cc7c1d4/fileformats-0.6.4.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [remilia]: Downloading https://files.pythonhosted.org/packages/ce/d6/85cf6348eacddc603b65e7e66dfc32c595f4698d74116131c15508079171/remilia-1.1.6.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/df/01/dfc39165ca3b3047b789a2a3f9bfe47a2d897be4a15d70428ce877bcb15f/memv-0.0.4.5.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-19 06:23:14] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [citiespy]: Downloading https://files.pythonhosted.org/packages/19/00/899aeeb6ff503d03079493312d68a85be7ba240ceaf3577fd998176e5c07/citiespy-0.3.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 06:23:14] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/f6/8e/0d94c7b658f44b32125e42b1be18d91a215607ed9f84fbfb4fe5576ce7cd/quickstart-vdk-0.2.903875796.dev11543.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/8b/b325899603559aafe02b6f6bad63b3ac61a6107e31ddf322c3f2d7461b58/denoising-diffusion-pytorch-1.7.5.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/0b/d9/8bea3a397c86343b4b017cecbbd6d1a9bc769b21a20522d5a47b4bedcdcb/fileformats-0.6.5.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/cf/a2/0fba7803b042b4bcbf7870b0a209688048b3824b1c7cf8041e6f6561e4d4/memv-0.0.4.6.tar.gz
+[2023-06-19 06:23:14] INFO root fetch - processPackages [remilia]: Downloading https://files.pythonhosted.org/packages/c1/4b/77ce62814e5313ecffff7292e0ab72cef1e6c7f2431ff1894b94dda67b0d/remilia-1.1.6rc0.tar.gz
+[2023-06-19 06:23:15] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.4.tar.gz tmp/fileformats-0.6.5.tar.gz --markdown 20230619/f/fileformats/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.903448667.dev11539.tar.gz tmp/quickstart-vdk-0.2.903875796.dev11543.tar.gz --markdown 20230619/q/quickstart-vdk/0.2.903448667.dev11539-0.2.903875796.dev11543/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.7.4.tar.gz tmp/denoising-diffusion-pytorch-1.7.5.tar.gz --markdown 20230619/d/denoising-diffusion-pytorch/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.5.tar.gz tmp/memv-0.0.4.6.tar.gz --markdown 20230619/m/memv/0.0.4.5-0.0.4.6/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [remilia]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [remilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remilia-1.1.6.tar.gz tmp/remilia-1.1.6rc0.tar.gz --markdown 20230619/r/remilia/1.1.6-1.1.6rc0/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [citiespy]: Downloading https://files.pythonhosted.org/packages/62/b0/e676ca669a5a413e970c444c7ec573df33ba16928b29cf97f67e650b450e/citiespy-0.3.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 06:23:15] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-19 06:23:15] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-19 06:23:15] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230619/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-19 06:23:15] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-19 06:23:15] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230619/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-19 06:23:16] INFO root fetch - processPackages [citiespy]: executing diffoscope
+[2023-06-19 06:23:16] INFO root fetch - processPackages [citiespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citiespy-0.3.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/citiespy-0.3.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230619/c/citiespy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 06:23:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.903448667.dev11539.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.903875796.dev11543.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-19 06:23:16] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.5.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.6.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 06:23:16] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.4.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.5.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-06-19 06:23:16] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-19 06:23:16] INFO root fetch - processPackages [remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.1.6.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.1.6rc0.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [remilia]: success
+[2023-06-19 06:23:16] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.4.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.5.tar.gz]
+[2023-06-19 06:23:16] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-06-19 06:23:17] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-19 06:23:17] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-19 06:23:17] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-19 06:23:48] INFO root fetch - processPackages [citiespy]: Remove: archive file [/home/abi/fetcher/tmp/citiespy-0.3.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 06:23:48] INFO root fetch - processPackages [citiespy]: Remove: archive file [/home/abi/fetcher/tmp/citiespy-0.3.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 06:23:48] INFO root fetch - main [MainThread]: End processing [citiespy]: success
+[2023-06-19 06:23:48] INFO root fetch - main [MainThread]: Store serial: [18555605]
