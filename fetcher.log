@@ -9515,3 +9515,141 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:29:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-19 09:29:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-19 09:29:43] INFO root fetch - main [MainThread]: Store serial: [18556691]
+[2023-06-19 09:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556691]
+[2023-06-19 09:34:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudlib
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-copilot
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssi-fc-data
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: okx-exchange-api
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomicx
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polybeat
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HormuudEVCPlusMerchant
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: card-data-parsers
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyprojectx
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seven-cloudapp-frame
+[2023-06-19 09:34:52] INFO root fetch - processPackages [pyprojectx]: New version: [1.0.1] Old Version: [1.0.0b5]
+[2023-06-19 09:34:52] WARNING root fetch - processPackages [okx-exchange-api]: Skipping, unable to determine old version
+[2023-06-19 09:34:52] INFO root fetch - processPackages [okx-exchange-api]: Start processing: akshare
+[2023-06-19 09:34:52] INFO root fetch - main [MainThread]: End processing [okx-exchange-api] error
+[2023-06-19 09:34:52] WARNING root fetch - processPackages [HormuudEVCPlusMerchant]: Skipping, unable to determine old version
+[2023-06-19 09:34:52] INFO root fetch - processPackages [HormuudEVCPlusMerchant]: Start processing: openhexa.sdk
+[2023-06-19 09:34:52] INFO root fetch - main [MainThread]: End processing [HormuudEVCPlusMerchant] error
+[2023-06-19 09:34:52] INFO root fetch - processPackages [ssi-fc-data]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-19 09:34:52] WARNING root fetch - processPackages [atomicx]: Skipping, unable to determine old version
+[2023-06-19 09:34:52] INFO root fetch - processPackages [atomicx]: Start processing: alnoda-wrk
+[2023-06-19 09:34:52] INFO root fetch - processPackages [polybeat]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 09:34:52] INFO root fetch - main [MainThread]: End processing [atomicx] error
+[2023-06-19 09:34:52] INFO root fetch - processPackages [card-data-parsers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 09:34:52] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 09:34:52] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-06-19 09:34:52] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 09:34:52] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-19 09:34:52] INFO root fetch - processPackages [pyprojectx]: Downloading https://files.pythonhosted.org/packages/68/33/f63b0f676682c587413057e9bf4473ee4e2c21210410d28cb608f4ea54e9/pyprojectx-1.0.0b5.tar.gz
+[2023-06-19 09:34:52] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-19 09:34:53] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 09:34:53] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/0d/26/68c709d09484051b287c597059ca19e760dc087ace6bdd93534ce07ced8f/ssi_fc_data-0.0.1.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [card-data-parsers]: Downloading https://files.pythonhosted.org/packages/54/14/30a9df442e5134cd242c5542e7c3a5feeb55eef79bf7201968e6165b15bf/card_data_parsers-0.8.0.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [polybeat]: Downloading https://files.pythonhosted.org/packages/f9/d8/6564cc3bafd4e8646410715035c0fec161f9ddbcf5cb0c68405b63f2f6c3/polybeat-1.0.0.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pyprojectx]: Downloading https://files.pythonhosted.org/packages/2e/f0/64d285773a10d944892a6f72ed2f163bf13dd27fadb9bf5d6bcf0a6db855/pyprojectx-1.0.1.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/fd/b9/32e477ec5738d638920195bb5c65197269ba03828707e5dab9a96441a25b/ssi_fc_data-1.0.0.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230619/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pyprojectx]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pyprojectx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprojectx-1.0.0b5.tar.gz tmp/pyprojectx-1.0.1.tar.gz --markdown 20230619/p/pyprojectx/1.0.0b5-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [ssi-fc-data]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [ssi-fc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fc_data-0.0.1.tar.gz tmp/ssi_fc_data-1.0.0.tar.gz --markdown 20230619/s/ssi-fc-data/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230619/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [polybeat]: Downloading https://files.pythonhosted.org/packages/15/5a/ef81e8d1d776b7241ed2df59fb38495baf8ff061df3482c4ab064c75ef61/polybeat-1.1.0.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [card-data-parsers]: Downloading https://files.pythonhosted.org/packages/48/9c/6b61478d4a75cc4faa6d050c735f2eb3a57f7f541eb7720783c12e1fb682/card_data_parsers-0.9.0.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [polybeat]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [polybeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polybeat-1.0.0.tar.gz tmp/polybeat-1.1.0.tar.gz --markdown 20230619/p/polybeat/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230619/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [card-data-parsers]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [card-data-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/card_data_parsers-0.8.0.tar.gz tmp/card_data_parsers-0.9.0.tar.gz --markdown 20230619/c/card-data-parsers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230619/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-19 09:34:53] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-19 09:34:53] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-06-19 09:34:53] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230619/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 09:34:54] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-19 09:34:54] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-19 09:34:54] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230619/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-19 09:34:55] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [kube-copilot]: Start processing: cubetools
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cubetools]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/56/7e/6ddbf75e642ac0c981038749b5eb71190d316a44667a6351d522962b710c/cubetools-0.4.1.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [pycloudlib]: Start processing: cg
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-0.0.1.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-1.0.0.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [ssi-fc-data]: Start processing: xklb
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [ssi-fc-data]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [xklb]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [polybeat]: Remove: archive file [/home/abi/fetcher/tmp/polybeat-1.0.0.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [polybeat]: Remove: archive file [/home/abi/fetcher/tmp/polybeat-1.1.0.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [polybeat]: Start processing: dfsync
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [polybeat]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cg]: New version: [36.2.5] Old Version: [36.2.4]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/20/c7/6a651cd868c90a38c56812f7acd112d9525085994cab16619f3477b9eb48/xklb-2.1.2.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/e9/98/49de22e3f771d8faf653b2c95ccee77699b3740b476bf92e4908b478ff8e/cubetools-0.4.2.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [card-data-parsers]: Remove: archive file [/home/abi/fetcher/tmp/card_data_parsers-0.8.0.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [card-data-parsers]: Remove: archive file [/home/abi/fetcher/tmp/card_data_parsers-0.9.0.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [card-data-parsers]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [dfsync]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.4.1.tar.gz tmp/cubetools-0.4.2.tar.gz --markdown 20230619/c/cubetools/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 09:34:55] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/77/fc/3ac0276eae7ab0c98de74ab08cabc29bb512adbea90bff7b0c55bd1f453f/cg-36.2.4.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [pyprojectx]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectx-1.0.0b5.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [pyprojectx]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectx-1.0.1.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [pyprojectx]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/ae/47/686f5d15f9864d9f734606069dc3343b92b790fac9e687fec59fff0c8967/xklb-2.1.3.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/57/b6/5a6b5197f9961c248eaf9baea66adfc96ec6fe282d591f9fb7e17647449e/dfsync-0.3.7.tar.gz
+[2023-06-19 09:34:55] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-19 09:34:55] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.2.tar.gz tmp/xklb-2.1.3.tar.gz --markdown 20230619/x/xklb/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-19 09:34:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-19 09:34:55] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-19 09:34:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/31/77/5dad0d8d0bad1d0842c560f9ef600883dc51d2821e1ec1b4d11eb68dc759/cg-36.2.5.tar.gz
+[2023-06-19 09:34:56] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/e6/82/50814ffd714a209273d84d4962ff275348ed4d1d5ccb051a7dd773ab907c/dfsync-0.3.8.tar.gz
+[2023-06-19 09:34:56] INFO root fetch - processPackages [dfsync]: executing diffoscope
+[2023-06-19 09:34:56] INFO root fetch - processPackages [dfsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsync-0.3.7.tar.gz tmp/dfsync-0.3.8.tar.gz --markdown 20230619/d/dfsync/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-19 09:34:56] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-19 09:34:56] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-19 09:34:56] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-19 09:34:56] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.1.tar.gz]
+[2023-06-19 09:34:56] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.2.tar.gz]
+[2023-06-19 09:34:56] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-06-19 09:34:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-19 09:34:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.4.tar.gz tmp/cg-36.2.5.tar.gz --markdown 20230619/c/cg/36.2.4-36.2.5/diff.md --exclude *.pyd
+[2023-06-19 09:34:57] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.3.7.tar.gz]
+[2023-06-19 09:34:57] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.3.8.tar.gz]
+[2023-06-19 09:34:57] INFO root fetch - main [MainThread]: End processing [dfsync]: success
+[2023-06-19 09:34:57] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.2.tar.gz]
+[2023-06-19 09:34:57] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.3.tar.gz]
+[2023-06-19 09:34:57] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-19 09:35:01] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-19 09:35:01] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-19 09:35:01] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-19 09:35:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.4.tar.gz]
+[2023-06-19 09:35:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.5.tar.gz]
+[2023-06-19 09:35:08] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-19 09:35:08] INFO root fetch - main [MainThread]: Store serial: [18556753]
