@@ -15743,3 +15743,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:41:19] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
 [2023-06-19 13:41:19] INFO root fetch - main [MainThread]: End processing [autopyre]: success
 [2023-06-19 13:41:19] INFO root fetch - main [MainThread]: Store serial: [18559119]
+[2023-06-19 13:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559119]
+[2023-06-19 13:46:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genepierre
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apertium2ud
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alipay-sdk-python
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MarketVision
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-llm
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos
+[2023-06-19 13:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datawise
+[2023-06-19 13:46:29] INFO root fetch - processPackages [apertium2ud]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [MarketVision]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 13:46:29] WARNING root fetch - processPackages [genepierre]: Skipping, unable to determine old version
+[2023-06-19 13:46:29] INFO root fetch - processPackages [genepierre]: Start processing: lasutils
+[2023-06-19 13:46:29] INFO root fetch - main [MainThread]: End processing [genepierre] error
+[2023-06-19 13:46:29] INFO root fetch - processPackages [datawise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.6.72] Old Version: [3.6.662]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [lasutils]: New version: [1.0.50] Old Version: [1.0.37]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 13:46:29] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687173129] Old Version: [0.0.101687086687]
+[2023-06-19 13:46:29] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-19 13:46:29] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/f3/86/ebaaf7ced09a81d4dd172219943f417c978e0d0aeddd42e8d205fadd68ff/apertium2ud-0.0.4.tar.gz
+[2023-06-19 13:46:29] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f8/55/a7a1d3c960f3e5bcbcbdc783b104cec3dee11081330008d061d0d1cfa028/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-19 13:46:29] INFO root fetch - processPackages [MarketVision]: Downloading https://files.pythonhosted.org/packages/70/94/2fae93561c77efd09d9a924379f2e57e85bd07eb7f84980dc6e59e59a5e7/MarketVision-0.0.2.tar.gz
+[2023-06-19 13:46:29] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/4c/d3/cec33db5b211d2232ff5ab9155949ab24790f3d18d892b05f92cc04ca284/alipay-sdk-python-3.6.662.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/08/37/4a7dd1e7f33fd85b605040df5f885a1d3b85e0183d15ce10cd2a395013b0/datawise-0.0.9.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/a0/39/e7984ae14e5720dfa11adc4a72040995b10698383277e0773303545ef39f/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-19 13:46:30] INFO root fetch - processPackages [lasutils]: Downloading https://files.pythonhosted.org/packages/03/5c/de641474e4c0fb84a1f6014eb7cccb2d046cc6baa886252ccc2402c9978e/lasutils-1.0.37-py3-none-any.whl
+[2023-06-19 13:46:30] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/08/b7/e6af399a931290f6af5eefeff17e1c286cd804794fa1b479a12a04cc70ae/pyre-check-nightly-0.0.101687086687.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.8.tar.gz tmp/datawise-0.0.9.tar.gz --markdown 20230619/d/datawise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/8b/59/3fd6b228c312b12ad6a9d397d7e08a1eaec97c34f811c770971e79c4ce36/apertium2ud-0.0.5.tar.gz
+[2023-06-19 13:46:30] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23507640>=10485760
+[2023-06-19 13:46:30] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: mckit-meshes
+[2023-06-19 13:46:30] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-19 13:46:30] INFO root fetch - processPackages [MarketVision]: Downloading https://files.pythonhosted.org/packages/21/9f/9a55c18cd74748865e1125ef6047205dc333d4a79bca67ae2ceca93681a8/MarketVision-0.0.3.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [MarketVision]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [MarketVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarketVision-0.0.2.tar.gz tmp/MarketVision-0.0.3.tar.gz --markdown 20230619/M/MarketVision/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/25/3a/188af7f1899730ff789e215d5dd4008f834a67a0c5b63f30beb1b21bf4b2/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl
+[2023-06-19 13:46:30] INFO root fetch - processPackages [lasutils]: Downloading https://files.pythonhosted.org/packages/ab/6e/a903acac813b0e514559cf6c806838f61c637d494e304fcfb31d5c4de70b/lasutils-1.0.50-py3-none-any.whl
+[2023-06-19 13:46:30] INFO root fetch - processPackages [mckit-meshes]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 13:46:30] INFO root fetch - processPackages [apertium2ud]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [apertium2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apertium2ud-0.0.4.tar.gz tmp/apertium2ud-0.0.5.tar.gz --markdown 20230619/a/apertium2ud/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.6.662.tar.gz tmp/alipay-sdk-python-3.6.72.tar.gz --markdown 20230619/a/alipay-sdk-python/3.6.662-3.6.72/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [lasutils]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [lasutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasutils-1.0.37-py3-none-any.whl.zip tmp/lasutils-1.0.50-py3-none-any.whl.zip --markdown 20230619/l/lasutils/1.0.37-1.0.50/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/68/d1/10e4e34e50c82b2934c4bfcabbc981136d9322fe4f284e07f3519e7cac7f/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl
+[2023-06-19 13:46:30] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl.zip --markdown 20230619/b/bigdl-chronos/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-19 13:46:30] INFO root fetch - processPackages [mckit-meshes]: Downloading https://files.pythonhosted.org/packages/e4/9e/d569cf828a67de1e147c014aa12767aee69e268f94d45b2de13e494e0e11/mckit_meshes-0.1.3.tar.gz
+[2023-06-19 13:46:30] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-19 13:46:30] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230619/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-19 13:46:31] INFO root fetch - processPackages [mckit-meshes]: Downloading https://files.pythonhosted.org/packages/7c/43/8760dc48652ddd543bf91b5e3702d019937d1cab2d17161c781f7407b4ba/mckit_meshes-0.1.4.tar.gz
+[2023-06-19 13:46:31] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-19 13:46:31] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl.zip --markdown 20230619/b/bigdl-llm/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-19 13:46:31] INFO root fetch - processPackages [mckit-meshes]: executing diffoscope
+[2023-06-19 13:46:31] INFO root fetch - processPackages [mckit-meshes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mckit_meshes-0.1.3.tar.gz tmp/mckit_meshes-0.1.4.tar.gz --markdown 20230619/m/mckit-meshes/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 13:46:32] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-19 13:46:32] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.9.tar.gz]
+[2023-06-19 13:46:32] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-19 13:46:32] INFO root fetch - processPackages [MarketVision]: Remove: archive file [/home/abi/fetcher/tmp/MarketVision-0.0.2.tar.gz]
+[2023-06-19 13:46:32] INFO root fetch - processPackages [MarketVision]: Remove: archive file [/home/abi/fetcher/tmp/MarketVision-0.0.3.tar.gz]
+[2023-06-19 13:46:32] INFO root fetch - main [MainThread]: End processing [MarketVision]: success
+[2023-06-19 13:46:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 13:46:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 13:46:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 13:46:33] INFO root fetch - processPackages [apertium2ud]: Remove: archive file [/home/abi/fetcher/tmp/apertium2ud-0.0.4.tar.gz]
+[2023-06-19 13:46:33] INFO root fetch - processPackages [apertium2ud]: Remove: archive file [/home/abi/fetcher/tmp/apertium2ud-0.0.5.tar.gz]
+[2023-06-19 13:46:33] INFO root fetch - main [MainThread]: End processing [apertium2ud]: success
+[2023-06-19 13:46:33] INFO root fetch - processPackages [lasutils]: Remove: archive file [/home/abi/fetcher/tmp/lasutils-1.0.37-py3-none-any.whl.zip]
+[2023-06-19 13:46:33] INFO root fetch - processPackages [lasutils]: Remove: archive file [/home/abi/fetcher/tmp/lasutils-1.0.50-py3-none-any.whl.zip]
+[2023-06-19 13:46:33] INFO root fetch - main [MainThread]: End processing [lasutils]: success
+[2023-06-19 13:46:34] INFO root fetch - processPackages [mckit-meshes]: Remove: archive file [/home/abi/fetcher/tmp/mckit_meshes-0.1.3.tar.gz]
+[2023-06-19 13:46:34] INFO root fetch - processPackages [mckit-meshes]: Remove: archive file [/home/abi/fetcher/tmp/mckit_meshes-0.1.4.tar.gz]
+[2023-06-19 13:46:34] INFO root fetch - main [MainThread]: End processing [mckit-meshes]: success
+[2023-06-19 13:46:35] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-19 13:46:35] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230619-py3-none-win_amd64.whl.zip]
+[2023-06-19 13:46:35] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-19 13:46:35] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-19 13:46:35] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230619-py3-none-win_amd64.whl.zip]
+[2023-06-19 13:46:35] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-19 13:47:22] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-19 13:47:22] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-19 13:47:22] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-19 13:49:30] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2023-06-19 13:49:30] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2023-06-19 13:49:30] INFO root fetch - main [MainThread]: Store serial: [18559156]
