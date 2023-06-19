@@ -10080,3 +10080,179 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:52:19] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-19 09:52:19] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-06-19 09:52:19] INFO root fetch - main [MainThread]: Store serial: [18556945]
+[2023-06-19 09:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556945]
+[2023-06-19 09:57:30] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytoncalidae-authentication-dummy
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otpme
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thinks-dash-components
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Hefesto
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-model-builder-multilingual
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tns-energo-api
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openi-beta
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlpf
+[2023-06-19 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mbutto
+[2023-06-19 09:57:30] INFO root fetch - processPackages [Hefesto]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [tns-energo-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-19 09:57:30] WARNING root fetch - processPackages [mbutto]: Skipping, unable to determine old version
+[2023-06-19 09:57:30] INFO root fetch - processPackages [mbutto]: Start processing: kfish
+[2023-06-19 09:57:30] INFO root fetch - main [MainThread]: End processing [mbutto] error
+[2023-06-19 09:57:30] INFO root fetch - processPackages [openi-beta]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [mlpf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [kcli]: New version: [99.0.202306190752] Old Version: [99.0.202306181627]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [kfish]: New version: [99.0.202306190755] Old Version: [99.0.202306181630]
+[2023-06-19 09:57:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/95/5c01d1b065c4c1f2bb33cb2669f1b0e48a396d36bdd52fbfbf67e1f1172c/kcli-99.0.202306181627-py3-none-any.whl
+[2023-06-19 09:57:30] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/fc/6a/a3b2b06d250bdb57af9e0672cf9b9dcf7dcb44908cfd37fb092a9bc811d7/openi-beta-0.1.5.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/27/b9/76cbfcb8d5b77e43b83d39a6565717c6f5d15d36206864da480ff9dfa4c1/Hefesto-0.4.3.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/dc/2e/068c210feeaf0d5e2f1753d81b59911cf1ca005a6b3ba560d2dcf7a3368f/thinks_dash_components-0.3.9.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: Downloading https://files.pythonhosted.org/packages/0c/2b/351d9a5cdaf51b111a5e8774dde0323618d03046283b6b6b193e74cfe00d/trytoncalidae_authentication_dummy-6.6.0.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [tns-energo-api]: Downloading https://files.pythonhosted.org/packages/b9/91/bf32e5f24ab6511b65bdde1a3a66dfab61de10418a8360a89c4f9ca6e2b7/tns-energo-api-0.0.4.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/e2/c1/1d072aecce0deae072dd29f4447189b50e16ccdb01f6bbc84aea96b67fcb/mlpf-0.0.1.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9f/b0/ecc66ccf1ffcac4437b5834eb74723325a9dc1b8bc05b1b8c95da9c0762a/kfish-99.0.202306181630-py3-none-any.whl
+[2023-06-19 09:57:30] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/e3/18/a88e8db6bfde0651b95fe63f08f4d683af241763eae93a232547b00bc956/oarepo-model-builder-multilingual-3.0.2.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/82/ef/3c3fa4f33d5f3248d2be03e83e934d0d1a8b11bf00c9e8b64847fa887a02/openi-beta-0.1.6.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/94/c4/b6c3df36fb89627fbdcbb4d5b31a4ebb5e50c4d7d1300039ff82ce5a035d/kcli-99.0.202306190752-py3-none-any.whl
+[2023-06-19 09:57:30] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/3a/e5/b4f9bf6a24a603264cc92bf58c9772036ddb4b352faf94555d75efb27007/Hefesto-0.4.4.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/29/f4/b0e242c4a897d21d6ebdafde82ed520f44e2ecb6c5d212097d6627fcd5e4/thinks_dash_components-0.4.0.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [tns-energo-api]: Downloading https://files.pythonhosted.org/packages/08/91/36a34699ebc7e6f3dea53d17382bf8f376bbb58f0e6298bd0ff3ba16597c/tns_energo_api-0.0.5-py3-none-any.whl
+[2023-06-19 09:57:30] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/2b/aa/19eedcefb7f31191165c19f2cab72f912c8e374f73c7c53dda99f1b9f0a5/mlpf-0.0.2-py3-none-any.whl
+[2023-06-19 09:57:30] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-19 09:57:30] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: Downloading https://files.pythonhosted.org/packages/b6/3b/d1403cb1944a02f92ffc68d552430ed721ead486a8a0ebe2e530e568c8b0/trytoncalidae_authentication_dummy-6.8.0.tar.gz
+[2023-06-19 09:57:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/4b/d8c2108661581890be7ba9fcfb4b9e0dba362e8580a52569e17c0057df61/kfish-99.0.202306190755-py3-none-any.whl
+[2023-06-19 09:57:31] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/b6/5c/9a42546217dd632a243643d5817e68a22a76e43dbe1b0a6b68bba61c287a/oarepo-model-builder-multilingual-3.0.4.tar.gz
+[2023-06-19 09:57:31] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.1.5.tar.gz tmp/openi-beta-0.1.6.tar.gz --markdown 20230619/o/openi-beta/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [tns-energo-api]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [tns-energo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tns-energo-api-0.0.4.tar.gz tmp/tns_energo_api-0.0.5-py3-none-any.whl.zip --markdown 20230619/t/tns-energo-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytoncalidae_authentication_dummy-6.6.0.tar.gz tmp/trytoncalidae_authentication_dummy-6.8.0.tar.gz --markdown 20230619/t/trytoncalidae-authentication-dummy/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [Hefesto]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [Hefesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hefesto-0.4.3.tar.gz tmp/Hefesto-0.4.4.tar.gz --markdown 20230619/H/Hefesto/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.3.9.tar.gz tmp/thinks_dash_components-0.4.0.tar.gz --markdown 20230619/t/thinks-dash-components/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306181630-py3-none-any.whl.zip tmp/kfish-99.0.202306190755-py3-none-any.whl.zip --markdown 20230619/k/kfish/99.0.202306181630-99.0.202306190755/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230619/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [mlpf]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [mlpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpf-0.0.1.tar.gz tmp/mlpf-0.0.2-py3-none-any.whl.zip --markdown 20230619/m/mlpf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306181627-py3-none-any.whl.zip tmp/kcli-99.0.202306190752-py3-none-any.whl.zip --markdown 20230619/k/kcli/99.0.202306181627-99.0.202306190752/diff.md --exclude *.pyd
+[2023-06-19 09:57:31] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-06-19 09:57:31] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-3.0.2.tar.gz tmp/oarepo-model-builder-multilingual-3.0.4.tar.gz --markdown 20230619/o/oarepo-model-builder-multilingual/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-06-19 09:57:32] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.5.tar.gz]
+[2023-06-19 09:57:32] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.6.tar.gz]
+[2023-06-19 09:57:32] INFO root fetch - processPackages [openi-beta]: Start processing: ErlangCCmath
+[2023-06-19 09:57:32] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-19 09:57:32] WARNING root fetch - processPackages [ErlangCCmath]: Skipping, unable to determine old version
+[2023-06-19 09:57:32] INFO root fetch - processPackages [ErlangCCmath]: Start processing: xtbugdemo
+[2023-06-19 09:57:32] INFO root fetch - main [MainThread]: End processing [ErlangCCmath] error
+[2023-06-19 09:57:32] WARNING root fetch - processPackages [xtbugdemo]: Skipping, unable to determine old version
+[2023-06-19 09:57:32] INFO root fetch - processPackages [xtbugdemo]: Start processing: odoo-filter-addons
+[2023-06-19 09:57:32] INFO root fetch - main [MainThread]: End processing [xtbugdemo] error
+[2023-06-19 09:57:33] INFO root fetch - processPackages [odoo-filter-addons]: New version: [1.2.1] Old Version: [1.2.0rc1]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [tns-energo-api]: Remove: archive file [/home/abi/fetcher/tmp/tns-energo-api-0.0.4.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [tns-energo-api]: Remove: archive file [/home/abi/fetcher/tmp/tns_energo_api-0.0.5-py3-none-any.whl.zip]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [tns-energo-api]: Start processing: ostorlab
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [tns-energo-api]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.3.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.4.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [Hefesto]: Start processing: pytdml
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [Hefesto]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [ostorlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [pytdml]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306181630-py3-none-any.whl.zip]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306190755-py3-none-any.whl.zip]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [kfish]: Start processing: nonebot-plugin-follow-withdraw
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.2.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.4.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Start processing: je-auto-control-dev
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/be/8b/00f0981f534c7ee290cb00bed955398830648a91a2d6e5855b14de4b3006/ostorlab-0.9.8.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/d1/ab/a666bbad778866943e10f1a19aaf9d3d31871703283e4f381c3ae3a228ac/odoo_filter_addons-1.2.0rc1.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [pytdml]: Downloading https://files.pythonhosted.org/packages/38/a4/e31710f9e4d9c6a9f5570fe5ffcae0fe197dbf3059b1688805610e1a6f66/pytdml-1.0.0.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: Remove: archive file [/home/abi/fetcher/tmp/trytoncalidae_authentication_dummy-6.6.0.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: Remove: archive file [/home/abi/fetcher/tmp/trytoncalidae_authentication_dummy-6.8.0.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [trytoncalidae-authentication-dummy]: Start processing: mlpf
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [trytoncalidae-authentication-dummy]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Downloading https://files.pythonhosted.org/packages/9e/18/ba6358339c702c407379e2350523f2001b88a9533e27118205098243d84e/nonebot_plugin_follow_withdraw-0.1.0.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.1.tar.gz]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.2-py3-none-any.whl.zip]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: Start processing: hsfs
+[2023-06-19 09:57:33] INFO root fetch - main [MainThread]: End processing [mlpf]: success
+[2023-06-19 09:57:33] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/30/5d/3f432864d7c7ecc0026429127310c6eb5678d0a78d6743cd3e1139112e99/odoo_filter_addons-1.2.1.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/4d/76/5156e6e78c2a90d0d297d8564ef85e8ea6be5739d1813e82c1996a5ed5a3/mlpf-0.0.3.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc4] Old Version: [3.2.0rc3]
+[2023-06-19 09:57:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Downloading https://files.pythonhosted.org/packages/2d/a0/87bae7eceb042bc8bea1ea0ab3f8c43b0d26ab6f3d262a65e028ecc60108/nonebot_plugin_follow_withdraw-0.1.1.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/11/a9/754fad93de62f4c65cae3a969e9a10ce604ffa95eba45e2f72dcea6496cc/je_auto_control_dev-0.0.83.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/50/91/27ce633738c25d70533945694425cc25183ef5789757782274369dbc31b0/ostorlab-0.9.9.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [pytdml]: Downloading https://files.pythonhosted.org/packages/65/0a/ee9917a983064d74253d88754678d34e5cd6cbba6abdf7b0d54e02554e3f/pytdml-1.1.1.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [odoo-filter-addons]: executing diffoscope
+[2023-06-19 09:57:33] INFO root fetch - processPackages [odoo-filter-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_filter_addons-1.2.0rc1.tar.gz tmp/odoo_filter_addons-1.2.1.tar.gz --markdown 20230619/o/odoo-filter-addons/1.2.0rc1-1.2.1/diff.md --exclude *.pyd
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: executing diffoscope
+[2023-06-19 09:57:33] INFO root fetch - processPackages [mlpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpf-0.0.2-py3-none-any.whl.zip tmp/mlpf-0.0.3.tar.gz --markdown 20230619/m/mlpf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 09:57:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: executing diffoscope
+[2023-06-19 09:57:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_follow_withdraw-0.1.0.tar.gz tmp/nonebot_plugin_follow_withdraw-0.1.1.tar.gz --markdown 20230619/n/nonebot-plugin-follow-withdraw/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 09:57:33] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/ca/1e/cfe82140d5d23756acfed673498be6e0754135f2223dd5a828ab953a7386/hsfs-3.2.0rc3.tar.gz
+[2023-06-19 09:57:33] INFO root fetch - processPackages [pytdml]: executing diffoscope
+[2023-06-19 09:57:33] INFO root fetch - processPackages [pytdml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytdml-1.0.0.tar.gz tmp/pytdml-1.1.1.tar.gz --markdown 20230619/p/pytdml/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-19 09:57:33] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2023-06-19 09:57:33] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-0.9.8.tar.gz tmp/ostorlab-0.9.9.tar.gz --markdown 20230619/o/ostorlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 09:57:34] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-19 09:57:34] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/13/d1/fcd75efcaa011917a4ddf8779dd947f1da406cbda2c7c535a389ccb0b393/hsfs-3.2.0rc4.tar.gz
+[2023-06-19 09:57:34] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-19 09:57:34] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.83.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230619/j/je-auto-control-dev/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:57:34] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-06-19 09:57:34] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc3.tar.gz tmp/hsfs-3.2.0rc4.tar.gz --markdown 20230619/h/hsfs/3.2.0rc3-3.2.0rc4/diff.md --exclude *.pyd
+[2023-06-19 09:57:34] ERROR root fetch - processPackages [mlpf]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mlpf-0.0.2-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-19 09:57:34] INFO root fetch - processPackages [mlpf]: Start processing: okx-exchange-api
+[2023-06-19 09:57:34] INFO root fetch - main [MainThread]: End processing [mlpf] error
+[2023-06-19 09:57:34] WARNING root fetch - processPackages [okx-exchange-api]: Skipping, unable to determine old version
+[2023-06-19 09:57:34] INFO root fetch - processPackages [okx-exchange-api]: Start processing: m-abac-test
+[2023-06-19 09:57:34] INFO root fetch - main [MainThread]: End processing [okx-exchange-api] error
+[2023-06-19 09:57:34] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 09:57:35] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-19 09:57:35] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.0rc1.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.1.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - main [MainThread]: End processing [odoo-filter-addons]: success
+[2023-06-19 09:57:35] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-19 09:57:35] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-19 09:57:35] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230619/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:57:35] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_follow_withdraw-0.1.0.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_follow_withdraw-0.1.1.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-follow-withdraw]: success
+[2023-06-19 09:57:35] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.9.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.4.0.tar.gz]
+[2023-06-19 09:57:35] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-06-19 09:57:36] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.83.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-19 09:57:36] INFO root fetch - processPackages [pytdml]: Remove: archive file [/home/abi/fetcher/tmp/pytdml-1.0.0.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - processPackages [pytdml]: Remove: archive file [/home/abi/fetcher/tmp/pytdml-1.1.1.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - main [MainThread]: End processing [pytdml]: success
+[2023-06-19 09:57:36] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-19 09:57:36] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-19 09:57:38] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc3.tar.gz]
+[2023-06-19 09:57:38] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc4.tar.gz]
+[2023-06-19 09:57:38] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-06-19 09:57:39] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-19 09:57:39] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-19 09:57:39] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-19 09:57:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181627-py3-none-any.whl.zip]
+[2023-06-19 09:57:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306190752-py3-none-any.whl.zip]
+[2023-06-19 09:57:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-19 09:57:45] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-0.9.8.tar.gz]
+[2023-06-19 09:57:45] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-0.9.9.tar.gz]
+[2023-06-19 09:57:45] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2023-06-19 09:57:45] INFO root fetch - main [MainThread]: Store serial: [18557015]
