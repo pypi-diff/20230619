@@ -11568,3 +11568,152 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:49:07] INFO root fetch - processPackages [pyload-ng]: Remove: archive file [/home/abi/fetcher/tmp/pyload-ng-0.5.0b3.dev72.tar.gz]
 [2023-06-19 10:49:07] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
 [2023-06-19 10:49:07] INFO root fetch - main [MainThread]: Store serial: [18557541]
+[2023-06-19 10:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557541]
+[2023-06-19 10:54:16] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bm-pypi-test
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sql-export-mail
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2enetworks
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CalibrationCurve
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmg
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amz-parser
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sora-sdk
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-finance
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ler
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-iqm
+[2023-06-19 10:54:16] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev9] Old Version: [2023.1.0.dev8]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [amz-parser]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [e2enetworks]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [CalibrationCurve]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [fmg]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [cirq-iqm]: New version: [9.0] Old Version: [8.2]
+[2023-06-19 10:54:16] WARNING root fetch - processPackages [bm-pypi-test]: Skipping, unable to determine old version
+[2023-06-19 10:54:16] INFO root fetch - processPackages [bm-pypi-test]: Start processing: pandasai
+[2023-06-19 10:54:16] INFO root fetch - processPackages [ler]: New version: [0.1.6] Old Version: [0.1.3]
+[2023-06-19 10:54:16] INFO root fetch - main [MainThread]: End processing [bm-pypi-test] error
+[2023-06-19 10:54:16] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/be/f5/9b8c007121fc24f4dc0239657ed4d292d37142046e116f958c4552a41b72/sora_sdk-2023.1.0.dev8.tar.gz
+[2023-06-19 10:54:16] INFO root fetch - processPackages [pandasai]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-19 10:54:16] INFO root fetch - processPackages [amz-parser]: Downloading https://files.pythonhosted.org/packages/6d/03/a89e7c57c57548b6741bd3f8a1b8a41226c9b6bd2e2495e451aaf6295efb/amz_parser-0.9.3.tar.gz
+[2023-06-19 10:54:16] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/ea/2b/f0b0cd07feba1732246ce94ace9e6290b30056af420f99cca66fd7fc2cde/pandasai-0.6.0.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/cd/3b/618494b25b3e796274d3cc76b362dbdf2800380adce634f975e7307049f2/CalibrationCurve-0.0.7.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/81/f9/d6b09b045ba0f40c78417e4c8fa41e7ead66a0074027bcd7b2a352059040/e2enetworks-0.1.1.tar.gz
+[2023-06-19 10:54:17] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007321>=10485760
+[2023-06-19 10:54:17] INFO root fetch - processPackages [sora-sdk]: Start processing: design.plone.contenttypes
+[2023-06-19 10:54:17] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-19 10:54:17] INFO root fetch - processPackages [fmg]: Downloading https://files.pythonhosted.org/packages/93/36/71cca21df75f90cc1360570f08ef54cc3ad18f2f699e47a87941c59703dc/fmg-0.2.0.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/53/ef/6f27ed2b3ec427c85ea06a49eb476bc1b758a97c27c1a5ff0f447af59996/ler-0.1.3.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Downloading https://files.pythonhosted.org/packages/f6/30/233e033872207078cd7a135188997aabda07600fc949410e53f2a227931a/odoo_addon_sql_export_mail-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:54:17] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-19 10:54:17] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/c5/07/e11f5769922d666fcc6be4432d682434c208c53885cdf780e84578593a10/cirq-iqm-8.2.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/44/f0/1488f7e1ef8e1b735069a7316ff5e8703680ec1666c947fe135ebe7b86d5/CalibrationCurve-0.0.8.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [amz-parser]: Downloading https://files.pythonhosted.org/packages/85/03/15572e329c616b5293053d8e10227d64cc965b7c8b2720944900a15299a6/amz_parser-0.9.4.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/27/2c/a38cdfa44d92cc10ef2af9ab81e124c44a2ffdfada92a19ae24b6c77fa72/pandasai-0.6.1.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [CalibrationCurve]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [CalibrationCurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalibrationCurve-0.0.7.tar.gz tmp/CalibrationCurve-0.0.8.tar.gz --markdown 20230619/C/CalibrationCurve/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [amz-parser]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [amz-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amz_parser-0.9.3.tar.gz tmp/amz_parser-0.9.4.tar.gz --markdown 20230619/a/amz-parser/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/93/5b/a16eb5c80d241b14dcbbdb4f1be62863239ef6996fa8980fb99573cff7b9/e2enetworks-0.1.2.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [fmg]: Downloading https://files.pythonhosted.org/packages/5c/03/48d17e8cc1e175112654fd01e4c0ac9c5399da589411019c0f9a29307b72/fmg-0.3.0.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/95/04/68fb03f5bbf21c9d0f2a3a4665bbe26643a038276c10a709373c3fed2388/ler-0.1.6.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Downloading https://files.pythonhosted.org/packages/64/3a/cb182201bd5eedbcbb7df02dcac266bd5a59225d81b4d0904ae35720cbcc/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl
+[2023-06-19 10:54:17] INFO root fetch - processPackages [fmg]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [fmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmg-0.2.0.tar.gz tmp/fmg-0.3.0.tar.gz --markdown 20230619/f/fmg/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.1.1.tar.gz tmp/e2enetworks-0.1.2.tar.gz --markdown 20230619/e/e2enetworks/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [ler]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [ler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ler-0.1.3.tar.gz tmp/ler-0.1.6.tar.gz --markdown 20230619/l/ler/0.1.3-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.0.tar.gz tmp/pandasai-0.6.1.tar.gz --markdown 20230619/p/pandasai/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sql_export_mail-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-sql-export-mail/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230619/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-19 10:54:17] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-06-19 10:54:17] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-06-19 10:54:17] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230619/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:54:18] INFO root fetch - processPackages [cirq-iqm]: Downloading https://files.pythonhosted.org/packages/42/ae/5cd7add9610b459bc1fabc8b26e110edbba64d7062ec795d9acd9637f35a/cirq-iqm-9.0.tar.gz
+[2023-06-19 10:54:18] INFO root fetch - processPackages [cirq-iqm]: executing diffoscope
+[2023-06-19 10:54:18] INFO root fetch - processPackages [cirq-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-iqm-8.2.tar.gz tmp/cirq-iqm-9.0.tar.gz --markdown 20230619/c/cirq-iqm/8.2-9.0/diff.md --exclude *.pyd
+[2023-06-19 10:54:18] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.7.tar.gz]
+[2023-06-19 10:54:18] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.8.tar.gz]
+[2023-06-19 10:54:18] INFO root fetch - processPackages [CalibrationCurve]: Start processing: vantage6-common
+[2023-06-19 10:54:18] INFO root fetch - main [MainThread]: End processing [CalibrationCurve]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [amz-parser]: Remove: archive file [/home/abi/fetcher/tmp/amz_parser-0.9.3.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [amz-parser]: Remove: archive file [/home/abi/fetcher/tmp/amz_parser-0.9.4.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [amz-parser]: Start processing: vantage6-client
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [amz-parser]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-0.1.1.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-0.1.2.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [e2enetworks]: Start processing: vantage6
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export_mail-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Start processing: sso-sdk-for-flask-login
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sql-export-mail]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-06-19 10:54:19] WARNING root fetch - processPackages [sso-sdk-for-flask-login]: Skipping, unable to determine old version
+[2023-06-19 10:54:19] INFO root fetch - processPackages [sso-sdk-for-flask-login]: Start processing: vantage6-node
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [sso-sdk-for-flask-login] error
+[2023-06-19 10:54:19] INFO root fetch - processPackages [fmg]: Remove: archive file [/home/abi/fetcher/tmp/fmg-0.2.0.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [fmg]: Remove: archive file [/home/abi/fetcher/tmp/fmg-0.3.0.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [fmg]: Start processing: vantage6-server
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [fmg]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.1.3.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.1.6.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [ler]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.0.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.1.tar.gz]
+[2023-06-19 10:54:19] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-06-19 10:54:19] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 10:54:20] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-06-19 10:54:20] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 10:54:20] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc2.tar.gz]
+[2023-06-19 10:54:20] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc4.tar.gz]
+[2023-06-19 10:54:20] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [cirq-iqm]: Remove: archive file [/home/abi/fetcher/tmp/cirq-iqm-8.2.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [cirq-iqm]: Remove: archive file [/home/abi/fetcher/tmp/cirq-iqm-9.0.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [cirq-iqm]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc2.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc4.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc2.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc4.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc2.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc4.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc2.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-06-19 10:54:21] INFO root fetch - main [MainThread]: Store serial: [18557614]
