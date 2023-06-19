@@ -21591,3 +21591,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 17:17:24] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
 [2023-06-19 17:17:24] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-06-19 17:17:24] INFO root fetch - main [MainThread]: Store serial: [18561492]
+[2023-06-19 17:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561492]
+[2023-06-19 17:22:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 17:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mistapi
+[2023-06-19 17:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bsimx
+[2023-06-19 17:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmtccmd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythttp
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infinstor-mlflow-plugin
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griffe
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miranda
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-jira-xfail
+[2023-06-19 17:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prostate-nomograms
+[2023-06-19 17:22:35] INFO root fetch - processPackages [tmtccmd]: New version: [5.0.0rc0] Old Version: [5.0.0a0]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [mistapi]: New version: [0.40.2] Old Version: [0.40.1]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pytest-jira-xfail]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pythttp]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [prostate-nomograms]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [miranda]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [infinstor-mlflow-plugin]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-19 17:22:35] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ed/c5/0041411d58d70d8f79bcca926562d95956961d2765552129136ef36fcf8a/infinstor-mlflow-plugin-2.0.8.tar.gz
+[2023-06-19 17:22:35] WARNING root fetch - processPackages [bsimx]: Skipping, unable to determine old version
+[2023-06-19 17:22:35] INFO root fetch - main [MainThread]: End processing [bsimx] error
+[2023-06-19 17:22:35] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/ca/a5/bc13c3afcc6ccf70f3f5e385c6f374aaab41446c31d740b77d3a7a30a40e/infinstor-mlflow-plugin-2.0.9.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pytest-jira-xfail]: Downloading https://files.pythonhosted.org/packages/15/9b/2acb786c44e85e30c67577c6abb05a3f1afb0bb2abb6b8aa264b4683b181/pytest-jira-xfail-1.0.2.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/55/d4/e101b7a4ec33ab6fea36fda894387f7c9aada1c89d15a5eb490d1dfa6efc/tmtccmd-5.0.0a0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [infinstor-mlflow-plugin]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [infinstor-mlflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinstor-mlflow-plugin-2.0.8.tar.gz tmp/infinstor-mlflow-plugin-2.0.9.tar.gz --markdown 20230619/i/infinstor-mlflow-plugin/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/d0/bc/8aae0e01072dd34fe8704bcc2870d7e397faca10a797050c0b00f4ef851c/prostate-nomograms-0.0.5.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-19 17:22:35] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/c4/69/ef31333c90445a0a5272ce0e1e60351144ac0e948ccbb8756f5b313489f0/mistapi-0.40.1.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/ea/46/ec0edb8fe7040f28f9f8881d2af9d2f882a02b05af29ee6fc7c28bd460b0/pythttp-0.1.6.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [miranda]: Downloading https://files.pythonhosted.org/packages/da/d1/24c82def55113bbfaabb653a73d7fabce819ed6726c1f85baedd02edba4a/miranda-0.4.0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pytest-jira-xfail]: Downloading https://files.pythonhosted.org/packages/7d/f7/448be53d7bd7ec8657cb0a4ab28022bf5e761d96b4b21bdb60ab0f39098e/pytest-jira-xfail-1.0.3.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/b2/6c/3688cf257626ee6594f0919cf11b14aee3ecb7373c22db9a07ec5bbedfc8/pythttp-0.1.7.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/20/36/b68cb580537e4e7a1d8c81078b632e2d2d15e78724a9d4a540c72dfb5af2/mistapi-0.40.2.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/fc/6e/6c3366c38cc57f4d219bbee8c86dbed4842996cc4e66a7a6d714051f4239/prostate-nomograms-0.0.6.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pytest-jira-xfail]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pytest-jira-xfail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-jira-xfail-1.0.2.tar.gz tmp/pytest-jira-xfail-1.0.3.tar.gz --markdown 20230619/p/pytest-jira-xfail/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/a8/45/4efdab11bf78b168346211e499060a8028c5b13a8f2870761aac20da4383/tmtccmd-5.0.0rc0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pythttp]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [pythttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythttp-0.1.6.tar.gz tmp/pythttp-0.1.7.tar.gz --markdown 20230619/p/pythttp/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-19 17:22:35] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.40.1.tar.gz tmp/mistapi-0.40.2.tar.gz --markdown 20230619/m/mistapi/0.40.1-0.40.2/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [miranda]: Downloading https://files.pythonhosted.org/packages/3e/9b/bd03ed3b408e0b16d265382bf62cd7d6bc303e34a0154c1db3140938daf4/miranda-0.5.0.tar.gz
+[2023-06-19 17:22:35] INFO root fetch - processPackages [prostate-nomograms]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [prostate-nomograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prostate-nomograms-0.0.5.tar.gz tmp/prostate-nomograms-0.0.6.tar.gz --markdown 20230619/p/prostate-nomograms/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [tmtccmd]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [tmtccmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmtccmd-5.0.0a0.tar.gz tmp/tmtccmd-5.0.0rc0.tar.gz --markdown 20230619/t/tmtccmd/5.0.0a0-5.0.0rc0/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230619/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:22:35] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-19 17:22:35] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230619/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 17:22:36] INFO root fetch - processPackages [miranda]: executing diffoscope
+[2023-06-19 17:22:36] INFO root fetch - processPackages [miranda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miranda-0.4.0.tar.gz tmp/miranda-0.5.0.tar.gz --markdown 20230619/m/miranda/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 17:22:36] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/infinstor-mlflow-plugin-2.0.8.tar.gz]
+[2023-06-19 17:22:36] INFO root fetch - processPackages [infinstor-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/infinstor-mlflow-plugin-2.0.9.tar.gz]
+[2023-06-19 17:22:36] INFO root fetch - main [MainThread]: End processing [infinstor-mlflow-plugin]: success
+[2023-06-19 17:22:37] INFO root fetch - processPackages [pytest-jira-xfail]: Remove: archive file [/home/abi/fetcher/tmp/pytest-jira-xfail-1.0.2.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - processPackages [pytest-jira-xfail]: Remove: archive file [/home/abi/fetcher/tmp/pytest-jira-xfail-1.0.3.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - main [MainThread]: End processing [pytest-jira-xfail]: success
+[2023-06-19 17:22:37] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.6.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.7.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - main [MainThread]: End processing [pythttp]: success
+[2023-06-19 17:22:37] INFO root fetch - processPackages [prostate-nomograms]: Remove: archive file [/home/abi/fetcher/tmp/prostate-nomograms-0.0.5.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - processPackages [prostate-nomograms]: Remove: archive file [/home/abi/fetcher/tmp/prostate-nomograms-0.0.6.tar.gz]
+[2023-06-19 17:22:37] INFO root fetch - main [MainThread]: End processing [prostate-nomograms]: success
+[2023-06-19 17:22:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-19 17:22:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-19 17:22:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-19 17:22:38] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0a0.tar.gz]
+[2023-06-19 17:22:38] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0rc0.tar.gz]
+[2023-06-19 17:22:38] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
+[2023-06-19 17:22:38] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2023-06-19 17:22:38] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2023-06-19 17:22:38] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-06-19 17:22:39] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.40.1.tar.gz]
+[2023-06-19 17:22:39] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.40.2.tar.gz]
+[2023-06-19 17:22:39] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-06-19 17:22:39] INFO root fetch - processPackages [miranda]: Remove: archive file [/home/abi/fetcher/tmp/miranda-0.4.0.tar.gz]
+[2023-06-19 17:22:39] INFO root fetch - processPackages [miranda]: Remove: archive file [/home/abi/fetcher/tmp/miranda-0.5.0.tar.gz]
+[2023-06-19 17:22:39] INFO root fetch - main [MainThread]: End processing [miranda]: success
+[2023-06-19 17:22:39] INFO root fetch - main [MainThread]: Store serial: [18561524]
