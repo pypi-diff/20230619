@@ -8618,3 +8618,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:42:26] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.1.tar.gz]
 [2023-06-19 08:42:26] INFO root fetch - main [MainThread]: End processing [qulacs]: success
 [2023-06-19 08:42:26] INFO root fetch - main [MainThread]: Store serial: [18556332]
+[2023-06-19 08:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556332]
+[2023-06-19 08:47:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: editorconfig-checker
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-diagram-python
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atila-vue
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authit
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-data-services
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiohttp-apiset
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HormuudEVCPlusMerchant
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-follow-withdraw
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catencfamily
+[2023-06-19 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: authit
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5308660964] Old Version: [2.0.0.dev5291196287]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [atila-vue]: New version: [0.3.0.1] Old Version: [0.3.0]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aiohttp-apiset]: New version: [0.9.9.1] Old Version: [0.9.9]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [editorconfig-checker]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aspose-diagram-python]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [catencfamily]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/55/40/c40bff0571c902536e1c36202ded90f763b5b20ae4503c0ddaa1c749fc48/authit-0.0.4.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/6f/c2/607f79d82d9caf804fd3d46bb1d7b70ac904f76098ad573cb1837052cf4e/atila_vue-0.3.0-py3-none-any.whl
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/55/40/c40bff0571c902536e1c36202ded90f763b5b20ae4503c0ddaa1c749fc48/authit-0.0.4.tar.gz
+[2023-06-19 08:47:36] WARNING root fetch - processPackages [HormuudEVCPlusMerchant]: Skipping, unable to determine old version
+[2023-06-19 08:47:36] INFO root fetch - processPackages [HormuudEVCPlusMerchant]: Start processing: aorta-sirius-dev
+[2023-06-19 08:47:36] INFO root fetch - main [MainThread]: End processing [HormuudEVCPlusMerchant] error
+[2023-06-19 08:47:36] WARNING root fetch - processPackages [nonebot-plugin-follow-withdraw]: Skipping, unable to determine old version
+[2023-06-19 08:47:36] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/73/84/59419387639d3bca39e6dbc4085f7737bc6caa2c573ed0d64452a08638a0/catencfamily-0.0.76.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-follow-withdraw] error
+[2023-06-19 08:47:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/99/1c/38652a96d4aaab10d37bdb9788690597a4252f79e240c16a10bb7d19f5c7/th2_data_services-2.0.0.dev5291196287.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aiohttp-apiset]: Downloading https://files.pythonhosted.org/packages/56/9c/226c45082454fc0287c861ef2a17f45f1777f7d9bea2e4d39fe4edb68ed9/aiohttp-apiset-0.9.9.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aspose-diagram-python]: Downloading https://files.pythonhosted.org/packages/e7/35/b7c128d01867a56b706e10ab4f1ac6c3650daafb0ca410f5f38f2db4d926/aspose_diagram_python-23.5-py3-none-win_amd64.whl
+[2023-06-19 08:47:36] INFO root fetch - processPackages [editorconfig-checker]: Downloading https://files.pythonhosted.org/packages/df/b1/90beb06c7607cece8aea125ac1d95ac01141f1cee6d0cb14a44cb901270d/editorconfig-checker-2.7.1.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/1b/9b/c9dc52094c14e79b999932c27a443229348979aaef5c731ddbfe8bdf68b6/catencfamily-0.0.77.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/80/38/553bede8ea5f3640d77f94f668e811c64fcaf4bc40bb0de90c63fc4328a3/authit-0.0.5.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: Downloading https://files.pythonhosted.org/packages/80/38/553bede8ea5f3640d77f94f668e811c64fcaf4bc40bb0de90c63fc4328a3/authit-0.0.5.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/f7/5f/efab3981a73998e4c126682c09fca9f991fc54f3b5cf953591058e9f673b/atila_vue-0.3.0.1-py3-none-any.whl
+[2023-06-19 08:47:36] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.76.tar.gz tmp/catencfamily-0.0.77.tar.gz --markdown 20230619/c/catencfamily/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authit-0.0.4.tar.gz tmp/authit-0.0.5.tar.gz --markdown 20230619/a/authit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] WARNING root fetch - processPackages [aspose-diagram-python]: Skipping package: exceeds size limit 38611221>=10485760
+[2023-06-19 08:47:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/46/7b/eae92f856da76ec495dbd9cf006199b6c4fff110c96483897445d7f968e4/th2_data_services-2.0.0.dev5308660964.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - main [MainThread]: End processing [aspose-diagram-python] error
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [authit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authit-0.0.4.tar.gz tmp/authit-0.0.5.tar.gz --markdown 20230619/a/authit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [atila-vue]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [atila-vue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila_vue-0.3.0-py3-none-any.whl.zip tmp/atila_vue-0.3.0.1-py3-none-any.whl.zip --markdown 20230619/a/atila-vue/0.3.0-0.3.0.1/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] INFO root fetch - processPackages [editorconfig-checker]: Downloading https://files.pythonhosted.org/packages/b5/3c/1ef5dd7afed83b0bac39cd548acd70ee23dbbbf197cd46fe0967d74a09e1/editorconfig-checker-2.7.2.tar.gz
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230619/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] INFO root fetch - processPackages [editorconfig-checker]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [editorconfig-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/editorconfig-checker-2.7.1.tar.gz tmp/editorconfig-checker-2.7.2.tar.gz --markdown 20230619/e/editorconfig-checker/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-06-19 08:47:36] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-19 08:47:36] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5291196287.tar.gz tmp/th2_data_services-2.0.0.dev5308660964.tar.gz --markdown 20230619/t/th2-data-services/2.0.0.dev5291196287-2.0.0.dev5308660964/diff.md --exclude *.pyd
+[2023-06-19 08:47:37] INFO root fetch - processPackages [aiohttp-apiset]: Downloading https://files.pythonhosted.org/packages/a0/ab/9fe7a48ea835a556ba5967f044d183c43f09d7cd13fe83017f0063c3e4de/aiohttp-apiset-0.9.9.1.tar.gz
+[2023-06-19 08:47:37] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.4.tar.gz]
+[2023-06-19 08:47:37] INFO root fetch - processPackages [authit]: Remove: archive file [/home/abi/fetcher/tmp/authit-0.0.5.tar.gz]
+[2023-06-19 08:47:37] INFO root fetch - main [MainThread]: End processing [authit]: success
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [authit]: success
+[2023-06-19 08:47:38] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-19 08:47:38] INFO root fetch - processPackages [editorconfig-checker]: Remove: archive file [/home/abi/fetcher/tmp/editorconfig-checker-2.7.1.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - processPackages [editorconfig-checker]: Remove: archive file [/home/abi/fetcher/tmp/editorconfig-checker-2.7.2.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [editorconfig-checker]: success
+[2023-06-19 08:47:38] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.0-py3-none-any.whl.zip]
+[2023-06-19 08:47:38] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.0.1-py3-none-any.whl.zip]
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [atila-vue]: success
+[2023-06-19 08:47:38] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5291196287.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5308660964.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-19 08:47:38] INFO root fetch - processPackages [aiohttp-apiset]: executing diffoscope
+[2023-06-19 08:47:38] INFO root fetch - processPackages [aiohttp-apiset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp-apiset-0.9.9.tar.gz tmp/aiohttp-apiset-0.9.9.1.tar.gz --markdown 20230619/a/aiohttp-apiset/0.9.9-0.9.9.1/diff.md --exclude *.pyd
+[2023-06-19 08:47:38] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.76.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.77.tar.gz]
+[2023-06-19 08:47:38] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-19 08:47:40] INFO root fetch - processPackages [aiohttp-apiset]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-apiset-0.9.9.tar.gz]
+[2023-06-19 08:47:40] INFO root fetch - processPackages [aiohttp-apiset]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-apiset-0.9.9.1.tar.gz]
+[2023-06-19 08:47:40] INFO root fetch - main [MainThread]: End processing [aiohttp-apiset]: success
+[2023-06-19 08:47:40] INFO root fetch - main [MainThread]: Store serial: [18556377]
