@@ -6439,3 +6439,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:07:42] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.1.tar.gz]
 [2023-06-19 06:07:42] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
 [2023-06-19 06:07:42] INFO root fetch - main [MainThread]: Store serial: [18555478]
+[2023-06-19 06:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555478]
+[2023-06-19 06:12:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-anarticle
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo-test-sdk
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repo-test-sdk
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maxgradient
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: queryandprocessdatautility
+[2023-06-19 06:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WebtoonScraper
+[2023-06-19 06:12:51] INFO root fetch - processPackages [django-anarticle]: New version: [0.1.0rc3] Old Version: [0.1.0rc1]
+[2023-06-19 06:12:51] WARNING root fetch - processPackages [maxgradient]: Skipping, unable to determine old version
+[2023-06-19 06:12:51] INFO root fetch - main [MainThread]: End processing [maxgradient] error
+[2023-06-19 06:12:51] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.3.6]
+[2023-06-19 06:12:51] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 06:12:51] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.3.6]
+[2023-06-19 06:12:51] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2023-06-19 06:12:51] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/db/fc/47af86ec32996ee3bcf7f9f81e005bfacf090286f61e5f4e0a2bbd5bf3fb/repo-test-sdk-2.3.6.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/db/fc/47af86ec32996ee3bcf7f9f81e005bfacf090286f61e5f4e0a2bbd5bf3fb/repo-test-sdk-2.3.6.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/56/72/55ab87e26a80ea4e8dd339133ae32d4d14c82296eb4999a96e03a10b165a/WebtoonScraper-0.1.0.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [django-anarticle]: Downloading https://files.pythonhosted.org/packages/13/b2/b8c596846cf9a09334ee05df06e9215f1d9dfebc544137c3007af4a5e002/django-anarticle-0.1.0rc1.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-19 06:12:51] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/98/85/4552b32f16a37d5da985b5e277da43d8c4dfe56b614dbd9d1a60ecaf1e30/WebtoonScraper-0.1.0a1.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [django-anarticle]: Downloading https://files.pythonhosted.org/packages/86/01/c8709c4c12bd01461e2e10f23c7aa8e7c76f4b917e5a19b1ec601473790c/django-anarticle-0.1.0rc3.tar.gz
+[2023-06-19 06:12:51] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-06-19 06:12:52] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-19 06:12:52] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.1.0.tar.gz tmp/WebtoonScraper-0.1.0a1.tar.gz --markdown 20230619/W/WebtoonScraper/0.1.0-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-06-19 06:12:52] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-19 06:12:52] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230619/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.3.6.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230619/r/repo-test-sdk/2.3.6-7.7.7/diff.md --exclude *.pyd
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-06-19 06:12:52] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.3.6.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230619/r/repo-test-sdk/2.3.6-7.7.7/diff.md --exclude *.pyd
+[2023-06-19 06:12:52] INFO root fetch - processPackages [django-anarticle]: executing diffoscope
+[2023-06-19 06:12:52] INFO root fetch - processPackages [django-anarticle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-anarticle-0.1.0rc1.tar.gz tmp/django-anarticle-0.1.0rc3.tar.gz --markdown 20230619/d/django-anarticle/0.1.0rc1-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-19 06:12:53] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 06:12:53] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-19 06:12:53] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.0.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.0a1.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-19 06:12:53] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.3.6.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-7.7.7.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-19 06:12:53] INFO root fetch - processPackages [django-anarticle]: Remove: archive file [/home/abi/fetcher/tmp/django-anarticle-0.1.0rc1.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - processPackages [django-anarticle]: Remove: archive file [/home/abi/fetcher/tmp/django-anarticle-0.1.0rc3.tar.gz]
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: End processing [django-anarticle]: success
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-06-19 06:12:53] INFO root fetch - main [MainThread]: Store serial: [18555498]
