@@ -3900,3 +3900,42 @@
 [2023-06-19 02:43:44] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
 [2023-06-19 02:43:44] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
 [2023-06-19 02:43:44] INFO root fetch - main [MainThread]: Store serial: [18554508]
+[2023-06-19 02:48:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554508]
+[2023-06-19 02:48:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 02:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auto-deploy
+[2023-06-19 02:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-19 02:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yud102023
+[2023-06-19 02:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-06-19 02:48:53] INFO root fetch - processPackages [pulumi-auto-deploy]: New version: [0.0.4a1687134749] Old Version: [0.0.3a1687127619]
+[2023-06-19 02:48:53] INFO root fetch - processPackages [yud102023]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 02:48:53] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 02:48:53] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306180045] Old Version: [4.9.2.dev202306170044]
+[2023-06-19 02:48:53] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/0c/6f/0485184de76a0b482b2a7cf18158d94d605a7012455ddc90f418d8eab7a7/yud102023-0.0.2.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/55/c9/70912fd105fc8e222c36f3cbd1579cbf8f39d094b464a4ce76578280ee14/tfds-nightly-4.9.2.dev202306170044.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/98/0d/ea5b345a16e3f0438b64508a974f54abfcbc2cfeec5b634ead6211106984/pulumi_auto_deploy-0.0.3a1687127619.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-19 02:48:53] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230619/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 02:48:53] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/95/10/128574a259b3f4c500e2465a936559d5278f85a6ccb28ce243d9c5035263/yud102023-0.0.3.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c2/c9/402204a97f2add09b1bb83771f5b6919237c9ab3339074ae83b39e9cec05/tfds-nightly-4.9.2.dev202306180045.tar.gz
+[2023-06-19 02:48:53] INFO root fetch - processPackages [yud102023]: executing diffoscope
+[2023-06-19 02:48:53] INFO root fetch - processPackages [yud102023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yud102023-0.0.2.tar.gz tmp/yud102023-0.0.3.tar.gz --markdown 20230619/y/yud102023/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 02:48:53] INFO root fetch - processPackages [pulumi-auto-deploy]: Downloading https://files.pythonhosted.org/packages/99/e8/1c628fe32df147cd9f4e78506b7d8f7359448caaeae9e973627be2e96082/pulumi_auto_deploy-0.0.4a1687134749.tar.gz
+[2023-06-19 02:48:54] INFO root fetch - processPackages [pulumi-auto-deploy]: executing diffoscope
+[2023-06-19 02:48:54] INFO root fetch - processPackages [pulumi-auto-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auto_deploy-0.0.3a1687127619.tar.gz tmp/pulumi_auto_deploy-0.0.4a1687134749.tar.gz --markdown 20230619/p/pulumi-auto-deploy/0.0.3a1687127619-0.0.4a1687134749/diff.md --exclude *.pyd
+[2023-06-19 02:48:54] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-19 02:48:54] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306170044.tar.gz tmp/tfds-nightly-4.9.2.dev202306180045.tar.gz --markdown 20230619/t/tfds-nightly/4.9.2.dev202306170044-4.9.2.dev202306180045/diff.md --exclude *.pyd
+[2023-06-19 02:48:54] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.2.tar.gz]
+[2023-06-19 02:48:54] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.3.tar.gz]
+[2023-06-19 02:48:54] INFO root fetch - main [MainThread]: End processing [yud102023]: success
+[2023-06-19 02:48:55] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.3a1687127619.tar.gz]
+[2023-06-19 02:48:55] INFO root fetch - processPackages [pulumi-auto-deploy]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auto_deploy-0.0.4a1687134749.tar.gz]
+[2023-06-19 02:48:55] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy]: success
+[2023-06-19 02:48:55] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-19 02:48:55] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-19 02:48:55] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-19 02:49:05] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306170044.tar.gz]
+[2023-06-19 02:49:05] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306180045.tar.gz]
+[2023-06-19 02:49:05] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-19 02:49:05] INFO root fetch - main [MainThread]: Store serial: [18554520]
