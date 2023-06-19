@@ -8134,3 +8134,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:13:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz]
 [2023-06-19 08:13:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
 [2023-06-19 08:13:23] INFO root fetch - main [MainThread]: Store serial: [18556165]
+[2023-06-19 08:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556165]
+[2023-06-19 08:18:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smpgpt
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Abg
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openxlab
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-api-testka
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfts
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-invader-payment
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-invader-payment-adyen-klarna
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-invader-payment-adyen-klarna-sale
+[2023-06-19 08:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-invader-payment-adyen-klarna-capture
+[2023-06-19 08:18:32] INFO root fetch - processPackages [Abg]: New version: [1.9] Old Version: [1.3]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [aorta-sirius]: New version: [0.8] Old Version: [0.7]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [smpgpt]: New version: [7.0] Old Version: [6.0]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [odoo14-addon-invader-payment]: New version: [14.0.1.0.5] Old Version: [14.0.1.0.4]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [tfts]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 08:18:32] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.2]
+[2023-06-19 08:18:33] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/e2/c7/de561db3b9005d2ae8b4d852f0c4f2e4197a2af699eb126ae7869b760e33/aorta_sirius-0.7.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/d7/30/8fe730626caaa7f5c456faac650ce25bb6e40ea60211ef20dd38094de963/smpgpt-6.0.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: Downloading https://files.pythonhosted.org/packages/23/18/61b2ea6508796f28f98f3b4d83d8b92fd57440cd2cab91235697115d79e9/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/a2/fe/3bf292bafbcec66838d5623269724031d8a757da11b09aaf5763c79c8ea6/Abg-1.3.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Downloading https://files.pythonhosted.org/packages/81/cc/608e25d9137661495defd9aa5090b3c15dccf929b490113561c48cde5541/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.2-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Downloading https://files.pythonhosted.org/packages/6b/f0/b840b521de1c6b69d2f9ba230ad7e303a39f496cce19354366517713eab2/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.1-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Downloading https://files.pythonhosted.org/packages/4f/97/048bba588223d994f7076a265b8ca90c1a86d3e24ec82042cfe4346c8ca8/odoo14_addon_invader_payment-14.0.1.0.4-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/c6/97/2d278d4328a9c2dbeaf1fb46824443bae1c62bf3079e49f732ee580bc30d/tfts-0.0.6.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230619/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/1d/71/8a96a0e1013dc7375b2eca1306f6eb0ae6554fcfc22fcc55276509d0314f/smpgpt-7.0.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Downloading https://files.pythonhosted.org/packages/3f/a1/1f1006c7990a30f06d73f4b024b90a811125b09376bb94a7df9b7c3a79a1/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.3-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.7.tar.gz tmp/aorta_sirius-0.8.tar.gz --markdown 20230619/a/aorta-sirius/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Downloading https://files.pythonhosted.org/packages/2c/18/f545707e2d755d88e91aa3640653410026afa0c4b0df11fffb4e0b2609e2/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.2-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Downloading https://files.pythonhosted.org/packages/1d/20/df245342409c765ff56a39b1bc2b77e2ec5b6f6ae4425a54c988b35a2cd0/odoo14_addon_invader_payment-14.0.1.0.5-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/ec/6f/7ce93769fa6c27c6e9e9fefeed7a8ab444e4f3ce7beb36adc357f8487830/Abg-1.9.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/8c/c5/8f76fd0255fc6a3264546af68f40f68a9bca0eb777e0b432114baa03dad4/tfts-0.0.7.tar.gz
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment-adyen-klarna-sale/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: Downloading https://files.pythonhosted.org/packages/86/98/565c3ab55a13b9d347c2da5e7c193e833722d9341767964a977ceb2a0b60/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-19 08:18:33] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-6.0.tar.gz tmp/smpgpt-7.0.tar.gz --markdown 20230619/s/smpgpt/6.0-7.0/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment-14.0.1.0.4-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment-14.0.1.0.5-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment/14.0.1.0.4-14.0.1.0.5/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment-adyen-klarna-capture/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230619/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-1.3.tar.gz tmp/Abg-1.9.tar.gz --markdown 20230619/A/Abg/1.3-1.9/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [tfts]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [tfts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfts-0.0.6.tar.gz tmp/tfts-0.0.7.tar.gz --markdown 20230619/t/tfts/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: executing diffoscope
+[2023-06-19 08:18:33] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment-adyen-klarna/14.0.1.0.2-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-06-19 08:18:34] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.7.tar.gz]
+[2023-06-19 08:18:34] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-06-19 08:18:34] INFO root fetch - processPackages [aorta-sirius]: Start processing: odoo14-addon-invader-payment-adyen-sepa
+[2023-06-19 08:18:34] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-19 08:18:34] WARNING root fetch - processPackages [odoo14-addon-invader-payment-adyen-sepa]: Skipping, unable to determine old version
+[2023-06-19 08:18:34] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-sepa]: Start processing: odoo14-addon-invader-payment-adyen
+[2023-06-19 08:18:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-sepa] error
+[2023-06-19 08:18:34] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.4]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/f6/10/d16f9c7df2039b05fe28f3b7ba344068d5ae68605fb0ebd6bf7346e1239e/odoo14_addon_invader_payment_adyen-14.0.1.0.4-py3-none-any.whl
+[2023-06-19 08:18:35] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [openxlab]: Start processing: odoo14-addon-invader-payment-adyen-klarna-invoice
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-6.0.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-7.0.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: Start processing: smpgpt
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: New version: [7.0] Old Version: [6.0]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_sale-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Start processing: cli-meta-tool
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-sale]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/d7/30/8fe730626caaa7f5c456faac650ce25bb6e40ea60211ef20dd38094de963/smpgpt-6.0.tar.gz
+[2023-06-19 08:18:35] INFO root fetch - processPackages [cli-meta-tool]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Downloading https://files.pythonhosted.org/packages/7c/6e/1f1400c5c97d7056a3a4cbb9de8130fe327167a7b5b0ed8c0dfa5154be7f/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.2-py3-none-any.whl
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/1d/71/8a96a0e1013dc7375b2eca1306f6eb0ae6554fcfc22fcc55276509d0314f/smpgpt-7.0.tar.gz
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_capture-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-capture]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [cli-meta-tool]: Downloading https://files.pythonhosted.org/packages/31/72/1e522fc9bc5f7ce924c6bbb546cdd1712e1cf11e52883deefc3bf9f0a7f4/cli-meta-tool-0.1.0.tar.gz
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/28/7d/46522f111c104f02d91ed40482cc418a7f06629e5735434e44b237774ee0/odoo14_addon_invader_payment_adyen-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment-14.0.1.0.4-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment-14.0.1.0.5-py3-none-any.whl.zip]
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:18:35] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-6.0.tar.gz tmp/smpgpt-7.0.tar.gz --markdown 20230619/s/smpgpt/6.0-7.0/diff.md --exclude *.pyd
+[2023-06-19 08:18:35] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.3.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.9.tar.gz]
+[2023-06-19 08:18:35] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: executing diffoscope
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.4-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment-adyen/14.0.1.0.4-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Downloading https://files.pythonhosted.org/packages/d5/67/90c7af972c98751e88fbb6f65d36c966c82cf5206a96fac8eaa4dcedbeda/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.3-py3-none-any.whl
+[2023-06-19 08:18:35] INFO root fetch - processPackages [cli-meta-tool]: Downloading https://files.pythonhosted.org/packages/22/32/0ab1cdc47b721884fd14e5aeb57aaf24f9f49400949ca0ec90613caf5948/cli-meta-tool-0.1.1.tar.gz
+[2023-06-19 08:18:35] INFO root fetch - processPackages [cli-meta-tool]: executing diffoscope
+[2023-06-19 08:18:35] INFO root fetch - processPackages [cli-meta-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-meta-tool-0.1.0.tar.gz tmp/cli-meta-tool-0.1.1.tar.gz --markdown 20230619/c/cli-meta-tool/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: executing diffoscope
+[2023-06-19 08:18:35] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-invader-payment-adyen-klarna-invoice/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-19 08:18:36] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-06-19 08:18:36] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-6.0.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-7.0.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:18:36] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.6.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.7.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [tfts]: success
+[2023-06-19 08:18:36] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.4-py3-none-any.whl.zip]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen]: success
+[2023-06-19 08:18:36] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen_klarna_invoice-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-invoice]: success
+[2023-06-19 08:18:36] INFO root fetch - processPackages [cli-meta-tool]: Remove: archive file [/home/abi/fetcher/tmp/cli-meta-tool-0.1.0.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - processPackages [cli-meta-tool]: Remove: archive file [/home/abi/fetcher/tmp/cli-meta-tool-0.1.1.tar.gz]
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [cli-meta-tool]: success
+[2023-06-19 08:18:36] INFO root fetch - main [MainThread]: Store serial: [18556204]
