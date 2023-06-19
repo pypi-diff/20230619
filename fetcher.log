@@ -9035,3 +9035,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 09:08:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-19 09:08:41] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-19 09:08:41] INFO root fetch - main [MainThread]: Store serial: [18556514]
+[2023-06-19 09:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556514]
+[2023-06-19 09:13:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-hub-nightly
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bhyuncoRPApkg
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-tree-queries
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AMAS-sb
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shapes-recognition
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: one-api-tool
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discord-py-interactions
+[2023-06-19 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calrissian
+[2023-06-19 09:13:51] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [AMAS-sb]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [shapes-recognition]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/5d/ff/80f2b5d705c6f41d8a23f00888ac097159f652018e53a89bd81326cc609f/AMAS-sb-0.1.0.tar.gz
+[2023-06-19 09:13:51] WARNING root fetch - processPackages [bhyuncoRPApkg]: Skipping, unable to determine old version
+[2023-06-19 09:13:51] INFO root fetch - processPackages [bhyuncoRPApkg]: Start processing: model-compression-toolkit
+[2023-06-19 09:13:51] INFO root fetch - main [MainThread]: End processing [bhyuncoRPApkg] error
+[2023-06-19 09:13:51] INFO root fetch - processPackages [calrissian]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 09:13:51] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23342795>=10485760
+[2023-06-19 09:13:51] INFO root fetch - processPackages [AMAS-sb]: Start processing: interactions.py
+[2023-06-19 09:13:51] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-19 09:13:51] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/05/4a/161649df999dcef28f124ad5f7c52b644dff580e3592b4aad02fce311c4b/shapes_recognition-2.1.7.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [django-tree-queries]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [one-api-tool]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [discord-py-interactions]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [interactions.py]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [model-compression-toolkit]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-19 09:13:51] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/da/fd/0e65b34ebe549acc622cba642e995de5fb97c39baca554aeef76fcb58ca4/shapes_recognition-2.1.8.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/cd/5c/981f578b7c77b8e7c2cdc30c42347943d527158bb42e26fb65a58acc03af/discord-py-interactions-5.6.0.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [django-tree-queries]: Downloading https://files.pythonhosted.org/packages/06/4e/abb485b9480c2cc56356083d3c9f576a055c5245b24f0828d9c46602335b/django_tree_queries-0.8.0.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/f1/eb/0639d62bb43dfc410bab9ca73c0922f5a0a9a08ed4b7e3454522bbab97dd/one-api-tool-0.2.7.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-19 09:13:51] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-19 09:13:51] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230619/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-19 09:13:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-19 09:13:51] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.1.7.tar.gz tmp/shapes_recognition-2.1.8.tar.gz --markdown 20230619/s/shapes-recognition/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-19 09:13:51] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/68/96/ce132e3fdbee819b37ea47676aee91de1912cfc2742135097cf0a6c2d37a/model_compression_toolkit-1.8.0.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [calrissian]: executing diffoscope
+[2023-06-19 09:13:51] INFO root fetch - processPackages [calrissian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calrissian-0.8.0-py3.7.egg tmp/calrissian-0.9.0-py3.7.egg --markdown 20230619/c/calrissian/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:13:51] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/8d/4a/140fe7afe80469b5a8caab286b419f259e666e29ac6d09d67b40331d9bb1/interactions.py-5.6.0.tar.gz
+[2023-06-19 09:13:51] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/0d/97/3f6063cf42c5f8f1d9f03ec174417e3f9bc07c4b1d6c7447007e54080e4f/one-api-tool-0.2.8.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-19 09:13:52] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/8e/8f/a8fb108fb656282350581520b029a9a9fa6cbf03152922ba2c5bcdf197e3/discord-py-interactions-5.7.0.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [django-tree-queries]: Downloading https://files.pythonhosted.org/packages/28/4a/d94e86a41a31550569f23936c2ebe61d486fdf4587de10a4943f70a53914/django_tree_queries-0.9.0.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.2.7.tar.gz tmp/one-api-tool-0.2.8.tar.gz --markdown 20230619/o/one-api-tool/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/ea/02/ce4ebc4c1a69650aa0e5dc457be28afb60b1ff20440985fc48a057a525e6/interactions.py-5.7.0.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230619/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230619/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [discord-py-interactions]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [discord-py-interactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-py-interactions-5.6.0.tar.gz tmp/discord-py-interactions-5.7.0.tar.gz --markdown 20230619/d/discord-py-interactions/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [django-tree-queries]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [django-tree-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tree_queries-0.8.0.tar.gz tmp/django_tree_queries-0.9.0.tar.gz --markdown 20230619/d/django-tree-queries/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/1c/0e/f62c985a2e1acc2dfd34535af1be2526a1c9aaa04b49afde37e45a4f37dd/model_compression_toolkit-1.9.0.tar.gz
+[2023-06-19 09:13:52] INFO root fetch - processPackages [interactions.py]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [interactions.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions.py-5.6.0.tar.gz tmp/interactions.py-5.7.0.tar.gz --markdown 20230619/i/interactions.py/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-06-19 09:13:52] INFO root fetch - processPackages [model-compression-toolkit]: executing diffoscope
+[2023-06-19 09:13:52] INFO root fetch - processPackages [model-compression-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_compression_toolkit-1.8.0.tar.gz tmp/model_compression_toolkit-1.9.0.tar.gz --markdown 20230619/m/model-compression-toolkit/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:13:53] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.7.tar.gz]
+[2023-06-19 09:13:53] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.8.tar.gz]
+[2023-06-19 09:13:53] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-19 09:13:54] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.2.7.tar.gz]
+[2023-06-19 09:13:54] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.2.8.tar.gz]
+[2023-06-19 09:13:54] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-19 09:13:54] ERROR root fetch - processPackages [calrissian]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-19 09:13:54] INFO root fetch - main [MainThread]: End processing [calrissian] error
+[2023-06-19 09:13:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-19 09:13:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-19 09:13:54] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-19 09:13:54] INFO root fetch - processPackages [django-tree-queries]: Remove: archive file [/home/abi/fetcher/tmp/django_tree_queries-0.8.0.tar.gz]
+[2023-06-19 09:13:54] INFO root fetch - processPackages [django-tree-queries]: Remove: archive file [/home/abi/fetcher/tmp/django_tree_queries-0.9.0.tar.gz]
+[2023-06-19 09:13:54] INFO root fetch - main [MainThread]: End processing [django-tree-queries]: success
+[2023-06-19 09:13:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-19 09:13:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-19 09:13:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-19 09:13:55] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.6.0.tar.gz]
+[2023-06-19 09:13:55] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.7.0.tar.gz]
+[2023-06-19 09:13:55] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
+[2023-06-19 09:13:57] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.6.0.tar.gz]
+[2023-06-19 09:13:57] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.7.0.tar.gz]
+[2023-06-19 09:13:57] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
+[2023-06-19 09:13:57] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-19 09:13:57] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-19 09:13:57] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-19 09:14:00] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-1.8.0.tar.gz]
+[2023-06-19 09:14:00] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-1.9.0.tar.gz]
+[2023-06-19 09:14:00] INFO root fetch - main [MainThread]: End processing [model-compression-toolkit]: success
+[2023-06-19 09:14:00] INFO root fetch - main [MainThread]: Store serial: [18556559]
