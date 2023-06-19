@@ -14821,3 +14821,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:58:00] INFO root fetch - processPackages [popv]: Remove: archive file [/home/abi/fetcher/tmp/popv-0.3.2.tar.gz]
 [2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [popv]: success
 [2023-06-19 12:58:00] INFO root fetch - main [MainThread]: Store serial: [18558763]
+[2023-06-19 13:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558763]
+[2023-06-19 13:03:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shepherd-core
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-searchbiliinfo
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bosim
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shepherd-data
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elvia-datascience-forecasting
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pys-django-issue-tracker
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanochain
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microsoft-kiota-serialization-json
+[2023-06-19 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dronefly-core
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-06-19 13:03:11] WARNING root fetch - processPackages [bosim]: Skipping, unable to determine old version
+[2023-06-19 13:03:11] INFO root fetch - processPackages [bosim]: Start processing: m1nx4s-calculator
+[2023-06-19 13:03:11] INFO root fetch - main [MainThread]: End processing [bosim] error
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-core]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [pys-django-issue-tracker]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [elvia-datascience-forecasting]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nanochain]: New version: [0.2] Old Version: [0.1]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [dronefly-core]: New version: [0.3.6.dev3] Old Version: [0.3.6.dev2]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-data]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/34/b1/78f07aa02ca85543f9f7044b69f189c2afb19165b12f4148a7140fcffaaf/dronefly_core-0.3.6.dev2.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [m1nx4s-calculator]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/bb/53/3dcc2e1b1d027752afce65503692d34d8956a09b1ba8f20974d61a47ddda/shepherd_core-2023.6.4.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/53/9a/d36ca620d5241f8e29f0e39f9f4f40f1685736fada03f7482c1ede637754/elvia-datascience-forecasting-2.3.4.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [pys-django-issue-tracker]: Downloading https://files.pythonhosted.org/packages/7e/bf/d86dcac4be47f4fad7f67814edec365a9d4963f0b1da944a7d4c52628409/pys-django-issue-tracker-1.0.1.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/9c/15/b1eab16d61d4ac44ea0f4e9aa894618112dfa55057ac20dd6902a30376d1/nonebot_plugin_searchbiliinfo-1.7.7.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nanochain]: Downloading https://files.pythonhosted.org/packages/1e/3e/46369549e4ac036d3c396b644bdbafb1d07b13fb39e9d692ff232c5d135b/nanochain-0.1.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/e0/85/27310af25a9a52417d670df01e2565b4faf447082827eb2efe23cbb35d6d/microsoft_kiota_serialization_json-0.3.4.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/ed/43/5325acb93f4d6a7d87de033608d437770abf9e49ef0d2c35342391ace93d/shepherd_data-2023.6.4.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [m1nx4s-calculator]: Downloading https://files.pythonhosted.org/packages/4a/80/fc499e2e3bdcf45b29c34e6469af8c7230f9d8604e40466bb238200aac55/m1nx4s_calculator-1.0.0.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/76/2e/29d9251fe1f972ddd880e594c9ef1577b6487ca9aeaee4751736f036e9f8/dronefly_core-0.3.6.dev3.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/e4/16/571a6496d339631d92e6ad976c68ebfef26cc7b95422880de996fcae2539/shepherd_core-2023.6.5.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [elvia-datascience-forecasting]: Downloading https://files.pythonhosted.org/packages/60/25/4ac7f1aade5af5558cf14a3d836580693f5b5ef6963cdca843e0ca00655b/elvia-datascience-forecasting-2.3.5.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [pys-django-issue-tracker]: Downloading https://files.pythonhosted.org/packages/3b/e3/01f3a8108cd5b752478e1514dfb1fc7085e8f45af799f160e85be0234db7/pys-django-issue-tracker-1.0.2.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/36/b2/4233fdb77e8814ad06856d71d46f8b54748bcda98142e096154595a1b9f3/shepherd_data-2023.6.5.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [dronefly-core]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [dronefly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_core-0.3.6.dev2.tar.gz tmp/dronefly_core-0.3.6.dev3.tar.gz --markdown 20230619/d/dronefly-core/0.3.6.dev2-0.3.6.dev3/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2023.6.4.tar.gz tmp/shepherd_core-2023.6.5.tar.gz --markdown 20230619/s/shepherd-core/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [m1nx4s-calculator]: Downloading https://files.pythonhosted.org/packages/d1/01/7d39feacadd9103c41d6958c417da2e229a3f57058e9b9c9b687cad275ed/m1nx4s_calculator-1.1.0.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2023.6.4.tar.gz tmp/shepherd_data-2023.6.5.tar.gz --markdown 20230619/s/shepherd-data/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nanochain]: Downloading https://files.pythonhosted.org/packages/a5/46/8b671e23f352c56465b67116dd8a9526f53efa445382f311e8fa8e2f4ff0/nanochain-0.2.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [pys-django-issue-tracker]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [pys-django-issue-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pys-django-issue-tracker-1.0.1.tar.gz tmp/pys-django-issue-tracker-1.0.2.tar.gz --markdown 20230619/p/pys-django-issue-tracker/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [elvia-datascience-forecasting]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [elvia-datascience-forecasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elvia-datascience-forecasting-2.3.4.tar.gz tmp/elvia-datascience-forecasting-2.3.5.tar.gz --markdown 20230619/e/elvia-datascience-forecasting/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/dc/eb/ba36541dab3b9c8848e255352dca542d4c06d9d19883e5529e0e7707f59c/microsoft_kiota_serialization_json-0.3.5.tar.gz
+[2023-06-19 13:03:11] INFO root fetch - processPackages [m1nx4s-calculator]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [m1nx4s-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m1nx4s_calculator-1.0.0.tar.gz tmp/m1nx4s_calculator-1.1.0.tar.gz --markdown 20230619/m/m1nx4s-calculator/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nanochain]: executing diffoscope
+[2023-06-19 13:03:11] INFO root fetch - processPackages [nanochain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanochain-0.1.tar.gz tmp/nanochain-0.2.tar.gz --markdown 20230619/n/nanochain/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-19 13:03:12] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: executing diffoscope
+[2023-06-19 13:03:12] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_serialization_json-0.3.4.tar.gz tmp/microsoft_kiota_serialization_json-0.3.5.tar.gz --markdown 20230619/m/microsoft-kiota-serialization-json/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-19 13:03:12] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/ac/87/4c21d9c8c6ba23ce799e6f4d3aeecfb690b82ddc68534bb2230246a6c4ae/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz
+[2023-06-19 13:03:12] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: executing diffoscope
+[2023-06-19 13:03:12] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_searchbiliinfo-1.7.7.tar.gz tmp/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz --markdown 20230619/n/nonebot-plugin-searchbiliinfo/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-06-19 13:03:13] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev2.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev3.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [dronefly-core]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.6.4.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.6.5.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [nanochain]: Remove: archive file [/home/abi/fetcher/tmp/nanochain-0.1.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [nanochain]: Remove: archive file [/home/abi/fetcher/tmp/nanochain-0.2.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [nanochain]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [m1nx4s-calculator]: Remove: archive file [/home/abi/fetcher/tmp/m1nx4s_calculator-1.0.0.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [m1nx4s-calculator]: Remove: archive file [/home/abi/fetcher/tmp/m1nx4s_calculator-1.1.0.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [m1nx4s-calculator]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [elvia-datascience-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/elvia-datascience-forecasting-2.3.4.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [elvia-datascience-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/elvia-datascience-forecasting-2.3.5.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [elvia-datascience-forecasting]: success
+[2023-06-19 13:03:13] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_serialization_json-0.3.4.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_serialization_json-0.3.5.tar.gz]
+[2023-06-19 13:03:13] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-serialization-json]: success
+[2023-06-19 13:03:14] INFO root fetch - processPackages [pys-django-issue-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pys-django-issue-tracker-1.0.1.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - processPackages [pys-django-issue-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pys-django-issue-tracker-1.0.2.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - main [MainThread]: End processing [pys-django-issue-tracker]: success
+[2023-06-19 13:03:14] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_searchbiliinfo-1.7.7.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-searchbiliinfo]: success
+[2023-06-19 13:03:14] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.4.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.5.tar.gz]
+[2023-06-19 13:03:14] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2023-06-19 13:03:14] INFO root fetch - main [MainThread]: Store serial: [18558798]
