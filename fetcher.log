@@ -6055,3 +6055,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:25:21] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.1-py310-none-any.whl.zip]
 [2023-06-19 05:25:21] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
 [2023-06-19 05:25:21] INFO root fetch - main [MainThread]: Store serial: [18555315]
+[2023-06-19 05:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555315]
+[2023-06-19 05:30:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 05:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtx-deep
+[2023-06-19 05:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chinese-pdf-divider
+[2023-06-19 05:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2023-06-19 05:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyappauto
+[2023-06-19 05:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-bilichat
+[2023-06-19 05:30:30] WARNING root fetch - processPackages [chinese-pdf-divider]: Skipping, unable to determine old version
+[2023-06-19 05:30:30] INFO root fetch - main [MainThread]: End processing [chinese-pdf-divider] error
+[2023-06-19 05:30:30] INFO root fetch - processPackages [rtx-deep]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-19 05:30:30] WARNING root fetch - processPackages [pyappauto]: Skipping, unable to determine old version
+[2023-06-19 05:30:30] INFO root fetch - main [MainThread]: End processing [pyappauto] error
+[2023-06-19 05:30:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-06-19 05:30:30] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-19 05:30:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/ec/9a/10afbb74879a925186cd00461fe30794c102eecf00514072fb2342b99b28/nonebot_plugin_bilichat-2.7.1.tar.gz
+[2023-06-19 05:30:30] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/2a/8b/e93a35ac401670f43a0b09d9f8fb40d4ce35b6e39922f63fd07c71a6ba4d/rtx_deep-1.4.0-py39-none-any.whl
+[2023-06-19 05:30:30] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-19 05:30:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/d2/5d/f6f2b494101afbbc663df93b50bed2662fbcb7934b0d5394061818cde6df/nonebot_plugin_bilichat-2.7.2.tar.gz
+[2023-06-19 05:30:30] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/52/b3/353fc7ac9353346e962971319b4b35233118d0555b45f6413aec9b176796/rtx_deep-1.4.1-py39-none-any.whl
+[2023-06-19 05:30:30] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-06-19 05:30:30] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.4.0-py39-none-any.whl.zip tmp/rtx_deep-1.4.1-py39-none-any.whl.zip --markdown 20230619/r/rtx-deep/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-19 05:30:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-19 05:30:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.7.1.tar.gz tmp/nonebot_plugin_bilichat-2.7.2.tar.gz --markdown 20230619/n/nonebot-plugin-bilichat/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-06-19 05:30:30] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-19 05:30:30] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-19 05:30:30] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230619/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-19 05:30:31] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.1.tar.gz]
+[2023-06-19 05:30:31] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.2.tar.gz]
+[2023-06-19 05:30:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-19 05:30:32] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.0-py39-none-any.whl.zip]
+[2023-06-19 05:30:32] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.1-py39-none-any.whl.zip]
+[2023-06-19 05:30:32] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-06-19 05:30:33] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-19 05:30:33] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-19 05:30:33] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-19 05:30:33] INFO root fetch - main [MainThread]: Store serial: [18555343]
