@@ -17481,3 +17481,143 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:48:36] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
 [2023-06-19 14:48:36] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2023-06-19 14:48:36] INFO root fetch - main [MainThread]: Store serial: [18559811]
+[2023-06-19 14:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559811]
+[2023-06-19 14:53:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duqtools
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.contentrules.mailfromfield
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlptoolssna
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipyfilite
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaussian-suite
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clear-skies-aws
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdn-research-environment
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paneltime
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: classy-classification
+[2023-06-19 14:53:46] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.6.0] Old Version: [1.5.7]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [gaussian-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [nlptoolssna]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [paneltime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [duqtools]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [classy-classification]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230619.12.50.88206] Old Version: [20230619.12.13.625680]
+[2023-06-19 14:53:46] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-19 14:53:46] INFO root fetch - processPackages [gaussian-suite]: Downloading https://files.pythonhosted.org/packages/10/3a/2366bee5e395703787b2cdcd9b858b569a4c9aa6dd8d5c9cce857cd5d1fd/gaussian_suite-1.8.2.tar.gz
+[2023-06-19 14:53:46] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/fa/95/89dd4ed6982768e61931fdf3b0520f8445f0f6a54232cc29b1b7b9df46b5/classy-classification-0.6.4.tar.gz
+[2023-06-19 14:53:46] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/77/49/bdfa19e8f66c9b3873783236791e9197126f54e346bf69ea8177b758e148/hdn-research-environment-2.1.8.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [gaussian-suite]: Downloading https://files.pythonhosted.org/packages/93/cf/cce00ff4346b8c39a79f9703debfbd0841fbe2363018f66274d76dcaf5ec/gaussian_suite-1.9.0.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/5e/3b/c59ee3d2a1c7dc92e0a7db5dff1e476482dab694d5c2a059f197e35602d4/nlptoolssna-0.9.3.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230619/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/8d/a0/3ac323bb3db90e78db669b77b707d91b163a951425f677b170d03b359147/paneltime-1.2.8-py3-none-any.whl
+[2023-06-19 14:53:47] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ba/b2/c49a8dc5cfab50f5a95efce7139d68affa450e6c8fd25aae5ab5f59e7b10/certora-cli-alpha-master-20230619.12.13.625680.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: Downloading https://files.pythonhosted.org/packages/74/55/355314798c4e3c53d4b67a1297679ff9929eba74438301cd16e6d37a8c70/collective.contentrules.mailfromfield-1.1.0.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/eb/dc/3d2c7514d3801ad3a7cbbe7138bba42e55342fb2ea50f9b03d546ad6b09f/clear_skies_aws-1.5.7.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [duqtools]: Downloading https://files.pythonhosted.org/packages/83/83/4122061010eea4a30c0c309ff2349f13aa5d36a4d8d9c8fc0b82dc9b4901/duqtools-1.8.0.tar.gz
+[2023-06-19 14:53:47] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37057494>=10485760
+[2023-06-19 14:53:47] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pinit
+[2023-06-19 14:53:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-19 14:53:47] INFO root fetch - processPackages [gaussian-suite]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [gaussian-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaussian_suite-1.8.2.tar.gz tmp/gaussian_suite-1.9.0.tar.gz --markdown 20230619/g/gaussian-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [pinit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 14:53:47] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/2e/3a/4c6c818c0d2601a00bb403d1aa8f2168e3e37042b8c02eaa076c46c3c09e/classy-classification-0.6.5.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/14/9d/f7803b31ec358c1eed37dcc4a1d1f8707524ae07bcc4a104576ac2e36bdf/hdn-research-environment-2.1.9.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/e4/88/b0f4d8eca1b4e01f80ba7f6df7927cdc7f6adc060ca2d062849440fdca22/pinit-0.0.8.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [classy-classification]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [classy-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy-classification-0.6.4.tar.gz tmp/classy-classification-0.6.5.tar.gz --markdown 20230619/c/classy-classification/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.1.8.tar.gz tmp/hdn-research-environment-2.1.9.tar.gz --markdown 20230619/h/hdn-research-environment/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/18/f1/0c8ade257408b206e2f4ae5b0b1d19b03d5c11655efeb2ef2f6a4635010a/pinit-0.0.9.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: Downloading https://files.pythonhosted.org/packages/0d/d9/32c8518e8d731bfb819ba4984ca1ffb38346432df59a4c4d7ce2b6b4748f/collective.contentrules.mailfromfield-1.2.0.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [duqtools]: Downloading https://files.pythonhosted.org/packages/ff/3b/c0e32c627f061dfe833e7d1e3ef1bbeb5a51590b1904da9298f8cedc66b3/duqtools-1.9.0.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/85/13/dbef31924186edbbd603552f911fc57e05acb5272f7d33a3abe198164fbf/nlptoolssna-0.9.4.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/87/4c/e52982b62186c13b7c806ae9624e879bae753c1ab123addb53cbd07f6a50/clear_skies_aws-1.6.0.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [pinit]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [pinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinit-0.0.8.tar.gz tmp/pinit-0.0.9.tar.gz --markdown 20230619/p/pinit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/de/a8/dbbf56dea3d193b12b6786a57098c57f20651d9e1469533589ac80355236/paneltime-1.2.9.tar.gz
+[2023-06-19 14:53:47] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.contentrules.mailfromfield-1.1.0.tar.gz tmp/collective.contentrules.mailfromfield-1.2.0.tar.gz --markdown 20230619/c/collective.contentrules.mailfromfield/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [duqtools]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_aws-1.5.7.tar.gz tmp/clear_skies_aws-1.6.0.tar.gz --markdown 20230619/c/clear-skies-aws/1.5.7-1.6.0/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [duqtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duqtools-1.8.0.tar.gz tmp/duqtools-1.9.0.tar.gz --markdown 20230619/d/duqtools/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.9.3.tar.gz tmp/nlptoolssna-0.9.4.tar.gz --markdown 20230619/n/nlptoolssna/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-19 14:53:47] INFO root fetch - processPackages [paneltime]: executing diffoscope
+[2023-06-19 14:53:47] INFO root fetch - processPackages [paneltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paneltime-1.2.8-py3-none-any.whl.zip tmp/paneltime-1.2.9.tar.gz --markdown 20230619/p/paneltime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-0.6.4.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-0.6.5.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: Start processing: foursight-core
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [classy-classification]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.8.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.9.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [hdn-research-environment]: Start processing: genepierre
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [genepierre]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.8-py3-none-any.whl.zip]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [paneltime]: Remove: archive file [/home/abi/fetcher/tmp/paneltime-1.2.9.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [paneltime]: Start processing: classy-classification
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [paneltime]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/13/40/27f0641eb4bb2e99d8aacd23a695f88bf2bd531e902cf697254faf599301/genepierre-0.0.5.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/2e/3a/4c6c818c0d2601a00bb403d1aa8f2168e3e37042b8c02eaa076c46c3c09e/classy-classification-0.6.5.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/82/fc/c4b43018cef0c11da34c25dd0e04b73307c7faeb142cbbcdf25450361b6d/genepierre-0.0.6.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [gaussian-suite]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_suite-1.8.2.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [gaussian-suite]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_suite-1.9.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [gaussian-suite]: Start processing: easynetwork-trio
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [gaussian-suite]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.5.7.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.6.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [clear-skies-aws]: Start processing: homeassistant-historical-sensor
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [homeassistant-historical-sensor]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 14:53:49] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.5.tar.gz tmp/genepierre-0.0.6.tar.gz --markdown 20230619/g/genepierre/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 14:53:49] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-19 14:53:49] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230619/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-19 14:53:49] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/b7/21/f991a4d04b5fb115095b79cd17267e4fc3ccd9cfe291ad379f96e4e19e82/homeassistant-historical-sensor-1.0.0a0.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/34/8c/ec99f032064ec6a3eb639b1fca687375ab5e0f190cf2dae7086c3d5082ad/classy_classification-0.6.6.tar.gz
+[2023-06-19 14:53:49] WARNING root fetch - processPackages [easynetwork-trio]: Skipping, unable to determine old version
+[2023-06-19 14:53:49] INFO root fetch - processPackages [easynetwork-trio]: Start processing: DeepLogTimedelta
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [easynetwork-trio] error
+[2023-06-19 14:53:49] WARNING root fetch - processPackages [DeepLogTimedelta]: Skipping, unable to determine old version
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta] error
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: executing diffoscope
+[2023-06-19 14:53:49] INFO root fetch - processPackages [classy-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy-classification-0.6.5.tar.gz tmp/classy_classification-0.6.6.tar.gz --markdown 20230619/c/classy-classification/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-19 14:53:49] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/44/c4/aedfe892968cf558c6e935c19cf08bd02b340b394ba529d08447b0062ff4/homeassistant-historical-sensor-1.0.0a1.tar.gz
+[2023-06-19 14:53:49] INFO root fetch - processPackages [homeassistant-historical-sensor]: executing diffoscope
+[2023-06-19 14:53:49] INFO root fetch - processPackages [homeassistant-historical-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant-historical-sensor-1.0.0a0.tar.gz tmp/homeassistant-historical-sensor-1.0.0a1.tar.gz --markdown 20230619/h/homeassistant-historical-sensor/1.0.0a0-1.0.0a1/diff.md --exclude *.pyd
+[2023-06-19 14:53:49] INFO root fetch - processPackages [duqtools]: Remove: archive file [/home/abi/fetcher/tmp/duqtools-1.8.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [duqtools]: Remove: archive file [/home/abi/fetcher/tmp/duqtools-1.9.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [duqtools]: success
+[2023-06-19 14:53:49] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: Remove: archive file [/home/abi/fetcher/tmp/collective.contentrules.mailfromfield-1.1.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - processPackages [collective.contentrules.mailfromfield]: Remove: archive file [/home/abi/fetcher/tmp/collective.contentrules.mailfromfield-1.2.0.tar.gz]
+[2023-06-19 14:53:49] INFO root fetch - main [MainThread]: End processing [collective.contentrules.mailfromfield]: success
+[2023-06-19 14:53:50] INFO root fetch - processPackages [nlptoolssna]: Remove: archive file [/home/abi/fetcher/tmp/nlptoolssna-0.9.3.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - processPackages [nlptoolssna]: Remove: archive file [/home/abi/fetcher/tmp/nlptoolssna-0.9.4.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-06-19 14:53:50] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.5.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.6.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 14:53:50] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-0.6.5.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy_classification-0.6.6.tar.gz]
+[2023-06-19 14:53:50] INFO root fetch - main [MainThread]: End processing [classy-classification]: success
+[2023-06-19 14:53:51] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-1.0.0a0.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-1.0.0a1.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - main [MainThread]: End processing [homeassistant-historical-sensor]: success
+[2023-06-19 14:53:51] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.8.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.9.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - main [MainThread]: End processing [pinit]: success
+[2023-06-19 14:53:51] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-19 14:53:51] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-19 14:53:51] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-19 14:53:51] INFO root fetch - main [MainThread]: Store serial: [18559865]
