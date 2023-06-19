@@ -9653,3 +9653,150 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:35:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.5.tar.gz]
 [2023-06-19 09:35:08] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-19 09:35:08] INFO root fetch - main [MainThread]: Store serial: [18556753]
+[2023-06-19 09:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556753]
+[2023-06-19 09:40:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-ai-cli
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thinks-dash-components
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-sen2like
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molgraph
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdcclient
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langdash
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-cc5g20220314-py2
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-factories
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-cc5g20220314
+[2023-06-19 09:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-pbx-admin
+[2023-06-19 09:40:20] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [py-ai-cli]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [langdash]: New version: [1.4.0b0] Old Version: [1.3.5b0]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [molgraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [sdcclient]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [trytond-factories]: New version: [6.8.1] Old Version: [6.6.4]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc5] Old Version: [2023.6.3rc4]
+[2023-06-19 09:40:20] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/d6/9a/bca953732199d449c9955540bb9f219517d6ef988cbecb9f77901e200104/thinks_dash_components-0.3.8.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/dd/1b/3d048bb3b2fb99ab089a29cc183700c74e3659d7b9dbbf8e74572dd5401f/trytond-factories-6.6.4.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/4d/ad/ad5e91864914c279faa646df65e491ac254b88f75a57384e554391b0dad5/eodc_faas_sen2like-2023.6.3rc4.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: Downloading https://files.pythonhosted.org/packages/6c/d9/bcd6bd9965a3243d7828a5cd318ac283e131c4a561640b6f8aef7822a75e/alibabacloud_cc5g20220314_py2-1.0.8.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [sdcclient]: Downloading https://files.pythonhosted.org/packages/fd/9f/480586c6bce679ce9016ce51b64bcb7252921b14c533de69f6df83311923/sdcclient-0.8.0.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/ba/c1/60b76ea228dc7355c1780558c3ba94a37f5b122bf80fdcf3187817469f46/langdash-1.3.5b0.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/78/6d/3eb59dedbf7da0782457ca2da06cdb16611cf0c6eaf3cb4c2cbb691f9ab0/py-ai-cli-0.3.4.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2023-06-19 09:40:20] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: Downloading https://files.pythonhosted.org/packages/6b/8f/00a359f84c9fc6f061c9289557b07ec37a29260d87358360127bd0cabef6/alibabacloud_cc5g20220314-2.0.8.tar.gz
+[2023-06-19 09:40:20] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/40/82/472343bf56788b3be370911297016f98055d90101de85ae5c2653fb38c10/molgraph-0.3.8.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/dc/2e/068c210feeaf0d5e2f1753d81b59911cf1ca005a6b3ba560d2dcf7a3368f/thinks_dash_components-0.3.9.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/91/29/2dd7936d75e6c6c182f49c7615232d35529e69e212896c574442f90b5d40/trytond-factories-6.8.1.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/c7/5f/2a1d13c1a77066af0597eb54d99b9d92bf059baa6035ad6713bba256e844/langdash-1.4.0b0.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/b7/dc/3550dcab58c823749fcc639de69c043c779adf41fb31f8495e15ad4a011f/eodc_faas_sen2like-2023.6.3rc5.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.3.8.tar.gz tmp/thinks_dash_components-0.3.9.tar.gz --markdown 20230619/t/thinks-dash-components/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: Downloading https://files.pythonhosted.org/packages/1d/3e/fa8da075fe640c1259857ddbcd8e9697958e0cf5938a72d16a2cbf4033f6/alibabacloud_cc5g20220314_py2-1.0.9.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [sdcclient]: Downloading https://files.pythonhosted.org/packages/9f/42/80db251e1c1e6c8a62934af7f96e8ad6d6e77391fdf6bf2fa0e4fafbd895/sdcclient-0.9.0.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.3.5b0.tar.gz tmp/langdash-1.4.0b0.tar.gz --markdown 20230619/l/langdash/1.3.5b0-1.4.0b0/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/4a/06/4747764c076eca58d91362250c7d751139b430316d597348b991ecb090cc/molgraph-0.3.9.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/b0/21/cd0810c390f07840550e674db1f02fcb41c495073df168f3c985a1d2e3cc/py-ai-cli-0.3.5.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cc5g20220314_py2-1.0.8.tar.gz tmp/alibabacloud_cc5g20220314_py2-1.0.9.tar.gz --markdown 20230619/a/alibabacloud-cc5g20220314-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: Downloading https://files.pythonhosted.org/packages/12/e5/d686a52f10c9f41731e455f9371aa1d8a7b015235b93d9f3049fea383192/alibabacloud_cc5g20220314-2.0.9.tar.gz
+[2023-06-19 09:40:21] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc4.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc5.tar.gz --markdown 20230619/e/eodc-faas-sen2like/2023.6.3rc4-2023.6.3rc5/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [trytond-factories]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [trytond-factories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-factories-6.6.4.tar.gz tmp/trytond-factories-6.8.1.tar.gz --markdown 20230619/t/trytond-factories/6.6.4-6.8.1/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.3.8.tar.gz tmp/molgraph-0.3.9.tar.gz --markdown 20230619/m/molgraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [sdcclient]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [sdcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdcclient-0.8.0.tar.gz tmp/sdcclient-0.9.0.tar.gz --markdown 20230619/s/sdcclient/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [py-ai-cli]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [py-ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ai-cli-0.3.4.tar.gz tmp/py-ai-cli-0.3.5.tar.gz --markdown 20230619/p/py-ai-cli/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cc5g20220314-2.0.8.tar.gz tmp/alibabacloud_cc5g20220314-2.0.9.tar.gz --markdown 20230619/a/alibabacloud-cc5g20220314/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:40:21] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2023-06-19 09:40:21] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-06-19 09:40:21] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230619/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:40:23] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc4.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc5.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: KitronikPicoSmartAirQuality
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.5b0.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.4.0b0.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [langdash]: Start processing: dpamber
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [dpamber]: New version: [0.3.1] Old Version: [0.2.2]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.4.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.5.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [py-ai-cli]: Start processing: memento-scorecard
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [py-ai-cli]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [sdcclient]: Remove: archive file [/home/abi/fetcher/tmp/sdcclient-0.8.0.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [sdcclient]: Remove: archive file [/home/abi/fetcher/tmp/sdcclient-0.9.0.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [sdcclient]: Start processing: efel
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [sdcclient]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [memento-scorecard]: New version: [1.3.2] Old Version: [1.2.7]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [efel]: New version: [4.2.7] Old Version: [4.2.5]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Downloading https://files.pythonhosted.org/packages/36/84/50459917a9139638cda7234c20de3fffcccff23e5eaaee847d1b31b000b5/KitronikPicoSmartAirQuality-1.0.0.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [dpamber]: Downloading https://files.pythonhosted.org/packages/11/1c/d2770e8ceb3ed0ccd87641cce3e42a773025e1a7d278cc46dde0f52a5a6f/dpamber-0.2.2.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/27/c5/9a70b59d42263c8a14ed74d582b0c22de54a711efef02ecc8bd03fb669f2/memento-scorecard-1.2.7.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/8a/a9/ab6b41695b7e1c3a147a48013439b51aa39498cd9fdf9eb52f559b26b3a4/efel-4.2.5.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cc5g20220314-2.0.8.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cc5g20220314-2.0.9.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [alibabacloud-cc5g20220314]: Start processing: xlOil
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-cc5g20220314]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Downloading https://files.pythonhosted.org/packages/ce/30/bc1722696c301b6eca39dbc98d27f7545d7c819071a4c490987f2e535091/KitronikPicoSmartAirQuality-1.0.1.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/4f/da/cceeadb919be7df05b17a3a58f7b3254001ae022884011d94aac7361ea57/memento-scorecard-1.3.2.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [dpamber]: Downloading https://files.pythonhosted.org/packages/1e/c3/74c402715a5b04400d303161bc5ef127adab531aaa204a090051b88829c8/dpamber-0.3.1.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/0e/a3/833934a320423b3d41bf72306975d346c494881acb510980f3f6b06535cf/efel-4.2.7.tar.gz
+[2023-06-19 09:40:23] INFO root fetch - processPackages [trytond-factories]: Remove: archive file [/home/abi/fetcher/tmp/trytond-factories-6.6.4.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [trytond-factories]: Remove: archive file [/home/abi/fetcher/tmp/trytond-factories-6.8.1.tar.gz]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [trytond-factories]: Start processing: iosense-connect
+[2023-06-19 09:40:23] INFO root fetch - main [MainThread]: End processing [trytond-factories]: success
+[2023-06-19 09:40:23] INFO root fetch - processPackages [xlOil]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 09:40:23] INFO root fetch - processPackages [dpamber]: executing diffoscope
+[2023-06-19 09:40:23] INFO root fetch - processPackages [dpamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpamber-0.2.2.tar.gz tmp/dpamber-0.3.1.tar.gz --markdown 20230619/d/dpamber/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 09:40:24] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: executing diffoscope
+[2023-06-19 09:40:24] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KitronikPicoSmartAirQuality-1.0.0.tar.gz tmp/KitronikPicoSmartAirQuality-1.0.1.tar.gz --markdown 20230619/K/KitronikPicoSmartAirQuality/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 09:40:24] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2023-06-19 09:40:24] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-1.2.7.tar.gz tmp/memento-scorecard-1.3.2.tar.gz --markdown 20230619/m/memento-scorecard/1.2.7-1.3.2/diff.md --exclude *.pyd
+[2023-06-19 09:40:24] INFO root fetch - processPackages [iosense-connect]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-06-19 09:40:24] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-06-19 09:40:24] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.2.5.tar.gz tmp/efel-4.2.7.tar.gz --markdown 20230619/e/efel/4.2.5-4.2.7/diff.md --exclude *.pyd
+[2023-06-19 09:40:24] INFO root fetch - processPackages [xlOil]: Downloading https://files.pythonhosted.org/packages/b0/45/300fee520904b595c848b806e8719e069a21312cd02a59e98965352c3a58/xlOil-0.9.1-cp39-cp39-win_amd64.whl
+[2023-06-19 09:40:24] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/24/f5/a03673175efc45fe4b66179b567c7badf69fb49cb864e842d931d7620d48/iosense_connect-4.0.2.tar.gz
+[2023-06-19 09:40:24] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/9d/66/993223b2c67a4283adbafa6446c1f1f37ac2e50d7777a31f90d2385f24ca/iosense_connect-4.0.3.tar.gz
+[2023-06-19 09:40:24] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-19 09:40:24] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-4.0.2.tar.gz tmp/iosense_connect-4.0.3.tar.gz --markdown 20230619/i/iosense-connect/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-06-19 09:40:24] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cc5g20220314_py2-1.0.8.tar.gz]
+[2023-06-19 09:40:24] INFO root fetch - processPackages [alibabacloud-cc5g20220314-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cc5g20220314_py2-1.0.9.tar.gz]
+[2023-06-19 09:40:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-cc5g20220314-py2]: success
+[2023-06-19 09:40:25] INFO root fetch - processPackages [xlOil]: Downloading https://files.pythonhosted.org/packages/5c/f4/0e02a498e17e7cbe9962fac45d737df8af1fe2135acf4774fe1bd5ec8f0d/xlOil-0.9.2-cp39-cp39-win_amd64.whl
+[2023-06-19 09:40:25] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-1.2.7.tar.gz]
+[2023-06-19 09:40:25] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-1.3.2.tar.gz]
+[2023-06-19 09:40:25] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2023-06-19 09:40:25] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Remove: archive file [/home/abi/fetcher/tmp/KitronikPicoSmartAirQuality-1.0.0.tar.gz]
+[2023-06-19 09:40:25] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Remove: archive file [/home/abi/fetcher/tmp/KitronikPicoSmartAirQuality-1.0.1.tar.gz]
+[2023-06-19 09:40:25] INFO root fetch - main [MainThread]: End processing [KitronikPicoSmartAirQuality]: success
+[2023-06-19 09:40:26] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.2.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.3.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-19 09:40:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.8.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.9.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-06-19 09:40:26] INFO root fetch - processPackages [xlOil]: executing diffoscope
+[2023-06-19 09:40:26] INFO root fetch - processPackages [xlOil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlOil-0.9.1-cp39-cp39-win_amd64.whl.zip tmp/xlOil-0.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230619/x/xlOil/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 09:40:26] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.8.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.9.tar.gz]
+[2023-06-19 09:40:26] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-06-19 09:40:27] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.2.5.tar.gz]
+[2023-06-19 09:40:27] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.2.7.tar.gz]
+[2023-06-19 09:40:27] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-06-19 09:40:28] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2023-06-19 09:40:28] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2023-06-19 09:40:28] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-06-19 09:40:28] INFO root fetch - processPackages [dpamber]: Remove: archive file [/home/abi/fetcher/tmp/dpamber-0.2.2.tar.gz]
+[2023-06-19 09:40:28] INFO root fetch - processPackages [dpamber]: Remove: archive file [/home/abi/fetcher/tmp/dpamber-0.3.1.tar.gz]
+[2023-06-19 09:40:28] INFO root fetch - main [MainThread]: End processing [dpamber]: success
+[2023-06-19 09:40:46] INFO root fetch - processPackages [xlOil]: Remove: archive file [/home/abi/fetcher/tmp/xlOil-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:40:46] INFO root fetch - processPackages [xlOil]: Remove: archive file [/home/abi/fetcher/tmp/xlOil-0.9.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:40:46] INFO root fetch - main [MainThread]: End processing [xlOil]: success
+[2023-06-19 09:40:46] INFO root fetch - main [MainThread]: Store serial: [18556818]
