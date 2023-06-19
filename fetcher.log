@@ -6217,3 +6217,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:46:06] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.3.tar.gz]
 [2023-06-19 05:46:06] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
 [2023-06-19 05:46:06] INFO root fetch - main [MainThread]: Store serial: [18555397]
+[2023-06-19 05:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555397]
+[2023-06-19 05:51:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-extensions
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: propeller-design-tools
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopee-chatbot-get-feature
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vllm-py
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyautosrt
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs.range
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thinks-dash-components
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdhist
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycollimator
+[2023-06-19 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyconnectwise
+[2023-06-19 05:51:16] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-06-19 05:51:16] WARNING root fetch - processPackages [vllm-py]: Skipping, unable to determine old version
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cs.range]: New version: [20230619] Old Version: [20230518]
+[2023-06-19 05:51:16] INFO root fetch - main [MainThread]: End processing [vllm-py] error
+[2023-06-19 05:51:16] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-19 05:51:16] WARNING root fetch - processPackages [pyconnectwise]: Skipping, unable to determine old version
+[2023-06-19 05:51:16] INFO root fetch - main [MainThread]: End processing [pyconnectwise] error
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdhist]: New version: [3.7] Old Version: [3.6]
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pycollimator]: New version: [1.3.884.post7] Old Version: [1.3.884.post59]
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-06-19 05:51:16] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/50/f4/4313d5ca24ec1041e6501ffbcb778ad92b25b131950f42f8becfbe90e000/propeller_design_tools-0.4.3.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/4a/23/b0c517e8e642b696919c122fe93f293c970e1a4f15f4a704509b25959063/pyautosrt-0.2.4.tar.gz
+[2023-06-19 05:51:16] WARNING root fetch - processPackages [shopee-chatbot-get-feature]: Skipping, unable to determine old version
+[2023-06-19 05:51:16] INFO root fetch - main [MainThread]: End processing [shopee-chatbot-get-feature] error
+[2023-06-19 05:51:16] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/82/e9/c15e9bc375e1dbbf14e83eacc93d5aabd1d93626232a48d40da2bf1cf350/thinks_dash_components-0.3.5.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/fe/5a/b1704152657ae8b84614eaa72deb30e6faf782dd4233cdef200557fc46e5/pycollimator-1.3.884.post59.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cs.range]: Downloading https://files.pythonhosted.org/packages/42/a4/de45756c68f0bb296f04be0bc3640dbe503fc3dafdf6ae8108bc6ae66fd6/cs.range-20230518.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/67/95/285dadfaa0e7c6080a3297ced8063417dae991d9b5721f3d0943d33403e5/cdk-extensions-0.0.75.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/82/60/f023f5eda621e0833194819e78f15908be46ef8dfcb58a7a167e48fbf425/cdhist-3.6.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/58/9b/b304df2b006301fe1be10faffcf21f618aa83c4fdbf878992c7826acad7a/pyautosrt-0.2.6.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/05/c1/1651230ba98aaa855d800b2bb576a9089bccf871529e7c5cad3d0f48e56e/propeller_design_tools-0.4.4.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.4.tar.gz tmp/pyautosrt-0.2.6.tar.gz --markdown 20230619/p/pyautosrt/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-06-19 05:51:16] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/78/d1/e89dd40e908cd7572244cd81b31dbe3b60e627b3e5579adb57ab90667b98/thinks_dash_components-0.3.6.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cs.range]: Downloading https://files.pythonhosted.org/packages/2c/2f/699f536de8e135addf8b1e68e7b3beaf9c0584e2e8f49a693544216bc014/cs.range-20230619.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.4.3.tar.gz tmp/propeller_design_tools-0.4.4.tar.gz --markdown 20230619/p/propeller-design-tools/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/16/e3/c7a75bca851e8544f7a18c2f478835c5689bc13269863ff93c3433cf3462/cdk-extensions-0.0.76.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.3.5.tar.gz tmp/thinks_dash_components-0.3.6.tar.gz --markdown 20230619/t/thinks-dash-components/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/28/48/cbe684e42ce1b7d6fdda574e916633fbab71c9d102edc94b21376e5316ee/pycollimator-1.3.884.post7.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cs.range]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cs.range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.range-20230518.tar.gz tmp/cs.range-20230619.tar.gz --markdown 20230619/c/cs.range/20230518-20230619/diff.md --exclude *.pyd
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/68/58/055c46e8350e3469b3b58eebce57f6d9b72466ffe8580c2433b3c718c438/cdhist-3.7.tar.gz
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pycollimator]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [pycollimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycollimator-1.3.884.post59.tar.gz tmp/pycollimator-1.3.884.post7.tar.gz --markdown 20230619/p/pycollimator/1.3.884.post59-1.3.884.post7/diff.md --exclude *.pyd
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdhist]: executing diffoscope
+[2023-06-19 05:51:16] INFO root fetch - processPackages [cdhist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdhist-3.6.tar.gz tmp/cdhist-3.7.tar.gz --markdown 20230619/c/cdhist/3.6-3.7/diff.md --exclude *.pyd
+[2023-06-19 05:51:17] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-19 05:51:17] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.75.tar.gz tmp/cdk-extensions-0.0.76.tar.gz --markdown 20230619/c/cdk-extensions/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-06-19 05:51:17] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.4.tar.gz]
+[2023-06-19 05:51:17] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.6.tar.gz]
+[2023-06-19 05:51:17] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cs.range]: Remove: archive file [/home/abi/fetcher/tmp/cs.range-20230518.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cs.range]: Remove: archive file [/home/abi/fetcher/tmp/cs.range-20230619.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - main [MainThread]: End processing [cs.range]: success
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cdhist]: Remove: archive file [/home/abi/fetcher/tmp/cdhist-3.6.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cdhist]: Remove: archive file [/home/abi/fetcher/tmp/cdhist-3.7.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - main [MainThread]: End processing [cdhist]: success
+[2023-06-19 05:51:18] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-1.3.884.post59.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-1.3.884.post7.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - main [MainThread]: End processing [pycollimator]: success
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.75.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.76.tar.gz]
+[2023-06-19 05:51:18] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-19 05:51:19] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.3.tar.gz]
+[2023-06-19 05:51:19] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.4.tar.gz]
+[2023-06-19 05:51:19] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-19 05:51:19] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.5.tar.gz]
+[2023-06-19 05:51:19] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.6.tar.gz]
+[2023-06-19 05:51:19] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-06-19 05:51:19] INFO root fetch - main [MainThread]: Store serial: [18555431]
