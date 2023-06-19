@@ -6304,3 +6304,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:56:30] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.76.tar.gz]
 [2023-06-19 05:56:30] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
 [2023-06-19 05:56:30] INFO root fetch - main [MainThread]: Store serial: [18555436]
+[2023-06-19 06:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555436]
+[2023-06-19 06:01:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syrupy
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscan
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconnectwise
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WebtoonScraper
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cterasdk
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sourcery-nightly
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evals-nightly
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scoamp
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scoamppro
+[2023-06-19 06:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: memv
+[2023-06-19 06:01:39] INFO root fetch - processPackages [hscan]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [pyconnectwise]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230617] Old Version: [1.0.3.dev20230616]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [scoamppro]: New version: [0.3.0a3] Old Version: [0.3.0a2]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [memv]: New version: [0.0.4.4] Old Version: [0.0.4.3]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [syrupy]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [scoamp]: New version: [0.3.0a3] Old Version: [0.3.0a2]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [cterasdk]: New version: [2.9.0] Old Version: [2.8.32]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/7e/8a/1eac0f75bd6b270c276f2df4e493b44dd49e32bfa5f27d776b2f39e6f5a3/evals-nightly-1.0.3.dev20230616.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/29/52/038c46b4a54c5ca0510f9f0b08eb7fa7499f668c8b8ac92cc2ab6d8a8e14/hscan-2.5.1.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/56/4d/ab30425426ac22413485f62f51e66b3b5fe0b027c5e4a3466794a86603e9/WebtoonScraper-0.0.9.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/80/d4/ac8073aac7500315d01b64bcdcef1ff4d9929a6bb0a91908666ee5705baf/memv-0.0.4.3.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-19 06:01:39] INFO root fetch - processPackages [syrupy]: Downloading https://files.pythonhosted.org/packages/36/a8/7778d976c94c4dd3aa6bd762871bb1d94150a68148116eebdcb6871aa5ee/syrupy-4.0.3.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/53/16/14e74ed304342ba0a72ac9ff5a4f2eba8d13ae0cecb9e6db08fafe24dc29/pyconnectwise-0.2.3.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/0e/eb/a882607f70208462586250dbf56e8a180403ebd59754d9e0b4afe44d00a3/scoamp-0.3.0a2-py3-none-any.whl
+[2023-06-19 06:01:39] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/2d/fd/4e6defe85b56190c494776a70db64810bd0310845502918b4b527d597f75/scoamppro-0.3.0a2-py3-none-any.whl
+[2023-06-19 06:01:39] INFO root fetch - processPackages [cterasdk]: Downloading https://files.pythonhosted.org/packages/c2/ce/c95746ee47212ba7b5c85fcfa94d1ebbcf4e2531af136ebcc0e3a2e3bf1e/cterasdk-2.8.32.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-19 06:01:39] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/9d/47/560bc572cb4ef251c0aa15d80f96dc5c5583a38f0d5ceffb021f49f05f9c/memv-0.0.4.4.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/59/5a/bbed6a2c3f71e292f237157dd53a72cc9539ef1edcce572c07df1a27f72c/hscan-2.5.2.tar.gz
+[2023-06-19 06:01:39] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/98/85/4552b32f16a37d5da985b5e277da43d8c4dfe56b614dbd9d1a60ecaf1e30/WebtoonScraper-0.1.0a1.tar.gz
+[2023-06-19 06:01:39] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-19 06:01:40] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-19 06:01:40] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ec/61/587cc2b6aeddeafcc0c5ef11afc70e0badd4b703816182b1ff42cec14e62/evals-nightly-1.0.3.dev20230617.tar.gz
+[2023-06-19 06:01:40] INFO root fetch - processPackages [syrupy]: Downloading https://files.pythonhosted.org/packages/7a/61/5dc827b785aab7ebc45f6c1842df82107403a575aa717116878cbee9d097/syrupy-4.0.4.tar.gz
+[2023-06-19 06:01:40] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.3.tar.gz tmp/memv-0.0.4.4.tar.gz --markdown 20230619/m/memv/0.0.4.3-0.0.4.4/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/80/34/546321f13a191ea2acf3d3fa8b68927ea676f3d51278afbaaa78dd35a46f/pyconnectwise-0.2.4.tar.gz
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/56/16/bb50e4b668e4d546ac49b608e00a7e95e7651121936188a576b3af704e15/scoamppro-0.3.0a3-py3-none-any.whl
+[2023-06-19 06:01:40] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230616.tar.gz tmp/evals-nightly-1.0.3.dev20230617.tar.gz --markdown 20230619/e/evals-nightly/1.0.3.dev20230616-1.0.3.dev20230617/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [syrupy]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [syrupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrupy-4.0.3.tar.gz tmp/syrupy-4.0.4.tar.gz --markdown 20230619/s/syrupy/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.5.1.tar.gz tmp/hscan-2.5.2.tar.gz --markdown 20230619/h/hscan/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/c9/be/064a2563803641b4caec765031d4e8f7e4206e1e9efbd217559ca8453b33/scoamp-0.3.0a3-py3-none-any.whl
+[2023-06-19 06:01:40] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.9.tar.gz tmp/WebtoonScraper-0.1.0a1.tar.gz --markdown 20230619/W/WebtoonScraper/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [cterasdk]: Downloading https://files.pythonhosted.org/packages/d4/ab/317328c3787fbc48fb1b583a042be4337d3957d4b83b9eaa386bffe76e02/cterasdk-2.9.0.tar.gz
+[2023-06-19 06:01:40] INFO root fetch - processPackages [cterasdk]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [cterasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cterasdk-2.8.32.tar.gz tmp/cterasdk-2.9.0.tar.gz --markdown 20230619/c/cterasdk/2.8.32-2.9.0/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.0a2-py3-none-any.whl.zip tmp/scoamppro-0.3.0a3-py3-none-any.whl.zip --markdown 20230619/s/scoamppro/0.3.0a2-0.3.0a3/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [pyconnectwise]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [pyconnectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconnectwise-0.2.3.tar.gz tmp/pyconnectwise-0.2.4.tar.gz --markdown 20230619/p/pyconnectwise/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-06-19 06:01:40] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.0a2-py3-none-any.whl.zip tmp/scoamp-0.3.0a3-py3-none-any.whl.zip --markdown 20230619/s/scoamp/0.3.0a2-0.3.0a3/diff.md --exclude *.pyd
+[2023-06-19 06:01:41] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.3.tar.gz]
+[2023-06-19 06:01:41] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.4.tar.gz]
+[2023-06-19 06:01:41] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 06:01:41] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.1.tar.gz]
+[2023-06-19 06:01:41] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.2.tar.gz]
+[2023-06-19 06:01:41] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-06-19 06:01:41] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.0a2-py3-none-any.whl.zip]
+[2023-06-19 06:01:41] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.0a3-py3-none-any.whl.zip]
+[2023-06-19 06:01:41] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-06-19 06:01:41] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.0a2-py3-none-any.whl.zip]
+[2023-06-19 06:01:41] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.0a3-py3-none-any.whl.zip]
+[2023-06-19 06:01:41] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-06-19 06:01:42] INFO root fetch - processPackages [syrupy]: Remove: archive file [/home/abi/fetcher/tmp/syrupy-4.0.3.tar.gz]
+[2023-06-19 06:01:42] INFO root fetch - processPackages [syrupy]: Remove: archive file [/home/abi/fetcher/tmp/syrupy-4.0.4.tar.gz]
+[2023-06-19 06:01:42] INFO root fetch - main [MainThread]: End processing [syrupy]: success
+[2023-06-19 06:01:42] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.0.9.tar.gz]
+[2023-06-19 06:01:42] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.0a1.tar.gz]
+[2023-06-19 06:01:42] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-19 06:01:44] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230616.tar.gz]
+[2023-06-19 06:01:44] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230617.tar.gz]
+[2023-06-19 06:01:44] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-19 06:01:44] INFO root fetch - processPackages [cterasdk]: Remove: archive file [/home/abi/fetcher/tmp/cterasdk-2.8.32.tar.gz]
+[2023-06-19 06:01:44] INFO root fetch - processPackages [cterasdk]: Remove: archive file [/home/abi/fetcher/tmp/cterasdk-2.9.0.tar.gz]
+[2023-06-19 06:01:44] INFO root fetch - main [MainThread]: End processing [cterasdk]: success
+[2023-06-19 06:02:28] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.2.3.tar.gz]
+[2023-06-19 06:02:28] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.2.4.tar.gz]
+[2023-06-19 06:02:28] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
+[2023-06-19 06:02:28] INFO root fetch - main [MainThread]: Store serial: [18555463]
