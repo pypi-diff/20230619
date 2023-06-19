@@ -5289,3 +5289,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:26:45] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2023-06-19 04:27:36] INFO root fetch - main [MainThread]: End processing [upstash-redis-a]: success
 [2023-06-19 04:27:36] INFO root fetch - main [MainThread]: Store serial: [18555024]
+[2023-06-19 04:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555024]
+[2023-06-19 04:32:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybiotk
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruff-lsp
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hscan
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kk
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nseazy
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-secrets
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoxx
+[2023-06-19 04:32:45] WARNING root fetch - processPackages [nseazy]: Skipping, unable to determine old version
+[2023-06-19 04:32:45] INFO root fetch - main [MainThread]: End processing [nseazy] error
+[2023-06-19 04:32:45] INFO root fetch - processPackages [autoxx]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [hscan]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [pybiotk]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [kk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [api-secrets]: New version: [1.23] Old Version: [1.22]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 04:32:45] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/de/bd/53bbe6f37d72a79af297c55d161f15b5e7d89bde9e87dc5e144d448a7b5a/kk-0.9.2.tar.gz
+[2023-06-19 04:32:45] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/b1/99/2b4480d76c481de66b3f62d3e67273f6829f9a414874b3b12c2d4e2d98d0/hscan-2.4.2.tar.gz
+[2023-06-19 04:32:45] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/9c/8c/bea93ac443f8482458e291d55cc897928f875f3557ae1d71cd9b2a9f8577/autoxx-0.0.33.tar.gz
+[2023-06-19 04:32:45] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/01/7b/9e6f646c28b48a6ef9a434a1b8169c7ec6b8ee8e5ce135c6aa60284ddb84/pybiotk-1.1.1.tar.gz
+[2023-06-19 04:32:45] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/6d/4e/54cd251f9c8df1b732dae3629984cda68e266dfbaceebfa26b6be9d5feca/api_secrets-1.22.tar.gz
+[2023-06-19 04:32:45] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/48/64/90652b282a0d554a2483ebfdd37a317091e73d1b5caa0303f9a61bd27f78/ruff-lsp-0.0.8.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/11/ff/5d966a8f41b80bd5a9961ce4598555b0a2e16d0b539ad13f62456e11db70/kk-0.9.3.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/9b/d3/a48618f41f6e01c1e2160f3130a1b390992e7c0799d0cc2059ed1521a73c/autoxx-0.0.34.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/f7/2d/b38d75abba8592955a86e4d86c64229b02b37582049427c21925443b1807/pybiotk-1.2.0.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/a7/ab/feb60dc3db7a86c212d4ae9b6f1740e93fc8113bc890c17edc583ce30cc6/api_secrets-1.23.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/9b/3f/b3d1d4505828c7b3e03553e6a83e49d49446c96f3a971df7081c2bbbb2bf/hscan-2.5.0.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/33/19/dc8533de6945cbfa428f42fe750158bfebd5cc496e0ae9834c44180dc185/ruff-lsp-0.0.9.tar.gz
+[2023-06-19 04:32:46] INFO root fetch - processPackages [pybiotk]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [pybiotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiotk-1.1.1.tar.gz tmp/pybiotk-1.2.0.tar.gz --markdown 20230619/p/pybiotk/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 04:32:46] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230619/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 04:32:46] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.33.tar.gz tmp/autoxx-0.0.34.tar.gz --markdown 20230619/a/autoxx/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-06-19 04:32:46] INFO root fetch - processPackages [api-secrets]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [api-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_secrets-1.22.tar.gz tmp/api_secrets-1.23.tar.gz --markdown 20230619/a/api-secrets/1.22-1.23/diff.md --exclude *.pyd
+[2023-06-19 04:32:46] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.4.2.tar.gz tmp/hscan-2.5.0.tar.gz --markdown 20230619/h/hscan/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-06-19 04:32:46] INFO root fetch - processPackages [kk]: executing diffoscope
+[2023-06-19 04:32:46] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.2.tar.gz tmp/kk-0.9.3.tar.gz --markdown 20230619/k/kk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-19 04:32:47] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.8.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - processPackages [ruff-lsp]: Remove: archive file [/home/abi/fetcher/tmp/ruff-lsp-0.0.9.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-06-19 04:32:47] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.22.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.23.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - main [MainThread]: End processing [api-secrets]: success
+[2023-06-19 04:32:47] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.4.2.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.0.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-06-19 04:32:47] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.33.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.34.tar.gz]
+[2023-06-19 04:32:47] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-19 04:32:48] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.1.1.tar.gz]
+[2023-06-19 04:32:48] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.0.tar.gz]
+[2023-06-19 04:32:48] INFO root fetch - main [MainThread]: End processing [pybiotk]: success
+[2023-06-19 04:32:48] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.2.tar.gz]
+[2023-06-19 04:32:48] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.3.tar.gz]
+[2023-06-19 04:32:48] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2023-06-19 04:32:48] INFO root fetch - main [MainThread]: Store serial: [18555045]
