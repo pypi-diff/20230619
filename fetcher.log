@@ -15293,3 +15293,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:24:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.6.tar.gz]
 [2023-06-19 13:24:21] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-19 13:24:21] INFO root fetch - main [MainThread]: Store serial: [18558947]
+[2023-06-19 13:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558947]
+[2023-06-19 13:29:29] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-parallel-toolkit
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polywrap-msgpack
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mckit-nuclides
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyatlan
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchrl-nightly
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polywrap-manifest
+[2023-06-19 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HuMobi
+[2023-06-19 13:29:29] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [mckit-nuclides]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [polywrap-manifest]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [polywrap-msgpack]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [pyatlan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [HuMobi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 13:29:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 13:29:30] INFO root fetch - processPackages [mckit-nuclides]: Downloading https://files.pythonhosted.org/packages/4c/28/50ce244e36dec8c0d4f759c43841525031378f3bd47b3063ce5a354676fb/mckit_nuclides-0.2.1.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/62/60/94225b3b5d1c6cc0aea345f15d37850dc2d1224a963ca29d228fde172f13/polywrap_manifest-0.1.0a7.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/72/d2/bb5369f2ecc4fa01b6443f4bd0b9be64889c93f761aabef97ea460a08b25/openai_parallel_toolkit-0.4.1-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/64/aa/a4ed22f4b6f335769968ea42458aaccd7b2e9197af3aea3e0b41b959e52b/polywrap_msgpack-0.1.0a8.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/16/dd/d68b44a245dba409bba27936c9f52fddca5e57831bb2182b92e405799dad/pyatlan-0.1.2.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [HuMobi]: Downloading https://files.pythonhosted.org/packages/77/4c/807914adc517f5fc07c6c29badafd6eb97c8e720238287164658873bad73/HuMobi-0.1.8.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230619/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230619/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [mckit-nuclides]: Downloading https://files.pythonhosted.org/packages/15/15/f796d63da496fe4ea65eafcb93e55e9ed6229b4fcdc988d5c6cf0980358a/mckit_nuclides-0.2.2.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/14/be/50909d7d515465d0516773c08706d76f10f81be64ca4cc8f42b4d0aaa7de/openai_parallel_toolkit-0.5.0-py3-none-any.whl
+[2023-06-19 13:29:30] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchserve-nightly]: Start processing: netbox-cisco-maintenance
+[2023-06-19 13:29:30] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/7c/77/cedbff14721aa458a69c7a30b856445730a28b02b55fd934aa0743eb874b/polywrap_manifest-0.1.0a8.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:29:30] INFO root fetch - processPackages [mckit-nuclides]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [mckit-nuclides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mckit_nuclides-0.2.1.tar.gz tmp/mckit_nuclides-0.2.2.tar.gz --markdown 20230619/m/mckit-nuclides/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/f5/e7/9acac563c1933244fee01221e1a4a327fcdf3dc200dbb47bafd8df87b4c6/polywrap_msgpack-0.1.0a9.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.4.1-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.5.0-py3-none-any.whl.zip --markdown 20230619/o/openai-parallel-toolkit/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/e9/8a/8e1ae75c0899bd1f261baf39d89df78dac0fd262397575bdbe753273368d/pyatlan-0.1.3.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [HuMobi]: Downloading https://files.pythonhosted.org/packages/5e/8e/8fdb075b43bdfc9f08e68e0c6788c286f0f407479c1dd423c93d8a2c1cc6/HuMobi-0.1.9.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-manifest]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_manifest-0.1.0a7.tar.gz tmp/polywrap_manifest-0.1.0a8.tar.gz --markdown 20230619/p/polywrap-manifest/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-msgpack]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [polywrap-msgpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_msgpack-0.1.0a8.tar.gz tmp/polywrap_msgpack-0.1.0a9.tar.gz --markdown 20230619/p/polywrap-msgpack/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-19 13:29:30] INFO root fetch - processPackages [HuMobi]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [HuMobi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HuMobi-0.1.8.tar.gz tmp/HuMobi-0.1.9.tar.gz --markdown 20230619/H/HuMobi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.1.2.tar.gz tmp/pyatlan-0.1.3.tar.gz --markdown 20230619/p/pyatlan/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230619/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 13:29:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: pluggy
+[2023-06-19 13:29:32] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: torchrec-nightly
+[2023-06-19 13:29:32] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-19 13:29:32] INFO root fetch - processPackages [pluggy]: New version: [1.1.0] Old Version: [1.0.0.dev0]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [pluggy]: Downloading https://files.pythonhosted.org/packages/84/e4/1e31efbf4df237973eda266978713611299efd585fd72b7edc1513e5f208/pluggy-1.0.0.dev0.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a7.tar.gz]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-manifest]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_manifest-0.1.0a8.tar.gz]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-manifest]: Start processing: polywrap-core
+[2023-06-19 13:29:32] INFO root fetch - main [MainThread]: End processing [polywrap-manifest]: success
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a8.tar.gz]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-msgpack]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_msgpack-0.1.0a9.tar.gz]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-core]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-msgpack]: Start processing: GCoCF
+[2023-06-19 13:29:32] INFO root fetch - main [MainThread]: End processing [polywrap-msgpack]: success
+[2023-06-19 13:29:32] INFO root fetch - processPackages [GCoCF]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-19 13:29:32] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.4.1-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.0-py3-none-any.whl.zip]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [openai-parallel-toolkit]: Start processing: babyrobot
+[2023-06-19 13:29:32] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-06-19 13:29:32] INFO root fetch - processPackages [babyrobot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 13:29:32] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/1d/51/2eb31a2adae9da086e12553bae6d75c4c04de4825186955ad4646214fc0f/gcocf-0.9.98.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/40/37/2b19e197ee7324dd2e980bcfa8e754675bb1ca47c30acdcdaf4390a39ae5/babyrobot-1.0.8.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [pluggy]: Downloading https://files.pythonhosted.org/packages/02/aa/218b70027ff08035df09ac7ea7f230437a5bde09a4b76a1d72a60bf353ff/pluggy-1.1.0.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/7b/b1/1484222b63b3e1b70d597e65561606bde5651d540e5c9df28e9ab3dda02b/polywrap_core-0.1.0a7.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/6d/3a/af0ff9c49aefc5b6b5eddc7d51542ad9f6aef52786c6083294a265345f9d/gcocf-0.9.99.tar.gz
+[2023-06-19 13:29:32] INFO root fetch - processPackages [pluggy]: executing diffoscope
+[2023-06-19 13:29:32] INFO root fetch - processPackages [pluggy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluggy-1.0.0.dev0.tar.gz tmp/pluggy-1.1.0.tar.gz --markdown 20230619/p/pluggy/1.0.0.dev0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 13:29:32] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-19 13:29:32] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.98.tar.gz tmp/gcocf-0.9.99.tar.gz --markdown 20230619/G/GCoCF/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-19 13:29:32] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-19 13:29:32] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/4c/20/3a61f7effe2ce0041ea898bff945eba89b9e6e56dd8f07ad3223fb68a0f0/babyrobot-1.0.9.tar.gz
+[2023-06-19 13:29:33] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-19 13:29:33] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230619/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:33] INFO root fetch - processPackages [babyrobot]: executing diffoscope
+[2023-06-19 13:29:33] INFO root fetch - processPackages [babyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babyrobot-1.0.8.tar.gz tmp/babyrobot-1.0.9.tar.gz --markdown 20230619/b/babyrobot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:29:33] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/90/d2/7bf0a80d0c2cc70ceefe989729f194f3d0c8d6dfc9282c14919ee73276e0/polywrap_core-0.1.0a8.tar.gz
+[2023-06-19 13:29:33] INFO root fetch - processPackages [polywrap-core]: executing diffoscope
+[2023-06-19 13:29:33] INFO root fetch - processPackages [polywrap-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_core-0.1.0a7.tar.gz tmp/polywrap_core-0.1.0a8.tar.gz --markdown 20230619/p/polywrap-core/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-19 13:29:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: training-song
+[2023-06-19 13:29:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 13:29:33] INFO root fetch - processPackages [training-song]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [HuMobi]: Remove: archive file [/home/abi/fetcher/tmp/HuMobi-0.1.8.tar.gz]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [HuMobi]: Remove: archive file [/home/abi/fetcher/tmp/HuMobi-0.1.9.tar.gz]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [training-song]: Downloading https://files.pythonhosted.org/packages/83/22/9972f998e2822e5ff978f362e4c9d1687b0e5640196fa08565bad03fc6fb/training_song-0.2.1.tar.gz
+[2023-06-19 13:29:33] INFO root fetch - main [MainThread]: End processing [HuMobi]: success
+[2023-06-19 13:29:33] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 13:29:33] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 13:29:33] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-19 13:29:34] INFO root fetch - processPackages [training-song]: Downloading https://files.pythonhosted.org/packages/f3/2a/970d81b55512a6d1611bcc759b7821b48d50f59eb47bd51f9c04e06ff7ab/training_song-0.2.2.tar.gz
+[2023-06-19 13:29:34] INFO root fetch - processPackages [mckit-nuclides]: Remove: archive file [/home/abi/fetcher/tmp/mckit_nuclides-0.2.1.tar.gz]
+[2023-06-19 13:29:34] INFO root fetch - processPackages [mckit-nuclides]: Remove: archive file [/home/abi/fetcher/tmp/mckit_nuclides-0.2.2.tar.gz]
+[2023-06-19 13:29:34] INFO root fetch - main [MainThread]: End processing [mckit-nuclides]: success
+[2023-06-19 13:29:34] INFO root fetch - processPackages [training-song]: executing diffoscope
+[2023-06-19 13:29:34] INFO root fetch - processPackages [training-song]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/training_song-0.2.1.tar.gz tmp/training_song-0.2.2.tar.gz --markdown 20230619/t/training-song/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 13:29:34] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a7.tar.gz]
+[2023-06-19 13:29:34] INFO root fetch - processPackages [polywrap-core]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_core-0.1.0a8.tar.gz]
+[2023-06-19 13:29:34] INFO root fetch - main [MainThread]: End processing [polywrap-core]: success
+[2023-06-19 13:29:35] INFO root fetch - processPackages [pluggy]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-1.0.0.dev0.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - processPackages [pluggy]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-1.1.0.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - main [MainThread]: End processing [pluggy]: success
+[2023-06-19 13:29:35] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.8.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.9.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - main [MainThread]: End processing [babyrobot]: success
+[2023-06-19 13:29:35] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.98.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.99.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-19 13:29:35] INFO root fetch - processPackages [training-song]: Remove: archive file [/home/abi/fetcher/tmp/training_song-0.2.1.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - processPackages [training-song]: Remove: archive file [/home/abi/fetcher/tmp/training_song-0.2.2.tar.gz]
+[2023-06-19 13:29:35] INFO root fetch - main [MainThread]: End processing [training-song]: success
+[2023-06-19 13:29:35] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-19 13:29:35] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-19 13:29:35] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-19 13:30:29] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.2.tar.gz]
+[2023-06-19 13:30:29] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.3.tar.gz]
+[2023-06-19 13:30:29] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-06-19 13:30:29] INFO root fetch - main [MainThread]: Store serial: [18558997]
