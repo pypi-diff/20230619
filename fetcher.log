@@ -14516,3 +14516,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:41:27] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.9.tar.gz]
 [2023-06-19 12:41:27] INFO root fetch - main [MainThread]: End processing [teneva]: success
 [2023-06-19 12:41:27] INFO root fetch - main [MainThread]: Store serial: [18558635]
+[2023-06-19 12:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558635]
+[2023-06-19 12:46:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse-context-diagrams
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-discord-announcements
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perun.proxygui
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dialogy
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chainfury
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hmmer-tables
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alnoda-wrk
+[2023-06-19 12:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numbers-parser
+[2023-06-19 12:46:38] INFO root fetch - processPackages [perun.proxygui]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [chainfury]: New version: [0.1.0] Old Version: [0.0.1a0]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [hmmer-tables]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [numbers-parser]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [lollms]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [aa-discord-announcements]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/55/e3/c2b190a30902601c2f5dc628b3d50402e815e6d1161b8eb21b9d8601f29b/perun.proxygui-1.8.3.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [chainfury]: Downloading https://files.pythonhosted.org/packages/68/ab/cef66de2db84567a31d3fd1fdec9ca7521a8c3d961424bc9eb68da794a30/chainfury-0.0.1a0.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/55/d1/da1188ea6b335a34a8f7d05af914b8d1a113e2b90ecafb95243326a5aa99/hmmer_tables-0.1.1.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/0f/29/9f0e10661221b4585b3cf02478277ebd41a09900d0f13c22e25cb877c02e/aa_discord_announcements-1.2.0.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/9a/d5/1d1c7d68588ca8d4e67a154f9c65341f11888b60320db572580ba1f17844/numbers_parser-3.9.6.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/ea/dc/8315eaf6fd6140c4b223e6a39dbbcdabf29ae021c2d7cc4a1297b00fdf34/lollms-1.2.7.tar.gz
+[2023-06-19 12:46:38] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31321961>=10485760
+[2023-06-19 12:46:38] INFO root fetch - processPackages [lollms]: Start processing: webdriver-kaifuku
+[2023-06-19 12:46:38] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-19 12:46:38] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-19 12:46:38] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230619/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 12:46:38] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2023-06-19 12:46:38] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20230619/c/capellambse-context-diagrams/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 12:46:38] INFO root fetch - processPackages [webdriver-kaifuku]: New version: [23.6.19.0] Old Version: [22.6.28.0]
+[2023-06-19 12:46:38] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-19 12:46:38] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230619/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-19 12:46:38] INFO root fetch - processPackages [chainfury]: Downloading https://files.pythonhosted.org/packages/f3/9f/3b2005fe2cb89d92cccf097e95a2cbe67d3a9b66325b4c2430520432819c/chainfury-0.1.0.tar.gz
+[2023-06-19 12:46:38] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/5b/52/658a5595f360d980cee63c4e80e980ef86b0a196d634ac4a8fb8e0fb1312/numbers_parser-3.9.7.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/e0/8e/5ecae57c514163bf83e3c9f9f6f31a3df2a11070e811f7ffed9bb1f6e822/aa_discord_announcements-1.2.1.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/62/00/cd403495280ecc16227d2223555f42062fdef02a25cfa142636b5fa4cd27/hmmer_tables-0.1.2.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [webdriver-kaifuku]: Downloading https://files.pythonhosted.org/packages/97/72/33311b4550e7841f49d153f78330317c9009d29f69498b474f764b7ae9d1/webdriver_kaifuku-22.6.28.0.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [aa-discord-announcements]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [aa-discord-announcements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_discord_announcements-1.2.0.tar.gz tmp/aa_discord_announcements-1.2.1.tar.gz --markdown 20230619/a/aa-discord-announcements/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [hmmer-tables]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [hmmer-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmer_tables-0.1.1.tar.gz tmp/hmmer_tables-0.1.2.tar.gz --markdown 20230619/h/hmmer-tables/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [chainfury]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [chainfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainfury-0.0.1a0.tar.gz tmp/chainfury-0.1.0.tar.gz --markdown 20230619/c/chainfury/0.0.1a0-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [numbers-parser]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [numbers-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers_parser-3.9.6.tar.gz tmp/numbers_parser-3.9.7.tar.gz --markdown 20230619/n/numbers-parser/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230619/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [webdriver-kaifuku]: Downloading https://files.pythonhosted.org/packages/50/1a/493e18e25f0f4d62718ea78a3349d425b252c63b75b8d34d5c790ab904a0/webdriver_kaifuku-23.6.19.0.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [webdriver-kaifuku]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [webdriver-kaifuku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_kaifuku-22.6.28.0.tar.gz tmp/webdriver_kaifuku-23.6.19.0.tar.gz --markdown 20230619/w/webdriver-kaifuku/22.6.28.0-23.6.19.0/diff.md --exclude *.pyd
+[2023-06-19 12:46:39] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/be/7c/709680812bff61a05a9fa8800cf3437ca1cb120673110eb37cbe0f3c6336/perun.proxygui-1.8.4.tar.gz
+[2023-06-19 12:46:39] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-06-19 12:46:39] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.8.3.tar.gz tmp/perun.proxygui-1.8.4.tar.gz --markdown 20230619/p/perun.proxygui/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-19 12:46:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [titan-iris]: Start processing: heimarobot
+[2023-06-19 12:46:40] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-19 12:46:40] WARNING root fetch - processPackages [heimarobot]: Skipping, unable to determine old version
+[2023-06-19 12:46:40] INFO root fetch - processPackages [heimarobot]: Start processing: license-tools
+[2023-06-19 12:46:40] INFO root fetch - main [MainThread]: End processing [heimarobot] error
+[2023-06-19 12:46:40] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.1.1.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.1.2.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [hmmer-tables]: Start processing: phub
+[2023-06-19 12:46:40] INFO root fetch - main [MainThread]: End processing [hmmer-tables]: success
+[2023-06-19 12:46:40] INFO root fetch - processPackages [license-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [chainfury]: Remove: archive file [/home/abi/fetcher/tmp/chainfury-0.0.1a0.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [chainfury]: Remove: archive file [/home/abi/fetcher/tmp/chainfury-0.1.0.tar.gz]
+[2023-06-19 12:46:40] INFO root fetch - processPackages [chainfury]: Start processing: blond
+[2023-06-19 12:46:40] INFO root fetch - main [MainThread]: End processing [chainfury]: success
+[2023-06-19 12:46:40] INFO root fetch - processPackages [phub]: New version: [2.5] Old Version: [2.4]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [license-tools]: Downloading https://files.pythonhosted.org/packages/8b/38/2e602e1e40b61442b54eeb01b818d1d9aa264fe805be651e950872eb2854/license_tools-0.2.0.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [blond]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/fc/cb/de2d2be37d1055051e644b2ed943a059da30addbb3436342f4414299a26c/phub-2.4.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [webdriver-kaifuku]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_kaifuku-22.6.28.0.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [webdriver-kaifuku]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_kaifuku-23.6.19.0.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - main [MainThread]: End processing [webdriver-kaifuku]: success
+[2023-06-19 12:46:41] INFO root fetch - processPackages [license-tools]: Downloading https://files.pythonhosted.org/packages/0d/e6/c67c4192a84e775b4ae0299aedd30359ba2e3fc0aad8eaf946aaf179e1fc/license_tools-0.3.0.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/54/bc/091192db75bd947c7fc1edecf5551553ec6eb8d09bce6d9d14698a52a207/blond-2.1.8.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-06-19 12:46:41] INFO root fetch - processPackages [license-tools]: executing diffoscope
+[2023-06-19 12:46:41] INFO root fetch - processPackages [license-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_tools-0.2.0.tar.gz tmp/license_tools-0.3.0.tar.gz --markdown 20230619/l/license-tools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 12:46:41] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-3.9.6.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-3.9.7.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - main [MainThread]: End processing [numbers-parser]: success
+[2023-06-19 12:46:41] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/a7/87/f7d842ddf68f215c6e2a41878d897ead8d9587a734796bb5a657f5544e3e/phub-2.5.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/dd/13/ea22bee5fedfa9f40c47ad620dd28306848e76c6fc382accac1c3ded55f6/blond-2.1.9.tar.gz
+[2023-06-19 12:46:41] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-19 12:46:41] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.4.tar.gz tmp/phub-2.5.tar.gz --markdown 20230619/p/phub/2.4-2.5/diff.md --exclude *.pyd
+[2023-06-19 12:46:41] INFO root fetch - processPackages [aa-discord-announcements]: Remove: archive file [/home/abi/fetcher/tmp/aa_discord_announcements-1.2.0.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - processPackages [aa-discord-announcements]: Remove: archive file [/home/abi/fetcher/tmp/aa_discord_announcements-1.2.1.tar.gz]
+[2023-06-19 12:46:41] INFO root fetch - main [MainThread]: End processing [aa-discord-announcements]: success
+[2023-06-19 12:46:41] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-06-19 12:46:41] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.1.8.tar.gz tmp/blond-2.1.9.tar.gz --markdown 20230619/b/blond/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-19 12:46:42] INFO root fetch - processPackages [license-tools]: Remove: archive file [/home/abi/fetcher/tmp/license_tools-0.2.0.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - processPackages [license-tools]: Remove: archive file [/home/abi/fetcher/tmp/license_tools-0.3.0.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - main [MainThread]: End processing [license-tools]: success
+[2023-06-19 12:46:42] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.4.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.5.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-19 12:46:42] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-19 12:46:42] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-19 12:46:43] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.8.tar.gz]
+[2023-06-19 12:46:43] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.9.tar.gz]
+[2023-06-19 12:46:43] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-06-19 12:46:44] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2023-06-19 12:46:44] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2023-06-19 12:46:44] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2023-06-19 12:46:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.3.tar.gz]
+[2023-06-19 12:46:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-1.8.4.tar.gz]
+[2023-06-19 12:46:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-06-19 12:46:46] INFO root fetch - main [MainThread]: Store serial: [18558682]
