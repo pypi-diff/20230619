@@ -14008,3 +14008,180 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:19:30] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.4.tar.gz]
 [2023-06-19 12:19:30] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-06-19 12:19:30] INFO root fetch - main [MainThread]: Store serial: [18558442]
+[2023-06-19 12:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558442]
+[2023-06-19 12:24:39] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sliceable-dict
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-play-developer-api
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UComp
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfacetopography
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailalert
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: empire-platform-api-public-client
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: constructs
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ibm-metrics-plugin
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azdev
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-06-19 12:24:39] INFO root fetch - processPackages [surfacetopography]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [ibm-metrics-plugin]: New version: [4.7.0.24] Old Version: [4.6.5.8]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [sliceable-dict]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [UComp]: New version: [1.0.69] Old Version: [1.0.68]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [emailalert]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [empire-platform-api-public-client]: New version: [0.149.0] Old Version: [0.146.1]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-19 12:24:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202306191021] Old Version: [99.0.202306190949]
+[2023-06-19 12:24:39] WARNING root fetch - processPackages [google-play-developer-api]: Skipping, unable to determine old version
+[2023-06-19 12:24:39] INFO root fetch - processPackages [google-play-developer-api]: Start processing: greet-human
+[2023-06-19 12:24:39] INFO root fetch - main [MainThread]: End processing [google-play-developer-api] error
+[2023-06-19 12:24:39] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/a9/9e/34576969e18b3b3bfc5503a32d3e8190de6de4f6c11a1a457b22fb868c44/emailalert-1.1.8.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/22/e0/b2c42cb462a7423e82df89e650469d293b8fdcfb927239e27d97a572a426/kcli-99.0.202306190949-py3-none-any.whl
+[2023-06-19 12:24:40] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/ae/3d/da3829d65ccab7df43fb3171c98dfcc4d8dd361140d5111b0b05758a4ee7/UComp-1.0.68.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/f2/d7/2ffd0f41d9cbfaccf474ecc402ac6c8766a01c5588c894981054a0500e09/sliceable_dict-0.3.0.tar.gz
+[2023-06-19 12:24:40] WARNING root fetch - processPackages [greet-human]: Skipping, unable to determine old version
+[2023-06-19 12:24:40] INFO root fetch - processPackages [greet-human]: Start processing: constructs
+[2023-06-19 12:24:40] INFO root fetch - main [MainThread]: End processing [greet-human] error
+[2023-06-19 12:24:40] INFO root fetch - processPackages [ibm-metrics-plugin]: Downloading https://files.pythonhosted.org/packages/bd/8b/e197d28a93ceb37fc274bb0be71f7490d3b717c16548fbae07aa29cef6d8/ibm_metrics_plugin-4.6.5.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-19 12:24:40] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/62/da/4db7f0f49b1194b575e113129642e134ab6920f401ab03e1909f4724a415/empire-platform-api-public-client-0.146.1.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/88/d2/a743946eb77da252843d3ea8aed500e59aac72a4e9ecd91db92e68000a2c/surfacetopography-1.6.2.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-06-19 12:24:40] WARNING root fetch - processPackages [ibm-metrics-plugin]: Skipping package: exceeds size limit 33689118>=10485760
+[2023-06-19 12:24:40] INFO root fetch - processPackages [ibm-metrics-plugin]: Start processing: pymodaq-plugins-hamamatsu
+[2023-06-19 12:24:40] INFO root fetch - main [MainThread]: End processing [ibm-metrics-plugin] error
+[2023-06-19 12:24:40] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/2b/db/eaea3a0268a66ccc942c8d369744aae3ef998a73b922a984c48097d73880/emailalert-1.1.9.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/fa/3a/1aa92222be57699495c2a4a69a27a32d61874dff2149e6d741e663b11e6d/kcli-99.0.202306191021-py3-none-any.whl
+[2023-06-19 12:24:40] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 12:24:40] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/80/da/be18d6786f9d59efded45952cb790abb3a136da1401011ea50460947f3ed/sliceable_dict-0.4.0.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230619/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.8.tar.gz tmp/emailalert-1.1.9.tar.gz --markdown 20230619/e/emailalert/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/88/63/1c8b2a2109e966aa0c251af83c516779f53157706fd1524d833bde671e8b/empire-platform-api-public-client-0.149.0.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/fa/d3/794bd02117ce4322a5cc7292fff4181b247607bc3040de9579478b4e87d1/UComp-1.0.69.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [sliceable-dict]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [sliceable-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceable_dict-0.3.0.tar.gz tmp/sliceable_dict-0.4.0.tar.gz --markdown 20230619/s/sliceable-dict/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: Downloading https://files.pythonhosted.org/packages/e8/60/625388c101625d6125869f009b4e269eb0ade16fe7c277e374cbbb3294fa/pymodaq_plugins_hamamatsu-0.1.0.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [empire-platform-api-public-client]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [empire-platform-api-public-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empire-platform-api-public-client-0.146.1.tar.gz tmp/empire-platform-api-public-client-0.149.0.tar.gz --markdown 20230619/e/empire-platform-api-public-client/0.146.1-0.149.0/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/2d/38/fd1493994d14ffe50ce8088ad9b6493ebf790e5380c7d0c2c3fbbd42b2d9/surfacetopography-1.6.3.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.68.tar.gz tmp/UComp-1.0.69.tar.gz --markdown 20230619/U/UComp/1.0.68-1.0.69/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230619/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230619/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-19 12:24:40] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: Downloading https://files.pythonhosted.org/packages/f1/01/0ab518207b6a2ebf73372c4df621004af9e31307daa3d2fad1bd8481fe27/pymodaq_plugins_hamamatsu-0.2.0.tar.gz
+[2023-06-19 12:24:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-19 12:24:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306190949-py3-none-any.whl.zip tmp/kcli-99.0.202306191021-py3-none-any.whl.zip --markdown 20230619/k/kcli/99.0.202306190949-99.0.202306191021/diff.md --exclude *.pyd
+[2023-06-19 12:24:41] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: executing diffoscope
+[2023-06-19 12:24:41] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_hamamatsu-0.1.0.tar.gz tmp/pymodaq_plugins_hamamatsu-0.2.0.tar.gz --markdown 20230619/p/pymodaq-plugins-hamamatsu/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 12:24:41] INFO root fetch - processPackages [surfacetopography]: executing diffoscope
+[2023-06-19 12:24:41] INFO root fetch - processPackages [surfacetopography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfacetopography-1.6.2.tar.gz tmp/surfacetopography-1.6.3.tar.gz --markdown 20230619/s/surfacetopography/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-19 12:24:42] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.8.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.9.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [emailalert]: Start processing: pymobiledevice3
+[2023-06-19 12:24:42] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/f1/33/0ef2e097364fb6e71a8b3d6f2fe703c5052c6beb7af2997c0e32bed12495/pymobiledevice3-2.0.0.tar.gz
+[2023-06-19 12:24:42] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.3.0.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.4.0.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [sliceable-dict]: Start processing: th2-data-services
+[2023-06-19 12:24:42] INFO root fetch - main [MainThread]: End processing [sliceable-dict]: success
+[2023-06-19 12:24:42] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5308660964] Old Version: [2.0.0.dev5291196287]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/99/1c/38652a96d4aaab10d37bdb9788690597a4252f79e240c16a10bb7d19f5c7/th2_data_services-2.0.0.dev5291196287.tar.gz
+[2023-06-19 12:24:42] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/46/7b/eae92f856da76ec495dbd9cf006199b6c4fff110c96483897445d7f968e4/th2_data_services-2.0.0.dev5308660964.tar.gz
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/b3/45/f089425348c062053e3273855b9a1afbc6339887373ad170f3c74304b4be/pymobiledevice3-2.0.1.tar.gz
+[2023-06-19 12:24:42] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-19 12:24:42] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5291196287.tar.gz tmp/th2_data_services-2.0.0.dev5308660964.tar.gz --markdown 20230619/t/th2-data-services/2.0.0.dev5291196287-2.0.0.dev5308660964/diff.md --exclude *.pyd
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-2.0.0.tar.gz tmp/pymobiledevice3-2.0.1.tar.gz --markdown 20230619/p/pymobiledevice3/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_hamamatsu-0.1.0.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_hamamatsu-0.2.0.tar.gz]
+[2023-06-19 12:24:42] INFO root fetch - processPackages [pymodaq-plugins-hamamatsu]: Start processing: drf-recaptcha-e2e
+[2023-06-19 12:24:42] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-hamamatsu]: success
+[2023-06-19 12:24:43] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-19 12:24:43] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-19 12:24:43] INFO root fetch - processPackages [constructs]: Start processing: openmetadata-ingestion
+[2023-06-19 12:24:43] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-19 12:24:43] WARNING root fetch - processPackages [drf-recaptcha-e2e]: Skipping, unable to determine old version
+[2023-06-19 12:24:43] INFO root fetch - processPackages [drf-recaptcha-e2e]: Start processing: kfish
+[2023-06-19 12:24:43] INFO root fetch - main [MainThread]: End processing [drf-recaptcha-e2e] error
+[2023-06-19 12:24:43] INFO root fetch - processPackages [kfish]: New version: [99.0.202306190952] Old Version: [99.0.202306190947]
+[2023-06-19 12:24:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4b/d6/5f94810a8c8d8d94ec8d15af765010224c9c8a5203f8ea1e678ad6cf498e/kfish-99.0.202306190947-py3-none-any.whl
+[2023-06-19 12:24:43] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.4.2] Old Version: [1.0.4.1]
+[2023-06-19 12:24:43] INFO root fetch - processPackages [constructs]: Start processing: hcloud
+[2023-06-19 12:24:43] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-19 12:24:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4c/ce/de2e24642022512d354e7cae7134544d73c3a569af0ba99c630979053ed8/kfish-99.0.202306190952-py3-none-any.whl
+[2023-06-19 12:24:43] INFO root fetch - processPackages [hcloud]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-19 12:24:43] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/46/66/c6359e84fd9c778f6304a9d3c98861e9d2f98f2ed0d8505d2210a54d0f07/openmetadata-ingestion-1.0.4.1.tar.gz
+[2023-06-19 12:24:43] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-19 12:24:43] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306190947-py3-none-any.whl.zip tmp/kfish-99.0.202306190952-py3-none-any.whl.zip --markdown 20230619/k/kfish/99.0.202306190947-99.0.202306190952/diff.md --exclude *.pyd
+[2023-06-19 12:24:43] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/75/ae/3377e93b699a5a13d41b1da469eadc345a199ceebf95e75d000414478955/hcloud-1.9.0.tar.gz
+[2023-06-19 12:24:43] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b3/b4/12c17bc5a1843290adcec4b525c5e8059629c84dab1b1e88e7a43b6fe9d2/openmetadata-ingestion-1.0.4.2.tar.gz
+[2023-06-19 12:24:44] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-19 12:24:44] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.4.1.tar.gz tmp/openmetadata-ingestion-1.0.4.2.tar.gz --markdown 20230619/o/openmetadata-ingestion/1.0.4.1-1.0.4.2/diff.md --exclude *.pyd
+[2023-06-19 12:24:44] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/57/06/ffb83beaa4a583e87937570492b0fa3ee49120b1617e90ec90aa3801054e/hcloud-1.9.1.tar.gz
+[2023-06-19 12:24:44] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-06-19 12:24:44] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-06-19 12:24:44] INFO root fetch - processPackages [azdev]: Start processing: pywin32-ctypes
+[2023-06-19 12:24:44] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-06-19 12:24:44] INFO root fetch - processPackages [pywin32-ctypes]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-19 12:24:44] INFO root fetch - processPackages [hcloud]: executing diffoscope
+[2023-06-19 12:24:44] INFO root fetch - processPackages [hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcloud-1.9.0.tar.gz tmp/hcloud-1.9.1.tar.gz --markdown 20230619/h/hcloud/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-19 12:24:44] INFO root fetch - processPackages [pywin32-ctypes]: Downloading https://files.pythonhosted.org/packages/3f/ff/da0e68961128f36b5df94d2442fede4e7c0401488e41db0016278822b01c/pywin32-ctypes-0.1.2.tar.gz
+[2023-06-19 12:24:44] INFO root fetch - processPackages [pywin32-ctypes]: Downloading https://files.pythonhosted.org/packages/7a/7d/0dbc4c99379452a819b0fb075a0ffbb98611df6b6d59f54db67367af5bc0/pywin32-ctypes-0.2.0.tar.gz
+[2023-06-19 12:24:44] INFO root fetch - processPackages [pywin32-ctypes]: executing diffoscope
+[2023-06-19 12:24:44] INFO root fetch - processPackages [pywin32-ctypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywin32-ctypes-0.1.2.tar.gz tmp/pywin32-ctypes-0.2.0.tar.gz --markdown 20230619/p/pywin32-ctypes/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 12:24:44] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5291196287.tar.gz]
+[2023-06-19 12:24:44] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5308660964.tar.gz]
+[2023-06-19 12:24:44] INFO root fetch - processPackages [th2-data-services]: Start processing: openmetadata-managed-apis
+[2023-06-19 12:24:44] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-19 12:24:45] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.4.2] Old Version: [1.0.4.1]
+[2023-06-19 12:24:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306190947-py3-none-any.whl.zip]
+[2023-06-19 12:24:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306190952-py3-none-any.whl.zip]
+[2023-06-19 12:24:45] INFO root fetch - processPackages [kfish]: Start processing: nwon-baseline
+[2023-06-19 12:24:45] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-19 12:24:45] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/f9/67/b18eba15bbbef3babf89df2d2b49cdf9928048b68609c82537497af3b284/openmetadata_managed_apis-1.0.4.1.tar.gz
+[2023-06-19 12:24:45] INFO root fetch - processPackages [nwon-baseline]: New version: [0.2.1] Old Version: [0.1.33]
+[2023-06-19 12:24:45] INFO root fetch - processPackages [nwon-baseline]: Downloading https://files.pythonhosted.org/packages/69/e1/fb45b59bafcc1663dabb404dd42b6fd90e43ec4304590acac231bc816e91/nwon_baseline-0.1.33.tar.gz
+[2023-06-19 12:24:45] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/3a/be/219e76f16e4a1abf652915368ce2fd4d8e01cd73d24ee1b9984c04be1c33/openmetadata_managed_apis-1.0.4.2.tar.gz
+[2023-06-19 12:24:45] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-19 12:24:45] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.4.1.tar.gz tmp/openmetadata_managed_apis-1.0.4.2.tar.gz --markdown 20230619/o/openmetadata-managed-apis/1.0.4.1-1.0.4.2/diff.md --exclude *.pyd
+[2023-06-19 12:24:45] INFO root fetch - processPackages [nwon-baseline]: Downloading https://files.pythonhosted.org/packages/ba/35/2bd87bf0b5a389789720ad7cdab85ccc7b26503810dedb5276a2a3a31624/nwon_baseline-0.2.1.tar.gz
+[2023-06-19 12:24:46] INFO root fetch - processPackages [nwon-baseline]: executing diffoscope
+[2023-06-19 12:24:46] INFO root fetch - processPackages [nwon-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_baseline-0.1.33.tar.gz tmp/nwon_baseline-0.2.1.tar.gz --markdown 20230619/n/nwon-baseline/0.1.33-0.2.1/diff.md --exclude *.pyd
+[2023-06-19 12:24:46] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.68.tar.gz]
+[2023-06-19 12:24:46] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.69.tar.gz]
+[2023-06-19 12:24:46] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-19 12:24:46] INFO root fetch - processPackages [pywin32-ctypes]: Remove: archive file [/home/abi/fetcher/tmp/pywin32-ctypes-0.1.2.tar.gz]
+[2023-06-19 12:24:46] INFO root fetch - processPackages [pywin32-ctypes]: Remove: archive file [/home/abi/fetcher/tmp/pywin32-ctypes-0.2.0.tar.gz]
+[2023-06-19 12:24:46] INFO root fetch - main [MainThread]: End processing [pywin32-ctypes]: success
+[2023-06-19 12:24:47] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.0.tar.gz]
+[2023-06-19 12:24:47] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.1.tar.gz]
+[2023-06-19 12:24:47] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-06-19 12:24:48] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.4.1.tar.gz]
+[2023-06-19 12:24:48] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.4.2.tar.gz]
+[2023-06-19 12:24:48] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-19 12:24:48] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.0.tar.gz]
+[2023-06-19 12:24:48] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.1.tar.gz]
+[2023-06-19 12:24:48] INFO root fetch - main [MainThread]: End processing [hcloud]: success
+[2023-06-19 12:24:51] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306190949-py3-none-any.whl.zip]
+[2023-06-19 12:24:51] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191021-py3-none-any.whl.zip]
+[2023-06-19 12:24:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-19 12:24:54] INFO root fetch - processPackages [nwon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/nwon_baseline-0.1.33.tar.gz]
+[2023-06-19 12:24:54] INFO root fetch - processPackages [nwon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/nwon_baseline-0.2.1.tar.gz]
+[2023-06-19 12:24:54] INFO root fetch - main [MainThread]: End processing [nwon-baseline]: success
+[2023-06-19 12:25:02] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.146.1.tar.gz]
+[2023-06-19 12:25:02] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.149.0.tar.gz]
+[2023-06-19 12:25:02] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
+[2023-06-19 12:25:08] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.4.1.tar.gz]
+[2023-06-19 12:25:08] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.4.2.tar.gz]
+[2023-06-19 12:25:08] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-19 12:25:29] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.6.2.tar.gz]
+[2023-06-19 12:25:29] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.6.3.tar.gz]
+[2023-06-19 12:25:29] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
+[2023-06-19 12:25:29] INFO root fetch - main [MainThread]: Store serial: [18558512]
