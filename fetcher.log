@@ -4979,3 +4979,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 03:54:05] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.9.tar.gz]
 [2023-06-19 03:54:05] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
 [2023-06-19 03:54:05] INFO root fetch - main [MainThread]: Store serial: [18554918]
+[2023-06-19 03:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554918]
+[2023-06-19 03:59:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shady-island
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scythe-cli
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypothesis
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acc-provision
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memv
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cc12703-uiautomator2
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: picogo
+[2023-06-19 03:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emailalert
+[2023-06-19 03:59:13] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 03:59:13] INFO root fetch - processPackages [picogo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 03:59:13] INFO root fetch - processPackages [memv]: New version: [0.0.3.8] Old Version: [0.0.3.7]
+[2023-06-19 03:59:13] INFO root fetch - processPackages [scythe-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 03:59:13] INFO root fetch - processPackages [acc-provision]: New version: [5.2.7.1rc1] Old Version: [5.2.3.7rc2]
+[2023-06-19 03:59:14] INFO root fetch - processPackages [cc12703-uiautomator2]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-19 03:59:14] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-19 03:59:14] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/bb/d3/f83900624302789f33875c0e56aab426ae77f0a730fefeec994a50a9c849/picogo-0.0.2.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [scythe-cli]: Downloading https://files.pythonhosted.org/packages/b7/00/cafffef3b03323cf03d262a9569c888e1256cef016edee6c612e03111a46/scythe_cli-1.0.1.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [emailalert]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-19 03:59:14] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/ff/a2/9fe5a2fc74e5e266d493de9834dd1b9a123848341a10ba9c4d6b01e41a74/memv-0.0.3.7.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [acc-provision]: Downloading https://files.pythonhosted.org/packages/4d/7c/4c84cba66e0d585b91a23b9129e8c716a2337a90ff8688ab011a76f27d3c/acc_provision-5.2.3.7rc2.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/e5/c7/dbed380730b958e75509fbba0a678b38fe2e70776cfee3c4507795f56da9/cc12703_uiautomator2-2.7.2.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/45/9f/0057cb33a1ab1e574f69d0aea9c5231c41ea9910e873a830d89b9a8351d1/picogo-0.0.3.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/3e/23/6bc6b950a7464fc9985b6fb404aee2265bf151f9b91e9bd5141440b56835/emailalert-1.0.3.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [scythe-cli]: Downloading https://files.pythonhosted.org/packages/53/b0/4520e0d721718049f25c4d1edbf17efdddfce4c90091c7bb5aed7286acdc/scythe_cli-1.0.2.tar.gz
+[2023-06-19 03:59:14] WARNING root fetch - processPackages [acc-provision]: Skipping package: exceeds size limit 10598533>=10485760
+[2023-06-19 03:59:14] INFO root fetch - main [MainThread]: End processing [acc-provision] error
+[2023-06-19 03:59:14] INFO root fetch - processPackages [scythe-cli]: executing diffoscope
+[2023-06-19 03:59:14] INFO root fetch - processPackages [scythe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scythe_cli-1.0.1.tar.gz tmp/scythe_cli-1.0.2.tar.gz --markdown 20230619/s/scythe-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 03:59:14] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-19 03:59:14] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.2.tar.gz tmp/picogo-0.0.3.tar.gz --markdown 20230619/p/picogo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 03:59:14] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/33/60/a356ce4fe3ab41e606f8ac5df590b5b7c2c10347e27d76722f984d5b9a8a/memv-0.0.3.8.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-19 03:59:14] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-19 03:59:14] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230619/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-19 03:59:14] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-19 03:59:14] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230619/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 03:59:14] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 03:59:14] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.7.tar.gz tmp/memv-0.0.3.8.tar.gz --markdown 20230619/m/memv/0.0.3.7-0.0.3.8/diff.md --exclude *.pyd
+[2023-06-19 03:59:14] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/7f/2a/bddce27d6504d1fe471921f01bfd1c289b7e40a8b05b0d373120e67fcb04/emailalert-1.1.0.tar.gz
+[2023-06-19 03:59:15] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 03:59:15] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.0.3.tar.gz tmp/emailalert-1.1.0.tar.gz --markdown 20230619/e/emailalert/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 03:59:15] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/ad/57/53a120ba6ca4129b83a299a1d405ac408c0a23f150b548436d61e2148c5b/cc12703_uiautomator2-2.7.3.tar.gz
+[2023-06-19 03:59:15] INFO root fetch - processPackages [scythe-cli]: Remove: archive file [/home/abi/fetcher/tmp/scythe_cli-1.0.1.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - processPackages [scythe-cli]: Remove: archive file [/home/abi/fetcher/tmp/scythe_cli-1.0.2.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - main [MainThread]: End processing [scythe-cli]: success
+[2023-06-19 03:59:15] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.2.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.3.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-19 03:59:15] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.7.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.8.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 03:59:15] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-06-19 03:59:15] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-19 03:59:16] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.0.3.tar.gz]
+[2023-06-19 03:59:16] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.0.tar.gz]
+[2023-06-19 03:59:16] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 03:59:16] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-19 03:59:16] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-19 03:59:16] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-19 03:59:16] INFO root fetch - processPackages [cc12703-uiautomator2]: executing diffoscope
+[2023-06-19 03:59:16] INFO root fetch - processPackages [cc12703-uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc12703_uiautomator2-2.7.2.tar.gz tmp/cc12703_uiautomator2-2.7.3.tar.gz --markdown 20230619/c/cc12703-uiautomator2/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-19 03:59:18] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.2.tar.gz]
+[2023-06-19 03:59:18] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.3.tar.gz]
+[2023-06-19 03:59:18] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
+[2023-06-19 03:59:18] INFO root fetch - main [MainThread]: Store serial: [18554939]
