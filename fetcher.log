@@ -15842,3 +15842,167 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:49:30] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
 [2023-06-19 13:49:30] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
 [2023-06-19 13:49:30] INFO root fetch - main [MainThread]: Store serial: [18559156]
+[2023-06-19 13:54:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559156]
+[2023-06-19 13:54:39] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-latex-admonition
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aalpy
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adapta
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genepierre
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestyle
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Dhamaka
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parangonar
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autopyre
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-power-ops
+[2023-06-19 13:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apertium2ud
+[2023-06-19 13:54:39] INFO root fetch - processPackages [pandoc-latex-admonition]: New version: [1.3.3.0] Old Version: [1.3.2]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [apertium2ud]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 13:54:39] WARNING root fetch - processPackages [Dhamaka]: Skipping, unable to determine old version
+[2023-06-19 13:54:39] INFO root fetch - processPackages [parangonar]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [aalpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [Dhamaka]: Start processing: WoW_Commodities
+[2023-06-19 13:54:39] INFO root fetch - main [MainThread]: End processing [Dhamaka] error
+[2023-06-19 13:54:39] INFO root fetch - processPackages [autopyre]: New version: [1.0.1] Old Version: [0.0.9]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [adapta]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 13:54:39] WARNING root fetch - processPackages [WoW_Commodities]: Skipping, unable to determine old version
+[2023-06-19 13:54:39] INFO root fetch - processPackages [WoW_Commodities]: Start processing: datawise
+[2023-06-19 13:54:39] INFO root fetch - main [MainThread]: End processing [WoW_Commodities] error
+[2023-06-19 13:54:39] INFO root fetch - processPackages [genepierre]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-19 13:54:39] INFO root fetch - processPackages [datawise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:54:39] INFO root fetch - processPackages [aalpy]: Downloading https://files.pythonhosted.org/packages/a0/cd/36268051cb7201d5be876479018f6b807ce3ae858094ec92bd1823ec8d28/aalpy-1.3.1-py3-none-any.whl
+[2023-06-19 13:54:39] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-19 13:54:39] INFO root fetch - processPackages [pandoc-latex-admonition]: Downloading https://files.pythonhosted.org/packages/90/d2/3c56e24c7d6334af1d1f72094eccbd4d8b99960762044ecf6c8934ea7172/pandoc-latex-admonition-1.3.2.tar.gz
+[2023-06-19 13:54:39] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-19 13:54:39] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/64/d2/5ef99662ca0dd3d508bbcd04dfb58617e44aa84189fc55b5a4802d8110aa/pyrestyle-0.0.6.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [parangonar]: Downloading https://files.pythonhosted.org/packages/47/57/d7287beddd765e332b482aed932725605abfe9578ec50ff2e92f4569c9d3/parangonar-0.0.9.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/b9/72/f612c0b1a3625031b048166e597dde3dd185766b2d669d5887b59a21593f/apertium2ud-0.0.6-py3-none-any.whl
+[2023-06-19 13:54:40] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/b3/85/4559f0cb12668234ce61f3bb2a12b219eb5088d5459d301d74f3debcdbac/adapta-2.2.8.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/8d/7b/208e070b53e62613f391e7e665bd6452b93dc0e9c989986a00b6b5e391c4/genepierre-0.0.1.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/08/37/4a7dd1e7f33fd85b605040df5f885a1d3b85e0183d15ce10cd2a395013b0/datawise-0.0.9.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.8.tar.gz tmp/datawise-0.0.9.tar.gz --markdown 20230619/d/datawise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/65/e9/3bfc8e18d4b334cf54f1956dea4922f78250cf63e0b39c614b381ca6d04f/autopyre-1.0.1.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [aalpy]: Downloading https://files.pythonhosted.org/packages/0e/23/2c9533b3aebacb019e9c51be3f1b8392a1b31bf3e2773beafa500b90358e/aalpy-1.3.2-py3-none-any.whl
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a3/07/82ef932e17693f7b2344635687e5444debc98872bca40262c126f315910c/pyrestyle-0.0.7.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230619/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/72/75/1b97a636d2bb1eece963ba8dd40ccaadd2269ee116b80cbbc66543bc12e7/apertium2ud-0.0.7.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.9.tar.gz tmp/autopyre-1.0.1.tar.gz --markdown 20230619/a/autopyre/0.0.9-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.6.tar.gz tmp/pyrestyle-0.0.7.tar.gz --markdown 20230619/p/pyrestyle/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/e8/a0/4b931f604283ab5133299737083c8836b4d46008353579e44a3c668cbb38/adapta-2.2.9.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [aalpy]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [aalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalpy-1.3.1-py3-none-any.whl.zip tmp/aalpy-1.3.2-py3-none-any.whl.zip --markdown 20230619/a/aalpy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.8.tar.gz tmp/adapta-2.2.9.tar.gz --markdown 20230619/a/adapta/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [parangonar]: Downloading https://files.pythonhosted.org/packages/76/4b/ddec73fb9b7ec9a0c61fac81bc4393f754ff8c33a1f5a7138c7e3f10dc0c/parangonar-0.1.0.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/d8/b0/73cd6737f95678e1ab16bd95cd5efb58a5525b0bf6b5c0b30afeb9c79d0e/genepierre-0.0.2.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [apertium2ud]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [apertium2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apertium2ud-0.0.6-py3-none-any.whl.zip tmp/apertium2ud-0.0.7.tar.gz --markdown 20230619/a/apertium2ud/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [parangonar]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [parangonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parangonar-0.0.9.tar.gz tmp/parangonar-0.1.0.tar.gz --markdown 20230619/p/parangonar/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.1.tar.gz tmp/genepierre-0.0.2.tar.gz --markdown 20230619/g/genepierre/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pandoc-latex-admonition]: Downloading https://files.pythonhosted.org/packages/01/f4/5fe8facf7bf0037ef29b2fd1515da4115394f9963056b88f5dd5d53ccd0b/pandoc_latex_admonition-1.3.3.0.tar.gz
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pandoc-latex-admonition]: executing diffoscope
+[2023-06-19 13:54:40] INFO root fetch - processPackages [pandoc-latex-admonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-admonition-1.3.2.tar.gz tmp/pandoc_latex_admonition-1.3.3.0.tar.gz --markdown 20230619/p/pandoc-latex-admonition/1.3.2-1.3.3.0/diff.md --exclude *.pyd
+[2023-06-19 13:54:42] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.9.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [datawise]: Start processing: apertium2ud
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: Remove: archive file [/home/abi/fetcher/tmp/apertium2ud-0.0.6-py3-none-any.whl.zip]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: Remove: archive file [/home/abi/fetcher/tmp/apertium2ud-0.0.7.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: Start processing: dwclib
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [apertium2ud]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/72/75/1b97a636d2bb1eece963ba8dd40ccaadd2269ee116b80cbbc66543bc12e7/apertium2ud-0.0.7.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [dwclib]: New version: [2023.6.7] Old Version: [2023.6.19]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: executing diffoscope
+[2023-06-19 13:54:42] INFO root fetch - processPackages [apertium2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apertium2ud-0.0.6-py3-none-any.whl.zip tmp/apertium2ud-0.0.7.tar.gz --markdown 20230619/a/apertium2ud/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-19 13:54:42] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [cognite-power-ops]: Start processing: bridgecrew
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [pandoc-latex-admonition]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-admonition-1.3.2.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [pandoc-latex-admonition]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_admonition-1.3.3.0.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [pandoc-latex-admonition]: Start processing: pdoc
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [pandoc-latex-admonition]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/9d/ca/2f6bd7b0aab1a7790787059c65ea9a878d2ff4da8a85de70c5c0e3840a64/dwclib-2023.6.19.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.1.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.2.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [genepierre]: Start processing: manhattan-forms
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [manhattan-forms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [pdoc]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.8.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.9.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [adapta]: Start processing: recon-lw
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [manhattan-forms]: Downloading https://files.pythonhosted.org/packages/89/e4/1eb47a43fa3772111d994eaa0d0664563996bbb86addee0471d02b7d6782/manhattan_forms-0.1.8.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5311495845] Old Version: [2.0.0.dev5309756614]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [pdoc]: Downloading https://files.pythonhosted.org/packages/66/5d/ab666ec79c45bdbd272b2adc13b61a86476fd7f7aabd934a60e3753c5359/pdoc-9.0.0-py3-none-any.whl
+[2023-06-19 13:54:42] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/dd/3e/85f04e468f2d2e8575eb82c84386addc6f768d9c3f9a10752f267193abd8/recon_lw-2.0.0.dev5309756614.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [dwclib]: Downloading https://files.pythonhosted.org/packages/b1/81/70cbdcfe4da0c976823713eaaa9f718ff532d4277a527b029dfd29d597eb/dwclib-2023.6.7.tar.gz
+[2023-06-19 13:54:42] INFO root fetch - processPackages [dwclib]: executing diffoscope
+[2023-06-19 13:54:42] INFO root fetch - processPackages [dwclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwclib-2023.6.19.tar.gz tmp/dwclib-2023.6.7.tar.gz --markdown 20230619/d/dwclib/2023.6.19-2023.6.7/diff.md --exclude *.pyd
+[2023-06-19 13:54:42] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-1.0.1.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [autopyre]: Start processing: nuclia
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-19 13:54:42] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-19 13:54:42] ERROR root fetch - processPackages [nuclia]: Unable to get metadata: No such project 'nuclia'
+[2023-06-19 13:54:42] INFO root fetch - processPackages [nuclia]: Start processing: datawise
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [nuclia] error
+[2023-06-19 13:54:42] INFO root fetch - processPackages [datawise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [parangonar]: Remove: archive file [/home/abi/fetcher/tmp/parangonar-0.0.9.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - processPackages [parangonar]: Remove: archive file [/home/abi/fetcher/tmp/parangonar-0.1.0.tar.gz]
+[2023-06-19 13:54:42] INFO root fetch - main [MainThread]: End processing [parangonar]: success
+[2023-06-19 13:54:43] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-19 13:54:43] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-19 13:54:43] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230619/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-19 13:54:43] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/87/b6/4b1119e3e78c912524bf1e6c1db71a5c3c4813d69d4d90bf7c28ce11860d/recon_lw-2.0.0.dev5311495845.tar.gz
+[2023-06-19 13:54:43] INFO root fetch - processPackages [pdoc]: Downloading https://files.pythonhosted.org/packages/01/01/ded65a041ab25e48869f5762420001d01084c0025a2ae797298125a2d54d/pdoc-9.0.1-py3-none-any.whl
+[2023-06-19 13:54:43] ERROR root fetch - processPackages [apertium2ud]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/apertium2ud-0.0.6-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-19 13:54:43] INFO root fetch - main [MainThread]: End processing [apertium2ud] error
+[2023-06-19 13:54:43] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/08/37/4a7dd1e7f33fd85b605040df5f885a1d3b85e0183d15ce10cd2a395013b0/datawise-0.0.9.tar.gz
+[2023-06-19 13:54:43] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.6.tar.gz]
+[2023-06-19 13:54:43] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.7.tar.gz]
+[2023-06-19 13:54:43] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-19 13:54:43] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5309756614.tar.gz tmp/recon_lw-2.0.0.dev5311495845.tar.gz --markdown 20230619/r/recon-lw/2.0.0.dev5309756614-2.0.0.dev5311495845/diff.md --exclude *.pyd
+[2023-06-19 13:54:43] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-19 13:54:43] INFO root fetch - processPackages [aalpy]: Remove: archive file [/home/abi/fetcher/tmp/aalpy-1.3.1-py3-none-any.whl.zip]
+[2023-06-19 13:54:43] INFO root fetch - processPackages [aalpy]: Remove: archive file [/home/abi/fetcher/tmp/aalpy-1.3.2-py3-none-any.whl.zip]
+[2023-06-19 13:54:43] INFO root fetch - main [MainThread]: End processing [aalpy]: success
+[2023-06-19 13:54:43] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-19 13:54:43] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.8.tar.gz tmp/datawise-0.0.9.tar.gz --markdown 20230619/d/datawise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:54:43] INFO root fetch - processPackages [pdoc]: executing diffoscope
+[2023-06-19 13:54:43] INFO root fetch - processPackages [pdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdoc-9.0.0-py3-none-any.whl.zip tmp/pdoc-9.0.1-py3-none-any.whl.zip --markdown 20230619/p/pdoc/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-19 13:54:43] INFO root fetch - processPackages [manhattan-forms]: Downloading https://files.pythonhosted.org/packages/5a/04/12a5633fe9836ba8e67f5d8c10a6acf487184a11e58d387428bb8f5690e8/manhattan_forms-0.1.9.tar.gz
+[2023-06-19 13:54:43] INFO root fetch - processPackages [manhattan-forms]: executing diffoscope
+[2023-06-19 13:54:43] INFO root fetch - processPackages [manhattan-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhattan_forms-0.1.8.tar.gz tmp/manhattan_forms-0.1.9.tar.gz --markdown 20230619/m/manhattan-forms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:54:44] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-19 13:54:44] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5309756614.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5311495845.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-19 13:54:44] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.9.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-19 13:54:44] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2023.6.19.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [dwclib]: Remove: archive file [/home/abi/fetcher/tmp/dwclib-2023.6.7.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [dwclib]: success
+[2023-06-19 13:54:44] INFO root fetch - processPackages [manhattan-forms]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_forms-0.1.8.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [manhattan-forms]: Remove: archive file [/home/abi/fetcher/tmp/manhattan_forms-0.1.9.tar.gz]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [manhattan-forms]: success
+[2023-06-19 13:54:44] INFO root fetch - processPackages [pdoc]: Remove: archive file [/home/abi/fetcher/tmp/pdoc-9.0.0-py3-none-any.whl.zip]
+[2023-06-19 13:54:44] INFO root fetch - processPackages [pdoc]: Remove: archive file [/home/abi/fetcher/tmp/pdoc-9.0.1-py3-none-any.whl.zip]
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: End processing [pdoc]: success
+[2023-06-19 13:54:44] INFO root fetch - main [MainThread]: Store serial: [18559218]
