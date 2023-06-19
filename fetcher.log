@@ -3986,3 +3986,54 @@
 [2023-06-19 02:54:16] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.1.9.tar.gz]
 [2023-06-19 02:54:16] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
 [2023-06-19 02:54:16] INFO root fetch - main [MainThread]: Store serial: [18554542]
+[2023-06-19 02:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554542]
+[2023-06-19 02:59:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: install-directives
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feo3mics
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ypricemagic
+[2023-06-19 02:59:24] WARNING root fetch - processPackages [install-directives]: Skipping, unable to determine old version
+[2023-06-19 02:59:24] INFO root fetch - processPackages [feo3mics]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-06-19 02:59:24] INFO root fetch - main [MainThread]: End processing [install-directives] error
+[2023-06-19 02:59:24] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 02:59:24] INFO root fetch - processPackages [yplib]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ypricemagic]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-19 02:59:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-19 02:59:24] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/01/fa/0ddb6ee8adf2a28391f83564b13429b950837d638d74115417fe85b436ca/ypricemagic-2.3.3.tar.gz
+[2023-06-19 02:59:24] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ca/3d/310e255fc30985065e927b7b80f17bfd59a30095b2aa987471477f9bee90/yplib-1.5.9.tar.gz
+[2023-06-19 02:59:24] INFO root fetch - processPackages [feo3mics]: Downloading https://files.pythonhosted.org/packages/79/47/55342b793e0bb1286e2c47318429486c41080d5b85c0ff3751cd5a988c02/feo3mics-0.0.10.tar.gz
+[2023-06-19 02:59:24] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-19 02:59:25] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/1c/0f/3c475f4cca02f267bdeaa63656213da298b2b670785ce3fbf30d0c2e9a89/ypricemagic-2.3.4.tar.gz
+[2023-06-19 02:59:25] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-06-19 02:59:25] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.3.3.tar.gz tmp/ypricemagic-2.3.4.tar.gz --markdown 20230619/y/ypricemagic/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-19 02:59:25] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-19 02:59:25] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-19 02:59:25] INFO root fetch - processPackages [feo3mics]: Downloading https://files.pythonhosted.org/packages/34/93/bdbc231bb60947dd4352281402d0b25976b310bf9e43b0eaea80f59d837a/feo3mics-0.0.11.tar.gz
+[2023-06-19 02:59:25] INFO root fetch - processPackages [feo3mics]: executing diffoscope
+[2023-06-19 02:59:25] INFO root fetch - processPackages [feo3mics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feo3mics-0.0.10.tar.gz tmp/feo3mics-0.0.11.tar.gz --markdown 20230619/f/feo3mics/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-06-19 02:59:25] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7c/ce/8b3362b8edd6da9f2ec10f7e7073580dfbbcf942754f2438f2c9df588d9a/yplib-1.6.0.tar.gz
+[2023-06-19 02:59:25] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-19 02:59:25] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230619/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:59:25] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 02:59:25] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.9.tar.gz tmp/yplib-1.6.0.tar.gz --markdown 20230619/y/yplib/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-06-19 02:59:25] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-19 02:59:26] INFO root fetch - processPackages [feo3mics]: Remove: archive file [/home/abi/fetcher/tmp/feo3mics-0.0.10.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - processPackages [feo3mics]: Remove: archive file [/home/abi/fetcher/tmp/feo3mics-0.0.11.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - main [MainThread]: End processing [feo3mics]: success
+[2023-06-19 02:59:26] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-19 02:59:26] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230619/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-19 02:59:26] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.9.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.0.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 02:59:26] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-19 02:59:26] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.3.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.4.tar.gz]
+[2023-06-19 02:59:26] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-06-19 02:59:27] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 02:59:27] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 02:59:27] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-19 02:59:27] INFO root fetch - main [MainThread]: Store serial: [18554572]
