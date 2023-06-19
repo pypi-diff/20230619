@@ -10256,3 +10256,170 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:57:45] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-0.9.9.tar.gz]
 [2023-06-19 09:57:45] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2023-06-19 09:57:45] INFO root fetch - main [MainThread]: Store serial: [18557015]
+[2023-06-19 10:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557015]
+[2023-06-19 10:02:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-expense-payment
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ErlangCCmath
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amz-parser
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yellowdog-python-examples
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bqemulatormanager
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fs-s3fs-forked
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezyquant
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdflib
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aloso
+[2023-06-19 10:02:54] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-19 10:02:54] WARNING root fetch - processPackages [ErlangCCmath]: Skipping, unable to determine old version
+[2023-06-19 10:02:54] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ErlangCCmath]: Start processing: breeze-strategies
+[2023-06-19 10:02:54] INFO root fetch - main [MainThread]: End processing [ErlangCCmath] error
+[2023-06-19 10:02:54] INFO root fetch - processPackages [fs-s3fs-forked]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [cdflib]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [amz-parser]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [bqemulatormanager]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [yplib]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ezyquant]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-06-19 10:02:54] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.1] Old Version: [6.0]
+[2023-06-19 10:02:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/70/6f/78777346a97c9a0e4a766f62bae94d4afae6724646573be85bf9205da8fb/yplib-1.6.6.tar.gz
+[2023-06-19 10:02:54] INFO root fetch - processPackages [fs-s3fs-forked]: Downloading https://files.pythonhosted.org/packages/3e/1d/e1cb5d0ed042347ea1e1f68fe9cc5e4cbc934189d02540ba6c6e6ea5c080/fs-s3fs-forked-1.1.2.tar.gz
+[2023-06-19 10:02:54] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/26/6a/5b0811b03b8b8a5d602d41a201cb3bcfeba4e8ff2af482ab38d3645b3d6e/breeze_strategies-6.0.tar.gz
+[2023-06-19 10:02:54] INFO root fetch - processPackages [cdflib]: Downloading https://files.pythonhosted.org/packages/b2/a5/a4fa84d64a547d9ad3bec8354c9398155c6f4c6e93b03787d5ccc9f33c06/cdflib-1.0.4.tar.gz
+[2023-06-19 10:02:54] INFO root fetch - processPackages [amz-parser]: Downloading https://files.pythonhosted.org/packages/07/4e/1a66f89922e006fcd67ec154f004877a67b4820780374be258f45ff3759c/amz_parser-0.9.2.tar.gz
+[2023-06-19 10:02:54] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-06-19 10:02:54] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/78/13/e03a53b11b6a90b573edb749817b9597b7e2ce6f97a7b5c6802ff80ec392/ezyquant-0.9.1.tar.gz
+[2023-06-19 10:02:55] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14470318>=10485760
+[2023-06-19 10:02:55] INFO root fetch - processPackages [ezyquant]: Start processing: thundra
+[2023-06-19 10:02:55] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/40/c2/a135941b145c4bbadc72e7318152bb4fde729fb70fcd31c1c3e1b1d27cf0/yplib-1.6.7.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/6e/f5/87d48a4ff8655fe7fc98146b78c0d9f4d7815a0e9082fdace2869ebaf7b1/bqemulatormanager-0.1.9.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230619/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:02:55] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Downloading https://files.pythonhosted.org/packages/eb/b7/f8d6117c172be8a1665092df65a85cdebc78d107e378d6f3ec55d36a47c9/odoo_addon_hr_expense_payment-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/f9/7a/2bee9ae09165bad2f25a6d5c5e968bd4f7a434070151e70a3a8ba54803e9/yellowdog-python-examples-6.0.0.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [fs-s3fs-forked]: Downloading https://files.pythonhosted.org/packages/f2/a1/ec175055d1ae895189be5abfba786cf20f73bc3647e5e8bd6e2ba8db17f4/fs-s3fs-forked-1.1.3.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.6.tar.gz tmp/yplib-1.6.7.tar.gz --markdown 20230619/y/yplib/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [fs-s3fs-forked]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [fs-s3fs-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs-s3fs-forked-1.1.2.tar.gz tmp/fs-s3fs-forked-1.1.3.tar.gz --markdown 20230619/f/fs-s3fs-forked/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/af/d0/60bc80a6560e44b5a2fb5414ecb1d21e416bf965adc5860c4777483b0c8a/breeze_strategies-6.0.1.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [cdflib]: Downloading https://files.pythonhosted.org/packages/0e/38/1961b2af10738eaaac98d77785aae186bcc8bd614d01b5d9812ce85bb732/cdflib-1.0.5.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [amz-parser]: Downloading https://files.pythonhosted.org/packages/6d/03/a89e7c57c57548b6741bd3f8a1b8a41226c9b6bd2e2495e451aaf6295efb/amz_parser-0.9.3.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [bqemulatormanager]: Downloading https://files.pythonhosted.org/packages/cf/cf/c2137522b75d52c20ed47bd537e16054bc0490528a4f50cdf30b243be896/bqemulatormanager-0.2.0.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.tar.gz tmp/breeze_strategies-6.0.1.tar.gz --markdown 20230619/b/breeze-strategies/6.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [cdflib]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [cdflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdflib-1.0.4.tar.gz tmp/cdflib-1.0.5.tar.gz --markdown 20230619/c/cdflib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [amz-parser]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [amz-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amz_parser-0.9.2.tar.gz tmp/amz_parser-0.9.3.tar.gz --markdown 20230619/a/amz-parser/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [bqemulatormanager]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [bqemulatormanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqemulatormanager-0.1.9.tar.gz tmp/bqemulatormanager-0.2.0.tar.gz --markdown 20230619/b/bqemulatormanager/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Downloading https://files.pythonhosted.org/packages/aa/e8/b573977d0c5780941c477dc2c3ec1156d85892fc0ed953c5ee0594e5b563/odoo_addon_hr_expense_payment-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/66/b3/2290d16a0e43eb77aa273861f247ccff5f7d30940e44f7a75bb0987382e8/yellowdog-python-examples-6.0.1.tar.gz
+[2023-06-19 10:02:55] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_payment-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_payment-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-hr-expense-payment/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.0.tar.gz tmp/yellowdog-python-examples-6.0.1.tar.gz --markdown 20230619/y/yellowdog-python-examples/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-19 10:02:55] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:02:55] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:02:55] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:02:56] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 10:02:56] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 10:02:56] INFO root fetch - processPackages [aloso]: Start processing: kmergenetyper
+[2023-06-19 10:02:56] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-06-19 10:02:56] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.6.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.7.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [yplib]: Start processing: skt
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [skt]: New version: [0.2.9] Old Version: [0.2.89]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/e3/e7/127c1d33013b6176bd975ec56c2793b2888b903479794639d464251ebf17/kmergenetyper-1.0.8.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.1.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [breeze-strategies]: Start processing: memv
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [bqemulatormanager]: Remove: archive file [/home/abi/fetcher/tmp/bqemulatormanager-0.1.9.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [bqemulatormanager]: Remove: archive file [/home/abi/fetcher/tmp/bqemulatormanager-0.2.0.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [bqemulatormanager]: Start processing: alnoda-wrk
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [bqemulatormanager]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [fs-s3fs-forked]: Remove: archive file [/home/abi/fetcher/tmp/fs-s3fs-forked-1.1.2.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [fs-s3fs-forked]: Remove: archive file [/home/abi/fetcher/tmp/fs-s3fs-forked-1.1.3.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [fs-s3fs-forked]: Start processing: termslime
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [fs-s3fs-forked]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [memv]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [termslime]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [skt]: Downloading https://files.pythonhosted.org/packages/61/05/85d29c6571f3bf148e25701e70236391543efc988c90e96675772c4c9d81/skt-0.2.89.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [termslime]: Downloading https://files.pythonhosted.org/packages/5e/16/24e6a61882b33d9cea230ac6cbef9a381be3bfff5a41297b0cfa26546570/termslime-0.2.0.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [amz-parser]: Remove: archive file [/home/abi/fetcher/tmp/amz_parser-0.9.2.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [amz-parser]: Remove: archive file [/home/abi/fetcher/tmp/amz_parser-0.9.3.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [amz-parser]: Start processing: th2-grpc-lw-data-provider
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [amz-parser]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/d9/4b/054f3df2a792189aed775ddf5649e378bf8f055d2635cf33ad9b1326c9f5/memv-0.0.4.7.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Start processing: t2iapi
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-payment]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5309302446]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [thundra]: Start processing: xtfixdemo
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:02:57] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev195] Old Version: [3.0.0.dev193]
+[2023-06-19 10:02:57] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/5d/ae/321fdf636e730e328a51851060905d6ad88481ecfc38352aafe0bb250ef7/kmergenetyper-1.0.9.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [termslime]: Downloading https://files.pythonhosted.org/packages/cf/5c/443dd271efa5438ae731411a120421d40abfce1efc0942eed227fa22c0bf/termslime-0.2.1.tar.gz
+[2023-06-19 10:02:57] WARNING root fetch - processPackages [xtfixdemo]: Skipping, unable to determine old version
+[2023-06-19 10:02:57] INFO root fetch - main [MainThread]: End processing [xtfixdemo] error
+[2023-06-19 10:02:57] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/d7/6a/b4fbec7283ec05bb0c8310e4af875b3dc165e57710846b25b53e04c75a4b/th2_grpc_lw_data_provider-2.0.0.dev5309302446.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [skt]: Downloading https://files.pythonhosted.org/packages/45/a1/156f8403e40e7fb1610ce932f87ca3c5c81502ff3bd45f1531002a3dc565/skt-0.2.9.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-19 10:02:57] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230619/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 10:02:57] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/de/d9/a170ed14080d09d3f3ae8a471420858b3aa8c517838172b5be37abd75567/memv-0.0.4.8.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [termslime]: executing diffoscope
+[2023-06-19 10:02:57] INFO root fetch - processPackages [termslime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termslime-0.2.0.tar.gz tmp/termslime-0.2.1.tar.gz --markdown 20230619/t/termslime/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-19 10:02:57] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-06-19 10:02:57] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230619/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:02:57] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/db/9d/d6b029963462a9b4932a099480506cc0051960f0fd877e78e7c2f26cff3a/t2iapi-3.0.0.dev193.tar.gz
+[2023-06-19 10:02:57] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 10:02:57] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.7.tar.gz tmp/memv-0.0.4.8.tar.gz --markdown 20230619/m/memv/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-06-19 10:02:57] INFO root fetch - processPackages [skt]: executing diffoscope
+[2023-06-19 10:02:57] INFO root fetch - processPackages [skt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skt-0.2.89.tar.gz tmp/skt-0.2.9.tar.gz --markdown 20230619/s/skt/0.2.89-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 10:02:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-19 10:02:58] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/67/15/955be0673d288b6916685de01aa5e4f22e587cd4768370e94231ef30551c/t2iapi-3.0.0.dev195.tar.gz
+[2023-06-19 10:02:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-19 10:02:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5309302446.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230619/t/th2-grpc-lw-data-provider/2.0.0.dev5309302446-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-19 10:02:58] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-19 10:02:58] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev193.tar.gz tmp/t2iapi-3.0.0.dev195.tar.gz --markdown 20230619/t/t2iapi/3.0.0.dev193-3.0.0.dev195/diff.md --exclude *.pyd
+[2023-06-19 10:02:58] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.0.tar.gz]
+[2023-06-19 10:02:58] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.1.tar.gz]
+[2023-06-19 10:02:58] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [termslime]: Remove: archive file [/home/abi/fetcher/tmp/termslime-0.2.0.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [termslime]: Remove: archive file [/home/abi/fetcher/tmp/termslime-0.2.1.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [termslime]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.7.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.8.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [kmergenetyper]: Remove: archive file [/home/abi/fetcher/tmp/kmergenetyper-1.0.8.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [kmergenetyper]: Remove: archive file [/home/abi/fetcher/tmp/kmergenetyper-1.0.9.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [cdflib]: Remove: archive file [/home/abi/fetcher/tmp/cdflib-1.0.4.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [cdflib]: Remove: archive file [/home/abi/fetcher/tmp/cdflib-1.0.5.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [cdflib]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.89.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [skt]: Remove: archive file [/home/abi/fetcher/tmp/skt-0.2.9.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [skt]: success
+[2023-06-19 10:02:59] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5309302446.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-19 10:02:59] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-19 10:03:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev193.tar.gz]
+[2023-06-19 10:03:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev195.tar.gz]
+[2023-06-19 10:03:00] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-19 10:03:00] INFO root fetch - main [MainThread]: Store serial: [18557074]
