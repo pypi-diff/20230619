@@ -16091,3 +16091,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:59:57] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.9.tar.gz]
 [2023-06-19 13:59:57] INFO root fetch - main [MainThread]: End processing [numba-mpi]: success
 [2023-06-19 13:59:57] INFO root fetch - main [MainThread]: Store serial: [18559247]
+[2023-06-19 14:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559247]
+[2023-06-19 14:05:07] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tegro-parser
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giant-utils
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blackboardsync
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UComp
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: halborn-ctf
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: customtkinter
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: win11theme
+[2023-06-19 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg
+[2023-06-19 14:05:07] INFO root fetch - processPackages [blackboardsync]: New version: [0.8.5rc4] Old Version: [0.8.5rc3]
+[2023-06-19 14:05:07] WARNING root fetch - processPackages [tegro-parser]: Skipping, unable to determine old version
+[2023-06-19 14:05:07] INFO root fetch - processPackages [tegro-parser]: Start processing: nwon-django-toolbox
+[2023-06-19 14:05:07] INFO root fetch - main [MainThread]: End processing [tegro-parser] error
+[2023-06-19 14:05:07] WARNING root fetch - processPackages [win11theme]: Skipping, unable to determine old version
+[2023-06-19 14:05:07] INFO root fetch - processPackages [UComp]: New version: [1.0.70] Old Version: [1.0.69]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [win11theme]: Start processing: autopyre
+[2023-06-19 14:05:07] INFO root fetch - main [MainThread]: End processing [win11theme] error
+[2023-06-19 14:05:07] INFO root fetch - processPackages [customtkinter]: New version: [5.2.0] Old Version: [5.1.3]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-19 14:05:07] WARNING root fetch - processPackages [giant-utils]: Skipping, unable to determine old version
+[2023-06-19 14:05:07] INFO root fetch - processPackages [giant-utils]: Start processing: vantage6-common
+[2023-06-19 14:05:07] INFO root fetch - main [MainThread]: End processing [giant-utils] error
+[2023-06-19 14:05:07] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [autopyre]: New version: [1.0.1] Old Version: [0.0.9]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/fa/d3/794bd02117ce4322a5cc7292fff4181b247607bc3040de9579478b4e87d1/UComp-1.0.69.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/53/db7486b391f48e65a9e2004198fe01da2d4c1eae8ddd8fe881fa4059e332/nwon_django_toolbox-0.5.5.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/69/ec/dc185c5da433f90aca9afcfd5a4683c95366e2dfa72de52a3d6ac2f66bac/blackboardsync-0.8.5rc3.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [customtkinter]: Downloading https://files.pythonhosted.org/packages/ca/7d/37eee0c6fd32a78502c967a5a0073a82118fbf4b1ee46ae4082907a283a2/customtkinter-5.1.3.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d0/44/54e8b716f8e2fe421c7bf6e7fdb855ac2169773347ee8145d910f235931a/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl
+[2023-06-19 14:05:07] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vollseg]: Start processing: vantage6-client
+[2023-06-19 14:05:07] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-19 14:05:07] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-19 14:05:07] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 14:05:08] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/db/b4/56d78e761e599b4f58ee351724a29cf7b8b0a2c1a6c9cf1eec61b0ada20f/halborn_ctf-0.1.8.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/65/e9/3bfc8e18d4b334cf54f1956dea4922f78250cf63e0b39c614b381ca6d04f/autopyre-1.0.1.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/de/cb/1239e1a102d86e002b1436632871ff11e42cf788874d124ddb97ab106a25/vantage6-common-3.9.0rc4.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/34/ec/3dbcb7e8d66011c9cbfcacd93044b464095f66f0dd3d437b17795a6ead41/bigdl_serving-2.4.0b20230619-py2.py3-none-any.whl
+[2023-06-19 14:05:08] INFO root fetch - processPackages [customtkinter]: Downloading https://files.pythonhosted.org/packages/e3/85/2aea0f61e68c4896e0522bb1ff01badb7f40c83a550099156856037893ed/customtkinter-5.2.0.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/23/2b/1b4b6bdbafe594ea1c7b4d6807d120d7a05332f917db4a0c6b1e7e50e462/blackboardsync-0.8.5rc4.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.9.0rc2.tar.gz tmp/vantage6-common-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-common/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/c5/de/d26e749ed9c4866bd2543777928ed8366e6b643fa1ff9081484c9e0f27f0/UComp-1.0.70.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/2f/d5/72e733cff1fc93713c421cd2c2568d49fea1094eb48c84315b1064fd7c44/nwon_django_toolbox-0.5.6.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/83/b1/52552994d80009402a91a34427a0306326f0781eaaefc933c31d687d9ae4/vantage6-client-3.9.0rc4.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230619-py2.py3-none-any.whl.zip --markdown 20230619/b/bigdl-serving/2.4.0b20230618-2.4.0b20230619/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.9.tar.gz tmp/autopyre-1.0.1.tar.gz --markdown 20230619/a/autopyre/0.0.9-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [customtkinter]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [customtkinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinter-5.1.3.tar.gz tmp/customtkinter-5.2.0.tar.gz --markdown 20230619/c/customtkinter/5.1.3-5.2.0/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.8.5rc3.tar.gz tmp/blackboardsync-0.8.5rc4.tar.gz --markdown 20230619/b/blackboardsync/0.8.5rc3-0.8.5rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230619/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.9.0rc2.tar.gz tmp/vantage6-client-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-client/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.5.5.tar.gz tmp/nwon_django_toolbox-0.5.6.tar.gz --markdown 20230619/n/nwon-django-toolbox/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/d4/15/0d96471ae6da3b2d8b3c05b689aa60f3d6113cb9a8948a402bcbc0c8506b/halborn_ctf-0.1.9.tar.gz
+[2023-06-19 14:05:08] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.69.tar.gz tmp/UComp-1.0.70.tar.gz --markdown 20230619/U/UComp/1.0.69-1.0.70/diff.md --exclude *.pyd
+[2023-06-19 14:05:08] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-06-19 14:05:08] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.8.tar.gz tmp/halborn_ctf-0.1.9.tar.gz --markdown 20230619/h/halborn-ctf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:05:10] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl.zip]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230619-py2.py3-none-any.whl.zip]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [bigdl-serving]: Start processing: vantage6
+[2023-06-19 14:05:10] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-1.0.1.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [autopyre]: Start processing: vantage6-node
+[2023-06-19 14:05:10] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/03/fa/166d5752a0abe58f0390806f65013f110f78bbde0405ad929520e326893b/vantage6-3.9.0rc4.tar.gz
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b4/71/a610fd6c37265434474f5572b44b27ff8f5f39318b8c77af5c69bc70b067/vantage6-node-3.9.0rc4.tar.gz
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.9.0rc2.tar.gz tmp/vantage6-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.9.0rc2.tar.gz tmp/vantage6-node-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-node/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc2.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-3.9.0rc4.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-client]: Start processing: vantage6-server
+[2023-06-19 14:05:10] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc4] Old Version: [3.9.0rc2]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc2.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-3.9.0rc4.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-common]: Start processing: django-handleref
+[2023-06-19 14:05:10] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-06-19 14:05:10] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-06-19 14:05:10] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.8.5rc3.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.8.5rc4.tar.gz]
+[2023-06-19 14:05:10] INFO root fetch - processPackages [blackboardsync]: Start processing: cmyt
+[2023-06-19 14:05:10] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-19 14:05:10] INFO root fetch - processPackages [django-handleref]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-19 14:05:11] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/b6/05/772b7c5cd3ce82d8fdf717f8697d700fae68bbe7fd79eafb5692d1a39613/vantage6-server-3.9.0rc4.tar.gz
+[2023-06-19 14:05:11] INFO root fetch - processPackages [cmyt]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-19 14:05:11] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.8.tar.gz]
+[2023-06-19 14:05:11] INFO root fetch - processPackages [halborn-ctf]: Remove: archive file [/home/abi/fetcher/tmp/halborn_ctf-0.1.9.tar.gz]
+[2023-06-19 14:05:11] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-06-19 14:05:11] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-06-19 14:05:11] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.9.0rc2.tar.gz tmp/vantage6-server-3.9.0rc4.tar.gz --markdown 20230619/v/vantage6-server/3.9.0rc2-3.9.0rc4/diff.md --exclude *.pyd
+[2023-06-19 14:05:11] INFO root fetch - processPackages [django-handleref]: Downloading https://files.pythonhosted.org/packages/07/f2/a0514fc80e39107b9af255448edc9132072880d67bce84aea6fcb2d55f02/django-handleref-1.1.0.tar.gz
+[2023-06-19 14:05:11] INFO root fetch - processPackages [cmyt]: Downloading https://files.pythonhosted.org/packages/1d/c8/cf6f8bcef86ed426ca6de0f6d778a548ccd382374dd791b2658241fb551f/cmyt-1.2.0.tar.gz
+[2023-06-19 14:05:11] INFO root fetch - processPackages [django-handleref]: Downloading https://files.pythonhosted.org/packages/85/68/20f83e5052bed84c8680530e3d247e6adc2d66026af770022d482511ccdd/django-handleref-2.0.0.tar.gz
+[2023-06-19 14:05:11] INFO root fetch - processPackages [cmyt]: Downloading https://files.pythonhosted.org/packages/28/42/e1f9b43172ddb09b54c5900e228df48fa811decb53f3d5bef906369b99d0/cmyt-1.2.1.tar.gz
+[2023-06-19 14:05:11] INFO root fetch - processPackages [django-handleref]: executing diffoscope
+[2023-06-19 14:05:11] INFO root fetch - processPackages [django-handleref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-handleref-1.1.0.tar.gz tmp/django-handleref-2.0.0.tar.gz --markdown 20230619/d/django-handleref/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 14:05:11] INFO root fetch - processPackages [cmyt]: executing diffoscope
+[2023-06-19 14:05:11] INFO root fetch - processPackages [cmyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmyt-1.2.0.tar.gz tmp/cmyt-1.2.1.tar.gz --markdown 20230619/c/cmyt/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-19 14:05:12] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc2.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-06-19 14:05:12] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc2.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-3.9.0rc4.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-06-19 14:05:12] INFO root fetch - processPackages [customtkinter]: Remove: archive file [/home/abi/fetcher/tmp/customtkinter-5.1.3.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - processPackages [customtkinter]: Remove: archive file [/home/abi/fetcher/tmp/customtkinter-5.2.0.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - main [MainThread]: End processing [customtkinter]: success
+[2023-06-19 14:05:12] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.69.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.70.tar.gz]
+[2023-06-19 14:05:12] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-19 14:05:13] INFO root fetch - processPackages [django-handleref]: Remove: archive file [/home/abi/fetcher/tmp/django-handleref-1.1.0.tar.gz]
+[2023-06-19 14:05:13] INFO root fetch - processPackages [django-handleref]: Remove: archive file [/home/abi/fetcher/tmp/django-handleref-2.0.0.tar.gz]
+[2023-06-19 14:05:13] INFO root fetch - main [MainThread]: End processing [django-handleref]: success
+[2023-06-19 14:05:13] INFO root fetch - processPackages [cmyt]: Remove: archive file [/home/abi/fetcher/tmp/cmyt-1.2.0.tar.gz]
+[2023-06-19 14:05:13] INFO root fetch - processPackages [cmyt]: Remove: archive file [/home/abi/fetcher/tmp/cmyt-1.2.1.tar.gz]
+[2023-06-19 14:05:13] INFO root fetch - main [MainThread]: End processing [cmyt]: success
+[2023-06-19 14:05:14] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc2.tar.gz]
+[2023-06-19 14:05:14] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-3.9.0rc4.tar.gz]
+[2023-06-19 14:05:14] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-06-19 14:05:16] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-19 14:05:16] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-19 14:05:16] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-19 14:05:56] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.5.tar.gz]
+[2023-06-19 14:05:56] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.6.tar.gz]
+[2023-06-19 14:05:56] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-06-19 14:05:56] INFO root fetch - main [MainThread]: Store serial: [18559307]
