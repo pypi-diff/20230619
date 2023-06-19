@@ -4572,3 +4572,68 @@
 [2023-06-19 03:33:13] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-19 03:33:13] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-19 03:33:13] INFO root fetch - main [MainThread]: Store serial: [18554785]
+[2023-06-19 03:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554785]
+[2023-06-19 03:38:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-redis-a
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Albumize
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastervit
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-06-19 03:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastervit
+[2023-06-19 03:38:24] INFO root fetch - processPackages [Albumize]: New version: [1.3] Old Version: [1.2]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [upstash-redis-a]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [fastervit]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [fastervit]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [yplib]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-19 03:38:24] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:38:25] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/ac/b9/947c03bc8ab2f76f037d0018e712927a725efcf273ceefd9e1addaeb0559/Albumize-1.2.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-19 03:38:25] ERROR root fetch - processPackages [fastervit]: Unable to fetch info: No such project/version 'fastervit' 0.8.2
+[2023-06-19 03:38:25] INFO root fetch - main [MainThread]: End processing [fastervit] error
+[2023-06-19 03:38:25] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/33/15/5fea1aca15f24ee9890bf18591b68d1a32ff1abe07948171f118fb288c59/upstash_redis_a-0.1.1.tar.gz
+[2023-06-19 03:38:25] ERROR root fetch - processPackages [fastervit]: Unable to fetch info: No such project/version 'fastervit' 0.8.2
+[2023-06-19 03:38:25] INFO root fetch - main [MainThread]: End processing [fastervit] error
+[2023-06-19 03:38:25] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/46/6d/aa0f918064d18379fed2ea3526cbb36d6892cc87c223c173ae7be4aea4f0/yplib-1.6.4.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/4f/32/49fb85b35c00f23ba2e3dbcc248638df44ea82547b2de7561158f0fd6b9b/Albumize-1.3.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230619/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:38:25] INFO root fetch - processPackages [Albumize]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/33/36/d78702f5358edb917b569aa44544862d867dd21d75104145b02491689119/upstash_redis_a-0.1.2.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [Albumize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Albumize-1.2.tar.gz tmp/Albumize-1.3.tar.gz --markdown 20230619/A/Albumize/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230619/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:38:25] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/97/28/31aa9c1dc156fb2fdd40697adfd9eebe91616780a97dde77fdf2438c7725/yplib-1.6.5.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [upstash-redis-a]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [upstash-redis-a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis_a-0.1.1.tar.gz tmp/upstash_redis_a-0.1.2.tar.gz --markdown 20230619/u/upstash-redis-a/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 03:38:25] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.4.tar.gz tmp/yplib-1.6.5.tar.gz --markdown 20230619/y/yplib/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-19 03:38:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-19 03:38:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-19 03:38:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230619/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-19 03:38:26] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.2.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.3.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - main [MainThread]: End processing [Albumize]: success
+[2023-06-19 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-19 03:38:26] INFO root fetch - processPackages [upstash-redis-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis_a-0.1.1.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - processPackages [upstash-redis-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis_a-0.1.2.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - main [MainThread]: End processing [upstash-redis-a]: success
+[2023-06-19 03:38:26] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.4.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.5.tar.gz]
+[2023-06-19 03:38:26] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 03:38:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-19 03:38:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-19 03:38:27] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-19 03:38:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-19 03:38:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-19 03:38:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-19 03:38:27] INFO root fetch - main [MainThread]: Store serial: [18554814]
