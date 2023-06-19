@@ -10956,3 +10956,171 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:27:07] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.1.tar.gz]
 [2023-06-19 10:27:07] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-06-19 10:27:07] INFO root fetch - main [MainThread]: Store serial: [18557322]
+[2023-06-19 10:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557322]
+[2023-06-19 10:32:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thundra
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thundra
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thundra
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thundra
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpleplayer
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-auto-control-dev
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solo-epd-loader
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threedi-api-client
+[2023-06-19 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenAIAuth
+[2023-06-19 10:32:18] INFO root fetch - processPackages [simpleplayer]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [OpenAIAuth]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [threedi-api-client]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [simpleplayer]: Downloading https://files.pythonhosted.org/packages/77/01/b1957329cee558e0a32cbcd6c25edd1ca9336d117b14cb045d3b5229271f/simpleplayer-1.0.3.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/50/e0/096a2fa9cccc54d71536458bff8d095fa7f23ddb700723068641e43c73ae/OpenAIAuth-1.0.2.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [threedi-api-client]: Downloading https://files.pythonhosted.org/packages/36/ed/e8bdd2e9eb89a815a08a843fb1334aff25031c3555ffd013b701e10417f6/threedi-api-client-4.1.3.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/22/57/a82264a329743bf8b15a5c272bae2f48dd857c765fe55f8eaf124d800c1d/je_auto_control_dev-0.0.84.tar.gz
+[2023-06-19 10:32:18] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/b5/9e/3862f55a8284e2b102d4e2863eaeff2628df8efa176a00a566fd14e29ea8/solo_epd_loader-0.2.4.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/36/a7/970e942bae840b9a0cc6f2118f538cb0e77cd8d8b2eaf69e33ca5f9acfcd/OpenAIAuth-1.0.3.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [simpleplayer]: Downloading https://files.pythonhosted.org/packages/23/b1/2a754048f61f0ca19c060c0567bbf2d187486bd7958f06c6ee6e064a0ec2/simpleplayer-1.0.4.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:32:19] INFO root fetch - processPackages [threedi-api-client]: Downloading https://files.pythonhosted.org/packages/4e/a4/3f332e9e904aac6ba0933cfd1f7478480e4f51d757a6104887dd50bffee4/threedi-api-client-4.1.4.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/d5/34/e39f1169f87a59e3fc98835f8def9d8210e32ad40cec2dd09c1644cab3a6/solo_epd_loader-0.2.5.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [OpenAIAuth]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [OpenAIAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenAIAuth-1.0.2.tar.gz tmp/OpenAIAuth-1.0.3.tar.gz --markdown 20230619/O/OpenAIAuth/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [simpleplayer]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [simpleplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleplayer-1.0.3.tar.gz tmp/simpleplayer-1.0.4.tar.gz --markdown 20230619/s/simpleplayer/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [threedi-api-client]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [threedi-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-api-client-4.1.3.tar.gz tmp/threedi-api-client-4.1.4.tar.gz --markdown 20230619/t/threedi-api-client/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.84.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230619/j/je-auto-control-dev/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:32:19] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-06-19 10:32:19] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.2.4.tar.gz tmp/solo_epd_loader-0.2.5.tar.gz --markdown 20230619/s/solo-epd-loader/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-19 10:32:20] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 10:32:20] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 10:32:20] INFO root fetch - processPackages [thundra]: Start processing: odoo14-addon-l10n-es-ticketbai
+[2023-06-19 10:32:20] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:32:20] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: New version: [14.0.2.9.3] Old Version: [14.0.2.9.2]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [simpleplayer]: Remove: archive file [/home/abi/fetcher/tmp/simpleplayer-1.0.3.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [simpleplayer]: Remove: archive file [/home/abi/fetcher/tmp/simpleplayer-1.0.4.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [simpleplayer]: Start processing: autosrt
+[2023-06-19 10:32:21] INFO root fetch - main [MainThread]: End processing [simpleplayer]: success
+[2023-06-19 10:32:21] INFO root fetch - processPackages [autosrt]: New version: [1.4.1] Old Version: [1.3.9]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [thundra]: Start processing: one-api-tool
+[2023-06-19 10:32:21] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:32:21] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/54/32/2d1e484635d9180ef98f4c48e3c1562063afed39091e8e11e35978266b03/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl
+[2023-06-19 10:32:21] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/79/44/3b145240dd1dbc79a7c8bca3152b9c2cc32c428d2355c025676c0cc5d69e/one-api-tool-0.2.9.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-1.0.2.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-1.0.3.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [OpenAIAuth]: Start processing: MCPoly
+[2023-06-19 10:32:21] INFO root fetch - main [MainThread]: End processing [OpenAIAuth]: success
+[2023-06-19 10:32:21] INFO root fetch - processPackages [MCPoly]: New version: [0.5.0] Old Version: [0.4.2.3]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/44/ff/859880744a32a5b2663fa342a0dde6569db526a9e4026488c5b55045a107/odoo14_addon_l10n_es_ticketbai-14.0.2.9.3-py3-none-any.whl
+[2023-06-19 10:32:21] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/35/dd/ecc66831a64fd92a8b4677bab920dd3cff1f5f27d11e998abaae6a7ca415/autosrt-1.4.1.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.84.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [je-auto-control-dev]: Start processing: uniem
+[2023-06-19 10:32:21] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-19 10:32:21] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/3f/c8/868d1e41fe107220ec52bc9a8a31b6b97bbf972c1f55f1adedc5f8b039a7/one-api-tool-0.3.0.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/51/4b/b9254c68aa18b3e43f2da9cb857f282ea3a0e90d5759a16086ab279df328/MCPoly-0.4.2.3.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [uniem]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-19 10:32:21] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-19 10:32:21] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.2.9.tar.gz tmp/one-api-tool-0.3.0.tar.gz --markdown 20230619/o/one-api-tool/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 10:32:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-19 10:32:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.3-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-l10n-es-ticketbai/14.0.2.9.2-14.0.2.9.3/diff.md --exclude *.pyd
+[2023-06-19 10:32:21] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-19 10:32:21] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.9.tar.gz tmp/autosrt-1.4.1.tar.gz --markdown 20230619/a/autosrt/1.3.9-1.4.1/diff.md --exclude *.pyd
+[2023-06-19 10:32:21] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/16/41/d9ae4afa52f5fdf4761ed44f7584c73c561f9b3da5fd497579e8fd3eb323/uniem-0.2.0.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/1a/1f/de5eeb1c301b35a3bdc0a55dbaa935db9e717e2b71e808667871195dedf6/MCPoly-0.5.0.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-06-19 10:32:21] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.4.2.3.tar.gz tmp/MCPoly-0.5.0.tar.gz --markdown 20230619/M/MCPoly/0.4.2.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 10:32:21] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/fb/33/01146d213c7ee9f973d302dfa19e815973dbcb52442c12e78591cbd9cb65/uniem-0.2.2.tar.gz
+[2023-06-19 10:32:21] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-06-19 10:32:21] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.2.0.tar.gz tmp/uniem-0.2.2.tar.gz --markdown 20230619/u/uniem/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-06-19 10:32:22] INFO root fetch - processPackages [thundra]: Start processing: netbox-cisco-maintenance
+[2023-06-19 10:32:22] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:32:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 10:32:22] INFO root fetch - processPackages [thundra]: Start processing: elblog2dict
+[2023-06-19 10:32:22] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:32:22] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.2.9.tar.gz]
+[2023-06-19 10:32:22] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.0.tar.gz]
+[2023-06-19 10:32:22] INFO root fetch - processPackages [one-api-tool]: Start processing: coffeegrinder
+[2023-06-19 10:32:22] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-19 10:32:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 10:32:22] INFO root fetch - processPackages [elblog2dict]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 10:32:22] WARNING root fetch - processPackages [coffeegrinder]: Skipping, unable to determine old version
+[2023-06-19 10:32:22] INFO root fetch - processPackages [coffeegrinder]: Start processing: odoo-addon-sale-substate
+[2023-06-19 10:32:22] INFO root fetch - main [MainThread]: End processing [coffeegrinder] error
+[2023-06-19 10:32:22] INFO root fetch - processPackages [odoo-addon-sale-substate]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-06-19 10:32:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 10:32:22] INFO root fetch - processPackages [thundra]: Start processing: mlpf
+[2023-06-19 10:32:22] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:32:22] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/47/9d/7fd2b00e314da53d0598eb4bdb58b5333c9d9f9ae19fd1ed9e6b1961046b/elblog2dict-0.0.1.tar.gz
+[2023-06-19 10:32:23] INFO root fetch - processPackages [mlpf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 10:32:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 10:32:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo-addon-sale-substate]: Downloading https://files.pythonhosted.org/packages/d4/61/019cbf23ff303bad107e12723911a59a41093fb6758c23f6b1f05be9997d/odoo_addon_sale_substate-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:32:23] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.0.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.2.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-06-19 10:32:23] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/29/1f/4bc07daff378af31055608eeba1fa7ad23a26b6e2c87cbbaf64cf9d07e3f/elblog2dict-0.0.2.tar.gz
+[2023-06-19 10:32:23] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/e9/64/f6d56b297476a1d1eb35d6186275cf4677a7e58a69a1daa10c0560fd1ff4/mlpf-0.0.4.tar.gz
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.3-py3-none-any.whl.zip]
+[2023-06-19 10:32:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai]: success
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo-addon-sale-substate]: Downloading https://files.pythonhosted.org/packages/8d/7b/1d2ab7107cd5b52eae68b5cd1e00ef15512f1c930a2bca04da51d3a08468/odoo_addon_sale_substate-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:32:23] INFO root fetch - processPackages [elblog2dict]: executing diffoscope
+[2023-06-19 10:32:23] INFO root fetch - processPackages [elblog2dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elblog2dict-0.0.1.tar.gz tmp/elblog2dict-0.0.2.tar.gz --markdown 20230619/e/elblog2dict/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:32:23] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.1.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-19 10:32:23] INFO root fetch - processPackages [mlpf]: executing diffoscope
+[2023-06-19 10:32:23] INFO root fetch - processPackages [mlpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpf-0.0.3.tar.gz tmp/mlpf-0.0.4.tar.gz --markdown 20230619/m/mlpf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 10:32:23] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.4.2.3.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.5.0.tar.gz]
+[2023-06-19 10:32:23] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo-addon-sale-substate]: executing diffoscope
+[2023-06-19 10:32:23] INFO root fetch - processPackages [odoo-addon-sale-substate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_substate-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_substate-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-sale-substate/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:32:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 10:32:24] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.1.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.2.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - main [MainThread]: End processing [elblog2dict]: success
+[2023-06-19 10:32:24] INFO root fetch - processPackages [odoo-addon-sale-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_substate-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:32:24] INFO root fetch - processPackages [odoo-addon-sale-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_substate-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:32:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-substate]: success
+[2023-06-19 10:32:24] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.3.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.4.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - main [MainThread]: End processing [mlpf]: success
+[2023-06-19 10:32:24] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.4.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.2.5.tar.gz]
+[2023-06-19 10:32:24] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-06-19 10:32:25] INFO root fetch - processPackages [threedi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/threedi-api-client-4.1.3.tar.gz]
+[2023-06-19 10:32:25] INFO root fetch - processPackages [threedi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/threedi-api-client-4.1.4.tar.gz]
+[2023-06-19 10:32:25] INFO root fetch - main [MainThread]: End processing [threedi-api-client]: success
+[2023-06-19 10:32:25] INFO root fetch - main [MainThread]: Store serial: [18557387]
