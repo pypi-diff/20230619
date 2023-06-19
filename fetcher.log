@@ -11451,3 +11451,120 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:43:47] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230618-py2.py3-none-any.whl.zip]
 [2023-06-19 10:43:47] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-06-19 10:43:47] INFO root fetch - main [MainThread]: Store serial: [18557500]
+[2023-06-19 10:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557500]
+[2023-06-19 10:48:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animage-data-sorter
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spam-detector-ai
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: email-cleaning-service
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htruc
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-reconciliation-widget
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gefpy
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azdev
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyload-ng
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elblog2dict
+[2023-06-19 10:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recon-lw
+[2023-06-19 10:48:56] INFO root fetch - processPackages [gefpy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [animage-data-sorter]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: New version: [14.0.2.0.5] Old Version: [14.0.2.0.4]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [htruc]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev72] Old Version: [0.5.0b3.dev71]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [spam-detector-ai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [elblog2dict]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5309756614] Old Version: [2.0.0.dev5222793001]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/68/44/17bdc725a3740d787af894a0fc39336465898e760c2526fb232c144f5d15/email_cleaning_service-0.0.8.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/bd/09/94f71339e35d311d56cabb34d30d56c1c689d7c0bcdb3b9100619d3930f7/htruc-1.0.7.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/29/1f/4bc07daff378af31055608eeba1fa7ad23a26b6e2c87cbbaf64cf9d07e3f/elblog2dict-0.0.2.tar.gz
+[2023-06-19 10:48:56] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560921>=10485760
+[2023-06-19 10:48:56] INFO root fetch - processPackages [email-cleaning-service]: Start processing: py-banshee
+[2023-06-19 10:48:56] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-19 10:48:56] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/cd/52/1faa00b96936180a77466115137d64e136e9c34f2e9e05d80fe47311f2d9/pyload-ng-0.5.0b3.dev71.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [py-banshee]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-19 10:48:56] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/13/a8/8c4363dac00504ab3c03080014f8c6e6766b7f4ce87210e04c2203b152d7/animage-data_sorter-1.1.1.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/47/d1/114f6b0a8a450405f0306f26affa43c4e1e44166a5b4d5153d44f9286251/recon_lw-2.0.0.dev5222793001.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [spam-detector-ai]: Downloading https://files.pythonhosted.org/packages/59/37/cbb91007c967bbc34a06d2c304d88d53fc055cbbed9bd0c29595dc03d55c/spam-detector-ai-1.0.1.tar.gz
+[2023-06-19 10:48:56] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/41/d5/24e7698e63e60ced965283a80d676ed4b0d1b15555fb702520831f04ea27/gefpy-0.6.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 10:48:57] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/c0/d4/ec353a173526021b983224a2c122fae6c76eb405b4ea4c3647bd20fceff6/odoo14_addon_account_reconciliation_widget-14.0.2.0.4-py3-none-any.whl
+[2023-06-19 10:48:57] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-06-19 10:48:57] WARNING root fetch - processPackages [spam-detector-ai]: Skipping package: exceeds size limit 11418912>=10485760
+[2023-06-19 10:48:57] INFO root fetch - processPackages [spam-detector-ai]: Start processing: cubetools
+[2023-06-19 10:48:57] INFO root fetch - main [MainThread]: End processing [spam-detector-ai] error
+[2023-06-19 10:48:57] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 30509572>=10485760
+[2023-06-19 10:48:57] INFO root fetch - processPackages [gefpy]: Start processing: pydflow
+[2023-06-19 10:48:57] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-06-19 10:48:57] INFO root fetch - processPackages [cubetools]: New version: [0.4.5] Old Version: [0.4.3]
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pydflow]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-19 10:48:57] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/01/71/eaaf1ed8c14e9dd62008f10547c2e7c36a328d9f8d79313b1195721659c3/htruc-1.0.8.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [py-banshee]: Downloading https://files.pythonhosted.org/packages/21/20/550fa0431e43b3ce199a6afd348714e61e5ff50a087a7ee1d1d519cacb58/py_banshee-1.0.1.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/11/1c/d9ce360c2cc75b9e45243f36d794c232792051613a48838ac48acb2312b3/elblog2dict-0.0.3.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/b7/28/ce16e079da8bb316a95b68ee463bc5be8088de3e9f743926d9b692be7528/animage-data_sorter-1.1.2.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [elblog2dict]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [elblog2dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elblog2dict-0.0.2.tar.gz tmp/elblog2dict-0.0.3.tar.gz --markdown 20230619/e/elblog2dict/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [htruc]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [htruc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htruc-1.0.7.tar.gz tmp/htruc-1.0.8.tar.gz --markdown 20230619/h/htruc/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/dd/3e/85f04e468f2d2e8575eb82c84386addc6f768d9c3f9a10752f267193abd8/recon_lw-2.0.0.dev5309756614.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/bf/0a/84ddc5a897e1b1198de7fd9fb2d93b00c1664b530a60df9afaba1e1ca82e/pyload-ng-0.5.0b3.dev72.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/84/97/2e50d5f07f6e9fd58fa6e1f60fbaa589921a9a0c90ed04e095e0fca7d149/cubetools-0.4.3.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/fc/36/253d4b153b533e4b344ec2dbf37281dd951b1b5ece3c6a47db54697c6e5b/pydflow-1.7.4.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/dd/80/d3493f7eff69e15db1e59293641480f2559a8f4b1e449114d2c6ad9c64a0/odoo14_addon_account_reconciliation_widget-14.0.2.0.5-py3-none-any.whl
+[2023-06-19 10:48:57] INFO root fetch - processPackages [animage-data-sorter]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [animage-data-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animage-data_sorter-1.1.1.tar.gz tmp/animage-data_sorter-1.1.2.tar.gz --markdown 20230619/a/animage-data-sorter/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [py-banshee]: Downloading https://files.pythonhosted.org/packages/26/a2/f2776c14e4f92091c0c8bf2b5c17b9a20c3b3fd8de93701d905c2af63ba5/py_banshee-1.1.0.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.4-py3-none-any.whl.zip tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.5-py3-none-any.whl.zip --markdown 20230619/o/odoo14-addon-account-reconciliation-widget/14.0.2.0.4-14.0.2.0.5/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5222793001.tar.gz tmp/recon_lw-2.0.0.dev5309756614.tar.gz --markdown 20230619/r/recon-lw/2.0.0.dev5222793001-2.0.0.dev5309756614/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/c9/74/9c1b087816957a4f8b4d6a4a05d2cface2f96907b0f694a390d38ca78543/cubetools-0.4.5.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230619/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [py-banshee]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [py-banshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_banshee-1.0.1.tar.gz tmp/py_banshee-1.1.0.tar.gz --markdown 20230619/p/py-banshee/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev71.tar.gz tmp/pyload-ng-0.5.0b3.dev72.tar.gz --markdown 20230619/p/pyload-ng/0.5.0b3.dev71-0.5.0b3.dev72/diff.md --exclude *.pyd
+[2023-06-19 10:48:57] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/99/69/65607e4d6aab5f5b83c1d6c416339a34aed6dbf7daa13432e9cb7373cd09/pydflow-1.7.5.tar.gz
+[2023-06-19 10:48:57] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-06-19 10:48:57] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.4.3.tar.gz tmp/cubetools-0.4.5.tar.gz --markdown 20230619/c/cubetools/0.4.3-0.4.5/diff.md --exclude *.pyd
+[2023-06-19 10:48:58] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-19 10:48:58] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.4.tar.gz tmp/pydflow-1.7.5.tar.gz --markdown 20230619/p/pydflow/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-19 10:48:58] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.2.tar.gz]
+[2023-06-19 10:48:58] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.3.tar.gz]
+[2023-06-19 10:48:58] INFO root fetch - processPackages [elblog2dict]: Start processing: ogc-na
+[2023-06-19 10:48:58] INFO root fetch - main [MainThread]: End processing [elblog2dict]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5222793001.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5309756614.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.7.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.8.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [htruc]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-19 10:48:59] INFO root fetch - processPackages [py-banshee]: Remove: archive file [/home/abi/fetcher/tmp/py_banshee-1.0.1.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [py-banshee]: Remove: archive file [/home/abi/fetcher/tmp/py_banshee-1.1.0.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [py-banshee]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.4-py3-none-any.whl.zip]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.5-py3-none-any.whl.zip]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-reconciliation-widget]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.3.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.5.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-19 10:48:59] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.1.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.2.tar.gz]
+[2023-06-19 10:48:59] INFO root fetch - main [MainThread]: End processing [animage-data-sorter]: success
+[2023-06-19 10:48:59] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-19 10:48:59] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230619/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 10:49:00] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-19 10:49:00] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-19 10:49:00] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-19 10:49:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.4.tar.gz]
+[2023-06-19 10:49:01] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.5.tar.gz]
+[2023-06-19 10:49:01] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-19 10:49:07] INFO root fetch - processPackages [pyload-ng]: Remove: archive file [/home/abi/fetcher/tmp/pyload-ng-0.5.0b3.dev71.tar.gz]
+[2023-06-19 10:49:07] INFO root fetch - processPackages [pyload-ng]: Remove: archive file [/home/abi/fetcher/tmp/pyload-ng-0.5.0b3.dev72.tar.gz]
+[2023-06-19 10:49:07] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-06-19 10:49:07] INFO root fetch - main [MainThread]: Store serial: [18557541]
