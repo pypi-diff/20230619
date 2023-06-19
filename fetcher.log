@@ -1028,3 +1028,127 @@
 [2023-06-19 02:11:02] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2023-06-19 02:11:02] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2023-06-19 02:11:02] INFO root fetch - main [MainThread]: Store serial: [18553462]
+[2023-06-19 02:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553462]
+[2023-06-19 02:16:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecghelper
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.codepipeline-extensions
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-iot-core-certificates
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-space-toolkit-physics
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-events-notify
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-skylight
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-gitlab-runner
+[2023-06-19 02:16:11] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230618.post1145] Old Version: [1.1.0.20230617.post1007]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [yplib]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-19 02:16:11] WARNING root fetch - processPackages [ecghelper]: Skipping, unable to determine old version
+[2023-06-19 02:16:11] INFO root fetch - processPackages [ecghelper]: Start processing: powervaultpy
+[2023-06-19 02:16:11] INFO root fetch - main [MainThread]: End processing [ecghelper] error
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/57/06/11caaba8476a8cd85848e1af6a774161b0e9cfff72aae460957b559e8133/open_space_toolkit_physics-1.1.1-py39-none-any.whl
+[2023-06-19 02:16:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/6f/ab/4358af11d234e91a6ebe999d20c7459285009546e13547025a863fa0fa4f/mct-quantizers-nightly-1.1.0.20230617.post1007.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fc/cd/8e56bb43e3a3d854209e5c04d6e4fd5a5f5eb8f9eb655ba244b7abb9615b/yplib-1.5.7.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/4a/a6/6ea596c8e19f5ed525410791944c7ff9789e54a7973ca6600aff1a294bfe/powervaultpy-0.0.3.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230619/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/8b/b7/1cb894aa717bed2327ff5afd2288b42b97cd031aab3ad1cab39899612708/mct-quantizers-nightly-1.1.0.20230618.post1145.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ee/d9/f11cf74c8c16ef35436065b3c7d1eaf227c7998391490556dbbae2ac6dc0/yplib-1.5.8.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/7a/35/3bcaeb12b38b9569e5e40c673271bf985319a08eaed5cb719e82ae950e04/powervaultpy-0.0.4.tar.gz
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230619/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230619/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230619/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230617.post1007.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230618.post1145.tar.gz --markdown 20230619/m/mct-quantizers-nightly/1.1.0.20230617.post1007-1.1.0.20230618.post1145/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.7.tar.gz tmp/yplib-1.5.8.tar.gz --markdown 20230619/y/yplib/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230619/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-19 02:16:11] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.3.tar.gz tmp/powervaultpy-0.0.4.tar.gz --markdown 20230619/p/powervaultpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 02:16:11] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/6b/12/eb5f19f37c30af96cd6405f1b67a5ec77195719c1bf71e42b539b98e3eb6/open_space_toolkit_physics-1.1.2-py39-none-any.whl
+[2023-06-19 02:16:11] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-events-notify
+[2023-06-19 02:16:11] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-06-19 02:16:11] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 02:16:12] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-06-19 02:16:12] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-1.1.1-py39-none-any.whl.zip tmp/open_space_toolkit_physics-1.1.2-py39-none-any.whl.zip --markdown 20230619/o/open-space-toolkit-physics/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-19 02:16:12] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-19 02:16:12] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230619/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: pytorch-ignite
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-19 02:16:13] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230618] Old Version: [0.5.0.dev20230617]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/dd/d0/6b414b725a0be26da3e054fb7f9deef1bb8bfcbbb9035ef909045a977808/pytorch-ignite-0.5.0.dev20230617.tar.gz
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdktf-tf-module-stack
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-19 02:16:13] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/53/f7/1ea966d62a16a238056bcd8f856399016aca6267b308389da668d3842603/pytorch-ignite-0.5.0.dev20230618.tar.gz
+[2023-06-19 02:16:13] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.3.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.4.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [powervaultpy]: Start processing: cdk-common
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-06-19 02:16:13] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230617.tar.gz tmp/pytorch-ignite-0.5.0.dev20230618.tar.gz --markdown 20230619/p/pytorch-ignite/0.5.0.dev20230617-0.5.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-19 02:16:13] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/4d/c0/6f78c49f39cfc2c512363586ecc539abbe99cf635e8fc089e2e966989e9e/cdktf-tf-module-stack-2.0.8.tar.gz
+[2023-06-19 02:16:13] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.7.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.8.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 02:16:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230617.post1007.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230618.post1145.tar.gz]
+[2023-06-19 02:16:13] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/89/41/87af5276a32f8509872a75834f57e534f04ad290920898b254db0d5b70d2/cdktf-tf-module-stack-2.0.9.tar.gz
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-2.0.8.tar.gz tmp/cdktf-tf-module-stack-2.0.9.tar.gz --markdown 20230619/c/cdktf-tf-module-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-19 02:16:14] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-06-19 02:16:14] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-19 02:16:14] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230619/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:16:15] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230617.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230618.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-06-19 02:16:15] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.8.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.9.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2023-06-19 02:16:15] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-19 02:16:15] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-19 02:16:30] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.1-py39-none-any.whl.zip]
+[2023-06-19 02:16:30] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.2-py39-none-any.whl.zip]
+[2023-06-19 02:16:30] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-06-19 02:16:30] INFO root fetch - main [MainThread]: Store serial: [18553510]
