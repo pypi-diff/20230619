@@ -11124,3 +11124,175 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:32:25] INFO root fetch - processPackages [threedi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/threedi-api-client-4.1.4.tar.gz]
 [2023-06-19 10:32:25] INFO root fetch - main [MainThread]: End processing [threedi-api-client]: success
 [2023-06-19 10:32:25] INFO root fetch - main [MainThread]: Store serial: [18557387]
+[2023-06-19 10:37:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557387]
+[2023-06-19 10:37:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacy-setfit
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-cleaning-service
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cond-rnn
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-model
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwon-django-toolbox
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: craft-ai-sdk
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eventiq
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-ai-cli
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edwh
+[2023-06-19 10:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qtl-xtp-api
+[2023-06-19 10:37:35] INFO root fetch - processPackages [cond-rnn]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-19 10:37:35] WARNING root fetch - processPackages [my-model]: Skipping, unable to determine old version
+[2023-06-19 10:37:35] INFO root fetch - processPackages [my-model]: Start processing: thundra
+[2023-06-19 10:37:35] INFO root fetch - main [MainThread]: End processing [my-model] error
+[2023-06-19 10:37:35] INFO root fetch - processPackages [py-ai-cli]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-19 10:37:35] WARNING root fetch - processPackages [qtl-xtp-api]: Skipping, unable to determine old version
+[2023-06-19 10:37:35] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [qtl-xtp-api]: Start processing: DIRAC
+[2023-06-19 10:37:35] INFO root fetch - main [MainThread]: End processing [qtl-xtp-api] error
+[2023-06-19 10:37:35] INFO root fetch - processPackages [spacy-setfit]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [nwon-django-toolbox]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/b0/21/cd0810c390f07840550e674db1f02fcb41c495073df168f3c985a1d2e3cc/py-ai-cli-0.3.5.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-06-19 10:37:35] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/b8/3a/3eebce525bfe477453f47b04cf8d1dbbd54fca7806c6a58c8315528312fc/nwon_django_toolbox-0.5.1.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/15/45/fdfa35dcb4741377c3faf085ba68de1644c130a5625c2d516c74c5de0e86/spacy-setfit-0.1.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [cond-rnn]: Downloading https://files.pythonhosted.org/packages/e5/0e/073b7981c915e77a9691aa3d607b3c93772805b4cb45e85a5acb579f50d9/cond-rnn-3.2.1.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/68/44/17bdc725a3740d787af894a0fc39336465898e760c2526fb232c144f5d15/email_cleaning_service-0.0.8.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 10:37:35] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/94/07/d17e18e89d09348654797a3774b0a3d6622db5c619011f3150f63510fe61/py-ai-cli-0.3.6.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 10:37:35] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 10:37:35] INFO root fetch - processPackages [nwon-django-toolbox]: Downloading https://files.pythonhosted.org/packages/c6/4e/e2bb3657833a18048a41df9d346710d8edc6a541f73c194553d3d60d3af5/nwon_django_toolbox-0.5.2.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/64/36/a71a2127a5222651e5a9562e944cf9a3c4161a771788e53568f996c48bd4/spacy-setfit-0.1.1.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [cond-rnn]: Downloading https://files.pythonhosted.org/packages/61/3f/5ad3008a8416728d78182e302fc6c602859dd0bfd91159e5d74bb4957161/cond-rnn-3.2.2.tar.gz
+[2023-06-19 10:37:35] INFO root fetch - processPackages [py-ai-cli]: executing diffoscope
+[2023-06-19 10:37:35] INFO root fetch - processPackages [py-ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ai-cli-0.3.5.tar.gz tmp/py-ai-cli-0.3.6.tar.gz --markdown 20230619/p/py-ai-cli/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-19 10:37:35] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-06-19 10:37:35] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-06-19 10:37:35] INFO root fetch - processPackages [edwh]: Start processing: je-auto-control
+[2023-06-19 10:37:35] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-06-19 10:37:35] INFO root fetch - processPackages [cond-rnn]: executing diffoscope
+[2023-06-19 10:37:35] INFO root fetch - processPackages [cond-rnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cond-rnn-3.2.1.tar.gz tmp/cond-rnn-3.2.2.tar.gz --markdown 20230619/c/cond-rnn/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-19 10:37:36] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [spacy-setfit]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [spacy-setfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-setfit-0.1.tar.gz tmp/spacy-setfit-0.1.1.tar.gz --markdown 20230619/s/spacy-setfit/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230619/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230619/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [nwon-django-toolbox]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [nwon-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwon_django_toolbox-0.5.1.tar.gz tmp/nwon_django_toolbox-0.5.2.tar.gz --markdown 20230619/n/nwon-django-toolbox/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-06-19 10:37:36] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560921>=10485760
+[2023-06-19 10:37:36] INFO root fetch - processPackages [email-cleaning-service]: Start processing: llama-index
+[2023-06-19 10:37:36] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-19 10:37:36] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-19 10:37:36] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230619/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 10:37:36] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-19 10:37:36] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-19 10:37:36] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230619/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-19 10:37:37] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.5.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.6.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [py-ai-cli]: Start processing: je-auto-control-dev
+[2023-06-19 10:37:37] INFO root fetch - main [MainThread]: End processing [py-ai-cli]: success
+[2023-06-19 10:37:37] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-06-19 10:37:37] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230619/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-06-19 10:37:37] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [thundra]: Start processing: json-schema-himarc
+[2023-06-19 10:37:37] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 10:37:37] INFO root fetch - processPackages [json-schema-himarc]: New version: [2.9.14] Old Version: [2.9.13]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/f3/0b/d531a83f09ff7e47822bcef96e4418bf3df01181bec7876f9f63fe55fd2c/je_auto_control_dev-0.0.85.tar.gz
+[2023-06-19 10:37:37] INFO root fetch - processPackages [json-schema-himarc]: Downloading https://files.pythonhosted.org/packages/6c/73/4a6e46fd9710f4b9d048d95a98409005e95c7d0826f223065954a50a12c2/json_schema_himarc-2.9.13.tar.gz
+[2023-06-19 10:37:37] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy-setfit-0.1.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy-setfit-0.1.1.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [spacy-setfit]: Start processing: gpt-index
+[2023-06-19 10:37:37] INFO root fetch - main [MainThread]: End processing [spacy-setfit]: success
+[2023-06-19 10:37:37] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [cond-rnn]: Remove: archive file [/home/abi/fetcher/tmp/cond-rnn-3.2.1.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [cond-rnn]: Remove: archive file [/home/abi/fetcher/tmp/cond-rnn-3.2.2.tar.gz]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [cond-rnn]: Start processing: autosrt
+[2023-06-19 10:37:37] INFO root fetch - main [MainThread]: End processing [cond-rnn]: success
+[2023-06-19 10:37:37] INFO root fetch - processPackages [autosrt]: New version: [1.4.1] Old Version: [1.3.9]
+[2023-06-19 10:37:37] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-19 10:37:37] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-19 10:37:37] INFO root fetch - processPackages [json-schema-himarc]: Downloading https://files.pythonhosted.org/packages/86/bc/1f32c815063d0342b5126041838b3dab62797ede856cd8665f3592a1bffe/json_schema_himarc-2.9.14.tar.gz
+[2023-06-19 10:37:37] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-19 10:37:37] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.85.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230619/j/je-auto-control-dev/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:37:37] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-19 10:37:38] INFO root fetch - processPackages [json-schema-himarc]: executing diffoscope
+[2023-06-19 10:37:38] INFO root fetch - processPackages [json-schema-himarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_schema_himarc-2.9.13.tar.gz tmp/json_schema_himarc-2.9.14.tar.gz --markdown 20230619/j/json-schema-himarc/2.9.13-2.9.14/diff.md --exclude *.pyd
+[2023-06-19 10:37:38] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/35/dd/ecc66831a64fd92a8b4677bab920dd3cff1f5f27d11e998abaae6a7ca415/autosrt-1.4.1.tar.gz
+[2023-06-19 10:37:38] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.8.tar.gz]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [eventiq]: Start processing: crawler-commons
+[2023-06-19 10:37:38] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-06-19 10:37:38] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-19 10:37:38] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.9.tar.gz tmp/autosrt-1.4.1.tar.gz --markdown 20230619/a/autosrt/1.3.9-1.4.1/diff.md --exclude *.pyd
+[2023-06-19 10:37:38] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-19 10:37:38] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-19 10:37:38] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-19 10:37:38] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [craft-ai-sdk]: Start processing: odoo-addon-sale-advance-payment
+[2023-06-19 10:37:38] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-06-19 10:37:38] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-19 10:37:38] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230619/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-19 10:37:38] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-19 10:37:38] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230619/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:37:38] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: New version: [15.0.1.0.3] Old Version: [15.0.1.0.2.1]
+[2023-06-19 10:37:38] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/91/be/17a2464c56e17db095f5cdc07518846acb9a22a5a5ffebbde23c5c247167/odoo_addon_sale_advance_payment-15.0.1.0.2.1-py3-none-any.whl
+[2023-06-19 10:37:39] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/ea/37/8ff3adad91eb41a24f20a2f9bdfcd7c6d823b21903862fba203fe955efd8/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl
+[2023-06-19 10:37:39] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: executing diffoscope
+[2023-06-19 10:37:39] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_advance_payment-15.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-sale-advance-payment/15.0.1.0.2.1-15.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:37:39] INFO root fetch - processPackages [json-schema-himarc]: Remove: archive file [/home/abi/fetcher/tmp/json_schema_himarc-2.9.13.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [json-schema-himarc]: Remove: archive file [/home/abi/fetcher/tmp/json_schema_himarc-2.9.14.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [json-schema-himarc]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-19 10:37:39] INFO root fetch - main [MainThread]: End processing [json-schema-himarc]: success
+[2023-06-19 10:37:39] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-06-19 10:37:39] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/e5/c7/6b92122af3b7ec15a2f283d1b011c8eb7c8e421d5a2b46298bb717f44bcf/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 10:37:39] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.85.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-19 10:37:39] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-19 10:37:39] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-19 10:37:40] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/ad/85/06c46b6443c9a962bf57080c8d6c207f5320993510831b35db32e2623476/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-19 10:37:40] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-19 10:37:40] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.1.tar.gz]
+[2023-06-19 10:37:40] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-19 10:37:40] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-06-19 10:37:40] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-product-form-sale-link/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:37:40] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_advance_payment-15.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-06-19 10:37:40] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-19 10:37:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-advance-payment]: success
+[2023-06-19 10:37:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:37:41] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-19 10:37:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-06-19 10:37:42] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-19 10:37:42] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-19 10:37:42] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-19 10:38:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a8.tar.gz]
+[2023-06-19 10:38:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
+[2023-06-19 10:38:01] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-06-19 10:38:24] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.1.tar.gz]
+[2023-06-19 10:38:24] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.2.tar.gz]
+[2023-06-19 10:38:24] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
+[2023-06-19 10:38:31] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-19 10:38:31] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-19 10:38:31] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-19 10:38:31] INFO root fetch - main [MainThread]: Store serial: [18557450]
