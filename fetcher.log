@@ -10700,3 +10700,137 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:15:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.99.tar.gz]
 [2023-06-19 10:15:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-06-19 10:15:16] INFO root fetch - main [MainThread]: Store serial: [18557196]
+[2023-06-19 10:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557196]
+[2023-06-19 10:20:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe-bio
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawler-commons
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: device-management-interface
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netspresso
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: armonik
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elblog2dict
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heimarobot
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odtemplater
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nyckel
+[2023-06-19 10:20:26] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:20:26] WARNING root fetch - processPackages [heimarobot]: Skipping, unable to determine old version
+[2023-06-19 10:20:26] INFO root fetch - processPackages [heimarobot]: Start processing: seaborn-analyzer
+[2023-06-19 10:20:26] INFO root fetch - main [MainThread]: End processing [heimarobot] error
+[2023-06-19 10:20:26] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [netspresso]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 10:20:26] WARNING root fetch - processPackages [elblog2dict]: Skipping, unable to determine old version
+[2023-06-19 10:20:26] INFO root fetch - processPackages [elblog2dict]: Start processing: sora-sdk
+[2023-06-19 10:20:26] INFO root fetch - main [MainThread]: End processing [elblog2dict] error
+[2023-06-19 10:20:26] INFO root fetch - processPackages [yeref]: New version: [0.2.0] Old Version: [0.1.99]
+[2023-06-19 10:20:26] WARNING root fetch - processPackages [odtemplater]: Skipping, unable to determine old version
+[2023-06-19 10:20:26] INFO root fetch - processPackages [odtemplater]: Start processing: ens-sdk
+[2023-06-19 10:20:26] INFO root fetch - main [MainThread]: End processing [odtemplater] error
+[2023-06-19 10:20:26] INFO root fetch - processPackages [device-management-interface]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [armonik]: New version: [3.8.3.dev470] Old Version: [3.8.2.dev395]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev9] Old Version: [2023.1.0.dev8]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ens-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/69/fb/4a2b276258ea4ed9505f86954c6a510828aebf3b2fed6b8d3c65a5ec3898/netspresso-1.0.1-py3-none-any.whl
+[2023-06-19 10:20:26] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/40/88/bdbe7d87b86f7915a41e6a2156023beb678a5d5e5b2e66ec21c45189ab43/yeref-0.1.99.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/50/3a/de3e98d6a0244f24c136212eea170e71b99fbb0066c3c53a218f9b76aa35/armonik-3.8.2.dev395.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [device-management-interface]: Downloading https://files.pythonhosted.org/packages/68/ec/1e12acf7c50b3b37d22c8dd0f0cdc34aa52939778c67d09bc67510711b06/device-management-interface-1.7.0.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/b6/64/0ca15069361f50130f934f021ac7a3115731d0014d18a2c1ff865baa7d8b/ens_sdk-0.0.1.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/c1/47/6c1eea87cf18f1981015d3d8a90e651529c9b1c73cf7fbb45c18b983bdef/seaborn-analyzer-0.2.9.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/be/f5/9b8c007121fc24f4dc0239657ed4d292d37142046e116f958c4552a41b72/sora_sdk-2023.1.0.dev8.tar.gz
+[2023-06-19 10:20:26] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11007321>=10485760
+[2023-06-19 10:20:26] INFO root fetch - processPackages [sora-sdk]: Start processing: feincms3-cookiecontrol
+[2023-06-19 10:20:26] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-19 10:20:26] INFO root fetch - processPackages [feincms3-cookiecontrol]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-19 10:20:26] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/85/83/dfd9cbe110c20b62af60e234995c612bfcda285fa65ff1243e0191b90e6e/netspresso-1.0.2-py3-none-any.whl
+[2023-06-19 10:20:26] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.0.1-py3-none-any.whl.zip tmp/netspresso-1.0.2-py3-none-any.whl.zip --markdown 20230619/n/netspresso/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/3d/31/7b5ee311aceccb97719d5b1905ff477dd45353cd5b041b18c93b3c0419cd/yeref-0.2.0.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/23/4f/0c8f27862eb873769936d3e087c5baed37b1907d95eeffc48c0af430c220/armonik-3.8.3.dev470.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/30/53/8337c47d357327920687b0f6a722fdd8868d656fbd18574b9ef6e5edbce7/ens_sdk-0.0.2.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/70/7b/582f541648073e39941afa4a7c11d05333c66392ec04d52db84e77c9a131/seaborn-analyzer-0.3.0.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [feincms3-cookiecontrol]: Downloading https://files.pythonhosted.org/packages/a9/91/6b3ef9e9773bef149071486662b0e8f4d0c455dd03306d7f7694db3067e1/feincms3_cookiecontrol-1.3.0.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.99.tar.gz tmp/yeref-0.2.0.tar.gz --markdown 20230619/y/yeref/0.1.99-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev395.tar.gz tmp/armonik-3.8.3.dev470.tar.gz --markdown 20230619/a/armonik/3.8.2.dev395-3.8.3.dev470/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ens-sdk]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [ens-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ens_sdk-0.0.1.tar.gz tmp/ens_sdk-0.0.2.tar.gz --markdown 20230619/e/ens-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230619/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.2.9.tar.gz tmp/seaborn-analyzer-0.3.0.tar.gz --markdown 20230619/s/seaborn-analyzer/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 10:20:26] INFO root fetch - processPackages [device-management-interface]: Downloading https://files.pythonhosted.org/packages/8e/ac/20673cf9acdd1155c93420d189f39df23948e525a1a53576d420992c3be2/device-management-interface-1.8.0.tar.gz
+[2023-06-19 10:20:26] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-19 10:20:26] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230619/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:20:27] INFO root fetch - processPackages [feincms3-cookiecontrol]: Downloading https://files.pythonhosted.org/packages/0f/f6/223cafb427ee597952de0f35a040ed87223a5d92fca9143e84b8f3bfcf12/feincms3_cookiecontrol-1.3.1.tar.gz
+[2023-06-19 10:20:27] INFO root fetch - processPackages [device-management-interface]: executing diffoscope
+[2023-06-19 10:20:27] INFO root fetch - processPackages [device-management-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/device-management-interface-1.7.0.tar.gz tmp/device-management-interface-1.8.0.tar.gz --markdown 20230619/d/device-management-interface/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-19 10:20:27] INFO root fetch - processPackages [feincms3-cookiecontrol]: executing diffoscope
+[2023-06-19 10:20:27] INFO root fetch - processPackages [feincms3-cookiecontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3_cookiecontrol-1.3.0.tar.gz tmp/feincms3_cookiecontrol-1.3.1.tar.gz --markdown 20230619/f/feincms3-cookiecontrol/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-19 10:20:28] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.1.tar.gz]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.2.tar.gz]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [ens-sdk]: Start processing: hyfi
+[2023-06-19 10:20:28] INFO root fetch - main [MainThread]: End processing [ens-sdk]: success
+[2023-06-19 10:20:28] INFO root fetch - processPackages [hyfi]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.1-py3-none-any.whl.zip]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [netspresso]: Start processing: nucleus-driver
+[2023-06-19 10:20:28] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-19 10:20:28] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/78/fd/17a1242525e7099451e02ae95b9750ce66bc4fe22bacd9242fd381117016/hyfi-0.8.0.tar.gz
+[2023-06-19 10:20:28] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-19 10:20:28] INFO root fetch - processPackages [crawler-commons]: Start processing: httpx-oauth
+[2023-06-19 10:20:28] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-19 10:20:28] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-19 10:20:29] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-19 10:20:29] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [httpx-oauth]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 10:20:29] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ba/ab/e5af235d7ca7ea7d893ccebc2d7973defba88408aca384a6e334c36132cc/hyfi-0.8.1.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/b5/16/4c6cd0d615276b6653cdcb8fd51e6abfcd8f1428a9a4b3e7135b440465b8/nucleus_driver-1.5.0.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-19 10:20:29] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.8.0.tar.gz tmp/hyfi-0.8.1.tar.gz --markdown 20230619/h/hyfi/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-19 10:20:29] INFO root fetch - processPackages [httpx-oauth]: Downloading https://files.pythonhosted.org/packages/e2/4d/6c12fd86fbe15a3e3b4d2c11a1836c26b105ff41bc50cebb435266e69552/httpx-oauth-0.9.0.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/a7/c5/4c922506702f70c0e88e4ee9375dc7e09ed63518033049a196e0e92a0b80/nucleus_driver-1.5.1.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-06-19 10:20:29] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.5.0.tar.gz tmp/nucleus_driver-1.5.1.tar.gz --markdown 20230619/n/nucleus-driver/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-19 10:20:29] INFO root fetch - processPackages [httpx-oauth]: Downloading https://files.pythonhosted.org/packages/9a/1d/3531ba1a5366ca27e28f3dba1c62b836796ff9f776f8936bc4b09d7ba1cf/httpx-oauth-0.9.1.tar.gz
+[2023-06-19 10:20:29] INFO root fetch - processPackages [httpx-oauth]: executing diffoscope
+[2023-06-19 10:20:29] INFO root fetch - processPackages [httpx-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx-oauth-0.9.0.tar.gz tmp/httpx-oauth-0.9.1.tar.gz --markdown 20230619/h/httpx-oauth/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 10:20:29] INFO root fetch - processPackages [feincms3-cookiecontrol]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_cookiecontrol-1.3.0.tar.gz]
+[2023-06-19 10:20:29] INFO root fetch - processPackages [feincms3-cookiecontrol]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_cookiecontrol-1.3.1.tar.gz]
+[2023-06-19 10:20:29] INFO root fetch - main [MainThread]: End processing [feincms3-cookiecontrol]: success
+[2023-06-19 10:20:30] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.2.9.tar.gz]
+[2023-06-19 10:20:30] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.0.tar.gz]
+[2023-06-19 10:20:30] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-06-19 10:20:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.99.tar.gz]
+[2023-06-19 10:20:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.0.tar.gz]
+[2023-06-19 10:20:30] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-19 10:20:30] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-06-19 10:20:30] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230619/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-19 10:20:31] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.0.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.1.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-19 10:20:31] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.0.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.1.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-06-19 10:20:31] INFO root fetch - processPackages [device-management-interface]: Remove: archive file [/home/abi/fetcher/tmp/device-management-interface-1.7.0.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - processPackages [device-management-interface]: Remove: archive file [/home/abi/fetcher/tmp/device-management-interface-1.8.0.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - main [MainThread]: End processing [device-management-interface]: success
+[2023-06-19 10:20:31] INFO root fetch - processPackages [httpx-oauth]: Remove: archive file [/home/abi/fetcher/tmp/httpx-oauth-0.9.0.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - processPackages [httpx-oauth]: Remove: archive file [/home/abi/fetcher/tmp/httpx-oauth-0.9.1.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - main [MainThread]: End processing [httpx-oauth]: success
+[2023-06-19 10:20:31] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.2.dev395.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.3.dev470.tar.gz]
+[2023-06-19 10:20:31] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-19 10:20:42] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2023-06-19 10:20:42] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2023-06-19 10:20:42] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-06-19 10:20:42] INFO root fetch - main [MainThread]: Store serial: [18557267]
