@@ -8362,3 +8362,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:25:20] INFO root fetch - processPackages [rgbt]: Remove: archive file [/home/abi/fetcher/tmp/rgbt-1.0.1.tar.gz]
 [2023-06-19 08:25:20] INFO root fetch - main [MainThread]: End processing [rgbt]: success
 [2023-06-19 08:25:20] INFO root fetch - main [MainThread]: Store serial: [18556236]
+[2023-06-19 08:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556236]
+[2023-06-19 08:30:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easifem
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydistcheck
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qbittorrent-api
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipywebcam
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyo-oracle
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HormuudEVCPlusMerchant
+[2023-06-19 08:30:29] INFO root fetch - processPackages [easifem]: New version: [23.6.0] Old Version: [23.4.0]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [aorta-sirius]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [pydistcheck]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-19 08:30:29] WARNING root fetch - processPackages [pyo-oracle]: Skipping, unable to determine old version
+[2023-06-19 08:30:29] INFO root fetch - processPackages [pyo-oracle]: Start processing: drf-directmessages
+[2023-06-19 08:30:29] INFO root fetch - main [MainThread]: End processing [pyo-oracle] error
+[2023-06-19 08:30:29] INFO root fetch - processPackages [ipywebcam]: New version: [0.1.9.dev0] Old Version: [0.1.8.dev0]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230619] Old Version: [20230618]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230619] Old Version: [1.6.1.dev20230618]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [qbittorrent-api]: New version: [6.0.0] Old Version: [2023.6.50]
+[2023-06-19 08:30:29] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-19 08:30:29] WARNING root fetch - processPackages [HormuudEVCPlusMerchant]: Skipping, unable to determine old version
+[2023-06-19 08:30:29] INFO root fetch - main [MainThread]: End processing [HormuudEVCPlusMerchant] error
+[2023-06-19 08:30:29] INFO root fetch - processPackages [pydistcheck]: Downloading https://files.pythonhosted.org/packages/7a/d6/f8fc22777d265dc6252d7cd5ea157dff653ca1a5017d1e2da791ad57611c/pydistcheck-0.4.0.tar.gz
+[2023-06-19 08:30:29] WARNING root fetch - processPackages [drf-directmessages]: Skipping, unable to determine old version
+[2023-06-19 08:30:29] INFO root fetch - main [MainThread]: End processing [drf-directmessages] error
+[2023-06-19 08:30:29] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-19 08:30:29] INFO root fetch - processPackages [easifem]: Downloading https://files.pythonhosted.org/packages/d3/21/3e6e13319197b3b75ee97fa5ec0687c823be9532b4361675957e5cdf9f8c/easifem-23.4.0.tar.gz
+[2023-06-19 08:30:29] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-06-19 08:30:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2f/6f/6e83652916e059ac5d4254bfd9c7cd8fdf8d37b2c2e3770435e6ec8b546f/fake-bpy-module-latest-20230618.tar.gz
+[2023-06-19 08:30:29] INFO root fetch - processPackages [qbittorrent-api]: Downloading https://files.pythonhosted.org/packages/ec/d6/f1ab9d9323dbd84a00e43d4da87c9a76dc877fadb9370dc203dee9800bd2/qbittorrent-api-2023.6.50.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/6d/5b/cec45461cc58d3a9341a10e2a2619438e170710877a4d015ebca096e2721/pretext-1.6.1.dev20230618.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [ipywebcam]: Downloading https://files.pythonhosted.org/packages/78/de/c2e660a7f81da702156aaad9e68c69437e5a21e0db1cc1bd1e8e9b02b095/ipywebcam-0.1.8.dev0.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [easifem]: Downloading https://files.pythonhosted.org/packages/26/10/5ada71643ddb6c21362e0585600a87e9ee446b200ccaba56d1cc81532938/easifem-23.6.0.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/f7/a9/1b1baa080588e189aafc95d9d8998b4232984f880217dba83e3f863c1286/aorta_sirius-0.9.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-19 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8f/e6/0ba43f8b57d442e28a7775e827e7b371638d56da785cc0cd68419f84a9ed/fake-bpy-module-latest-20230619.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qbittorrent-api]: Downloading https://files.pythonhosted.org/packages/36/02/332b4c5faf3f6ba012d81e95f3c6edee1a65892cd8e697f5424546c999ab/qbittorrent-api-6.0.0.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pydistcheck]: Downloading https://files.pythonhosted.org/packages/58/68/ded226153ab8b7e23f8b25211752f081580c15216f2cf32532b8341a70ff/pydistcheck-0.5.0.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [easifem]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [easifem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easifem-23.4.0.tar.gz tmp/easifem-23.6.0.tar.gz --markdown 20230619/e/easifem/23.4.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.8.tar.gz tmp/aorta_sirius-0.9.tar.gz --markdown 20230619/a/aorta-sirius/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230619/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ac/44/4327098ba951401aab7589faff3c3c86050a34c5dfd363e13cf7d4afdd1f/pretext-1.6.1.dev20230619.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230618.tar.gz tmp/fake-bpy-module-latest-20230619.tar.gz --markdown 20230619/f/fake-bpy-module-latest/20230618-20230619/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pydistcheck]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pydistcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydistcheck-0.4.0.tar.gz tmp/pydistcheck-0.5.0.tar.gz --markdown 20230619/p/pydistcheck/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qbittorrent-api]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [qbittorrent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbittorrent-api-2023.6.50.tar.gz tmp/qbittorrent-api-6.0.0.tar.gz --markdown 20230619/q/qbittorrent-api/2023.6.50-6.0.0/diff.md --exclude *.pyd
+[2023-06-19 08:30:30] INFO root fetch - processPackages [ipywebcam]: Downloading https://files.pythonhosted.org/packages/82/48/1c2508f3c81c067ceaa3bd04f53ac9f12de08d7282615fc763203863f3b5/ipywebcam-0.1.9.dev0.tar.gz
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-19 08:30:30] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230618.tar.gz tmp/pretext-1.6.1.dev20230619.tar.gz --markdown 20230619/p/pretext/1.6.1.dev20230618-1.6.1.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 08:30:31] INFO root fetch - processPackages [ipywebcam]: executing diffoscope
+[2023-06-19 08:30:31] INFO root fetch - processPackages [ipywebcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywebcam-0.1.8.dev0.tar.gz tmp/ipywebcam-0.1.9.dev0.tar.gz --markdown 20230619/i/ipywebcam/0.1.8.dev0-0.1.9.dev0/diff.md --exclude *.pyd
+[2023-06-19 08:30:31] INFO root fetch - processPackages [easifem]: Remove: archive file [/home/abi/fetcher/tmp/easifem-23.4.0.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - processPackages [easifem]: Remove: archive file [/home/abi/fetcher/tmp/easifem-23.6.0.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - main [MainThread]: End processing [easifem]: success
+[2023-06-19 08:30:31] INFO root fetch - processPackages [pydistcheck]: Remove: archive file [/home/abi/fetcher/tmp/pydistcheck-0.4.0.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - processPackages [pydistcheck]: Remove: archive file [/home/abi/fetcher/tmp/pydistcheck-0.5.0.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - main [MainThread]: End processing [pydistcheck]: success
+[2023-06-19 08:30:31] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.9.tar.gz]
+[2023-06-19 08:30:31] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-19 08:30:33] INFO root fetch - processPackages [qbittorrent-api]: Remove: archive file [/home/abi/fetcher/tmp/qbittorrent-api-2023.6.50.tar.gz]
+[2023-06-19 08:30:33] INFO root fetch - processPackages [qbittorrent-api]: Remove: archive file [/home/abi/fetcher/tmp/qbittorrent-api-6.0.0.tar.gz]
+[2023-06-19 08:30:33] INFO root fetch - main [MainThread]: End processing [qbittorrent-api]: success
+[2023-06-19 08:30:34] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230618.tar.gz]
+[2023-06-19 08:30:34] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230619.tar.gz]
+[2023-06-19 08:30:34] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-19 08:30:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-19 08:30:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-19 08:30:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-19 08:30:36] INFO root fetch - processPackages [ipywebcam]: Remove: archive file [/home/abi/fetcher/tmp/ipywebcam-0.1.8.dev0.tar.gz]
+[2023-06-19 08:30:36] INFO root fetch - processPackages [ipywebcam]: Remove: archive file [/home/abi/fetcher/tmp/ipywebcam-0.1.9.dev0.tar.gz]
+[2023-06-19 08:30:36] INFO root fetch - main [MainThread]: End processing [ipywebcam]: success
+[2023-06-19 08:30:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230618.tar.gz]
+[2023-06-19 08:30:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230619.tar.gz]
+[2023-06-19 08:30:36] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-19 08:30:36] INFO root fetch - main [MainThread]: Store serial: [18556275]
