@@ -14742,3 +14742,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:52:44] INFO root fetch - processPackages [nwon-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.5.5.tar.gz]
 [2023-06-19 12:52:44] INFO root fetch - main [MainThread]: End processing [nwon-django-toolbox]: success
 [2023-06-19 12:52:44] INFO root fetch - main [MainThread]: Store serial: [18558727]
+[2023-06-19 12:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558727]
+[2023-06-19 12:57:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discminer
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muheqa
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-standalone-docs
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sliceable-dict
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: popv
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spam-detector-ai
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shapes-recognition
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upload-manager
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: custolint
+[2023-06-19 12:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-audiocraft
+[2023-06-19 12:57:58] INFO root fetch - processPackages [sliceable-dict]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [spam-detector-ai]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [popv]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 12:57:58] WARNING root fetch - processPackages [fastapi-standalone-docs]: Skipping, unable to determine old version
+[2023-06-19 12:57:58] INFO root fetch - processPackages [upload-manager]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [muheqa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 12:57:58] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs] error
+[2023-06-19 12:57:58] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [custolint]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-06-19 12:57:58] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/f2/d7/2ffd0f41d9cbfaccf474ecc402ac6c8766a01c5588c894981054a0500e09/sliceable_dict-0.3.0.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [spam-detector-ai]: Downloading https://files.pythonhosted.org/packages/c5/df/d247f848472d3cf2a9b48b2a93fe4fbc67104ffece9fa7e2a5d9301b66f3/spam-detector-ai-1.0.2.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/fa/0b/d1565b4ff31fc78a98d583bc0849ade1e501527373b85791c62e62cc30e5/shapes_recognition-2.1.9.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [popv]: Downloading https://files.pythonhosted.org/packages/2b/76/4857c1db5ce15a3edc112c79582f07f7abc1cd66103434faaf76465f98d7/popv-0.3.1.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [upload-manager]: Downloading https://files.pythonhosted.org/packages/8d/f0/ab2ce9b292231272813e7f9c7a930c9e01fbc92a916f24841dd32423c57d/upload_manager-1.0.0.tar.gz
+[2023-06-19 12:57:58] WARNING root fetch - processPackages [spam-detector-ai]: Skipping package: exceeds size limit 11419354>=10485760
+[2023-06-19 12:57:58] INFO root fetch - main [MainThread]: End processing [spam-detector-ai] error
+[2023-06-19 12:57:58] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/f7/d7/6b355aac3bb7a9628e1c9c7296b7a58bfb966811326ae361650568ca6eb3/muheqa-0.0.8.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/ba/54/94e24457fbbed4e69941e5ad8558e823fea08c1ee64752fdd25e8b3b02ee/custolint-0.2.1-py3-none-any.whl
+[2023-06-19 12:57:58] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/f9/63/0f06daf5cdaa4fc79e9eb5b48346d0f6eceae24ecdc2215a49004cb0f19a/nonebot_plugin_audiocraft-0.0.4.tar.gz
+[2023-06-19 12:57:58] INFO root fetch - processPackages [sliceable-dict]: Downloading https://files.pythonhosted.org/packages/c8/4f/3dd2891ecc50f4cd6c7f3611fed7d69899809ee4d342b05c98292e168be0/sliceable_dict-0.4.0-4.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/1f/38/dcba9732534dcc7aae5d2d3ffcbefc01cba16aaa9f3b9dbb83891d2d58c4/nonebot_plugin_audiocraft-0.0.5.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [sliceable-dict]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [sliceable-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliceable_dict-0.3.0.tar.gz tmp/sliceable_dict-0.4.0-4.tar.gz --markdown 20230619/s/sliceable-dict/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [muheqa]: Downloading https://files.pythonhosted.org/packages/ea/63/f6689464be7d5ac58701c18b1c5b688c48dae6fe1bee7e50c181adee3bfb/muheqa-0.0.9.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/f6/2a/969640fe9103269b2c538df69d6892c1f8c5f569d1d50a654cf33ea5539a/shapes_recognition-2.2.0.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [popv]: Downloading https://files.pythonhosted.org/packages/84/f1/147a1aba6186f72496b63ce96ada21c28f16633dbb724bc205327a2c7d6f/popv-0.3.2.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [custolint]: Downloading https://files.pythonhosted.org/packages/61/0c/d3c758945a28774fe1a5310d0c305d77721ad278bc610e5553ec58204002/custolint-0.3.0-py3-none-any.whl
+[2023-06-19 12:57:59] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.1.9.tar.gz tmp/shapes_recognition-2.2.0.tar.gz --markdown 20230619/s/shapes-recognition/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [popv]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [popv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popv-0.3.1.tar.gz tmp/popv-0.3.2.tar.gz --markdown 20230619/p/popv/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_audiocraft-0.0.4.tar.gz tmp/nonebot_plugin_audiocraft-0.0.5.tar.gz --markdown 20230619/n/nonebot-plugin-audiocraft/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [muheqa]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [muheqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muheqa-0.0.8.tar.gz tmp/muheqa-0.0.9.tar.gz --markdown 20230619/m/muheqa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [upload-manager]: Downloading https://files.pythonhosted.org/packages/d7/38/ecb6252c2a085ce7cea53b99bfb9f7ce2ad0482c6bccc3b1b139f25260ce/upload_manager-1.1.0.tar.gz
+[2023-06-19 12:57:59] INFO root fetch - processPackages [custolint]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [custolint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custolint-0.2.1-py3-none-any.whl.zip tmp/custolint-0.3.0-py3-none-any.whl.zip --markdown 20230619/c/custolint/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] INFO root fetch - processPackages [upload-manager]: executing diffoscope
+[2023-06-19 12:57:59] INFO root fetch - processPackages [upload-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_manager-1.0.0.tar.gz tmp/upload_manager-1.1.0.tar.gz --markdown 20230619/u/upload-manager/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 12:57:59] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-06-19 12:57:59] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-06-19 12:58:00] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.9.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.0.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.4.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.5.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-audiocraft]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.2.1-py3-none-any.whl.zip]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [custolint]: Remove: archive file [/home/abi/fetcher/tmp/custolint-0.3.0-py3-none-any.whl.zip]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [custolint]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [upload-manager]: Remove: archive file [/home/abi/fetcher/tmp/upload_manager-1.0.0.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [upload-manager]: Remove: archive file [/home/abi/fetcher/tmp/upload_manager-1.1.0.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [upload-manager]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.3.0.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [sliceable-dict]: Remove: archive file [/home/abi/fetcher/tmp/sliceable_dict-0.4.0-4.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [sliceable-dict]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.8.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [muheqa]: Remove: archive file [/home/abi/fetcher/tmp/muheqa-0.0.9.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [muheqa]: success
+[2023-06-19 12:58:00] INFO root fetch - processPackages [popv]: Remove: archive file [/home/abi/fetcher/tmp/popv-0.3.1.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - processPackages [popv]: Remove: archive file [/home/abi/fetcher/tmp/popv-0.3.2.tar.gz]
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: End processing [popv]: success
+[2023-06-19 12:58:00] INFO root fetch - main [MainThread]: Store serial: [18558763]
