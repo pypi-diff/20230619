@@ -16919,3 +16919,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:27:29] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.1.1-py3-none-any.whl.zip]
 [2023-06-19 14:27:29] INFO root fetch - main [MainThread]: End processing [ipynao]: success
 [2023-06-19 14:27:29] INFO root fetch - main [MainThread]: Store serial: [18559505]
+[2023-06-19 14:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559505]
+[2023-06-19 14:32:39] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcfetch
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtuples
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coindicator
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WoW_Commodities
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcast-lstm
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcai-nova-server
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccf
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynocaptcha
+[2023-06-19 14:32:39] INFO root fetch - processPackages [coindicator]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [nowcast-lstm]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [tcfetch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ccf]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [xtuples]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [WoW_Commodities]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230619] Old Version: [2.4.0b20230618]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25497] Old Version: [6.1.5.dev25491]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/5e/68/a5a8a1c021d887f8c44471dd52b56108a0fea738a77b5dfac5e6ed7fa512/coindicator-2.1.8.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/93/13/8f94c3a7c472345272c9876ed5f81af2c87d246ec6b5a4e60510d7cf2d7b/xtuples-0.0.7.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/2c/c6/6616eeb0d65bb5f726faf03c39039ac611aafb56e914a8222291cfef3bed/pynocaptcha-1.5.7.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/72/03/34fbcae26887c256a420f7c1b5e7f14c45819d5d9fe2aee90e5da59fab87/ccf-4.0.1-py3-none-any.whl
+[2023-06-19 14:32:39] INFO root fetch - processPackages [WoW_Commodities]: Downloading https://files.pythonhosted.org/packages/db/4c/01c04512ed0b0197a1466fcc259a9115cc9e6613630c32675f140de6a1d4/wow_commodities-1.0.0.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/41/e7/88c9ee328c9b7058af2bccb07742ff63eb94c157f8aa8043f8e77de83d19/hcai-nova-server-0.1.8.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [tcfetch]: Downloading https://files.pythonhosted.org/packages/03/68/19580a20bf3fb21043ddb287d95653ffb448af641ade260b221354d3fb3d/tcfetch-0.3.1.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/69/da/08c822573169437c1bb65cecb53997f4ae8afc919272460b282031aea298/nowcast_lstm-0.2.3.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/1b/9f/af2bf06f672b55e86d3b07ee86ccb22a9eabc73f13e2acb282310b2b4fdb/coindicator-2.1.9.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/c9/08/863fb0ab733ffe73d73acc78d8c669c246840d9b5b1ca77b8b33608cbe84/pynocaptcha-1.5.8.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/93/29/85204e869e7eee315609b24090445c5a77235191e3615ee9772f1a1b75ed/bigdl-dllib-2.4.0b20230618.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [xtuples]: Downloading https://files.pythonhosted.org/packages/3d/2f/e9b7b367d5f4ec93ea6478b37af04daa3005d816fc0f4d3a9cd45dff96d4/xtuples-0.0.8.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/e9/46/8c0335ab1eeada744e3e62f4247f4588125ad262ba52f2755d2abc106133/udata-6.1.5.dev25491-py2.py3-none-any.whl
+[2023-06-19 14:32:39] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.1.8.tar.gz tmp/coindicator-2.1.9.tar.gz --markdown 20230619/c/coindicator/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] INFO root fetch - processPackages [WoW_Commodities]: Downloading https://files.pythonhosted.org/packages/2f/f1/ff975af3ad43d6bd389609bfc0bd99e6f6a64f2c1ff61d23c7f2cb30d7dc/wow_commodities-1.0.1.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.7.tar.gz tmp/pynocaptcha-1.5.8.tar.gz --markdown 20230619/p/pynocaptcha/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] INFO root fetch - processPackages [tcfetch]: Downloading https://files.pythonhosted.org/packages/5f/a6/54882c0d9db257494cf96b2b73037cc3466ddeb09da8e8986d0f89b7bcfe/tcfetch-0.3.2.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [xtuples]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [xtuples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuples-0.0.7.tar.gz tmp/xtuples-0.0.8.tar.gz --markdown 20230619/x/xtuples/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638606>=10485760
+[2023-06-19 14:32:39] INFO root fetch - processPackages [bigdl-dllib]: Start processing: udata
+[2023-06-19 14:32:39] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/83/e3/274804c539307e002ff18434e8e7c3af17c58a6ad41d19db6e116e5555e8/ccf-4.0.2-py3-none-any.whl
+[2023-06-19 14:32:39] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25497] Old Version: [6.1.5.dev25491]
+[2023-06-19 14:32:39] INFO root fetch - processPackages [WoW_Commodities]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [WoW_Commodities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_commodities-1.0.0.tar.gz tmp/wow_commodities-1.0.1.tar.gz --markdown 20230619/W/WoW_Commodities/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/f2/15/6f1137a2294b11c9cac9e2f1c5e80c38876f24591c7f0323ec9c49543613/hcai-nova-server-0.1.9.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/79/7f/e13c35b4e11d690da39b6af8ea432f9d54922cd3158b15f99417b065cb35/nowcast_lstm-0.2.4.tar.gz
+[2023-06-19 14:32:39] INFO root fetch - processPackages [tcfetch]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [tcfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcfetch-0.3.1.tar.gz tmp/tcfetch-0.3.2.tar.gz --markdown 20230619/t/tcfetch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/e9/46/8c0335ab1eeada744e3e62f4247f4588125ad262ba52f2755d2abc106133/udata-6.1.5.dev25491-py2.py3-none-any.whl
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-4.0.1-py3-none-any.whl.zip tmp/ccf-4.0.2-py3-none-any.whl.zip --markdown 20230619/c/ccf/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-19 14:32:39] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-19 14:32:39] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.8.tar.gz tmp/hcai-nova-server-0.1.9.tar.gz --markdown 20230619/h/hcai-nova-server/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 14:32:40] INFO root fetch - processPackages [nowcast-lstm]: executing diffoscope
+[2023-06-19 14:32:40] INFO root fetch - processPackages [nowcast-lstm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcast_lstm-0.2.3.tar.gz tmp/nowcast_lstm-0.2.4.tar.gz --markdown 20230619/n/nowcast-lstm/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-19 14:32:40] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19607471>=10485760
+[2023-06-19 14:32:40] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19607471>=10485760
+[2023-06-19 14:32:40] INFO root fetch - processPackages [udata]: Start processing: desktoppython
+[2023-06-19 14:32:40] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-06-19 14:32:40] INFO root fetch - processPackages [udata]: Start processing: hotpot-zzy
+[2023-06-19 14:32:40] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-06-19 14:32:40] WARNING root fetch - processPackages [desktoppython]: Skipping, unable to determine old version
+[2023-06-19 14:32:40] INFO root fetch - processPackages [desktoppython]: Start processing: circular-dict
+[2023-06-19 14:32:40] INFO root fetch - main [MainThread]: End processing [desktoppython] error
+[2023-06-19 14:32:40] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.2.6] Old Version: [0.2.3]
+[2023-06-19 14:32:40] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/e1/ba/eae2365828949e58c6ec804d8aa896d43dc965ad71b3a366bae6461721dd/hotpot-zzy-0.2.3.tar.gz
+[2023-06-19 14:32:40] WARNING root fetch - processPackages [circular-dict]: Skipping, unable to determine old version
+[2023-06-19 14:32:40] INFO root fetch - processPackages [circular-dict]: Start processing: netbox-cisco-maintenance
+[2023-06-19 14:32:40] INFO root fetch - main [MainThread]: End processing [circular-dict] error
+[2023-06-19 14:32:40] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/5f/43/89a2ef843d9e60e6ee7694061e91ba546c9dbcf8792be6b1bedcf3eccd0e/hotpot-zzy-0.2.6.tar.gz
+[2023-06-19 14:32:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 14:32:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 14:32:40] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-06-19 14:32:40] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.2.3.tar.gz tmp/hotpot-zzy-0.2.6.tar.gz --markdown 20230619/h/hotpot-zzy/0.2.3-0.2.6/diff.md --exclude *.pyd
+[2023-06-19 14:32:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 14:32:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 14:32:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 14:32:41] INFO root fetch - processPackages [WoW_Commodities]: Remove: archive file [/home/abi/fetcher/tmp/wow_commodities-1.0.0.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [WoW_Commodities]: Remove: archive file [/home/abi/fetcher/tmp/wow_commodities-1.0.1.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [WoW_Commodities]: Start processing: hcai-nova-server-nightly
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [WoW_Commodities]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-4.0.1-py3-none-any.whl.zip]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-4.0.2-py3-none-any.whl.zip]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.8.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.9.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-19 14:32:41] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.3.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.4.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [nowcast-lstm]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.7.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.8.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [tcfetch]: Remove: archive file [/home/abi/fetcher/tmp/tcfetch-0.3.1.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [tcfetch]: Remove: archive file [/home/abi/fetcher/tmp/tcfetch-0.3.2.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [tcfetch]: success
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-19 14:32:41] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230619/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-19 14:32:41] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.7.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - processPackages [xtuples]: Remove: archive file [/home/abi/fetcher/tmp/xtuples-0.0.8.tar.gz]
+[2023-06-19 14:32:41] INFO root fetch - main [MainThread]: End processing [xtuples]: success
+[2023-06-19 14:32:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 14:32:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-19 14:32:42] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.8.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.9.tar.gz]
+[2023-06-19 14:32:42] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-19 14:32:44] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.3.tar.gz]
+[2023-06-19 14:32:44] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.6.tar.gz]
+[2023-06-19 14:32:44] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-06-19 14:32:44] INFO root fetch - main [MainThread]: Store serial: [18559601]
