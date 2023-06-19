@@ -4037,3 +4037,76 @@
 [2023-06-19 02:59:27] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-19 02:59:27] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-19 02:59:27] INFO root fetch - main [MainThread]: Store serial: [18554572]
+[2023-06-19 03:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554572]
+[2023-06-19 03:04:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymino
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sns-notify
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: norgatedata
+[2023-06-19 03:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pp-project-pkg
+[2023-06-19 03:04:35] INFO root fetch - processPackages [yplib]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-19 03:04:35] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306182221] Old Version: [1.0.202306182156]
+[2023-06-19 03:04:35] INFO root fetch - processPackages [pymino]: New version: [1.2.1.2] Old Version: [1.2.1.1]
+[2023-06-19 03:04:35] INFO root fetch - processPackages [yplib]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-19 03:04:35] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:04:36] INFO root fetch - processPackages [norgatedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/e4/98/5e7936facdf873ecc75db0b1adc974596ef4dccee38908be90b8a537b51a/pymino-1.2.1.1.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/0a/d0/a1131e9c1d1435114907c7fa4dfa9c2624f415fd9a9a414239f5d5631547/pp_project_pkg-1.0.202306182156-py3-none-any.whl
+[2023-06-19 03:04:36] INFO root fetch - processPackages [norgatedata]: Downloading https://files.pythonhosted.org/packages/85/d9/cdaf3095003dca94826cd608d7cfe2ede94aa8a7b8861a2dfb29b7ee0092/norgatedata-1.0.8-py3-none-any.whl
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e3/c7/70dbb23fa48c32ff6c637a327a5f4d9ccaec1ee5f391d905690edda2e453/yplib-1.6.1.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e3/c7/70dbb23fa48c32ff6c637a327a5f4d9ccaec1ee5f391d905690edda2e453/yplib-1.6.1.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/4c/ad/068214fc8f17ba5e6f1ee5a5e3147bc1128eefeceb11e9d348332ae2ce42/pymino-1.2.1.2.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.1.tar.gz tmp/pymino-1.2.1.2.tar.gz --markdown 20230619/p/pymino/1.2.1.1-1.2.1.2/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/c9/b8/5045787e4c23e954bc7e5d54b3a482f15248f1059ef3844f76ea70a37714/pp_project_pkg-1.0.202306182221-py3-none-any.whl
+[2023-06-19 03:04:36] INFO root fetch - processPackages [norgatedata]: Downloading https://files.pythonhosted.org/packages/1b/f9/7a0ccd9bed4b68ec2d0c068cc052137ec2244dfe4c6a6e9ad8bf7a9d6ce6/norgatedata-1.0.9-py3-none-any.whl
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f7/e3/6eb3c5978b870680e598bf9573611ee9b55f59e7d8ebb3e646a5ed977421/yplib-1.6.2.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f7/e3/6eb3c5978b870680e598bf9573611ee9b55f59e7d8ebb3e646a5ed977421/yplib-1.6.2.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.1.tar.gz tmp/yplib-1.6.2.tar.gz --markdown 20230619/y/yplib/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.1.tar.gz tmp/yplib-1.6.2.tar.gz --markdown 20230619/y/yplib/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230619/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306182221-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306182156-1.0.202306182221/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [norgatedata]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [norgatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/norgatedata-1.0.8-py3-none-any.whl.zip tmp/norgatedata-1.0.9-py3-none-any.whl.zip --markdown 20230619/n/norgatedata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 03:04:36] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-19 03:04:36] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-19 03:04:36] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230619/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-19 03:04:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-19 03:04:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.1.tar.gz]
+[2023-06-19 03:04:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.2.tar.gz]
+[2023-06-19 03:04:37] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 03:04:37] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip]
+[2023-06-19 03:04:37] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182221-py3-none-any.whl.zip]
+[2023-06-19 03:04:37] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 03:04:37] INFO root fetch - processPackages [norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/norgatedata-1.0.8-py3-none-any.whl.zip]
+[2023-06-19 03:04:37] INFO root fetch - processPackages [norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/norgatedata-1.0.9-py3-none-any.whl.zip]
+[2023-06-19 03:04:37] INFO root fetch - main [MainThread]: End processing [norgatedata]: success
+[2023-06-19 03:04:37] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-19 03:04:37] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-19 03:04:37] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-19 03:04:37] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-19 03:04:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-19 03:04:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230619/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:04:39] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-19 03:04:39] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-19 03:04:39] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-19 03:04:39] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.1.tar.gz]
+[2023-06-19 03:04:39] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.2.tar.gz]
+[2023-06-19 03:04:39] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-19 03:04:57] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-19 03:04:57] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-19 03:04:57] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-19 03:04:57] INFO root fetch - main [MainThread]: Store serial: [18554608]
