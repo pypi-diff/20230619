@@ -4322,3 +4322,74 @@
 [2023-06-19 03:15:33] INFO root fetch - processPackages [sarabande]: Remove: archive file [/home/abi/fetcher/tmp/sarabande-1.0.0.tar.gz]
 [2023-06-19 03:15:33] INFO root fetch - main [MainThread]: End processing [sarabande]: success
 [2023-06-19 03:15:33] INFO root fetch - main [MainThread]: Store serial: [18554677]
+[2023-06-19 03:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554677]
+[2023-06-19 03:20:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datawise
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moped
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astropy-iers-data
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minidevice
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pp-project-pkg
+[2023-06-19 03:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastdup
+[2023-06-19 03:20:42] INFO root fetch - processPackages [datawise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2023.6.19.1.16.11] Old Version: [0.2023.6.15.21.10.12]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306190108] Old Version: [1.0.202306190104]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [minidevice]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-19 03:20:42] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/ba/7d/8c24ab1a5bafcec386be65efb6b084c0ec58260c0f6fe95329b7cd1645f3/pp_project_pkg-1.0.202306190104-py3-none-any.whl
+[2023-06-19 03:20:43] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/58/6b/3212b8a9c2d9fb502740e7e15eda8406fff05078f81cc7edc4ccae001210/minidevice-2.0.6.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-19 03:20:43] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-19 03:20:43] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-19 03:20:43] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/89/ba/5035aaad192d476609a8121578c2940d53c0e44292c98a031d8b5cbd3803/pp_project_pkg-1.0.202306190108-py3-none-any.whl
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-19 03:20:43] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306190104-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306190108-py3-none-any.whl.zip --markdown 20230619/p/pp-project-pkg/1.0.202306190104-1.0.202306190108/diff.md --exclude *.pyd
+[2023-06-19 03:20:43] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/34/c7/f57b7c4af1d1ab16fa4d4f4a71dcb948e910459bf30a18482f7fc41e212c/astropy-iers-data-0.2023.6.15.21.10.12.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/08/37/4a7dd1e7f33fd85b605040df5f885a1d3b85e0183d15ce10cd2a395013b0/datawise-0.0.9.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230619/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:20:43] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-19 03:20:43] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.8.tar.gz tmp/datawise-0.0.9.tar.gz --markdown 20230619/d/datawise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 03:20:43] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/e1/3b/bbf55f723b9763f2e20779e764e0fe9759f6309f951cab54d6a3fc185b58/minidevice-2.0.7.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-19 03:20:43] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.6.tar.gz tmp/minidevice-2.0.7.tar.gz --markdown 20230619/m/minidevice/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-19 03:20:43] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/f2/f4/0c53ce0319a4ab6e018404771c5f76bd4cec3bf8abe47aa1f0ea657de6ec/astropy-iers-data-0.2023.6.19.1.16.11.tar.gz
+[2023-06-19 03:20:43] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2023-06-19 03:20:43] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy-iers-data-0.2023.6.15.21.10.12.tar.gz tmp/astropy-iers-data-0.2023.6.19.1.16.11.tar.gz --markdown 20230619/a/astropy-iers-data/0.2023.6.15.21.10.12-0.2023.6.19.1.16.11/diff.md --exclude *.pyd
+[2023-06-19 03:20:44] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-19 03:20:44] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230619/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-19 03:20:44] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-06-19 03:20:44] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230619/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-06-19 03:20:44] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306190104-py3-none-any.whl.zip]
+[2023-06-19 03:20:44] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306190108-py3-none-any.whl.zip]
+[2023-06-19 03:20:44] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-19 03:20:44] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-19 03:20:44] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-19 03:20:44] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-19 03:20:44] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-19 03:20:44] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.9.tar.gz]
+[2023-06-19 03:20:44] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-19 03:20:45] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.6.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.7.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-19 03:20:45] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-06-19 03:20:45] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-19 03:20:45] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-19 03:20:47] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.6.15.21.10.12.tar.gz]
+[2023-06-19 03:20:47] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2023.6.19.1.16.11.tar.gz]
+[2023-06-19 03:20:47] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2023-06-19 03:20:47] INFO root fetch - main [MainThread]: Store serial: [18554703]
