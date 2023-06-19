@@ -14441,3 +14441,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:36:11] INFO root fetch - processPackages [rp2]: Remove: archive file [/home/abi/fetcher/tmp/rp2-1.5.0.tar.gz]
 [2023-06-19 12:36:11] INFO root fetch - main [MainThread]: End processing [rp2]: success
 [2023-06-19 12:36:11] INFO root fetch - main [MainThread]: Store serial: [18558604]
+[2023-06-19 12:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558604]
+[2023-06-19 12:41:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailingbot
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: me-setups
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: charsi
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teneva
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipyfilite
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svneverever
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defog
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrestack
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bitbake-language-server
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-19 12:41:21] INFO root fetch - processPackages [me-setups]: New version: [1.9.0] Old Version: [1.8.5]
+[2023-06-19 12:41:21] WARNING root fetch - processPackages [bitbake-language-server]: Skipping, unable to determine old version
+[2023-06-19 12:41:21] INFO root fetch - main [MainThread]: End processing [bitbake-language-server] error
+[2023-06-19 12:41:21] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 12:41:21] WARNING root fetch - processPackages [charsi]: Skipping, unable to determine old version
+[2023-06-19 12:41:21] INFO root fetch - main [MainThread]: End processing [charsi] error
+[2023-06-19 12:41:21] WARNING root fetch - processPackages [ailingbot]: Skipping, unable to determine old version
+[2023-06-19 12:41:21] INFO root fetch - main [MainThread]: End processing [ailingbot] error
+[2023-06-19 12:41:21] INFO root fetch - processPackages [teneva]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 12:41:21] INFO root fetch - processPackages [svneverever]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-19 12:41:21] INFO root fetch - processPackages [pyrestack]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-19 12:41:21] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 12:41:21] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/8a/0e/62f3c02471d6232bd1853ed3ad26f93d95c960e5546125b0f39c3995fb99/pyrestack-0.0.27-py3-none-any.whl
+[2023-06-19 12:41:21] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/9c/e3/65e437c499fbef3e6c7abb96ee30f8a6e40d2786d94347d71dd7c5205e23/me_setups-1.8.5.tar.gz
+[2023-06-19 12:41:21] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/b1/88/3b000cd4a56c24967885e089759a1ee17eb89e5227fe3308583f4da5821d/teneva-0.9.8.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [svneverever]: Downloading https://files.pythonhosted.org/packages/fd/08/64707ee02ae507f43b66c0242891f8ead7ca3007ddbebdfa622349689446/svneverever-1.7.1.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-19 12:41:22] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/72/80/e244c1c9c4d523ce0449f7cb05c4198b76ed4210fd2774c217fe90b128f3/me_setups-1.9.0.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.8.5.tar.gz tmp/me_setups-1.9.0.tar.gz --markdown 20230619/m/me-setups/1.8.5-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/e0/72/99727e1d4762017738deaeef5e5d12cd13fb86918bb01887c4f7a9df6be9/pyrestack-0.0.28-py3-none-any.whl
+[2023-06-19 12:41:22] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [pyrestack]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [pyrestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestack-0.0.27-py3-none-any.whl.zip tmp/pyrestack-0.0.28-py3-none-any.whl.zip --markdown 20230619/p/pyrestack/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230619/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [svneverever]: Downloading https://files.pythonhosted.org/packages/ad/87/a6d0a321aa383081d22916431e63880f4dc1f260c65f9019ce3f701e2a70/svneverever-1.7.2.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [svneverever]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [svneverever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svneverever-1.7.1.tar.gz tmp/svneverever-1.7.2.tar.gz --markdown 20230619/s/svneverever/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230619/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [teneva]: Downloading https://files.pythonhosted.org/packages/c7/6d/123ed8c74595fe37b18c943aace6fe0d4f69177a8727d0628081538a13e2/teneva-0.9.9.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-19 12:41:22] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230619/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-19 12:41:22] INFO root fetch - processPackages [teneva]: executing diffoscope
+[2023-06-19 12:41:22] INFO root fetch - processPackages [teneva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva-0.9.8.tar.gz tmp/teneva-0.9.9.tar.gz --markdown 20230619/t/teneva/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 12:41:23] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-06-19 12:41:23] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-06-19 12:41:23] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-19 12:41:23] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.27-py3-none-any.whl.zip]
+[2023-06-19 12:41:23] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.28-py3-none-any.whl.zip]
+[2023-06-19 12:41:23] INFO root fetch - main [MainThread]: End processing [pyrestack]: success
+[2023-06-19 12:41:24] INFO root fetch - processPackages [svneverever]: Remove: archive file [/home/abi/fetcher/tmp/svneverever-1.7.1.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - processPackages [svneverever]: Remove: archive file [/home/abi/fetcher/tmp/svneverever-1.7.2.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - main [MainThread]: End processing [svneverever]: success
+[2023-06-19 12:41:24] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.8.5.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - processPackages [me-setups]: Remove: archive file [/home/abi/fetcher/tmp/me_setups-1.9.0.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-06-19 12:41:24] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-19 12:41:24] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-19 12:41:25] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-19 12:41:25] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-19 12:41:25] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-19 12:41:27] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.8.tar.gz]
+[2023-06-19 12:41:27] INFO root fetch - processPackages [teneva]: Remove: archive file [/home/abi/fetcher/tmp/teneva-0.9.9.tar.gz]
+[2023-06-19 12:41:27] INFO root fetch - main [MainThread]: End processing [teneva]: success
+[2023-06-19 12:41:27] INFO root fetch - main [MainThread]: Store serial: [18558635]
