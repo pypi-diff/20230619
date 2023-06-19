@@ -17042,3 +17042,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:32:44] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.6.tar.gz]
 [2023-06-19 14:32:44] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
 [2023-06-19 14:32:44] INFO root fetch - main [MainThread]: Store serial: [18559601]
+[2023-06-19 14:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559601]
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sarus-data-spec-public
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bip39toolkit
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webuipy
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: locuaz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client-v2
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medium-multiply23
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omars-analysis
+[2023-06-19 14:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-19 14:37:55] INFO root fetch - processPackages [locuaz]: New version: [0.4.1] Old Version: [0.3.9]
+[2023-06-19 14:37:55] WARNING root fetch - processPackages [bip39toolkit]: Skipping, unable to determine old version
+[2023-06-19 14:37:55] INFO root fetch - processPackages [bip39toolkit]: Start processing: spacy-setfit
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: End processing [bip39toolkit] error
+[2023-06-19 14:37:55] WARNING root fetch - processPackages [webuipy]: Skipping, unable to determine old version
+[2023-06-19 14:37:55] INFO root fetch - processPackages [webuipy]: Start processing: projen
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: End processing [webuipy] error
+[2023-06-19 14:37:55] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.466.0]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.5.5] Old Version: [3.5.1]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.466.0] Old Version: [0.465.0]
+[2023-06-19 14:37:55] WARNING root fetch - processPackages [medium-multiply23]: Skipping, unable to determine old version
+[2023-06-19 14:37:55] INFO root fetch - processPackages [medium-multiply23]: Start processing: pinit
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: End processing [medium-multiply23] error
+[2023-06-19 14:37:55] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [spacy-setfit]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/15/45/fdfa35dcb4741377c3faf085ba68de1644c130a5625c2d516c74c5de0e86/spacy-setfit-0.1.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [omars-analysis]: New version: [2.0.0] Old Version: [1.0.8]
+[2023-06-19 14:37:55] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-19 14:37:55] INFO root fetch - processPackages [vollseg]: Start processing: hdn-research-environment
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-19 14:37:55] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/18/ee/e27f850bc18fc22747c0232b5bacff9a47c0d9f42834603c954dbed859f0/stigg_api_client-0.466.0.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [pinit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 14:37:55] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/4d/3e/c4391965874b361d93ac3679a9d742dd53365c5b6105f1bb2d5d8704b909/locuaz-0.3.9.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/e2/b5/6ce01ed71d0e58b929262a8b66d1e33ccd8fb0012017118d18fb4f49e5f0/hdn-research-environment-2.1.7.tar.gz
+[2023-06-19 14:37:55] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 35161143>=10485760
+[2023-06-19 14:37:55] INFO root fetch - processPackages [locuaz]: Start processing: WoW_Commodities
+[2023-06-19 14:37:55] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-06-19 14:37:55] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/48/be/2476617645d4710cc67b3353a29371685952d9f73332011c1ca96f28dff8/sarus_data_spec_public-3.5.1.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/4c/34/7341922d413149f4ea076ec6a6d2e8023a16473fccfb433682724d8cff73/stigg_api_client_v2-0.465.0.tar.gz
+[2023-06-19 14:37:55] INFO root fetch - processPackages [WoW_Commodities]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 14:37:56] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/64/36/a71a2127a5222651e5a9562e944cf9a3c4161a771788e53568f996c48bd4/spacy-setfit-0.1.1.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [WoW_Commodities]: Downloading https://files.pythonhosted.org/packages/db/4c/01c04512ed0b0197a1466fcc259a9115cc9e6613630c32675f140de6a1d4/wow_commodities-1.0.0.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [omars-analysis]: Downloading https://files.pythonhosted.org/packages/76/28/8914dce831727bc3c2920d78013bd1f337422c18965ce0ef0a7df09d4c33/omars_analysis-1.0.8.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/77/49/bdfa19e8f66c9b3873783236791e9197126f54e346bf69ea8177b758e148/hdn-research-environment-2.1.8.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/e4/88/b0f4d8eca1b4e01f80ba7f6df7927cdc7f6adc060ca2d062849440fdca22/pinit-0.0.8.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [spacy-setfit]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [spacy-setfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-setfit-0.1.tar.gz tmp/spacy-setfit-0.1.1.tar.gz --markdown 20230619/s/spacy-setfit/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-19 14:37:56] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.1.7.tar.gz tmp/hdn-research-environment-2.1.8.tar.gz --markdown 20230619/h/hdn-research-environment/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [WoW_Commodities]: Downloading https://files.pythonhosted.org/packages/2f/f1/ff975af3ad43d6bd389609bfc0bd99e6f6a64f2c1ff61d23c7f2cb30d7dc/wow_commodities-1.0.1.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [WoW_Commodities]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [WoW_Commodities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_commodities-1.0.0.tar.gz tmp/wow_commodities-1.0.1.tar.gz --markdown 20230619/W/WoW_Commodities/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/ca/3a/f4285fab56c7bcb2d35564127588a2dfb70ac4f6e38984aa2046041e2758/stigg_api_client_v2-0.466.0.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.465.0.tar.gz tmp/stigg_api_client_v2-0.466.0.tar.gz --markdown 20230619/s/stigg-api-client-v2/0.465.0-0.466.0/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [omars-analysis]: Downloading https://files.pythonhosted.org/packages/45/f8/d33cbf9418cb96a614fbd0a9b097daae8e61f36fb9883b4d59ac488331a6/omars_analysis-2.0.0.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/13/18/b4b8d73a5e834d8a75a9f948856ecfefc6685549e8f0542c6ce73b249ba7/sarus_data_spec_public-3.5.5.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [pinit]: Downloading https://files.pythonhosted.org/packages/18/f1/0c8ade257408b206e2f4ae5b0b1d19b03d5c11655efeb2ef2f6a4635010a/pinit-0.0.9.tar.gz
+[2023-06-19 14:37:56] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230619/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.5.1.tar.gz tmp/sarus_data_spec_public-3.5.5.tar.gz --markdown 20230619/s/sarus-data-spec-public/3.5.1-3.5.5/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [omars-analysis]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [omars-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omars_analysis-1.0.8.tar.gz tmp/omars_analysis-2.0.0.tar.gz --markdown 20230619/o/omars-analysis/1.0.8-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [pinit]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [pinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinit-0.0.8.tar.gz tmp/pinit-0.0.9.tar.gz --markdown 20230619/p/pinit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-19 14:37:56] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.466.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230619/s/stigg-api-client/0.466.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 14:37:57] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-19 14:37:57] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy-setfit-0.1.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy-setfit-0.1.1.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [spacy-setfit]: Start processing: aiogram3b8-calendar
+[2023-06-19 14:37:57] INFO root fetch - main [MainThread]: End processing [spacy-setfit]: success
+[2023-06-19 14:37:57] INFO root fetch - processPackages [WoW_Commodities]: Remove: archive file [/home/abi/fetcher/tmp/wow_commodities-1.0.0.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [WoW_Commodities]: Remove: archive file [/home/abi/fetcher/tmp/wow_commodities-1.0.1.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [WoW_Commodities]: Start processing: oking
+[2023-06-19 14:37:57] INFO root fetch - main [MainThread]: End processing [WoW_Commodities]: success
+[2023-06-19 14:37:57] WARNING root fetch - processPackages [aiogram3b8-calendar]: Skipping, unable to determine old version
+[2023-06-19 14:37:57] INFO root fetch - processPackages [aiogram3b8-calendar]: Start processing: conllu
+[2023-06-19 14:37:57] INFO root fetch - main [MainThread]: End processing [aiogram3b8-calendar] error
+[2023-06-19 14:37:57] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [conllu]: New version: [4.5.3] Old Version: [4.5.2]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [omars-analysis]: Remove: archive file [/home/abi/fetcher/tmp/omars_analysis-1.0.8.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - processPackages [omars-analysis]: Remove: archive file [/home/abi/fetcher/tmp/omars_analysis-2.0.0.tar.gz]
+[2023-06-19 14:37:57] INFO root fetch - main [MainThread]: End processing [omars-analysis]: success
+[2023-06-19 14:37:57] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-19 14:37:57] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230619/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-19 14:37:58] INFO root fetch - processPackages [conllu]: Downloading https://files.pythonhosted.org/packages/50/06/a12965b1c17b868b614b4c09491842d269c30029b956179aa31a9c5f5235/conllu-4.5.2.tar.gz
+[2023-06-19 14:37:58] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-19 14:37:58] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-06-19 14:37:58] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.466.0.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-19 14:37:58] INFO root fetch - processPackages [conllu]: Downloading https://files.pythonhosted.org/packages/7b/48/3e539bb27777d2204381e6bd352225d02965acce6e5a8d0717e9750dcc77/conllu-4.5.3.tar.gz
+[2023-06-19 14:37:58] INFO root fetch - processPackages [conllu]: executing diffoscope
+[2023-06-19 14:37:58] INFO root fetch - processPackages [conllu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conllu-4.5.2.tar.gz tmp/conllu-4.5.3.tar.gz --markdown 20230619/c/conllu/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2023-06-19 14:37:58] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.7.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.8.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-19 14:37:58] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.465.0.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.466.0.tar.gz]
+[2023-06-19 14:37:58] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-19 14:37:58] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-06-19 14:37:58] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-19 14:37:59] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.5.1.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.5.5.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-06-19 14:37:59] INFO root fetch - processPackages [conllu]: Remove: archive file [/home/abi/fetcher/tmp/conllu-4.5.2.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - processPackages [conllu]: Remove: archive file [/home/abi/fetcher/tmp/conllu-4.5.3.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - main [MainThread]: End processing [conllu]: success
+[2023-06-19 14:37:59] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-19 14:37:59] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-19 14:38:00] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.8.tar.gz]
+[2023-06-19 14:38:00] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.9.tar.gz]
+[2023-06-19 14:38:00] INFO root fetch - main [MainThread]: End processing [pinit]: success
+[2023-06-19 14:38:00] INFO root fetch - main [MainThread]: Store serial: [18559667]
