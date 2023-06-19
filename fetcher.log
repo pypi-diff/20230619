@@ -4488,3 +4488,87 @@
 [2023-06-19 03:26:01] INFO root fetch - processPackages [cyberx]: Remove: archive file [/home/abi/fetcher/tmp/cyberx-0.2.2-cp39-cp39-win_amd64.whl.zip]
 [2023-06-19 03:26:01] INFO root fetch - main [MainThread]: End processing [cyberx]: success
 [2023-06-19 03:26:01] INFO root fetch - main [MainThread]: Store serial: [18554759]
+[2023-06-19 03:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554759]
+[2023-06-19 03:31:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picogo
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airsupply
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Albumize
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: img2tags
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-skill-hello-world
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scotthsieh-projen-statemachine
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gtempco2
+[2023-06-19 03:31:11] INFO root fetch - processPackages [picogo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [airsupply]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [Albumize]: New version: [1.2] Old Version: [1.1]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ovos-skill-hello-world]: New version: [0.0.4a3] Old Version: [0.0.4a2]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [img2tags]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [airsupply]: Downloading https://files.pythonhosted.org/packages/fb/33/e13a3a5938dd31c9f2f781b54db3d17f8e53083d0562840806d2b4d7323d/airsupply-0.4.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/3e/dc/6336d73bddc2bcce127e9a0370b9ff60f9649b4414e2431cd39075be254e/Albumize-1.1.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [gtempco2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 03:31:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/5f/54/3a750a14ff1bb849869c0b5139c8d4bc5bdcc86d9e6f1ed81e60ba510885/img2tags-1.1.0.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/31/7f/576a895f5b357b25b62fafeb7df71272998d134d4fe2902bee456a449c59/picogo-0.0.1.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [ovos-skill-hello-world]: Downloading https://files.pythonhosted.org/packages/c3/57/691d13fd6ef5d321f476b4f8006eb1ffeb31c01640fe82e9302d9bf6b7e9/ovos_skill_hello_world-0.0.4a2-py3-none-any.whl
+[2023-06-19 03:31:11] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/f7/6e/ca2ac24612888b5138f1fab513f07cf9cc4a59a87a7e7e7c02e35e2cf307/gtempco2-0.0.3.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [airsupply]: Downloading https://files.pythonhosted.org/packages/f4/6c/b27cee1ea0fd483858666e4a16196fef2834c2b1d5f9aa169a0c9861ce32/airsupply-0.4.1.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [Albumize]: Downloading https://files.pythonhosted.org/packages/ac/b9/947c03bc8ab2f76f037d0018e712927a725efcf273ceefd9e1addaeb0559/Albumize-1.2.tar.gz
+[2023-06-19 03:31:11] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/d5/c7/5c934ac7e3b21b3efbb8ae10ea0656eb91cd56590104b6b9449ad4cda972/img2tags-1.1.1.tar.gz
+[2023-06-19 03:31:12] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/bb/d3/f83900624302789f33875c0e56aab426ae77f0a730fefeec994a50a9c849/picogo-0.0.2.tar.gz
+[2023-06-19 03:31:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230619/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [airsupply]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [airsupply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airsupply-0.4.tar.gz tmp/airsupply-0.4.1.tar.gz --markdown 20230619/a/airsupply/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [Albumize]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [Albumize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Albumize-1.1.tar.gz tmp/Albumize-1.2.tar.gz --markdown 20230619/A/Albumize/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [img2tags]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [img2tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2tags-1.1.0.tar.gz tmp/img2tags-1.1.1.tar.gz --markdown 20230619/i/img2tags/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.1.tar.gz tmp/picogo-0.0.2.tar.gz --markdown 20230619/p/picogo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/40/a1/01254e051ea94c351cd224a2444e3802833466ef157d1602a2e0dee8d08d/gtempco2-0.0.4-py3-none-any.whl
+[2023-06-19 03:31:12] INFO root fetch - processPackages [ovos-skill-hello-world]: Downloading https://files.pythonhosted.org/packages/91/88/c79493a7bda712cdc07854d9a348359597a5ba09cebf64da203d4eb87e34/ovos_skill_hello_world-0.0.4a3-py3-none-any.whl
+[2023-06-19 03:31:12] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-19 03:31:12] INFO root fetch - processPackages [ovos-skill-hello-world]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [ovos-skill-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_hello_world-0.0.4a2-py3-none-any.whl.zip tmp/ovos_skill_hello_world-0.0.4a3-py3-none-any.whl.zip --markdown 20230619/o/ovos-skill-hello-world/0.0.4a2-0.0.4a3/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.3.tar.gz tmp/gtempco2-0.0.4-py3-none-any.whl.zip --markdown 20230619/g/gtempco2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 03:31:12] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-19 03:31:12] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230619/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 03:31:13] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-19 03:31:13] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.1.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - processPackages [Albumize]: Remove: archive file [/home/abi/fetcher/tmp/Albumize-1.2.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - main [MainThread]: End processing [Albumize]: success
+[2023-06-19 03:31:13] INFO root fetch - processPackages [airsupply]: Remove: archive file [/home/abi/fetcher/tmp/airsupply-0.4.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - processPackages [airsupply]: Remove: archive file [/home/abi/fetcher/tmp/airsupply-0.4.1.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - main [MainThread]: End processing [airsupply]: success
+[2023-06-19 03:31:13] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.1.0.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.1.1.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - main [MainThread]: End processing [img2tags]: success
+[2023-06-19 03:31:13] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.3.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.4-py3-none-any.whl.zip]
+[2023-06-19 03:31:13] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-06-19 03:31:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-19 03:31:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-19 03:31:14] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.1.tar.gz]
+[2023-06-19 03:31:14] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.2.tar.gz]
+[2023-06-19 03:31:14] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-19 03:31:14] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-19 03:31:14] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-19 03:31:14] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-19 03:31:14] INFO root fetch - processPackages [ovos-skill-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_hello_world-0.0.4a2-py3-none-any.whl.zip]
+[2023-06-19 03:31:14] INFO root fetch - processPackages [ovos-skill-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_hello_world-0.0.4a3-py3-none-any.whl.zip]
+[2023-06-19 03:31:14] INFO root fetch - main [MainThread]: End processing [ovos-skill-hello-world]: success
+[2023-06-19 03:31:15] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-19 03:31:15] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230619/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 03:33:13] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-19 03:33:13] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-19 03:33:13] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-19 03:33:13] INFO root fetch - main [MainThread]: Store serial: [18554785]
