@@ -5220,3 +5220,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:21:32] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
 [2023-06-19 04:21:32] INFO root fetch - main [MainThread]: End processing [quao]: success
 [2023-06-19 04:21:32] INFO root fetch - main [MainThread]: Store serial: [18554998]
+[2023-06-19 04:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554998]
+[2023-06-19 04:26:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdup
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upstash-redis-a
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qps-limit
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upstash-redis-a
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atksh-utils
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msgx
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdf-doctor
+[2023-06-19 04:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funboost
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [rdf-doctor]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [atksh-utils]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [qps-limit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [msgx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [funboost]: New version: [23.1] Old Version: [23.0]
+[2023-06-19 04:26:41] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/bf/ff/5244af117fffc289be16c3d57d701b2ee4f8691c68ab43f7bd678df7f0aa/atksh-utils-0.1.6.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/34/c2/fdf3e51262581de78fab74f7f54582b802d11424dfece3071ee1d40b7643/upstash_redis_a-0.1.3.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/c9/72/18f561568691a9488722a228a9c1b9b1382cbe025e8337c5712d54b49f7d/qps_limit-0.1.1-py3.8.egg
+[2023-06-19 04:26:41] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/20/1b/c5b0d630d61c5cf634b577ef2d59bbec10ba533b6ab9a58b0d6e2490b12b/rdf_doctor-0.8.2-py3-none-any.whl
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/34/c2/fdf3e51262581de78fab74f7f54582b802d11424dfece3071ee1d40b7643/upstash_redis_a-0.1.3.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-19 04:26:41] INFO root fetch - processPackages [msgx]: Downloading https://files.pythonhosted.org/packages/dd/eb/bdaeb639a4780d67abb74af1add1fd9c5d54a5ae7491f036e7d16978dee2/msgx-1.0.1.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/e1/0e/29795f4d405aba758f9559a38104d9df0aad9d9e48b753a1bc855e0cd551/funboost-23.0-py3-none-any.whl
+[2023-06-19 04:26:41] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-19 04:26:41] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-19 04:26:41] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d0/46/fb6269a029aefab6e556cb636b9d06a406b73db51b6bc52494b1664e7a34/atksh-utils-0.2.0.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-19 04:26:41] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.6.tar.gz tmp/atksh-utils-0.2.0.tar.gz --markdown 20230619/a/atksh-utils/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 04:26:41] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/56/0f/da2fb472202903803b76c379adaf463753d6ba461910af16e3da1db43eb7/qps_limit-0.1.2-py3.8.egg
+[2023-06-19 04:26:41] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/03/ac/5fac8553cdb1073c41f68ffbeb4ac06f6c4c748b80510e4aeb35c836d263/rdf_doctor-0.8.3-py3-none-any.whl
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/17/39/8e4840dc80b0873f0c9c1ba0dbcf1ec4c0d899fcf6ac20dbec0831ff0283/upstash_redis_a-0.1.4.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [msgx]: Downloading https://files.pythonhosted.org/packages/58/28/3291c4714b34a3a8a63570d460b30e74c46f9e303b3a5ab35f47a1199910/msgx-1.0.2.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [upstash-redis-a]: Downloading https://files.pythonhosted.org/packages/17/39/8e4840dc80b0873f0c9c1ba0dbcf1ec4c0d899fcf6ac20dbec0831ff0283/upstash_redis_a-0.1.4.tar.gz
+[2023-06-19 04:26:41] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-06-19 04:26:41] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.8.2-py3-none-any.whl.zip tmp/rdf_doctor-0.8.3-py3-none-any.whl.zip --markdown 20230619/r/rdf-doctor/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-19 04:26:41] INFO root fetch - processPackages [msgx]: executing diffoscope
+[2023-06-19 04:26:41] INFO root fetch - processPackages [msgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgx-1.0.1.tar.gz tmp/msgx-1.0.2.tar.gz --markdown 20230619/m/msgx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-19 04:26:41] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-19 04:26:41] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-0.1.1-py3.8.egg tmp/qps_limit-0.1.2-py3.8.egg --markdown 20230619/q/qps-limit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 04:26:42] INFO root fetch - processPackages [upstash-redis-a]: executing diffoscope
+[2023-06-19 04:26:42] INFO root fetch - processPackages [upstash-redis-a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis_a-0.1.3.tar.gz tmp/upstash_redis_a-0.1.4.tar.gz --markdown 20230619/u/upstash-redis-a/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 04:26:42] INFO root fetch - processPackages [upstash-redis-a]: executing diffoscope
+[2023-06-19 04:26:42] INFO root fetch - processPackages [upstash-redis-a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis_a-0.1.3.tar.gz tmp/upstash_redis_a-0.1.4.tar.gz --markdown 20230619/u/upstash-redis-a/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 04:26:42] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/59/da/1bc8226b0baf1054887178a52ebd0c87656d6b4b19e6d65b8da956c44786/funboost-23.1-py3-none-any.whl
+[2023-06-19 04:26:42] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-06-19 04:26:42] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.0-py3-none-any.whl.zip tmp/funboost-23.1-py3-none-any.whl.zip --markdown 20230619/f/funboost/23.0-23.1/diff.md --exclude *.pyd
+[2023-06-19 04:26:42] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.6.tar.gz]
+[2023-06-19 04:26:42] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.2.0.tar.gz]
+[2023-06-19 04:26:42] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-19 04:26:43] INFO root fetch - processPackages [msgx]: Remove: archive file [/home/abi/fetcher/tmp/msgx-1.0.1.tar.gz]
+[2023-06-19 04:26:43] INFO root fetch - processPackages [msgx]: Remove: archive file [/home/abi/fetcher/tmp/msgx-1.0.2.tar.gz]
+[2023-06-19 04:26:43] INFO root fetch - main [MainThread]: End processing [msgx]: success
+[2023-06-19 04:26:43] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.1-py3.8.egg]
+[2023-06-19 04:26:43] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.2-py3.8.egg]
+[2023-06-19 04:26:43] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-19 04:26:43] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.2-py3-none-any.whl.zip]
+[2023-06-19 04:26:43] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.3-py3-none-any.whl.zip]
+[2023-06-19 04:26:43] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-06-19 04:26:43] INFO root fetch - processPackages [upstash-redis-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis_a-0.1.3.tar.gz]
+[2023-06-19 04:26:43] INFO root fetch - processPackages [upstash-redis-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis_a-0.1.4.tar.gz]
+[2023-06-19 04:26:43] INFO root fetch - main [MainThread]: End processing [upstash-redis-a]: success
+[2023-06-19 04:26:45] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.0-py3-none-any.whl.zip]
+[2023-06-19 04:26:45] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.1-py3-none-any.whl.zip]
+[2023-06-19 04:26:45] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-06-19 04:27:36] INFO root fetch - main [MainThread]: End processing [upstash-redis-a]: success
+[2023-06-19 04:27:36] INFO root fetch - main [MainThread]: Store serial: [18555024]
