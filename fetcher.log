@@ -8881,3 +8881,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:58:09] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.99.tar.gz]
 [2023-06-19 08:58:09] INFO root fetch - main [MainThread]: End processing [gurux-dlms]: success
 [2023-06-19 08:58:09] INFO root fetch - main [MainThread]: Store serial: [18556446]
+[2023-06-19 09:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556446]
+[2023-06-19 09:03:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smpgpt
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bugout
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AMAS-sb
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pekat-vision-sdk
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: current-events-magnifier
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netgen-mesher
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssi-fc-data
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alnoda-wrk
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocean-contracts
+[2023-06-19 09:03:18] INFO root fetch - processPackages [bugout]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [AMAS-sb]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [pekat-vision-sdk]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [smpgpt]: New version: [9.0] Old Version: [8.0]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.8] Old Version: [0.0.3.7]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2302.post64.dev0] Old Version: [6.2.2302.post46.dev0]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-19 09:03:18] WARNING root fetch - processPackages [ssi-fc-data]: Skipping, unable to determine old version
+[2023-06-19 09:03:18] INFO root fetch - main [MainThread]: End processing [ssi-fc-data] error
+[2023-06-19 09:03:18] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/5c/ef/fbe271674b752145f16ca48787d7b125306ab5e23ce95d156dcd9bec424e/bugout-0.2.8.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ocean-contracts]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-19 09:03:18] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/5d/ff/80f2b5d705c6f41d8a23f00888ac097159f652018e53a89bd81326cc609f/AMAS-sb-0.1.0.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/f2/fe/0e6a86a6116b6e159ce40b3a1f0250f61563e5fcf0e8c5cfeb677a4fc386/smpgpt-8.0.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/91/2e/156bca2a1ab8c45116700a63e84861c405cc50be206c18b22f3aa252dcd8/current_events_magnifier-0.0.3.7.tar.gz
+[2023-06-19 09:03:18] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23342795>=10485760
+[2023-06-19 09:03:18] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-19 09:03:18] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/72/a8/b3b015d72f822c1fa61536ea02c1016faf50288262a782573df298541141/netgen_mesher-6.2.2302.post46.dev0-cp39-cp39-win_amd64.whl
+[2023-06-19 09:03:18] INFO root fetch - processPackages [pekat-vision-sdk]: Downloading https://files.pythonhosted.org/packages/cc/60/5118c09031745288265409f716658e9d033b0698b11b20f4ff469debae42/pekat_vision_sdk-1.4.1.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/9c/76/6509d3ecf8fef75c859163565f7db832275b3392e72f9b065008b49cf0b4/ocean-contracts-1.1.7.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-19 09:03:18] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230619/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-19 09:03:18] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/17/00/70c0cb1233986f75bb5ef50ef9df56e3b62d1cef390302e20977f4b9dd68/smpgpt-9.0.tar.gz
+[2023-06-19 09:03:18] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 09:03:18] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-8.0.tar.gz tmp/smpgpt-9.0.tar.gz --markdown 20230619/s/smpgpt/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-19 09:03:19] INFO root fetch - processPackages [bugout]: Downloading https://files.pythonhosted.org/packages/31/66/98f11fdbfd1344bc3e864cca1cd3be5dfb84c8eb3b611fa56b1f05cc3edb/bugout-0.2.9.tar.gz
+[2023-06-19 09:03:19] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/95/c6/7f9d5d625b636c7a933e07afee832e374fb2bdc09ef5bd9d845c66ac215f/current_events_magnifier-0.0.3.8.tar.gz
+[2023-06-19 09:03:19] INFO root fetch - processPackages [bugout]: executing diffoscope
+[2023-06-19 09:03:19] INFO root fetch - processPackages [bugout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugout-0.2.8.tar.gz tmp/bugout-0.2.9.tar.gz --markdown 20230619/b/bugout/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 09:03:19] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-19 09:03:19] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.7.tar.gz tmp/current_events_magnifier-0.0.3.8.tar.gz --markdown 20230619/c/current-events-magnifier/0.0.3.7-0.0.3.8/diff.md --exclude *.pyd
+[2023-06-19 09:03:19] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-19 09:03:19] INFO root fetch - processPackages [pekat-vision-sdk]: Downloading https://files.pythonhosted.org/packages/da/91/02e29d6e167d5a70b3c425b122c42a3c073425a30e1920dc745d54673b88/pekat_vision_sdk-1.4.2.tar.gz
+[2023-06-19 09:03:19] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20013327>=10485760
+[2023-06-19 09:03:19] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-06-19 09:03:19] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/3b/be/7c8c9c63523e5543ff537cd221b47a36a84eecb9ab19a8e6b4fb31dd67df/ocean-contracts-1.1.8.tar.gz
+[2023-06-19 09:03:19] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-19 09:03:19] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230619/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 09:03:19] INFO root fetch - processPackages [pekat-vision-sdk]: executing diffoscope
+[2023-06-19 09:03:19] INFO root fetch - processPackages [pekat-vision-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pekat_vision_sdk-1.4.1.tar.gz tmp/pekat_vision_sdk-1.4.2.tar.gz --markdown 20230619/p/pekat-vision-sdk/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-19 09:03:19] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-06-19 09:03:19] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-1.1.7.tar.gz tmp/ocean-contracts-1.1.8.tar.gz --markdown 20230619/o/ocean-contracts/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-19 09:03:20] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-8.0.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-9.0.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 09:03:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-19 09:03:20] INFO root fetch - processPackages [pekat-vision-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pekat_vision_sdk-1.4.1.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - processPackages [pekat-vision-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pekat_vision_sdk-1.4.2.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - main [MainThread]: End processing [pekat-vision-sdk]: success
+[2023-06-19 09:03:20] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.7.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.8.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-19 09:03:20] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-19 09:03:20] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-19 09:03:21] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.8.tar.gz]
+[2023-06-19 09:03:21] INFO root fetch - processPackages [bugout]: Remove: archive file [/home/abi/fetcher/tmp/bugout-0.2.9.tar.gz]
+[2023-06-19 09:03:21] INFO root fetch - main [MainThread]: End processing [bugout]: success
+[2023-06-19 09:03:22] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-1.1.7.tar.gz]
+[2023-06-19 09:03:22] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-1.1.8.tar.gz]
+[2023-06-19 09:03:22] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-06-19 09:03:22] INFO root fetch - main [MainThread]: Store serial: [18556479]
