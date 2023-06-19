@@ -981,3 +981,50 @@
 [2023-06-19 02:05:51] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-19 02:05:51] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-19 02:05:51] INFO root fetch - main [MainThread]: Store serial: [18553441]
+[2023-06-19 02:10:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553441]
+[2023-06-19 02:11:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feo3mics
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aws-discord-notifiers
+[2023-06-19 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-nightly
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-06-19 02:11:00] WARNING root fetch - processPackages [feo3mics]: Skipping, unable to determine old version
+[2023-06-19 02:11:00] INFO root fetch - main [MainThread]: End processing [feo3mics] error
+[2023-06-19 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230618] Old Version: [0.0.8.dev20230617]
+[2023-06-19 02:11:00] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230618] Old Version: [3.0.1.dev20230617]
+[2023-06-19 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687046899] Old Version: [1686960437]
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/3e/c9/ad708d33a5092814ea822f0ef7c80662d58d57685748dfcf174e878990d7/cdk-aws-discord-notifiers-0.0.97.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/8c/b6/f3fa506aa6974d8535bfa1379e71cae2d205197ea33ac68ecbe4bf619c60/jaxutils-nightly-0.0.8.dev20230617.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/85/65/1b732efed79d2234f3eb695c1e65b00c9503ee029b0e50d7a5d68ce04f42/torchlayers-nightly-1686960437.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/92/e3/0ae48aeb5a72d9fa1f4be1cdb98bb0aac03621c885fc0c994dc618fe04be/openbb_nightly-3.0.1.dev20230617.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-19 02:11:00] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21238078>=10485760
+[2023-06-19 02:11:00] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/78/87/b85dfefdd98c962514e5d3533445b16e6cc54d4e5d0f82cf73b3069d20f6/jaxutils-nightly-0.0.8.dev20230618.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/72/83/4096b75a68393cbd1c18db9ed384db103dea0c73612d19629f32670076e3/torchlayers-nightly-1687046899.tar.gz
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-19 02:11:00] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz --markdown 20230619/c/cdk-aws-discord-notifiers/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-06-19 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-19 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230617.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230618.tar.gz --markdown 20230619/j/jaxutils-nightly/0.0.8.dev20230617-0.0.8.dev20230618/diff.md --exclude *.pyd
+[2023-06-19 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-19 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686960437.tar.gz tmp/torchlayers-nightly-1687046899.tar.gz --markdown 20230619/t/torchlayers-nightly/1686960437-1687046899/diff.md --exclude *.pyd
+[2023-06-19 02:11:01] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-19 02:11:01] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-19 02:11:01] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230619/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:11:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230617.tar.gz]
+[2023-06-19 02:11:01] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230618.tar.gz]
+[2023-06-19 02:11:01] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-19 02:11:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz]
+[2023-06-19 02:11:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-19 02:11:01] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-19 02:11:02] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686960437.tar.gz]
+[2023-06-19 02:11:02] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687046899.tar.gz]
+[2023-06-19 02:11:02] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-19 02:11:02] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-19 02:11:02] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-19 02:11:02] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-19 02:11:02] INFO root fetch - main [MainThread]: Store serial: [18553462]
