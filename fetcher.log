@@ -12532,3 +12532,253 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 11:21:26] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.2.0rc2-py3-none-any.whl.zip]
 [2023-06-19 11:21:26] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-06-19 11:21:26] INFO root fetch - main [MainThread]: Store serial: [18557945]
+[2023-06-19 11:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557945]
+[2023-06-19 11:26:38] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gecs
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-emoji
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulipy
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-grantami-recordlists
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CKAstroTools
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyGraphica
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emailalert
+[2023-06-19 11:26:38] INFO root fetch - processPackages [emailalert]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [discord-emoji]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [gecs]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [PyGraphica]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 11:26:38] WARNING root fetch - processPackages [pulipy]: Skipping, unable to determine old version
+[2023-06-19 11:26:38] INFO root fetch - processPackages [pulipy]: Start processing: odoo-addon-l10n-es-ticketbai
+[2023-06-19 11:26:38] INFO root fetch - main [MainThread]: End processing [pulipy] error
+[2023-06-19 11:26:38] INFO root fetch - processPackages [CKAstroTools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/42/5b/3565f9970c622d87405f9ff73186bd0c2e7295ce723974668dca32dd1458/emailalert-1.1.2.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: New version: [16.0.1.0.6] Old Version: [16.0.1.0.5.1]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/98/87/b98f72c00ee82d73275a61b1ed869a40a4b2026494804b385ce3403804f5/CKAstroTools-0.0.2.tar.gz
+[2023-06-19 11:26:38] WARNING root fetch - processPackages [ansys-grantami-recordlists]: Skipping, unable to determine old version
+[2023-06-19 11:26:38] INFO root fetch - processPackages [ansys-grantami-recordlists]: Start processing: siibra
+[2023-06-19 11:26:38] INFO root fetch - main [MainThread]: End processing [ansys-grantami-recordlists] error
+[2023-06-19 11:26:38] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/0a/63/18c3c791144514b6fd48e6bb3a986790f280ce6fd169dff213c5eff4a5ec/PyGraphica-0.0.2.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230619] Old Version: [0.7.5.dev20230617]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [siibra]: New version: [0.4a56] Old Version: [0.4a54]
+[2023-06-19 11:26:38] INFO root fetch - processPackages [discord-emoji]: Downloading https://files.pythonhosted.org/packages/b9/cb/68be285ff07abcfb8db2a5fe3a31da2a7e11ddf857e58d539bca75b0ed52/discord_emoji-1.4.1-py3-none-any.whl
+[2023-06-19 11:26:38] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/2f/f8/cfca44180087c52c0628173c288638270615f167088c3559522a3c52db80/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl
+[2023-06-19 11:26:38] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/52/32/965fe5f7662c7a83890c78939dfd88b419dbfbe96aa230a0be92370fb6d0/gecs-0.14.1.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/11/71/5fff881868d574c24703e20af1c08f5d0f591dd626b16379a45f156fac14/PyGraphica-0.0.3.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/ce/64/e74adc6fda314aacf3183c3d463efe3fc03c7e870f6a2df42e17735504c1/emailalert-1.1.3.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/e9/57/8a1a4f2869d8fd1fcebe376074ab297ed0813e2dee366e0aab9d462c4352/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl
+[2023-06-19 11:26:38] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/51/bb/bdb73989d0eb083dd0431fb61c2c23c5f08794b72252c2625c913854bf94/CKAstroTools-0.0.3.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/e0/5a/32c8dde423feaa898f6da6d442aec1f6a90aced1a6f945ec4f4b38f09932/siibra-0.4a54.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [PyGraphica]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [PyGraphica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphica-0.0.2.tar.gz tmp/PyGraphica-0.0.3.tar.gz --markdown 20230619/P/PyGraphica/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.2.tar.gz tmp/emailalert-1.1.3.tar.gz --markdown 20230619/e/emailalert/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [CKAstroTools]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [CKAstroTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CKAstroTools-0.0.2.tar.gz tmp/CKAstroTools-0.0.3.tar.gz --markdown 20230619/C/CKAstroTools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/a2/36/d737b775055e4830988917a45a417ff9528d6fe28684664551661d096798/gecs-0.14.2.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [discord-emoji]: Downloading https://files.pythonhosted.org/packages/f8/f8/832598a1f132ce2004d6e49df2bf4c82eeaa51539addefe2c57e2000e8f6/discord_emoji-1.4.2.tar.gz
+[2023-06-19 11:26:38] INFO root fetch - processPackages [gecs]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [gecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gecs-0.14.1.tar.gz tmp/gecs-0.14.2.tar.gz --markdown 20230619/g/gecs/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230619/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230619/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-19 11:26:38] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/43/3e/f8626e24aac53e63390349016c863334048d998c1b74b741247917425e8b/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl
+[2023-06-19 11:26:38] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/ce/88/2ad7b6772ec353b4c5b75f9816ba72abb256f3a2f5a352749c7d4ade8c18/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl
+[2023-06-19 11:26:38] INFO root fetch - processPackages [discord-emoji]: executing diffoscope
+[2023-06-19 11:26:38] INFO root fetch - processPackages [discord-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_emoji-1.4.1-py3-none-any.whl.zip tmp/discord_emoji-1.4.2.tar.gz --markdown 20230619/d/discord-emoji/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-19 11:26:39] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/f5/49/78655d9091df21658e1989f55672bf5413a28527440ec93ae4a1c6a92db4/siibra-0.4a56.tar.gz
+[2023-06-19 11:26:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-19 11:26:39] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-l10n-es-ticketbai/16.0.1.0.5.1-16.0.1.0.6/diff.md --exclude *.pyd
+[2023-06-19 11:26:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-19 11:26:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl.zip --markdown 20230619/t/tf-model-optimization-nightly/0.7.5.dev20230617-0.7.5.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 11:26:39] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-06-19 11:26:39] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a54.tar.gz tmp/siibra-0.4a56.tar.gz --markdown 20230619/s/siibra/0.4a54-0.4a56/diff.md --exclude *.pyd
+[2023-06-19 11:26:40] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.2.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.3.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [emailalert]: Start processing: grad-june
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [grad-june]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/f7/98/58d22366bc1b88a51d0245e475f732c6c781d822c55cadb5e0f1c68c97fa/grad_june-0.1.5.tar.gz
+[2023-06-19 11:26:40] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.2.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.3.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [CKAstroTools]: Start processing: PeerAnnot
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [CKAstroTools]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [PeerAnnot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [spanishconjugator]: Start processing: webgui-jupyter-widgets
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.0.2.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-0.0.3.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [PyGraphica]: Start processing: datati
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [PyGraphica]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/1e/86/10863b373a7ae9f7f32f537c08a43eff04260ec9959018b5b416e7d3f0af/grad_june-0.1.6.tar.gz
+[2023-06-19 11:26:40] INFO root fetch - processPackages [datati]: New version: [0.1.0] Old Version: [0.0.26]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [discord-emoji]: Remove: archive file [/home/abi/fetcher/tmp/discord_emoji-1.4.1-py3-none-any.whl.zip]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [discord-emoji]: Remove: archive file [/home/abi/fetcher/tmp/discord_emoji-1.4.2.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [discord-emoji]: Start processing: datati
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [discord-emoji]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [datati]: New version: [0.1.0] Old Version: [0.0.26]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/73/86/34c307db917133362d159bdc731afb8d3cff8bce48175cbc97bd27c6b323/PeerAnnot-0.0.1.post8.tar.gz
+[2023-06-19 11:26:40] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.14.1.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.14.2.tar.gz]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [gecs]: Start processing: syft
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [gecs]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [grad-june]: executing diffoscope
+[2023-06-19 11:26:40] INFO root fetch - processPackages [grad-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grad_june-0.1.5.tar.gz tmp/grad_june-0.1.6.tar.gz --markdown 20230619/g/grad-june/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 11:26:40] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [spanishconjugator]: Start processing: dactim-mri
+[2023-06-19 11:26:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-19 11:26:40] INFO root fetch - processPackages [datati]: Downloading https://files.pythonhosted.org/packages/4a/ce/3cbbbe48d0e648736ff9246f35486ecbce4b1880aa6e087d6904ab3f68e1/datati-0.0.26.tar.gz
+[2023-06-19 11:26:40] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 11:26:40] INFO root fetch - processPackages [datati]: Downloading https://files.pythonhosted.org/packages/4a/ce/3cbbbe48d0e648736ff9246f35486ecbce4b1880aa6e087d6904ab3f68e1/datati-0.0.26.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/50/1e/95ee9a6cc81dedd75b0ab0cabec9708b8665e6e4339930ec1ced9dd1a1b0/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl
+[2023-06-19 11:26:41] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/dd/71/b94ad97cab8d83bde8d05acb23bf3af002e83ae39a4411d7d76fddb19db6/PeerAnnot-0.0.1.post9.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl.zip]
+[2023-06-19 11:26:41] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl.zip]
+[2023-06-19 11:26:41] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Start processing: coindicator
+[2023-06-19 11:26:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai]: success
+[2023-06-19 11:26:41] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [coindicator]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-06-19 11:26:41] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/d8/a9/c49140dc8a8168c10dc65ab7e0bc7a2f211fe75eb80df36f50dac7cab025/coindicator-2.1.6.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [PeerAnnot]: executing diffoscope
+[2023-06-19 11:26:41] INFO root fetch - processPackages [PeerAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PeerAnnot-0.0.1.post8.tar.gz tmp/PeerAnnot-0.0.1.post9.tar.gz --markdown 20230619/P/PeerAnnot/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: Downloading https://files.pythonhosted.org/packages/d0/ff/af186d5892afcdd3c24f09ada9e3138e14c07a76d65a513f4a3fbd8c6fe4/datati-0.1.0.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: Downloading https://files.pythonhosted.org/packages/d0/ff/af186d5892afcdd3c24f09ada9e3138e14c07a76d65a513f4a3fbd8c6fe4/datati-0.1.0.tar.gz
+[2023-06-19 11:26:41] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-06-19 11:26:41] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: executing diffoscope
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datati-0.0.26.tar.gz tmp/datati-0.1.0.tar.gz --markdown 20230619/d/datati/0.0.26-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: executing diffoscope
+[2023-06-19 11:26:41] INFO root fetch - processPackages [datati]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datati-0.0.26.tar.gz tmp/datati-0.1.0.tar.gz --markdown 20230619/d/datati/0.0.26-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 11:26:41] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-19 11:26:41] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230619/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-19 11:26:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230617-py2.py3-none-any.whl.zip]
+[2023-06-19 11:26:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230619-py2.py3-none-any.whl.zip]
+[2023-06-19 11:26:41] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-19 11:26:41] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/77/c4/50068baedbd65f195b214621c363f68b4687167feb5cf6e0ef41edab8409/coindicator-2.1.7.tar.gz
+[2023-06-19 11:26:41] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/fc/d0/da80f94ec53ce62ad1628630b00e6735f285f65a586f0a53e570f18ed05d/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl
+[2023-06-19 11:26:41] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-19 11:26:41] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.1.6.tar.gz tmp/coindicator-2.1.7.tar.gz --markdown 20230619/c/coindicator/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-06-19 11:26:42] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.5.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.6.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - main [MainThread]: End processing [grad-june]: success
+[2023-06-19 11:26:42] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post8.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post9.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - main [MainThread]: End processing [PeerAnnot]: success
+[2023-06-19 11:26:42] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-06-19 11:26:42] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230619/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 11:26:42] INFO root fetch - processPackages [datati]: Remove: archive file [/home/abi/fetcher/tmp/datati-0.0.26.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - processPackages [datati]: Remove: archive file [/home/abi/fetcher/tmp/datati-0.1.0.tar.gz]
+[2023-06-19 11:26:42] INFO root fetch - main [MainThread]: End processing [datati]: success
+[2023-06-19 11:26:43] ERROR root fetch - processPackages [datati]: Diffoscope failed: gzip: tmp/datati-0.1.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/datati-0.1.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-19 11:26:43] INFO root fetch - main [MainThread]: End processing [datati] error
+[2023-06-19 11:26:43] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.6.tar.gz]
+[2023-06-19 11:26:43] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.7.tar.gz]
+[2023-06-19 11:26:43] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-19 11:26:44] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a54.tar.gz]
+[2023-06-19 11:26:44] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a56.tar.gz]
+[2023-06-19 11:26:44] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-06-19 11:26:44] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-19 11:26:44] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-19 11:26:44] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-19 11:27:45] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip]
+[2023-06-19 11:27:45] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
+[2023-06-19 11:27:45] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-06-19 11:27:45] INFO root fetch - main [MainThread]: Store serial: [18558008]
