@@ -5182,3 +5182,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:15:24] INFO root fetch - processPackages [deepdataspace]: Remove: archive file [/home/abi/fetcher/tmp/deepdataspace-0.3.0.tar.gz]
 [2023-06-19 04:15:24] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
 [2023-06-19 04:15:24] INFO root fetch - main [MainThread]: Store serial: [18554980]
+[2023-06-19 04:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554980]
+[2023-06-19 04:20:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 04:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quao
+[2023-06-19 04:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadm
+[2023-06-19 04:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seleniumabsxy
+[2023-06-19 04:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libretrofuzz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: denoising-diffusion-pytorch
+[2023-06-19 04:20:34] WARNING root fetch - processPackages [seleniumabsxy]: Skipping, unable to determine old version
+[2023-06-19 04:20:34] INFO root fetch - main [MainThread]: End processing [seleniumabsxy] error
+[2023-06-19 04:20:34] INFO root fetch - processPackages [datadm]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-19 04:20:34] INFO root fetch - processPackages [quao]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-19 04:20:34] INFO root fetch - processPackages [libretrofuzz]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-06-19 04:20:34] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-19 04:20:34] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c2/a4/917f30cf484c1332d81652d92cd0db17a4d2245c2efa8c3265aeebcbdc7d/libretrofuzz-3.2.2.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/9c/fb/c4d7bbc1bbfd917b9ef56240459c55cb8173b48cebc46e8921ecbb975d1e/denoising-diffusion-pytorch-1.7.0.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/9a/74/ec998415cc9e79c0d253a6e9eac4037a2383acc0c51ec04ae77f7a6e50eb/quao-0.2.7.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/86/9e/eb0a8ac63d5b67d6de0d4221f780b2c634937825e4d3735d3cc4b2ba5fbe/datadm-0.3.2.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/a1/25/e88091715eaf21841f8b923e85bc465fbac1f2a321d52958997811afb309/denoising-diffusion-pytorch-1.7.1.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-06-19 04:20:34] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.7.0.tar.gz tmp/denoising-diffusion-pytorch-1.7.1.tar.gz --markdown 20230619/d/denoising-diffusion-pytorch/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-19 04:20:34] WARNING root fetch - processPackages [datadm]: Skipping package: exceeds size limit 12225436>=10485760
+[2023-06-19 04:20:34] INFO root fetch - main [MainThread]: End processing [datadm] error
+[2023-06-19 04:20:34] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/99/79/f6281f95a587b71f02afc43ce91f2fef61fc0e2bf0351f7ac98d4c1681d3/libretrofuzz-3.2.3.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-06-19 04:20:34] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-19 04:20:34] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.2.2.tar.gz tmp/libretrofuzz-3.2.3.tar.gz --markdown 20230619/l/libretrofuzz/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-06-19 04:20:35] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-19 04:20:35] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.7.tar.gz tmp/quao-0.2.8.tar.gz --markdown 20230619/q/quao/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-19 04:20:35] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.0.tar.gz]
+[2023-06-19 04:20:35] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.1.tar.gz]
+[2023-06-19 04:20:35] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-06-19 04:20:35] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.2.tar.gz]
+[2023-06-19 04:20:35] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.3.tar.gz]
+[2023-06-19 04:20:35] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-19 04:21:32] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.7.tar.gz]
+[2023-06-19 04:21:32] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-06-19 04:21:32] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-19 04:21:32] INFO root fetch - main [MainThread]: Store serial: [18554998]
