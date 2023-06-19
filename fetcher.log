@@ -14917,3 +14917,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:03:14] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.5.tar.gz]
 [2023-06-19 13:03:14] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
 [2023-06-19 13:03:14] INFO root fetch - main [MainThread]: Store serial: [18558798]
+[2023-06-19 13:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558798]
+[2023-06-19 13:08:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefect-sns
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: murfey
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: customtkinterx
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bili-push
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibl-neuropixel
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-abac-test
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectordb
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spherecluster2
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cytomine-pims
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vectordb
+[2023-06-19 13:08:23] INFO root fetch - processPackages [customtkinterx]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [prefect-sns]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/79/e2/58f63ed61b52ab0b01e0d32c7a89e8e3c51f04467c6fd851a94388acc717/prefect-sns-0.3.0.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [vectordb]: New version: [0.0.1.dev1] Old Version: [0.0.1]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [vectordb]: New version: [0.0.1.dev1] Old Version: [0.0.1]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ibl-neuropixel]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-19 13:08:23] WARNING root fetch - processPackages [spherecluster2]: Skipping, unable to determine old version
+[2023-06-19 13:08:23] INFO root fetch - processPackages [spherecluster2]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-19 13:08:23] INFO root fetch - main [MainThread]: End processing [spherecluster2] error
+[2023-06-19 13:08:23] INFO root fetch - processPackages [cytomine-pims]: New version: [0.13.7] Old Version: [0.13.6]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/e8/d6/d6260b137719c01a40cefa170d69548925097167b5df3390a4abefd7552b/customtkinterx-0.3.2.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/06/4f/a37cd48a24edf35edbbeafaa3f929ada933d8ace6f309321972545424ec5/murfey-0.7.8.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-19 13:08:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230619/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:23] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-19 13:08:23] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230619/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:23] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/fb/f8/06461bf371532efd0b3083f25fba351bcab0cddde56dbd3815eb627bdc7e/vectordb-0.0.1.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/fb/f8/06461bf371532efd0b3083f25fba351bcab0cddde56dbd3815eb627bdc7e/vectordb-0.0.1.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 13:08:23] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/93/1c/b59228fafc4fbdb993cbf340a575430f819e652b4e56908325ff8d9a6e16/ibl-neuropixel-0.6.1.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [cytomine-pims]: Downloading https://files.pythonhosted.org/packages/a2/c9/6ec35dead6f58d5a2886a8e7411522528d72269ee7d18399e66b605ac0d6/cytomine-pims-0.13.6.tar.gz
+[2023-06-19 13:08:23] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/72/ad/a88d2e8f073e8ab0fa0682a7dd0768a94d76a5adfe92c0eb55714fc0843c/prefect-sns-0.3.1.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/fa/8f/d759e57280e08127cd79d9ea938ba4dab94d27a663babea888dd442ba8f3/customtkinterx-0.4.0.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [prefect-sns]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [prefect-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-sns-0.3.0.tar.gz tmp/prefect-sns-0.3.1.tar.gz --markdown 20230619/p/prefect-sns/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/da/17/4f97750226d46341eeb444af42de914ef437a2fa1b56cf3d16493db9db28/vectordb-0.0.1.dev1.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/da/17/4f97750226d46341eeb444af42de914ef437a2fa1b56cf3d16493db9db28/vectordb-0.0.1.dev1.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/af/5c/0553ad2ab87deed6d7f70e016a9b3ea31cf3c1aef54d4bf1995250a2bc56/ibl-neuropixel-0.6.2.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [customtkinterx]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [customtkinterx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinterx-0.3.2.tar.gz tmp/customtkinterx-0.4.0.tar.gz --markdown 20230619/c/customtkinterx/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [cytomine-pims]: Downloading https://files.pythonhosted.org/packages/1b/7c/d23c5e1c3ab12ddea6e9073aabae5ac1587491afdd51ba1ebe88fc135022/cytomine-pims-0.13.7.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.1.tar.gz tmp/vectordb-0.0.1.dev1.tar.gz --markdown 20230619/v/vectordb/0.0.1-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230619/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-19 13:08:24] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.1.tar.gz tmp/vectordb-0.0.1.dev1.tar.gz --markdown 20230619/v/vectordb/0.0.1-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [ibl-neuropixel]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [ibl-neuropixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibl-neuropixel-0.6.1.tar.gz tmp/ibl-neuropixel-0.6.2.tar.gz --markdown 20230619/i/ibl-neuropixel/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [cytomine-pims]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [cytomine-pims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytomine-pims-0.13.6.tar.gz tmp/cytomine-pims-0.13.7.tar.gz --markdown 20230619/c/cytomine-pims/0.13.6-0.13.7/diff.md --exclude *.pyd
+[2023-06-19 13:08:24] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-19 13:08:24] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230619/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 13:08:26] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.3.2.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.4.0.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [customtkinterx]: Start processing: hdn-research-environment
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [customtkinterx]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.1.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.1.dev1.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vectordb]: Start processing: sisaptools
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vectordb]: Start processing: djpykafka
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.3.0.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.3.1.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [prefect-sns]: Start processing: vollseg
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [prefect-sns]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [djpykafka]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/e2/b5/6ce01ed71d0e58b929262a8b66d1e33ccd8fb0012017118d18fb4f49e5f0/hdn-research-environment-2.1.7.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Start processing: chronus
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [m-abac-test]: Start processing: pipeline-ai
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [djpykafka]: Downloading https://files.pythonhosted.org/packages/6a/e8/f26d4f0fa76a8729d6f62df502c0c711281bf1c3a9ce827e15324e8fe1bb/djpykafka-0.0.8.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [ibl-neuropixel]: Remove: archive file [/home/abi/fetcher/tmp/ibl-neuropixel-0.6.1.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [ibl-neuropixel]: Remove: archive file [/home/abi/fetcher/tmp/ibl-neuropixel-0.6.2.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [ibl-neuropixel]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [chronus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/77/49/bdfa19e8f66c9b3873783236791e9197126f54e346bf69ea8177b758e148/hdn-research-environment-2.1.8.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b7] Old Version: [0.5.0b6]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-19 13:08:26] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-19 13:08:26] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/13/b5/f78eff395cbc9f56b9e9418250fb4fdeab57c9c20a47bdc871762c75d46c/chronus-0.3.8.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-19 13:08:26] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.1.7.tar.gz tmp/hdn-research-environment-2.1.8.tar.gz --markdown 20230619/h/hdn-research-environment/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-19 13:08:26] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/c9/e9/fce6983c0a4ab9b04a5ea813c2c180e39f287b39b69eb43959610e2f18ae/pipeline_ai-0.5.0b6.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-06-19 13:08:26] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-06-19 13:08:26] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230619/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:27] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/50/13/67225d9dbe3fee8c1f2bb35f039262d5f5da5550d7d23290bc4a4e2182ba/chronus-0.3.9.tar.gz
+[2023-06-19 13:08:27] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-19 13:08:27] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-19 13:08:27] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/43/41/1cfe09d04c6736896f0246e8083a596605f2d708f7f824021fc9367b87d8/pipeline_ai-0.5.0b7.tar.gz
+[2023-06-19 13:08:27] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-06-19 13:08:27] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.8.tar.gz tmp/chronus-0.3.9.tar.gz --markdown 20230619/c/chronus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:27] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-06-19 13:08:27] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b6.tar.gz tmp/pipeline_ai-0.5.0b7.tar.gz --markdown 20230619/p/pipeline-ai/0.5.0b6-0.5.0b7/diff.md --exclude *.pyd
+[2023-06-19 13:08:27] INFO root fetch - processPackages [djpykafka]: Downloading https://files.pythonhosted.org/packages/9b/31/ffec0d84f9fc59bf8f6f4d871420069c6a1e118a573dba0238cf7786bba9/djpykafka-0.0.9.tar.gz
+[2023-06-19 13:08:27] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.8.tar.gz]
+[2023-06-19 13:08:27] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.9.tar.gz]
+[2023-06-19 13:08:27] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-06-19 13:08:27] INFO root fetch - processPackages [djpykafka]: executing diffoscope
+[2023-06-19 13:08:27] INFO root fetch - processPackages [djpykafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djpykafka-0.0.8.tar.gz tmp/djpykafka-0.0.9.tar.gz --markdown 20230619/d/djpykafka/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:08:28] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.7.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.1.8.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-19 13:08:28] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-06-19 13:08:28] INFO root fetch - processPackages [djpykafka]: Remove: archive file [/home/abi/fetcher/tmp/djpykafka-0.0.8.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - processPackages [djpykafka]: Remove: archive file [/home/abi/fetcher/tmp/djpykafka-0.0.9.tar.gz]
+[2023-06-19 13:08:28] INFO root fetch - main [MainThread]: End processing [djpykafka]: success
+[2023-06-19 13:08:29] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.8.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.9.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-06-19 13:08:29] INFO root fetch - processPackages [cytomine-pims]: Remove: archive file [/home/abi/fetcher/tmp/cytomine-pims-0.13.6.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - processPackages [cytomine-pims]: Remove: archive file [/home/abi/fetcher/tmp/cytomine-pims-0.13.7.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - main [MainThread]: End processing [cytomine-pims]: success
+[2023-06-19 13:08:29] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b6.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b7.tar.gz]
+[2023-06-19 13:08:29] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-06-19 13:08:29] INFO root fetch - main [MainThread]: Store serial: [18558847]
