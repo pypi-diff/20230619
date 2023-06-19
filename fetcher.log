@@ -6743,3 +6743,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:34:26] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.2.tar.gz]
 [2023-06-19 06:34:26] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-19 06:34:26] INFO root fetch - main [MainThread]: Store serial: [18555678]
+[2023-06-19 06:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555678]
+[2023-06-19 06:39:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EntityNormalizer
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm4data
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grabrun
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs-models
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smqtk-detection
+[2023-06-19 06:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-visualizer
+[2023-06-19 06:39:35] INFO root fetch - processPackages [llm4data]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 06:39:35] WARNING root fetch - processPackages [EntityNormalizer]: Skipping, unable to determine old version
+[2023-06-19 06:39:35] INFO root fetch - main [MainThread]: End processing [EntityNormalizer] error
+[2023-06-19 06:39:35] WARNING root fetch - processPackages [grabrun]: Skipping, unable to determine old version
+[2023-06-19 06:39:35] INFO root fetch - main [MainThread]: End processing [grabrun] error
+[2023-06-19 06:39:35] INFO root fetch - processPackages [smqtk-detection]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-06-19 06:39:35] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-19 06:39:35] INFO root fetch - processPackages [langchain-visualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 06:39:35] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230618] Old Version: [2.14.0.dev20230617]
+[2023-06-19 06:39:35] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [llm4data]: Downloading https://files.pythonhosted.org/packages/e0/58/5d01cc15612a27143e2a7ea7ff77ccb6d9babcdb66f7ffd0b974d83fcc22/llm4data-0.0.2.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [smqtk-detection]: Downloading https://files.pythonhosted.org/packages/fd/c0/db21dc8ea1f78233187f3ddbfd1799715edc8ce201884ee5958677381c86/smqtk-detection-0.19.0.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/46/10/50d74f58550ffe5eca61ea43df7e98b776b69381027b0311ee3754767bf4/langchain_visualizer-0.0.8.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/b3/d3/8a8c87c45526e7be2791bfc4414b5c72f15eb3b0edfd649af86cb27b2962/tf_nightly_macos-2.14.0.dev20230617-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-19 06:39:35] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199083641>=10485760
+[2023-06-19 06:39:35] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-19 06:39:35] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-19 06:39:35] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230619/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-19 06:39:35] INFO root fetch - processPackages [llm4data]: Downloading https://files.pythonhosted.org/packages/4f/56/a3429ac9f25c9bd7ae0b3d5e715a57193cf95c72fd25fe009c30089a5820/llm4data-0.0.3.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [llm4data]: executing diffoscope
+[2023-06-19 06:39:35] INFO root fetch - processPackages [llm4data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4data-0.0.2.tar.gz tmp/llm4data-0.0.3.tar.gz --markdown 20230619/l/llm4data/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 06:39:35] INFO root fetch - processPackages [smqtk-detection]: Downloading https://files.pythonhosted.org/packages/ca/41/e0ff1d0209914c43c86fd78fa6d11f3515fc3ade7d29a528f4428b5265ca/smqtk_detection-0.20.0.tar.gz
+[2023-06-19 06:39:35] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/63/161612739a89467e0de9234ac5cae8c9eabeae5a5d9e53e7fc8469dde38e/langchain_visualizer-0.0.9.tar.gz
+[2023-06-19 06:39:36] INFO root fetch - processPackages [smqtk-detection]: executing diffoscope
+[2023-06-19 06:39:36] INFO root fetch - processPackages [smqtk-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smqtk-detection-0.19.0.tar.gz tmp/smqtk_detection-0.20.0.tar.gz --markdown 20230619/s/smqtk-detection/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-06-19 06:39:36] INFO root fetch - processPackages [langchain-visualizer]: executing diffoscope
+[2023-06-19 06:39:36] INFO root fetch - processPackages [langchain-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_visualizer-0.0.8.tar.gz tmp/langchain_visualizer-0.0.9.tar.gz --markdown 20230619/l/langchain-visualizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 06:39:36] INFO root fetch - processPackages [llm4data]: Remove: archive file [/home/abi/fetcher/tmp/llm4data-0.0.2.tar.gz]
+[2023-06-19 06:39:36] INFO root fetch - processPackages [llm4data]: Remove: archive file [/home/abi/fetcher/tmp/llm4data-0.0.3.tar.gz]
+[2023-06-19 06:39:36] INFO root fetch - main [MainThread]: End processing [llm4data]: success
+[2023-06-19 06:39:37] INFO root fetch - processPackages [smqtk-detection]: Remove: archive file [/home/abi/fetcher/tmp/smqtk-detection-0.19.0.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - processPackages [smqtk-detection]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_detection-0.20.0.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - main [MainThread]: End processing [smqtk-detection]: success
+[2023-06-19 06:39:37] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.8.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.9.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - main [MainThread]: End processing [langchain-visualizer]: success
+[2023-06-19 06:39:37] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-19 06:39:37] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-19 06:39:37] INFO root fetch - main [MainThread]: Store serial: [18555707]
