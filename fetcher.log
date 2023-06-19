@@ -13135,3 +13135,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 11:38:28] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.1.65224.tar.gz]
 [2023-06-19 11:38:28] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
 [2023-06-19 11:38:28] INFO root fetch - main [MainThread]: Store serial: [18558138]
+[2023-06-19 11:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558138]
+[2023-06-19 11:43:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk-preview
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-template
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: menuloading-pygame
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boundaryscheme
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drift-cli
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunpeek
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netspresso
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multivae
+[2023-06-19 11:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piel
+[2023-06-19 11:43:37] INFO root fetch - processPackages [menuloading-pygame]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [boundaryscheme]: New version: [2.4] Old Version: [2.3]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [netspresso]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [piel]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-06-19 11:43:37] WARNING root fetch - processPackages [multivae]: Skipping, unable to determine old version
+[2023-06-19 11:43:37] INFO root fetch - processPackages [multivae]: Start processing: windmill-api
+[2023-06-19 11:43:37] INFO root fetch - main [MainThread]: End processing [multivae] error
+[2023-06-19 11:43:37] INFO root fetch - processPackages [drift-cli]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [boundaryscheme]: Downloading https://files.pythonhosted.org/packages/19/0e/a8d399bc06d6dd1a48f660441156812f72eb9c2bf6f799288035454fec2b/boundaryscheme-2.3.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/cd/49/f24521cbd54523d50081f5ecc9e75f063e8fbc5998622b656465e03fde64/piel-0.0.25.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-19 11:43:37] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [menuloading-pygame]: Downloading https://files.pythonhosted.org/packages/a5/a5/c31ca22c40c9147867c9866e413a564d85039af952b553348b51b4b5ce1f/menuloading_pygame-0.0.1.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-19 11:43:37] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/30/7d/dc9363f834c7ee5008cb7c8786549cc4a122efe208f8a85aacbdbe7a5c07/netspresso-1.0.2.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/de/d2/3a18537d4af2f791ca4ac2c96432acb2b60bc28e0a3bde512d17945062bc/hyfi_template-0.3.8.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/bb/6b/45ab7e7349d7d95c6fcfd5464137365d022909ae8765dea89b30f76c455b/drift_cli-0.6.0-py3-none-any.whl
+[2023-06-19 11:43:37] INFO root fetch - processPackages [boundaryscheme]: Downloading https://files.pythonhosted.org/packages/77/3a/47f773af8a555ff8778c4d7ebdfc11a337d4df469e8a1836af15592d2534/boundaryscheme-2.4.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/72/8b/2b1b488c9ec9782f590a1da328ac9fb6e8d3b9cfaaf6e1ad9de644281915/piel-0.0.26.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [boundaryscheme]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [boundaryscheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boundaryscheme-2.3.tar.gz tmp/boundaryscheme-2.4.tar.gz --markdown 20230619/b/boundaryscheme/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.25.tar.gz tmp/piel-0.0.26.tar.gz --markdown 20230619/p/piel/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230619/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [menuloading-pygame]: Downloading https://files.pythonhosted.org/packages/27/cb/c57ab499eb40ec74970f9393d9478b3f89ec1d45637415ba3f2e6d7752b9/menuloading_pygame-0.0.2.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/8a/59/067f7c35e51fd7c532c2f1315a007a09ff5006e840183f650d9bade4346f/netspresso-1.0.3.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-19 11:43:37] INFO root fetch - processPackages [menuloading-pygame]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [menuloading-pygame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menuloading_pygame-0.0.1.tar.gz tmp/menuloading_pygame-0.0.2.tar.gz --markdown 20230619/m/menuloading-pygame/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/52/9d/a59bbe37a7a9fecd2074109613b3d488a7d0e727283141375549eedf064e/hyfi_template-0.3.9.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.0.2.tar.gz tmp/netspresso-1.0.3.tar.gz --markdown 20230619/n/netspresso/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230619/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/5a/f3/5c770de85966867c8110327e7cae73ae1e73375f2f4d9249e78dcf432c1d/drift_cli-0.6.1-py3-none-any.whl
+[2023-06-19 11:43:37] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.8.tar.gz tmp/hyfi_template-0.3.9.tar.gz --markdown 20230619/h/hyfi-template/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-19 11:43:37] INFO root fetch - processPackages [drift-cli]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [drift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_cli-0.6.0-py3-none-any.whl.zip tmp/drift_cli-0.6.1-py3-none-any.whl.zip --markdown 20230619/d/drift-cli/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230619/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-19 11:43:37] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230619/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-19 11:43:39] INFO root fetch - processPackages [boundaryscheme]: Remove: archive file [/home/abi/fetcher/tmp/boundaryscheme-2.3.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [boundaryscheme]: Remove: archive file [/home/abi/fetcher/tmp/boundaryscheme-2.4.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [boundaryscheme]: Start processing: wmill
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [boundaryscheme]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-19 11:43:39] INFO root fetch - processPackages [menuloading-pygame]: Remove: archive file [/home/abi/fetcher/tmp/menuloading_pygame-0.0.1.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [menuloading-pygame]: Remove: archive file [/home/abi/fetcher/tmp/menuloading_pygame-0.0.2.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [menuloading-pygame]: Start processing: wmill-pg
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [menuloading-pygame]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230619/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.2.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.3.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-19 11:43:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.6.0-py3-none-any.whl.zip]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.6.1-py3-none-any.whl.zip]
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [drift-cli]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.8.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.9.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.25.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.26.tar.gz]
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-19 11:43:39] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-19 11:43:39] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-19 11:43:39] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-19 11:43:39] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230619/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-19 11:43:40] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-19 11:43:40] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-19 11:43:40] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-19 11:43:40] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-19 11:43:40] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-19 11:43:40] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-19 11:43:55] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-19 11:43:55] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-19 11:43:55] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-19 11:43:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-19 11:43:57] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-19 11:43:57] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-19 11:44:10] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-19 11:44:10] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-19 11:44:10] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-19 11:44:10] INFO root fetch - main [MainThread]: Store serial: [18558182]
