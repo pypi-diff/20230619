@@ -13662,3 +13662,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:02:04] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.1rc9.tar.gz]
 [2023-06-19 12:02:04] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
 [2023-06-19 12:02:04] INFO root fetch - main [MainThread]: Store serial: [18558317]
+[2023-06-19 12:07:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558317]
+[2023-06-19 12:07:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rberga06-utils
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dist_matrix
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypoolstation
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvalueobjects
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forestadmin-datasource-toolkit
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thundra
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybox-toolkit
+[2023-06-19 12:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robin-sd-download
+[2023-06-19 12:07:14] INFO root fetch - processPackages [dist_matrix]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [rberga06-utils]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [lollms]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [pyvalueobjects]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [robin-sd-download]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.8.dev5] Old Version: [0.1.8.dev3]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [pypoolstation]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-19 12:07:14] INFO root fetch - processPackages [dist_matrix]: Downloading https://files.pythonhosted.org/packages/7b/31/6e8f14477455b6f9df71ad32c70001382893da4e9f86157d2df0f35cbe4c/dist_matrix-1.0.3.tar.gz
+[2023-06-19 12:07:14] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/45/b6349c06588f1d5f21ce97c0b5b4fc281c8010bf7bd4c9bde7ac71be9499/pybox-toolkit-0.1.8.dev3.tar.gz
+[2023-06-19 12:07:14] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 12:07:14] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 12:07:14] INFO root fetch - processPackages [pypoolstation]: Downloading https://files.pythonhosted.org/packages/c2/92/8199b686fb6c3837be482489108caa536f0f8648dd09f700fffd366f1655/pypoolstation-0.5.2.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/ca/de/1a6af590e687c25b318c743d3eca546355ddd4ef63b8bafad7c6ad78cde3/robin_sd_download-0.3.5.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/5e/a2/50c5c94fd5e4a2d8b2f03f89ef28f1aa77e9561cc8801c0e4c7b4d3086b5/pyvalueobjects-0.8.1.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [rberga06-utils]: Downloading https://files.pythonhosted.org/packages/70/5e/be9dc1d6d2946c987a0f3926c5caa8aedc0a361aaa5fa1e8b5012fb3a289/rberga06_utils-0.0.1.dev2.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 12:07:15] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/1d/86/77f5fd6196070a2decf901c094067c5822449dd43f9fea7c1b9862c458f2/lollms-1.2.6.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 12:07:15] INFO root fetch - processPackages [dist_matrix]: Downloading https://files.pythonhosted.org/packages/92/f9/71f1ddb26666c97ff2eacc4768134476a6ef6f5028b3eea3ab30ff592e30/dist_matrix-1.0.4.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [dist_matrix]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [dist_matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dist_matrix-1.0.3.tar.gz tmp/dist_matrix-1.0.4.tar.gz --markdown 20230619/d/dist_matrix/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31795189>=10485760
+[2023-06-19 12:07:15] INFO root fetch - processPackages [lollms]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-06-19 12:07:15] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/d3/f9/d99e8348d289b8030526ebb3586d497350615fb49db7e02afd540907764c/pybox-toolkit-0.1.8.dev5.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pypoolstation]: Downloading https://files.pythonhosted.org/packages/6e/61/aa12c64597c4181363e04e02faab74e300a2a976f69b288b7c0103242dde/pypoolstation-0.5.3.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pypoolstation]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pypoolstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypoolstation-0.5.2.tar.gz tmp/pypoolstation-0.5.3.tar.gz --markdown 20230619/p/pypoolstation/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/be/9f/b1b788501f6b3a2e7a44153dfac8828c7d91cf87ef5297c63081902ffee1/pyvalueobjects-0.9.0.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.8.dev3.tar.gz tmp/pybox-toolkit-0.1.8.dev5.tar.gz --markdown 20230619/p/pybox-toolkit/0.1.8.dev3-0.1.8.dev5/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/97/b7/a1da268e7641e35cb66dfc3d79e99b19830b6ff94673c9795fc2e2d2c3bf/robin_sd_download-0.3.6.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [rberga06-utils]: Downloading https://files.pythonhosted.org/packages/ac/d3/ed2fb0c24e642839d660c10f0641ec72f9387f5c90c2ddac20c0773028d9/rberga06_utils-0.0.1.dev3-py3-none-any.whl
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pyvalueobjects]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [pyvalueobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalueobjects-0.8.1.tar.gz tmp/pyvalueobjects-0.9.0.tar.gz --markdown 20230619/p/pyvalueobjects/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.3.5.tar.gz tmp/robin_sd_download-0.3.6.tar.gz --markdown 20230619/r/robin-sd-download/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [rberga06-utils]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [rberga06-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rberga06_utils-0.0.1.dev2.tar.gz tmp/rberga06_utils-0.0.1.dev3-py3-none-any.whl.zip --markdown 20230619/r/rberga06-utils/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230619/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-06-19 12:07:15] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230619/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-19 12:07:16] INFO root fetch - processPackages [pypoolstation]: Remove: archive file [/home/abi/fetcher/tmp/pypoolstation-0.5.2.tar.gz]
+[2023-06-19 12:07:16] INFO root fetch - processPackages [pypoolstation]: Remove: archive file [/home/abi/fetcher/tmp/pypoolstation-0.5.3.tar.gz]
+[2023-06-19 12:07:16] INFO root fetch - processPackages [pypoolstation]: Start processing: emailalert
+[2023-06-19 12:07:16] INFO root fetch - main [MainThread]: End processing [pypoolstation]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [emailalert]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [thundra]: Start processing: forestadmin-agent-toolkit
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/eb/b7/99a9607c1d57d84ac00a05f6f6ba1ec7d3cb860fbba3ea7a16c68bcf85c6/emailalert-1.1.5.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [dist_matrix]: Remove: archive file [/home/abi/fetcher/tmp/dist_matrix-1.0.3.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [dist_matrix]: Remove: archive file [/home/abi/fetcher/tmp/dist_matrix-1.0.4.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [dist_matrix]: Start processing: sleepeeg
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [dist_matrix]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/95/59/3d6230d530c2242aff510014f9eeae89a0b57e60c3b7bfb296617bc143c2/emailalert-1.1.6.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [sleepeeg]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.8.dev3.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.8.dev5.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 12:07:17] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.5.tar.gz tmp/emailalert-1.1.6.tar.gz --markdown 20230619/e/emailalert/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-19 12:07:17] INFO root fetch - processPackages [rberga06-utils]: Remove: archive file [/home/abi/fetcher/tmp/rberga06_utils-0.0.1.dev2.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [rberga06-utils]: Remove: archive file [/home/abi/fetcher/tmp/rberga06_utils-0.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [rberga06-utils]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/56/4e/33cf14c3b60e73f9c5a9291f719cd91aa83a3be648605878d877e5f3ce39/sleepeeg-0.2.2.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [robin-sd-download]: Remove: archive file [/home/abi/fetcher/tmp/robin_sd_download-0.3.5.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [robin-sd-download]: Remove: archive file [/home/abi/fetcher/tmp/robin_sd_download-0.3.6.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230619/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-19 12:07:17] INFO root fetch - processPackages [pyvalueobjects]: Remove: archive file [/home/abi/fetcher/tmp/pyvalueobjects-0.8.1.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [pyvalueobjects]: Remove: archive file [/home/abi/fetcher/tmp/pyvalueobjects-0.9.0.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [pyvalueobjects]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz]
+[2023-06-19 12:07:17] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-06-19 12:07:17] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/43/7d/8ac45273ef76373fd1aa80d7718ec581ea068f8814b270a3754fa19990ee/sleepeeg-0.2.3.tar.gz
+[2023-06-19 12:07:17] INFO root fetch - processPackages [sleepeeg]: executing diffoscope
+[2023-06-19 12:07:17] INFO root fetch - processPackages [sleepeeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepeeg-0.2.2.tar.gz tmp/sleepeeg-0.2.3.tar.gz --markdown 20230619/s/sleepeeg/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-19 12:07:18] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 12:07:18] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.5.tar.gz]
+[2023-06-19 12:07:18] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.6.tar.gz]
+[2023-06-19 12:07:18] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 12:07:19] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-06-19 12:07:19] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.2.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.3.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - main [MainThread]: End processing [sleepeeg]: success
+[2023-06-19 12:07:19] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz]
+[2023-06-19 12:07:19] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-06-19 12:07:19] INFO root fetch - main [MainThread]: Store serial: [18558357]
