@@ -7245,3 +7245,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:01:17] INFO root fetch - processPackages [wfuzzserver]: Remove: archive file [/home/abi/fetcher/tmp/wfuzzserver-3.2.0.tar.gz]
 [2023-06-19 07:01:17] INFO root fetch - main [MainThread]: End processing [wfuzzserver]: success
 [2023-06-19 07:01:17] INFO root fetch - main [MainThread]: Store serial: [18555841]
+[2023-06-19 07:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555841]
+[2023-06-19 07:06:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: networkcalculator
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selis
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamerinsta
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykegg
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbaa
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chanpackage
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-global-discount
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-server-backend
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapid-pe
+[2023-06-19 07:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selis
+[2023-06-19 07:06:25] INFO root fetch - processPackages [gamerinsta]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [pykegg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [networkcalculator]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20230618.0] Old Version: [16.0.20230617.0]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [pbaa]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [selis]: New version: [3.2] Old Version: [3.1]
+[2023-06-19 07:06:25] INFO root fetch - processPackages [odoo-addon-base-global-discount]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-06-19 07:06:25] WARNING root fetch - processPackages [chanpackage]: Skipping, unable to determine old version
+[2023-06-19 07:06:25] INFO root fetch - processPackages [chanpackage]: Start processing: geo-espresso
+[2023-06-19 07:06:25] INFO root fetch - processPackages [selis]: New version: [3.2] Old Version: [3.1]
+[2023-06-19 07:06:25] INFO root fetch - main [MainThread]: End processing [chanpackage] error
+[2023-06-19 07:06:26] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230619] Old Version: [0.1.1.dev20230618]
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/39/f7/dae595564b40fa4e76b17f847bdc357fc7498e549ed3e471e4517cd57f1c/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pbaa]: Downloading https://files.pythonhosted.org/packages/45/f2/f9f4f3be16366316af01f0ce68851c8ac92ca36d478192b42e1b8e64b9b8/pbaa-1.0.2.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/f2/49/366d8401928b786d598cc4724b341478af4c14efe36d897a713fdf943e96/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 07:06:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9a/a2/fd06b41c3a91e1648e5d19ea4b0e7cc9b274ea4e290b5cf748b85c1751c9/rapid_pe-0.1.1.dev20230618.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/32/e9/f7b9edd6405e30c08953e2ba92a5151f617fa2e236511bfd087d49af45e2/networkcalculator-0.0.2.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/d2/8d/8a12475836f51dc43f0b8d9acb0ed20aa5c41625b6c09a52069c7e5d9a81/selis-3.1.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [gamerinsta]: Downloading https://files.pythonhosted.org/packages/8f/3f/433322623084ce39fe63ef01a5a92b9a35d3dbdb4ef9071d7949713343f3/gamerinsta-0.0.3.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/d2/8d/8a12475836f51dc43f0b8d9acb0ed20aa5c41625b6c09a52069c7e5d9a81/selis-3.1.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/a5/3f/773f6467f88b98b28e42dfff7a8fdb809461ac3a11667e9daaef56627153/pykegg-0.0.5.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/f8/a5/a7ac2c1573d933da33ec19ed53c1882ced076edc15f3f3182271990aa129/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/08/b0/049a87110d8d439a83373a098c395585935899e922ae56de9889afddc83d/odoo_addon_base_global_discount-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-19 07:06:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/41/55/523a62283bed7b20e434c235c29ba116dbd3de61844120a07f61b72ca923/rapid_pe-0.1.1.dev20230619.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [gamerinsta]: Downloading https://files.pythonhosted.org/packages/1a/d0/85d65b0d690400cf4babbd0a1913daeabf62b93c80deabc717c369ce02d7/gamerinsta-0.0.4.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl.zip --markdown 20230619/o/odoo-addons-oca-server-backend/16.0.20230617.0-16.0.20230618.0/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/50/12/18e65f38149492e8fffdd88f74242906be4b572d09daf79b5f1b589970e1/networkcalculator-1.0.0.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/87/b0/9509bf6c1849374f1567576275a6f80105d17d118cba9254ae8b43cf84d4/selis-3.2.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/9b/d4/385e1c837e47b9d53f2e35ab35e8a811a3f9e6d694fce0f2af1322e68efd/geo-espresso-0.3.7.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/87/b0/9509bf6c1849374f1567576275a6f80105d17d118cba9254ae8b43cf84d4/selis-3.2.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addon-base-global-discount]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [odoo-addon-base-global-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_global_discount-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-base-global-discount/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [gamerinsta]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [gamerinsta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamerinsta-0.0.3.tar.gz tmp/gamerinsta-0.0.4.tar.gz --markdown 20230619/g/gamerinsta/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pbaa]: Downloading https://files.pythonhosted.org/packages/f6/b2/f6d9acd413712d9bce9b3bed6b5fa4591f54391172bb50a5c7184e295681/pbaa-1.0.3.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.1.tar.gz tmp/selis-3.2.tar.gz --markdown 20230619/s/selis/3.1-3.2/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.1.tar.gz tmp/selis-3.2.tar.gz --markdown 20230619/s/selis/3.1-3.2/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-0.0.2.tar.gz tmp/networkcalculator-1.0.0.tar.gz --markdown 20230619/n/networkcalculator/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230618.tar.gz tmp/rapid_pe-0.1.1.dev20230619.tar.gz --markdown 20230619/r/rapid-pe/0.1.1.dev20230618-0.1.1.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pbaa]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pbaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbaa-1.0.2.tar.gz tmp/pbaa-1.0.3.tar.gz --markdown 20230619/p/pbaa/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/f0/03/a0367a703ff47135825387e88df653495c21e12ae81390a9156d48cf059b/pykegg-0.0.6.tar.gz
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pykegg]: executing diffoscope
+[2023-06-19 07:06:26] INFO root fetch - processPackages [pykegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykegg-0.0.5.tar.gz tmp/pykegg-0.0.6.tar.gz --markdown 20230619/p/pykegg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 07:06:26] WARNING root fetch - processPackages [geo-espresso]: Skipping package: exceeds size limit 72132152>=10485760
+[2023-06-19 07:06:26] INFO root fetch - main [MainThread]: End processing [geo-espresso] error
+[2023-06-19 07:06:27] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230617.0-py3-none-any.whl.zip]
+[2023-06-19 07:06:27] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230618.0-py3-none-any.whl.zip]
+[2023-06-19 07:06:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2023-06-19 07:06:27] INFO root fetch - processPackages [gamerinsta]: Remove: archive file [/home/abi/fetcher/tmp/gamerinsta-0.0.3.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - processPackages [gamerinsta]: Remove: archive file [/home/abi/fetcher/tmp/gamerinsta-0.0.4.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - main [MainThread]: End processing [gamerinsta]: success
+[2023-06-19 07:06:27] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-0.0.2.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.0.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-19 07:06:27] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.1.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.2.tar.gz]
+[2023-06-19 07:06:27] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-19 07:06:28] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 07:06:28] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-19 07:06:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-global-discount]: success
+[2023-06-19 07:06:28] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-19 07:06:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230618.tar.gz]
+[2023-06-19 07:06:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230619.tar.gz]
+[2023-06-19 07:06:28] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-19 07:06:28] INFO root fetch - processPackages [pbaa]: Remove: archive file [/home/abi/fetcher/tmp/pbaa-1.0.2.tar.gz]
+[2023-06-19 07:06:28] INFO root fetch - processPackages [pbaa]: Remove: archive file [/home/abi/fetcher/tmp/pbaa-1.0.3.tar.gz]
+[2023-06-19 07:06:28] INFO root fetch - main [MainThread]: End processing [pbaa]: success
+[2023-06-19 07:06:30] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.0.5.tar.gz]
+[2023-06-19 07:06:30] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.0.6.tar.gz]
+[2023-06-19 07:06:30] INFO root fetch - main [MainThread]: End processing [pykegg]: success
+[2023-06-19 07:06:30] INFO root fetch - main [MainThread]: Store serial: [18555873]
