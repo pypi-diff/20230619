@@ -22303,3 +22303,243 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 17:38:34] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.2.tar.gz]
 [2023-06-19 17:38:34] INFO root fetch - main [MainThread]: End processing [anywidget]: success
 [2023-06-19 17:38:34] INFO root fetch - main [MainThread]: Store serial: [18561754]
+[2023-06-19 17:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561754]
+[2023-06-19 17:43:43] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bookio-fetchfox
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kraken-build
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mahmoud001
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-common
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-core
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-wrapper
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-std
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: domino-composite
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: costcalc2
+[2023-06-19 17:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abstra
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-build]: New version: [0.25.0] Old Version: [0.24.3]
+[2023-06-19 17:43:44] WARNING root fetch - processPackages [mahmoud001]: Skipping, unable to determine old version
+[2023-06-19 17:43:44] INFO root fetch - processPackages [mahmoud001]: Start processing: ostorlab
+[2023-06-19 17:43:44] INFO root fetch - main [MainThread]: End processing [mahmoud001] error
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.25.0] Old Version: [0.24.3]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [domino-composite]: New version: [0.27] Old Version: [0.262]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [costcalc2]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [abstra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [ostorlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/93/87/1a39a00a6f75215d6d3b8362d580a6894b0344de777659a71b2ddad1ad7e/kraken_build-0.24.3.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/8b/6f/63bafb4b05228e1703bc8b140f7c0382548bbb6b4eacf3f1a5c6d919c8b9/kraken_wrapper-0.24.3.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/05/28/f72832c041e0b2b0b63df0d3511c62d5fcbca5ba96f7d4a263a7454e6806/abstra-0.8.0.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/be/8b/00f0981f534c7ee290cb00bed955398830648a91a2d6e5855b14de4b3006/ostorlab-0.9.8.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [costcalc2]: Downloading https://files.pythonhosted.org/packages/e8/c0/d124d1f3b357920e5c53ece0520283d15638527af14f9565ae4e5d3ec09e/costcalc2-0.9.0.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [domino-composite]: Downloading https://files.pythonhosted.org/packages/03/61/ddb555775b39715865b362c1a41ab5100270401c76efff6ba8f7c9343006/domino-composite-0.262.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/53/b0/210e93eceb08f1666cd15ef523580965cb7020363a0db1d10cd50c9a5b2e/abstra-0.9.0.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/60/92/50a7ca7206a026539fc495e2cabebeef58e3710d8e16995a6791a80b9916/kraken_build-0.25.0.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230619/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/97/12/340038665f54d69c0f0bb9c6e7647ae5593487a496529545b183cf5c0be9/kraken_wrapper-0.25.0.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-0.8.0.tar.gz tmp/abstra-0.9.0.tar.gz --markdown 20230619/a/abstra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230619/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/50/91/27ce633738c25d70533945694425cc25183ef5789757782274369dbc31b0/ostorlab-0.9.9.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230619/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.24.3.tar.gz tmp/kraken_wrapper-0.25.0.tar.gz --markdown 20230619/k/kraken-wrapper/0.24.3-0.25.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.24.3.tar.gz tmp/kraken_build-0.25.0.tar.gz --markdown 20230619/k/kraken-build/0.24.3-0.25.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230619/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [domino-composite]: Downloading https://files.pythonhosted.org/packages/61/c9/5daee716d75f3fa224ccf0d08a4580677d8df10caa8011cc31df8df6aab4/domino-composite-0.27.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [costcalc2]: Downloading https://files.pythonhosted.org/packages/40/6b/a0d29eabd3b70447b3c5c0c4d9f92ae1ce87168e31c28ab8bf5691d0fe7e/costcalc2-0.9.1.tar.gz
+[2023-06-19 17:43:44] INFO root fetch - processPackages [domino-composite]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [domino-composite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-composite-0.262.tar.gz tmp/domino-composite-0.27.tar.gz --markdown 20230619/d/domino-composite/0.262-0.27/diff.md --exclude *.pyd
+[2023-06-19 17:43:44] INFO root fetch - processPackages [costcalc2]: executing diffoscope
+[2023-06-19 17:43:44] INFO root fetch - processPackages [costcalc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/costcalc2-0.9.0.tar.gz tmp/costcalc2-0.9.1.tar.gz --markdown 20230619/c/costcalc2/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 17:43:45] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2023-06-19 17:43:45] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-0.9.8.tar.gz tmp/ostorlab-0.9.9.tar.gz --markdown 20230619/o/ostorlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.24.3.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.25.0.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-wrapper]: Start processing: bothlent-asr-eval
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bothlent-asr-eval]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-common]: Start processing: rucio
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.24.3.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.25.0.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-build]: Start processing: rucio-clients
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio-clients]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [domino-composite]: Remove: archive file [/home/abi/fetcher/tmp/domino-composite-0.262.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [domino-composite]: Remove: archive file [/home/abi/fetcher/tmp/domino-composite-0.27.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [domino-composite]: Start processing: rucio-webui
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [domino-composite]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bothlent-asr-eval]: Downloading https://files.pythonhosted.org/packages/a7/a8/e4453bf4d316e8c356256bca5b7910e175c06adb94060bdb96913e942d19/bothlent_asr_eval-1.0.0-py3-none-any.whl
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio-webui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bookio-fetchfox]: Start processing: typos
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [typos]: New version: [1.15.1] Old Version: [1.15.0]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/c2/b5/337a96cd4693af223ec5c66ba8d0479888dfc40b0507fae48e01f5a302d5/rucio-clients-1.9.5.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/91/8f/9393746d35a84d9c642188a5fb30dbc886497642a6075bc2d6507a1a8bc0/rucio-1.9.5.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bothlent-asr-eval]: Downloading https://files.pythonhosted.org/packages/f0/12/cd674aed5e9f856692bf93526f3c5f80777962a2e73c341197a8d74a322e/bothlent_asr_eval-1.0.1-py3-none-any.whl
+[2023-06-19 17:43:46] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f4/6b/3726a7681cd770c42ac968f151b94735a11d1d8eceba70dd0c329d7a140a/rucio-webui-1.9.5.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [kraken-core]: Start processing: etm-dgraham
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/2b/fb/b3a921770110ba09c7ffa2892bd6b460313b68ea1560e6d77de0bf1c7125/typos-1.15.0.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bothlent-asr-eval]: executing diffoscope
+[2023-06-19 17:43:46] INFO root fetch - processPackages [bothlent-asr-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bothlent_asr_eval-1.0.0-py3-none-any.whl.zip tmp/bothlent_asr_eval-1.0.1-py3-none-any.whl.zip --markdown 20230619/b/bothlent-asr-eval/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 17:43:46] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [costcalc2]: Remove: archive file [/home/abi/fetcher/tmp/costcalc2-0.9.0.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [costcalc2]: Remove: archive file [/home/abi/fetcher/tmp/costcalc2-0.9.1.tar.gz]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [costcalc2]: Start processing: design.plone.ioprenoto
+[2023-06-19 17:43:46] INFO root fetch - main [MainThread]: End processing [costcalc2]: success
+[2023-06-19 17:43:46] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 17:43:46] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/3f/cb/242d0285516fca4371f63b7b2ce1cb6315ed35ab221ce71adc8292384723/etm-dgraham-5.1.2.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/46/d2/7518903cf72360094afd21a518c0d8b5ea64ad1f9b379c0740eb1c0646ac/design.plone.ioprenoto-1.0.8.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/2b/3b/b9eef87eeffffe937a16fcc634227a1bdfb057312d52fc11b9536e8a2e9b/etm-dgraham-5.1.3.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/58/99/04783f5c195b7fed5d549fb616fde6c855332034b380b90309f2dacdb2ec/design.plone.ioprenoto-1.0.9.tar.gz
+[2023-06-19 17:43:46] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-19 17:43:46] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.1.2.tar.gz tmp/etm-dgraham-5.1.3.tar.gz --markdown 20230619/e/etm-dgraham/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2023-06-19 17:43:47] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.0.8.tar.gz tmp/design.plone.ioprenoto-1.0.9.tar.gz --markdown 20230619/d/design.plone.ioprenoto/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.8.0.tar.gz]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [abstra]: Start processing: cubelib
+[2023-06-19 17:43:47] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2023-06-19 17:43:47] INFO root fetch - processPackages [cubelib]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/93/1f/f9837efaecec75a85a847df467780ccfafd978a2302a78c6ca301da3ad35/typos-1.15.1.tar.gz
+[2023-06-19 17:43:47] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [kraken-std]: Start processing: fetchers23
+[2023-06-19 17:43:47] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-06-19 17:43:47] WARNING root fetch - processPackages [fetchers23]: Skipping, unable to determine old version
+[2023-06-19 17:43:47] INFO root fetch - processPackages [fetchers23]: Start processing: volt-client-web
+[2023-06-19 17:43:47] INFO root fetch - main [MainThread]: End processing [fetchers23] error
+[2023-06-19 17:43:47] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-06-19 17:43:47] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.15.0.tar.gz tmp/typos-1.15.1.tar.gz --markdown 20230619/t/typos/1.15.0-1.15.1/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [volt-client-web]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [cubelib]: Downloading https://files.pythonhosted.org/packages/1f/86/3948be8c5d6b7aa4c0b62811f974d13cf1ec8a6b200f853da7d373a39126/cubelib-1.0.7-py3-none-any.whl
+[2023-06-19 17:43:47] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/00/15/e82728227b981cabac1cf3464b987d81eb2aa4c5a38a85300457096484de/volt_client_web-0.1.5.tar.gz
+[2023-06-19 17:43:47] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/7e/d3/df65f86894f8b3f09c88db4456cff382dafe6909f679f62cbcfaebf3e316/rucio-webui-1.9.6.tar.gz
+[2023-06-19 17:43:47] INFO root fetch - processPackages [cubelib]: Downloading https://files.pythonhosted.org/packages/73/dc/818b920fa78febdb03d2f1f1dbc7f7096657ee2fdfe34e8178f374018ac5/cubelib-1.0.8-py3-none-any.whl
+[2023-06-19 17:43:47] INFO root fetch - processPackages [bothlent-asr-eval]: Remove: archive file [/home/abi/fetcher/tmp/bothlent_asr_eval-1.0.0-py3-none-any.whl.zip]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [bothlent-asr-eval]: Remove: archive file [/home/abi/fetcher/tmp/bothlent_asr_eval-1.0.1-py3-none-any.whl.zip]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [bothlent-asr-eval]: Start processing: bring-order
+[2023-06-19 17:43:47] INFO root fetch - main [MainThread]: End processing [bothlent-asr-eval]: success
+[2023-06-19 17:43:47] INFO root fetch - processPackages [bring-order]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-19 17:43:47] INFO root fetch - processPackages [cubelib]: executing diffoscope
+[2023-06-19 17:43:47] INFO root fetch - processPackages [cubelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubelib-1.0.7-py3-none-any.whl.zip tmp/cubelib-1.0.8-py3-none-any.whl.zip --markdown 20230619/c/cubelib/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-06-19 17:43:47] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-1.9.5.tar.gz tmp/rucio-webui-1.9.6.tar.gz --markdown 20230619/r/rucio-webui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [volt-client-web]: Downloading https://files.pythonhosted.org/packages/db/53/3499a32c1b7d5329f8dea4529f43d584ee23921a28d32930024f95b4c4b0/volt_client_web-0.1.6.tar.gz
+[2023-06-19 17:43:47] INFO root fetch - processPackages [volt-client-web]: executing diffoscope
+[2023-06-19 17:43:47] INFO root fetch - processPackages [volt-client-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volt_client_web-0.1.5.tar.gz tmp/volt_client_web-0.1.6.tar.gz --markdown 20230619/v/volt-client-web/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-19 17:43:47] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/2b/24/7b64959964c59725ce5b5309d788438f679d586df7a7b9ba8e436f83e5d8/bring-order-0.1.3.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/47/b8/3b754465ea74b50673a1e61821035ced63ccc38c25fb1d4af37d506d7cb9/bring-order-0.2.0.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [bring-order]: executing diffoscope
+[2023-06-19 17:43:48] INFO root fetch - processPackages [bring-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bring-order-0.1.3.tar.gz tmp/bring-order-0.2.0.tar.gz --markdown 20230619/b/bring-order/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:48] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/82/02/5361243e1dd8c362dcce384dcb6c75eda1ba21c1a13e6adfc8fdd213ec83/rucio-clients-1.9.6.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/ce/ee/fea8546fec5e6d0d84526dfe28b29f16809196b3001054c3a8e1ab77da45/rucio-1.9.6.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.8.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.9.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [design.plone.ioprenoto]: Start processing: mahmoud0001
+[2023-06-19 17:43:48] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2023-06-19 17:43:48] WARNING root fetch - processPackages [mahmoud0001]: Skipping, unable to determine old version
+[2023-06-19 17:43:48] INFO root fetch - processPackages [mahmoud0001]: Start processing: webhooklib
+[2023-06-19 17:43:48] INFO root fetch - main [MainThread]: End processing [mahmoud0001] error
+[2023-06-19 17:43:48] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.2.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.3.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [etm-dgraham]: Start processing: dpytest
+[2023-06-19 17:43:48] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-19 17:43:48] INFO root fetch - processPackages [dpytest]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-19 17:43:48] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230619/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:48] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.5.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [volt-client-web]: Remove: archive file [/home/abi/fetcher/tmp/volt_client_web-0.1.6.tar.gz]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [volt-client-web]: Start processing: hsmm-mvpy
+[2023-06-19 17:43:48] INFO root fetch - main [MainThread]: End processing [volt-client-web]: success
+[2023-06-19 17:43:48] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b3] Old Version: [0.1.0b1]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [dpytest]: Downloading https://files.pythonhosted.org/packages/3f/d9/39f58b2142c01bbfcbd9ea06b89861f8e2bd3ca501012e6401963b5feb75/dpytest-0.6.8.tar.gz
+[2023-06-19 17:43:48] INFO root fetch - processPackages [cubelib]: Remove: archive file [/home/abi/fetcher/tmp/cubelib-1.0.7-py3-none-any.whl.zip]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [cubelib]: Remove: archive file [/home/abi/fetcher/tmp/cubelib-1.0.8-py3-none-any.whl.zip]
+[2023-06-19 17:43:48] INFO root fetch - processPackages [cubelib]: Start processing: consolegame
+[2023-06-19 17:43:48] INFO root fetch - main [MainThread]: End processing [cubelib]: success
+[2023-06-19 17:43:49] WARNING root fetch - processPackages [consolegame]: Skipping, unable to determine old version
+[2023-06-19 17:43:49] INFO root fetch - processPackages [consolegame]: Start processing: fbnlab-preview
+[2023-06-19 17:43:49] INFO root fetch - main [MainThread]: End processing [consolegame] error
+[2023-06-19 17:43:49] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-19 17:43:49] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d8/60/c5c01d43a500736a986b39889e2d6388bc9cc4cfc133f03e2faf98be773f/fbnlab_preview-0.1.6-py3-none-any.whl
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/bc/65/b64a2aac5c291a815e9cf4057dfec545376aa7b0808771de65f1a97c0eb5/hsmm_mvpy-0.1.0b1.tar.gz
+[2023-06-19 17:43:49] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-06-19 17:43:49] INFO root fetch - processPackages [dpytest]: Downloading https://files.pythonhosted.org/packages/7c/4f/d04bb7cd18acc6c4a626eb624f443c33c4e9c1727d2261dd7af47c1daea4/dpytest-0.7.0.tar.gz
+[2023-06-19 17:43:49] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-06-19 17:43:49] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230619/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-19 17:43:49] INFO root fetch - processPackages [dpytest]: executing diffoscope
+[2023-06-19 17:43:49] INFO root fetch - processPackages [dpytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpytest-0.6.8.tar.gz tmp/dpytest-0.7.0.tar.gz --markdown 20230619/d/dpytest/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:49] INFO root fetch - processPackages [bring-order]: Remove: archive file [/home/abi/fetcher/tmp/bring-order-0.1.3.tar.gz]
+[2023-06-19 17:43:49] INFO root fetch - processPackages [bring-order]: Remove: archive file [/home/abi/fetcher/tmp/bring-order-0.2.0.tar.gz]
+[2023-06-19 17:43:49] INFO root fetch - processPackages [bring-order]: Start processing: hello2
+[2023-06-19 17:43:49] INFO root fetch - main [MainThread]: End processing [bring-order]: success
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hello2]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/29/b9/c77f102d1217a8bc139d025c94f48bde4dc5a2624ac747b0708354124b10/hsmm_mvpy-0.1.0b3.tar.gz
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b1.tar.gz tmp/hsmm_mvpy-0.1.0b3.tar.gz --markdown 20230619/h/hsmm-mvpy/0.1.0b1-0.1.0b3/diff.md --exclude *.pyd
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/6c/ee/e7695c6ae6a126ac1689edab1816caadf6ec4e2ed8939a3ce6426d2347e6/hello2-1.9.9.tar.gz
+[2023-06-19 17:43:49] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-19 17:43:49] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-06-19 17:43:49] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-19 17:43:49] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/28/2d/562b1b249070f302b312948b1c9cdc80ee766ae1d680b0e183b0d18831e4/hello2-2.0.0.tar.gz
+[2023-06-19 17:43:50] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-06-19 17:43:50] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-1.9.5.tar.gz tmp/rucio-clients-1.9.6.tar.gz --markdown 20230619/r/rucio-clients/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-19 17:43:50] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-19 17:43:50] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.9.tar.gz tmp/hello2-2.0.0.tar.gz --markdown 20230619/h/hello2/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 17:43:50] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-06-19 17:43:50] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-1.9.5.tar.gz tmp/rucio-1.9.6.tar.gz --markdown 20230619/r/rucio/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-19 17:43:50] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip]
+[2023-06-19 17:43:50] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip]
+[2023-06-19 17:43:50] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-06-19 17:43:50] INFO root fetch - processPackages [dpytest]: Remove: archive file [/home/abi/fetcher/tmp/dpytest-0.6.8.tar.gz]
+[2023-06-19 17:43:50] INFO root fetch - processPackages [dpytest]: Remove: archive file [/home/abi/fetcher/tmp/dpytest-0.7.0.tar.gz]
+[2023-06-19 17:43:50] INFO root fetch - main [MainThread]: End processing [dpytest]: success
+[2023-06-19 17:43:50] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b1.tar.gz]
+[2023-06-19 17:43:50] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b3.tar.gz]
+[2023-06-19 17:43:50] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-06-19 17:43:52] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-1.9.5.tar.gz]
+[2023-06-19 17:43:52] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-1.9.6.tar.gz]
+[2023-06-19 17:43:52] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-06-19 17:43:53] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.9.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.0.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-19 17:43:53] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-0.9.8.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-0.9.9.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2023-06-19 17:43:53] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.0.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.1.tar.gz]
+[2023-06-19 17:43:53] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-06-19 17:43:57] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-1.9.5.tar.gz]
+[2023-06-19 17:43:57] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-1.9.6.tar.gz]
+[2023-06-19 17:43:57] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-06-19 17:44:04] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.5.tar.gz]
+[2023-06-19 17:44:04] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.6.tar.gz]
+[2023-06-19 17:44:04] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-06-19 17:44:04] INFO root fetch - main [MainThread]: Store serial: [18561852]
