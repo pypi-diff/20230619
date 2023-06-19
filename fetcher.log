@@ -8771,3 +8771,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:52:53] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a6.tar.gz]
 [2023-06-19 08:52:53] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2023-06-19 08:52:53] INFO root fetch - main [MainThread]: Store serial: [18556410]
+[2023-06-19 08:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556410]
+[2023-06-19 08:58:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastervit
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: propeller-design-tools
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adapt
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprojectx
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optscale-arcee
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FunID
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gurux-dlms
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smpgpt
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-follow-withdraw
+[2023-06-19 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brevettiai
+[2023-06-19 08:58:03] INFO root fetch - processPackages [adapt]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [fastervit]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [pyprojectx]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [smpgpt]: New version: [8.0] Old Version: [4.0]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [optscale-arcee]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-06-19 08:58:03] WARNING root fetch - processPackages [nonebot-plugin-follow-withdraw]: Skipping, unable to determine old version
+[2023-06-19 08:58:03] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Start processing: xaitk-saliency
+[2023-06-19 08:58:03] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-19 08:58:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-follow-withdraw] error
+[2023-06-19 08:58:03] INFO root fetch - processPackages [brevettiai]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/da/50/e82931eb9f868813dfd5c849ce12634f868339ed4647a4f0e8e89d4e3f24/smpgpt-4.0.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/05/c1/1651230ba98aaa855d800b2bb576a9089bccf871529e7c5cad3d0f48e56e/propeller_design_tools-0.4.4.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [gurux-dlms]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [xaitk-saliency]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/63/82/028000061c0ae1a4c7c63f81eafa33a54f0f1912a52cbc2427085f8d0374/fastervit-0.8.5.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/f2/fe/0e6a86a6116b6e159ce40b3a1f0250f61563e5fcf0e8c5cfeb677a4fc386/smpgpt-8.0.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [adapt]: Downloading https://files.pythonhosted.org/packages/d5/45/601daeb1a7af4e4d97950c7f020946052fe4785f2b671dd6174a7177c1e4/adapt-0.4.2.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-4.0.tar.gz tmp/smpgpt-8.0.tar.gz --markdown 20230619/s/smpgpt/4.0-8.0/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/70/ab/7b8a22f4c4a66d14c8f567b641dee849971a565a664875d8db3ca1feaaaf/optscale_arcee-0.1.34.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [pyprojectx]: Downloading https://files.pythonhosted.org/packages/28/b9/9f735d567373412a3a8b0708869e584204b844be88f852bf398c2263d046/pyprojectx-1.0.0b4.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [brevettiai]: Downloading https://files.pythonhosted.org/packages/51/7b/7cd70b38f3f4dc15d9b6d4dacf13dc8cfa0a58815f132d15d1ced30785d6/brevettiai-0.8.6.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/3a/19/6ba6cf899efdf6f3e7df7b43471459e895a22370aa70ff24b8ec0d37867b/gurux_dlms-1.0.98.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [xaitk-saliency]: Downloading https://files.pythonhosted.org/packages/87/4d/bb8c99c64e0ce2b291caa76d84963e872fc0e38172f99269642d31ffc967/xaitk_saliency-0.6.1.tar.gz
+[2023-06-19 08:58:03] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-06-19 08:58:03] INFO root fetch - processPackages [FunID]: Start processing: eodc-faas-sen2like
+[2023-06-19 08:58:03] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-06-19 08:58:03] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/b4/55/832e12b8cd89663e059088c8a02b72667a40d22e3a969347373144faadde/fastervit-0.8.6.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.8.5.tar.gz tmp/fastervit-0.8.6.tar.gz --markdown 20230619/f/fastervit/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc3] Old Version: [2023.6.3rc2]
+[2023-06-19 08:58:03] INFO root fetch - processPackages [adapt]: Downloading https://files.pythonhosted.org/packages/38/09/81c15a6fcf5d1b5e80cf6875370e039c5a7f744045b17dfa65dca511a694/adapt-0.4.3.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/ef/9f/6a40c0d2a2cfdfb997f06c5878ec08f121a54f0e8a574c4bb3ed676983de/optscale_arcee-0.1.35.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/bc/24/a9c1e07c783067ca6a6622a92c722178069f50167ad31653280dd7babfc4/propeller_design_tools-0.4.5.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [adapt]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [adapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapt-0.4.2.tar.gz tmp/adapt-0.4.3.tar.gz --markdown 20230619/a/adapt/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [pyprojectx]: Downloading https://files.pythonhosted.org/packages/68/33/f63b0f676682c587413057e9bf4473ee4e2c21210410d28cb608f4ea54e9/pyprojectx-1.0.0b5.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [optscale-arcee]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [brevettiai]: Downloading https://files.pythonhosted.org/packages/88/e7/6303202136745a64e2c0fe47bdae2b041d31fb4856d8ab1e586ab3e3fd79/brevettiai-0.9.0.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [optscale-arcee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optscale_arcee-0.1.34.tar.gz tmp/optscale_arcee-0.1.35.tar.gz --markdown 20230619/o/optscale-arcee/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.4.4.tar.gz tmp/propeller_design_tools-0.4.5.tar.gz --markdown 20230619/p/propeller-design-tools/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [xaitk-saliency]: Downloading https://files.pythonhosted.org/packages/70/a0/e933c8b6174a69ae06e0f7627647803eaff255b61f260dffed568b62d0c7/xaitk_saliency-0.7.0.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/78/1a/1c18501690cab9181a02563f0e3d0fa6fbccf629b76404672791d307f5a7/eodc_faas_sen2like-2023.6.3rc2.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [brevettiai]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [brevettiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brevettiai-0.8.6.tar.gz tmp/brevettiai-0.9.0.tar.gz --markdown 20230619/b/brevettiai/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/ea/9f/4151ff3e3361970601669bef12d45c4bd694cfa85f752d9f267ccbc2f78d/gurux_dlms-1.0.99.tar.gz
+[2023-06-19 08:58:03] INFO root fetch - processPackages [pyprojectx]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [pyprojectx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprojectx-1.0.0b4.tar.gz tmp/pyprojectx-1.0.0b5.tar.gz --markdown 20230619/p/pyprojectx/1.0.0b4-1.0.0b5/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [xaitk-saliency]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [xaitk-saliency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaitk_saliency-0.6.1.tar.gz tmp/xaitk_saliency-0.7.0.tar.gz --markdown 20230619/x/xaitk-saliency/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-19 08:58:03] INFO root fetch - processPackages [gurux-dlms]: executing diffoscope
+[2023-06-19 08:58:03] INFO root fetch - processPackages [gurux-dlms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurux_dlms-1.0.98.tar.gz tmp/gurux_dlms-1.0.99.tar.gz --markdown 20230619/g/gurux-dlms/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-19 08:58:04] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/88/d3/b35d3606f2e490f17a6d47f1e72997b46972cf5460f6e69dc8bb4ec6a8fb/eodc_faas_sen2like-2023.6.3rc3.tar.gz
+[2023-06-19 08:58:04] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-19 08:58:04] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc2.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc3.tar.gz --markdown 20230619/e/eodc-faas-sen2like/2023.6.3rc2-2023.6.3rc3/diff.md --exclude *.pyd
+[2023-06-19 08:58:04] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-4.0.tar.gz]
+[2023-06-19 08:58:04] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-8.0.tar.gz]
+[2023-06-19 08:58:04] INFO root fetch - processPackages [smpgpt]: Start processing: carbin
+[2023-06-19 08:58:04] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 08:58:04] INFO root fetch - processPackages [carbin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-19 08:58:04] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/bf/64/d26c1dc0ce5e681a1c380ac935ca70cb5a90c759b532f4ac94fcf3038a2d/carbin-0.3.0-py3-none-any.whl
+[2023-06-19 08:58:05] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/ad/e3/3307bbc25378b8b025c07486e39e4b8d388a8c3016b8804e2d82a4254070/carbin-0.3.1-py3-none-any.whl
+[2023-06-19 08:58:05] INFO root fetch - processPackages [carbin]: executing diffoscope
+[2023-06-19 08:58:05] INFO root fetch - processPackages [carbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbin-0.3.0-py3-none-any.whl.zip tmp/carbin-0.3.1-py3-none-any.whl.zip --markdown 20230619/c/carbin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 08:58:05] INFO root fetch - processPackages [optscale-arcee]: Remove: archive file [/home/abi/fetcher/tmp/optscale_arcee-0.1.34.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - processPackages [optscale-arcee]: Remove: archive file [/home/abi/fetcher/tmp/optscale_arcee-0.1.35.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - main [MainThread]: End processing [optscale-arcee]: success
+[2023-06-19 08:58:05] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.5.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.6.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-06-19 08:58:05] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc2.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc3.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-19 08:58:05] INFO root fetch - processPackages [adapt]: Remove: archive file [/home/abi/fetcher/tmp/adapt-0.4.2.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - processPackages [adapt]: Remove: archive file [/home/abi/fetcher/tmp/adapt-0.4.3.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - main [MainThread]: End processing [adapt]: success
+[2023-06-19 08:58:05] INFO root fetch - processPackages [xaitk-saliency]: Remove: archive file [/home/abi/fetcher/tmp/xaitk_saliency-0.6.1.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - processPackages [xaitk-saliency]: Remove: archive file [/home/abi/fetcher/tmp/xaitk_saliency-0.7.0.tar.gz]
+[2023-06-19 08:58:05] INFO root fetch - main [MainThread]: End processing [xaitk-saliency]: success
+[2023-06-19 08:58:06] INFO root fetch - processPackages [pyprojectx]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectx-1.0.0b4.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - processPackages [pyprojectx]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectx-1.0.0b5.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - main [MainThread]: End processing [pyprojectx]: success
+[2023-06-19 08:58:06] INFO root fetch - processPackages [brevettiai]: Remove: archive file [/home/abi/fetcher/tmp/brevettiai-0.8.6.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - processPackages [brevettiai]: Remove: archive file [/home/abi/fetcher/tmp/brevettiai-0.9.0.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - main [MainThread]: End processing [brevettiai]: success
+[2023-06-19 08:58:06] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.4.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.5.tar.gz]
+[2023-06-19 08:58:06] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-19 08:58:06] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.0-py3-none-any.whl.zip]
+[2023-06-19 08:58:06] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.1-py3-none-any.whl.zip]
+[2023-06-19 08:58:06] INFO root fetch - main [MainThread]: End processing [carbin]: success
+[2023-06-19 08:58:09] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.98.tar.gz]
+[2023-06-19 08:58:09] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.99.tar.gz]
+[2023-06-19 08:58:09] INFO root fetch - main [MainThread]: End processing [gurux-dlms]: success
+[2023-06-19 08:58:09] INFO root fetch - main [MainThread]: Store serial: [18556446]
