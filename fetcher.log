@@ -6393,3 +6393,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 06:02:28] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.2.4.tar.gz]
 [2023-06-19 06:02:28] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
 [2023-06-19 06:02:28] INFO root fetch - main [MainThread]: Store serial: [18555463]
+[2023-06-19 06:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555463]
+[2023-06-19 06:07:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 06:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linuxnet-iptables
+[2023-06-19 06:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdhist
+[2023-06-19 06:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mangadex-downloader
+[2023-06-19 06:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdhist
+[2023-06-19 06:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spiderx
+[2023-06-19 06:07:37] INFO root fetch - processPackages [linuxnet-iptables]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-19 06:07:37] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-06-19 06:07:37] INFO root fetch - processPackages [cdhist]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-06-19 06:07:37] INFO root fetch - processPackages [mangadex-downloader]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-19 06:07:37] INFO root fetch - processPackages [cdhist]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-06-19 06:07:37] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/36/68/3765f00072394d7a26bd63729eb2897a19c8d2601c493440256fcc8cee6f/cdhist-3.7.1.tar.gz
+[2023-06-19 06:07:37] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/36/68/3765f00072394d7a26bd63729eb2897a19c8d2601c493440256fcc8cee6f/cdhist-3.7.1.tar.gz
+[2023-06-19 06:07:37] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/a3/28/0f107dde5e910f379dad3a799dd3a263bbcbad728429ec20f02f72999936/linuxnet-iptables-5.3.0.tar.gz
+[2023-06-19 06:07:37] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/24/06/7d739d7f41e4ae780f74dd540596ac75c623c21984d58976a00f6bb9191b/mangadex-downloader-2.9.0.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/6c/30/43e1a8d577f4de6ce327adab2c9feaa3498d9321e8ed691edbf931bdb46a/cdhist-3.7.2.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: Downloading https://files.pythonhosted.org/packages/6c/30/43e1a8d577f4de6ce327adab2c9feaa3498d9321e8ed691edbf931bdb46a/cdhist-3.7.2.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: executing diffoscope
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdhist-3.7.1.tar.gz tmp/cdhist-3.7.2.tar.gz --markdown 20230619/c/cdhist/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-06-19 06:07:38] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/f0/a2/6b609fade6e7011ce6a18f0319e9b533fae9741578cce19d982d8009f7b8/linuxnet-iptables-5.4.0.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: executing diffoscope
+[2023-06-19 06:07:38] INFO root fetch - processPackages [cdhist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdhist-3.7.1.tar.gz tmp/cdhist-3.7.2.tar.gz --markdown 20230619/c/cdhist/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-06-19 06:07:38] INFO root fetch - processPackages [linuxnet-iptables]: executing diffoscope
+[2023-06-19 06:07:38] INFO root fetch - processPackages [linuxnet-iptables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxnet-iptables-5.3.0.tar.gz tmp/linuxnet-iptables-5.4.0.tar.gz --markdown 20230619/l/linuxnet-iptables/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-19 06:07:38] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-06-19 06:07:38] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-06-19 06:07:38] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230619/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-06-19 06:07:39] INFO root fetch - processPackages [cdhist]: Remove: archive file [/home/abi/fetcher/tmp/cdhist-3.7.1.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - processPackages [cdhist]: Remove: archive file [/home/abi/fetcher/tmp/cdhist-3.7.2.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - main [MainThread]: End processing [cdhist]: success
+[2023-06-19 06:07:39] INFO root fetch - main [MainThread]: End processing [cdhist]: success
+[2023-06-19 06:07:39] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/b5/11/34eb8f10519d917a24f7b838c7bb8a9361ce4685f99dbae9dbb4938b02e2/mangadex-downloader-2.9.1.tar.gz
+[2023-06-19 06:07:39] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-5.3.0.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-5.4.0.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - main [MainThread]: End processing [linuxnet-iptables]: success
+[2023-06-19 06:07:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-06-19 06:07:39] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-06-19 06:07:40] INFO root fetch - processPackages [mangadex-downloader]: executing diffoscope
+[2023-06-19 06:07:40] INFO root fetch - processPackages [mangadex-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex-downloader-2.9.0.tar.gz tmp/mangadex-downloader-2.9.1.tar.gz --markdown 20230619/m/mangadex-downloader/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-19 06:07:42] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.0.tar.gz]
+[2023-06-19 06:07:42] INFO root fetch - processPackages [mangadex-downloader]: Remove: archive file [/home/abi/fetcher/tmp/mangadex-downloader-2.9.1.tar.gz]
+[2023-06-19 06:07:42] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
+[2023-06-19 06:07:42] INFO root fetch - main [MainThread]: Store serial: [18555478]
