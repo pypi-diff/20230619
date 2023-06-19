@@ -13785,3 +13785,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:07:19] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz]
 [2023-06-19 12:07:19] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
 [2023-06-19 12:07:19] INFO root fetch - main [MainThread]: Store serial: [18558357]
+[2023-06-19 12:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558357]
+[2023-06-19 12:12:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleepeeg
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solox
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forestadmin-agent-flask
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thundra
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drukarnia-api
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: areixlib
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emailalert
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cron-validator
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Psychofit
+[2023-06-19 12:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-reverb-nightly
+[2023-06-19 12:12:28] INFO root fetch - processPackages [sleepeeg]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.75] Old Version: [0.1.61]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [Psychofit]: New version: [1.0.0.post0] Old Version: [1.0.0]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [emailalert]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [areixlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [cron-validator]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [solox]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-19 12:12:28] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/56/4e/33cf14c3b60e73f9c5a9291f719cd91aa83a3be648605878d877e5f3ce39/sleepeeg-0.2.2.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/95/59/3d6230d530c2242aff510014f9eeae89a0b57e60c3b7bfb296617bc143c2/emailalert-1.1.6.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-19 12:12:28] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/3e/13/d301ec4c171525bd995587d010fc8d8bdc04ab99712d8130fcfa3ed216ba/drukarnia-api-0.1.61.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [cron-validator]: Downloading https://files.pythonhosted.org/packages/4f/15/46a0d5cd3e25db06866025514cfc5ddb9b914a610c31f637bb9e95084c6e/cron-validator-1.0.7.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [Psychofit]: Downloading https://files.pythonhosted.org/packages/03/e0/5b35fbce082e4b14729fc14f862eb7b5c9bcc64440adf1d4a8370b8683db/Psychofit-1.0.0.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/a1/8d/5dcdea844398ef0ff826df0818dc20955de9332a1e0346c39e2c441baf41/solox-2.6.6.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/2f/5e/82622925325cc40694a164901608e142eed6fe99d83a8e99327bd5a0ac16/areixlib-0.1.8.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-19 12:12:28] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-19 12:12:28] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/43/7d/8ac45273ef76373fd1aa80d7718ec581ea068f8814b270a3754fa19990ee/sleepeeg-0.2.3.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/1a/c7/4e7540b9d920f28c46068acfce44f669d9f3a1d74f4c96a136b58dd00b7e/emailalert-1.1.7.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [sleepeeg]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/bd/ad/433f095441ea6e98b2bc36c9c8a8e8a64eca8f66b26db7e7de6cc4413138/drukarnia-api-0.1.75.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [sleepeeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepeeg-0.2.2.tar.gz tmp/sleepeeg-0.2.3.tar.gz --markdown 20230619/s/sleepeeg/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [Psychofit]: Downloading https://files.pythonhosted.org/packages/c3/77/0fd5233f9095450bcdcd8ac260147039408e8300f8215e775329ed4b9798/Psychofit-1.0.0.post0.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [cron-validator]: Downloading https://files.pythonhosted.org/packages/31/55/d3d8e7acad9dc3f54133df0972c79d38f2c6fc4be41f281a396c3afe4411/cron-validator-1.0.8.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/0e/30/827f03b0c15db63f31ae32ac76732b2adeffa605ca1625390c1b47464679/areixlib-0.1.9.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [Psychofit]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [Psychofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Psychofit-1.0.0.tar.gz tmp/Psychofit-1.0.0.post0.tar.gz --markdown 20230619/P/Psychofit/1.0.0-1.0.0.post0/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/db/76/9e0142f35b8fa8646469feb335c49bcc0d330bf1c091866614d501dde8ab/solox-2.6.7.tar.gz
+[2023-06-19 12:12:28] INFO root fetch - processPackages [areixlib]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [areixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixlib-0.1.8.tar.gz tmp/areixlib-0.1.9.tar.gz --markdown 20230619/a/areixlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.6.tar.gz tmp/emailalert-1.1.7.tar.gz --markdown 20230619/e/emailalert/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.61.tar.gz tmp/drukarnia-api-0.1.75.tar.gz --markdown 20230619/d/drukarnia-api/0.1.61-0.1.75/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [cron-validator]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [cron-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cron-validator-1.0.7.tar.gz tmp/cron-validator-1.0.8.tar.gz --markdown 20230619/c/cron-validator/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-19 12:12:28] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-06-19 12:12:28] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230619/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-19 12:12:29] INFO root fetch - processPackages [solox]: executing diffoscope
+[2023-06-19 12:12:29] INFO root fetch - processPackages [solox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solox-2.6.6.tar.gz tmp/solox-2.6.7.tar.gz --markdown 20230619/s/solox/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-06-19 12:12:29] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-19 12:12:29] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230619/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-19 12:12:30] INFO root fetch - processPackages [Psychofit]: Remove: archive file [/home/abi/fetcher/tmp/Psychofit-1.0.0.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [Psychofit]: Remove: archive file [/home/abi/fetcher/tmp/Psychofit-1.0.0.post0.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [Psychofit]: Start processing: thundra
+[2023-06-19 12:12:30] INFO root fetch - main [MainThread]: End processing [Psychofit]: success
+[2023-06-19 12:12:30] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.6.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.7.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [emailalert]: Start processing: netbox-cisco-maintenance
+[2023-06-19 12:12:30] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 12:12:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b8.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b9.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [forestadmin-agent-flask]: Start processing: chainedci
+[2023-06-19 12:12:30] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-06-19 12:12:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 12:12:30] INFO root fetch - processPackages [chainedci]: New version: [1.5.36] Old Version: [1.5.35]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-19 12:12:30] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230619/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-19 12:12:30] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.61.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.75.tar.gz]
+[2023-06-19 12:12:30] INFO root fetch - processPackages [drukarnia-api]: Start processing: aqschema-converters
+[2023-06-19 12:12:30] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-19 12:12:31] WARNING root fetch - processPackages [aqschema-converters]: Skipping, unable to determine old version
+[2023-06-19 12:12:31] INFO root fetch - processPackages [aqschema-converters]: Start processing: deepthink
+[2023-06-19 12:12:31] INFO root fetch - main [MainThread]: End processing [aqschema-converters] error
+[2023-06-19 12:12:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 12:12:31] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/19/68/84b348bdbb5786f413563e497aaf258a7b507dc0cdd58fa6b9bb668e5df1/chainedci-1.5.35.tar.gz
+[2023-06-19 12:12:31] INFO root fetch - processPackages [deepthink]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 12:12:31] INFO root fetch - processPackages [cron-validator]: Remove: archive file [/home/abi/fetcher/tmp/cron-validator-1.0.7.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - processPackages [cron-validator]: Remove: archive file [/home/abi/fetcher/tmp/cron-validator-1.0.8.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - main [MainThread]: End processing [cron-validator]: success
+[2023-06-19 12:12:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 12:12:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 12:12:31] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.8.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - main [MainThread]: End processing [areixlib]: success
+[2023-06-19 12:12:31] INFO root fetch - processPackages [deepthink]: Downloading https://files.pythonhosted.org/packages/e2/03/2c31b0be70bb1f5209fb4a65c84bf368ee577dcd2ddff24be1b8691d592a/deepthink-0.1.3.tar.gz
+[2023-06-19 12:12:31] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.2.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.3.tar.gz]
+[2023-06-19 12:12:31] INFO root fetch - main [MainThread]: End processing [sleepeeg]: success
+[2023-06-19 12:12:31] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/c0/25/1f10677d1ad9a8e2eca3b0a4141e388496faba3468ae6311c5180525f3d5/chainedci-1.5.36.tar.gz
+[2023-06-19 12:12:31] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-06-19 12:12:31] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.35.tar.gz tmp/chainedci-1.5.36.tar.gz --markdown 20230619/c/chainedci/1.5.35-1.5.36/diff.md --exclude *.pyd
+[2023-06-19 12:12:31] INFO root fetch - processPackages [deepthink]: Downloading https://files.pythonhosted.org/packages/73/53/19912d4097ce87f49b87df25bcc1daf46e303dca314bb8087c684f06c67a/deepthink-0.1.4-py3.9.egg
+[2023-06-19 12:12:31] INFO root fetch - processPackages [deepthink]: executing diffoscope
+[2023-06-19 12:12:31] INFO root fetch - processPackages [deepthink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepthink-0.1.3.tar.gz tmp/deepthink-0.1.4-py3.9.egg --markdown 20230619/d/deepthink/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 12:12:32] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-19 12:12:32] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-19 12:12:32] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 12:12:32] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-19 12:12:32] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.6.tar.gz]
+[2023-06-19 12:12:32] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.7.tar.gz]
+[2023-06-19 12:12:32] INFO root fetch - main [MainThread]: End processing [solox]: success
+[2023-06-19 12:12:32] INFO root fetch - processPackages [deepthink]: Remove: archive file [/home/abi/fetcher/tmp/deepthink-0.1.3.tar.gz]
+[2023-06-19 12:12:32] INFO root fetch - processPackages [deepthink]: Remove: archive file [/home/abi/fetcher/tmp/deepthink-0.1.4-py3.9.egg]
+[2023-06-19 12:12:32] INFO root fetch - main [MainThread]: End processing [deepthink]: success
+[2023-06-19 12:12:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 12:12:33] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 12:12:33] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 12:12:33] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.35.tar.gz]
+[2023-06-19 12:12:33] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.36.tar.gz]
+[2023-06-19 12:12:33] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-06-19 12:13:31] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-19 12:13:31] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-19 12:13:31] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-19 12:13:31] INFO root fetch - main [MainThread]: Store serial: [18558404]
