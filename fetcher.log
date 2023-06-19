@@ -12389,3 +12389,146 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 11:15:37] INFO root fetch - processPackages [pydebiaseddta]: Remove: archive file [/home/abi/fetcher/tmp/pydebiaseddta-0.1.0.tar.gz]
 [2023-06-19 11:15:37] INFO root fetch - main [MainThread]: End processing [pydebiaseddta]: success
 [2023-06-19 11:15:37] INFO root fetch - main [MainThread]: Store serial: [18557887]
+[2023-06-19 11:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557887]
+[2023-06-19 11:20:47] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picogo
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preprocessing-pgp
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insightconnect-plugin-runtime
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abi-ds-utils
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renumics-spotlight
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: learner-pathway-progress
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: attune-project-api
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bm-pypi-test
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyhector
+[2023-06-19 11:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-auto-control
+[2023-06-19 11:20:47] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [insightconnect-plugin-runtime]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [learner-pathway-progress]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [abi-ds-utils]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev7] Old Version: [0.2.9.post8.dev7]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [pyhector]: New version: [2.5.0.0] Old Version: [2.4.0.1]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-19 11:20:47] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/a9/1b/319352b361b9b01f65b5b0dca86df4dc3e5f06b995022ef3976f71acd45d/preprocessing-pgp-0.2.9.post8.dev7.tar.gz
+[2023-06-19 11:20:47] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-06-19 11:20:47] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-06-19 11:20:47] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857923>=10485760
+[2023-06-19 11:20:47] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: je-auto-control-dev
+[2023-06-19 11:20:47] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-19 11:20:48] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/5a/99/808e45dd016429e542e36455df55eb5f828e30852619c409ec6be7b576ad/bm_pypi_test-0.0.4-py3-none-any.whl
+[2023-06-19 11:20:48] INFO root fetch - processPackages [learner-pathway-progress]: Downloading https://files.pythonhosted.org/packages/0c/72/83813162d2f7be60910c5a34da63597c1fc77ff2168a5246f3a9bb351270/learner-pathway-progress-1.3.3.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/c6/40/38cb5cacbbcd6bc7aa6f172c352d7850b48a048315963ba9f61a8311a0c8/insightconnect-plugin-runtime-5.1.3.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/71/4f/5af83f421c4a89ff8a0c2336b4ba93f250282f7b418acfa8caea3fd5e0ba/renumics_spotlight-1.2.0rc1-py3-none-any.whl
+[2023-06-19 11:20:48] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-06-19 11:20:48] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/49/90/1530328f22836ee58597a75be36f19cba23dfabeee0c5c69f6a9a58e901a/pyhector-2.4.0.1.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/5d/fe/180ae9ed49e40ec88573403dca343448a0594dd240d38b2a562bec3064e2/abi_ds_utils-0.1.9.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/5d/67/59cfb73498225aee77a3d71e646b5297057ff8509ca404cc19f4d60d4702/je_auto_control_dev-0.0.87.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/3f/91/39328bc0f32c86644db7f13e2794dff3d5b36786d827a70e79562fc9d9de/bm_pypi_test-0.0.5-py3-none-any.whl
+[2023-06-19 11:20:48] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [learner-pathway-progress]: Downloading https://files.pythonhosted.org/packages/19/88/b19ed8e35cff303e07d6bf18ff0765b67884fe5c8762dc32af9bc6f8e482/learner-pathway-progress-1.3.4.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230619/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/ac/5e/ad6a81050a42a194614445a08e31e4386f3355bc34939e583c931c6ce6f9/insightconnect-plugin-runtime-5.1.4.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/06/88/17f9ac7efb0cad5d445242ef7149aa8cb2552fe248442cfc62f4ae1b2838/abi_ds_utils-1.0.0.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230619/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.4-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.5-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [pyhector]: Downloading https://files.pythonhosted.org/packages/06/8f/ff79ecdda2d473e9a780492a56a0c15081785d627906c3121ff91550a5f5/pyhector-2.5.0.0.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [abi-ds-utils]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [abi-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi_ds_utils-0.1.9.tar.gz tmp/abi_ds_utils-1.0.0.tar.gz --markdown 20230619/a/abi-ds-utils/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [learner-pathway-progress]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [learner-pathway-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learner-pathway-progress-1.3.3.tar.gz tmp/learner-pathway-progress-1.3.4.tar.gz --markdown 20230619/l/learner-pathway-progress/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [insightconnect-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect-plugin-runtime-5.1.3.tar.gz tmp/insightconnect-plugin-runtime-5.1.4.tar.gz --markdown 20230619/i/insightconnect-plugin-runtime/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.87.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230619/j/je-auto-control-dev/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-06-19 11:20:48] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/b2/26/b0aa03a796c74f92d24f27a23c2a7d9ff9006bf61b8195bf7d53d688666a/renumics_spotlight-1.2.0rc2-py3-none-any.whl
+[2023-06-19 11:20:48] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230619/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 11:20:48] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-06-19 11:20:48] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.2.0rc1-py3-none-any.whl.zip tmp/renumics_spotlight-1.2.0rc2-py3-none-any.whl.zip --markdown 20230619/r/renumics-spotlight/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-06-19 11:20:49] INFO root fetch - processPackages [pyhector]: executing diffoscope
+[2023-06-19 11:20:49] INFO root fetch - processPackages [pyhector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhector-2.4.0.1.tar.gz tmp/pyhector-2.5.0.0.tar.gz --markdown 20230619/p/pyhector/2.4.0.1-2.5.0.0/diff.md --exclude *.pyd
+[2023-06-19 11:20:50] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-0.1.9.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.0.0.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [abi-ds-utils]: Start processing: udata-front
+[2023-06-19 11:20:50] INFO root fetch - main [MainThread]: End processing [abi-ds-utils]: success
+[2023-06-19 11:20:50] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev11249] Old Version: [3.2.4.dev11214]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.4-py3-none-any.whl.zip]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.5-py3-none-any.whl.zip]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [bm-pypi-test]: Start processing: obs-cli
+[2023-06-19 11:20:50] INFO root fetch - main [MainThread]: End processing [bm-pypi-test]: success
+[2023-06-19 11:20:50] INFO root fetch - processPackages [obs-cli]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/9f/e5/bbf224827cb3c88093a55cc1f8cabb6a309e8a149a0dbbcd3eafd0250687/udata_front-3.2.4.dev11214-py2.py3-none-any.whl
+[2023-06-19 11:20:50] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/fa/8f/dad058dfabee5550e7722084017445d36ff5606bf3c90703fb89123f6803/obs-cli-0.6.1.tar.gz
+[2023-06-19 11:20:50] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [je-auto-control]: Start processing: tbp-nightly
+[2023-06-19 11:20:50] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-06-19 11:20:50] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [attune-project-api]: Start processing: Alpha-Rabbit
+[2023-06-19 11:20:50] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-06-19 11:20:50] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-19 11:20:50] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect-plugin-runtime-5.1.3.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect-plugin-runtime-5.1.4.tar.gz]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Start processing: netbox-cisco-maintenance
+[2023-06-19 11:20:50] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
+[2023-06-19 11:20:50] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/a5/44/6ff89a6d21ebd54ab4e0b5adf7c57f9ebff52113ea5c98cb8ca66730062d/obs-cli-0.6.2.tar.gz
+[2023-06-19 11:20:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 11:20:50] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 11:20:50] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-19 11:20:50] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.6.1.tar.gz tmp/obs-cli-0.6.2.tar.gz --markdown 20230619/o/obs-cli/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-19 11:20:51] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-06-19 11:20:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 11:20:51] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/24/fc/8d844b98b22ec5aa9f9be9fc5d720276f194abfadd031abe216f96ec582a/udata_front-3.2.4.dev11249-py2.py3-none-any.whl
+[2023-06-19 11:20:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 11:20:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 11:20:51] ERROR root fetch - processPackages [netbox-cisco-maintenance]: Diffoscope failed: Error: error creating container storage: the container name "youthful_shirley" is already in use by "2afe256e98ed53b91fe31bc6104f9ca483545cd7575572ffc12d725bfdf0e421". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-19 11:20:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance] error
+[2023-06-19 11:20:51] INFO root fetch - processPackages [learner-pathway-progress]: Remove: archive file [/home/abi/fetcher/tmp/learner-pathway-progress-1.3.3.tar.gz]
+[2023-06-19 11:20:51] INFO root fetch - processPackages [learner-pathway-progress]: Remove: archive file [/home/abi/fetcher/tmp/learner-pathway-progress-1.3.4.tar.gz]
+[2023-06-19 11:20:51] INFO root fetch - main [MainThread]: End processing [learner-pathway-progress]: success
+[2023-06-19 11:20:51] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-06-19 11:20:51] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-06-19 11:20:51] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-06-19 11:20:51] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-06-19 11:20:51] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-19 11:20:51] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230619/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-19 11:20:51] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-19 11:20:51] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-19 11:20:51] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230619/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-19 11:20:51] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-19 11:20:51] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev11214-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev11249-py2.py3-none-any.whl.zip --markdown 20230619/u/udata-front/3.2.4.dev11214-3.2.4.dev11249/diff.md --exclude *.pyd
+[2023-06-19 11:20:52] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.6.1.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.6.2.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-19 11:20:52] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.87.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-19 11:20:52] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.8.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.9.tar.gz]
+[2023-06-19 11:20:52] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-19 11:20:54] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-19 11:20:54] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-19 11:20:54] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-19 11:20:58] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.4.0.1.tar.gz]
+[2023-06-19 11:20:58] INFO root fetch - processPackages [pyhector]: Remove: archive file [/home/abi/fetcher/tmp/pyhector-2.5.0.0.tar.gz]
+[2023-06-19 11:20:58] INFO root fetch - main [MainThread]: End processing [pyhector]: success
+[2023-06-19 11:21:11] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11214-py2.py3-none-any.whl.zip]
+[2023-06-19 11:21:11] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11249-py2.py3-none-any.whl.zip]
+[2023-06-19 11:21:11] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-19 11:21:26] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.2.0rc1-py3-none-any.whl.zip]
+[2023-06-19 11:21:26] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.2.0rc2-py3-none-any.whl.zip]
+[2023-06-19 11:21:26] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-06-19 11:21:26] INFO root fetch - main [MainThread]: Store serial: [18557945]
