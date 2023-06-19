@@ -20573,3 +20573,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:32:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191021-py3-none-any.whl.zip]
 [2023-06-19 16:32:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-19 16:32:21] INFO root fetch - main [MainThread]: Store serial: [18561083]
+[2023-06-19 16:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561083]
+[2023-06-19 16:37:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markyp-html
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acore-server-metadata
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lasfile
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seiscat
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colored
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-follow-withdraw
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onedep-deposition
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scraple
+[2023-06-19 16:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-06-19 16:37:32] INFO root fetch - processPackages [acore-server-metadata]: New version: [0.3.1] Old Version: [0.2.2]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [colored]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [markyp-html]: New version: [0.2306.0] Old Version: [0.1910.0]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202306191432] Old Version: [99.0.202306191024]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202306191429] Old Version: [99.0.202306191021]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/fa/3a/1aa92222be57699495c2a4a69a27a32d61874dff2149e6d741e663b11e6d/kcli-99.0.202306191021-py3-none-any.whl
+[2023-06-19 16:37:32] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Downloading https://files.pythonhosted.org/packages/2d/a0/87bae7eceb042bc8bea1ea0ab3f8c43b0d26ab6f3d262a65e028ecc60108/nonebot_plugin_follow_withdraw-0.1.1.tar.gz
+[2023-06-19 16:37:32] WARNING root fetch - processPackages [seiscat]: Skipping, unable to determine old version
+[2023-06-19 16:37:32] INFO root fetch - processPackages [seiscat]: Start processing: overhave
+[2023-06-19 16:37:32] INFO root fetch - main [MainThread]: End processing [seiscat] error
+[2023-06-19 16:37:32] INFO root fetch - processPackages [onedep-deposition]: New version: [0.1.dev2] Old Version: [0.1.dev1]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [scraple]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/f4/57/fe3e4e96efa3c68d3781a0903de0933ea2afa744852d907b290a2cb2294e/colored-1.4.3.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [markyp-html]: Downloading https://files.pythonhosted.org/packages/04/28/df1bb21b9ef77e0e37bdb59fafff8cfe7d33fec5b4efdf0e8578501ce85a/markyp-html-0.1910.0.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-06-19 16:37:32] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/d7/14/92faea13db0ed2dc58d1022d04a3edecc9e9c157a90018b2323649d446f4/acore_server_metadata-0.2.2.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/50/12/aa83d34dbb33ba25a516eb39e9366c03572a869e7c8f48b70d809f39d3ec/kfish-99.0.202306191024-py3-none-any.whl
+[2023-06-19 16:37:32] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/8d/1c/b5a958ec485dd736dba8c82582911945e3eb74b0e6a59bc02328f22ff9ec/onedep_deposition-0.1.dev1.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [scraple]: Downloading https://files.pythonhosted.org/packages/aa/60/c60c19f0622807014df6117090dac0ec6497047ed45e3151982ca87d24e3/scraple-0.1.0.tar.gz
+[2023-06-19 16:37:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/97/7be4c975a7873bbe67f7bc5217d79449b6dbdca2b82edcaacc7ece5f4624/kcli-99.0.202306191429-py3-none-any.whl
+[2023-06-19 16:37:32] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Downloading https://files.pythonhosted.org/packages/28/cf/aeb82c23c3dcb3ad954f377c4da3205c7bea412af4fe3586901af3cfed00/nonebot_plugin_follow_withdraw-0.1.2.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/f3/d6/00203998f27ab30b2417998006ad0608f236740bb129494dd7c5621861e1/colored-1.4.4.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_follow_withdraw-0.1.1.tar.gz tmp/nonebot_plugin_follow_withdraw-0.1.2.tar.gz --markdown 20230619/n/nonebot-plugin-follow-withdraw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/35/d2/ab3a72dd99318a4ecf97364c7c67b8903528d6443e59e69d0e5cb8aa6d76/overhave-3.8.4.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/da/ae/8ab8dc14ca87c9aba5da40c408066c0923013498f45272155402dca977e5/kfish-99.0.202306191432-py3-none-any.whl
+[2023-06-19 16:37:33] INFO root fetch - processPackages [colored]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [colored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colored-1.4.3.tar.gz tmp/colored-1.4.4.tar.gz --markdown 20230619/c/colored/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/35/af/ed11dd62393434f810c7aa7879cce29c6e4a808268687a482e9124c072cb/acore_server_metadata-0.3.1.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306191024-py3-none-any.whl.zip tmp/kfish-99.0.202306191432-py3-none-any.whl.zip --markdown 20230619/k/kfish/99.0.202306191024-99.0.202306191432/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [markyp-html]: Downloading https://files.pythonhosted.org/packages/5f/38/bc5761b13e6c9eeca3576c8ba7858726e3c9855d76316abfce04222a318d/markyp-html-0.2306.0.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [scraple]: Downloading https://files.pythonhosted.org/packages/83/a3/3c66c8e7ad76c630ed2c225c9e8b6fa00cefda1af5947d0cd9e9d351f691/scraple-0.1.1.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [acore-server-metadata]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [acore-server-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_metadata-0.2.2.tar.gz tmp/acore_server_metadata-0.3.1.tar.gz --markdown 20230619/a/acore-server-metadata/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [onedep-deposition]: Downloading https://files.pythonhosted.org/packages/8d/58/c415508f0ee45bbc8126f542bc299a06a006f6b3f33515838dbb23181154/onedep_deposition-0.1.dev2.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306191021-py3-none-any.whl.zip tmp/kcli-99.0.202306191429-py3-none-any.whl.zip --markdown 20230619/k/kcli/99.0.202306191021-99.0.202306191429/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230619/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-19 16:37:33] INFO root fetch - processPackages [markyp-html]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [markyp-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markyp-html-0.1910.0.tar.gz tmp/markyp-html-0.2306.0.tar.gz --markdown 20230619/m/markyp-html/0.1910.0-0.2306.0/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [scraple]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [scraple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraple-0.1.0.tar.gz tmp/scraple-0.1.1.tar.gz --markdown 20230619/s/scraple/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [onedep-deposition]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [onedep-deposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedep_deposition-0.1.dev1.tar.gz tmp/onedep_deposition-0.1.dev2.tar.gz --markdown 20230619/o/onedep-deposition/0.1.dev1-0.1.dev2/diff.md --exclude *.pyd
+[2023-06-19 16:37:33] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-19 16:37:33] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230619/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-06-19 16:37:34] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_follow_withdraw-0.1.1.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_follow_withdraw-0.1.2.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [nonebot-plugin-follow-withdraw]: Start processing: runez
+[2023-06-19 16:37:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-follow-withdraw]: success
+[2023-06-19 16:37:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306191024-py3-none-any.whl.zip]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306191432-py3-none-any.whl.zip]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [kfish]: Start processing: mod.io
+[2023-06-19 16:37:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-19 16:37:34] INFO root fetch - processPackages [runez]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [mod.io]: New version: [0.5.0] Old Version: [0.4.3b2]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [lasfile]: Start processing: vertex-protocol
+[2023-06-19 16:37:34] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-06-19 16:37:34] INFO root fetch - processPackages [markyp-html]: Remove: archive file [/home/abi/fetcher/tmp/markyp-html-0.1910.0.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - processPackages [markyp-html]: Remove: archive file [/home/abi/fetcher/tmp/markyp-html-0.2306.0.tar.gz]
+[2023-06-19 16:37:34] INFO root fetch - main [MainThread]: End processing [markyp-html]: success
+[2023-06-19 16:37:35] INFO root fetch - processPackages [runez]: Downloading https://files.pythonhosted.org/packages/51/99/3d47a5532e8a44139c9a1d2010db8bdc01707e20f56af8563ea2021e0d82/runez-4.0.0.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-1.4.3.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-1.4.4.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - main [MainThread]: End processing [colored]: success
+[2023-06-19 16:37:35] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.2.2.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.3.1.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - main [MainThread]: End processing [acore-server-metadata]: success
+[2023-06-19 16:37:35] INFO root fetch - processPackages [vertex-protocol]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-19 16:37:35] INFO root fetch - processPackages [mod.io]: Downloading https://files.pythonhosted.org/packages/8a/46/da8e741b6798fac3ef996a37462f96bbecd155fb9c168e22f89e6903a6e3/mod.io-0.4.3b2.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [vertex-protocol]: Downloading https://files.pythonhosted.org/packages/78/bb/692c14eb909fb335e29f6ae84d0413a258763c4de91d1d9e7dc08998afb4/vertex_protocol-1.1.1.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [runez]: Downloading https://files.pythonhosted.org/packages/e7/77/0d016760381a988a1e7944103040c14115a348baaebb6bad29deab5507e4/runez-4.0.1.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [scraple]: Remove: archive file [/home/abi/fetcher/tmp/scraple-0.1.0.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - processPackages [scraple]: Remove: archive file [/home/abi/fetcher/tmp/scraple-0.1.1.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - main [MainThread]: End processing [scraple]: success
+[2023-06-19 16:37:35] INFO root fetch - processPackages [vertex-protocol]: Downloading https://files.pythonhosted.org/packages/62/06/ab7a4162226fc624c1af798cca06fa9acbf6bdddfe00c74df37d5bb7eed0/vertex_protocol-1.1.2.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [mod.io]: Downloading https://files.pythonhosted.org/packages/d2/3d/8ce508bb00ee70df7320f4f1d8843257d1b3f533d70a0c2bdeb8049fa5ec/mod.io-0.5.0.tar.gz
+[2023-06-19 16:37:35] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev1.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - processPackages [onedep-deposition]: Remove: archive file [/home/abi/fetcher/tmp/onedep_deposition-0.1.dev2.tar.gz]
+[2023-06-19 16:37:35] INFO root fetch - main [MainThread]: End processing [onedep-deposition]: success
+[2023-06-19 16:37:35] INFO root fetch - processPackages [runez]: executing diffoscope
+[2023-06-19 16:37:35] INFO root fetch - processPackages [runez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runez-4.0.0.tar.gz tmp/runez-4.0.1.tar.gz --markdown 20230619/r/runez/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-19 16:37:35] INFO root fetch - processPackages [vertex-protocol]: executing diffoscope
+[2023-06-19 16:37:35] INFO root fetch - processPackages [vertex-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertex_protocol-1.1.1.tar.gz tmp/vertex_protocol-1.1.2.tar.gz --markdown 20230619/v/vertex-protocol/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-19 16:37:35] INFO root fetch - processPackages [mod.io]: executing diffoscope
+[2023-06-19 16:37:35] INFO root fetch - processPackages [mod.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mod.io-0.4.3b2.tar.gz tmp/mod.io-0.5.0.tar.gz --markdown 20230619/m/mod.io/0.4.3b2-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 16:37:36] INFO root fetch - processPackages [mod.io]: Remove: archive file [/home/abi/fetcher/tmp/mod.io-0.4.3b2.tar.gz]
+[2023-06-19 16:37:36] INFO root fetch - processPackages [mod.io]: Remove: archive file [/home/abi/fetcher/tmp/mod.io-0.5.0.tar.gz]
+[2023-06-19 16:37:36] INFO root fetch - main [MainThread]: End processing [mod.io]: success
+[2023-06-19 16:37:36] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.1.tar.gz]
+[2023-06-19 16:37:36] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.2.tar.gz]
+[2023-06-19 16:37:36] INFO root fetch - main [MainThread]: End processing [vertex-protocol]: success
+[2023-06-19 16:37:37] INFO root fetch - processPackages [runez]: Remove: archive file [/home/abi/fetcher/tmp/runez-4.0.0.tar.gz]
+[2023-06-19 16:37:37] INFO root fetch - processPackages [runez]: Remove: archive file [/home/abi/fetcher/tmp/runez-4.0.1.tar.gz]
+[2023-06-19 16:37:37] INFO root fetch - main [MainThread]: End processing [runez]: success
+[2023-06-19 16:37:38] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.8.4.tar.gz]
+[2023-06-19 16:37:38] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-19 16:37:38] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-19 16:37:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191021-py3-none-any.whl.zip]
+[2023-06-19 16:37:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191429-py3-none-any.whl.zip]
+[2023-06-19 16:37:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-19 16:37:40] INFO root fetch - main [MainThread]: Store serial: [18561128]
