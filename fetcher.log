@@ -19895,3 +19895,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:05:38] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc3-py3-none-any.whl.zip]
 [2023-06-19 16:05:38] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
 [2023-06-19 16:05:38] INFO root fetch - main [MainThread]: Store serial: [18560792]
+[2023-06-19 16:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560792]
+[2023-06-19 16:10:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superb-data-klient
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iconarray
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bidfx-api
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyRandomWalk
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: farm-haystack
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hoppr-security-commons
+[2023-06-19 16:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: highrise-bot-sdk
+[2023-06-19 16:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nw-connections
+[2023-06-19 16:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: holamundoplayer-fabeliz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [nw-connections]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-19 16:10:49] WARNING root fetch - processPackages [superb-data-klient]: Skipping, unable to determine old version
+[2023-06-19 16:10:49] INFO root fetch - processPackages [superb-data-klient]: Start processing: django-passkeys
+[2023-06-19 16:10:49] INFO root fetch - main [MainThread]: End processing [superb-data-klient] error
+[2023-06-19 16:10:49] WARNING root fetch - processPackages [pyRandomWalk]: Skipping, unable to determine old version
+[2023-06-19 16:10:49] INFO root fetch - processPackages [pyRandomWalk]: Start processing: keystoneauth1
+[2023-06-19 16:10:49] INFO root fetch - main [MainThread]: End processing [pyRandomWalk] error
+[2023-06-19 16:10:49] INFO root fetch - processPackages [iconarray]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [bidfx-api]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-06-19 16:10:49] WARNING root fetch - processPackages [holamundoplayer-fabeliz]: Skipping, unable to determine old version
+[2023-06-19 16:10:49] INFO root fetch - processPackages [holamundoplayer-fabeliz]: Start processing: pywry
+[2023-06-19 16:10:49] INFO root fetch - main [MainThread]: End processing [holamundoplayer-fabeliz] error
+[2023-06-19 16:10:49] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.1.0b9] Old Version: [23.1.0b8]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [django-passkeys]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [iconarray]: Downloading https://files.pythonhosted.org/packages/7d/68/d15d178ec02f27a65d1b23d2cbb946797962e325db1e44dd51989a5bef4c/iconarray-0.3.1.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [keystoneauth1]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [nw-connections]: Downloading https://files.pythonhosted.org/packages/4a/10/2540615b719533872869bbb021ca845ca1d794a65d51c66edc1ee83c1c92/nw_connections-1.2.3.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/38/06/79b19bd0ba6f3cc4b2335d9bf6a2133f64062893a0dfa72c04a5b77151f8/django-passkeys-1.2.3.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230619/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [bidfx-api]: Downloading https://files.pythonhosted.org/packages/ed/59/8cea520fcaedbc32b277c39617220329e1d8c4c59bcf7c965f9e2446a545/bidfx-api-1.0.0.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/94/11/cf9836569f3576a61cd8186a2e448a3c7cd443ac2711bcebab600878af41/farm_haystack-1.9.1.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/9e/7a/166090069cb26db15a97cf0f76551e0b46b799267bfe38724670f1d5c38b/highrise_bot_sdk-23.1.0b8.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [pywry]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-19 16:10:49] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/73/a4/8b39dee10fcc7f5b6cf68593087145653b22ef60b8f70d63c5484f34b750/hoppr_security_commons-0.0.8.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [keystoneauth1]: Downloading https://files.pythonhosted.org/packages/56/d4/a7ce27b7363c85e556b3a0e87b90a3cda1e35f5d9d8a0cb6769d6b8ebf88/keystoneauth1-5.2.0.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [iconarray]: Downloading https://files.pythonhosted.org/packages/76/51/d4dc7cb8c4334c976cde3f944e1ba6157f7f87b8c70419b6a8f22c8b69df/iconarray-0.3.2.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [iconarray]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [iconarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iconarray-0.3.1.tar.gz tmp/iconarray-0.3.2.tar.gz --markdown 20230619/i/iconarray/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [bidfx-api]: Downloading https://files.pythonhosted.org/packages/d5/ae/e4bf2dadc67f81bbff0f1ad0177bf7817145a10b80586adefd839dbfd1a4/bidfx_api-1.1.0-py3.10.egg
+[2023-06-19 16:10:49] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/c6/36/70f905158ca1bb6e3d621c76bede1ef0d9d8d4f9c13b87d04a90034c6d4f/django-passkeys-1.2.4.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [nw-connections]: Downloading https://files.pythonhosted.org/packages/35/7f/4b50800a16023d4c328274731a3558ebf3321bf05413c504616b59430c9f/nw_connections-1.2.4.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/48/75/004bb0de302b36c3e2a8b6eb6ff9669c10b0c8f0892724869b04a408a2e4/pywry-0.5.8.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [nw-connections]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [nw-connections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nw_connections-1.2.3.tar.gz tmp/nw_connections-1.2.4.tar.gz --markdown 20230619/n/nw-connections/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [bidfx-api]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [bidfx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bidfx-api-1.0.0.tar.gz tmp/bidfx_api-1.1.0-py3.10.egg --markdown 20230619/b/bidfx-api/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/25/8b/e5381a7ecd8fa8e72c2cfdfe68539c09350180493bee16fb3b800a487c96/farm_haystack-1.9.1rc1.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/d8/2e/d478c8615ab808c6782ccfc14040e1326b207fe0187fe64a760f8532ed5e/highrise_bot_sdk-23.1.0b9.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [django-passkeys]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [django-passkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-passkeys-1.2.3.tar.gz tmp/django-passkeys-1.2.4.tar.gz --markdown 20230619/d/django-passkeys/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [keystoneauth1]: Downloading https://files.pythonhosted.org/packages/ad/a5/f0671fad7d66453d0b088973f69f53bcda24896af5252f9dd26373350e28/keystoneauth1-5.2.1.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230619/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2023-06-19 16:10:49] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b8.tar.gz tmp/highrise_bot_sdk-23.1.0b9.tar.gz --markdown 20230619/h/highrise-bot-sdk/23.1.0b8-23.1.0b9/diff.md --exclude *.pyd
+[2023-06-19 16:10:49] INFO root fetch - processPackages [keystoneauth1]: executing diffoscope
+[2023-06-19 16:10:49] INFO root fetch - processPackages [keystoneauth1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystoneauth1-5.2.0.tar.gz tmp/keystoneauth1-5.2.1.tar.gz --markdown 20230619/k/keystoneauth1/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-06-19 16:10:50] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/37/30/5b8add43d788624f2e1eb8843dfe53efa6459edb7cd9be134f09c135497e/pywry-0.5.9.tar.gz
+[2023-06-19 16:10:50] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-06-19 16:10:50] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.8.tar.gz tmp/pywry-0.5.9.tar.gz --markdown 20230619/p/pywry/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-19 16:10:50] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-06-19 16:10:50] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230619/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 16:10:51] INFO root fetch - processPackages [iconarray]: Remove: archive file [/home/abi/fetcher/tmp/iconarray-0.3.1.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [iconarray]: Remove: archive file [/home/abi/fetcher/tmp/iconarray-0.3.2.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [iconarray]: Start processing: crosslinked
+[2023-06-19 16:10:51] INFO root fetch - main [MainThread]: End processing [iconarray]: success
+[2023-06-19 16:10:51] INFO root fetch - processPackages [nw-connections]: Remove: archive file [/home/abi/fetcher/tmp/nw_connections-1.2.3.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [nw-connections]: Remove: archive file [/home/abi/fetcher/tmp/nw_connections-1.2.4.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - main [MainThread]: End processing [nw-connections]: success
+[2023-06-19 16:10:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-19 16:10:51] INFO root fetch - processPackages [crosslinked]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.1.0b8.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.1.0b9.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-06-19 16:10:51] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.3.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.4.tar.gz]
+[2023-06-19 16:10:51] INFO root fetch - main [MainThread]: End processing [django-passkeys]: success
+[2023-06-19 16:10:51] INFO root fetch - processPackages [crosslinked]: Downloading https://files.pythonhosted.org/packages/11/d0/3b576ea1e621e59f9d572f1c6b2dc789ba745419b460e5522897bfce3113/crosslinked-0.2.1.tar.gz
+[2023-06-19 16:10:52] INFO root fetch - processPackages [pywry]: Remove: archive file [/home/abi/fetcher/tmp/pywry-0.5.8.tar.gz]
+[2023-06-19 16:10:52] INFO root fetch - processPackages [pywry]: Remove: archive file [/home/abi/fetcher/tmp/pywry-0.5.9.tar.gz]
+[2023-06-19 16:10:52] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-06-19 16:10:52] INFO root fetch - processPackages [crosslinked]: Downloading https://files.pythonhosted.org/packages/5d/dd/3204a9e096d8302b1ea6f5ed22ca5240f111177b03ca4c76b36e4de0f0ed/crosslinked-0.3.0.tar.gz
+[2023-06-19 16:10:52] INFO root fetch - processPackages [crosslinked]: executing diffoscope
+[2023-06-19 16:10:52] INFO root fetch - processPackages [crosslinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslinked-0.2.1.tar.gz tmp/crosslinked-0.3.0.tar.gz --markdown 20230619/c/crosslinked/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 16:10:52] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.8.tar.gz]
+[2023-06-19 16:10:52] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.9.tar.gz]
+[2023-06-19 16:10:52] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-06-19 16:10:52] INFO root fetch - processPackages [bidfx-api]: Remove: archive file [/home/abi/fetcher/tmp/bidfx-api-1.0.0.tar.gz]
+[2023-06-19 16:10:52] INFO root fetch - processPackages [bidfx-api]: Remove: archive file [/home/abi/fetcher/tmp/bidfx_api-1.1.0-py3.10.egg]
+[2023-06-19 16:10:52] INFO root fetch - main [MainThread]: End processing [bidfx-api]: success
+[2023-06-19 16:10:53] INFO root fetch - processPackages [keystoneauth1]: Remove: archive file [/home/abi/fetcher/tmp/keystoneauth1-5.2.0.tar.gz]
+[2023-06-19 16:10:53] INFO root fetch - processPackages [keystoneauth1]: Remove: archive file [/home/abi/fetcher/tmp/keystoneauth1-5.2.1.tar.gz]
+[2023-06-19 16:10:53] INFO root fetch - main [MainThread]: End processing [keystoneauth1]: success
+[2023-06-19 16:10:53] INFO root fetch - processPackages [crosslinked]: Remove: archive file [/home/abi/fetcher/tmp/crosslinked-0.2.1.tar.gz]
+[2023-06-19 16:10:53] INFO root fetch - processPackages [crosslinked]: Remove: archive file [/home/abi/fetcher/tmp/crosslinked-0.3.0.tar.gz]
+[2023-06-19 16:10:53] INFO root fetch - main [MainThread]: End processing [crosslinked]: success
+[2023-06-19 16:10:55] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1.tar.gz]
+[2023-06-19 16:10:55] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1rc1.tar.gz]
+[2023-06-19 16:10:55] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-06-19 16:10:55] INFO root fetch - main [MainThread]: Store serial: [18560843]
