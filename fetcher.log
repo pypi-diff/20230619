@@ -6091,3 +6091,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:30:33] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
 [2023-06-19 05:30:33] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-06-19 05:30:33] INFO root fetch - main [MainThread]: Store serial: [18555343]
+[2023-06-19 05:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555343]
+[2023-06-19 05:35:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-19 05:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cq23
+[2023-06-19 05:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smqtk-descriptors
+[2023-06-19 05:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hscan
+[2023-06-19 05:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyconnectwise
+[2023-06-19 05:35:42] INFO root fetch - processPackages [hscan]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-19 05:35:42] WARNING root fetch - processPackages [pyconnectwise]: Skipping, unable to determine old version
+[2023-06-19 05:35:42] INFO root fetch - processPackages [cq23]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-19 05:35:42] INFO root fetch - main [MainThread]: End processing [pyconnectwise] error
+[2023-06-19 05:35:42] INFO root fetch - processPackages [smqtk-descriptors]: New version: [0.19.0] Old Version: [0.18.1]
+[2023-06-19 05:35:42] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/a5/83/0853d32f1d47750fe4c559772d24057c95a07f2fc0e2b69bd9d9a0718a9f/cq23-2.0.0.tar.gz
+[2023-06-19 05:35:42] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/9b/3f/b3d1d4505828c7b3e03553e6a83e49d49446c96f3a971df7081c2bbbb2bf/hscan-2.5.0.tar.gz
+[2023-06-19 05:35:42] INFO root fetch - processPackages [smqtk-descriptors]: Downloading https://files.pythonhosted.org/packages/48/c1/ab6f0283121cfa61482297211f2010608c2eef4b55ffab1cd766e1ce246b/smqtk_descriptors-0.18.1.tar.gz
+[2023-06-19 05:35:42] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/72/eb/5cf8b7c2419f7ebee6acbc626f6b0455cfe54296f714a0582baa24c73d4c/cq23-2.0.1.tar.gz
+[2023-06-19 05:35:43] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/29/52/038c46b4a54c5ca0510f9f0b08eb7fa7499f668c8b8ac92cc2ab6d8a8e14/hscan-2.5.1.tar.gz
+[2023-06-19 05:35:43] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-19 05:35:43] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.0.0.tar.gz tmp/cq23-2.0.1.tar.gz --markdown 20230619/c/cq23/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-19 05:35:43] INFO root fetch - processPackages [smqtk-descriptors]: Downloading https://files.pythonhosted.org/packages/e8/08/f67e8148ab1b84d658a854b8df82fe10cede57d575855922007e8eb710b4/smqtk_descriptors-0.19.0.tar.gz
+[2023-06-19 05:35:43] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-06-19 05:35:43] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.5.0.tar.gz tmp/hscan-2.5.1.tar.gz --markdown 20230619/h/hscan/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-19 05:35:43] INFO root fetch - processPackages [smqtk-descriptors]: executing diffoscope
+[2023-06-19 05:35:43] INFO root fetch - processPackages [smqtk-descriptors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smqtk_descriptors-0.18.1.tar.gz tmp/smqtk_descriptors-0.19.0.tar.gz --markdown 20230619/s/smqtk-descriptors/0.18.1-0.19.0/diff.md --exclude *.pyd
+[2023-06-19 05:35:44] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.0.0.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.0.1.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-19 05:35:44] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.0.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.1.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-06-19 05:35:44] INFO root fetch - processPackages [smqtk-descriptors]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_descriptors-0.18.1.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - processPackages [smqtk-descriptors]: Remove: archive file [/home/abi/fetcher/tmp/smqtk_descriptors-0.19.0.tar.gz]
+[2023-06-19 05:35:44] INFO root fetch - main [MainThread]: End processing [smqtk-descriptors]: success
+[2023-06-19 05:35:44] INFO root fetch - main [MainThread]: Store serial: [18555360]
