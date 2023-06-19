@@ -1,0 +1,247 @@
+# Comparing `tmp/one-api-tool-0.3.1.tar.gz` & `tmp/one-api-tool-0.3.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "one-api-tool-0.3.1.tar", last modified: Mon Jun 19 08:40:01 2023, max compression
++gzip compressed data, was "one-api-tool-0.3.2.tar", last modified: Mon Jun 19 11:38:34 2023, max compression
+```
+
+## Comparing `one-api-tool-0.3.1.tar` & `one-api-tool-0.3.2.tar`
+
+### file list
+
+```diff
+@@ -1,19 +1,19 @@
+-drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 08:40:01.841620 one-api-tool-0.3.1/
+--rw-r--r--   0 zhangchong   (501) staff       (20)     1055 2023-04-17 11:33:07.000000 one-api-tool-0.3.1/LICENSE
+--rw-r--r--   0 zhangchong   (501) staff       (20)     4256 2023-06-19 08:40:01.841460 one-api-tool-0.3.1/PKG-INFO
+--rw-r--r--   0 zhangchong   (501) staff       (20)     3700 2023-06-19 08:36:57.000000 one-api-tool-0.3.1/README.md
+-drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 08:40:01.840786 one-api-tool-0.3.1/one_api_tool.egg-info/
+--rw-r--r--   0 zhangchong   (501) staff       (20)     4256 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/PKG-INFO
+--rw-r--r--   0 zhangchong   (501) staff       (20)      343 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/SOURCES.txt
+--rw-r--r--   0 zhangchong   (501) staff       (20)        1 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/dependency_links.txt
+--rw-r--r--   0 zhangchong   (501) staff       (20)       64 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/entry_points.txt
+--rw-r--r--   0 zhangchong   (501) staff       (20)       69 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/requires.txt
+--rw-r--r--   0 zhangchong   (501) staff       (20)        7 2023-06-19 08:40:01.000000 one-api-tool-0.3.1/one_api_tool.egg-info/top_level.txt
+-drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 08:40:01.841026 one-api-tool-0.3.1/oneapi/
+--rw-r--r--   0 zhangchong   (501) staff       (20)       37 2023-04-28 08:45:03.000000 one-api-tool-0.3.1/oneapi/__init__.py
+-drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 08:40:01.841252 one-api-tool-0.3.1/oneapi/commands/
+--rw-r--r--   0 zhangchong   (501) staff       (20)        0 2023-04-26 09:00:27.000000 one-api-tool-0.3.1/oneapi/commands/__init__.py
+--rw-r--r--   0 zhangchong   (501) staff       (20)     1923 2023-05-04 06:36:39.000000 one-api-tool-0.3.1/oneapi/commands/one_api_requst.py
+--rw-r--r--   0 zhangchong   (501) staff       (20)    10837 2023-06-19 08:24:27.000000 one-api-tool-0.3.1/oneapi/one_api.py
+--rw-r--r--   0 zhangchong   (501) staff       (20)       38 2023-06-19 08:40:01.841668 one-api-tool-0.3.1/setup.cfg
+--rw-r--r--   0 zhangchong   (501) staff       (20)     1051 2023-06-19 08:39:54.000000 one-api-tool-0.3.1/setup.py
++drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 11:38:34.938673 one-api-tool-0.3.2/
++-rw-r--r--   0 zhangchong   (501) staff       (20)     1055 2023-04-17 11:33:07.000000 one-api-tool-0.3.2/LICENSE
++-rw-r--r--   0 zhangchong   (501) staff       (20)     4273 2023-06-19 11:38:34.938528 one-api-tool-0.3.2/PKG-INFO
++-rw-r--r--   0 zhangchong   (501) staff       (20)     3717 2023-06-19 08:54:47.000000 one-api-tool-0.3.2/README.md
++drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 11:38:34.937759 one-api-tool-0.3.2/one_api_tool.egg-info/
++-rw-r--r--   0 zhangchong   (501) staff       (20)     4273 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/PKG-INFO
++-rw-r--r--   0 zhangchong   (501) staff       (20)      343 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/SOURCES.txt
++-rw-r--r--   0 zhangchong   (501) staff       (20)        1 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/dependency_links.txt
++-rw-r--r--   0 zhangchong   (501) staff       (20)       64 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/entry_points.txt
++-rw-r--r--   0 zhangchong   (501) staff       (20)       69 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/requires.txt
++-rw-r--r--   0 zhangchong   (501) staff       (20)        7 2023-06-19 11:38:34.000000 one-api-tool-0.3.2/one_api_tool.egg-info/top_level.txt
++drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 11:38:34.938063 one-api-tool-0.3.2/oneapi/
++-rw-r--r--   0 zhangchong   (501) staff       (20)       37 2023-04-28 08:45:03.000000 one-api-tool-0.3.2/oneapi/__init__.py
++drwxr-xr-x   0 zhangchong   (501) staff       (20)        0 2023-06-19 11:38:34.938317 one-api-tool-0.3.2/oneapi/commands/
++-rw-r--r--   0 zhangchong   (501) staff       (20)        0 2023-04-26 09:00:27.000000 one-api-tool-0.3.2/oneapi/commands/__init__.py
++-rw-r--r--   0 zhangchong   (501) staff       (20)     1923 2023-05-04 06:36:39.000000 one-api-tool-0.3.2/oneapi/commands/one_api_requst.py
++-rw-r--r--   0 zhangchong   (501) staff       (20)    11137 2023-06-19 11:38:03.000000 one-api-tool-0.3.2/oneapi/one_api.py
++-rw-r--r--   0 zhangchong   (501) staff       (20)       38 2023-06-19 11:38:34.938716 one-api-tool-0.3.2/setup.cfg
++-rw-r--r--   0 zhangchong   (501) staff       (20)     1051 2023-06-19 11:38:25.000000 one-api-tool-0.3.2/setup.py
+```
+
+### Comparing `one-api-tool-0.3.1/LICENSE` & `one-api-tool-0.3.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `one-api-tool-0.3.1/PKG-INFO` & `one-api-tool-0.3.2/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: one-api-tool
+-Version: 0.3.1
++Version: 0.3.2
+ Summary: Use only one line of code to call multiple model APIs similar to ChatGPT. Currently supported: Azure OpenAI Resource endpoint API, OpenAI Official API, and Anthropic Claude series model API.
+ Home-page: https://github.com/muximus3/OneAPI
+ Classifier: Development Status :: 3 - Alpha
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Operating System :: OS Independent
+ Description-Content-Type: text/markdown
+@@ -56,26 +56,26 @@
+ 
+ `api_base`: This is the base API that is used to send requests. You can also specify a proxy URL, such as "https://your_proxy_domain/v1". For example, you can use Cloudflare workers to proxy the OpenAI site.
+ 
+ If you are using Azure APIs, you can find relevant information on the Azure resource dashboard. The API format typically follows this pattern: `https://{your_organization}.openai.azure.com/`.
+ 
+ `api_type`: Currently supported values are "open_ai", "azure", or "claude".
+ 
+-Here is a simple example:
++Here is  simple example:
+ ```python
+ from oneapi import OneAPITool
+ # Two ways to initialize the OneAPITool object  
+ # tool = OneAPITool.from_config(api_key, api_base, api_type)
+ tool = OneAPITool.from_config_file("your_config_file.json")
+ # Say hello to ChatGPT/Claude/GPT-4
+ res = tool.simple_chat("Hello AI!")
+ print(res)
+-# Get embeddings of some sentences for further usage
++# Get embeddings of some sentences for further usage, e.g., clustering
+ embeddings = tool.get_embeddings(["Hello AI!", "Hello world!"])
+-print(embeddings.shape)
++print(len(embeddings)))
+ # Count the number of tokens
+ print(tool.count_tokens(["Hello AI!", "Hello world!"]))
+ ```
+ **Note: Currently, `count_tokens` and `get_embeddings` only support OpenAI or Microsoft Azure API.**
+ ### 2. Using command line
+ ```sh
+ open-api --config_file CHANGE_TO_YOUR_CONFIG_PATH \
+```
+
+### Comparing `one-api-tool-0.3.1/README.md` & `one-api-tool-0.3.2/README.md`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -44,26 +44,26 @@
+ 
+ `api_base`: This is the base API that is used to send requests. You can also specify a proxy URL, such as "https://your_proxy_domain/v1". For example, you can use Cloudflare workers to proxy the OpenAI site.
+ 
+ If you are using Azure APIs, you can find relevant information on the Azure resource dashboard. The API format typically follows this pattern: `https://{your_organization}.openai.azure.com/`.
+ 
+ `api_type`: Currently supported values are "open_ai", "azure", or "claude".
+ 
+-Here is a simple example:
++Here is  simple example:
+ ```python
+ from oneapi import OneAPITool
+ # Two ways to initialize the OneAPITool object  
+ # tool = OneAPITool.from_config(api_key, api_base, api_type)
+ tool = OneAPITool.from_config_file("your_config_file.json")
+ # Say hello to ChatGPT/Claude/GPT-4
+ res = tool.simple_chat("Hello AI!")
+ print(res)
+-# Get embeddings of some sentences for further usage
++# Get embeddings of some sentences for further usage, e.g., clustering
+ embeddings = tool.get_embeddings(["Hello AI!", "Hello world!"])
+-print(embeddings.shape)
++print(len(embeddings)))
+ # Count the number of tokens
+ print(tool.count_tokens(["Hello AI!", "Hello world!"]))
+ ```
+ **Note: Currently, `count_tokens` and `get_embeddings` only support OpenAI or Microsoft Azure API.**
+ ### 2. Using command line
+ ```sh
+ open-api --config_file CHANGE_TO_YOUR_CONFIG_PATH \
+```
+
+### Comparing `one-api-tool-0.3.1/one_api_tool.egg-info/PKG-INFO` & `one-api-tool-0.3.2/one_api_tool.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: one-api-tool
+-Version: 0.3.1
++Version: 0.3.2
+ Summary: Use only one line of code to call multiple model APIs similar to ChatGPT. Currently supported: Azure OpenAI Resource endpoint API, OpenAI Official API, and Anthropic Claude series model API.
+ Home-page: https://github.com/muximus3/OneAPI
+ Classifier: Development Status :: 3 - Alpha
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Operating System :: OS Independent
+ Description-Content-Type: text/markdown
+@@ -56,26 +56,26 @@
+ 
+ `api_base`: This is the base API that is used to send requests. You can also specify a proxy URL, such as "https://your_proxy_domain/v1". For example, you can use Cloudflare workers to proxy the OpenAI site.
+ 
+ If you are using Azure APIs, you can find relevant information on the Azure resource dashboard. The API format typically follows this pattern: `https://{your_organization}.openai.azure.com/`.
+ 
+ `api_type`: Currently supported values are "open_ai", "azure", or "claude".
+ 
+-Here is a simple example:
++Here is  simple example:
+ ```python
+ from oneapi import OneAPITool
+ # Two ways to initialize the OneAPITool object  
+ # tool = OneAPITool.from_config(api_key, api_base, api_type)
+ tool = OneAPITool.from_config_file("your_config_file.json")
+ # Say hello to ChatGPT/Claude/GPT-4
+ res = tool.simple_chat("Hello AI!")
+ print(res)
+-# Get embeddings of some sentences for further usage
++# Get embeddings of some sentences for further usage, e.g., clustering
+ embeddings = tool.get_embeddings(["Hello AI!", "Hello world!"])
+-print(embeddings.shape)
++print(len(embeddings)))
+ # Count the number of tokens
+ print(tool.count_tokens(["Hello AI!", "Hello world!"]))
+ ```
+ **Note: Currently, `count_tokens` and `get_embeddings` only support OpenAI or Microsoft Azure API.**
+ ### 2. Using command line
+ ```sh
+ open-api --config_file CHANGE_TO_YOUR_CONFIG_PATH \
+```
+
+### Comparing `one-api-tool-0.3.1/oneapi/commands/one_api_requst.py` & `one-api-tool-0.3.2/oneapi/commands/one_api_requst.py`
+
+ * *Files identical despite different names*
+
+### Comparing `one-api-tool-0.3.1/oneapi/one_api.py` & `one-api-tool-0.3.2/oneapi/one_api.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -256,13 +256,19 @@
+         return response
+ 
+     def get_embeddings(self, texts: List[str], engine="text-embedding-ada-002") -> List[List[float]]:
+         if isinstance(self.tool, OpenAITool):
+             return self.tool.get_embeddings(texts, engine)  
+         else:
+             raise AssertionError(f"Not supported api type for embeddings: {type(self.tool)}")
++
++    def get_embedding(self, text: str, engine="text-embedding-ada-002") -> List[float]:
++        if isinstance(self.tool, OpenAITool):
++            return self.tool.get_embedding(text, engine)
++        else:
++            raise AssertionError(f"Not supported api type for embeddings: {type(self.tool)}")
+     
+     def count_tokens(self, texts: List[str], encoding_name: str = 'cl100k_base') -> int:
+         if isinstance(self.tool, OpenAITool):
+             return self.tool.count_tokens(texts, encoding_name)
+         else:
+             raise AssertionError(f"Not supported api type for token counting: {type(self.tool)}")
+```
+
+### Comparing `one-api-tool-0.3.1/setup.py` & `one-api-tool-0.3.2/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,12 +1,12 @@
+ from setuptools import setup, find_packages
+ 
+ setup(
+     name="one-api-tool",
+-    version="0.3.1",
++    version="0.3.2",
+     packages=find_packages(),
+     install_requires=[
+         # Add your library's dependencies here
+         "pydantic",
+         "openai",
+         "anthropic",
+         "requests",
+```
+
