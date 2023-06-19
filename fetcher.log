@@ -17171,3 +17171,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 14:38:00] INFO root fetch - processPackages [pinit]: Remove: archive file [/home/abi/fetcher/tmp/pinit-0.0.9.tar.gz]
 [2023-06-19 14:38:00] INFO root fetch - main [MainThread]: End processing [pinit]: success
 [2023-06-19 14:38:00] INFO root fetch - main [MainThread]: Store serial: [18559667]
+[2023-06-19 14:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18559667]
+[2023-06-19 14:43:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: higra
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genepierre
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-model-builder-multilingual
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cca-zoo
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idoctorai
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datawise
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightdash-client-python
+[2023-06-19 14:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zerospeech-tde
+[2023-06-19 14:43:10] INFO root fetch - processPackages [datawise]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [idoctorai]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [lightdash-client-python]: New version: [0.619.1] Old Version: [0.618.0]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [genepierre]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [zerospeech-tde]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [lollms]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [higra]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [cca-zoo]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-19 14:43:10] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-19 14:43:10] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/47/1c/fb556bb6c73037845a123877ccfd306b3ca0254b59506efa42cd15c1a469/lightdash_client_python-0.618.0.tar.gz
+[2023-06-19 14:43:10] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/3d/fa/c308862a892152b2b862bcb0835c098fdae8d64d9a86a09e3c5d8b74c682/oarepo-model-builder-multilingual-3.0.5.tar.gz
+[2023-06-19 14:43:10] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/13/40/27f0641eb4bb2e99d8aacd23a695f88bf2bd531e902cf697254faf599301/genepierre-0.0.5.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/08/37/4a7dd1e7f33fd85b605040df5f885a1d3b85e0183d15ce10cd2a395013b0/datawise-0.0.9.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/30/b8/53238268fc13fd52420f6db00a45808fd41bd377b8b21da83eb167c7dd78/idoctorai-0.4.8.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [zerospeech-tde]: Downloading https://files.pythonhosted.org/packages/b8/a3/824bc33974a262f7623e292f3ed6cfc88bf85340337d4977909995251959/zerospeech-tde-2.0.2.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.8.tar.gz tmp/datawise-0.0.9.tar.gz --markdown 20230619/d/datawise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 14:43:11] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/26/c1/2e8a004daa26d6a5a8efec3d7deb75cc534a82edebebc14962ddacb34e84/cca_zoo-2.0.2.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/82/fc/c4b43018cef0c11da34c25dd0e04b73307c7faeb142cbbcdf25450361b6d/genepierre-0.0.6.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [higra]: Downloading https://files.pythonhosted.org/packages/5c/18/47d7887393a7ca60cf7f58b18f7ec23e8800a98cf8cd339b8126acc6f1f2/higra-0.6.6-cp39-cp39-win_amd64.whl
+[2023-06-19 14:43:11] WARNING root fetch - processPackages [zerospeech-tde]: Skipping package: exceeds size limit 29868252>=10485760
+[2023-06-19 14:43:11] INFO root fetch - main [MainThread]: End processing [zerospeech-tde] error
+[2023-06-19 14:43:11] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/0a/d7/9a9371ce1d129955fbd70fecc02198b70fe85eeb9e073d27d4608fbe5d57/lollms-1.2.8.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/76/3b/06bdb52230d2e0a035bcb7a75f3efb45cdcd6b3e0ca112818934116488db/lightdash_client_python-0.619.1.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/3a/6d/bf816ca71c6717307b8b980e4417a3dda70fbbbad67044e011243607d97c/oarepo-model-builder-multilingual-3.0.6.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.5.tar.gz tmp/genepierre-0.0.6.tar.gz --markdown 20230619/g/genepierre/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-19 14:43:11] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31321967>=10485760
+[2023-06-19 14:43:11] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-19 14:43:11] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/b1/c7/e3771faed78fd259ee3f3c63a24ab790564f39b2af75cc39ec5312c03681/cca_zoo-2.0.3.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/92/9c/922d41cce50c2f696449597cc6f0b108b6dac2b06eeefdcab0c3c54bbbaa/idoctorai-0.4.9.tar.gz
+[2023-06-19 14:43:11] INFO root fetch - processPackages [lightdash-client-python]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [lightdash-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_client_python-0.618.0.tar.gz tmp/lightdash_client_python-0.619.1.tar.gz --markdown 20230619/l/lightdash-client-python/0.618.0-0.619.1/diff.md --exclude *.pyd
+[2023-06-19 14:43:11] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-3.0.5.tar.gz tmp/oarepo-model-builder-multilingual-3.0.6.tar.gz --markdown 20230619/o/oarepo-model-builder-multilingual/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-06-19 14:43:11] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.8.tar.gz tmp/idoctorai-0.4.9.tar.gz --markdown 20230619/i/idoctorai/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-19 14:43:11] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-06-19 14:43:11] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.0.2.tar.gz tmp/cca_zoo-2.0.3.tar.gz --markdown 20230619/c/cca-zoo/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-19 14:43:12] INFO root fetch - processPackages [higra]: Downloading https://files.pythonhosted.org/packages/d3/17/59f0647ffae9aa116e59240428dee532a0012a7951d29a6cb650f7f8e6b6/higra-0.6.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 14:43:12] WARNING root fetch - processPackages [higra]: Skipping package: exceeds size limit 10663922>=10485760
+[2023-06-19 14:43:12] INFO root fetch - main [MainThread]: End processing [higra] error
+[2023-06-19 14:43:12] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.9.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-19 14:43:12] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.5.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.6.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 14:43:12] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.8.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.9.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-19 14:43:12] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.5.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.6.tar.gz]
+[2023-06-19 14:43:12] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-06-19 14:43:14] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.2.tar.gz]
+[2023-06-19 14:43:14] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.3.tar.gz]
+[2023-06-19 14:43:14] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-06-19 14:43:15] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.618.0.tar.gz]
+[2023-06-19 14:43:15] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.619.1.tar.gz]
+[2023-06-19 14:43:15] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
+[2023-06-19 14:43:15] INFO root fetch - main [MainThread]: Store serial: [18559712]
