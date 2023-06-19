@@ -11717,3 +11717,126 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 10:54:21] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-3.9.0rc4.tar.gz]
 [2023-06-19 10:54:21] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
 [2023-06-19 10:54:21] INFO root fetch - main [MainThread]: Store serial: [18557614]
+[2023-06-19 10:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557614]
+[2023-06-19 10:59:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bm-pypi-test
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plonetheme.barceloneta
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf-docx-pic
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nowtime
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfp-nightly
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coindicator
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-mock
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emailalert
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sublime-syntax-language-server
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ens-sdk
+[2023-06-19 10:59:31] WARNING root fetch - processPackages [sublime-syntax-language-server]: Skipping, unable to determine old version
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sublime-syntax-language-server]: Start processing: forecastmanager
+[2023-06-19 10:59:31] INFO root fetch - main [MainThread]: End processing [sublime-syntax-language-server] error
+[2023-06-19 10:59:31] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.1.2023.6.19.16.49.50] Old Version: [3.1.1.2023.6.19.16.41.40]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [emailalert]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sqlalchemy-mock]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [coindicator]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ens-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [nonebot-plugin-nowtime]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/30/53/8337c47d357327920687b0f6a722fdd8868d656fbd18574b9ef6e5edbce7/ens_sdk-0.0.2.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/1b/6e/1e5084066dc2e4be084d7bd1381a2d7e26683a59f6b2c8e161a91b59e886/forecastmanager-0.0.2.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-19 10:59:31] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/56/c9/d7134a68f61252b9f5fff458b691b0c11d30022f518b6dcf79f6da57e7ad/coindicator-2.1.5.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/cb/1f/24a12e87f53ed4a2213df75e980373fd4dbeff49a5384dd0063e1bb3a415/bm_pypi_test-0.0.1-py3-none-any.whl
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sqlalchemy-mock]: Downloading https://files.pythonhosted.org/packages/b0/e5/c97a599e20d3546f39fb1a3ada15b6d70d70e3aee15434710e98e143d04e/sqlalchemy_mock-1.0.4.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/1c/9a/8f9e017aa4e7bf1b9e5737f3212dc4691f5f816884f9502fe83f78af8c74/pdf-docx-pic-3.1.1.2023.6.19.16.41.40.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/7f/2a/bddce27d6504d1fe471921f01bfd1c289b7e40a8b05b0d373120e67fcb04/emailalert-1.1.0.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [nonebot-plugin-nowtime]: Downloading https://files.pythonhosted.org/packages/6a/c3/7476bdd5601b8a8ef781bc066d7d1201119e5b823c179112490fd5ace042/nonebot_plugin_nowtime-0.1.4.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/a9/85/b16168bdb8844b30d945196a8c8e0da49a722e2cf0e009971c0f4dfa6de8/plonetheme.barceloneta-3.1.2.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ens-sdk]: Downloading https://files.pythonhosted.org/packages/e6/bd/43b0f5b33b11e7bf6c9910e9e1dc34174f69aa817fd6eb6c76bc7f2c7822/ens_sdk-0.0.3.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/59/96/fb7659a7583b39f89bb45952ae7d465e3c8cd6da4bb9a6797b3c9e5f298f/forecastmanager-0.0.3.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sqlalchemy-mock]: Downloading https://files.pythonhosted.org/packages/48/34/fcb40632f330dbaefc5cf4a55d1a5a4eb423a87f76fbbda6d0da6c083baf/sqlalchemy_mock-1.0.5.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/6f/02/ed002e11a76af3571c2ee392e497cc697d5c85c139b87a13a6d41b0d3426/pdf-docx-pic-3.1.1.2023.6.19.16.49.50.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/d8/a9/c49140dc8a8168c10dc65ab7e0bc7a2f211fe75eb80df36f50dac7cab025/coindicator-2.1.6.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ens-sdk]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [ens-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ens_sdk-0.0.2.tar.gz tmp/ens_sdk-0.0.3.tar.gz --markdown 20230619/e/ens-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [nonebot-plugin-nowtime]: Downloading https://files.pythonhosted.org/packages/0f/07/ff4089944ec003871329895826368e0ef68fd78faa68084cb5d59d56a258/nonebot_plugin_nowtime-0.1.5.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/37/9e/4ab54bd3a3aee04edd01c14999c3e9ecff2cf3aa4a71b8de1ca3c338dea4/emailalert-1.1.1.tar.gz
+[2023-06-19 10:59:31] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/5a/67/7f649ecf95f14ce994b03422de2a7b8c2a7ad2a3f1ce22a2b25704c2c6a1/bm_pypi_test-0.0.2-py3-none-any.whl
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sqlalchemy-mock]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [sqlalchemy-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_mock-1.0.4.tar.gz tmp/sqlalchemy_mock-1.0.5.tar.gz --markdown 20230619/s/sqlalchemy-mock/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.1.2023.6.19.16.41.40.tar.gz tmp/pdf-docx-pic-3.1.1.2023.6.19.16.49.50.tar.gz --markdown 20230619/p/pdf-docx-pic/3.1.1.2023.6.19.16.41.40-3.1.1.2023.6.19.16.49.50/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.2.tar.gz tmp/forecastmanager-0.0.3.tar.gz --markdown 20230619/f/forecastmanager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.1.5.tar.gz tmp/coindicator-2.1.6.tar.gz --markdown 20230619/c/coindicator/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [nonebot-plugin-nowtime]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [nonebot-plugin-nowtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nowtime-0.1.4.tar.gz tmp/nonebot_plugin_nowtime-0.1.5.tar.gz --markdown 20230619/n/nonebot-plugin-nowtime/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 10:59:31] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 10:59:31] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.1-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.2-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 10:59:32] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 10:59:32] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.0.tar.gz tmp/emailalert-1.1.1.tar.gz --markdown 20230619/e/emailalert/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-19 10:59:32] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-19 10:59:32] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-19 10:59:32] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230619/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-19 10:59:33] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.2.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [ens-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ens_sdk-0.0.3.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [ens-sdk]: Start processing: rlberry
+[2023-06-19 10:59:33] INFO root fetch - main [MainThread]: End processing [ens-sdk]: success
+[2023-06-19 10:59:33] INFO root fetch - processPackages [rlberry]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.19.16.41.40.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.19.16.49.50.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [pdf-docx-pic]: Start processing: qctma
+[2023-06-19 10:59:33] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-19 10:59:33] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/8e/2c/281d198f8de6e3eaabbd2ea87e2b2ffc79532b839972dc68a30ab9ea2e70/plonetheme.barceloneta-3.1.3.tar.gz
+[2023-06-19 10:59:33] INFO root fetch - processPackages [qctma]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [rlberry]: Downloading https://files.pythonhosted.org/packages/b3/08/0eb2a3e8d7e06b4a93b44145d20f0092de16bf25a33bfdd405c09f4b3872/rlberry-0.4.0.tar.gz
+[2023-06-19 10:59:33] INFO root fetch - processPackages [nonebot-plugin-nowtime]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nowtime-0.1.4.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [nonebot-plugin-nowtime]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nowtime-0.1.5.tar.gz]
+[2023-06-19 10:59:33] INFO root fetch - processPackages [nonebot-plugin-nowtime]: Start processing: polyanalyst6api
+[2023-06-19 10:59:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nowtime]: success
+[2023-06-19 10:59:34] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/e6/1f/5780713e9f40a6ad593b82e871d60eab4dab0fc14d413e3c713cefa559df/qctma-1.0.8.tar.gz
+[2023-06-19 10:59:34] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.1-py3-none-any.whl.zip]
+[2023-06-19 10:59:34] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.2-py3-none-any.whl.zip]
+[2023-06-19 10:59:34] INFO root fetch - main [MainThread]: End processing [bm-pypi-test]: success
+[2023-06-19 10:59:34] INFO root fetch - processPackages [polyanalyst6api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 10:59:34] INFO root fetch - processPackages [rlberry]: Downloading https://files.pythonhosted.org/packages/d2/48/f977731a1c17f7b34fdc028fca16298e7052c83df6786297b541e64e06ee/rlberry-0.4.1.tar.gz
+[2023-06-19 10:59:34] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.2.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.3.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-06-19 10:59:34] INFO root fetch - processPackages [sqlalchemy-mock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mock-1.0.4.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - processPackages [sqlalchemy-mock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mock-1.0.5.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mock]: success
+[2023-06-19 10:59:34] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.0.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.1.tar.gz]
+[2023-06-19 10:59:34] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 10:59:34] INFO root fetch - processPackages [rlberry]: executing diffoscope
+[2023-06-19 10:59:34] INFO root fetch - processPackages [rlberry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlberry-0.4.0.tar.gz tmp/rlberry-0.4.1.tar.gz --markdown 20230619/r/rlberry/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-19 10:59:34] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/c0/dd/d9fd9b67d3672437074bc56caa6873c4fc8a8fee1fe9dbb46ebca207a701/polyanalyst6api-0.9.1.tar.gz
+[2023-06-19 10:59:34] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2023-06-19 10:59:34] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.1.2.tar.gz tmp/plonetheme.barceloneta-3.1.3.tar.gz --markdown 20230619/p/plonetheme.barceloneta/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-19 10:59:34] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/98/34/fe41d95d647586ecc3ea5e3a207babeaf201d19cd21bb8c43bf3c294dbf2/qctma-1.0.9.tar.gz
+[2023-06-19 10:59:34] INFO root fetch - processPackages [qctma]: executing diffoscope
+[2023-06-19 10:59:34] INFO root fetch - processPackages [qctma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctma-1.0.8.tar.gz tmp/qctma-1.0.9.tar.gz --markdown 20230619/q/qctma/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 10:59:34] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/30/3e/6a817ee43d40818af50c4e8c49731b99308b3a95e6e5925b01db14a75ad9/polyanalyst6api-0.9.2.tar.gz
+[2023-06-19 10:59:34] INFO root fetch - processPackages [polyanalyst6api]: executing diffoscope
+[2023-06-19 10:59:34] INFO root fetch - processPackages [polyanalyst6api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyanalyst6api-0.9.1.tar.gz tmp/polyanalyst6api-0.9.2.tar.gz --markdown 20230619/p/polyanalyst6api/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 10:59:35] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.5.tar.gz]
+[2023-06-19 10:59:35] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.1.6.tar.gz]
+[2023-06-19 10:59:35] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-19 10:59:35] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.8.tar.gz]
+[2023-06-19 10:59:35] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.9.tar.gz]
+[2023-06-19 10:59:35] INFO root fetch - main [MainThread]: End processing [qctma]: success
+[2023-06-19 10:59:36] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.1.tar.gz]
+[2023-06-19 10:59:36] INFO root fetch - processPackages [polyanalyst6api]: Remove: archive file [/home/abi/fetcher/tmp/polyanalyst6api-0.9.2.tar.gz]
+[2023-06-19 10:59:36] INFO root fetch - main [MainThread]: End processing [polyanalyst6api]: success
+[2023-06-19 10:59:37] INFO root fetch - processPackages [rlberry]: Remove: archive file [/home/abi/fetcher/tmp/rlberry-0.4.0.tar.gz]
+[2023-06-19 10:59:37] INFO root fetch - processPackages [rlberry]: Remove: archive file [/home/abi/fetcher/tmp/rlberry-0.4.1.tar.gz]
+[2023-06-19 10:59:37] INFO root fetch - main [MainThread]: End processing [rlberry]: success
+[2023-06-19 10:59:38] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.2.tar.gz]
+[2023-06-19 10:59:38] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.3.tar.gz]
+[2023-06-19 10:59:38] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2023-06-19 10:59:47] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-19 10:59:47] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-19 10:59:47] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-19 10:59:47] INFO root fetch - main [MainThread]: Store serial: [18557663]
