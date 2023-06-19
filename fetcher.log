@@ -9962,3 +9962,121 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 09:46:16] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.1.1.tar.gz]
 [2023-06-19 09:46:16] INFO root fetch - main [MainThread]: End processing [gpboost]: success
 [2023-06-19 09:46:16] INFO root fetch - main [MainThread]: Store serial: [18556888]
+[2023-06-19 09:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556888]
+[2023-06-19 09:51:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terraform-backend-s3-bucket
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-base-sdk
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airstack
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mosek
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aloso
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ErlangCCmath
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycairo
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaostoolkit-lib
+[2023-06-19 09:51:25] INFO root fetch - processPackages [mobio-base-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [airstack]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 09:51:25] WARNING root fetch - processPackages [ErlangCCmath]: Skipping, unable to determine old version
+[2023-06-19 09:51:25] INFO root fetch - processPackages [ErlangCCmath]: Start processing: locuaz
+[2023-06-19 09:51:25] INFO root fetch - main [MainThread]: End processing [ErlangCCmath] error
+[2023-06-19 09:51:25] INFO root fetch - processPackages [chaostoolkit-lib]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [pycairo]: New version: [1.8.8] Old Version: [1.8.10]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [locuaz]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-19 09:51:25] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/e6/be/037fb503d7fd5cd3516f0cfd988851e0058811963adc6941abdadc85abcf/airstack-0.0.2.tar.gz
+[2023-06-19 09:51:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-19 09:51:25] WARNING root fetch - processPackages [pycairo]: fallback to get urls: [1.8.10]
+[2023-06-19 09:51:25] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/2a/b2/27ef91763ac611976a29729d92af54212c349b1f24fd343a2ab0429a6004/chaostoolkit-lib-1.8.1.tar.gz
+[2023-06-19 09:51:25] WARNING root fetch - processPackages [pycairo]: None
+[2023-06-19 09:51:25] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-06-19 09:51:25] WARNING root fetch - processPackages [pycairo]: None
+[2023-06-19 09:51:25] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-06-19 09:51:25] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-06-19 09:51:26] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/4d/3e/c4391965874b361d93ac3679a9d742dd53365c5b6105f1bb2d5d8704b909/locuaz-0.3.9.tar.gz
+[2023-06-19 09:51:26] WARNING root fetch - processPackages [pycairo]: unable to get url for both version [1.8.10]
+[2023-06-19 09:51:26] WARNING root fetch - processPackages [pycairo]: None
+[2023-06-19 09:51:26] INFO root fetch - processPackages [pycairo]: Start processing: tf-nightly-cpu
+[2023-06-19 09:51:26] INFO root fetch - main [MainThread]: End processing [pycairo] error
+[2023-06-19 09:51:26] INFO root fetch - processPackages [mobio-base-sdk]: Downloading https://files.pythonhosted.org/packages/ae/4d/21b540f8f1af38ab562ae18f2f627d55be6b127664e8040c8065e86a3c1e/mobio-base-sdk-1.0.8.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/17/4a/91b32db81a8522b60a5006a35cdf9feef3c81bbe297fb2a5d2fbee8ded73/airstack-0.0.3.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-19 09:51:26] WARNING root fetch - processPackages [locuaz]: Skipping package: exceeds size limit 35161143>=10485760
+[2023-06-19 09:51:26] INFO root fetch - processPackages [locuaz]: Start processing: nonebot-plugin-xiuxian-2
+[2023-06-19 09:51:26] INFO root fetch - main [MainThread]: End processing [locuaz] error
+[2023-06-19 09:51:26] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2023-06-19 09:51:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230619/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230619] Old Version: [2.14.0.dev20230618]
+[2023-06-19 09:51:26] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/ce/ed/18f1241fe016fd9143c099b74f06962ddab60503251292c27a44324ac201/chaostoolkit-lib-1.9.0.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230619/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [airstack]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [airstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airstack-0.0.2.tar.gz tmp/airstack-0.0.3.tar.gz --markdown 20230619/a/airstack/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-06-19 09:51:26] INFO root fetch - processPackages [mobio-base-sdk]: Downloading https://files.pythonhosted.org/packages/45/1f/34614d8a526ad8bf5250099c711291eb40d566e0bd41a9a9e655cd833f05/mobio-base-sdk-1.0.9.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [chaostoolkit-lib]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [chaostoolkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-lib-1.8.1.tar.gz tmp/chaostoolkit-lib-1.9.0.tar.gz --markdown 20230619/c/chaostoolkit-lib/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Downloading https://files.pythonhosted.org/packages/f2/b7/70453d4f7092eecbdc00a0e902a1f835c5ac758ed1df5bbe693ab11d2010/nonebot_plugin_xiuxian_2-2.9.2.1.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230619/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e9/fa/ef476a330959719c4c9ce0a1033dbc77f55c8ccf5ad2c771ae799c0ac0a2/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl
+[2023-06-19 09:51:26] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230619/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [mobio-base-sdk]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [mobio-base-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-base-sdk-1.0.8.tar.gz tmp/mobio-base-sdk-1.0.9.tar.gz --markdown 20230619/m/mobio-base-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Downloading https://files.pythonhosted.org/packages/d4/52/083ac9907cc30f227d49c173cec08d8fcdcf6a0a805566ba98992c5a0141/nonebot_plugin_xiuxian_2-2.9.2.2.tar.gz
+[2023-06-19 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/36/e3/7701fef67e4899749c63324594a1f2d3ecc9147b295be8d9d1605205e74e/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl
+[2023-06-19 09:51:26] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_xiuxian_2-2.9.2.1.tar.gz tmp/nonebot_plugin_xiuxian_2-2.9.2.2.tar.gz --markdown 20230619/n/nonebot-plugin-xiuxian-2/2.9.2.1-2.9.2.2/diff.md --exclude *.pyd
+[2023-06-19 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-19 09:51:26] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl.zip --markdown 20230619/t/tf-nightly-cpu/2.14.0.dev20230618-2.14.0.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 09:51:28] INFO root fetch - processPackages [mobio-base-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-base-sdk-1.0.8.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [mobio-base-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-base-sdk-1.0.9.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [mobio-base-sdk]: Start processing: cc-py-commons
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [mobio-base-sdk]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.2.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.3.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [airstack]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230619-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-06-19 09:51:28] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_xiuxian_2-2.9.2.1.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_xiuxian_2-2.9.2.2.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xiuxian-2]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.8.1.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.9.0.tar.gz]
+[2023-06-19 09:51:28] INFO root fetch - main [MainThread]: End processing [chaostoolkit-lib]: success
+[2023-06-19 09:51:28] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-06-19 09:51:28] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-06-19 09:51:28] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230619/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 09:51:28] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-06-19 09:51:30] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.8.tar.gz]
+[2023-06-19 09:51:30] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.9.tar.gz]
+[2023-06-19 09:51:30] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-06-19 09:51:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-19 09:51:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-19 09:51:31] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-19 09:51:32] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-06-19 09:51:32] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230619/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-06-19 09:51:34] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-19 09:51:34] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-19 09:51:34] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-19 09:52:19] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:52:19] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-19 09:52:19] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-06-19 09:52:19] INFO root fetch - main [MainThread]: Store serial: [18556945]
