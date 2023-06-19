@@ -8960,3 +8960,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 09:03:22] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-1.1.8.tar.gz]
 [2023-06-19 09:03:22] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
 [2023-06-19 09:03:22] INFO root fetch - main [MainThread]: Store serial: [18556479]
+[2023-06-19 09:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556479]
+[2023-06-19 09:08:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phylox
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reytool
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smpgpt
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpservice
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-overdue-reminder
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smpgpt
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdsfactory
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asyncr
+[2023-06-19 09:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otpme
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: New version: [9.0] Old Version: [8.0]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [phylox]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 09:08:31] WARNING root fetch - processPackages [asyncr]: Skipping, unable to determine old version
+[2023-06-19 09:08:31] INFO root fetch - main [MainThread]: End processing [asyncr] error
+[2023-06-19 09:08:31] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/f2/fe/0e6a86a6116b6e159ce40b3a1f0250f61563e5fcf0e8c5cfeb677a4fc386/smpgpt-8.0.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: New version: [9.0] Old Version: [8.0]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-19 09:08:31] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-19 09:08:31] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/ee/03/35081f07a496861e4f8234e406e14d17894750292d2c92c2d281fb2f78d6/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/17/00/70c0cb1233986f75bb5ef50ef9df56e3b62d1cef390302e20977f4b9dd68/smpgpt-9.0.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: Downloading https://files.pythonhosted.org/packages/17/00/70c0cb1233986f75bb5ef50ef9df56e3b62d1cef390302e20977f4b9dd68/smpgpt-9.0.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/a6/ed/2075e9d09d91e180263c0211a96a6bf219062de4b6e9c394bc774c5894fb/phylox-0.0.1.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-19 09:08:31] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-8.0.tar.gz tmp/smpgpt-9.0.tar.gz --markdown 20230619/s/smpgpt/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [smpgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpgpt-8.0.tar.gz tmp/smpgpt-9.0.tar.gz --markdown 20230619/s/smpgpt/8.0-9.0/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230619/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230619/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230619/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/da/b6/079624a4afe08ad68035e1204c4ebef461aa5ffdda5507d39e0300183896/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-19 09:08:31] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/8f/34/9a63c44772d6add57179d91a845d55b8218226e7467397bd295547b11482/phylox-0.0.2.tar.gz
+[2023-06-19 09:08:31] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-account-invoice-overdue-reminder/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-19 09:08:31] INFO root fetch - processPackages [phylox]: executing diffoscope
+[2023-06-19 09:08:31] INFO root fetch - processPackages [phylox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylox-0.0.1.tar.gz tmp/phylox-0.0.2.tar.gz --markdown 20230619/p/phylox/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 09:08:32] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-19 09:08:32] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-19 09:08:32] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230619/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-19 09:08:32] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-8.0.tar.gz]
+[2023-06-19 09:08:32] INFO root fetch - processPackages [smpgpt]: Remove: archive file [/home/abi/fetcher/tmp/smpgpt-9.0.tar.gz]
+[2023-06-19 09:08:32] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 09:08:32] INFO root fetch - main [MainThread]: End processing [smpgpt]: success
+[2023-06-19 09:08:33] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-19 09:08:33] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-19 09:08:33] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-19 09:08:33] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-19 09:08:33] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-19 09:08:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-overdue-reminder]: success
+[2023-06-19 09:08:33] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-19 09:08:33] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-19 09:08:33] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-19 09:08:33] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-0.0.1.tar.gz]
+[2023-06-19 09:08:33] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-0.0.2.tar.gz]
+[2023-06-19 09:08:33] INFO root fetch - main [MainThread]: End processing [phylox]: success
+[2023-06-19 09:08:36] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-19 09:08:36] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-19 09:08:36] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-19 09:08:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-19 09:08:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-19 09:08:41] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-19 09:08:41] INFO root fetch - main [MainThread]: Store serial: [18556514]
