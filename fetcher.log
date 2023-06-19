@@ -12307,3 +12307,85 @@ AssertionError: tmp/st_line_plotter-0.0.8.tar.gz does not exist
 [2023-06-19 11:10:24] INFO root fetch - processPackages [snapchat-dlp]: Remove: archive file [/home/abi/fetcher/tmp/snapchat-dlp-1.5.2.tar.gz]
 [2023-06-19 11:10:24] INFO root fetch - main [MainThread]: End processing [snapchat-dlp]: success
 [2023-06-19 11:10:24] INFO root fetch - main [MainThread]: Store serial: [18557849]
+[2023-06-19 11:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18557849]
+[2023-06-19 11:15:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SteveRL
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elblog2dict
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csy12346789-1
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sftpoeb
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-power-ops
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydebiaseddta
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bm-pypi-test
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grad-june
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: american-options
+[2023-06-19 11:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csy3513
+[2023-06-19 11:15:34] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 11:15:34] WARNING root fetch - processPackages [SteveRL]: Skipping, unable to determine old version
+[2023-06-19 11:15:34] INFO root fetch - processPackages [SteveRL]: Start processing: bm-pypi-test
+[2023-06-19 11:15:34] INFO root fetch - main [MainThread]: End processing [SteveRL] error
+[2023-06-19 11:15:34] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 11:15:34] INFO root fetch - processPackages [elblog2dict]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 11:15:34] INFO root fetch - processPackages [american-options]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 11:15:34] INFO root fetch - processPackages [grad-june]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-19 11:15:34] WARNING root fetch - processPackages [csy12346789-1]: Skipping, unable to determine old version
+[2023-06-19 11:15:34] INFO root fetch - main [MainThread]: End processing [csy12346789-1] error
+[2023-06-19 11:15:34] WARNING root fetch - processPackages [csy3513]: Skipping, unable to determine old version
+[2023-06-19 11:15:34] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 11:15:34] INFO root fetch - processPackages [pydebiaseddta]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-19 11:15:34] INFO root fetch - main [MainThread]: End processing [csy3513] error
+[2023-06-19 11:15:34] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 11:15:34] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/5a/67/7f649ecf95f14ce994b03422de2a7b8c2a7ad2a3f1ce22a2b25704c2c6a1/bm_pypi_test-0.0.2-py3-none-any.whl
+[2023-06-19 11:15:34] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/b4/a3/962071b9ada796842542e92ac809785b018507f0ad7661c4159825dc82f5/sftpoeb-0.1.8.tar.gz
+[2023-06-19 11:15:34] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/11/1c/d9ce360c2cc75b9e45243f36d794c232792051613a48838ac48acb2312b3/elblog2dict-0.0.3.tar.gz
+[2023-06-19 11:15:34] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/5a/67/7f649ecf95f14ce994b03422de2a7b8c2a7ad2a3f1ce22a2b25704c2c6a1/bm_pypi_test-0.0.2-py3-none-any.whl
+[2023-06-19 11:15:34] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-19 11:15:34] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/14/78/614aa26f2dc8b206c86f5a7d7db62a50e0c55684cb29a9238cb413fd8f59/american_options-0.1.4.tar.gz
+[2023-06-19 11:15:34] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/87/32/b1860ebd055763df2339b662108333629c47189c7eb20b34c4358f7585d9/grad_june-0.1.4.tar.gz
+[2023-06-19 11:15:34] INFO root fetch - processPackages [pydebiaseddta]: Downloading https://files.pythonhosted.org/packages/2b/1f/05d276b32fe540470cc72988932915ea82d5d3a6e2ebb22ef06bb7a58988/pydebiaseddta-0.0.5.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/ff/d1/c47ab9f15a2e74bbd7dc6890b7ba9257f747664405097a6d09ef0c899fca/sftpoeb-0.1.9.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/0f/2b/78d2bfe75ec62eb3e4f725b1a3fc89e29dbf00a1610c9cf5612c832a76d4/bm_pypi_test-0.0.3-py3-none-any.whl
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/0f/2b/78d2bfe75ec62eb3e4f725b1a3fc89e29dbf00a1610c9cf5612c832a76d4/bm_pypi_test-0.0.3-py3-none-any.whl
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.2-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.3-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [grad-june]: Downloading https://files.pythonhosted.org/packages/f7/98/58d22366bc1b88a51d0245e475f732c6c781d822c55cadb5e0f1c68c97fa/grad_june-0.1.5.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.2-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.3-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/94/c2/fe8eb0ddb793345ff35446a5885669516ff82fc2abfdadf77b379f4ef183/american_options-0.1.5.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [elblog2dict]: Downloading https://files.pythonhosted.org/packages/49/77/3fdf49236fb991b5839d81856ad1379f8289d7caf62be62a766bd6ccee03/elblog2dict-0.0.4.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.8.tar.gz tmp/sftpoeb-0.1.9.tar.gz --markdown 20230619/s/sftpoeb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230619/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [american-options]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [american-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/american_options-0.1.4.tar.gz tmp/american_options-0.1.5.tar.gz --markdown 20230619/a/american-options/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [grad-june]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [grad-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grad_june-0.1.4.tar.gz tmp/grad_june-0.1.5.tar.gz --markdown 20230619/g/grad-june/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [elblog2dict]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [elblog2dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elblog2dict-0.0.3.tar.gz tmp/elblog2dict-0.0.4.tar.gz --markdown 20230619/e/elblog2dict/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 11:15:35] INFO root fetch - processPackages [pydebiaseddta]: Downloading https://files.pythonhosted.org/packages/10/49/6e2c10a7f6b01307cd90dd151f1e59a2ba5bb9b91269a70c895ffcef8ac9/pydebiaseddta-0.1.0.tar.gz
+[2023-06-19 11:15:35] INFO root fetch - processPackages [pydebiaseddta]: executing diffoscope
+[2023-06-19 11:15:35] INFO root fetch - processPackages [pydebiaseddta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydebiaseddta-0.0.5.tar.gz tmp/pydebiaseddta-0.1.0.tar.gz --markdown 20230619/p/pydebiaseddta/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 11:15:36] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.2-py3-none-any.whl.zip]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [bm-pypi-test]: Remove: archive file [/home/abi/fetcher/tmp/bm_pypi_test-0.0.3-py3-none-any.whl.zip]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [bm-pypi-test]: success
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [bm-pypi-test]: success
+[2023-06-19 11:15:36] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.3.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [elblog2dict]: Remove: archive file [/home/abi/fetcher/tmp/elblog2dict-0.0.4.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [elblog2dict]: success
+[2023-06-19 11:15:36] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.8.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.9.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-19 11:15:36] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-19 11:15:36] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.4.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [grad-june]: Remove: archive file [/home/abi/fetcher/tmp/grad_june-0.1.5.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [grad-june]: success
+[2023-06-19 11:15:36] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.4.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.5.tar.gz]
+[2023-06-19 11:15:36] INFO root fetch - main [MainThread]: End processing [american-options]: success
+[2023-06-19 11:15:37] INFO root fetch - processPackages [pydebiaseddta]: Remove: archive file [/home/abi/fetcher/tmp/pydebiaseddta-0.0.5.tar.gz]
+[2023-06-19 11:15:37] INFO root fetch - processPackages [pydebiaseddta]: Remove: archive file [/home/abi/fetcher/tmp/pydebiaseddta-0.1.0.tar.gz]
+[2023-06-19 11:15:37] INFO root fetch - main [MainThread]: End processing [pydebiaseddta]: success
+[2023-06-19 11:15:37] INFO root fetch - main [MainThread]: Store serial: [18557887]
