@@ -18148,3 +18148,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 15:10:40] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.2.0-py3-none-any.whl.zip]
 [2023-06-19 15:10:40] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-06-19 15:10:40] INFO root fetch - main [MainThread]: Store serial: [18560087]
+[2023-06-19 15:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560087]
+[2023-06-19 15:15:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viggocore
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandoc-beamer-multigraphics
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepomatic-rpc-protobuf
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-scipy
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssh-remote-control
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mizue
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SanicKit
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Apycula
+[2023-06-19 15:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emnify-sdk
+[2023-06-19 15:15:49] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: New version: [0.21.0a0] Old Version: [0.20.0a0]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [Apycula]: New version: [0.8.2a1] Old Version: [0.8.1]
+[2023-06-19 15:15:50] WARNING root fetch - processPackages [SanicKit]: Skipping, unable to determine old version
+[2023-06-19 15:15:50] INFO root fetch - processPackages [SanicKit]: Start processing: EMMOntoPy
+[2023-06-19 15:15:50] INFO root fetch - main [MainThread]: End processing [SanicKit] error
+[2023-06-19 15:15:50] INFO root fetch - processPackages [langflow]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: New version: [1.0.0.0] Old Version: [0.1.1]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [viggocore]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [mizue]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [EMMOntoPy]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [emnify-sdk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Downloading https://files.pythonhosted.org/packages/1b/0c/4d21ef62e1791be458bcdf18d359dd57d346c6805cca61285e7f908877bc/deepomatic-rpc-protobuf-0.20.0a0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/7d/e6/006d56e86b6bb6fdb62095c3902676b28aca0141193abf555a5cb9c73dd8/ssh_remote_control-0.1.0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/44/a4/b53890f9517cd552c125fa1ae85fff95c7ba53cd9ef625b0db39a9ae2e8a/viggocore-1.0.8.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [Apycula]: Downloading https://files.pythonhosted.org/packages/21/0f/b15f184f8345be5b85df92b5efb0ef690c3b34b4b656d38764ad49c6d6a7/Apycula-0.8.1.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: Downloading https://files.pythonhosted.org/packages/21/c6/de6254fcbe1f5a79c4451f85b85303c1fa5d19334c55a18837d4fa277e6e/pandoc-beamer-multigraphics-0.1.1.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/d6/4b/1ba99016c9effe6daa4d434f42c47b93efdbcc46080850f99c9f2675ee48/langflow-0.1.2.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Downloading https://files.pythonhosted.org/packages/9a/26/0b0406f9fa0941f074a8bd63bfe6e1932edb21451ecc8322d7bc7d5d455d/deepomatic-rpc-protobuf-0.21.0a0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [EMMOntoPy]: Downloading https://files.pythonhosted.org/packages/7c/5a/d6b95a3304a1031e21fb8086a1941213909609e7dfb7741f2553d3d1ae39/EMMOntoPy-0.5.4.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-19 15:15:50] WARNING root fetch - processPackages [EMMOntoPy]: Skipping package: exceeds size limit 20723891>=10485760
+[2023-06-19 15:15:50] INFO root fetch - processPackages [EMMOntoPy]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-19 15:15:50] INFO root fetch - main [MainThread]: End processing [EMMOntoPy] error
+[2023-06-19 15:15:50] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/9e/b0/70d84c0f8bb8f97977ebf19f342dc66de1a701953fb67d5fa3a68dc1f564/mizue-0.3.0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/7c/d8/4d08b8a4063bc2b3420ec1de93bff08217ed1655cde17a326d7892d5b305/emnify-sdk-0.3.0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepomatic-rpc-protobuf-0.20.0a0.tar.gz tmp/deepomatic-rpc-protobuf-0.21.0a0.tar.gz --markdown 20230619/d/deepomatic-rpc-protobuf/0.20.0a0-0.21.0a0/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230619/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 15:15:50] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.9.tar.gz tmp/mizue-0.3.0.tar.gz --markdown 20230619/m/mizue/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/fa/5a/bc049e74f12dbb1a812951759c1ca36ecbd38ebc1a71b1d69cfb811efa6c/ssh_remote_control-0.1.1.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.0.tar.gz tmp/ssh_remote_control-0.1.1.tar.gz --markdown 20230619/s/ssh-remote-control/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: Downloading https://files.pythonhosted.org/packages/fc/03/39c115f53a4d3a96e71432a3bc606b83319f7cd5b1e83012dda696d94491/pandoc_beamer_multigraphics-1.0.0.0.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/06/6a/a468bf724f6baed9060fab846c4756b87d663d2181073440bb9d2beef5ed/viggocore-1.0.9.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/e9/b8/a9b93c8880c3c0da81ef09a03cd1b00beeaeb5315c62ab6e57a63ac82e89/langflow-0.1.3.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [Apycula]: Downloading https://files.pythonhosted.org/packages/c3/02/e0d733000d5520e35d7547689a60579feb336c2a3e445747fc24351eb52c/Apycula-0.8.2a1.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/79/96/f56b6c8d9f2637f0f61f215fefb5ffe5af21711e4e30f7daa914cbdb8328/emnify-sdk-0.3.1.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-beamer-multigraphics-0.1.1.tar.gz tmp/pandoc_beamer_multigraphics-1.0.0.0.tar.gz --markdown 20230619/p/pandoc-beamer-multigraphics/0.1.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-06-19 15:15:50] INFO root fetch - processPackages [viggocore]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [viggocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggocore-1.0.8.tar.gz tmp/viggocore-1.0.9.tar.gz --markdown 20230619/v/viggocore/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.1.2.tar.gz tmp/langflow-0.1.3.tar.gz --markdown 20230619/l/langflow/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 15:15:50] INFO root fetch - processPackages [emnify-sdk]: executing diffoscope
+[2023-06-19 15:15:50] INFO root fetch - processPackages [emnify-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emnify-sdk-0.3.0.tar.gz tmp/emnify-sdk-0.3.1.tar.gz --markdown 20230619/e/emnify-sdk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-19 15:15:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-06-19 15:15:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-19 15:15:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230619/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 15:15:51] INFO root fetch - processPackages [Apycula]: executing diffoscope
+[2023-06-19 15:15:51] INFO root fetch - processPackages [Apycula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Apycula-0.8.1.tar.gz tmp/Apycula-0.8.2a1.tar.gz --markdown 20230619/A/Apycula/0.8.1-0.8.2a1/diff.md --exclude *.pyd
+[2023-06-19 15:15:51] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-19 15:15:51] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-19 15:15:51] INFO root fetch - processPackages [nbdev-scipy]: Start processing: dash-leaflet
+[2023-06-19 15:15:51] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-19 15:15:51] INFO root fetch - processPackages [dash-leaflet]: New version: [0.1.9rc5] Old Version: [0.1.9rc4]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.1.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [ssh-remote-control]: Start processing: mlpf
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mlpf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/e9/64/f6d56b297476a1d1eb35d6186275cf4677a7e58a69a1daa10c0560fd1ff4/mlpf-0.0.4.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/5b/0e/2b7ec9cca9f2affae75ab19e21334ea836bb6fb14e64d1bf107f1533be2f/dash_leaflet-0.1.9rc4.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-beamer-multigraphics-0.1.1.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_multigraphics-1.0.0.0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [pandoc-beamer-multigraphics]: Start processing: drukarnia-api
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-multigraphics]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.90] Old Version: [0.1.75]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/bd/ad/433f095441ea6e98b2bc36c9c8a8e8a64eca8f66b26db7e7de6cc4413138/drukarnia-api-0.1.75.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.3.0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mizue]: Start processing: nbdev-sphinx
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/5f/ce/0beeac004c879d887ee1a907c9272e82109324b85107bc1c7cd6d3fed232/mlpf-0.0.5.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/f2/6f/fc587f0f269f8bda040c0174d28a96058686b992cdc8cf56f5d0acce9ebf/dash_leaflet-0.1.9rc5.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/c5/5c/8480b1a3bbdd52027ab64b0aba8fdb136f4c6bfa9b3357dfa57a047c717f/drukarnia-api-0.1.90.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mlpf]: executing diffoscope
+[2023-06-19 15:15:52] INFO root fetch - processPackages [mlpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpf-0.0.4.tar.gz tmp/mlpf-0.0.5.tar.gz --markdown 20230619/m/mlpf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 15:15:52] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/deepomatic-rpc-protobuf-0.20.0a0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/deepomatic-rpc-protobuf-0.21.0a0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Start processing: actuarialmath
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [deepomatic-rpc-protobuf]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [actuarialmath]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [dash-leaflet]: executing diffoscope
+[2023-06-19 15:15:52] INFO root fetch - processPackages [dash-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_leaflet-0.1.9rc4.tar.gz tmp/dash_leaflet-0.1.9rc5.tar.gz --markdown 20230619/d/dash-leaflet/0.1.9rc4-0.1.9rc5/diff.md --exclude *.pyd
+[2023-06-19 15:15:52] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-19 15:15:52] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.75.tar.gz tmp/drukarnia-api-0.1.90.tar.gz --markdown 20230619/d/drukarnia-api/0.1.75-0.1.90/diff.md --exclude *.pyd
+[2023-06-19 15:15:52] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-19 15:15:52] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230619/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 15:15:52] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/53/a7/36f4047a75aa34b0b1e6a1f3b2d2d42b27aea58160ceaf9cc8bfb746c2b2/actuarialmath-0.0.8.tar.gz
+[2023-06-19 15:15:52] INFO root fetch - processPackages [emnify-sdk]: Remove: archive file [/home/abi/fetcher/tmp/emnify-sdk-0.3.0.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [emnify-sdk]: Remove: archive file [/home/abi/fetcher/tmp/emnify-sdk-0.3.1.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [emnify-sdk]: Start processing: pawnlib
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [emnify-sdk]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.0.8.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.0.9.tar.gz]
+[2023-06-19 15:15:52] INFO root fetch - processPackages [viggocore]: Start processing: bonn
+[2023-06-19 15:15:52] INFO root fetch - main [MainThread]: End processing [viggocore]: success
+[2023-06-19 15:15:52] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 15:15:53] INFO root fetch - processPackages [bonn]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 15:15:53] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/ca/fd/c80557f05d04d7de901ba58e67180085758d1bb5a0201df6f0ba957d8555/actuarialmath-0.0.9.tar.gz
+[2023-06-19 15:15:53] INFO root fetch - processPackages [actuarialmath]: executing diffoscope
+[2023-06-19 15:15:53] INFO root fetch - processPackages [actuarialmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actuarialmath-0.0.8.tar.gz tmp/actuarialmath-0.0.9.tar.gz --markdown 20230619/a/actuarialmath/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:15:53] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/a8/cb/7634b1c7ed6d9e45660fa8b6470f28587fe4cfd16ad19beb5c54c4b9a41c/pawnlib-1.0.8-py3-none-any.whl
+[2023-06-19 15:15:53] INFO root fetch - processPackages [bonn]: Downloading https://files.pythonhosted.org/packages/c2/c7/023cbe4f5c997a96fde994354e410e9adcefca36d83e3257f599e6ec25b1/bonn-0.1.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 15:15:53] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.2.tar.gz]
+[2023-06-19 15:15:53] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.3.tar.gz]
+[2023-06-19 15:15:53] INFO root fetch - processPackages [langflow]: Start processing: nbdev-django
+[2023-06-19 15:15:53] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-19 15:15:53] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 15:15:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-19 15:15:53] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/e5/1a/be9c0c6b988781b2019b731f112202f032371d0b5b489297fb2912c7d8ca/pawnlib-1.0.9-py3-none-any.whl
+[2023-06-19 15:15:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-19 15:15:53] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-06-19 15:15:53] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230619/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:15:53] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-19 15:15:53] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230619/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 15:15:54] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.75.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.90.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-19 15:15:54] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.4.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.5.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - main [MainThread]: End processing [mlpf]: success
+[2023-06-19 15:15:54] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-19 15:15:54] INFO root fetch - processPackages [bonn]: Downloading https://files.pythonhosted.org/packages/f5/fb/0a16ae76533e2892e2e5a9f8442a1b7e94b6e3a87f0a55521f69afe5492e/bonn-0.1.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-19 15:15:54] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc4.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc5.tar.gz]
+[2023-06-19 15:15:54] INFO root fetch - main [MainThread]: End processing [dash-leaflet]: success
+[2023-06-19 15:15:55] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-06-19 15:15:55] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-06-19 15:15:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-19 15:15:55] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.0.8-py3-none-any.whl.zip]
+[2023-06-19 15:15:55] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.0.9-py3-none-any.whl.zip]
+[2023-06-19 15:15:55] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-06-19 15:15:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-19 15:15:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-19 15:15:55] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-19 15:15:56] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.8.tar.gz]
+[2023-06-19 15:15:56] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.9.tar.gz]
+[2023-06-19 15:15:56] INFO root fetch - main [MainThread]: End processing [actuarialmath]: success
+[2023-06-19 15:15:56] INFO root fetch - processPackages [bonn]: executing diffoscope
+[2023-06-19 15:15:56] INFO root fetch - processPackages [bonn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bonn-0.1.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bonn-0.1.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230619/b/bonn/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 15:15:58] INFO root fetch - processPackages [Apycula]: Remove: archive file [/home/abi/fetcher/tmp/Apycula-0.8.1.tar.gz]
+[2023-06-19 15:15:58] INFO root fetch - processPackages [Apycula]: Remove: archive file [/home/abi/fetcher/tmp/Apycula-0.8.2a1.tar.gz]
+[2023-06-19 15:15:58] INFO root fetch - main [MainThread]: End processing [Apycula]: success
+[2023-06-19 15:15:58] INFO root fetch - processPackages [bonn]: Remove: archive file [/home/abi/fetcher/tmp/bonn-0.1.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 15:15:58] INFO root fetch - processPackages [bonn]: Remove: archive file [/home/abi/fetcher/tmp/bonn-0.1.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-19 15:15:58] INFO root fetch - main [MainThread]: End processing [bonn]: success
+[2023-06-19 15:15:58] INFO root fetch - main [MainThread]: Store serial: [18560180]
