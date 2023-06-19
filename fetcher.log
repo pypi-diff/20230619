@@ -5517,3 +5517,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 04:43:21] INFO root fetch - processPackages [pbaa]: Remove: archive file [/home/abi/fetcher/tmp/pbaa-1.0.2.tar.gz]
 [2023-06-19 04:43:21] INFO root fetch - main [MainThread]: End processing [pbaa]: success
 [2023-06-19 04:43:21] INFO root fetch - main [MainThread]: Store serial: [18555110]
+[2023-06-19 04:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555110]
+[2023-06-19 04:48:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-19 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apidb
+[2023-06-19 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfr
+[2023-06-19 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qps-limit
+[2023-06-19 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vmt
+[2023-06-19 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openxlab
+[2023-06-19 04:48:30] WARNING root fetch - processPackages [qps-limit]: Skipping, unable to determine old version
+[2023-06-19 04:48:30] INFO root fetch - main [MainThread]: End processing [qps-limit] error
+[2023-06-19 04:48:30] INFO root fetch - processPackages [cfr]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-19 04:48:30] INFO root fetch - processPackages [apidb]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-19 04:48:30] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 04:48:30] INFO root fetch - processPackages [vmt]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-06-19 04:48:30] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/ad/0a/484a47dab3c25309bdd41d8bb44e2f23c9a91c540fc5952a014ab4b81265/cfr-0.5.3.tar.gz
+[2023-06-19 04:48:30] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/02/c3/377266f090c3b0be323012f3c9a0e976b57ef76b41a130e184af3e47bdf4/vmt-0.0.0b8.tar.gz
+[2023-06-19 04:48:30] INFO root fetch - processPackages [apidb]: Downloading https://files.pythonhosted.org/packages/11/83/45f128d09afda60a4240c5c146be12f423eb5221067982b215a212750379/apidb-0.1.5.tar.gz
+[2023-06-19 04:48:30] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-06-19 04:48:30] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/f2/c0/8ce90b127f2101276f02287d76c0f7ddc2bd963e5ebc1c66a0c75e7602a4/cfr-0.6.0.tar.gz
+[2023-06-19 04:48:31] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/f5/a1/5236d5088fd2d066e87d47e639b6514409577cc44c73e9a27ee63c410d05/vmt-0.0.0b9.tar.gz
+[2023-06-19 04:48:31] INFO root fetch - processPackages [apidb]: Downloading https://files.pythonhosted.org/packages/51/04/52f3bff2420fd97f75c55e68c63159824aa7811c9b21d74ae7b9ededab97/apidb-0.2.0.tar.gz
+[2023-06-19 04:48:31] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-19 04:48:31] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.5.3.tar.gz tmp/cfr-0.6.0.tar.gz --markdown 20230619/c/cfr/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-19 04:48:31] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-06-19 04:48:31] INFO root fetch - processPackages [apidb]: executing diffoscope
+[2023-06-19 04:48:31] INFO root fetch - processPackages [apidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidb-0.1.5.tar.gz tmp/apidb-0.2.0.tar.gz --markdown 20230619/a/apidb/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 04:48:31] INFO root fetch - processPackages [vmt]: executing diffoscope
+[2023-06-19 04:48:31] INFO root fetch - processPackages [vmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmt-0.0.0b8.tar.gz tmp/vmt-0.0.0b9.tar.gz --markdown 20230619/v/vmt/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-06-19 04:48:31] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-06-19 04:48:31] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230619/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 04:48:32] INFO root fetch - processPackages [apidb]: Remove: archive file [/home/abi/fetcher/tmp/apidb-0.1.5.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - processPackages [apidb]: Remove: archive file [/home/abi/fetcher/tmp/apidb-0.2.0.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - main [MainThread]: End processing [apidb]: success
+[2023-06-19 04:48:32] INFO root fetch - processPackages [vmt]: Remove: archive file [/home/abi/fetcher/tmp/vmt-0.0.0b8.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - processPackages [vmt]: Remove: archive file [/home/abi/fetcher/tmp/vmt-0.0.0b9.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - main [MainThread]: End processing [vmt]: success
+[2023-06-19 04:48:32] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2023-06-19 04:48:32] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-06-19 04:48:33] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.5.3.tar.gz]
+[2023-06-19 04:48:33] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.0.tar.gz]
+[2023-06-19 04:48:33] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-19 04:48:33] INFO root fetch - main [MainThread]: Store serial: [18555127]
