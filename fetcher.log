@@ -14185,3 +14185,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 12:25:29] INFO root fetch - processPackages [surfacetopography]: Remove: archive file [/home/abi/fetcher/tmp/surfacetopography-1.6.3.tar.gz]
 [2023-06-19 12:25:29] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
 [2023-06-19 12:25:29] INFO root fetch - main [MainThread]: Store serial: [18558512]
+[2023-06-19 12:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558512]
+[2023-06-19 12:30:39] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-pytds
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrbot
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indykite-sdk-python
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-resolve
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yandex-taxi-testsuite
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cligpt
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssh-remote-control
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydriosm
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emailalert
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: constructs
+[2023-06-19 12:30:39] INFO root fetch - processPackages [sqlalchemy-pytds]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [hrbot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [yandex-taxi-testsuite]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydriosm]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [emailalert]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-19 12:30:39] WARNING root fetch - processPackages [ssh-remote-control]: Skipping, unable to determine old version
+[2023-06-19 12:30:39] INFO root fetch - processPackages [ssh-remote-control]: Start processing: arangodba
+[2023-06-19 12:30:39] INFO root fetch - main [MainThread]: End processing [ssh-remote-control] error
+[2023-06-19 12:30:39] INFO root fetch - processPackages [cligpt]: New version: [2.8] Old Version: [2.7.2]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-19 12:30:39] WARNING root fetch - processPackages [arangodba]: Skipping, unable to determine old version
+[2023-06-19 12:30:39] INFO root fetch - processPackages [arangodba]: Start processing: drf-recaptcha-e2e
+[2023-06-19 12:30:39] INFO root fetch - main [MainThread]: End processing [arangodba] error
+[2023-06-19 12:30:39] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [drf-recaptcha-e2e]: New version: [1.1] Old Version: [1.0]
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/4b/04/8ee3511c7b878c5309895430297f66caf3a56c100e094a4bfed2beab1f5e/pydantic_resolve-1.2.0.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/2b/db/eaea3a0268a66ccc942c8d369744aae3ef998a73b922a984c48097d73880/emailalert-1.1.9.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [sqlalchemy-pytds]: Downloading https://files.pythonhosted.org/packages/28/f1/8e0044ca4ef3d4a900cf7ec2ddc5c0dc7cb7eda2643eb6daca99bfaa9fc2/sqlalchemy_pytds-0.3.5-py2.py3-none-any.whl
+[2023-06-19 12:30:39] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/97/b1/2cc4d85d991cb59c3462a53d9571631005fc4dcb77203483f3f2daff731c/yandex-taxi-testsuite-0.1.9.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [cligpt]: Downloading https://files.pythonhosted.org/packages/5c/54/911aa34251b49daf0db58523fcee319135e2044d0e12da798c02f2dffffc/cligpt-2.7.2.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/48/e5/4b8f60ce4599f8b3aca419e140cc4c100d1f9b84e5f66663fdbaead08d29/hrbot-0.1.0.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydriosm]: Downloading https://files.pythonhosted.org/packages/02/82/63c4206db81aec797820cbdd4da0cbacd5a3018312f35876535ba29133e9/pydriosm-2.1.2.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [drf-recaptcha-e2e]: Downloading https://files.pythonhosted.org/packages/d9/56/4b217ae24c947d44ba9f2c5e14b17b36f8b64d5bc0cd7132d26a1260207e/drf_recaptcha_e2e-1.0-py3-none-any.whl
+[2023-06-19 12:30:39] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/40/33/7ddde8ec70ff6ec169842a87bf71f52c7e5a069fb7b65eea270f6a03aa30/pydantic_resolve-1.2.1.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/f2/c8/9171701fe9079a9df4fc2e1058e723b3f05deee68c9a584b7230afee948c/emailalert-1.2.0.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [sqlalchemy-pytds]: Downloading https://files.pythonhosted.org/packages/8b/60/8e30ec17b3b2c093e05cbf752d6d40e4f4f7bfb9399f117334f4dfa20df8/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl
+[2023-06-19 12:30:39] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/3c/3c/207cfb290d6e690559e44dba381dcc3c883a43c2fa45e9fdfcecd1e900ef/hrbot-0.1.1.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [cligpt]: Downloading https://files.pythonhosted.org/packages/39/34/03cef741bd1c8a9cc17fda69bf8b10f855705304f2ad93540e8f0e2ec31f/cligpt-2.8.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-19 12:30:39] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230619/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-19 12:30:39] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/e3/fb/864f2338fa3903a375f577215f0c76a12eae61af2fae665d82fdc88018b0/yandex-taxi-testsuite-0.1.9.1.tar.gz
+[2023-06-19 12:30:39] INFO root fetch - processPackages [drf-recaptcha-e2e]: Downloading https://files.pythonhosted.org/packages/3b/90/0a3b133f2be4a4d1de9b633f57e34a305c8e72084d719df5b2c31fd23f1c/drf_recaptcha_e2e-1.1-py3-none-any.whl
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-06-19 12:30:39] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.2.0.tar.gz tmp/pydantic_resolve-1.2.1.tar.gz --markdown 20230619/p/pydantic-resolve/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [sqlalchemy-pytds]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [sqlalchemy-pytds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_pytds-0.3.5-py2.py3-none-any.whl.zip tmp/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl.zip --markdown 20230619/s/sqlalchemy-pytds/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [cligpt]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [cligpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cligpt-2.7.2.tar.gz tmp/cligpt-2.8.tar.gz --markdown 20230619/c/cligpt/2.7.2-2.8/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [drf-recaptcha-e2e]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [drf-recaptcha-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_recaptcha_e2e-1.0-py3-none-any.whl.zip tmp/drf_recaptcha_e2e-1.1-py3-none-any.whl.zip --markdown 20230619/d/drf-recaptcha-e2e/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.9.tar.gz tmp/emailalert-1.2.0.tar.gz --markdown 20230619/e/emailalert/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [yandex-taxi-testsuite]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [yandex-taxi-testsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex-taxi-testsuite-0.1.9.tar.gz tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz --markdown 20230619/y/yandex-taxi-testsuite/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [hrbot]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [hrbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbot-0.1.0.tar.gz tmp/hrbot-0.1.1.tar.gz --markdown 20230619/h/hrbot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [pydriosm]: Downloading https://files.pythonhosted.org/packages/d5/9c/f89bfad7dff1f63f0c2af6543e9b76cd8f1ee025ef742e37d01b181302a9/pydriosm-2.2.0.tar.gz
+[2023-06-19 12:30:40] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-06-19 12:30:40] INFO root fetch - processPackages [pydriosm]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [pydriosm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydriosm-2.1.2.tar.gz tmp/pydriosm-2.2.0.tar.gz --markdown 20230619/p/pydriosm/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:40] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-06-19 12:30:40] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230619/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:42] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.9.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.2.0.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [emailalert]: Start processing: brython
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [sqlalchemy-pytds]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_pytds-0.3.5-py2.py3-none-any.whl.zip]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [sqlalchemy-pytds]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_pytds-0.4.0-py2.py3-none-any.whl.zip]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [sqlalchemy-pytds]: Start processing: onlinepayments-sdk-python2
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pytds]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [brython]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [onlinepayments-sdk-python2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [drf-recaptcha-e2e]: Remove: archive file [/home/abi/fetcher/tmp/drf_recaptcha_e2e-1.0-py3-none-any.whl.zip]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [drf-recaptcha-e2e]: Remove: archive file [/home/abi/fetcher/tmp/drf_recaptcha_e2e-1.1-py3-none-any.whl.zip]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [drf-recaptcha-e2e]: Start processing: tonpay
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [drf-recaptcha-e2e]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [tonpay]: New version: [0.1.2] Old Version: [0.0.2]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.2.0.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.2.1.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [pydantic-resolve]: Start processing: aws-parquet
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [tonpay]: Downloading https://files.pythonhosted.org/packages/8f/3f/b5bb0b9d77e2dbf162dc7ae57ef63924779d9fbcbd01a3d7384c46352fa9/tonpay-0.0.2.tar.gz
+[2023-06-19 12:30:42] INFO root fetch - processPackages [brython]: Downloading https://files.pythonhosted.org/packages/57/0f/1d9cdbddcd85ec0c1f2e8464976ee60f00b6a0fec237e64adc1a19a4e92b/brython-3.9.5.tar.gz
+[2023-06-19 12:30:42] INFO root fetch - processPackages [cligpt]: Remove: archive file [/home/abi/fetcher/tmp/cligpt-2.7.2.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [cligpt]: Remove: archive file [/home/abi/fetcher/tmp/cligpt-2.8.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [cligpt]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/43/c7/7ad08f50743b8a1bcdcbeec11af7b20b4393a657c09a98069fd77af21b4c/onlinepayments-sdk-python2-4.8.0.zip
+[2023-06-19 12:30:42] INFO root fetch - processPackages [aws-parquet]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.0.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.1.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [hrbot]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [tonpay]: Downloading https://files.pythonhosted.org/packages/0c/6f/1f96b270e447bfd162673b9b2bd24d813d2ed1c9db46ed0274b6965fd6ac/tonpay-0.1.2.tar.gz
+[2023-06-19 12:30:42] INFO root fetch - processPackages [aws-parquet]: Downloading https://files.pythonhosted.org/packages/16/d2/72ac3bf56c89fd78f583f58fd58d7ae98fe989d8e458bead67b452cd8ae0/aws_parquet-0.4.0.tar.gz
+[2023-06-19 12:30:42] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/cc/33/2f415c744846f4834d26c13b66ec4921a450327e503ec7dac50ae61999de/onlinepayments-sdk-python2-4.9.0.zip
+[2023-06-19 12:30:42] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-19 12:30:42] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-19 12:30:42] INFO root fetch - processPackages [tonpay]: executing diffoscope
+[2023-06-19 12:30:42] INFO root fetch - processPackages [tonpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonpay-0.0.2.tar.gz tmp/tonpay-0.1.2.tar.gz --markdown 20230619/t/tonpay/0.0.2-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 12:30:42] INFO root fetch - processPackages [onlinepayments-sdk-python2]: executing diffoscope
+[2023-06-19 12:30:42] INFO root fetch - processPackages [onlinepayments-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python2-4.8.0.zip tmp/onlinepayments-sdk-python2-4.9.0.zip --markdown 20230619/o/onlinepayments-sdk-python2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:42] INFO root fetch - processPackages [aws-parquet]: Downloading https://files.pythonhosted.org/packages/f7/2e/c5b657fda0e9be441f9c941fe42ba992587145c72287c96db351dd9d278b/aws_parquet-0.5.0-py3-none-any.whl
+[2023-06-19 12:30:43] INFO root fetch - processPackages [brython]: Downloading https://files.pythonhosted.org/packages/75/6a/483512197785c480ce1cec2ac8a254d3454629784bbe212d6a8a41343518/brython-3.9.6.tar.gz
+[2023-06-19 12:30:43] INFO root fetch - processPackages [aws-parquet]: executing diffoscope
+[2023-06-19 12:30:43] INFO root fetch - processPackages [aws-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_parquet-0.4.0.tar.gz tmp/aws_parquet-0.5.0-py3-none-any.whl.zip --markdown 20230619/a/aws-parquet/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-19 12:30:43] INFO root fetch - processPackages [brython]: executing diffoscope
+[2023-06-19 12:30:43] INFO root fetch - processPackages [brython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brython-3.9.5.tar.gz tmp/brython-3.9.6.tar.gz --markdown 20230619/b/brython/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-06-19 12:30:44] INFO root fetch - processPackages [tonpay]: Remove: archive file [/home/abi/fetcher/tmp/tonpay-0.0.2.tar.gz]
+[2023-06-19 12:30:44] INFO root fetch - processPackages [tonpay]: Remove: archive file [/home/abi/fetcher/tmp/tonpay-0.1.2.tar.gz]
+[2023-06-19 12:30:44] INFO root fetch - main [MainThread]: End processing [tonpay]: success
+[2023-06-19 12:30:44] INFO root fetch - processPackages [yandex-taxi-testsuite]: Remove: archive file [/home/abi/fetcher/tmp/yandex-taxi-testsuite-0.1.9.tar.gz]
+[2023-06-19 12:30:44] INFO root fetch - processPackages [yandex-taxi-testsuite]: Remove: archive file [/home/abi/fetcher/tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz]
+[2023-06-19 12:30:44] INFO root fetch - main [MainThread]: End processing [yandex-taxi-testsuite]: success
+[2023-06-19 12:30:44] INFO root fetch - processPackages [aws-parquet]: Remove: archive file [/home/abi/fetcher/tmp/aws_parquet-0.4.0.tar.gz]
+[2023-06-19 12:30:44] INFO root fetch - processPackages [aws-parquet]: Remove: archive file [/home/abi/fetcher/tmp/aws_parquet-0.5.0-py3-none-any.whl.zip]
+[2023-06-19 12:30:44] INFO root fetch - main [MainThread]: End processing [aws-parquet]: success
+[2023-06-19 12:30:46] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python2-4.8.0.zip]
+[2023-06-19 12:30:46] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python2-4.9.0.zip]
+[2023-06-19 12:30:46] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
+[2023-06-19 12:30:47] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2023-06-19 12:30:47] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2023-06-19 12:30:47] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-06-19 12:30:48] INFO root fetch - processPackages [pydriosm]: Remove: archive file [/home/abi/fetcher/tmp/pydriosm-2.1.2.tar.gz]
+[2023-06-19 12:30:48] INFO root fetch - processPackages [pydriosm]: Remove: archive file [/home/abi/fetcher/tmp/pydriosm-2.2.0.tar.gz]
+[2023-06-19 12:30:48] INFO root fetch - main [MainThread]: End processing [pydriosm]: success
+[2023-06-19 12:30:53] INFO root fetch - processPackages [brython]: Remove: archive file [/home/abi/fetcher/tmp/brython-3.9.5.tar.gz]
+[2023-06-19 12:30:53] INFO root fetch - processPackages [brython]: Remove: archive file [/home/abi/fetcher/tmp/brython-3.9.6.tar.gz]
+[2023-06-19 12:30:53] INFO root fetch - main [MainThread]: End processing [brython]: success
+[2023-06-19 12:30:53] INFO root fetch - main [MainThread]: Store serial: [18558564]
