@@ -8266,3 +8266,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 08:18:36] INFO root fetch - processPackages [cli-meta-tool]: Remove: archive file [/home/abi/fetcher/tmp/cli-meta-tool-0.1.1.tar.gz]
 [2023-06-19 08:18:36] INFO root fetch - main [MainThread]: End processing [cli-meta-tool]: success
 [2023-06-19 08:18:36] INFO root fetch - main [MainThread]: Store serial: [18556204]
+[2023-06-19 08:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18556204]
+[2023-06-19 08:23:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rgbt
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squlearn
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsrs4anki-optimizer
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgx
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chanpackage
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atila
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skitai
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aorta-sirius-dev
+[2023-06-19 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: haidarlibs
+[2023-06-19 08:23:46] WARNING root fetch - processPackages [squlearn]: Skipping, unable to determine old version
+[2023-06-19 08:23:46] INFO root fetch - processPackages [squlearn]: Start processing: suanpan-sprt
+[2023-06-19 08:23:46] INFO root fetch - main [MainThread]: End processing [squlearn] error
+[2023-06-19 08:23:46] INFO root fetch - processPackages [rgbt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [chanpackage]: New version: [0.2] Old Version: [0.1]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.25.1] Old Version: [3.25.0]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [pgx]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [atila]: New version: [0.9.7.1] Old Version: [0.9.7]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [skitai]: New version: [0.9.4.21] Old Version: [0.56.9]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-19 08:23:46] INFO root fetch - processPackages [rgbt]: Downloading https://files.pythonhosted.org/packages/9d/9a/c1e34077ea061a20d5c5ab9600a2276f690604b2caac484867b7b9300a2b/rgbt-1.0.0.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/80/d1/d1904f041c16373587c155e556684ccd94ee70c0a2b7237d2b152520a0a9/fsrs4anki_optimizer-3.25.0.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/a7/e9/bdf551aafc4874059e787a55b1727f2c6e4ae27a4250ff9b07a9f103eec6/pgx-0.8.1.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/66/dd/c0c6d2707c3b230622a562b449eb2d59317660369903b630f28c4d5d92ab/skitai-0.56.9-py3-none-any.whl
+[2023-06-19 08:23:46] INFO root fetch - processPackages [chanpackage]: Downloading https://files.pythonhosted.org/packages/67/ed/89a1e700fbdc43ce4169c0aaeec9f7a5f785ea06cd7bbb8c52aff7b719ca/chanpackage-0.1.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230619/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/73/72/88ca7bf3e93e277b35f9ffbcb0d0ab076500429a5f5dbc889c41925a505f/atila-0.9.7-py3-none-any.whl
+[2023-06-19 08:23:46] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/b1/4f/7281be932c9c6a7aa6490243230c8e033374c942b96cc78593b7a671907f/suanpan-sprt-0.5.5.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/a0/f5/61d36a23563ac4ac5883d198221e9e3b7bb46f1ae09b7a1683322461743e/haidarlibs-0.0.9.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230619/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.8.tar.gz tmp/haidarlibs-0.0.9.tar.gz --markdown 20230619/h/haidarlibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/15/c1/79b9dfda42677585fd1a6285f9ead8046aaa73e2545746020805a5998eed/fsrs4anki_optimizer-3.25.1.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.0.tar.gz tmp/fsrs4anki_optimizer-3.25.1.tar.gz --markdown 20230619/f/fsrs4anki-optimizer/3.25.0-3.25.1/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [chanpackage]: Downloading https://files.pythonhosted.org/packages/19/1d/3f5f70c8e5d0e932003c5b3cc6e3a8a523d1b587b9533e003fd426df5649/chanpackage-0.2.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/ce/61/3c5fa4d294a227581046224815f7a4457fd88c9ce9d1c40dc7abde8846ce/pgx-0.9.0.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [chanpackage]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [chanpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanpackage-0.1.tar.gz tmp/chanpackage-0.2.tar.gz --markdown 20230619/c/chanpackage/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/d2/0d/cdba764464dbb9fd30d1b7735fef6492317b26a06308b4d14d1d158a922d/suanpan-sprt-0.5.6.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.8.1.tar.gz tmp/pgx-0.9.0.tar.gz --markdown 20230619/p/pgx/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/8d/5d/a745681ceb89c9d426e23cf1ee7c610fe4cf82be126d0f18eea708f6527f/skitai-0.9.4.21.tar.gz
+[2023-06-19 08:23:46] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/a3/f2/592a655fe2082a91ef438ffbb596679e93a2596f65d61473cff095549848/atila-0.9.7.1-py3-none-any.whl
+[2023-06-19 08:23:46] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.5.tar.gz tmp/suanpan-sprt-0.5.6.tar.gz --markdown 20230619/s/suanpan-sprt/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [skitai]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [skitai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skitai-0.56.9-py3-none-any.whl.zip tmp/skitai-0.9.4.21.tar.gz --markdown 20230619/s/skitai/0.56.9-0.9.4.21/diff.md --exclude *.pyd
+[2023-06-19 08:23:46] INFO root fetch - processPackages [atila]: executing diffoscope
+[2023-06-19 08:23:46] INFO root fetch - processPackages [atila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila-0.9.7-py3-none-any.whl.zip tmp/atila-0.9.7.1-py3-none-any.whl.zip --markdown 20230619/a/atila/0.9.7-0.9.7.1/diff.md --exclude *.pyd
+[2023-06-19 08:23:47] INFO root fetch - processPackages [rgbt]: Downloading https://files.pythonhosted.org/packages/97/65/5a3136624cb2651345413dcf20296659824c95131db9018851e5751eb980/rgbt-1.0.1.tar.gz
+[2023-06-19 08:23:47] INFO root fetch - processPackages [rgbt]: executing diffoscope
+[2023-06-19 08:23:47] INFO root fetch - processPackages [rgbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgbt-1.0.0.tar.gz tmp/rgbt-1.0.1.tar.gz --markdown 20230619/r/rgbt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 08:23:47] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-19 08:23:47] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-19 08:23:47] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.0.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.1.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.8.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.9.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [chanpackage]: Remove: archive file [/home/abi/fetcher/tmp/chanpackage-0.1.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [chanpackage]: Remove: archive file [/home/abi/fetcher/tmp/chanpackage-0.2.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [chanpackage]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.5.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.6.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.56.9-py3-none-any.whl.zip]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.9.4.21.tar.gz]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [skitai]: success
+[2023-06-19 08:23:48] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7-py3-none-any.whl.zip]
+[2023-06-19 08:23:48] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7.1-py3-none-any.whl.zip]
+[2023-06-19 08:23:48] INFO root fetch - main [MainThread]: End processing [atila]: success
+[2023-06-19 08:23:49] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.8.1.tar.gz]
+[2023-06-19 08:23:49] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.9.0.tar.gz]
+[2023-06-19 08:23:49] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-06-19 08:23:51] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-19 08:23:51] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-19 08:23:51] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-19 08:25:20] INFO root fetch - processPackages [rgbt]: Remove: archive file [/home/abi/fetcher/tmp/rgbt-1.0.0.tar.gz]
+[2023-06-19 08:25:20] INFO root fetch - processPackages [rgbt]: Remove: archive file [/home/abi/fetcher/tmp/rgbt-1.0.1.tar.gz]
+[2023-06-19 08:25:20] INFO root fetch - main [MainThread]: End processing [rgbt]: success
+[2023-06-19 08:25:20] INFO root fetch - main [MainThread]: Store serial: [18556236]
