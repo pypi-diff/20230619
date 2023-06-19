@@ -12782,3 +12782,201 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 11:27:45] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
 [2023-06-19 11:27:45] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-06-19 11:27:45] INFO root fetch - main [MainThread]: Store serial: [18558008]
+[2023-06-19 11:32:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558008]
+[2023-06-19 11:32:55] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulipy
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IntuneCD
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-finance
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: re2shield
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-user
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labstep
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlane
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emailalert
+[2023-06-19 11:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-txt2img
+[2023-06-19 11:32:55] INFO root fetch - processPackages [re2shield]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [labstep]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [emailalert]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [nonebot-plugin-txt2img]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.9] Old Version: [1.4.8b1]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-19 11:32:55] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-06-19 11:32:55] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/ce/64/e74adc6fda314aacf3183c3d463efe3fc03c7e870f6a2df42e17735504c1/emailalert-1.1.3.tar.gz
+[2023-06-19 11:32:55] WARNING root fetch - processPackages [pulipy]: Skipping, unable to determine old version
+[2023-06-19 11:32:55] INFO root fetch - processPackages [pulipy]: Start processing: edwh-files-plugin
+[2023-06-19 11:32:55] INFO root fetch - main [MainThread]: End processing [pulipy] error
+[2023-06-19 11:32:56] WARNING root fetch - processPackages [edwh-files-plugin]: Skipping, unable to determine old version
+[2023-06-19 11:32:56] INFO root fetch - processPackages [edwh-files-plugin]: Start processing: mycoinlib
+[2023-06-19 11:32:56] INFO root fetch - main [MainThread]: End processing [edwh-files-plugin] error
+[2023-06-19 11:32:56] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/b9/1d/ac5297798c68f4c651da41af1dd4c539954a7793166f72f7c5aee8acd601/re2shield-0.1.2.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [mycoinlib]: New version: [0.5] Old Version: [0.4]
+[2023-06-19 11:32:56] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/9c/21/cd49933c07f81c60671e3a0bd684706da8ed5e05e6ba7ad8de6c96452cd7/mycoinlib-0.4.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [nonebot-plugin-txt2img]: Downloading https://files.pythonhosted.org/packages/07/97/8397e2ac4f52add7f23cbdfa1a3df6543cd03e6e6403adab10af1ba86925/nonebot_plugin_txt2img-0.3.1.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [labstep]: Downloading https://files.pythonhosted.org/packages/0d/e3/435bd3de7b936b0f08c3dc2afb8f97c9180285fc699dc4538a9cc7d34a99/labstep-3.8.0.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/23/09/c049b89455cf42dc081580a4df8a6369f5a2479e32996a458ceca5c7d596/IntuneCD-1.4.8b1.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [emailalert]: Downloading https://files.pythonhosted.org/packages/b6/76/785d3daa7bbefa14e2b4eb4c85ba870348c09f0318f991bf4f4734a0ad07/emailalert-1.1.4.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/5b/22/d03a17a41eb22a887ae98cd7198ace95d686efc0efea1d295d0e39fbd011/re2shield-0.1.3.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.2.tar.gz tmp/re2shield-0.1.3.tar.gz --markdown 20230619/r/re2shield/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/e0/77/1c6dcfbc9efcae6de4693c8ec0d236f9d8dfcd2ae62cfb502b4ddd49b51e/mycoinlib-0.5.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [emailalert]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [emailalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailalert-1.1.3.tar.gz tmp/emailalert-1.1.4.tar.gz --markdown 20230619/e/emailalert/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/32/03/14cbdc43f86d91d5e0c35cdadceda757f27b6b0a8ff9dce9d8dbc94babdf/IntuneCD-1.4.9.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [nonebot-plugin-txt2img]: Downloading https://files.pythonhosted.org/packages/57/5a/36a9355d496b4b5ad1a770bf4e8c0b4346282268b4ca76804f300e075544/nonebot_plugin_txt2img-0.3.2.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.8b1.tar.gz tmp/IntuneCD-1.4.9.tar.gz --markdown 20230619/I/IntuneCD/1.4.8b1-1.4.9/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230619/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-0.4.tar.gz tmp/mycoinlib-0.5.tar.gz --markdown 20230619/m/mycoinlib/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230619/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [labstep]: Downloading https://files.pythonhosted.org/packages/2b/33/8ca1d2acd9e7fbf020549dfb244425baf70acb50f0489be9de520dd11353/labstep-3.9.0.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-06-19 11:32:56] INFO root fetch - processPackages [nonebot-plugin-txt2img]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [nonebot-plugin-txt2img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_txt2img-0.3.1.tar.gz tmp/nonebot_plugin_txt2img-0.3.2.tar.gz --markdown 20230619/n/nonebot-plugin-txt2img/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [labstep]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [labstep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labstep-3.8.0.tar.gz tmp/labstep-3.9.0.tar.gz --markdown 20230619/l/labstep/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230619/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-19 11:32:56] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-06-19 11:32:56] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230619/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-19 11:32:58] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.3.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [emailalert]: Remove: archive file [/home/abi/fetcher/tmp/emailalert-1.1.4.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [emailalert]: Start processing: rclone-python
+[2023-06-19 11:32:58] INFO root fetch - main [MainThread]: End processing [emailalert]: success
+[2023-06-19 11:32:58] INFO root fetch - processPackages [rclone-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.2.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.3.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [re2shield]: Start processing: ab-test-toolkit
+[2023-06-19 11:32:58] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-19 11:32:58] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/76/9f/860a01b5c709cd4fe7ff5a06557d3b70179741cbbb76c0ba212f7968f4c1/rclone-python-0.1.6.tar.gz
+[2023-06-19 11:32:58] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.4.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-0.5.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [mycoinlib]: Start processing: data-pipelines-cli
+[2023-06-19 11:32:58] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-19 11:32:58] INFO root fetch - processPackages [data-pipelines-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/88/86/148c1ee99ac301507ca0f2463e2b08391d5430e7e7e087df52b4a05af7bc/ab-test-toolkit-0.0.8.tar.gz
+[2023-06-19 11:32:58] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/dc/12/7ec05db5504e174a152595cacfe620cd2d3380eebabe7468e08c4fe97162/rclone-python-0.1.7.tar.gz
+[2023-06-19 11:32:58] INFO root fetch - processPackages [nonebot-plugin-txt2img]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_txt2img-0.3.1.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [nonebot-plugin-txt2img]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_txt2img-0.3.2.tar.gz]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [rclone-python]: executing diffoscope
+[2023-06-19 11:32:58] INFO root fetch - processPackages [nonebot-plugin-txt2img]: Start processing: WebAppDIRAC
+[2023-06-19 11:32:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-txt2img]: success
+[2023-06-19 11:32:58] INFO root fetch - processPackages [rclone-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclone-python-0.1.6.tar.gz tmp/rclone-python-0.1.7.tar.gz --markdown 20230619/r/rclone-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-19 11:32:58] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/cd/6c/a0fb36a514ebe5af4488426d929bb2898873282a5fe6c968aea1647e1890/data_pipelines_cli-0.8.0.tar.gz
+[2023-06-19 11:32:58] INFO root fetch - processPackages [WebAppDIRAC]: New version: [5.1.0a7] Old Version: [5.1.0a6]
+[2023-06-19 11:32:58] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/48/e3/2e2065804d84d6c11fcfdfe48ce4015356cacde1d994e4ccafa74369f8e3/ab-test-toolkit-0.0.9.tar.gz
+[2023-06-19 11:32:58] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-19 11:32:58] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.8.tar.gz tmp/ab-test-toolkit-0.0.9.tar.gz --markdown 20230619/a/ab-test-toolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 11:32:58] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/30/6d/6226e2e27d9236c1f87f236deb51fc0b6a3f4d58b8dd8ecbedf9fc7cfc09/WebAppDIRAC-5.1.0a6.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-1.4.8b1.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-1.4.9.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [IntuneCD]: Start processing: pybox-toolkit
+[2023-06-19 11:32:59] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-06-19 11:32:59] INFO root fetch - processPackages [data-pipelines-cli]: Downloading https://files.pythonhosted.org/packages/e4/75/9be2188d5177d2fa3fa4a50c9b1fbf660d93d8701c94ee6a8df6dcdf9a4b/data_pipelines_cli-0.9.0.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.7.dev3] Old Version: [0.1.7]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [data-pipelines-cli]: executing diffoscope
+[2023-06-19 11:32:59] INFO root fetch - processPackages [data-pipelines-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipelines_cli-0.8.0.tar.gz tmp/data_pipelines_cli-0.9.0.tar.gz --markdown 20230619/d/data-pipelines-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 11:32:59] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/15/46/67d300ed3a862b2c1e10c0df6d7ea7eb4d8a5557fe6817593c47539d0fd6/pybox-toolkit-0.1.7.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/7c/77/896a4b5aca841c729c3e823cf5516afdc974e0640752529817b95465c4d6/WebAppDIRAC-5.1.0a7.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-finance]: Start processing: lm-datahandler
+[2023-06-19 11:32:59] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-19 11:32:59] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/1c/411233e5ad8299c22ca06d689186cf35fb44bce1d77d7aed442ac4cf0612/pybox-toolkit-0.1.7.dev3.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/e5/d6/6a55f89d8d324a6fba03013ead6d0f4da0c24e59a553b49829d74098378f/lm_datahandler-0.1.3.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [openlane]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-19 11:32:59] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-06-19 11:32:59] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-19 11:32:59] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.7.tar.gz tmp/pybox-toolkit-0.1.7.dev3.tar.gz --markdown 20230619/p/pybox-toolkit/0.1.7-0.1.7.dev3/diff.md --exclude *.pyd
+[2023-06-19 11:32:59] INFO root fetch - processPackages [WebAppDIRAC]: executing diffoscope
+[2023-06-19 11:32:59] INFO root fetch - processPackages [WebAppDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebAppDIRAC-5.1.0a6.tar.gz tmp/WebAppDIRAC-5.1.0a7.tar.gz --markdown 20230619/W/WebAppDIRAC/5.1.0a6-5.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 11:32:59] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/e5/c7/6b92122af3b7ec15a2f283d1b011c8eb7c8e421d5a2b46298bb717f44bcf/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-19 11:32:59] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/a9/2f/d4865cd1e4a736121cbf13695dc7ebc20c4b36f43631791f8b008f5b6b9f/lm_datahandler-0.1.4.tar.gz
+[2023-06-19 11:32:59] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/ad/85/06c46b6443c9a962bf57080c8d6c207f5320993510831b35db32e2623476/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-19 11:32:59] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-19 11:32:59] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.3.tar.gz tmp/lm_datahandler-0.1.4.tar.gz --markdown 20230619/l/lm-datahandler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [xj-user]: Start processing: Abg
+[2023-06-19 11:32:59] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-19 11:32:59] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-06-19 11:32:59] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-product-form-sale-link/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-19 11:32:59] INFO root fetch - processPackages [Abg]: New version: [1.9] Old Version: [1.3]
+[2023-06-19 11:32:59] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/a2/fe/3bf292bafbcec66838d5623269724031d8a757da11b09aaf5763c79c8ea6/Abg-1.3.tar.gz
+[2023-06-19 11:33:00] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/ec/6f/7ce93769fa6c27c6e9e9fefeed7a8ab444e4f3ce7beb36adc357f8487830/Abg-1.9.tar.gz
+[2023-06-19 11:33:00] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-06-19 11:33:00] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-1.3.tar.gz tmp/Abg-1.9.tar.gz --markdown 20230619/A/Abg/1.3-1.9/diff.md --exclude *.pyd
+[2023-06-19 11:33:00] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.6.tar.gz]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.7.tar.gz]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [rclone-python]: Start processing: bm-pypi-test
+[2023-06-19 11:33:00] INFO root fetch - main [MainThread]: End processing [rclone-python]: success
+[2023-06-19 11:33:00] INFO root fetch - processPackages [bm-pypi-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/5a/99/808e45dd016429e542e36455df55eb5f828e30852619c409ec6be7b576ad/bm_pypi_test-0.0.4-py3-none-any.whl
+[2023-06-19 11:33:00] INFO root fetch - processPackages [bm-pypi-test]: Downloading https://files.pythonhosted.org/packages/3f/91/39328bc0f32c86644db7f13e2794dff3d5b36786d827a70e79562fc9d9de/bm_pypi_test-0.0.5-py3-none-any.whl
+[2023-06-19 11:33:00] INFO root fetch - processPackages [bm-pypi-test]: executing diffoscope
+[2023-06-19 11:33:00] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.8.tar.gz]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [bm-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_pypi_test-0.0.4-py3-none-any.whl.zip tmp/bm_pypi_test-0.0.5-py3-none-any.whl.zip --markdown 20230619/b/bm-pypi-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 11:33:00] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.9.tar.gz]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [ab-test-toolkit]: Start processing: abi-ds-utils
+[2023-06-19 11:33:00] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-19 11:33:00] INFO root fetch - processPackages [abi-ds-utils]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-06-19 11:33:00] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/5d/fe/180ae9ed49e40ec88573403dca343448a0594dd240d38b2a562bec3064e2/abi_ds_utils-0.1.9.tar.gz
+[2023-06-19 11:33:01] ERROR root fetch - processPackages [bm-pypi-test]: Diffoscope failed: Error: error creating container storage: the container name "sweet_newton" is already in use by "287a29c2748c2d230415b976f6d1648853123c7c06443d4a0a4bca12356f2cae". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-19 11:33:01] INFO root fetch - processPackages [bm-pypi-test]: Start processing: chem_wasserstein
+[2023-06-19 11:33:01] INFO root fetch - main [MainThread]: End processing [bm-pypi-test] error
+[2023-06-19 11:33:01] INFO root fetch - processPackages [chem_wasserstein]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 11:33:01] INFO root fetch - processPackages [abi-ds-utils]: Downloading https://files.pythonhosted.org/packages/06/88/17f9ac7efb0cad5d445242ef7149aa8cb2552fe248442cfc62f4ae1b2838/abi_ds_utils-1.0.0.tar.gz
+[2023-06-19 11:33:01] INFO root fetch - processPackages [abi-ds-utils]: executing diffoscope
+[2023-06-19 11:33:01] INFO root fetch - processPackages [abi-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi_ds_utils-0.1.9.tar.gz tmp/abi_ds_utils-1.0.0.tar.gz --markdown 20230619/a/abi-ds-utils/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 11:33:01] INFO root fetch - processPackages [chem_wasserstein]: Downloading https://files.pythonhosted.org/packages/e3/a0/203d256a8c6ab8d383e50d360b2f1f9497428d4f3815d3da90f3679c2a01/chem_wasserstein-1.0.8.tar.gz
+[2023-06-19 11:33:01] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.7.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.7.dev3.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-19 11:33:01] INFO root fetch - processPackages [labstep]: Remove: archive file [/home/abi/fetcher/tmp/labstep-3.8.0.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - processPackages [labstep]: Remove: archive file [/home/abi/fetcher/tmp/labstep-3.9.0.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - main [MainThread]: End processing [labstep]: success
+[2023-06-19 11:33:01] INFO root fetch - processPackages [chem_wasserstein]: Downloading https://files.pythonhosted.org/packages/e7/dc/320ff7e6eaa12fa77afac3aa3d27a1b12b8d0cffacd22da440badd05b126/chem_wasserstein-1.0.9.tar.gz
+[2023-06-19 11:33:01] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-06-19 11:33:01] INFO root fetch - processPackages [data-pipelines-cli]: Remove: archive file [/home/abi/fetcher/tmp/data_pipelines_cli-0.8.0.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - processPackages [data-pipelines-cli]: Remove: archive file [/home/abi/fetcher/tmp/data_pipelines_cli-0.9.0.tar.gz]
+[2023-06-19 11:33:01] INFO root fetch - main [MainThread]: End processing [data-pipelines-cli]: success
+[2023-06-19 11:33:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-19 11:33:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-19 11:33:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-06-19 11:33:02] INFO root fetch - processPackages [chem_wasserstein]: executing diffoscope
+[2023-06-19 11:33:02] INFO root fetch - processPackages [chem_wasserstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chem_wasserstein-1.0.8.tar.gz tmp/chem_wasserstein-1.0.9.tar.gz --markdown 20230619/c/chem_wasserstein/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 11:33:02] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.3.tar.gz]
+[2023-06-19 11:33:02] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-1.9.tar.gz]
+[2023-06-19 11:33:02] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-06-19 11:33:02] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-0.1.9.tar.gz]
+[2023-06-19 11:33:02] INFO root fetch - processPackages [abi-ds-utils]: Remove: archive file [/home/abi/fetcher/tmp/abi_ds_utils-1.0.0.tar.gz]
+[2023-06-19 11:33:02] INFO root fetch - main [MainThread]: End processing [abi-ds-utils]: success
+[2023-06-19 11:33:03] INFO root fetch - processPackages [chem_wasserstein]: Remove: archive file [/home/abi/fetcher/tmp/chem_wasserstein-1.0.8.tar.gz]
+[2023-06-19 11:33:03] INFO root fetch - processPackages [chem_wasserstein]: Remove: archive file [/home/abi/fetcher/tmp/chem_wasserstein-1.0.9.tar.gz]
+[2023-06-19 11:33:03] INFO root fetch - main [MainThread]: End processing [chem_wasserstein]: success
+[2023-06-19 11:33:04] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.3.tar.gz]
+[2023-06-19 11:33:04] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.4.tar.gz]
+[2023-06-19 11:33:04] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-19 11:33:08] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-5.1.0a6.tar.gz]
+[2023-06-19 11:33:08] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-5.1.0a7.tar.gz]
+[2023-06-19 11:33:08] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
+[2023-06-19 11:33:08] INFO root fetch - main [MainThread]: Store serial: [18558076]
