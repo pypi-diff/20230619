@@ -6157,3 +6157,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:40:55] INFO root fetch - processPackages [chinese-pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/chinese_pdf_divider-1.1.0.tar.gz]
 [2023-06-19 05:40:55] INFO root fetch - main [MainThread]: End processing [chinese-pdf-divider]: success
 [2023-06-19 05:40:55] INFO root fetch - main [MainThread]: Store serial: [18555375]
+[2023-06-19 05:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555375]
+[2023-06-19 05:46:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyappauto
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-ssm-run-command
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnibench-cli
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaobject
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybaseutils
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memv
+[2023-06-19 05:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zipfile39
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pyappauto]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-19 05:46:04] INFO root fetch - processPackages [memv]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-06-19 05:46:04] INFO root fetch - processPackages [omnibench-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 05:46:04] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-19 05:46:04] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pybaseutils]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-19 05:46:04] INFO root fetch - processPackages [omnibench-cli]: Downloading https://files.pythonhosted.org/packages/b9/62/9c085324bd4b02266e0131777ea0a02ea76603af0d04558d7c4bddd50cd7/omnibench_cli-1.0.2.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [zipfile39]: New version: [0.0.8.0] Old Version: [0.0.7.0]
+[2023-06-19 05:46:04] WARNING root fetch - processPackages [aws-ssm-run-command]: Skipping, unable to determine old version
+[2023-06-19 05:46:04] INFO root fetch - main [MainThread]: End processing [aws-ssm-run-command] error
+[2023-06-19 05:46:04] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/d6/66/a869b35010da05e80912daf9615d712ad673d992738c985cecf993504fcd/memv-0.0.4.2.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pyappauto]: Downloading https://files.pythonhosted.org/packages/b7/37/d8fe3ebed675cb247e06c74cd39f245c3546e8c8f9473914a1716f93b865/pyappauto-1.0.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/80/d4/ac8073aac7500315d01b64bcdcef1ff4d9929a6bb0a91908666ee5705baf/memv-0.0.4.3.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [zipfile39]: Downloading https://files.pythonhosted.org/packages/86/73/5fb2766c0038f90dcb709e5508e5abdec1ad05a852d3aba2f33440837977/zipfile39-0.0.7.0.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-06-19 05:46:04] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230619/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/33/e6/2ee3639a83a605d85ef5b5a4c1719ef6777da9a8faf32f3e0521739c0963/pybaseutils-0.8.2.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-19 05:46:04] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.4.2.tar.gz tmp/memv-0.0.4.3.tar.gz --markdown 20230619/m/memv/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-06-19 05:46:04] INFO root fetch - processPackages [omnibench-cli]: Downloading https://files.pythonhosted.org/packages/ca/29/1a6d8ef5148169958b107cbae9ef9cd213dc1b215772c790d3bba08e6258/omnibench_cli-1.0.3.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pyappauto]: Downloading https://files.pythonhosted.org/packages/97/2c/46f728f726c63af6e5a30251f13464da065e4e6b4f421dd4ce499da90162/pyappauto-1.0.1.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [omnibench-cli]: executing diffoscope
+[2023-06-19 05:46:04] INFO root fetch - processPackages [omnibench-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibench_cli-1.0.2.tar.gz tmp/omnibench_cli-1.0.3.tar.gz --markdown 20230619/o/omnibench-cli/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pyappauto]: executing diffoscope
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pyappauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappauto-1.0.tar.gz tmp/pyappauto-1.0.1.tar.gz --markdown 20230619/p/pyappauto/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-19 05:46:04] INFO root fetch - processPackages [zipfile39]: Downloading https://files.pythonhosted.org/packages/5d/ea/23f2742be2eb840174f04dbed5a47b280f4110b4ad686bc4b5a1545f0a25/zipfile39-0.0.8.0.tar.gz
+[2023-06-19 05:46:04] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/1d/34/a016d9dc57165ae22ab33fc8a54ffa05dfabe92e14e96b77b2c86c427862/pybaseutils-0.8.3.tar.gz
+[2023-06-19 05:46:05] INFO root fetch - processPackages [zipfile39]: executing diffoscope
+[2023-06-19 05:46:05] INFO root fetch - processPackages [zipfile39]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipfile39-0.0.7.0.tar.gz tmp/zipfile39-0.0.8.0.tar.gz --markdown 20230619/z/zipfile39/0.0.7.0-0.0.8.0/diff.md --exclude *.pyd
+[2023-06-19 05:46:05] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2023-06-19 05:46:05] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-0.8.2.tar.gz tmp/pybaseutils-0.8.3.tar.gz --markdown 20230619/p/pybaseutils/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-19 05:46:05] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.2.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.4.3.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-19 05:46:05] INFO root fetch - processPackages [omnibench-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnibench_cli-1.0.2.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - processPackages [omnibench-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnibench_cli-1.0.3.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - main [MainThread]: End processing [omnibench-cli]: success
+[2023-06-19 05:46:05] INFO root fetch - processPackages [pyappauto]: Remove: archive file [/home/abi/fetcher/tmp/pyappauto-1.0.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - processPackages [pyappauto]: Remove: archive file [/home/abi/fetcher/tmp/pyappauto-1.0.1.tar.gz]
+[2023-06-19 05:46:05] INFO root fetch - main [MainThread]: End processing [pyappauto]: success
+[2023-06-19 05:46:06] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a8.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a9.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-06-19 05:46:06] INFO root fetch - processPackages [zipfile39]: Remove: archive file [/home/abi/fetcher/tmp/zipfile39-0.0.7.0.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - processPackages [zipfile39]: Remove: archive file [/home/abi/fetcher/tmp/zipfile39-0.0.8.0.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - main [MainThread]: End processing [zipfile39]: success
+[2023-06-19 05:46:06] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.2.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.3.tar.gz]
+[2023-06-19 05:46:06] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2023-06-19 05:46:06] INFO root fetch - main [MainThread]: Store serial: [18555397]
