@@ -19199,3 +19199,278 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 15:43:37] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-06-19 15:43:37] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-06-19 15:43:37] INFO root fetch - main [MainThread]: Store serial: [18560535]
+[2023-06-19 15:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560535]
+[2023-06-19 15:48:48] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeepLogTimedelta
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polywrap-wasm
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinject-design
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socialgene
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genepierre
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f3dasm-simulate
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: galaxygrad
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skmetpy
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Module-Paiement-KaliaPay-Beta
+[2023-06-19 15:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genepierre
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-wasm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [skmetpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [DeepLogTimedelta]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [galaxygrad]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [socialgene]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-19 15:48:48] WARNING root fetch - processPackages [f3dasm-simulate]: Skipping, unable to determine old version
+[2023-06-19 15:48:48] INFO root fetch - processPackages [f3dasm-simulate]: Start processing: agxBrick
+[2023-06-19 15:48:48] INFO root fetch - main [MainThread]: End processing [f3dasm-simulate] error
+[2023-06-19 15:48:48] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/80/e4/f524bc3d7fb20af5872d766aa0243b521bc16ffd8bbd9cd05235c338732b/DeepLogTimedelta-0.1.0.tar.gz
+[2023-06-19 15:48:48] WARNING root fetch - processPackages [Module-Paiement-KaliaPay-Beta]: Skipping, unable to determine old version
+[2023-06-19 15:48:48] INFO root fetch - processPackages [Module-Paiement-KaliaPay-Beta]: Start processing: polywrap-uri-resolvers
+[2023-06-19 15:48:48] INFO root fetch - main [MainThread]: End processing [Module-Paiement-KaliaPay-Beta] error
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: New version: [0.1.0a7] Old Version: [0.1.0a4]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [agxBrick]: New version: [0.5.23] Old Version: [0.5.22]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/3d/15/d6ba953bd2c3b8c53aa75cbab9dc7ff5df28b952d1eba52aab4b86f1120a/genepierre-0.0.9.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [galaxygrad]: Downloading https://files.pythonhosted.org/packages/ed/23/d35715cb5245aec2399d206ecf1ff94fddde310185e8e32f64cc65e06927/galaxygrad-0.0.8.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/d5/19/70a8edb0676461386210251f8bc9983269fc212d0b6664eee96fc5569f8c/polywrap_wasm-0.1.0a6.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/a9/d5/d6830035f259400a696fd13bbb8295a3b344b8c91daca32d88f8c0b7008e/skmetpy-0.1.6.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/3d/15/d6ba953bd2c3b8c53aa75cbab9dc7ff5df28b952d1eba52aab4b86f1120a/genepierre-0.0.9.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/2c/46/59cd7487a08f88195b1cf4705c344a3af716b5c8bd5e02ef22249c41e709/polywrap_uri_resolvers-0.1.0a4.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/01/52/2273f047f5ff34cc61514cb45262ed3ef30f20c8787a59754907f5602313/socialgene-0.1.2.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-06-19 15:48:48] WARNING root fetch - processPackages [galaxygrad]: Skipping package: exceeds size limit 19441332>=10485760
+[2023-06-19 15:48:48] INFO root fetch - processPackages [galaxygrad]: Start processing: tondortools
+[2023-06-19 15:48:48] INFO root fetch - main [MainThread]: End processing [galaxygrad] error
+[2023-06-19 15:48:48] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/f2/e1/933fa61543549796ef3de3b4110a348c05deba0f0636825b67554370fd63/DeepLogTimedelta-0.1.1.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/82/07/71878f71cb68efff9c8db66617f1dbd64d80db7b068224716cb758920443/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl
+[2023-06-19 15:48:48] INFO root fetch - processPackages [DeepLogTimedelta]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [DeepLogTimedelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLogTimedelta-0.1.0.tar.gz tmp/DeepLogTimedelta-0.1.1.tar.gz --markdown 20230619/D/DeepLogTimedelta/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] INFO root fetch - processPackages [agxBrick]: Downloading https://files.pythonhosted.org/packages/83/b4/4441d83da2cd5211556e0cc5c8032566720d428c92fa4c700d94e878b93f/agxBrick-0.5.22-py2.py3-none-any.whl
+[2023-06-19 15:48:48] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/8c/0a/91f65b414e8c237968052f8a40dc997a85d89abcb4d7185981876b6509cc/skmetpy-0.1.7.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip --markdown 20230619/p/polywrap-uri-resolvers/0.1.0a4-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 15:48:48] INFO root fetch - processPackages [socialgene]: Downloading https://files.pythonhosted.org/packages/e1/a3/a304c69a568b3aa8889686f53e1f746b7aa89767a93695affe803da6f28d/socialgene-0.1.3.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/bc/38/6a2979eb32cadf6a2c76b0a2fe367656e24719f54d9e3669b52279b5e314/polywrap_wasm-0.1.0a7.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.1.6.tar.gz tmp/skmetpy-0.1.7.tar.gz --markdown 20230619/s/skmetpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/4a/f6/1b13d80981e55d73fc85db3de45060b96286da854d6a4c8063153c60f85c/genepierre-0.1.0.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/4a/f6/1b13d80981e55d73fc85db3de45060b96286da854d6a4c8063153c60f85c/genepierre-0.1.0.tar.gz
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-wasm]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [polywrap-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_wasm-0.1.0a6.tar.gz tmp/polywrap_wasm-0.1.0a7.tar.gz --markdown 20230619/p/polywrap-wasm/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] INFO root fetch - processPackages [socialgene]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [socialgene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialgene-0.1.2.tar.gz tmp/socialgene-0.1.3.tar.gz --markdown 20230619/s/socialgene/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] WARNING root fetch - processPackages [agxBrick]: Skipping package: exceeds size limit 11261062>=10485760
+[2023-06-19 15:48:48] INFO root fetch - processPackages [agxBrick]: Start processing: trianglechain
+[2023-06-19 15:48:48] INFO root fetch - main [MainThread]: End processing [agxBrick] error
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.9.tar.gz tmp/genepierre-0.1.0.tar.gz --markdown 20230619/g/genepierre/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:48] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.0.9.tar.gz tmp/genepierre-0.1.0.tar.gz --markdown 20230619/g/genepierre/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:49] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-06-19 15:48:49] INFO root fetch - processPackages [trianglechain]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 15:48:49] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/e1/ed/9a785a83325e387bcf54c8ce7cadadeb78e24354b223d5a9b8671e922337/trianglechain-0.4.1.tar.gz
+[2023-06-19 15:48:49] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-06-19 15:48:49] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-06-19 15:48:49] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-06-19 15:48:49] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230619/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:49] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-06-19 15:48:49] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230619/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:49] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/53/2e/81e932e5f3acd59ae3b4235fd12dbfa3ca2ae7e16e17db6deca044b875fc/trianglechain-0.4.2.tar.gz
+[2023-06-19 15:48:49] INFO root fetch - processPackages [trianglechain]: executing diffoscope
+[2023-06-19 15:48:49] INFO root fetch - processPackages [trianglechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trianglechain-0.4.1.tar.gz tmp/trianglechain-0.4.2.tar.gz --markdown 20230619/t/trianglechain/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 15:48:50] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.1.0.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.1.1.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [DeepLogTimedelta]: Start processing: solara-enterprise
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-enterprise]: New version: [1.17.0] Old Version: [1.16.3]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-uri-resolvers]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-uri-resolvers]: Start processing: solara
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [polywrap-uri-resolvers]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.6.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.1.7.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [skmetpy]: Start processing: pbcmd
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.0.9.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.1.0.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [genepierre]: Start processing: solara-assets
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [genepierre]: Start processing: amqp-mqtt-transport
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [amqp-mqtt-transport]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/28/4e/d6f1bffd5442f48778609d0253f7efed369cda84a2ac49f6dda6298b77f6/solara_enterprise-1.16.3.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [pbcmd]: New version: [6.0] Old Version: [5.1]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a6.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-wasm]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_wasm-0.1.0a7.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-wasm]: Start processing: polywrap-client
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [polywrap-wasm]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-client]: New version: [0.1.0a4] Old Version: [0.1.0a32]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-assets]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/0f/d5/8c179a51a9a0a60f569f9740c8bb93fdfbc24fd7c47c8e722b5b0f55b341/solara-1.8.2.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/84/54/e69493ec593e4b7cd14ea4ea6f9f343d03a48ef91185e383468d4e1575cf/amqp-mqtt-transport-0.1.0.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/94/b8/99eebcc8058703cbd45015f2dd1c291030a9de652fef48fb7ea7903abcf3/polywrap_client-0.1.0a32.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [tondortools]: Start processing: djangocms-leaflet
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [pbcmd]: Downloading https://files.pythonhosted.org/packages/65/f5/382728bb5e8c90a7ca8440693cd21c7b0c2c616a54dbdff22ad175f2712e/pbcmd-5.1.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/48/19/09b1ed9bf0d5ff6af962fad2ba346da37a136dd848d46234e0cd3c7df073/solara_enterprise-1.17.0.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.2.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [socialgene]: Remove: archive file [/home/abi/fetcher/tmp/socialgene-0.1.3.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [socialgene]: Start processing: cybrid-api-id-python
+[2023-06-19 15:48:50] WARNING root fetch - processPackages [djangocms-leaflet]: Skipping, unable to determine old version
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [socialgene]: success
+[2023-06-19 15:48:50] INFO root fetch - processPackages [djangocms-leaflet]: Start processing: market-data-transcoder
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [djangocms-leaflet] error
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-assets]: Downloading https://files.pythonhosted.org/packages/32/88/9e435f44c84a3837462449476bdf0c80f355c752ae05b8b5f3cd293219f1/solara_assets-1.8.2.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/ea/74/1eb94793c0b7bd3b2259b81220560a67b7eb2507e42de7861a9978da9a35/amqp-mqtt-transport-0.1.1.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/80/f8/5d300d6fcb2da426408599e055a752c0247c482e8dc308125ae1172d535b/polywrap_client-0.1.0a4.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-enterprise]: executing diffoscope
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_enterprise-1.16.3.tar.gz tmp/solara_enterprise-1.17.0.tar.gz --markdown 20230619/s/solara-enterprise/1.16.3-1.17.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-19 15:48:50] INFO root fetch - processPackages [amqp-mqtt-transport]: executing diffoscope
+[2023-06-19 15:48:50] INFO root fetch - processPackages [amqp-mqtt-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp-mqtt-transport-0.1.0.tar.gz tmp/amqp-mqtt-transport-0.1.1.tar.gz --markdown 20230619/a/amqp-mqtt-transport/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 15:48:50] INFO root fetch - processPackages [market-data-transcoder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [trianglechain]: Remove: archive file [/home/abi/fetcher/tmp/trianglechain-0.4.1.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [trianglechain]: Remove: archive file [/home/abi/fetcher/tmp/trianglechain-0.4.2.tar.gz]
+[2023-06-19 15:48:50] INFO root fetch - processPackages [trianglechain]: Start processing: cybrid-api-organization-python
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [trianglechain]: success
+[2023-06-19 15:48:50] WARNING root fetch - processPackages [solara-assets]: Skipping package: exceeds size limit 31423360>=10485760
+[2023-06-19 15:48:50] INFO root fetch - processPackages [solara-assets]: Start processing: cybrid-api-bank-python
+[2023-06-19 15:48:50] INFO root fetch - main [MainThread]: End processing [solara-assets] error
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-client]: executing diffoscope
+[2023-06-19 15:48:50] INFO root fetch - processPackages [polywrap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_client-0.1.0a32.tar.gz tmp/polywrap_client-0.1.0a4.tar.gz --markdown 20230619/p/polywrap-client/0.1.0a32-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pbcmd]: Downloading https://files.pythonhosted.org/packages/c9/42/780c9d939b202cbd6845274bc0c4fb38fe85c5a9c87aa71a023af7fea2b0/pbcmd-6.0.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pinject-design]: Start processing: polywrap-client-config-builder
+[2023-06-19 15:48:51] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 15:48:51] INFO root fetch - processPackages [polywrap-client-config-builder]: New version: [0.1.0a32] Old Version: [0.1.0a31]
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [polywrap-client-config-builder]: Downloading https://files.pythonhosted.org/packages/c7/8a/9c1f5d4dac0e7c6934fd2d20a2104c2825e7e5eb91b27c7536b8c8d9bfb2/polywrap_client_config_builder-0.1.0a31.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [market-data-transcoder]: Downloading https://files.pythonhosted.org/packages/ac/5f/592900e5d8db215341108ae8990a0718960b4faa30c6dc9bc60ffa99669a/market-data-transcoder-1.0.2.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pbcmd]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [pbcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbcmd-5.1.tar.gz tmp/pbcmd-6.0.tar.gz --markdown 20230619/p/pbcmd/5.1-6.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [polywrap-client-config-builder]: Downloading https://files.pythonhosted.org/packages/6e/2c/afa830c1ef37a4e3f0a0c58f3518bb43fe2ca58ae4d9a90d15f8b1607b69/polywrap_client_config_builder-0.1.0a32.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [market-data-transcoder]: Downloading https://files.pythonhosted.org/packages/ff/20/8a4a7fede94018ef39875f14f8261b49e359e5d44c9f2fec30333a28a8e5/market-data-transcoder-1.0.3.tar.gz
+[2023-06-19 15:48:51] INFO root fetch - processPackages [polywrap-client-config-builder]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [polywrap-client-config-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_client_config_builder-0.1.0a31.tar.gz tmp/polywrap_client_config_builder-0.1.0a32.tar.gz --markdown 20230619/p/polywrap-client-config-builder/0.1.0a31-0.1.0a32/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [market-data-transcoder]: executing diffoscope
+[2023-06-19 15:48:51] INFO root fetch - processPackages [market-data-transcoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-data-transcoder-1.0.2.tar.gz tmp/market-data-transcoder-1.0.3.tar.gz --markdown 20230619/m/market-data-transcoder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-19 15:48:51] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/e8/90/f26cbae23327466263cf6a05ac43ed3ec38356f23af8c896fb9d38cbc597/solara-1.9.0.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.16.3.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.17.0.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [solara-enterprise]: Start processing: genepierre
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [solara-enterprise]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client-0.1.0a32.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client-0.1.0a4.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client]: Start processing: simple-romp
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [polywrap-client]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [genepierre]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp-mqtt-transport-0.1.0.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp-mqtt-transport-0.1.1.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [amqp-mqtt-transport]: Start processing: simple-romp
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [amqp-mqtt-transport]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [solara]: executing diffoscope
+[2023-06-19 15:48:52] INFO root fetch - processPackages [solara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara-1.8.2.tar.gz tmp/solara-1.9.0.tar.gz --markdown 20230619/s/solara/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:52] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/5b/41/dc94fca9f44641459d5596e71644a8a41cf9f3acd7ae729968301d00d132/genepierre-0.1.1.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/53/ef/a7c49a5b3ba46493bb59706a7019b96ebbf164cd401ea91b4ac75a196c09/simple_romp-1.0.9.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/53/ef/a7c49a5b3ba46493bb59706a7019b96ebbf164cd401ea91b4ac75a196c09/simple_romp-1.0.9.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [pbcmd]: Remove: archive file [/home/abi/fetcher/tmp/pbcmd-5.1.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [pbcmd]: Remove: archive file [/home/abi/fetcher/tmp/pbcmd-6.0.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [pbcmd]: Start processing: DeepLogTimedelta
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [pbcmd]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [DeepLogTimedelta]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/f2/e1/933fa61543549796ef3de3b4110a348c05deba0f0636825b67554370fd63/DeepLogTimedelta-0.1.1.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [genepierre]: Downloading https://files.pythonhosted.org/packages/0e/43/4946766ec46f601e3c9af4b5c0a3385319bbdb60591f1dc4620c372d7873/genepierre-0.1.2.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/39/d0/5b6a8604d1a02c7656f37c7e70c89e2e76cc4ed47ea19601c1ad1852616d/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg
+[2023-06-19 15:48:52] INFO root fetch - processPackages [simple-romp]: Downloading https://files.pythonhosted.org/packages/39/d0/5b6a8604d1a02c7656f37c7e70c89e2e76cc4ed47ea19601c1ad1852616d/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg
+[2023-06-19 15:48:52] INFO root fetch - processPackages [DeepLogTimedelta]: Downloading https://files.pythonhosted.org/packages/4b/2e/5f7bcd71c57759deee717c8648704fddb9a1730bb13e6c8d633476c450a4/DeepLogTimedelta-0.1.2.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: macrometa-target-mongo
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [genepierre]: executing diffoscope
+[2023-06-19 15:48:52] INFO root fetch - processPackages [genepierre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepierre-0.1.1.tar.gz tmp/genepierre-0.1.2.tar.gz --markdown 20230619/g/genepierre/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client-config-builder]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client_config_builder-0.1.0a31.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client-config-builder]: Remove: archive file [/home/abi/fetcher/tmp/polywrap_client_config_builder-0.1.0a32.tar.gz]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [polywrap-client-config-builder]: Start processing: fastestimator-nightly
+[2023-06-19 15:48:52] INFO root fetch - main [MainThread]: End processing [polywrap-client-config-builder]: success
+[2023-06-19 15:48:52] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/ef/d4/a749f2e67e9171099f2c4ed2c75142cadd30ab1784967ffc875704a40ee6/macrometa-target-mongo-0.0.8.tar.gz
+[2023-06-19 15:48:52] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306181351] Old Version: [1.6.0.dev202306171350]
+[2023-06-19 15:48:52] INFO root fetch - processPackages [DeepLogTimedelta]: executing diffoscope
+[2023-06-19 15:48:52] INFO root fetch - processPackages [DeepLogTimedelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLogTimedelta-0.1.1.tar.gz tmp/DeepLogTimedelta-0.1.2.tar.gz --markdown 20230619/D/DeepLogTimedelta/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 15:48:53] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/3c/a5/a90a1e5de77c10444e481854e5879df1ff4c269db82f4cb232fba2a0c351/fastestimator-nightly-1.6.0.dev202306171350.tar.gz
+[2023-06-19 15:48:53] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/7d/ba/e4d42212a121d6658bf7d01b8b0e4fde578004371ebe2f5ad0d4905926e9/macrometa-target-mongo-0.0.9.tar.gz
+[2023-06-19 15:48:53] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-06-19 15:48:53] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230619/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:53] INFO root fetch - processPackages [simple-romp]: executing diffoscope
+[2023-06-19 15:48:53] INFO root fetch - processPackages [simple-romp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_romp-1.0.9.tar.gz tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg --markdown 20230619/s/simple-romp/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:53] INFO root fetch - processPackages [simple-romp]: executing diffoscope
+[2023-06-19 15:48:53] INFO root fetch - processPackages [simple-romp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_romp-1.0.9.tar.gz tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg --markdown 20230619/s/simple-romp/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-19 15:48:53] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/bd/09/e211d5953798b75b9a64413803b25f267204e2a660336a85c5c7f4af6703/fastestimator-nightly-1.6.0.dev202306181351.tar.gz
+[2023-06-19 15:48:53] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-19 15:48:53] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306171350.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306181351.tar.gz --markdown 20230619/f/fastestimator-nightly/1.6.0.dev202306171350-1.6.0.dev202306181351/diff.md --exclude *.pyd
+[2023-06-19 15:48:53] INFO root fetch - processPackages [market-data-transcoder]: Remove: archive file [/home/abi/fetcher/tmp/market-data-transcoder-1.0.2.tar.gz]
+[2023-06-19 15:48:53] INFO root fetch - processPackages [market-data-transcoder]: Remove: archive file [/home/abi/fetcher/tmp/market-data-transcoder-1.0.3.tar.gz]
+[2023-06-19 15:48:53] INFO root fetch - processPackages [market-data-transcoder]: Start processing: segmentation-mask-overlay
+[2023-06-19 15:48:53] INFO root fetch - main [MainThread]: End processing [market-data-transcoder]: success
+[2023-06-19 15:48:53] INFO root fetch - processPackages [segmentation-mask-overlay]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-19 15:48:53] INFO root fetch - processPackages [segmentation-mask-overlay]: Downloading https://files.pythonhosted.org/packages/03/37/f88543505b74e2b6035395ea54dea66aacce310ea5166edfae864f5312ae/segmentation-mask-overlay-0.4.1.tar.gz
+[2023-06-19 15:48:54] INFO root fetch - processPackages [segmentation-mask-overlay]: Downloading https://files.pythonhosted.org/packages/94/4c/786533ec9a61cb42f7af75a695b5f8cefba7bd11ffd2a449286b27c26070/segmentation-mask-overlay-0.4.2.tar.gz
+[2023-06-19 15:48:54] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: windpyutils
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-19 15:48:54] INFO root fetch - processPackages [segmentation-mask-overlay]: executing diffoscope
+[2023-06-19 15:48:54] INFO root fetch - processPackages [segmentation-mask-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation-mask-overlay-0.4.1.tar.gz tmp/segmentation-mask-overlay-0.4.2.tar.gz --markdown 20230619/s/segmentation-mask-overlay/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-19 15:48:54] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.1.1.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [DeepLogTimedelta]: Remove: archive file [/home/abi/fetcher/tmp/DeepLogTimedelta-0.1.2.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [DeepLogTimedelta]: success
+[2023-06-19 15:48:54] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.1.1.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [genepierre]: Remove: archive file [/home/abi/fetcher/tmp/genepierre-0.1.2.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [genepierre]: success
+[2023-06-19 15:48:54] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-06-19 15:48:54] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.8.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.9.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-06-19 15:48:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-19 15:48:54] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-06-19 15:48:54] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-1.0.9.tar.gz]
+[2023-06-19 15:48:54] INFO root fetch - processPackages [simple-romp]: Remove: archive file [/home/abi/fetcher/tmp/simple_romp-2.0.0-py3.9-macosx-11.1-arm64.egg]
+[2023-06-19 15:48:54] INFO root fetch - main [MainThread]: End processing [simple-romp]: success
+[2023-06-19 15:48:55] INFO root fetch - processPackages [segmentation-mask-overlay]: Remove: archive file [/home/abi/fetcher/tmp/segmentation-mask-overlay-0.4.1.tar.gz]
+[2023-06-19 15:48:55] INFO root fetch - processPackages [segmentation-mask-overlay]: Remove: archive file [/home/abi/fetcher/tmp/segmentation-mask-overlay-0.4.2.tar.gz]
+[2023-06-19 15:48:55] INFO root fetch - main [MainThread]: End processing [segmentation-mask-overlay]: success
+[2023-06-19 15:48:55] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-06-19 15:48:55] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230619/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-19 15:48:56] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.8.tar.gz]
+[2023-06-19 15:48:56] INFO root fetch - processPackages [windpyutils]: Remove: archive file [/home/abi/fetcher/tmp/windpyutils-2.0.9.tar.gz]
+[2023-06-19 15:48:56] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-06-19 15:48:56] INFO root fetch - main [MainThread]: End processing [simple-romp]: success
+[2023-06-19 15:48:57] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.8.2.tar.gz]
+[2023-06-19 15:48:57] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
+[2023-06-19 15:48:57] INFO root fetch - main [MainThread]: End processing [solara]: success
+[2023-06-19 15:49:00] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306171350.tar.gz]
+[2023-06-19 15:49:00] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306181351.tar.gz]
+[2023-06-19 15:49:00] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-19 15:49:00] INFO root fetch - main [MainThread]: Store serial: [18560639]
