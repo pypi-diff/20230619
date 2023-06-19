@@ -22722,3 +22722,187 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 17:49:24] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-19 17:49:24] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-19 17:49:24] INFO root fetch - main [MainThread]: Store serial: [18561924]
+[2023-06-19 17:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561924]
+[2023-06-19 17:54:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cards
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fairgraph
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streampipes
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: event2vec
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WqUtils
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-support-plugin
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e3nn-jax
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kangforecast
+[2023-06-19 17:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdh
+[2023-06-19 17:54:35] INFO root fetch - processPackages [django-cards]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [streampipes]: New version: [0.92.0] Old Version: [0.91.0]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [fairgraph]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [event2vec]: New version: [0.0.41] Old Version: [0.0.4]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [WqUtils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 17:54:35] WARNING root fetch - processPackages [netbox-cisco-support-plugin]: Skipping, unable to determine old version
+[2023-06-19 17:54:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: few-shot-priming
+[2023-06-19 17:54:35] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin] error
+[2023-06-19 17:54:35] INFO root fetch - processPackages [pdh]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [e3nn-jax]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-19 17:54:35] INFO root fetch - processPackages [event2vec]: Downloading https://files.pythonhosted.org/packages/c6/81/f33d3efd4c6122105cc0d9c1a485e2c7232dce54c8a9ef3b389c3c3ac07e/event2vec-0.0.4.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/00/af/b54fdc8d97eaa609d500e8c57664bbdfa22ccd5c6a8ec68a4c5a4a8aee65/WqUtils-0.0.8-py3-none-any.whl
+[2023-06-19 17:54:35] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [fairgraph]: Downloading https://files.pythonhosted.org/packages/8f/5b/f5f2c1d91dd24751f0599fcff364dd936b7716f82f4ba65f07e73bf093e4/fairgraph-0.8.2.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/f8/9c/26d652906f34b18c4e3da83ded778f2a486a1f22289b8b7a26fbaaca856d/django-cards-0.9.1.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [streampipes]: Downloading https://files.pythonhosted.org/packages/af/9a/5a45c80dbfdb0107022377d7f656802d2bdcc3062f1ac96887fceaa24b2d/streampipes-0.91.0.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/13/4d/d1fc4ae9b7b5ba2731634f562a7749df0efdaf4f4aebdef6d703b0a56a67/e3nn_jax-0.9.1.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/77/da/d5d322cdb77937a81a5e6c57a9e119ee7c0a2cec7587b7aeaf301bbbcf65/pdh-0.3.8.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 17:54:35] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 17:54:35] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/8d/a7/e6239c8597791dd5b9c91cc7a4e8ec8f55db36da53608ff0365bb99a5e9e/WqUtils-0.0.9-py3-none-any.whl
+[2023-06-19 17:54:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-19 17:54:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-19 17:54:35] INFO root fetch - processPackages [event2vec]: Downloading https://files.pythonhosted.org/packages/ba/9a/031cc6908745b003895505aeafcb714980d65955401d752fe97438175c7a/event2vec-0.0.41.tar.gz
+[2023-06-19 17:54:35] INFO root fetch - processPackages [WqUtils]: executing diffoscope
+[2023-06-19 17:54:35] INFO root fetch - processPackages [WqUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WqUtils-0.0.8-py3-none-any.whl.zip tmp/WqUtils-0.0.9-py3-none-any.whl.zip --markdown 20230619/W/WqUtils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 17:54:35] INFO root fetch - processPackages [event2vec]: executing diffoscope
+[2023-06-19 17:54:35] INFO root fetch - processPackages [event2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event2vec-0.0.4.tar.gz tmp/event2vec-0.0.41.tar.gz --markdown 20230619/e/event2vec/0.0.4-0.0.41/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [streampipes]: Downloading https://files.pythonhosted.org/packages/4f/ee/dc3ae5b58e7a645196aa9454fb602a958d4fcd9fb0bb0011cbdf516a4159/streampipes-0.92.0.tar.gz
+[2023-06-19 17:54:36] INFO root fetch - processPackages [streampipes]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [streampipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streampipes-0.91.0.tar.gz tmp/streampipes-0.92.0.tar.gz --markdown 20230619/s/streampipes/0.91.0-0.92.0/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/91/cc/a233acea65731ff053ec23cb7f3136fd672a7886c6add38a0e407e943893/django-cards-0.9.2.tar.gz
+[2023-06-19 17:54:36] INFO root fetch - processPackages [fairgraph]: Downloading https://files.pythonhosted.org/packages/60/b6/0b4a7688ae57ca54967d77f25266c423fafbbb8c06c5b31b42c141c71c37/fairgraph-0.9.0.tar.gz
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-19 17:54:36] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/dd/2b/f088a9fd1f6290d72497c0e1f822eff10efb1cc31d30c99f8264b09c3a01/e3nn_jax-0.9.2.tar.gz
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-19 17:54:36] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/07/57/186b6555aefed78ca93f2e9f74cd13292562c79c9ed0e66c2f4185a3f4f3/pdh-0.3.9.tar.gz
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230619/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230619/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [fairgraph]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [fairgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairgraph-0.8.2.tar.gz tmp/fairgraph-0.9.0.tar.gz --markdown 20230619/f/fairgraph/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.9.1.tar.gz tmp/django-cards-0.9.2.tar.gz --markdown 20230619/d/django-cards/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [pdh]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [pdh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdh-0.3.8.tar.gz tmp/pdh-0.3.9.tar.gz --markdown 20230619/p/pdh/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 17:54:36] INFO root fetch - processPackages [e3nn-jax]: executing diffoscope
+[2023-06-19 17:54:36] INFO root fetch - processPackages [e3nn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e3nn_jax-0.9.1.tar.gz tmp/e3nn_jax-0.9.2.tar.gz --markdown 20230619/e/e3nn-jax/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 17:54:37] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [kangforecast]: Start processing: jupysql
+[2023-06-19 17:54:37] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 17:54:37] INFO root fetch - processPackages [jupysql]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [WqUtils]: Start processing: hsmm-mvpy
+[2023-06-19 17:54:37] INFO root fetch - main [MainThread]: End processing [WqUtils]: success
+[2023-06-19 17:54:37] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/29/b9/c77f102d1217a8bc139d025c94f48bde4dc5a2624ac747b0708354124b10/hsmm_mvpy-0.1.0b3.tar.gz
+[2023-06-19 17:54:37] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/b9/9d/752c7e890e23b16af758d62e0e7a116cabcbe7b773371e6e4a7f4ad16ca8/jupysql-0.7.8.tar.gz
+[2023-06-19 17:54:37] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/40/c6/bb0a948f01286aec063f024e8ba28f2b5bac0705bab7f9ca16376318c036/hsmm_mvpy-0.1.0b4.tar.gz
+[2023-06-19 17:54:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [few-shot-priming]: Start processing: setuptools
+[2023-06-19 17:54:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-19 17:54:37] INFO root fetch - processPackages [few-shot-priming]: Start processing: symbex
+[2023-06-19 17:54:37] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-19 17:54:37] INFO root fetch - processPackages [setuptools]: New version: [9.1] Old Version: [9.0.1]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [symbex]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-06-19 17:54:37] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b3.tar.gz tmp/hsmm_mvpy-0.1.0b4.tar.gz --markdown 20230619/h/hsmm-mvpy/0.1.0b3-0.1.0b4/diff.md --exclude *.pyd
+[2023-06-19 17:54:37] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/de/dd/7aa759c54fbcb150f89e9783d1d4414a97b669d9c42181d342b0c3cef9a3/jupysql-0.7.9.tar.gz
+[2023-06-19 17:54:37] INFO root fetch - processPackages [jupysql]: executing diffoscope
+[2023-06-19 17:54:37] INFO root fetch - processPackages [jupysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql-0.7.8.tar.gz tmp/jupysql-0.7.9.tar.gz --markdown 20230619/j/jupysql/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-19 17:54:37] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/16/2c/1ad571e85048c57b4e7ba2218d0fff3db0452e8bfa0c20e1543e26f85121/setuptools-9.0.1.zip
+[2023-06-19 17:54:37] INFO root fetch - processPackages [event2vec]: Remove: archive file [/home/abi/fetcher/tmp/event2vec-0.0.4.tar.gz]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [event2vec]: Remove: archive file [/home/abi/fetcher/tmp/event2vec-0.0.41.tar.gz]
+[2023-06-19 17:54:37] INFO root fetch - processPackages [event2vec]: Start processing: honeybee-grasshopper-energy
+[2023-06-19 17:54:37] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/8d/47/c5f08d6a041c25e827c7e8338d49757f584ac947b1a8f0727b540c8d07d0/symbex-0.3.1.tar.gz
+[2023-06-19 17:54:37] INFO root fetch - main [MainThread]: End processing [event2vec]: success
+[2023-06-19 17:54:37] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.8.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.9.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pdh]: Start processing: pfizer-components
+[2023-06-19 17:54:38] INFO root fetch - main [MainThread]: End processing [pdh]: success
+[2023-06-19 17:54:38] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/cd/11/d55362a784ac165acee20826b235421648b101f7c248c98a6abccbb27c32/symbex-0.3.2.tar.gz
+[2023-06-19 17:54:38] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/54/7b/7a5cbff9c4455b0609f734fd1527788e489f9903b76830482d0587749410/pfizer_components-0.2.0-py3-none-any.whl
+[2023-06-19 17:54:38] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/35/b2/626974cb6f02c4d58c33471b597f6723560f74be322857e9cd24700c3c70/setuptools-9.1.zip
+[2023-06-19 17:54:38] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-19 17:54:38] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.3.1.tar.gz tmp/symbex-0.3.2.tar.gz --markdown 20230619/s/symbex/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/88/01/d64304a9e2863a7078da9b9dbc8b99e39d0d706f8b4662671ab0d84b0882/pfizer_components-0.2.1-py3-none-any.whl
+[2023-06-19 17:54:38] INFO root fetch - processPackages [setuptools]: executing diffoscope
+[2023-06-19 17:54:38] INFO root fetch - processPackages [setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-9.0.1.zip tmp/setuptools-9.1.zip --markdown 20230619/s/setuptools/9.0.1-9.1/diff.md --exclude *.pyd
+[2023-06-19 17:54:38] INFO root fetch - processPackages [streampipes]: Remove: archive file [/home/abi/fetcher/tmp/streampipes-0.91.0.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [streampipes]: Remove: archive file [/home/abi/fetcher/tmp/streampipes-0.92.0.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [streampipes]: Start processing: configuraptor
+[2023-06-19 17:54:38] INFO root fetch - main [MainThread]: End processing [streampipes]: success
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-19 17:54:38] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.0-py3-none-any.whl.zip tmp/pfizer_components-0.2.1-py3-none-any.whl.zip --markdown 20230619/p/pfizer-components/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-19 17:54:38] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b3.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b4.tar.gz]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [hsmm-mvpy]: Start processing: kangforecast
+[2023-06-19 17:54:38] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-06-19 17:54:38] INFO root fetch - processPackages [configuraptor]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 17:54:38] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 17:54:39] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 17:54:39] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/a4/f1/5537fc557831d4e0cb9205ba9d1c6376956feef62ed6ef40e1ac5a8339e2/configuraptor-1.5.1.tar.gz
+[2023-06-19 17:54:39] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2023-06-19 17:54:39] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 17:54:39] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 17:54:39] INFO root fetch - processPackages [e3nn-jax]: Remove: archive file [/home/abi/fetcher/tmp/e3nn_jax-0.9.1.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [e3nn-jax]: Remove: archive file [/home/abi/fetcher/tmp/e3nn_jax-0.9.2.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [e3nn-jax]: Start processing: assemblyline-service-client
+[2023-06-19 17:54:39] INFO root fetch - main [MainThread]: End processing [e3nn-jax]: success
+[2023-06-19 17:54:39] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/13/58/5da8c49dbc3c1071a8a6d1106cfec386b72c6897cbc9230a9b19467b12ef/configuraptor-1.6.0.tar.gz
+[2023-06-19 17:54:39] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2023-06-19 17:54:39] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20230619/h/honeybee-grasshopper-energy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-19 17:54:39] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.3.1.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.3.2.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [symbex]: Start processing: assemblyline-service-server
+[2023-06-19 17:54:39] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-19 17:54:39] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-19 17:54:39] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.5.1.tar.gz tmp/configuraptor-1.6.0.tar.gz --markdown 20230619/c/configuraptor/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-19 17:54:39] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [jupysql]: Remove: archive file [/home/abi/fetcher/tmp/jupysql-0.7.8.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - processPackages [jupysql]: Remove: archive file [/home/abi/fetcher/tmp/jupysql-0.7.9.tar.gz]
+[2023-06-19 17:54:39] INFO root fetch - main [MainThread]: End processing [jupysql]: success
+[2023-06-19 17:54:39] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-06-19 17:54:40] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230619/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-19 17:54:40] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.0-py3-none-any.whl.zip]
+[2023-06-19 17:54:40] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.1-py3-none-any.whl.zip]
+[2023-06-19 17:54:40] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-19 17:54:40] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230619/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-19 17:54:40] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.1.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.2.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-06-19 17:54:40] INFO root fetch - processPackages [fairgraph]: Remove: archive file [/home/abi/fetcher/tmp/fairgraph-0.8.2.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - processPackages [fairgraph]: Remove: archive file [/home/abi/fetcher/tmp/fairgraph-0.9.0.tar.gz]
+[2023-06-19 17:54:40] INFO root fetch - main [MainThread]: End processing [fairgraph]: success
+[2023-06-19 17:54:41] INFO root fetch - processPackages [setuptools]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-9.0.1.zip]
+[2023-06-19 17:54:41] INFO root fetch - processPackages [setuptools]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-9.1.zip]
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: End processing [setuptools]: success
+[2023-06-19 17:54:41] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.5.1.tar.gz]
+[2023-06-19 17:54:41] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.6.0.tar.gz]
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-19 17:54:41] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-19 17:54:41] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-19 17:54:41] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-19 17:54:41] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-19 17:54:41] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.1.tar.gz]
+[2023-06-19 17:54:41] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2023-06-19 17:54:41] INFO root fetch - main [MainThread]: Store serial: [18561984]
