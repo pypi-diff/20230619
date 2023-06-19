@@ -23156,3 +23156,151 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 18:00:17] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.4.1.tar.gz]
 [2023-06-19 18:00:17] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-19 18:00:17] INFO root fetch - main [MainThread]: Store serial: [18562063]
+[2023-06-19 18:05:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18562063]
+[2023-06-19 18:05:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hsmm-mvpy
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-to-arduino
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kangforecast
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoindex-scraper
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hedgesql
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serverless-aws-lambda-sdk
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calculadora-fabeliz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aanalytics2
+[2023-06-19 18:05:27] INFO root fetch - processPackages [image-to-arduino]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2023-06-19 18:05:27] WARNING root fetch - processPackages [calculadora-fabeliz]: Skipping, unable to determine old version
+[2023-06-19 18:05:27] INFO root fetch - processPackages [calculadora-fabeliz]: Start processing: kangforecast
+[2023-06-19 18:05:27] INFO root fetch - main [MainThread]: End processing [calculadora-fabeliz] error
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hedgesql]: New version: [1.2] Old Version: [1.1]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [aanalytics2]: New version: [0.4.0] Old Version: [0.3.3.post3]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ecoindex-scraper]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-19 18:05:27] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [image-to-arduino]: Downloading https://files.pythonhosted.org/packages/39/18/b2f85abd7ccf8f1987291f2810c2e6b93cff7fae9c6fd7e8f99e3aa09b72/image-to-arduino-1.0.4.4.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/40/c6/bb0a948f01286aec063f024e8ba28f2b5bac0705bab7f9ca16376318c036/hsmm_mvpy-0.1.0b4.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/b5/2a/f5c55c0452e5ab15284437193ec91cd126bcc89cf50096da00f21c05b321/serverless-aws-lambda-sdk-0.1.9.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/61/6b/af6c88a4a4332c8ff63ba3312abb869fe13d7cb4684f889424f93314d684/hedgesql-1.1.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/c4/3e/fd2a0c4ac9b8896d34de011556f3de26508573e93091d060fec069025d9f/aanalytics2-0.3.3.post3.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ecoindex-scraper]: Downloading https://files.pythonhosted.org/packages/96/96/130f4d2a3dc18bd9df7a2cc2e29951ff616d2db15644537f1d7a94b82035/ecoindex_scraper-3.0.0.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [image-to-arduino]: Downloading https://files.pythonhosted.org/packages/ee/fe/4c229f9ffdf71a64ba4e698eaf82bf5aa4288b579b9cc0ab071574a2b65f/image-to-arduino-1.0.4.5.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230619/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/46/11/3ced983921b594ecc761ce6cdc8ea5702ceeb8edcb0b898ef39aef769cea/hsmm_mvpy-0.1.0b5.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [image-to-arduino]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [image-to-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-to-arduino-1.0.4.4.tar.gz tmp/image-to-arduino-1.0.4.5.tar.gz --markdown 20230619/i/image-to-arduino/1.0.4.4-1.0.4.5/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/b8/b1/d7032d36d8037d76760ccc34b25369b823a41351ff35db730081364fb9ca/hedgesql-1.2.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ecoindex-scraper]: Downloading https://files.pythonhosted.org/packages/94/70/52be59649aae01543c78d828408f914c2803ae84bdd5d68b7e36c69ddc85/ecoindex_scraper-3.1.0.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/5d/aa/6e23104caa5d293acf504f2d467144d58874684789bcd47765db2bc8ed2d/aanalytics2-0.4.0.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/94/6b/51199d658f6ae66285b0c9ef144de1943287cd3b8a7a4a69971d9d25df38/serverless-aws-lambda-sdk-0.2.0.tar.gz
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0b4.tar.gz tmp/hsmm_mvpy-0.1.0b5.tar.gz --markdown 20230619/h/hsmm-mvpy/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230619/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230619/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-aws-lambda-sdk-0.1.9.tar.gz tmp/serverless-aws-lambda-sdk-0.2.0.tar.gz --markdown 20230619/s/serverless-aws-lambda-sdk/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [aanalytics2]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [aanalytics2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalytics2-0.3.3.post3.tar.gz tmp/aanalytics2-0.4.0.tar.gz --markdown 20230619/a/aanalytics2/0.3.3.post3-0.4.0/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hedgesql]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [hedgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedgesql-1.1.tar.gz tmp/hedgesql-1.2.tar.gz --markdown 20230619/h/hedgesql/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ecoindex-scraper]: executing diffoscope
+[2023-06-19 18:05:27] INFO root fetch - processPackages [ecoindex-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex_scraper-3.0.0.tar.gz tmp/ecoindex_scraper-3.1.0.tar.gz --markdown 20230619/e/ecoindex-scraper/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-19 18:05:29] INFO root fetch - processPackages [image-to-arduino]: Remove: archive file [/home/abi/fetcher/tmp/image-to-arduino-1.0.4.4.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [image-to-arduino]: Remove: archive file [/home/abi/fetcher/tmp/image-to-arduino-1.0.4.5.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [image-to-arduino]: Start processing: MarketVision
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [image-to-arduino]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [MarketVision]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [MarketVision]: Downloading https://files.pythonhosted.org/packages/fe/5b/3095e97a08907209c972fa94a7d857565f48349e384d4f44eb13affed1bf/MarketVision-0.0.4.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [kangforecast]: Start processing: juriscraper
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [kangforecast]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [juriscraper]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-aws-lambda-sdk-0.1.9.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Remove: archive file [/home/abi/fetcher/tmp/serverless-aws-lambda-sdk-0.2.0.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Start processing: thipster
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [serverless-aws-lambda-sdk]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [thipster]: New version: [0.17.2] Old Version: [0.17.1]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [MarketVision]: Downloading https://files.pythonhosted.org/packages/cb/84/e425dfb7d4e17cf318b8a7bf4be187ea122f9248a8719908b0204cb4560b/MarketVision-0.0.5.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ecoindex-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_scraper-3.0.0.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ecoindex-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_scraper-3.1.0.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ecoindex-scraper]: Start processing: ipyfilite
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [ecoindex-scraper]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/06/e9/d9736ce605b0adb715a2da5d2f72437623aabd121bdcd4161eac596aa495/juriscraper-2.5.8.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [pypipr]: Start processing: Fletxible
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [MarketVision]: executing diffoscope
+[2023-06-19 18:05:29] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/ad/04/41a34443ed57a9092040500273043fe8369d155be8378582eb0f5078c60d/thipster-0.17.1.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [MarketVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarketVision-0.0.4.tar.gz tmp/MarketVision-0.0.5.tar.gz --markdown 20230619/M/MarketVision/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [Fletxible]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b4.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [hsmm-mvpy]: Remove: archive file [/home/abi/fetcher/tmp/hsmm_mvpy-0.1.0b5.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.1.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.2.tar.gz]
+[2023-06-19 18:05:29] INFO root fetch - main [MainThread]: End processing [hedgesql]: success
+[2023-06-19 18:05:29] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-19 18:05:29] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230619/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 18:05:29] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/ef/50/344dc5df4ec056892b17aebfa6f94aa0639dc887e148936578073f33e8c0/Fletxible-0.5.8.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/8c/f4/e1be53a9b9ea551c67d3dea8150b9cf004ad9a1468f39f7de5b288e77fbf/thipster-0.17.2.tar.gz
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-19 18:05:29] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230619/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:29] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/5f/25/693a53a8b0f40a035585409fb51a372b6f0292d864d13a6feac4974db145/juriscraper-2.5.9.tar.gz
+[2023-06-19 18:05:30] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-19 18:05:30] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.17.1.tar.gz tmp/thipster-0.17.2.tar.gz --markdown 20230619/t/thipster/0.17.1-0.17.2/diff.md --exclude *.pyd
+[2023-06-19 18:05:30] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e8/10/5c6e4965cede728d8cb9bfe32346b21cdd417f897dd1cc0641338da5ee4f/Fletxible-0.5.9.tar.gz
+[2023-06-19 18:05:30] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-06-19 18:05:30] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.5.8.tar.gz tmp/Fletxible-0.5.9.tar.gz --markdown 20230619/F/Fletxible/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:30] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2023-06-19 18:05:30] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.5.8.tar.gz tmp/juriscraper-2.5.9.tar.gz --markdown 20230619/j/juriscraper/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-06-19 18:05:30] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.3.3.post3.tar.gz]
+[2023-06-19 18:05:30] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.4.0.tar.gz]
+[2023-06-19 18:05:30] INFO root fetch - main [MainThread]: End processing [aanalytics2]: success
+[2023-06-19 18:05:30] INFO root fetch - processPackages [MarketVision]: Remove: archive file [/home/abi/fetcher/tmp/MarketVision-0.0.4.tar.gz]
+[2023-06-19 18:05:30] INFO root fetch - processPackages [MarketVision]: Remove: archive file [/home/abi/fetcher/tmp/MarketVision-0.0.5.tar.gz]
+[2023-06-19 18:05:30] INFO root fetch - main [MainThread]: End processing [MarketVision]: success
+[2023-06-19 18:05:31] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.1.tar.gz]
+[2023-06-19 18:05:31] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.2.tar.gz]
+[2023-06-19 18:05:31] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-19 18:05:31] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.5.8.tar.gz]
+[2023-06-19 18:05:31] INFO root fetch - processPackages [Fletxible]: Remove: archive file [/home/abi/fetcher/tmp/Fletxible-0.5.9.tar.gz]
+[2023-06-19 18:05:31] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-06-19 18:05:32] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-19 18:05:32] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-19 18:05:32] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-19 18:05:32] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-19 18:05:32] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-19 18:05:32] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-19 18:05:33] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-19 18:05:33] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-19 18:05:33] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-19 18:05:33] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.5.8.tar.gz]
+[2023-06-19 18:05:33] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.5.9.tar.gz]
+[2023-06-19 18:05:33] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2023-06-19 18:05:33] INFO root fetch - main [MainThread]: Store serial: [18562120]
