@@ -3744,3 +3744,159 @@
 [2023-06-19 02:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.917.tar.gz]
 [2023-06-19 02:38:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
 [2023-06-19 02:38:28] INFO root fetch - main [MainThread]: Store serial: [18554455]
+[2023-06-19 02:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18554455]
+[2023-06-19 02:43:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-yinsuda
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-youmall
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-yunjing
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-yunsou
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-zj
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yud102023
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyCodeBook
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-19 02:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: countess-minimap2
+[2023-06-19 02:43:38] INFO root fetch - processPackages [PyCodeBook]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [yud102023]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.917] Old Version: [3.0.916]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.917] Old Version: [3.0.916]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [countess-minimap2]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.917] Old Version: [3.0.916]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: New version: [3.0.917] Old Version: [3.0.916]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: New version: [3.0.917] Old Version: [3.0.916]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/db/46/57ef0e683caecd4268b27e7d1b792f4ca658622413458fba9575c234ad36/PyCodeBook-0.0.3.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230619] Old Version: [0.1.4.dev20230618]
+[2023-06-19 02:43:38] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/a7/93/f09afeb8d91a22079855e21869fd824388a759f4f29c3ed6d5d1406b62d4/yud102023-0.0.1.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/60/2a/3966783290bd682f06179bfffeb660a173e6c640018a4b460c37795546db/tencentcloud-sdk-python-yinsuda-3.0.916.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [countess-minimap2]: Downloading https://files.pythonhosted.org/packages/cb/3e/3216bf7f39c6d8538192805a28cf75528e589da49d57a0f1d016dfd629a9/countess-minimap2-0.0.6.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/b7/47/60635276d86b73dda3a8a647399f391949ff002bafd8d01efd73a81064c2/tencentcloud-sdk-python-yunjing-3.0.916.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/e7/6d/7b7ea6317ffddf450b83b0cedf5d715f944232087278afc98bc607311d8a/tencentcloud-sdk-python-youmall-3.0.916.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/7c/13/4d0ca81e786d21e2e9ee41438f63d9ab1c8731bbc4083815c851aaedfdec/PyCodeBook-0.0.4.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d2/9a/f169558b199701e0686339da6023197c936e3e7542b13a6f41f59e839375/aeppl-nightly-0.1.4.dev20230618.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/49/4a/c3bb549ab490cddd9e7bd79408d52cfe78de5b1b72aad9696c3cd1ec84e6/tencentcloud-sdk-python-yunsou-3.0.916.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [PyCodeBook]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [PyCodeBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCodeBook-0.0.3.tar.gz tmp/PyCodeBook-0.0.4.tar.gz --markdown 20230619/P/PyCodeBook/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/b3/27/5809a7f260e0af61a7683c88e3c87ad04f9ce0acbddf7cf327bb4745b2cd/tencentcloud-sdk-python-zj-3.0.916.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [yud102023]: Downloading https://files.pythonhosted.org/packages/0c/6f/0485184de76a0b482b2a7cf18158d94d605a7012455ddc90f418d8eab7a7/yud102023-0.0.2.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [yud102023]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [yud102023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yud102023-0.0.1.tar.gz tmp/yud102023-0.0.2.tar.gz --markdown 20230619/y/yud102023/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/bb/98/8b1a30a94ef82e2e4bca99322912cafca4a87bf2eb3b3fe2348d4bf4fae1/tencentcloud-sdk-python-yunjing-3.0.917.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/97/4f/874f16d55d87863bf5a2d16b2f5d6aadc70f2769c4569774fa24ac2adbe7/tencentcloud-sdk-python-youmall-3.0.917.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/6a/6b/5c31c473a1ce7236d11fb107905f7e94356f049a396c25b480534f4ca3e9/tencentcloud-sdk-python-yinsuda-3.0.917.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunjing-3.0.916.tar.gz tmp/tencentcloud-sdk-python-yunjing-3.0.917.tar.gz --markdown 20230619/t/tencentcloud-sdk-python-yunjing/3.0.916-3.0.917/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-youmall-3.0.916.tar.gz tmp/tencentcloud-sdk-python-youmall-3.0.917.tar.gz --markdown 20230619/t/tencentcloud-sdk-python-youmall/3.0.916-3.0.917/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.916.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.917.tar.gz --markdown 20230619/t/tencentcloud-sdk-python-yinsuda/3.0.916-3.0.917/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/73/c0/8aca1b288b44776e4fd8b22832583665bafd2ddb6a2f1d624266a7f1546c/aeppl-nightly-0.1.4.dev20230619.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/64/2e/40d03a4aed67056dfb9368b08cf687d774341cb58c04df7d24db94bb34e1/tencentcloud-sdk-python-yunsou-3.0.917.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/2f/97/6d6693114ec6ef70da4910bc13cee6ec2529b51a61e6f14e55005f3fddb6/tencentcloud-sdk-python-zj-3.0.917.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.916.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.917.tar.gz --markdown 20230619/t/tencentcloud-sdk-python-yunsou/3.0.916-3.0.917/diff.md --exclude *.pyd
+[2023-06-19 02:43:38] INFO root fetch - processPackages [countess-minimap2]: Downloading https://files.pythonhosted.org/packages/2d/e1/c28a1fce8703a1c66f5e4de275c1d5b3f2208261f6e1ac6670658f656f67/countess-minimap2-0.0.8.tar.gz
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-06-19 02:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.916.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.917.tar.gz --markdown 20230619/t/tencentcloud-sdk-python-zj/3.0.916-3.0.917/diff.md --exclude *.pyd
+[2023-06-19 02:43:39] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-19 02:43:39] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230618.tar.gz tmp/aeppl-nightly-0.1.4.dev20230619.tar.gz --markdown 20230619/a/aeppl-nightly/0.1.4.dev20230618-0.1.4.dev20230619/diff.md --exclude *.pyd
+[2023-06-19 02:43:39] INFO root fetch - processPackages [countess-minimap2]: executing diffoscope
+[2023-06-19 02:43:39] INFO root fetch - processPackages [countess-minimap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-minimap2-0.0.6.tar.gz tmp/countess-minimap2-0.0.8.tar.gz --markdown 20230619/c/countess-minimap2/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-19 02:43:40] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.3.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.4.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [PyCodeBook]: Start processing: state-machine-semaphore
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [PyCodeBook]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.1.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [yud102023]: Remove: archive file [/home/abi/fetcher/tmp/yud102023-0.0.2.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [yud102023]: Start processing: fastapi-dapr-helper
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [yud102023]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [fastapi-dapr-helper]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [fastapi-dapr-helper]: Downloading https://files.pythonhosted.org/packages/a9/e0/76b73815b7e741813547c3fee60c549b0a1d532dbf96e2966e1df2e2616b/fastapi-dapr-helper-0.1.1.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.916.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.917.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Start processing: pipeadapter
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [pipeadapter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.916.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.917.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Start processing: predictionguard
+[2023-06-19 02:43:40] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230619/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-19 02:43:40] INFO root fetch - processPackages [predictionguard]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [countess-minimap2]: Remove: archive file [/home/abi/fetcher/tmp/countess-minimap2-0.0.6.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [countess-minimap2]: Remove: archive file [/home/abi/fetcher/tmp/countess-minimap2-0.0.8.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [countess-minimap2]: Start processing: miniqc
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [countess-minimap2]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [pipeadapter]: Downloading https://files.pythonhosted.org/packages/09/9f/e2b69ca33bc88ef7e59b9a01097ef5d2668ab2630ed3a919a3f32e513e9e/pipeadapter-0.0.1.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.916.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.917.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Start processing: chartfactor
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [miniqc]: New version: [23.1.0] Old Version: [23.0.1]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/68/44/8d622a62f53dccda8116cc86f5d77cd415d727299585ea71c5d265a38688/predictionguard-1.1.0.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230618.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230619.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [aeppl-nightly]: Start processing: chartfactor-jlab-ext
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [fastapi-dapr-helper]: Downloading https://files.pythonhosted.org/packages/73/58/aee460b7f20d248d7d6a99b5c062968f4d339f99420f19d6503bf3f64cb0/fastapi-dapr-helper-0.1.1a0.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [chartfactor]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [fastapi-dapr-helper]: executing diffoscope
+[2023-06-19 02:43:40] INFO root fetch - processPackages [fastapi-dapr-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-dapr-helper-0.1.1.tar.gz tmp/fastapi-dapr-helper-0.1.1a0.tar.gz --markdown 20230619/f/fastapi-dapr-helper/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-19 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-19 02:43:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230619/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-19 02:43:40] INFO root fetch - processPackages [miniqc]: Downloading https://files.pythonhosted.org/packages/73/59/3174a34aa42bd7805be355cf6ebce823d7193e2b87ff976fcae9e7cec640/miniqc-23.0.1.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [pipeadapter]: Downloading https://files.pythonhosted.org/packages/20/8d/fc3176134783a90d2f2e52225657751dd0180cd4d802deffdb7fdee4428c/pipeadapter-0.0.2.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/51/bd/236f1ae29b3cc86d202a733d2aaeb78c86201ef7bc61fc1cd30bddbce0f2/chartfactor-4.1.8.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/80/c2/f1956dcecf8eeb19f4cdadaae15c351c5cca7659f1ce0ecc505a8a9f5cc3/predictionguard-1.2.0.tar.gz
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.916.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.917.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [pipeadapter]: executing diffoscope
+[2023-06-19 02:43:40] INFO root fetch - processPackages [pipeadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeadapter-0.0.1.tar.gz tmp/pipeadapter-0.0.2.tar.gz --markdown 20230619/p/pipeadapter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.916.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.917.tar.gz]
+[2023-06-19 02:43:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
+[2023-06-19 02:43:40] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/cc/a4/85daf844bdc010d3b6279fb0e8ebe60ee62905963aca4f393e1efcca1feb/chartfactor-jlab-ext-4.1.8.tar.gz
+[2023-06-19 02:43:41] INFO root fetch - processPackages [predictionguard]: executing diffoscope
+[2023-06-19 02:43:41] INFO root fetch - processPackages [predictionguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predictionguard-1.1.0.tar.gz tmp/predictionguard-1.2.0.tar.gz --markdown 20230619/p/predictionguard/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-19 02:43:41] INFO root fetch - processPackages [miniqc]: Downloading https://files.pythonhosted.org/packages/fe/52/b28947289c21e702bfd99397e1643b7485368223efaeda0ae084d7de17c5/miniqc-23.1.0.tar.gz
+[2023-06-19 02:43:41] INFO root fetch - processPackages [miniqc]: executing diffoscope
+[2023-06-19 02:43:41] INFO root fetch - processPackages [miniqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniqc-23.0.1.tar.gz tmp/miniqc-23.1.0.tar.gz --markdown 20230619/m/miniqc/23.0.1-23.1.0/diff.md --exclude *.pyd
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/72/c6/0474b4f09832c1718fcc42a76919f02eeafd36c752b4a0527a1e99cbc65f/chartfactor-jlab-ext-4.1.9.tar.gz
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-4.1.8.tar.gz tmp/chartfactor-jlab-ext-4.1.9.tar.gz --markdown 20230619/c/chartfactor-jlab-ext/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/8e/5d/6202a224abbd847f997118507e9fe6896e2196a4601df38fb897fe5308fc/chartfactor-4.1.9.tar.gz
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2023-06-19 02:43:41] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-4.1.8.tar.gz tmp/chartfactor-4.1.9.tar.gz --markdown 20230619/c/chartfactor/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-19 02:43:41] INFO root fetch - processPackages [fastapi-dapr-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-dapr-helper-0.1.1.tar.gz]
+[2023-06-19 02:43:41] INFO root fetch - processPackages [fastapi-dapr-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-dapr-helper-0.1.1a0.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [fastapi-dapr-helper]: success
+[2023-06-19 02:43:42] INFO root fetch - processPackages [pipeadapter]: Remove: archive file [/home/abi/fetcher/tmp/pipeadapter-0.0.1.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - processPackages [pipeadapter]: Remove: archive file [/home/abi/fetcher/tmp/pipeadapter-0.0.2.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [pipeadapter]: success
+[2023-06-19 02:43:42] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.1.0.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.2.0.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [predictionguard]: success
+[2023-06-19 02:43:42] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-19 02:43:42] INFO root fetch - processPackages [miniqc]: Remove: archive file [/home/abi/fetcher/tmp/miniqc-23.0.1.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - processPackages [miniqc]: Remove: archive file [/home/abi/fetcher/tmp/miniqc-23.1.0.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [miniqc]: success
+[2023-06-19 02:43:42] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-19 02:43:42] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-19 02:43:43] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.8.tar.gz]
+[2023-06-19 02:43:43] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.9.tar.gz]
+[2023-06-19 02:43:43] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2023-06-19 02:43:44] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.8.tar.gz]
+[2023-06-19 02:43:44] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
+[2023-06-19 02:43:44] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2023-06-19 02:43:44] INFO root fetch - main [MainThread]: Store serial: [18554508]
