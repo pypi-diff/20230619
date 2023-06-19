@@ -906,3 +906,9 @@
 [2023-06-19 01:55:23] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-06-19 01:55:23] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-06-19 01:55:23] INFO root fetch - main [MainThread]: Store serial: [18553411]
+[2023-06-19 02:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553411]
+[2023-06-19 02:00:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-19 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yud102023
+[2023-06-19 02:00:32] WARNING root fetch - processPackages [yud102023]: Skipping, unable to determine old version
+[2023-06-19 02:00:32] INFO root fetch - main [MainThread]: End processing [yud102023] error
+[2023-06-19 02:00:32] INFO root fetch - main [MainThread]: Store serial: [18553416]
