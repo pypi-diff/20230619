@@ -20696,3 +20696,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:37:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306191429-py3-none-any.whl.zip]
 [2023-06-19 16:37:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-19 16:37:40] INFO root fetch - main [MainThread]: Store serial: [18561128]
+[2023-06-19 16:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18561128]
+[2023-06-19 16:42:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmengine
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asynkit
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbin
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensearch-orm
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: networkcalculator
+[2023-06-19 16:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spacy-setfit
+[2023-06-19 16:42:49] INFO root fetch - processPackages [carbin]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [networkcalculator]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [kfish]: New version: [99.0.202306191432] Old Version: [99.0.202306191024]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [spacy-setfit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/ad/e3/3307bbc25378b8b025c07486e39e4b8d388a8c3016b8804e2d82a4254070/carbin-0.3.1-py3-none-any.whl
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 16:42:49] WARNING root fetch - processPackages [fmengine]: Skipping, unable to determine old version
+[2023-06-19 16:42:49] INFO root fetch - processPackages [fmengine]: Start processing: consoleGame
+[2023-06-19 16:42:49] INFO root fetch - main [MainThread]: End processing [fmengine] error
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/50/12/aa83d34dbb33ba25a516eb39e9366c03572a869e7c8f48b70d809f39d3ec/kfish-99.0.202306191024-py3-none-any.whl
+[2023-06-19 16:42:49] INFO root fetch - processPackages [opensearch-orm]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/64/36/a71a2127a5222651e5a9562e944cf9a3c4161a771788e53568f996c48bd4/spacy-setfit-0.1.1.tar.gz
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-19 16:42:49] INFO root fetch - processPackages [asynkit]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-19 16:42:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-19 16:42:49] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/32/e9/f7b9edd6405e30c08953e2ba92a5151f617fa2e236511bfd087d49af45e2/networkcalculator-0.0.2.tar.gz
+[2023-06-19 16:42:49] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/41/b9/fdedc26da3c1ae6c2a5ff4bf1aad652c1692dc7efe5cf1c3ff7275a47f19/carbin-0.3.2-py3-none-any.whl
+[2023-06-19 16:42:50] WARNING root fetch - processPackages [consoleGame]: Skipping, unable to determine old version
+[2023-06-19 16:42:50] INFO root fetch - processPackages [consoleGame]: Start processing: django-pgviews-schema
+[2023-06-19 16:42:50] INFO root fetch - main [MainThread]: End processing [consoleGame] error
+[2023-06-19 16:42:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/da/ae/8ab8dc14ca87c9aba5da40c408066c0923013498f45272155402dca977e5/kfish-99.0.202306191432-py3-none-any.whl
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/81/e2/d4472d9477139c7c8d71704d46f40070f92e69e81e486a982ec99b339704/opensearch_orm-0.1.7.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [asynkit]: Downloading https://files.pythonhosted.org/packages/08/27/d257583ec30a4a09deee8b9f1cce35b846e07540405eb1e3f1485cc4781f/asynkit-0.9.1.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [carbin]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [carbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbin-0.3.1-py3-none-any.whl.zip tmp/carbin-0.3.2-py3-none-any.whl.zip --markdown 20230619/c/carbin/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/50/12/18e65f38149492e8fffdd88f74242906be4b572d09daf79b5f1b589970e1/networkcalculator-1.0.0.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [django-pgviews-schema]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 16:42:50] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306191024-py3-none-any.whl.zip tmp/kfish-99.0.202306191432-py3-none-any.whl.zip --markdown 20230619/k/kfish/99.0.202306191024-99.0.202306191432/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-0.0.2.tar.gz tmp/networkcalculator-1.0.0.tar.gz --markdown 20230619/n/networkcalculator/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [spacy-setfit]: Downloading https://files.pythonhosted.org/packages/63/d1/0e2cc16e4335f07e76d637ff0054dbaf2d0426bed8b374bb28d617ee57fe/spacy_setfit-0.1.2.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230619/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [django-pgviews-schema]: Downloading https://files.pythonhosted.org/packages/20/06/6c34fa4763da7407e9cfe1202563c91c1b73334b1f604ee2767850329b84/django-pgviews-schema-0.0.2.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [spacy-setfit]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [spacy-setfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-setfit-0.1.1.tar.gz tmp/spacy_setfit-0.1.2.tar.gz --markdown 20230619/s/spacy-setfit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [opensearch-orm]: Downloading https://files.pythonhosted.org/packages/ea/aa/031fd11a6b52fb4c5d6494170ff2a7a2750a398a8aa56a13ee502d8c17b6/opensearch_orm-0.1.8.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [asynkit]: Downloading https://files.pythonhosted.org/packages/6f/47/f7ad38c2ac7396de0f478d92fbaf25c836e8c09506ba997126ad1f45222b/asynkit-0.9.2.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [opensearch-orm]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [opensearch-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch_orm-0.1.7.tar.gz tmp/opensearch_orm-0.1.8.tar.gz --markdown 20230619/o/opensearch-orm/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [asynkit]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [asynkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynkit-0.9.1.tar.gz tmp/asynkit-0.9.2.tar.gz --markdown 20230619/a/asynkit/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-19 16:42:50] INFO root fetch - processPackages [django-pgviews-schema]: Downloading https://files.pythonhosted.org/packages/dc/a6/0291878c46e6a3c394cf6ca77ac81c42829b8e594179eec73a4bcb8d6070/django-pgviews-schema-0.0.3.tar.gz
+[2023-06-19 16:42:50] INFO root fetch - processPackages [django-pgviews-schema]: executing diffoscope
+[2023-06-19 16:42:50] INFO root fetch - processPackages [django-pgviews-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgviews-schema-0.0.2.tar.gz tmp/django-pgviews-schema-0.0.3.tar.gz --markdown 20230619/d/django-pgviews-schema/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 16:42:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306191024-py3-none-any.whl.zip]
+[2023-06-19 16:42:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306191432-py3-none-any.whl.zip]
+[2023-06-19 16:42:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-19 16:42:51] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.1-py3-none-any.whl.zip]
+[2023-06-19 16:42:51] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.2-py3-none-any.whl.zip]
+[2023-06-19 16:42:51] INFO root fetch - main [MainThread]: End processing [carbin]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-0.0.2.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.0.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_orm-0.1.7.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [opensearch-orm]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_orm-0.1.8.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [opensearch-orm]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy-setfit-0.1.1.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [spacy-setfit]: Remove: archive file [/home/abi/fetcher/tmp/spacy_setfit-0.1.2.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [spacy-setfit]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [asynkit]: Remove: archive file [/home/abi/fetcher/tmp/asynkit-0.9.1.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [asynkit]: Remove: archive file [/home/abi/fetcher/tmp/asynkit-0.9.2.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [asynkit]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [django-pgviews-schema]: Remove: archive file [/home/abi/fetcher/tmp/django-pgviews-schema-0.0.2.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [django-pgviews-schema]: Remove: archive file [/home/abi/fetcher/tmp/django-pgviews-schema-0.0.3.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [django-pgviews-schema]: success
+[2023-06-19 16:42:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-19 16:42:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-19 16:42:54] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-19 16:42:54] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-19 16:42:54] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-19 16:42:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-19 16:42:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-19 16:42:56] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-19 16:42:56] INFO root fetch - main [MainThread]: Store serial: [18561166]
