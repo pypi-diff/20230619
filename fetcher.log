@@ -15192,3 +15192,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 13:18:58] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.2.tar.gz]
 [2023-06-19 13:18:58] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-06-19 13:18:58] INFO root fetch - main [MainThread]: Store serial: [18558907]
+[2023-06-19 13:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18558907]
+[2023-06-19 13:24:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funasr-onnx
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fancy-collections
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sisaptools
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docarray
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fuzzy-magic
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chronus
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gaussian-suite
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuantumPathQSOAPySDK
+[2023-06-19 13:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nobuco
+[2023-06-19 13:24:09] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fancy-collections]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [funasr-onnx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [chronus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fuzzy-magic]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [gaussian-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.1] Old Version: [1.5]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [nobuco]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [cg]: New version: [36.2.6] Old Version: [36.2.5]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fuzzy-magic]: Downloading https://files.pythonhosted.org/packages/68/2a/31bd4a3e5fde324d9eda6e600d91893db0b43f8eaca2f123a48328fe0f68/fuzzy_magic-1.0.1.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/13/b5/f78eff395cbc9f56b9e9418250fb4fdeab57c9c20a47bdc871762c75d46c/chronus-0.3.8.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/90/33/8d1be406d321edc4880eba9452e86204239e548d03491da605cbf78217fd/nobuco-0.5.0.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/31/77/5dad0d8d0bad1d0842c560f9ef600883dc51d2821e1ec1b4d11eb68dc759/cg-36.2.5.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230619/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/6b/fd/21a3a53f25988d39296e04da7d5a5bc36168a653e60d88ad4ecc1eb93575/funasr_onnx-0.1.0-py3-none-any.whl
+[2023-06-19 13:24:09] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/71/1f/a57dae7e5d79f0e31808859434f0e3607818ffb4f672784a9e236495b438/QuantumPathQSOAPySDK-1.5.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [gaussian-suite]: Downloading https://files.pythonhosted.org/packages/10/3a/2366bee5e395703787b2cdcd9b858b569a4c9aa6dd8d5c9cce857cd5d1fd/gaussian_suite-1.8.2.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/91/75/c84b8e2fd7a46baca8d718599e8b2e9b1261da1e88f7fe3acd18384ff909/fancy_collections-0.1.3.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/50/13/67225d9dbe3fee8c1f2bb35f039262d5f5da5550d7d23290bc4a4e2182ba/chronus-0.3.9.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.8.tar.gz tmp/chronus-0.3.9.tar.gz --markdown 20230619/c/chronus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/ef/7e/81f94377009bba57fa00e2e70189fc1ffa05a66c56359f86377e46f8f0ad/nobuco-0.5.1.tar.gz
+[2023-06-19 13:24:09] ERROR root fetch - processPackages [fuzzy-magic]: Unable to fetch info: No such project/version 'fuzzy-magic' 1.0.2
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fuzzy-magic]: Start processing: voila-vuetify-tuwien
+[2023-06-19 13:24:09] INFO root fetch - main [MainThread]: End processing [fuzzy-magic] error
+[2023-06-19 13:24:09] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.5.0.tar.gz tmp/nobuco-0.5.1.tar.gz --markdown 20230619/n/nobuco/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] WARNING root fetch - processPackages [voila-vuetify-tuwien]: Skipping, unable to determine old version
+[2023-06-19 13:24:09] INFO root fetch - processPackages [voila-vuetify-tuwien]: Start processing: babyrobot
+[2023-06-19 13:24:09] INFO root fetch - main [MainThread]: End processing [voila-vuetify-tuwien] error
+[2023-06-19 13:24:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/79/1c/702775739eeae706b0c24fa936a4ff02ca422068ee9aaa5aeddf5e50a9cb/cg-36.2.6.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/25/06/0e41704587afb44f169e3864e94719ce9e76eeb349dc1c30dfe8ab05459d/QuantumPathQSOAPySDK-1.5.1.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/9d/1eb72d999d4f0f144ad72045eb6e9dc39d4d267b436eb1bcd0f0116ee9e4/funasr_onnx-0.1.1.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.tar.gz tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz --markdown 20230619/Q/QuantumPathQSOAPySDK/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.1.0-py3-none-any.whl.zip tmp/funasr_onnx-0.1.1.tar.gz --markdown 20230619/f/funasr-onnx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [babyrobot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/d3/b0/1fb613043521eff051febcd04ce9601fd575f44254de809c5c55caf6a98e/fancy_collections-0.2.0.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/40/37/2b19e197ee7324dd2e980bcfa8e754675bb1ca47c30acdcdaf4390a39ae5/babyrobot-1.0.8.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230619/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [gaussian-suite]: Downloading https://files.pythonhosted.org/packages/93/cf/cce00ff4346b8c39a79f9703debfbd0841fbe2363018f66274d76dcaf5ec/gaussian_suite-1.9.0.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/4c/20/3a61f7effe2ce0041ea898bff945eba89b9e6e56dd8f07ad3223fb68a0f0/babyrobot-1.0.9.tar.gz
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fancy-collections]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [fancy-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_collections-0.1.3.tar.gz tmp/fancy_collections-0.2.0.tar.gz --markdown 20230619/f/fancy-collections/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 13:24:09] INFO root fetch - processPackages [gaussian-suite]: executing diffoscope
+[2023-06-19 13:24:09] INFO root fetch - processPackages [gaussian-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaussian_suite-1.8.2.tar.gz tmp/gaussian_suite-1.9.0.tar.gz --markdown 20230619/g/gaussian-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-19 13:24:10] INFO root fetch - processPackages [babyrobot]: executing diffoscope
+[2023-06-19 13:24:10] INFO root fetch - processPackages [babyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babyrobot-1.0.8.tar.gz tmp/babyrobot-1.0.9.tar.gz --markdown 20230619/b/babyrobot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-19 13:24:10] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-19 13:24:10] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.5.tar.gz tmp/cg-36.2.6.tar.gz --markdown 20230619/c/cg/36.2.5-36.2.6/diff.md --exclude *.pyd
+[2023-06-19 13:24:11] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.8.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [chronus]: Remove: archive file [/home/abi/fetcher/tmp/chronus-0.3.9.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.0-py3-none-any.whl.zip]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.1.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.0.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.1.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.1.3.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.2.0.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [fancy-collections]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.8.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.9.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [babyrobot]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-19 13:24:11] INFO root fetch - processPackages [gaussian-suite]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_suite-1.8.2.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - processPackages [gaussian-suite]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_suite-1.9.0.tar.gz]
+[2023-06-19 13:24:11] INFO root fetch - main [MainThread]: End processing [gaussian-suite]: success
+[2023-06-19 13:24:13] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.tar.gz]
+[2023-06-19 13:24:13] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.1.tar.gz]
+[2023-06-19 13:24:13] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-19 13:24:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.5.tar.gz]
+[2023-06-19 13:24:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.6.tar.gz]
+[2023-06-19 13:24:21] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-19 13:24:21] INFO root fetch - main [MainThread]: Store serial: [18558947]
