@@ -6292,3 +6292,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 05:51:19] INFO root fetch - processPackages [thinks-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/thinks_dash_components-0.3.6.tar.gz]
 [2023-06-19 05:51:19] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
 [2023-06-19 05:51:19] INFO root fetch - main [MainThread]: Store serial: [18555431]
+[2023-06-19 05:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555431]
+[2023-06-19 05:56:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-19 05:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-extensions
+[2023-06-19 05:56:28] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-06-19 05:56:28] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/67/95/285dadfaa0e7c6080a3297ced8063417dae991d9b5721f3d0943d33403e5/cdk-extensions-0.0.75.tar.gz
+[2023-06-19 05:56:28] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/16/e3/c7a75bca851e8544f7a18c2f478835c5689bc13269863ff93c3433cf3462/cdk-extensions-0.0.76.tar.gz
+[2023-06-19 05:56:28] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-19 05:56:28] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.75.tar.gz tmp/cdk-extensions-0.0.76.tar.gz --markdown 20230619/c/cdk-extensions/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-06-19 05:56:30] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.75.tar.gz]
+[2023-06-19 05:56:30] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.76.tar.gz]
+[2023-06-19 05:56:30] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-19 05:56:30] INFO root fetch - main [MainThread]: Store serial: [18555436]
