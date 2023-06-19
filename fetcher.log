@@ -20272,3 +20272,158 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 16:21:45] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.2.9.tar.gz]
 [2023-06-19 16:21:45] INFO root fetch - main [MainThread]: End processing [meta-edc]: success
 [2023-06-19 16:21:45] INFO root fetch - main [MainThread]: Store serial: [18560969]
+[2023-06-19 16:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18560969]
+[2023-06-19 16:26:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carbin
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-okx
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-scraper-toolkit
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatai-streamer
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-vat-period-end-statement
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaliapay-modpy-beta
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ypricemagic
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: classconfig
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ypricemagic]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-19 16:26:54] WARNING root fetch - processPackages [kaliapay-modpy-beta]: Skipping, unable to determine old version
+[2023-06-19 16:26:54] INFO root fetch - processPackages [kaliapay-modpy-beta]: Start processing: pyhaloxml
+[2023-06-19 16:26:54] INFO root fetch - processPackages [amazon-scraper-toolkit]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-19 16:26:54] INFO root fetch - main [MainThread]: End processing [kaliapay-modpy-beta] error
+[2023-06-19 16:26:54] INFO root fetch - processPackages [python-okx]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-19 16:26:54] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/1c/0f/3c475f4cca02f267bdeaa63656213da298b2b670785ce3fbf30d0c2e9a89/ypricemagic-2.3.4.tar.gz
+[2023-06-19 16:26:54] INFO root fetch - processPackages [carbin]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-19 16:26:54] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.2]
+[2023-06-19 16:26:54] INFO root fetch - processPackages [chatai-streamer]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-19 16:26:54] INFO root fetch - processPackages [classconfig]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-19 16:26:55] INFO root fetch - processPackages [pyhaloxml]: New version: [2.5.3] Old Version: [2.5.1]
+[2023-06-19 16:26:55] INFO root fetch - processPackages [amazon-scraper-toolkit]: Downloading https://files.pythonhosted.org/packages/f8/dc/620ef013972a4d9936b5d48d425bf00d5275769700b08d20c75478b8f55a/amazon-scraper-toolkit-0.0.1.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/ad/e3/3307bbc25378b8b025c07486e39e4b8d388a8c3016b8804e2d82a4254070/carbin-0.3.1-py3-none-any.whl
+[2023-06-19 16:26:55] INFO root fetch - processPackages [python-okx]: Downloading https://files.pythonhosted.org/packages/5b/6b/eb24c7f82090c104a1d38444d03a92b101b99b4085fdd48aba82fb13a77f/python-okx-0.1.9.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [chatai-streamer]: Downloading https://files.pythonhosted.org/packages/4e/92/b23e73d39ef284ef2e6f3f382fef859085eb9f5ccd39512c48bbaeb4247f/chatai-streamer-2.0.2.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [classconfig]: Downloading https://files.pythonhosted.org/packages/dd/9e/33140b3f90d3cd2846c5c0afd9834658d042b4272b4ceeb9563a2a47f8a3/classconfig-1.0.3.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [pyhaloxml]: Downloading https://files.pythonhosted.org/packages/69/a3/2d960e9439566ced398437b88504fca89bba8630eaaf84d89219b3eb8e48/pyhaloxml-2.5.1.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/01/f4/e9e3905addce43536f47a44d7f1d0f3c603ff014ca5891c9dbee63e41de4/odoo_addon_account_vat_period_end_statement-16.0.1.0.1.2-py3-none-any.whl
+[2023-06-19 16:26:55] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/9e/17/238878c89a027e7c395aa080d3e1ecbc0761d0f5a5490217c72e511aeffb/ypricemagic-2.3.5.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.3.4.tar.gz tmp/ypricemagic-2.3.5.tar.gz --markdown 20230619/y/ypricemagic/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/41/b9/fdedc26da3c1ae6c2a5ff4bf1aad652c1692dc7efe5cf1c3ff7275a47f19/carbin-0.3.2-py3-none-any.whl
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230619/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230619/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [amazon-scraper-toolkit]: Downloading https://files.pythonhosted.org/packages/f4/fa/789ad3b19b8926f00a1f1edc5feeee993f641de0c97d1daef130e706c128/amazon-scraper-toolkit-1.0.0.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [python-okx]: Downloading https://files.pythonhosted.org/packages/de/f6/27bfa3a3dd792c57a32d23dd8a705b6bbf666c752d76e19e710b7af12cdd/python-okx-0.2.0.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [classconfig]: Downloading https://files.pythonhosted.org/packages/d5/a5/3b03e175f9a141b8cd219054daa66c1e04eaecfa517f74fc31701900896a/classconfig-1.0.4.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [amazon-scraper-toolkit]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [amazon-scraper-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-scraper-toolkit-0.0.1.tar.gz tmp/amazon-scraper-toolkit-1.0.0.tar.gz --markdown 20230619/a/amazon-scraper-toolkit/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/11/4f/f08e8aef03e78eab1e5886870ffa10d08f8fb8da35b7cd41fcb989e4b581/odoo_addon_account_vat_period_end_statement-16.0.1.1.0-py3-none-any.whl
+[2023-06-19 16:26:55] INFO root fetch - processPackages [carbin]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [carbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbin-0.3.1-py3-none-any.whl.zip tmp/carbin-0.3.2-py3-none-any.whl.zip --markdown 20230619/c/carbin/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [python-okx]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [python-okx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-okx-0.1.9.tar.gz tmp/python-okx-0.2.0.tar.gz --markdown 20230619/p/python-okx/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [pyhaloxml]: Downloading https://files.pythonhosted.org/packages/b7/85/32ad9f25f8d771b750e3403223cda6df40ce83edd788073357b84d403885/pyhaloxml-2.5.3.tar.gz
+[2023-06-19 16:26:55] INFO root fetch - processPackages [classconfig]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [classconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classconfig-1.0.3.tar.gz tmp/classconfig-1.0.4.tar.gz --markdown 20230619/c/classconfig/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_vat_period_end_statement-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_vat_period_end_statement-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230619/o/odoo-addon-account-vat-period-end-statement/16.0.1.0.1.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-19 16:26:55] INFO root fetch - processPackages [pyhaloxml]: executing diffoscope
+[2023-06-19 16:26:55] INFO root fetch - processPackages [pyhaloxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhaloxml-2.5.1.tar.gz tmp/pyhaloxml-2.5.3.tar.gz --markdown 20230619/p/pyhaloxml/2.5.1-2.5.3/diff.md --exclude *.pyd
+[2023-06-19 16:26:56] INFO root fetch - processPackages [chatai-streamer]: Downloading https://files.pythonhosted.org/packages/97/24/265a09569df781b421f1c8ada2d9f43daf88164559ab245a75591cc2aca2/chatai-streamer-2.0.3.tar.gz
+[2023-06-19 16:26:56] INFO root fetch - processPackages [chatai-streamer]: executing diffoscope
+[2023-06-19 16:26:56] INFO root fetch - processPackages [chatai-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatai-streamer-2.0.2.tar.gz tmp/chatai-streamer-2.0.3.tar.gz --markdown 20230619/c/chatai-streamer/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-19 16:26:57] INFO root fetch - processPackages [amazon-scraper-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/amazon-scraper-toolkit-0.0.1.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [amazon-scraper-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/amazon-scraper-toolkit-1.0.0.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [amazon-scraper-toolkit]: Start processing: orange3-fca-addon
+[2023-06-19 16:26:57] INFO root fetch - main [MainThread]: End processing [amazon-scraper-toolkit]: success
+[2023-06-19 16:26:57] INFO root fetch - processPackages [orange3-fca-addon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [orange3-fca-addon]: Downloading https://files.pythonhosted.org/packages/6a/09/bd65b5ed3ef1ad586c95a57863b52d8a446c5a296e34fad0c917bc56808e/orange3-fca-addon-0.0.2.tar.gz
+[2023-06-19 16:26:57] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.1-py3-none-any.whl.zip]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.2-py3-none-any.whl.zip]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [carbin]: Start processing: sound-source-id
+[2023-06-19 16:26:57] INFO root fetch - main [MainThread]: End processing [carbin]: success
+[2023-06-19 16:26:57] INFO root fetch - processPackages [sound-source-id]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [orange3-fca-addon]: Downloading https://files.pythonhosted.org/packages/a5/9f/799255feb2358a62e5bbf379458cb2d924066e4acc4510e86cea58dc4840/orange3-fca-addon-0.0.3.tar.gz
+[2023-06-19 16:26:57] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.4.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.5.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [ypricemagic]: Start processing: markyp
+[2023-06-19 16:26:57] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-06-19 16:26:57] INFO root fetch - processPackages [orange3-fca-addon]: executing diffoscope
+[2023-06-19 16:26:57] INFO root fetch - processPackages [orange3-fca-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange3-fca-addon-0.0.2.tar.gz tmp/orange3-fca-addon-0.0.3.tar.gz --markdown 20230619/o/orange3-fca-addon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-19 16:26:57] INFO root fetch - processPackages [markyp]: New version: [0.2306.0] Old Version: [0.1910.0]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [chatai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/chatai-streamer-2.0.2.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [chatai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/chatai-streamer-2.0.3.tar.gz]
+[2023-06-19 16:26:57] INFO root fetch - processPackages [chatai-streamer]: Start processing: datazimmer
+[2023-06-19 16:26:57] INFO root fetch - main [MainThread]: End processing [chatai-streamer]: success
+[2023-06-19 16:26:58] INFO root fetch - processPackages [datazimmer]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [markyp]: Downloading https://files.pythonhosted.org/packages/72/7a/9a3ddaec81ec4af2e24226c86629d32a79e0fc6c53174f5ed853848eedcf/markyp-0.1910.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/16/62/5c2d35097944acb20cc9cff5f3ced03531aee62cdf2c6cae96f40bf58ee1/sound_source_id-0.1.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [spanishconjugator]: Start processing: dalpha
+[2023-06-19 16:26:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-19 16:26:58] INFO root fetch - processPackages [classconfig]: Remove: archive file [/home/abi/fetcher/tmp/classconfig-1.0.3.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [classconfig]: Remove: archive file [/home/abi/fetcher/tmp/classconfig-1.0.4.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [classconfig]: Start processing: irnl-rdt-correction
+[2023-06-19 16:26:58] INFO root fetch - main [MainThread]: End processing [classconfig]: success
+[2023-06-19 16:26:58] INFO root fetch - processPackages [python-okx]: Remove: archive file [/home/abi/fetcher/tmp/python-okx-0.1.9.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [python-okx]: Remove: archive file [/home/abi/fetcher/tmp/python-okx-0.2.0.tar.gz]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [python-okx]: Start processing: gramex
+[2023-06-19 16:26:58] INFO root fetch - main [MainThread]: End processing [python-okx]: success
+[2023-06-19 16:26:58] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/b3/ac/7afa468e2d6da293f46c0e8265f22a47918e20e9fbc9ada47809c836357e/datazimmer-0.5.1.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [dalpha]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_vat_period_end_statement-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_vat_period_end_statement-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-19 16:26:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-vat-period-end-statement]: success
+[2023-06-19 16:26:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-19 16:26:58] INFO root fetch - processPackages [irnl-rdt-correction]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [gramex]: New version: [1.91.1] Old Version: [1.91.0]
+[2023-06-19 16:26:58] INFO root fetch - processPackages [markyp]: Downloading https://files.pythonhosted.org/packages/cb/43/ee5118dcd397d2b0ea9aa836e63be234ab9accd7ce4aa5e3f15c24ca8132/markyp-0.2306.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/a0/34/cf9c17f1bcca5abe6ba16d28d57d74973d71c6959b81671acc8c818d7118/dalpha-0.1.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/d2/2d/9a780f414b771c6bef41a2c2ecc7166c5065a56262bb9cbab529fcb3c6c6/datazimmer-0.5.2.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [markyp]: executing diffoscope
+[2023-06-19 16:26:58] INFO root fetch - processPackages [markyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markyp-0.1910.0.tar.gz tmp/markyp-0.2306.0.tar.gz --markdown 20230619/m/markyp/0.1910.0-0.2306.0/diff.md --exclude *.pyd
+[2023-06-19 16:26:58] INFO root fetch - processPackages [irnl-rdt-correction]: Downloading https://files.pythonhosted.org/packages/09/c2/58021d53e99dc560291f71e035fe317fd7242dd050f553a2aa9b5dad406b/irnl-rdt-correction-1.0.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/1f/4b/247cc1828ce37e04b226e11fb75000f95e70daa977eb12415b68c5538f0a/gramex-1.91.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [datazimmer]: executing diffoscope
+[2023-06-19 16:26:58] INFO root fetch - processPackages [datazimmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazimmer-0.5.1.tar.gz tmp/datazimmer-0.5.2.tar.gz --markdown 20230619/d/datazimmer/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-19 16:26:58] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/13/9e/5e8cac35878e72da59a35e0ab401c06050d23c155138c20a729fb166007e/dalpha-0.1.1.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [sound-source-id]: Downloading https://files.pythonhosted.org/packages/d2/0d/3554a3b426cb68b69cb23f5a7453eac43b9b115ade2f1663744c913e2ea0/sound_source_id-0.2.0.tar.gz
+[2023-06-19 16:26:58] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-06-19 16:26:58] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.0.tar.gz tmp/dalpha-0.1.1.tar.gz --markdown 20230619/d/dalpha/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-19 16:26:59] INFO root fetch - processPackages [irnl-rdt-correction]: Downloading https://files.pythonhosted.org/packages/a6/89/14fb1903e5c1d890f0a869b175f2e1db7d4b9db302583f6af64d1e531bd7/irnl-rdt-correction-1.1.0.tar.gz
+[2023-06-19 16:26:59] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/bd/0f/96803a9a20a8c8fce82639426cfb9852f595c031965161dbf88fd4b25dfd/gramex-1.91.1.tar.gz
+[2023-06-19 16:26:59] INFO root fetch - processPackages [irnl-rdt-correction]: executing diffoscope
+[2023-06-19 16:26:59] INFO root fetch - processPackages [irnl-rdt-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irnl-rdt-correction-1.0.0.tar.gz tmp/irnl-rdt-correction-1.1.0.tar.gz --markdown 20230619/i/irnl-rdt-correction/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-19 16:26:59] INFO root fetch - processPackages [orange3-fca-addon]: Remove: archive file [/home/abi/fetcher/tmp/orange3-fca-addon-0.0.2.tar.gz]
+[2023-06-19 16:26:59] INFO root fetch - processPackages [orange3-fca-addon]: Remove: archive file [/home/abi/fetcher/tmp/orange3-fca-addon-0.0.3.tar.gz]
+[2023-06-19 16:26:59] INFO root fetch - main [MainThread]: End processing [orange3-fca-addon]: success
+[2023-06-19 16:26:59] INFO root fetch - processPackages [gramex]: executing diffoscope
+[2023-06-19 16:26:59] INFO root fetch - processPackages [gramex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramex-1.91.0.tar.gz tmp/gramex-1.91.1.tar.gz --markdown 20230619/g/gramex/1.91.0-1.91.1/diff.md --exclude *.pyd
+[2023-06-19 16:26:59] INFO root fetch - processPackages [sound-source-id]: executing diffoscope
+[2023-06-19 16:26:59] INFO root fetch - processPackages [sound-source-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound_source_id-0.1.0.tar.gz tmp/sound_source_id-0.2.0.tar.gz --markdown 20230619/s/sound-source-id/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-19 16:27:00] INFO root fetch - processPackages [markyp]: Remove: archive file [/home/abi/fetcher/tmp/markyp-0.1910.0.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - processPackages [markyp]: Remove: archive file [/home/abi/fetcher/tmp/markyp-0.2306.0.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - main [MainThread]: End processing [markyp]: success
+[2023-06-19 16:27:00] INFO root fetch - processPackages [pyhaloxml]: Remove: archive file [/home/abi/fetcher/tmp/pyhaloxml-2.5.1.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - processPackages [pyhaloxml]: Remove: archive file [/home/abi/fetcher/tmp/pyhaloxml-2.5.3.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - main [MainThread]: End processing [pyhaloxml]: success
+[2023-06-19 16:27:00] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.0.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.1.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-06-19 16:27:00] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.1.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.2.tar.gz]
+[2023-06-19 16:27:00] INFO root fetch - main [MainThread]: End processing [datazimmer]: success
+[2023-06-19 16:27:01] INFO root fetch - processPackages [irnl-rdt-correction]: Remove: archive file [/home/abi/fetcher/tmp/irnl-rdt-correction-1.0.0.tar.gz]
+[2023-06-19 16:27:01] INFO root fetch - processPackages [irnl-rdt-correction]: Remove: archive file [/home/abi/fetcher/tmp/irnl-rdt-correction-1.1.0.tar.gz]
+[2023-06-19 16:27:01] INFO root fetch - main [MainThread]: End processing [irnl-rdt-correction]: success
+[2023-06-19 16:27:03] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.91.0.tar.gz]
+[2023-06-19 16:27:03] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.91.1.tar.gz]
+[2023-06-19 16:27:03] INFO root fetch - main [MainThread]: End processing [gramex]: success
+[2023-06-19 16:27:03] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.1.0.tar.gz]
+[2023-06-19 16:27:03] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.0.tar.gz]
+[2023-06-19 16:27:03] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
+[2023-06-19 16:27:03] INFO root fetch - main [MainThread]: Store serial: [18561034]
