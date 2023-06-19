@@ -7335,3 +7335,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-19 07:06:30] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.0.6.tar.gz]
 [2023-06-19 07:06:30] INFO root fetch - main [MainThread]: End processing [pykegg]: success
 [2023-06-19 07:06:30] INFO root fetch - main [MainThread]: Store serial: [18555873]
+[2023-06-19 07:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18555873]
+[2023-06-19 07:11:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpleui-admin
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hip-data-ml-utils
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simpleplayer
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selis
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multi-model-server
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-model-maker-nightly
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaobject
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: queryandprocessdatautility
+[2023-06-19 07:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-al
+[2023-06-19 07:11:41] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [simpleui-admin]: New version: [2023.6.16] Old Version: [2023.6.12.1]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [selis]: New version: [3.2] Old Version: [3.1]
+[2023-06-19 07:11:41] WARNING root fetch - processPackages [simpleplayer]: Skipping, unable to determine old version
+[2023-06-19 07:11:41] INFO root fetch - main [MainThread]: End processing [simpleplayer] error
+[2023-06-19 07:11:41] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306180508] Old Version: [0.4.3.dev202306170512]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-19 07:11:41] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230618] Old Version: [23.8.0a230617]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [hip-data-ml-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/d2/8d/8a12475836f51dc43f0b8d9acb0ed20aa5c41625b6c09a52069c7e5d9a81/selis-3.1.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [simpleui-admin]: Downloading https://files.pythonhosted.org/packages/cf/d2/563ecc4d741e6ddf11d7fe7d168673f1480eb98efb10532dad5ad29eab29/simpleui-admin-2023.6.12.1.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-19 07:11:41] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ac/c5/db4a4c1c42221bd9aab72126421799005af0c448ee380c0911bacb90040f/tflite-model-maker-nightly-0.4.3.dev202306170512.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/35/35/3208957407feda655ffcbd4d21e4f3fec246cfbb022c5ede98c74649769e/dask-cuda-23.8.0a230617.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-19 07:11:41] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/87/b0/9509bf6c1849374f1567576275a6f80105d17d118cba9254ae8b43cf84d4/selis-3.2.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-19 07:11:41] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230619/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-19 07:11:41] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-19 07:11:41] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.1.tar.gz tmp/selis-3.2.tar.gz --markdown 20230619/s/selis/3.1-3.2/diff.md --exclude *.pyd
+[2023-06-19 07:11:41] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/7f/14/0a963258a670f9071f9890bb7206b02ecbfc51b4274b8bc7a6dac227d1f1/hip_data_ml_utils-1.0.3.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/f8/cf/ff6437bcd26e8e573b41f09aad688dbc6a7cf1ba605878b3ba08b3d4ea0b/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/61/20/0741a2f88b93193456b3f387d4a34679630be3089d65ca00fd1047c79009/nonebot_plugin_al-0.2.1.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b4/34/090cf572d279f9985dc4fe1e38a9bf16573150d35fbe79ca03235e402630/dask-cuda-23.8.0a230618.tar.gz
+[2023-06-19 07:11:41] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-06-19 07:11:41] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230619/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306170512.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz --markdown 20230619/t/tflite-model-maker-nightly/0.4.3.dev202306170512-0.4.3.dev202306180508/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230619/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/48/2c/f073c1295ed5d528d51727e7f90eb2082ec63fb3689892c7099ea5abab53/nonebot_plugin_al-0.3.0.tar.gz
+[2023-06-19 07:11:42] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230617.tar.gz tmp/dask-cuda-23.8.0a230618.tar.gz --markdown 20230619/d/dask-cuda/23.8.0a230617-23.8.0a230618/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [hip-data-ml-utils]: Downloading https://files.pythonhosted.org/packages/de/1f/5fca92c331633e4de479852e9f75ac5b05088d7cd3f8d2c13f5077fe7620/hip_data_ml_utils-1.0.4.tar.gz
+[2023-06-19 07:11:42] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.2.1.tar.gz tmp/nonebot_plugin_al-0.3.0.tar.gz --markdown 20230619/n/nonebot-plugin-al/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [hip-data-ml-utils]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [hip-data-ml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hip_data_ml_utils-1.0.3.tar.gz tmp/hip_data_ml_utils-1.0.4.tar.gz --markdown 20230619/h/hip-data-ml-utils/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-19 07:11:42] INFO root fetch - processPackages [simpleui-admin]: Downloading https://files.pythonhosted.org/packages/fe/c6/114bee57faf1e62465069cc196de76355cad18230f09f8f9415088338528/simpleui-admin-2023.6.16.tar.gz
+[2023-06-19 07:11:42] INFO root fetch - processPackages [simpleui-admin]: executing diffoscope
+[2023-06-19 07:11:42] INFO root fetch - processPackages [simpleui-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230619:/home/abi/fetcher/20230619:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleui-admin-2023.6.12.1.tar.gz tmp/simpleui-admin-2023.6.16.tar.gz --markdown 20230619/s/simpleui-admin/2023.6.12.1-2023.6.16/diff.md --exclude *.pyd
+[2023-06-19 07:11:43] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.1.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.2.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-19 07:11:43] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-19 07:11:43] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-19 07:11:43] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-19 07:11:43] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a8.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a9.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-06-19 07:11:43] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230617.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230618.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-19 07:11:43] INFO root fetch - processPackages [hip-data-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/hip_data_ml_utils-1.0.3.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - processPackages [hip-data-ml-utils]: Remove: archive file [/home/abi/fetcher/tmp/hip_data_ml_utils-1.0.4.tar.gz]
+[2023-06-19 07:11:43] INFO root fetch - main [MainThread]: End processing [hip-data-ml-utils]: success
+[2023-06-19 07:11:44] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.2.1.tar.gz]
+[2023-06-19 07:11:44] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.0.tar.gz]
+[2023-06-19 07:11:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-19 07:11:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306170512.tar.gz]
+[2023-06-19 07:11:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306180508.tar.gz]
+[2023-06-19 07:11:45] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-19 07:12:35] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.6.12.1.tar.gz]
+[2023-06-19 07:12:35] INFO root fetch - processPackages [simpleui-admin]: Remove: archive file [/home/abi/fetcher/tmp/simpleui-admin-2023.6.16.tar.gz]
+[2023-06-19 07:12:35] INFO root fetch - main [MainThread]: End processing [simpleui-admin]: success
+[2023-06-19 07:14:42] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-19 07:14:42] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-19 07:14:42] INFO root fetch - main [MainThread]: Store serial: [18555907]
